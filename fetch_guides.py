@@ -177,6 +177,7 @@ CHANNELS = [
     {"name":"ZONA DAZN","site_id":"DTH#11402"},
 ]
 
+
 def fetch_guide_for_channel(env, channel_id, start_date, days=30):
     results = []
     for day_offset in range(days):
@@ -184,6 +185,7 @@ def fetch_guide_for_channel(env, channel_id, start_date, days=30):
         from_str = date.strftime("%Y-%m-%dT00:00:00Z")
         to_date = date + timedelta(days=1)
         to_str = to_date.strftime("%Y-%m-%dT00:00:00Z")
+
         url = f"https://apid.sky.it/gtv/v1/events?from={from_str}&to={to_str}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
         try:
             response = requests.get(url, timeout=15)
@@ -203,16 +205,23 @@ def main():
     now_rome = datetime.now(ROME_TZ)
     start_date = now_rome.replace(hour=0, minute=0, second=0, microsecond=0)
     os.makedirs("output/guides", exist_ok=True)
+
     for ch in CHANNELS:
         env_part, channel_id = ch["site_id"].split("#")
         print(f"Fetching guide for {ch['name']} ({channel_id})...")
+
         guide = fetch_guide_for_channel(env_part, channel_id, start_date)
-        out_path = f"output/guides/{ch['site_id']}.json"
+
+        # Sostituisco # con _ per il nome del file
+        site_id_underscore = ch["site_id"].replace("#", "_")
+        out_path = f"output/guides/{site_id_underscore}.json"
+
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump({
                 "name": ch["name"],
                 "events_by_date": guide
             }, f, indent=2, ensure_ascii=False)
+
         print(f"Saved {out_path}")
 
 if __name__ == "__main__":
