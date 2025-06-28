@@ -2,9 +2,6 @@ import requests
 import json
 from datetime import datetime, timedelta
 import pytz
-import os
-
-ROME_TZ = pytz.timezone("Europe/Rome")
 
 CHANNELS = [
     {"name":"CNBC HD","site_id":"DTH#10713"},
@@ -177,51 +174,48 @@ CHANNELS = [
     {"name":"ZONA DAZN","site_id":"DTH#11402"},
 ]
 
-def fetch_guide_for_channel(env, channel_id, start_date, days=30):
+ROME_TZ = pytz.timezone("Europe/Rome")
+
+def fetch_guide_for_day(env, channel_id, date):
+    from_str = date.strftime("%Y-%m-%dT00:00:00Z")
+    to_date = date + timedelta(days=1)
+    to_str = to_date.strftime("%Y-%m-%dT00:00:00Z")
+    url = f"https://apid.sky.it/gtv/v1/events?from={from_str}&to={to_str}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
+    try:
+        resp = requests.get(url, timeout=15)
+        resp.raise_for_status()
+        data = resp.json()
+        return data.get("events", [])
+    except requests.exceptions.RequestException as e:
+        print(f"Warning: errore fetch {channel_id} {date.strftime('%Y-%m-%d')}: {e}")
+        return []
+
+def fetch_month_guide(env, channel_id, start_date, days=30):
     results = []
     for day_offset in range(days):
-        date = start_date + timedelta(days=day_offset)
-        from_str = date.strftime("%Y-%m-%dT00:00:00Z")
-        to_date = date + timedelta(days=1)
-        to_str = to_date.strftime("%Y-%m-%dT00:00:00Z")
-        url = f"https://apid.sky.it/gtv/v1/events?from={from_str}&to={to_str}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
-        try:
-            response = requests.get(url, timeout=15)
-            response.raise_for_status()
-            data = response.json()
-            results.append({
-                "date": date.strftime("%Y-%m-%d"),
-                "events": data.get("events", [])
-            })
-            print(f"Fetched {channel_id} for {date.strftime('%Y-%m-%d')}")
-        except requests.exceptions.RequestException as e:
-            print(f"Warning: errore fetch {channel_id} {date.strftime('%Y-%m-%d')}: {e}")
-            continue
+        day = start_date + timedelta(days=day_offset)
+        events = fetch_guide_for_day(env, channel_id, day)
+        results.append({"date": day.strftime("%Y-%m-%d"), "events": events})
     return results
 
 def main():
-    # Ora di Roma mezzanotte per iniziare
     now_rome = datetime.now(ROME_TZ)
-    start_date = now_rome.replace(hour=0, minute=0, second=0, microsecond=0)
-    env = "DTH"
+    start_date_rome = now_rome.replace(hour=0, minute=0, second=0, microsecond=0)
 
-    all_guides = {}
-    for ch in CHANNELS:
-        env_part, channel_id = ch["site_id"].split("#")
-        print(f"Fetching guide for {ch['name']} ({channel_id})...")
-        guide = fetch_guide_for_channel(env_part, channel_id, start_date)
-        all_guides[ch["site_id"]] = {
-            "name": ch["name"],
-            "events_by_date": guide
+    all_data = {}
+    for channel in CHANNELS:
+        env, channel_id = channel["site_id"].split("#")
+        print(f"Scaricando guida per {channel['name']} ({channel_id})...")
+        month_guide = fetch_month_guide(env, channel_id, start_date_rome, days=30)
+        all_data[channel_id] = {
+            "name": channel["name"],
+            "env": env,
+            "site_id": channel["site_id"],
+            "guide": month_guide
         }
-
-    # Assicurati che output esista
-    os.makedirs("output", exist_ok=True)
-
-    with open("output/guide.json", "w", encoding="utf-8") as f:
-        json.dump(all_guides, f, indent=2, ensure_ascii=False)
-
-    print("Saved guide.json with all channels.")
+    with open("guides.json", "w", encoding="utf-8") as f:
+        json.dump(all_data, f, ensure_ascii=False, indent=2)
+    print("Download completato, dati salvati in guides.json")
 
 if __name__ == "__main__":
     main()
