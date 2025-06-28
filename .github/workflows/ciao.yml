@@ -1,15 +1,3 @@
-print(f'Creato index.json con {len(files)} file')
-          "
-
-      - name: Commit and push changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/guides/index.json output/guides/*.json
-          git diff --cached --quiet || git commit -m "Aggiornamento guide e index.json"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 name: Update Guide Files
 
 on:
@@ -22,7 +10,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # Necessario per git diff
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -39,18 +27,18 @@ jobs:
 
       - name: Generate index.json
         run: |
-          python -c "
-import os
-import json
+          python <<EOF
+          import os
+          import json
 
-directory = 'output/guides'
-os.makedirs(directory, exist_ok=True)
-files = [f for f in os.listdir(directory) if f.endswith('.json') and f != 'index.json']
-files.sort()
-with open(os.path.join(directory, 'index.json'), 'w', encoding='utf-8') as f:
-    json.dump(files, f, indent=2)
-print(f'Creato index.json con {len(files)} file')
-          "
+          directory = 'output/guides'
+          os.makedirs(directory, exist_ok=True)
+          files = [f for f in os.listdir(directory) if f.endswith('.json') and f != 'index.json']
+          files.sort()
+          with open(os.path.join(directory, 'index.json'), 'w', encoding='utf-8') as f:
+              json.dump(files, f, indent=2)
+          print(f'Creato index.json con {len(files)} file')
+          EOF
 
       - name: Commit and push changes
         run: |
