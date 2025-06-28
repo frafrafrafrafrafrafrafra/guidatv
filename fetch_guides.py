@@ -1,42 +1,12 @@
 import requests
+import json
 from datetime import datetime, timedelta
 import pytz
-import json
 import os
 
-ROME_TZ = pytz.timezone('Europe/Rome')
+ROME_TZ = pytz.timezone("Europe/Rome")
 
-def get_utc_iso(dt_rome):
-    dt_utc = dt_rome.astimezone(pytz.utc)
-    return dt_utc.strftime('%Y-%m-%dT%H:%M:%SZ')
-
-def fetch_guide_for_day(env, channel_id, day_rome):
-    from_utc = get_utc_iso(day_rome)
-    next_day_rome = day_rome + timedelta(days=1)
-    to_utc = get_utc_iso(next_day_rome)
-    url = (
-        f'https://apid.sky.it/gtv/v1/events?'
-        f'from={from_utc}&to={to_utc}&pageSize=999&pageNum=0&env={env}&channels={channel_id}'
-    )
-    print(f'Fetching {url}')
-    resp = requests.get(url)
-    resp.raise_for_status()
-    data = resp.json()
-    return data.get('events', [])
-
-def fetch_month_guide(env, channel_id, start_date_rome, days=30):
-    guides = []
-    for i in range(days):
-        day = start_date_rome + timedelta(days=i)
-        events = fetch_guide_for_day(env, channel_id, day)
-        guides.append({
-            'date': day.strftime('%Y-%m-%d'),
-            'events': events
-        })
-    return guides
-
-def main():
-    CHANNELS = [
+CHANNELS = [
     {"name":"CNBC HD","site_id":"DTH#10713"},
     {"name":"Sky Crime","site_id":"DTH#11216"},
     {"name":"Sky Serie +1","site_id":"DTH#11247"},
@@ -207,22 +177,51 @@ def main():
     {"name":"ZONA DAZN","site_id":"DTH#11402"},
 ]
 
+def fetch_guide_for_channel(env, channel_id, start_date, days=30):
+    results = []
+    for day_offset in range(days):
+        date = start_date + timedelta(days=day_offset)
+        from_str = date.strftime("%Y-%m-%dT00:00:00Z")
+        to_date = date + timedelta(days=1)
+        to_str = to_date.strftime("%Y-%m-%dT00:00:00Z")
+        url = f"https://apid.sky.it/gtv/v1/events?from={from_str}&to={to_str}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
+        try:
+            response = requests.get(url, timeout=15)
+            response.raise_for_status()
+            data = response.json()
+            results.append({
+                "date": date.strftime("%Y-%m-%d"),
+                "events": data.get("events", [])
+            })
+            print(f"Fetched {channel_id} for {date.strftime('%Y-%m-%d')}")
+        except requests.exceptions.RequestException as e:
+            print(f"Warning: errore fetch {channel_id} {date.strftime('%Y-%m-%d')}: {e}")
+            continue
+    return results
 
+def main():
+    # Ora di Roma mezzanotte per iniziare
     now_rome = datetime.now(ROME_TZ)
-    start_date_rome = now_rome.replace(hour=0, minute=0, second=0, microsecond=0)
+    start_date = now_rome.replace(hour=0, minute=0, second=0, microsecond=0)
+    env = "DTH"
 
-    output_dir = 'guides'
-    os.makedirs(output_dir, exist_ok=True)
-
+    all_guides = {}
     for ch in CHANNELS:
-        env, channel_id = ch['site_id'].split('#')
-        print(f'Fetching guide for channel {ch["name"]} ({channel_id})')
-        month_guide = fetch_month_guide(env, channel_id, start_date_rome, days=30)
+        env_part, channel_id = ch["site_id"].split("#")
+        print(f"Fetching guide for {ch['name']} ({channel_id})...")
+        guide = fetch_guide_for_channel(env_part, channel_id, start_date)
+        all_guides[ch["site_id"]] = {
+            "name": ch["name"],
+            "events_by_date": guide
+        }
 
-        filename = f'{env}_{channel_id}.json'
-        filepath = os.path.join(output_dir, filename)
-        with open(filepath, 'w', encoding='utf-8') as f:
-            json.dump(month_guide, f, ensure_ascii=False, indent=2)
+    # Assicurati che output esista
+    os.makedirs("output", exist_ok=True)
 
-if __name__ == '__main__':
+    with open("output/guide.json", "w", encoding="utf-8") as f:
+        json.dump(all_guides, f, indent=2, ensure_ascii=False)
+
+    print("Saved guide.json with all channels.")
+
+if __name__ == "__main__":
     main()
