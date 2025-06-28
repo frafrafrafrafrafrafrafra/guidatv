@@ -1,41 +1,48 @@
 name: Update Guide Files
+
 on:
   workflow_dispatch:
 
 jobs:
-  build:
+  update-guides:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests pytz
-    - name: Run script to fetch guides
-      run: python p.py
-    - name: Generate index.json
-      run: |
-        python - <<EOF
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pytz
+
+      - name: Run guide fetch script
+        run: python p.py
+
+      - name: Generate index.json
+        run: |
+          python -c "
 import os
 import json
 
 directory = 'output/guides'
 files = [f for f in os.listdir(directory) if f.endswith('.json') and f != 'index.json']
 files.sort()
-with open(f'{directory}/index.json', 'w', encoding='utf-8') as f:
+with open(os.path.join(directory, 'index.json'), 'w', encoding='utf-8') as f:
     json.dump(files, f, indent=2)
 print(f'Creato index.json con {len(files)} file')
-EOF
-    - name: Commit and push changes
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add output/guides/index.json output/guides/*.json
-        git commit -m "Aggiornamento guide e index.json" || echo "Nessuna modifica da committare"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          "
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/guides/index.json output/guides/*.json
+          git diff --cached --quiet || git commit -m "Aggiornamento guide e index.json"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
