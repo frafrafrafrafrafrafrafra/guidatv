@@ -4,7 +4,8 @@ from datetime import datetime, timedelta
 import pytz
 import os
 
-# Lista completa dei canali senza "DTH#11386"
+ROME_TZ = pytz.timezone("Europe/Rome")
+
 CHANNELS = [
     {"name":"CNBC HD","site_id":"DTH#10713"},
     {"name":"Sky Crime","site_id":"DTH#11216"},
@@ -139,7 +140,6 @@ CHANNELS = [
     {"name":"Sky Nature","site_id":"DTH#11242"},
     {"name":"Sky Nature","site_id":"DTH#11245"},
     {"name":"Sky Serie","site_id":"DTH#11244"},
-    # Qui togliamo "Sky Sport" DTH#11386 perché dava problemi
     {"name":"Sky Sport 4K","site_id":"DTH#10013"},
     {"name":"Sky Sport","site_id":"DTH#9046"},
     {"name":"Sky Sport","site_id":"DTH#8613"},
@@ -176,64 +176,51 @@ CHANNELS = [
     {"name":"ZONA DAZN","site_id":"DTH#11402"},
 ]
 
-OUTPUT_DIR = "output"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-ROME_TZ = pytz.timezone("Europe/Rome")
-
-def fetch_guide_for_day(env, channel_id, day_rome):
-    start_dt_rome = ROME_TZ.localize(datetime(day_rome.year, day_rome.month, day_rome.day, 0, 0, 0))
-    end_dt_rome = start_dt_rome + timedelta(days=1)
-
-    start_utc = start_dt_rome.astimezone(pytz.utc)
-    end_utc = end_dt_rome.astimezone(pytz.utc)
-
-    url = (
-        f"https://apid.sky.it/gtv/v1/events?"
-        f"from={start_utc.strftime('%Y-%m-%dT%H:%M:%SZ')}&"
-        f"to={end_utc.strftime('%Y-%m-%dT%H:%M:%SZ')}&"
-        f"pageSize=999&pageNum=0&env={env}&channels={channel_id}"
-    )
-    try:
-        resp = requests.get(url, timeout=10)
-        resp.raise_for_status()
-        data = resp.json()
-        events = data.get("events", [])
-        return events
-    except Exception as e:
-        print(f"Errore fetch canale {channel_id} giorno {start_dt_rome.date()}: {e}")
-        return []
-
-def fetch_month_guide(env, channel_id, start_date_rome, days=30):
+def fetch_guide_for_channel(env, channel_id, start_date, days=30):
     results = []
     for day_offset in range(days):
-        day = start_date_rome + timedelta(days=day_offset)
-        events = fetch_guide_for_day(env, channel_id, day)
-        results.append({
-            "date": day.strftime("%Y-%m-%d"),
-            "events": events
-        })
+        date = start_date + timedelta(days=day_offset)
+        from_str = date.strftime("%Y-%m-%dT00:00:00Z")
+        to_date = date + timedelta(days=1)
+        to_str = to_date.strftime("%Y-%m-%dT00:00:00Z")
+        url = f"https://apid.sky.it/gtv/v1/events?from={from_str}&to={to_str}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
+        try:
+            response = requests.get(url, timeout=15)
+            response.raise_for_status()
+            data = response.json()
+            results.append({
+                "date": date.strftime("%Y-%m-%d"),
+                "events": data.get("events", [])
+            })
+            print(f"Fetched {channel_id} for {date.strftime('%Y-%m-%d')}")
+        except requests.exceptions.RequestException as e:
+            print(f"Warning: errore fetch {channel_id} {date.strftime('%Y-%m-%d')}: {e}")
+            continue
     return results
 
 def main():
-    start_date_rome = datetime.now(tz=ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
-    output = []
+    # Ora di Roma mezzanotte per iniziare
+    now_rome = datetime.now(ROME_TZ)
+    start_date = now_rome.replace(hour=0, minute=0, second=0, microsecond=0)
+    env = "DTH"
 
+    all_guides = {}
     for ch in CHANNELS:
-        env, channel_id = ch["site_id"].split("#")
-        print(f"Fetching {ch['name']} ({env}#{channel_id})")
-        guide = fetch_month_guide(env, channel_id, start_date_rome, days=30)
-        output.append({
+        env_part, channel_id = ch["site_id"].split("#")
+        print(f"Fetching guide for {ch['name']} ({channel_id})...")
+        guide = fetch_guide_for_channel(env_part, channel_id, start_date)
+        all_guides[ch["site_id"]] = {
             "name": ch["name"],
-            "site_id": ch["site_id"],
-            "guide": guide
-        })
+            "events_by_date": guide
+        }
 
-    output_path = os.path.join(OUTPUT_DIR, "guides.json")
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
+    # Assicurati che output esista
+    os.makedirs("output", exist_ok=True)
 
-    print(f"Guide salvate in {output_path}")
+    with open("output/guide.json", "w", encoding="utf-8") as f:
+        json.dump(all_guides, f, indent=2, ensure_ascii=False)
+
+    print("Saved guide.json with all channels.")
 
 if __name__ == "__main__":
     main()
