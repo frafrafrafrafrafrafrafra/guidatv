@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0056b3;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+button {
+  margin: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.program {
+  border: 1px solid #ddd;
+  background: #fff;
+  margin: 5px 0;
+  padding: 
+    10px;
+}
