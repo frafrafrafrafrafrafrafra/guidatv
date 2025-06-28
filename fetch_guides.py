@@ -3,9 +3,6 @@ import json
 from datetime import datetime, timedelta
 import pytz
 import os
-import aiohttp
-import asyncio
-from pathlib import Path
 
 ROME_TZ = pytz.timezone("Europe/Rome")
 
@@ -180,46 +177,43 @@ CHANNELS = [
     {"name":"ZONA DAZN","site_id":"DTH#11402"},
 ]
 
-
-OUTPUT_DIR = Path("output")
-OUTPUT_DIR.mkdir(exist_ok=True)
-
-DAYS = 30
-
-async def fetch_channel(session, channel):
-    env, channel_id = channel["site_id"].split("#")
-    all_events = []
-    for day_offset in range(DAYS):
-        date = datetime.utcnow() + timedelta(days=day_offset)
-        from_date = date.strftime("%Y-%m-%dT00:00:00Z")
-        to_date = (date + timedelta(days=1)).strftime("%Y-%m-%dT00:00:00Z")
-        url = (
-            f"https://apid.sky.it/gtv/v1/events?"
-            f"from={from_date}&to={to_date}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
-        )
+def fetch_guide_for_channel(env, channel_id, start_date, days=30):
+    results = []
+    for day_offset in range(days):
+        date = start_date + timedelta(days=day_offset)
+        from_str = date.strftime("%Y-%m-%dT00:00:00Z")
+        to_date = date + timedelta(days=1)
+        to_str = to_date.strftime("%Y-%m-%dT00:00:00Z")
+        url = f"https://apid.sky.it/gtv/v1/events?from={from_str}&to={to_str}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
         try:
-            async with session.get(url) as resp:
-                if resp.status != 200:
-                    print(f"Errore HTTP {resp.status} per {channel['name']}")
-                    continue
-                data = await resp.json()
-                events = data.get("events", [])
-                all_events.extend(events)
-        except Exception as e:
-            print(f"Errore durante fetch {channel['name']}: {e}")
+            response = requests.get(url, timeout=15)
+            response.raise_for_status()
+            data = response.json()
+            results.append({
+                "date": date.strftime("%Y-%m-%d"),
+                "events": data.get("events", [])
+            })
+            print(f"Fetched {channel_id} for {date.strftime('%Y-%m-%d')}")
+        except requests.exceptions.RequestException as e:
+            print(f"Warning: errore fetch {channel_id} {date.strftime('%Y-%m-%d')}: {e}")
+            continue
+    return results
 
-    output_path = OUTPUT_DIR / f"{channel['name']}.json"
-    with output_path.open("w", encoding="utf-8") as f:
-        json.dump(all_events, f, ensure_ascii=False, indent=2)
-    print(f"Salvato {channel['name']} con {len(all_events)} eventi.")
-
-async def main():
-    async with aiohttp.ClientSession() as session:
-        # Processa 2 canali alla volta
-        for i in range(0, len(CHANNELS), 2):
-            batch = CHANNELS[i:i+2]
-            tasks = [fetch_channel(session, ch) for ch in batch]
-            await asyncio.gather(*tasks)
+def main():
+    now_rome = datetime.now(ROME_TZ)
+    start_date = now_rome.replace(hour=0, minute=0, second=0, microsecond=0)
+    os.makedirs("output/guides", exist_ok=True)
+    for ch in CHANNELS:
+        env_part, channel_id = ch["site_id"].split("#")
+        print(f"Fetching guide for {ch['name']} ({channel_id})...")
+        guide = fetch_guide_for_channel(env_part, channel_id, start_date)
+        out_path = f"output/guides/{ch['site_id']}.json"
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump({
+                "name": ch["name"],
+                "events_by_date": guide
+            }, f, indent=2, ensure_ascii=False)
+        print(f"Saved {out_path}")
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
