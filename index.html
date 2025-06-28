@@ -9,6 +9,9 @@
       font-family: Arial, sans-serif;
       margin: 20px;
       background: #f9f9f9;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
     }
     h1 {
       text-align: center;
@@ -24,7 +27,8 @@
     .search-container {
       max-width: 600px;
       margin: 0 auto 20px auto;
-      text-align: center;
+      display: flex;
+      justify-content: center; /* centra input orizzontalmente */
     }
     #search-input {
       width: 100%;
@@ -33,12 +37,14 @@
       font-size: 16px;
       border-radius: 5px;
       border: 1px solid #ccc;
+      box-sizing: border-box;
     }
     ul {
       list-style: none;
       padding: 0;
       max-width: 600px;
       margin: 0 auto;
+      flex-grow: 1;
     }
     li {
       background: white;
@@ -55,18 +61,24 @@
     a:hover {
       color: #0077cc;
     }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+      padding: 15px 0 5px;
+      user-select: none;
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
   <h1>Guida TV</h1>
   <h2>Seleziona un canale</h2>
-
   <div class="search-container">
     <input type="text" id="search-input" placeholder="Cerca un canale..." />
   </div>
-
   <ul id="channel-list"></ul>
-
+  <footer>Powered by 🐯</footer>
   <script>
     const CHANNELS = [
       {"name":"CNBC HD","site_id":"DTH_10713"},
@@ -237,9 +249,7 @@
       {"name":"ZONA DAZN 5","site_id":"DTH_11404"},
       {"name":"ZONA DAZN","site_id":"DTH_11402"}
     ];
-
     const list = document.getElementById('channel-list');
-
     function buildChannelList() {
       CHANNELS.forEach(ch => {
         const li = document.createElement('li');
@@ -251,7 +261,6 @@
         ch.element = li; // per filtro
       });
     }
-
     function filterChannels(query) {
       const q = query.trim().toLowerCase();
       CHANNELS.forEach(item => {
@@ -262,11 +271,9 @@
         }
       });
     }
-
     document.getElementById('search-input').addEventListener('input', e => {
       filterChannels(e.target.value);
     });
-
     buildChannelList();
   </script>
 </body>
