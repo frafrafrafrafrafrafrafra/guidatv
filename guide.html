@@ -51,6 +51,15 @@
       border-radius: 4px;
       border: 1px solid #ccc;
     }
+    .loading {
+      text-align: center;
+      padding: 20px;
+    }
+    .error {
+      color: #d32f2f;
+      text-align: center;
+      padding: 20px;
+    }
   </style>
 </head>
 <body>
@@ -61,16 +70,26 @@
       <span id="current-date"></span>
       <button id="next-day" title="Giorno successivo">▶</button>
     </div>
-    <input type="text" id="search-input" placeholder="Cerca nel palinsesto..." />
+    <input type="text" id="search-input" placeholder="Cerca nel palinsesto..." disabled />
   </div>
 
-  <div id="programs"></div>
+  <div id="programs">
+    <div class="loading">Caricamento in corso...</div>
+  </div>
 
   <script>
+    // Funzione per gestire gli errori
+    function showError(message) {
+      programsDiv.innerHTML = `<div class="error">${message}</div>`;
+      searchInput.disabled = true;
+      prevDayBtn.disabled = true;
+      nextDayBtn.disabled = true;
+    }
+
     // Parametri URL
     const urlParams = new URLSearchParams(window.location.search);
     const site_id = urlParams.get('site_id');
-    const channel_name = urlParams.get('name') || "Canale sconosciuto";
+    const channel_name = decodeURIComponent(urlParams.get('name') || "Canale sconosciuto";
 
     const maxDays = 30;
     let currentDate = new Date();
@@ -109,28 +128,35 @@
 
     function showPrograms(dayPrograms, searchTerm = '') {
       programsDiv.innerHTML = '';
+      
       if (!dayPrograms || dayPrograms.length === 0) {
-        programsDiv.innerHTML = '<p>Nessun programma trovato.</p>';
+        programsDiv.innerHTML = '<div class="program">Nessun programma trovato per questa data.</div>';
         return;
       }
+      
       const filtered = dayPrograms.filter(p =>
         p.eventTitle.toLowerCase().includes(searchTerm.toLowerCase())
       );
+      
       if (filtered.length === 0) {
-        programsDiv.innerHTML = '<p>Nessun programma trovato per la ricerca.</p>';
+        programsDiv.innerHTML = '<div class="program">Nessun programma trovato per la ricerca.</div>';
         return;
       }
+      
       filtered.forEach(prog => {
         const start = new Date(prog.starttime);
         const stop = new Date(prog.endtime);
         const startStr = start.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
         const stopStr = stop.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+        
         const div = document.createElement('div');
         div.className = 'program';
         div.innerHTML = `<span class="time">[${startStr} - ${stopStr}]</span> ${prog.eventTitle}`;
+        
         if (prog.eventSynopsis) {
           div.innerHTML += `<br><small>${prog.eventSynopsis}</small>`;
         }
+        
         programsDiv.appendChild(div);
       });
     }
@@ -166,27 +192,31 @@
     });
 
     if (!site_id) {
-      programsDiv.innerHTML = '<p>Parametro site_id mancante o non valido nell\'URL.</p>';
+      showError('Parametro site_id mancante o non valido nell\'URL.');
       channelNameElem.textContent = "Errore: Canale non specificato";
     } else {
-      // Uso encodeURIComponent per permettere # e altri caratteri speciali nel nome file
-      const jsonPath = `guides/${encodeURIComponent(site_id)}.json`;
+      // Usa il percorso corretto per i file JSON
+      const jsonPath = `output/guides/${encodeURIComponent(site_id)}.json`;
+      
       fetch(jsonPath)
         .then(response => {
-          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          if (!response.ok) {
+            throw new Error(`Errore ${response.status}: ${response.statusText}`);
+          }
           return response.json();
         })
         .then(data => {
           if (!data.events_by_date) {
-            programsDiv.innerHTML = '<p>Formato dati non corretto.</p>';
-            return;
+            throw new Error('Formato dati non corretto: events_by_date mancante');
           }
+          
           allPrograms = data.events_by_date;
+          searchInput.disabled = false;
           updateView();
         })
         .catch(err => {
           console.error('Errore caricamento JSON:', err);
-          programsDiv.innerHTML = `<p>Impossibile caricare il palinsesto per ${channel_name}.</p>`;
+          showError(`Impossibile caricare il palinsesto per ${channel_name}.<br>Errore: ${err.message}`);
         });
     }
   </script>
