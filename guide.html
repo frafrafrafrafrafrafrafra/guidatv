@@ -72,6 +72,7 @@
       justify-content: center;
       align-items: center;
       margin: 20px 0;
+      gap: 10px;
     }
     .date-navigation button {
       background: transparent;
@@ -80,7 +81,6 @@
       padding: 8px 12px;
       font-size: 24px;
       cursor: pointer;
-      margin: 0 10px;
       user-select: none;
       transition: color 0.2s ease;
     }
@@ -95,6 +95,15 @@
       font-weight: bold;
       min-width: 200px;
       text-align: center;
+      cursor: pointer;
+      user-select: none;
+      border-bottom: 1px dashed #999;
+    }
+    #date-picker {
+      font-size: 16px;
+      padding: 5px;
+      border-radius: 4px;
+      border: 1px solid #ddd;
     }
   </style>
 </head>
@@ -112,7 +121,8 @@
         </div>
         <div class="date-navigation">
           <button id="prev-day" aria-label="Giorno precedente">◀</button>
-          <div class="current-date" id="current-date"></div>
+          <div class="current-date" id="current-date" title="Clicca per selezionare una data"></div>
+          <input type="date" id="date-picker" style="display:none;">
           <button id="next-day" aria-label="Giorno successivo">▶</button>
         </div>
         <div id="programs-container"></div>
@@ -130,11 +140,10 @@
       const prevDayBtn = document.getElementById('prev-day');
       const nextDayBtn = document.getElementById('next-day');
       const currentDateElem = document.getElementById('current-date');
-
+      const datePicker = document.getElementById('date-picker');
       const urlParams = new URLSearchParams(window.location.search);
       const siteId = urlParams.get('site_id'); // es: DTH_10013
       const channelName = urlParams.get('name') || "Canale sconosciuto";
-
       let allPrograms = [];
       let currentDate = new Date();
       const maxDays = 30;
@@ -145,11 +154,9 @@
         errorElem.textContent = message;
         controlsElem.style.display = 'none';
       }
-
       function formatDate(d) {
         return d.toISOString().split('T')[0];
       }
-
       function formatReadableDate(d) {
         return d.toLocaleDateString('it-IT', {
           weekday: 'long',
@@ -158,34 +165,27 @@
           day: 'numeric'
         });
       }
-
       function showPrograms(searchTerm = '') {
         const dayStr = formatDate(currentDate);
         const dayPrograms = allPrograms.find(d => d.date === dayStr)?.events || [];
-
         programsContainer.innerHTML = '';
-
         if (dayPrograms.length === 0) {
           programsContainer.innerHTML = '<div class="program">Nessun programma in onda in questa data.</div>';
           return;
         }
-
         const filtered = searchTerm
           ? dayPrograms.filter(p =>
               p.eventTitle.toLowerCase().includes(searchTerm.toLowerCase()) ||
               (p.eventSynopsis && p.eventSynopsis.toLowerCase().includes(searchTerm.toLowerCase()))
             )
           : dayPrograms;
-
         if (filtered.length === 0) {
           programsContainer.innerHTML = '<div class="program">Nessun programma corrisponde alla ricerca.</div>';
           return;
         }
-
         filtered.forEach(program => {
           const startTime = new Date(program.starttime);
           const endTime = new Date(program.endtime);
-
           const programElem = document.createElement('div');
           programElem.className = 'program';
           programElem.innerHTML = `
@@ -199,11 +199,13 @@
           programsContainer.appendChild(programElem);
         });
       }
-
       function updateView() {
         currentDateElem.textContent = formatReadableDate(currentDate);
         document.title = `${channelName} - ${formatReadableDate(currentDate)}`;
         showPrograms(searchInput.value);
+
+        // Sincronizza il valore del date picker con currentDate
+        datePicker.value = formatDate(currentDate);
 
         const today = new Date();
         today.setHours(0,0,0,0);
@@ -213,17 +215,13 @@
         maxDate.setDate(maxDate.getDate() + maxDays - 1);
         nextDayBtn.disabled = currentDate >= maxDate;
       }
-
       function loadChannelData() {
         if (!siteId) {
           showError("Parametro site_id mancante nell'URL");
           return;
         }
-
         channelNameElem.textContent = channelName;
-        // Percorso JSON corretto con underscore
         const jsonPath = `output/guides/${encodeURIComponent(siteId)}.json`;
-
         fetch(jsonPath)
           .then(response => {
             if (!response.ok) throw new Error(`Errore ${response.status}: ${response.statusText}`);
@@ -246,14 +244,51 @@
         currentDate.setDate(currentDate.getDate() - 1);
         updateView();
       });
-
       nextDayBtn.addEventListener('click', () => {
         currentDate.setDate(currentDate.getDate() + 1);
         updateView();
       });
-
       searchInput.addEventListener('input', () => {
         updateView();
+      });
+
+      // Quando clicchi sulla data, mostra il datepicker
+      currentDateElem.addEventListener('click', () => {
+        datePicker.style.display = 'inline-block';
+        datePicker.focus();
+      });
+
+      // Quando selezioni la data dal calendario
+      datePicker.addEventListener('change', () => {
+        const selected = datePicker.value;
+        if (selected) {
+          const newDate = new Date(selected + 'T00:00:00');
+          const today = new Date();
+          today.setHours(0,0,0,0);
+          const maxDate = new Date();
+          maxDate.setDate(maxDate.getDate() + maxDays - 1);
+
+          // Controllo range date
+          if (newDate < today) {
+            alert("Non puoi selezionare una data precedente a oggi.");
+            datePicker.value = formatDate(currentDate);
+            return;
+          }
+          if (newDate > maxDate) {
+            alert(`Non puoi selezionare una data oltre ${maxDays} giorni da oggi.`);
+            datePicker.value = formatDate(currentDate);
+            return;
+          }
+
+          currentDate = newDate;
+          updateView();
+        }
+        datePicker.style.display = 'none';
+      });
+
+      // Se perdi focus, nascondi il datepicker
+      datePicker.addEventListener('blur', () => {
+        datePicker.style.display = 'none';
       });
 
       loadChannelData();
