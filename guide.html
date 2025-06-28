@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Guida TV - Caricamento...</title>
   <style>
     body {
@@ -101,25 +101,22 @@
     <div id="content">
       <div class="loading" id="loading">Caricamento guida TV in corso...</div>
       <div id="error-message" class="error" style="display: none;"></div>
-
       <div id="controls" style="display: none;">
         <div class="search-container">
           <input type="text" id="search-input" placeholder="Cerca programmi..." />
         </div>
-
         <div class="date-navigation">
           <button id="prev-day">◀ Giorno precedente</button>
           <div class="current-date" id="current-date"></div>
           <button id="next-day">Giorno successivo ▶</button>
         </div>
-
         <div id="programs-container"></div>
       </div>
     </div>
   </div>
 
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
       // Elementi DOM
       const channelNameElem = document.getElementById('channel-name');
       const loadingElem = document.getElementById('loading');
@@ -134,7 +131,7 @@
       // Parametri URL
       const urlParams = new URLSearchParams(window.location.search);
       const siteId = urlParams.get('site_id');
-      const channelName = urlParams.get('name') || 'Canale sconosciuto';
+      const channelName = urlParams.get('name') || "Canale sconosciuto";
 
       // Variabili di stato
       let allPrograms = [];
@@ -160,14 +157,14 @@
           weekday: 'long',
           year: 'numeric',
           month: 'long',
-          day: 'numeric',
+          day: 'numeric'
         });
       }
 
       // Mostra i programmi per la data corrente
       function showPrograms(searchTerm = '') {
         const dayStr = formatDate(currentDate);
-        const dayPrograms = allPrograms.find((d) => d.date === dayStr)?.events || [];
+        const dayPrograms = allPrograms.find(d => d.date === dayStr)?.events || [];
 
         programsContainer.innerHTML = '';
 
@@ -177,10 +174,9 @@
         }
 
         const filtered = searchTerm
-          ? dayPrograms.filter(
-              (p) =>
-                p.eventTitle.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                (p.eventSynopsis && p.eventSynopsis.toLowerCase().includes(searchTerm.toLowerCase()))
+          ? dayPrograms.filter(p =>
+              p.eventTitle.toLowerCase().includes(searchTerm.toLowerCase()) ||
+              (p.eventSynopsis && p.eventSynopsis.toLowerCase().includes(searchTerm.toLowerCase()))
             )
           : dayPrograms;
 
@@ -189,7 +185,7 @@
           return;
         }
 
-        filtered.forEach((program) => {
+        filtered.forEach(program => {
           const startTime = new Date(program.starttime);
           const endTime = new Date(program.endtime);
 
@@ -197,8 +193,8 @@
           programElem.className = 'program';
           programElem.innerHTML = `
             <div class="program-time">
-              ${startTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })} -
-              ${endTime.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+              ${startTime.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})} - 
+              ${endTime.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
             </div>
             <div class="program-title">${program.eventTitle}</div>
             ${program.eventSynopsis ? `<div class="program-synopsis">${program.eventSynopsis}</div>` : ''}
@@ -227,21 +223,22 @@
       // Carica i dati del canale
       function loadChannelData() {
         if (!siteId) {
-          showError("Parametro site_id mancante nell'URL");
+          showError('Parametro site_id mancante nell\'URL');
           return;
         }
         channelNameElem.textContent = channelName;
 
-        const jsonPath = `output/guides/${encodeURIComponent(siteId)}`;
+        // Usa siteId così com'è per il path (senza encodeURIComponent)
+        const jsonPath = `output/guides/${siteId}.json`;
 
         fetch(jsonPath)
-          .then((response) => {
+          .then(response => {
             if (!response.ok) {
               throw new Error(`Errore ${response.status}: ${response.statusText}`);
             }
             return response.json();
           })
-          .then((data) => {
+          .then(data => {
             if (!data.events_by_date) {
               throw new Error('Formato dati non valido: events_by_date mancante');
             }
@@ -251,7 +248,7 @@
             controlsElem.style.display = 'block';
             updateView();
           })
-          .catch((error) => {
+          .catch(error => {
             console.error('Errore caricamento dati:', error);
             showError(`Impossibile caricare la guida TV: ${error.message}`);
           });
@@ -262,10 +259,12 @@
         currentDate.setDate(currentDate.getDate() - 1);
         updateView();
       });
+
       nextDayBtn.addEventListener('click', () => {
         currentDate.setDate(currentDate.getDate() + 1);
         updateView();
       });
+
       searchInput.addEventListener('input', () => {
         updateView();
       });
