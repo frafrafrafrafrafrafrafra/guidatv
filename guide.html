@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guida TV - Dettaglio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f9f9f9; }
+    #header { text-align: center; margin-bottom: 20px; }
+    #date-controls { margin: 10px 0; }
+    button { margin: 0 5px; padding: 5px 10px; }
+    #programs { max-width: 800px; margin: 0 auto; }
+    .day-section { margin-bottom: 30px; }
+    .program { background: white; border-radius: 5px; padding: 10px; margin: 5px 0; }
+    .time { font-weight: bold; margin-right: 10px; }
+    #search-input { margin: 10px auto; display: block; max-width: 300px; padding: 5px; }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h1 id="channel-name"></h1>
+    <div id="date-controls">
+      <button id="prev-day">◀</button>
+      <span id="current-date"></span>
+      <button id="next-day">▶</button>
+    </div>
+    <input type="text" id="search-input" placeholder="Cerca nel palinsesto..." />
+  </div>
+
+  <div id="programs"></div>
+
+  <script>
+    // Recupera parametri URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const site_id = urlParams.get('site_id');
+    const channel_name = urlParams.get('name');
+
+    const maxDays = 30; // carica max 30 giorni
+    let currentDate = new Date();
+
+    document.getElementById('channel-name').textContent = channel_name;
+
+    const programsDiv = document.getElementById('programs');
+    const currentDateSpan = document.getElementById('current-date');
+    const prevDayBtn = document.getElementById('prev-day');
+    const nextDayBtn = document.getElementById('next-day');
+    const searchInput = document.getElementById('search-input');
+
+    let allPrograms = []; // terrà tutti i programmi dei 30 giorni
+
+    // Funzione per formattare la data in YYYY-MM-DD
+    function formatDate(d) {
+      const y = d.getFullYear();
+      const m = (d.getMonth() + 1).toString().padStart(2, '0');
+      const day = d.getDate().toString().padStart(2, '0');
+      return `${y}-${m}-${day}`;
+    }
+
+    // Fetch palinsesto per tutti i giorni (1 mese)
+    async function fetchGuide(site_id, days) {
+      let results = [];
+      const env = site_id.split('#')[0];
+      const channel_id = site_id.split('#')[1];
+
+      for(let dayOffset = 0; dayOffset < days; dayOffset++) {
+        const date = new Date();
+        date.setDate(date.getDate() + dayOffset);
+        const from = formatDate(date) + 'T00:00:00Z';
+        const toDate = new Date(date);
+        toDate.setDate(toDate.getDate() + 1);
+        const to = formatDate(toDate) + 'T00:00:00Z';
+
+        const url = `https://apid.sky.it/gtv/v1/events?from=${from}&to=${to}&pageSize=999&pageNum=0&env=${env}&channels=${channel_id}`;
+        try {
+          const response = await fetch(url);
+          const data = await response.json();
+          const events = data.events || [];
+          results.push({ date: formatDate(date), events });
+        } catch(err) {
+          console.error('Errore fetch:', err);
+        }
+      }
+      return results;
+    }
+
+    // Mostra programmi di un giorno, con filtro ricerca
+    function showPrograms(dayPrograms, searchTerm = '') {
+      programsDiv.innerHTML = '';
+      if(!dayPrograms || dayPrograms.length === 0) {
+        programsDiv.innerHTML = '<p>Nessun programma trovato.</p>';
+        return;
+      }
+
+      let filtered = dayPrograms.filter(p => p.eventTitle.toLowerCase().includes(searchTerm.toLowerCase()));
+
+      filtered.forEach(prog => {
+        const start = new Date(prog.starttime);
+        const stop = new Date(prog.endtime);
+        const startStr = start.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+        const stopStr = stop.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+
+        const div = document.createElement('div');
+        div.className = 'program';
+        div.innerHTML = `<span class="time">[${startStr} - ${stopStr}]</span> ${prog.eventTitle}`;
+        if(prog.eventSynopsis) {
+          div.innerHTML += `<br><small>${prog.eventSynopsis}</small>`;
+        }
+        programsDiv.appendChild(div);
+      });
+    }
+
+    // Imposta la data corrente in pagina e mostra i programmi
+    function updateView() {
+      currentDateSpan.textContent = currentDate.toLocaleDateString('it-IT', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'});
+      const dayStr = formatDate(currentDate);
+      const dayProgramsObj = allPrograms.find(d => d.date === dayStr);
+      showPrograms(dayProgramsObj ? dayProgramsObj.events : [], searchInput.value);
+      // Disabilita freccia indietro se data < oggi
+      const today = new Date();
+      today.setHours(0,0,0,0);
+      prevDayBtn.disabled = currentDate <= today;
+      // Disabilita freccia avanti se oltre mese
+      const maxDate = new Date();
+      maxDate.setDate(maxDate.getDate() + maxDays - 1);
+      nextDayBtn.disabled = currentDate >= maxDate;
+    }
+
+    prevDayBtn.addEventListener('click', () => {
+      currentDate.setDate(currentDate.getDate() - 1);
+      updateView();
+    });
+
+    nextDayBtn.addEventListener('click', () => {
+      currentDate.setDate(currentDate.getDate() + 1);
+      updateView();
+    });
+
+    searchInput.addEventListener('input', () => {
+      updateView();
+    });
+
+    // Avvio
+    fetchGuide(site_id, maxDays).then(res => {
+      allPrograms = res;
+      updateView();
+    });
+  </script>
+
+  <footer style="text-align:center; padding:10px 0; font-size:0.9em; color:#666; border-top:1px solid #ccc; margin-top:20px;">
+    Powered by 🐯
+  </footer>
+</body>
+</html>
