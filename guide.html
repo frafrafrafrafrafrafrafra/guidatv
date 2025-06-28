@@ -84,7 +84,7 @@
       align-items: center;
       margin: 20px 0;
       gap: 10px;
-      flex-wrap: wrap; /* cosi su mobile va a capo */
+      flex-wrap: wrap;
     }
     .date-navigation button {
       background: transparent;
@@ -117,6 +117,9 @@
       border-radius: 4px;
       border: 1px solid #ddd;
       display: none;
+      margin-top: 6px;
+      width: 100%;
+      max-width: 200px;
     }
     footer {
       text-align: center;
@@ -144,19 +147,20 @@
         <div class="search-container">
           <input type="text" id="search-input" placeholder="Cerca programmi...">
         </div>
-        <div id="programs-container"></div>
         <div class="date-navigation">
           <button id="prev-day" aria-label="Giorno precedente">◀</button>
-          <div class="current-date" id="current-date" title="Clicca per selezionare una data"></div>
-          <input type="date" id="date-picker" />
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <div class="current-date" id="current-date" title="Clicca per selezionare una data"></div>
+            <input type="date" id="date-picker" />
+          </div>
           <button id="next-day" aria-label="Giorno successivo">▶</button>
         </div>
+        <div id="programs-container"></div>
       </div>
     </div>
   </div>
   <footer>Powered by 🐯</footer>
   <script>
-    // JavaScript invariato
     document.addEventListener('DOMContentLoaded', function() {
       const channelNameElem = document.getElementById('channel-name');
       const loadingElem = document.getElementById('loading');
@@ -174,15 +178,18 @@
       let allPrograms = [];
       let currentDate = new Date();
       const maxDays = 60;
+
       function showError(message) {
         loadingElem.style.display = 'none';
         errorElem.style.display = 'block';
         errorElem.textContent = message;
         controlsElem.style.display = 'none';
       }
+
       function formatDate(d) {
         return d.toISOString().split('T')[0];
       }
+
       function formatReadableDate(d) {
         return d.toLocaleDateString('it-IT', {
           weekday: 'long',
@@ -191,6 +198,7 @@
           day: 'numeric'
         });
       }
+
       function showPrograms(searchTerm = '') {
         const dayStr = formatDate(currentDate);
         const dayPrograms = allPrograms.find(d => d.date === dayStr)?.events || [];
@@ -231,6 +239,7 @@
           programsContainer.appendChild(programElem);
         });
       }
+
       function updateView() {
         currentDateElem.textContent = formatReadableDate(currentDate);
         document.title = `${channelName} - ${formatReadableDate(currentDate)}`;
@@ -243,6 +252,7 @@
         maxDate.setDate(maxDate.getDate() + maxDays - 1);
         nextDayBtn.disabled = currentDate >= maxDate;
       }
+
       function loadChannelData() {
         if (!siteId) {
           showError("Parametro site_id mancante nell'URL");
@@ -267,21 +277,26 @@
             showError(`Impossibile caricare la guida TV: ${error.message}`);
           });
       }
+
       prevDayBtn.addEventListener('click', () => {
         currentDate.setDate(currentDate.getDate() - 1);
         updateView();
       });
+
       nextDayBtn.addEventListener('click', () => {
         currentDate.setDate(currentDate.getDate() + 1);
         updateView();
       });
+
       searchInput.addEventListener('input', () => {
         updateView();
       });
+
       currentDateElem.addEventListener('click', () => {
-        datePicker.style.display = 'inline-block';
+        datePicker.style.display = 'block';
         datePicker.focus();
       });
+
       datePicker.addEventListener('change', () => {
         const selected = datePicker.value;
         if (selected) {
@@ -305,9 +320,11 @@
         }
         datePicker.style.display = 'none';
       });
+
       datePicker.addEventListener('blur', () => {
         datePicker.style.display = 'none';
       });
+
       loadChannelData();
     });
   </script>
