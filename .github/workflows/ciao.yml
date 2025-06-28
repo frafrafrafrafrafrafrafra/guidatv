@@ -23,7 +23,7 @@ jobs:
           pip install requests pytz
 
       - name: Run guide fetch script
-        run: python guidatv/output/guides/p.py
+        run: python guidatv/output/guides/p.py  # Percorso corretto
 
       - name: Generate index.json
         run: |
@@ -31,7 +31,7 @@ jobs:
           import os
           import json
 
-          directory = 'output/guides'
+          directory = 'guidatv/output/guides'  # Percorso corretto
           os.makedirs(directory, exist_ok=True)
           files = [f for f in os.listdir(directory) if f.endswith('.json') and f != 'index.json']
           files.sort()
@@ -44,7 +44,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/guides/
+          git add guidatv/output/guides/  # Percorso corretto
           if git diff --cached --quiet; then
             echo "Nessun cambiamento da commitare"
           else
