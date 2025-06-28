@@ -54,7 +54,7 @@
       margin: 10px 0;
       background: #f9f9f9;
       border-radius: 4px;
-      border-left: 4px solid #3498db; /* Blu di default */
+      border-left: 4px solid #3498db;
     }
     .program-time {
       font-weight: bold;
@@ -84,6 +84,7 @@
       align-items: center;
       margin: 20px 0;
       gap: 10px;
+      flex-wrap: wrap; /* cosi su mobile va a capo */
     }
     .date-navigation button {
       background: transparent;
@@ -143,18 +144,19 @@
         <div class="search-container">
           <input type="text" id="search-input" placeholder="Cerca programmi...">
         </div>
+        <div id="programs-container"></div>
         <div class="date-navigation">
           <button id="prev-day" aria-label="Giorno precedente">◀</button>
           <div class="current-date" id="current-date" title="Clicca per selezionare una data"></div>
           <input type="date" id="date-picker" />
           <button id="next-day" aria-label="Giorno successivo">▶</button>
         </div>
-        <div id="programs-container"></div>
       </div>
     </div>
   </div>
   <footer>Powered by 🐯</footer>
   <script>
+    // JavaScript invariato
     document.addEventListener('DOMContentLoaded', function() {
       const channelNameElem = document.getElementById('channel-name');
       const loadingElem = document.getElementById('loading');
@@ -172,18 +174,15 @@
       let allPrograms = [];
       let currentDate = new Date();
       const maxDays = 60;
-
       function showError(message) {
         loadingElem.style.display = 'none';
         errorElem.style.display = 'block';
         errorElem.textContent = message;
         controlsElem.style.display = 'none';
       }
-
       function formatDate(d) {
         return d.toISOString().split('T')[0];
       }
-
       function formatReadableDate(d) {
         return d.toLocaleDateString('it-IT', {
           weekday: 'long',
@@ -192,42 +191,34 @@
           day: 'numeric'
         });
       }
-
       function showPrograms(searchTerm = '') {
         const dayStr = formatDate(currentDate);
         const dayPrograms = allPrograms.find(d => d.date === dayStr)?.events || [];
         programsContainer.innerHTML = '';
-
         if (dayPrograms.length === 0) {
           programsContainer.innerHTML = '<div class="program">Nessun programma in onda in questa data.</div>';
           return;
         }
-
         const filtered = searchTerm
           ? dayPrograms.filter(p =>
               p.eventTitle.toLowerCase().includes(searchTerm.toLowerCase()) ||
               (p.eventSynopsis && p.eventSynopsis.toLowerCase().includes(searchTerm.toLowerCase()))
             )
           : dayPrograms;
-
         if (filtered.length === 0) {
           programsContainer.innerHTML = '<div class="program">Nessun programma corrisponde alla ricerca.</div>';
           return;
         }
-
         const now = new Date();
-
         filtered.forEach(program => {
           const startTime = new Date(program.starttime);
           const endTime = new Date(program.endtime);
           const isNow = now >= startTime && now <= endTime;
-
           const programElem = document.createElement('div');
           programElem.className = 'program';
           if (isNow) {
             programElem.style.borderLeft = '4px solid #e74c3c';
           }
-
           programElem.innerHTML = `
             <div class="program-time">
               ${startTime.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})} -
@@ -240,23 +231,18 @@
           programsContainer.appendChild(programElem);
         });
       }
-
       function updateView() {
         currentDateElem.textContent = formatReadableDate(currentDate);
         document.title = `${channelName} - ${formatReadableDate(currentDate)}`;
         showPrograms(searchInput.value);
-
         datePicker.value = formatDate(currentDate);
-
         const today = new Date();
         today.setHours(0,0,0,0);
         prevDayBtn.disabled = currentDate <= today;
-
         const maxDate = new Date();
         maxDate.setDate(maxDate.getDate() + maxDays - 1);
         nextDayBtn.disabled = currentDate >= maxDate;
       }
-
       function loadChannelData() {
         if (!siteId) {
           showError("Parametro site_id mancante nell'URL");
@@ -281,7 +267,6 @@
             showError(`Impossibile caricare la guida TV: ${error.message}`);
           });
       }
-
       prevDayBtn.addEventListener('click', () => {
         currentDate.setDate(currentDate.getDate() - 1);
         updateView();
@@ -293,7 +278,6 @@
       searchInput.addEventListener('input', () => {
         updateView();
       });
-
       currentDateElem.addEventListener('click', () => {
         datePicker.style.display = 'inline-block';
         datePicker.focus();
@@ -306,7 +290,6 @@
           today.setHours(0,0,0,0);
           const maxDate = new Date();
           maxDate.setDate(maxDate.getDate() + maxDays - 1);
-
           if (newDate < today) {
             alert("Non puoi selezionare una data precedente a oggi.");
             datePicker.value = formatDate(currentDate);
@@ -317,7 +300,6 @@
             datePicker.value = formatDate(currentDate);
             return;
           }
-
           currentDate = newDate;
           updateView();
         }
@@ -326,7 +308,6 @@
       datePicker.addEventListener('blur', () => {
         datePicker.style.display = 'none';
       });
-
       loadChannelData();
     });
   </script>
