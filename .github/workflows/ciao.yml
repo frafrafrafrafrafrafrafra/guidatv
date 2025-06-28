@@ -19,7 +19,7 @@ jobs:
       run: python p.py
     - name: Generate index.json
       run: |
-        python -c "
+        python - <<EOF
 import os
 import json
 
@@ -29,7 +29,7 @@ files.sort()
 with open(f'{directory}/index.json', 'w', encoding='utf-8') as f:
     json.dump(files, f, indent=2)
 print(f'Creato index.json con {len(files)} file')
-"
+EOF
     - name: Commit and push changes
       run: |
         git config user.name "github-actions[bot]"
