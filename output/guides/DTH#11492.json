@@ -1,0 +1,692 @@
+{
+  "name": "Sky Sport",
+  "events_by_date": [
+    {
+      "date": "2025-06-28",
+      "events": []
+    },
+    {
+      "date": "2025-06-29",
+      "events": []
+    },
+    {
+      "date": "2025-06-30",
+      "events": [
+        {
+          "channel": {
+            "id": 11492,
+            "logo": "/logo/912skysport_Light_Fit.png?checksum=3796926a-6496-4e62-aff6-c9f69fb270f1",
+            "logoPadding": "/logo/912skysport_Light_Padding.png?checksum=72a59e1c-4aad-4ae2-971b-f2878511490b",
+            "logoDark": "/logo/912skysport_Dark_Fit.png?checksum=62f6f90f-c9ce-4386-bb4c-e01a2edb6e64",
+            "logoDarkPadding": "/logo/912skysport_Dark_Padding.png?checksum=d847f8ad-61f5-4387-a917-8074ba068896",
+            "logoLight": "/logo/912skysport_Light_Padding.png?checksum=72a59e1c-4aad-4ae2-971b-f2878511490b",
+            "name": "Sky Sport",
+            "number": 256,
+            "servicekey": "912",
+            "category": {
+              "id": 6,
+              "name": "Sport e Calcio"
+            }
+          },
+          "content": {
+            "uuid": "ecd4e92d-3954-473a-b76f-b288efe1aa8d",
+            "contentTitle": "Studio Tennis (diretta)",
+            "episodeNumber": 122,
+            "seasonNumber": 2025,
+            "url": "/sport/studio-tennis/studio-tennis-diretta/ecd4e92d-3954-473a-b76f-b288efe1aa8d",
+            "genre": {
+              "id": 2,
+              "name": "Sport"
+            },
+            "subgenre": {
+              "id": 17,
+              "name": "Tennis"
+            },
+            "imagesMap": [
+              {
+                "img": {
+                  "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=6d3877ae7c59d8117c017023454ba1d8"
+                }
+              },
+              {
+                "img": {
+                  "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6d3877ae7c59d8117c017023454ba1d8"
+                }
+              },
+              {
+                "img": {
+                  "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6d3877ae7c59d8117c017023454ba1d8"
+                }
+              },
+              {
+                "key": "background",
+                "img": {
+                  "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/background?territory=IT&md5ChecksumParam=30f498a58b21a82e8cabb338bdf75671"
+                }
+              },
+              {
+                "key": "cover",
+                "img": {
+                  "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/cover?territory=IT&md5ChecksumParam=6d3877ae7c59d8117c017023454ba1d8"
+                }
+              },
+              {
+                "key": "scene",
+                "img": {
+                  "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/16-9?territory=IT&md5ChecksumParam=41fbccfbc1886f7e2906befd2beb42b9"
+                }
+              },
+              {
+                "key": "scene_key_art",
+                "img": {
+                  "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=41fbccfbc1886f7e2906befd2beb42b9"
+                }
+              }
+            ]
+          },
+          "eventId": "149584268",
+          "starttime": "2025-06-30T09:45:00Z",
+          "endtime": "2025-06-30T10:00:00Z",
+          "eventTitle": "Studio Tennis (diretta)",
+          "eventSynopsis": "Studi Tennis Wimbledon",
+          "epgEventTitle": "Studio Tennis ",
+          "programHighlights": "L",
+          "primeVision": false,
+          "ppvReferenceId": "921921",
+          "resolutions": [
+            {
+              "resolutionType": "resolution4k",
+              "value": false
+            }
+          ]
+        },
+        {
+          "channel": {
+            "id": 11492,
+            "logo": "/logo/912skysport_Light_Fit.png?checksum=3796926a-6496-4e62-aff6-c9f69fb270f1",
+            "logoPadding": "/logo/912skysport_Light_Padding.png?checksum=72a59e1c-4aad-4ae2-971b-f2878511490b",
+            "logoDark": "/logo/912skysport_Dark_Fit.png?checksum=62f6f90f-c9ce-4386-bb4c-e01a2edb6e64",
+            "logoDarkPadding": "/logo/912skysport_Dark_Padding.png?checksum=d847f8ad-61f5-4387-a917-8074ba068896",
+            "logoLight": "/logo/912skysport_Light_Padding.png?checksum=72a59e1c-4aad-4ae2-971b-f2878511490b",
+            "name": "Sky Sport",
+            "number": 256,
+            "servicekey": "912",
+            "category": {
+              "id": 6,
+              "name": "Sport e Calcio"
+            }
+          },
+          "content": {
+            "uuid": "1c8d26fe-c6cc-4651-b5f8-326f58646662",
+            "contentTitle": "Tennis: Wimbledon (diretta)",
+            "episodeNumber": 1,
+            "seasonNumber": 2025,
+            "url": "/sport/wimbledon-2025/tennis-wimbledon-diretta/1c8d26fe-c6cc-4651-b5f8-326f58646662",
+            "genre": {
+              "id": 2,
+              "name": "Sport"
+            },
+            "subgenre": {
+              "id": 17,
+              "name": "Tennis"
+            },
+            "imagesMap": [
+              {
+                "img": {
+                  "url": "/uuid/1c8d26fe-c6cc-4651-b5f8-326f58646662/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=40c4fd22774f03fcc728e7ce3e35a6a8"
+                }
+              },
+              {
+                "img": {
+                  "url": "/uuid/1c8d26fe-c6cc-4651-b5f8-326f58646662/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=592a86491cb8aaf1e2c612deb9bb51cc"
+                }
+              },
+              {
+                "img": {
+                  "url": "/uuid/1c8d26fe-c6cc-4651-b5f8-326f58646662/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=592a86491cb8aaf1e2c612deb9bb51cc"
+                }
+              },
+              {
+                "key": "background",
+                "img": {
+                  "url": "/uuid/1c8d26fe-c6cc-4651-b5f8-326f58646662/background?territory=IT&md5ChecksumParam=046af0ef62bb0cfda466963c4cd3bb7e"
+                }
+              },
+              {
+                "key": "cover",
+                "img": {
+                  "url": "/uuid/1c8d26fe-c6cc-4651-b5f8-326f58646662/cover?territory=IT&md5ChecksumParam=40c4fd22774f03fcc728e7ce3e35a6a8"
+                }
+              },
+              {
+                "key": "scene",
+                "img": {
+                  "url": "/uuid/1c8d26fe-c6cc-4651-b5f8-326f58646662/16-9?territory=IT&md5ChecksumParam=0d4b41169c39d8710298f13adab9c15a"
+                }
+              },
+              {
+                "key": "scene_key_art",
+                "img": {
+                  "url": "/uuid/1c8d26fe-c6cc-4651-b5f8-326f58646662/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=0d4b41169c39d8710298f13adab9c15a"
+                }
+              }
+            ]
+          },
+          "eventId": "149584267",
+          "starttime": "2025-06-30T10:00:00Z",
+          "endtime": "2025-06-30T20:00:00Z",
+          "eventTitle": "1a giornata",
+          "eventSynopsis": "Wimbledon Live",
+          "epgEventTitle": "1a giornata",
+          "programHighlights": "L",
+          "primeVision": false,
+          "ppvReferenceId": "921921",
+          "resolutions": [
+            {
+              "resolutionType": "resolution4k",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-07-01",
+      "events": [
+        {
+          "channel": {
+            "id": 11492,
+            "logo": "/logo/912skysport_Light_Fit.png?checksum=3796926a-6496-4e62-aff6-c9f69fb270f1",
+            "logoPadding": "/logo/912skysport_Light_Padding.png?checksum=72a59e1c-4aad-4ae2-971b-f2878511490b",
+            "logoDark": "/logo/912skysport_Dark_Fit.png?checksum=62f6f90f-c9ce-4386-bb4c-e01a2edb6e64",
+            "logoDarkPadding": "/logo/912skysport_Dark_Padding.png?checksum=d847f8ad-61f5-4387-a917-8074ba068896",
+            "logoLight": "/logo/912skysport_Light_Padding.png?checksum=72a59e1c-4aad-4ae2-971b-f2878511490b",
+            "name": "Sky Sport",
+            "number": 256,
+            "servicekey": "912",
+            "category": {
+              "id": 6,
+              "name": "Sport e Calcio"
+            }
+          },
+          "content": {
+            "uuid": "4e8f4962-d3c3-45c8-b7f8-0e1abae2b8c9",
+            "contentTitle": "Studi Tennis - Ep. 123 - Studio Tennis 01/07/2025",
+            "episodeNumber": 123,
+            "url": "/programmi-tv/tennis/studi-tennis-ep-123-studio-tennis-01-07-2025/4e8f4962-d3c3-45c8-b7f8-0e1abae2b8c9",
+            "genre": {
+              "id": 2,
+              "name": "Sport"
+            },
+            "subgenre": {
+              "id": 17,
+              "name": "Tennis"
+            },
+            "imagesMap": [
+              {
+                "img": {
+                  "url": "/uuid/4e8f4962-d3c3-45c8-b7f8-0e1abae2b8c9/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=3ce29d40bfaeb8586669f1bcfde5d1c3"
+                }
+              },
+              {
+                "key": "background",
+                "img": {
+                  "url": "/uuid/4e8f4962-d3c3-45c8-b7f8-0e1abae2b8c9/background?territory=IT&md5ChecksumParam=30f498a58b21a82e8cabb338bdf75671"
+                }
+              },
+              {
+                "key": "cover",
+                "img": {
+                  "url": "/uuid/4e8f4962-d3c3-45c8-b7f8-0e1abae2b8c9/cover?territory=IT&md5ChecksumParam=3ce29d40bfaeb8586669f1bcfde5d1c3"
+                }
+              },
+              {
+                "key": "scene",
+                "img": {
+                  "url": "/uuid/4e8f4962-d3c3-45c8-b7f8-0e1abae2b8c9/16-9?territory=IT&md5ChecksumParam=509dd54c86ee12ea28b4befd97a33043"
+                }
+              },
+              {
+                "key": "scene_key_art",
+                "img": {
+                  "url": "/uuid/4e8f4962-d3c3-45c8-b7f8-0e1abae2b8c9/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=509dd54c86ee12ea28b4befd97a33043"
+                }
+              }
+            ]
+          },
+          "eventId": "149589898",
+          "starttime": "2025-07-01T09:45:00Z",
+          "endtime": "2025-07-01T10:00:00Z",
+          "eventTitle": "Studi Tennis - Ep. 123 - Studio Tennis Wimbledon 01/07/2025",
+          "eventSynopsis": "Studio Tennis Wimbledon",
+          "epgEventTitle": "Studi Tennis - Ep. 123 - Studio Tennis Wimbledon 01/07/2025",
+          "programHighlights": "L",
+          "primeVision": false,
+          "ppvReferenceId": "921921",
+          "resolutions": [
+            {
+              "resolutionType": "resolution4k",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-07-02",
+      "events": [
+        {
+          "channel": {
+            "id": 11492,
+            "logo": "/logo/912skysport_Light_Fit.png?checksum=3796926a-6496-4e62-aff6-c9f69fb270f1",
+            "logoPadding": "/logo/912skysport_Light_Padding.png?checksum=72a59e1c-4aad-4ae2-971b-f2878511490b",
+            "logoDark": "/logo/912skysport_Dark_Fit.png?checksum=62f6f90f-c9ce-4386-bb4c-e01a2edb6e64",
+            "logoDarkPadding": "/logo/912skysport_Dark_Padding.png?checksum=d847f8ad-61f5-4387-a917-8074ba068896",
+            "logoLight": "/logo/912skysport_Light_Padding.png?checksum=72a59e1c-4aad-4ae2-971b-f2878511490b",
+            "name": "Sky Sport",
+            "number": 256,
+            "servicekey": "912",
+            "category": {
+              "id": 6,
+              "name": "Sport e Calcio"
+            }
+          },
+          "content": {
+            "uuid": "0b8c8920-e1c6-4e44-a08c-a7168c98bdc8",
+            "contentTitle": "Studi Tennis - Ep. 124 - Studio Tennis 02/07/2025",
+            "episodeNumber": 124,
+            "url": "/programmi-tv/tennis/studi-tennis-ep-124-studio-tennis-02-07-2025/0b8c8920-e1c6-4e44-a08c-a7168c98bdc8",
+            "genre": {
+              "id": 2,
+              "name": "Sport"
+            },
+            "subgenre": {
+              "id": 17,
+              "name": "Tennis"
+            },
+            "imagesMap": [
+              {
+                "img": {
+                  "url": "/uuid/0b8c8920-e1c6-4e44-a08c-a7168c98bdc8/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=7af99f50ff486760b558aeec4d646527"
+                }
+              },
+              {
+                "key": "background",
+                "img": {
+                  "url": "/uuid/0b8c8920-e1c6-4e44-a08c-a7168c98bdc8/background?territory=IT&md5ChecksumParam=30f498a58b21a82e8cabb338bdf75671"
+                }
+              },
+              {
+                "key": "cover",
+                "img": {
+                  "url": "/uuid/0b8c8920-e1c6-4e44-a08c-a7168c98bdc8/cover?territory=IT&md5ChecksumParam=7af99f50ff486760b558aeec4d646527"
+                }
+              },
+              {
+                "key": "scene",
+                "img": {
+                  "url": "/uuid/0b8c8920-e1c6-4e44-a08c-a7168c98bdc8/16-9?territory=IT&md5ChecksumParam=a902aa5b48f28b700d0f4ae3de9de3d8"
+                }
+              },
+              {
+                "key": "scene_key_art",
+                "img": {
+                  "url": "/uuid/0b8c8920-e1c6-4e44-a08c-a7168c98bdc8/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=a902aa5b48f28b700d0f4ae3de9de3d8"
+                }
+              }
+            ]
+          },
+          "eventId": "149589864",
+          "starttime": "2025-07-02T09:45:00Z",
+          "endtime": "2025-07-02T10:00:00Z",
+          "eventTitle": "Studi Tennis - Ep. 124 - Studio Tennis Wimbledon 02/07/2025",
+          "eventSynopsis": "Studio Tennis Wimbledon",
+          "epgEventTitle": "Studi Tennis - Ep. 124 - Studio Tennis Wimbledon 02/07/2025",
+          "programHighlights": "L",
+          "primeVision": false,
+          "ppvReferenceId": "921921",
+          "resolutions": [
+            {
+              "resolutionType": "resolution4k",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-07-03",
+      "events": [
+        {
+          "channel": {
+            "id": 11492,
+            "logo": "/logo/912skysport_Light_Fit.png?checksum=3796926a-6496-4e62-aff6-c9f69fb270f1",
+            "logoPadding": "/logo/912skysport_Light_Padding.png?checksum=72a59e1c-4aad-4ae2-971b-f2878511490b",
+            "logoDark": "/logo/912skysport_Dark_Fit.png?checksum=62f6f90f-c9ce-4386-bb4c-e01a2edb6e64",
+            "logoDarkPadding": "/logo/912skysport_Dark_Padding.png?checksum=d847f8ad-61f5-4387-a917-8074ba068896",
+            "logoLight": "/logo/912skysport_Light_Padding.png?checksum=72a59e1c-4aad-4ae2-971b-f2878511490b",
+            "name": "Sky Sport",
+            "number": 256,
+            "servicekey": "912",
+            "category": {
+              "id": 6,
+              "name": "Sport e Calcio"
+            }
+          },
+          "content": {
+            "uuid": "553ec9db-7852-4881-9295-0c342011b68d",
+            "contentTitle": "Studi Tennis - Ep. 125 - Studio Tennis 03/07/2025",
+            "episodeNumber": 125,
+            "url": "/programmi-tv/tennis/studi-tennis-ep-125-studio-tennis-03-07-2025/553ec9db-7852-4881-9295-0c342011b68d",
+            "genre": {
+              "id": 2,
+              "name": "Sport"
+            },
+            "subgenre": {
+              "id": 17,
+              "name": "Tennis"
+            },
+            "imagesMap": [
+              {
+                "img": {
+                  "url": "/uuid/553ec9db-7852-4881-9295-0c342011b68d/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5e17df8a739a1d26f8dfe8eeca72bf80"
+                }
+              },
+              {
+                "key": "background",
+                "img": {
+                  "url": "/uuid/553ec9db-7852-4881-9295-0c342011b68d/background?territory=IT&md5ChecksumParam=30f498a58b21a82e8cabb338bdf75671"
+                }
+              },
+              {
+                "key": "cover",
+                "img": {
+                  "url": "/uuid/553ec9db-7852-4881-9295-0c342011b68d/cover?territory=IT&md5ChecksumParam=5e17df8a739a1d26f8dfe8eeca72bf80"
+                }
+              },
+              {
+                "key": "scene",
+                "img": {
+                  "url": "/uuid/553ec9db-7852-4881-9295-0c342011b68d/16-9?territory=IT&md5ChecksumParam=04eef0243564690d98615c70f35fa5dd"
+                }
+              },
+              {
+                "key": "scene_key_art",
+                "img": {
+                  "url": "/uuid/553ec9db-7852-4881-9295-0c342011b68d/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=04eef0243564690d98615c70f35fa5dd"
+                }
+              }
+            ]
+          },
+          "eventId": "149589868",
+          "starttime": "2025-07-03T09:45:00Z",
+          "endtime": "2025-07-03T10:00:00Z",
+          "eventTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 03/07/2025",
+          "eventSynopsis": "Studio Tennis Wimbledon",
+          "epgEventTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 03/07/2025",
+          "programHighlights": "L",
+          "primeVision": false,
+          "ppvReferenceId": "921921",
+          "resolutions": [
+            {
+              "resolutionType": "resolution4k",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-07-04",
+      "events": [
+        {
+          "channel": {
+            "id": 11492,
+            "logo": "/logo/912skysport_Light_Fit.png?checksum=3796926a-6496-4e62-aff6-c9f69fb270f1",
+            "logoPadding": "/logo/912skysport_Light_Padding.png?checksum=72a59e1c-4aad-4ae2-971b-f2878511490b",
+            "logoDark": "/logo/912skysport_Dark_Fit.png?checksum=62f6f90f-c9ce-4386-bb4c-e01a2edb6e64",
+            "logoDarkPadding": "/logo/912skysport_Dark_Padding.png?checksum=d847f8ad-61f5-4387-a917-8074ba068896",
+            "logoLight": "/logo/912skysport_Light_Padding.png?checksum=72a59e1c-4aad-4ae2-971b-f2878511490b",
+            "name": "Sky Sport",
+            "number": 256,
+            "servicekey": "912",
+            "category": {
+              "id": 6,
+              "name": "Sport e Calcio"
+            }
+          },
+          "content": {
+            "uuid": "cdd99012-3205-4540-ac89-e7a03f66edb0",
+            "contentTitle": "Studi Tennis - Ep. 126 - Studio Tennis Wimbledon 04/07/2025",
+            "episodeNumber": 126,
+            "url": "/programmi-tv/tennis/studi-tennis-ep-126-studio-tennis-wimbledon-04-07-2025/cdd99012-3205-4540-ac89-e7a03f66edb0",
+            "genre": {
+              "id": 2,
+              "name": "Sport"
+            },
+            "subgenre": {
+              "id": 17,
+              "name": "Tennis"
+            },
+            "imagesMap": [
+              {
+                "img": {
+                  "url": "/uuid/cdd99012-3205-4540-ac89-e7a03f66edb0/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=8c583b20cc98becc36de86c838ccf48e"
+                }
+              },
+              {
+                "key": "background",
+                "img": {
+                  "url": "/uuid/cdd99012-3205-4540-ac89-e7a03f66edb0/background?territory=IT&md5ChecksumParam=30f498a58b21a82e8cabb338bdf75671"
+                }
+              },
+              {
+                "key": "cover",
+                "img": {
+                  "url": "/uuid/cdd99012-3205-4540-ac89-e7a03f66edb0/cover?territory=IT&md5ChecksumParam=8c583b20cc98becc36de86c838ccf48e"
+                }
+              },
+              {
+                "key": "scene",
+                "img": {
+                  "url": "/uuid/cdd99012-3205-4540-ac89-e7a03f66edb0/16-9?territory=IT&md5ChecksumParam=e38735a0e6c36274e9acff969a17af2a"
+                }
+              },
+              {
+                "key": "scene_key_art",
+                "img": {
+                  "url": "/uuid/cdd99012-3205-4540-ac89-e7a03f66edb0/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=e38735a0e6c36274e9acff969a17af2a"
+                }
+              }
+            ]
+          },
+          "eventId": "149589872",
+          "starttime": "2025-07-04T09:45:00Z",
+          "endtime": "2025-07-04T10:00:00Z",
+          "eventTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 04/07/2025",
+          "eventSynopsis": "Studio Tennis Wimbledon",
+          "epgEventTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 04/07/2025",
+          "programHighlights": "L",
+          "primeVision": false,
+          "ppvReferenceId": "921921",
+          "resolutions": [
+            {
+              "resolutionType": "resolution4k",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-07-05",
+      "events": [
+        {
+          "channel": {
+            "id": 11492,
+            "logo": "/logo/912skysport_Light_Fit.png?checksum=3796926a-6496-4e62-aff6-c9f69fb270f1",
+            "logoPadding": "/logo/912skysport_Light_Padding.png?checksum=72a59e1c-4aad-4ae2-971b-f2878511490b",
+            "logoDark": "/logo/912skysport_Dark_Fit.png?checksum=62f6f90f-c9ce-4386-bb4c-e01a2edb6e64",
+            "logoDarkPadding": "/logo/912skysport_Dark_Padding.png?checksum=d847f8ad-61f5-4387-a917-8074ba068896",
+            "logoLight": "/logo/912skysport_Light_Padding.png?checksum=72a59e1c-4aad-4ae2-971b-f2878511490b",
+            "name": "Sky Sport",
+            "number": 256,
+            "servicekey": "912",
+            "category": {
+              "id": 6,
+              "name": "Sport e Calcio"
+            }
+          },
+          "content": {
+            "uuid": "cc7eb5fa-c449-473d-b850-03c118961d57",
+            "contentTitle": "Studi Tennis - Ep. 127 - Studio Tennis Wimbledon 05/07/2025",
+            "episodeNumber": 127,
+            "url": "/programmi-tv/tennis/studi-tennis-ep-127-studio-tennis-wimbledon-05-07-2025/cc7eb5fa-c449-473d-b850-03c118961d57",
+            "genre": {
+              "id": 2,
+              "name": "Sport"
+            },
+            "subgenre": {
+              "id": 17,
+              "name": "Tennis"
+            },
+            "imagesMap": [
+              {
+                "img": {
+                  "url": "/uuid/cc7eb5fa-c449-473d-b850-03c118961d57/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=48f8455d2096e8d793879c221a7fe6ea"
+                }
+              },
+              {
+                "key": "background",
+                "img": {
+                  "url": "/uuid/cc7eb5fa-c449-473d-b850-03c118961d57/background?territory=IT&md5ChecksumParam=30f498a58b21a82e8cabb338bdf75671"
+                }
+              },
+              {
+                "key": "cover",
+                "img": {
+                  "url": "/uuid/cc7eb5fa-c449-473d-b850-03c118961d57/cover?territory=IT&md5ChecksumParam=48f8455d2096e8d793879c221a7fe6ea"
+                }
+              },
+              {
+                "key": "scene",
+                "img": {
+                  "url": "/uuid/cc7eb5fa-c449-473d-b850-03c118961d57/16-9?territory=IT&md5ChecksumParam=daf9066c3bdba941e0b95cef2c6b45c1"
+                }
+              },
+              {
+                "key": "scene_key_art",
+                "img": {
+                  "url": "/uuid/cc7eb5fa-c449-473d-b850-03c118961d57/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=daf9066c3bdba941e0b95cef2c6b45c1"
+                }
+              }
+            ]
+          },
+          "eventId": "149589876",
+          "starttime": "2025-07-05T09:45:00Z",
+          "endtime": "2025-07-05T10:00:00Z",
+          "eventTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 05/07/2025",
+          "eventSynopsis": "Studio Tennis Wimbledon",
+          "epgEventTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 05/07/2025",
+          "programHighlights": "L",
+          "primeVision": false,
+          "ppvReferenceId": "921921",
+          "resolutions": [
+            {
+              "resolutionType": "resolution4k",
+              "value": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-07-06",
+      "events": []
+    },
+    {
+      "date": "2025-07-07",
+      "events": []
+    },
+    {
+      "date": "2025-07-08",
+      "events": []
+    },
+    {
+      "date": "2025-07-09",
+      "events": []
+    },
+    {
+      "date": "2025-07-10",
+      "events": []
+    },
+    {
+      "date": "2025-07-11",
+      "events": []
+    },
+    {
+      "date": "2025-07-12",
+      "events": []
+    },
+    {
+      "date": "2025-07-13",
+      "events": []
+    },
+    {
+      "date": "2025-07-14",
+      "events": []
+    },
+    {
+      "date": "2025-07-15",
+      "events": []
+    },
+    {
+      "date": "2025-07-16",
+      "events": []
+    },
+    {
+      "date": "2025-07-17",
+      "events": []
+    },
+    {
+      "date": "2025-07-18",
+      "events": []
+    },
+    {
+      "date": "2025-07-19",
+      "events": []
+    },
+    {
+      "date": "2025-07-20",
+      "events": []
+    },
+    {
+      "date": "2025-07-21",
+      "events": []
+    },
+    {
+      "date": "2025-07-22",
+      "events": []
+    },
+    {
+      "date": "2025-07-23",
+      "events": []
+    },
+    {
+      "date": "2025-07-24",
+      "events": []
+    },
+    {
+      "date": "2025-07-25",
+      "events": []
+    },
+    {
+      "date": "2025-07-26",
+      "events": []
+    },
+    {
+      "date": "2025-07-27",
+      "events": []
+    }
+  ]
+}
