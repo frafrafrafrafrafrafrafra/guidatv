@@ -1,0 +1,31 @@
+name: Rename JSON files replacing # with _
+
+on:
+  workflow_dispatch:
+
+jobs:
+  rename-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Rename files in output/guides replacing # with _
+        run: |
+          cd output/guides
+          for f in *\#*.json; do
+            newname="${f//\#/_}"
+            echo "Renaming '$f' to '$newname'"
+            git mv "$f" "$newname"
+          done
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "Rename files replacing # with _"
+          git push
+        # Non fallire se non ci sono cambiamenti da committare
+        continue-on-error:
+        true
