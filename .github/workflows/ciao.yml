@@ -12,6 +12,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Debug - Show directory structure
+        run: |
+          ls -R
+          pwd
+
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
@@ -23,7 +28,10 @@ jobs:
           pip install requests pytz
 
       - name: Run guide fetch script
-        run: python guidatv/output/guides/p.py  # Percorso corretto
+        run: |
+          cd guidatv/output/guides || cd output/guides || true
+          python p.py
+          cd -
 
       - name: Generate index.json
         run: |
@@ -31,20 +39,38 @@ jobs:
           import os
           import json
 
-          directory = 'guidatv/output/guides'  # Percorso corretto
+          paths_to_try = [
+              'guidatv/output/guides',
+              'output/guides',
+              'guides'
+          ]
+          
+          directory = None
+          for path in paths_to_try:
+              if os.path.exists(path):
+                  directory = path
+                  break
+          
+          if not directory:
+              raise FileNotFoundError("Nessuna directory delle guide trovata")
+          
           os.makedirs(directory, exist_ok=True)
           files = [f for f in os.listdir(directory) if f.endswith('.json') and f != 'index.json']
           files.sort()
           with open(os.path.join(directory, 'index.json'), 'w', encoding='utf-8') as f:
               json.dump(files, f, indent=2)
-          print(f'Creato index.json con {len(files)} file')
+          print(f'Creato index.json in {directory} con {len(files)} file')
           EOF
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add guidatv/output/guides/  # Percorso corretto
+          
+          # Prova a aggiungere file da possibili percorsi
+          git add guidatv/output/guides/*.json || git add output/guides/*.json || git add guides/*.json || true
+          git add guidatv/output/guides/index.json || git add output/guides/index.json || git add guides/index.json || true
+          
           if git diff --cached --quiet; then
             echo "Nessun cambiamento da commitare"
           else
