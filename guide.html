@@ -74,17 +74,22 @@
       margin: 20px 0;
     }
     .date-navigation button {
-      background: #3498db;
-      color: white;
+      background: transparent;
+      color: black;
       border: none;
-      padding: 8px 16px;
-      border-radius: 4px;
+      padding: 8px 12px;
+      font-size: 24px;
       cursor: pointer;
       margin: 0 10px;
+      user-select: none;
+      transition: color 0.2s ease;
+    }
+    .date-navigation button:hover:not(:disabled) {
+      color: #555;
     }
     .date-navigation button:disabled {
-      background: #bdc3c7;
-      cursor: not-allowed;
+      color: #ccc;
+      cursor: default;
     }
     .current-date {
       font-weight: bold;
@@ -106,9 +111,9 @@
           <input type="text" id="search-input" placeholder="Cerca programmi...">
         </div>
         <div class="date-navigation">
-          <button id="prev-day">◀ Giorno precedente</button>
+          <button id="prev-day" aria-label="Giorno precedente">◀</button>
           <div class="current-date" id="current-date"></div>
-          <button id="next-day">Giorno successivo ▶</button>
+          <button id="next-day" aria-label="Giorno successivo">▶</button>
         </div>
         <div id="programs-container"></div>
       </div>
@@ -185,7 +190,7 @@
           programElem.className = 'program';
           programElem.innerHTML = `
             <div class="program-time">
-              ${startTime.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})} - 
+              ${startTime.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})} -
               ${endTime.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
             </div>
             <div class="program-title">${program.eventTitle}</div>
@@ -214,8 +219,8 @@
           showError("Parametro site_id mancante nell'URL");
           return;
         }
-        channelNameElem.textContent = channelName;
 
+        channelNameElem.textContent = channelName;
         // Percorso JSON corretto con underscore
         const jsonPath = `output/guides/${encodeURIComponent(siteId)}.json`;
 
