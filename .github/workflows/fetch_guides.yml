@@ -2,13 +2,12 @@ name: Fetch Guides Every 2 Days
 
 on:
   schedule:
-    - cron: '0 0 */2 * *'   # Ogni 7 giorni a mezzanotte UTC
+    - cron: '0 0 */2 * *'  # Ogni 2 giorni a mezzanotte UTC
   workflow_dispatch:        # Permette anche avvio manuale
 
 jobs:
   fetch-guides:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -32,7 +31,10 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add output
+          # Solo se ci sono modifiche
           git diff --cached --quiet || git commit -m "Update guide.json - $(date +'%Y-%m-%d')"
+          # Integra eventuali cambiamenti da remoto
+          git pull --rebase origin main
           git push origin HEAD:main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
