@@ -24,8 +24,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "Rename files replacing # with _"
+          git diff --cached --quiet || git commit -m "Rename files replacing # with _"
           git push
-        # Non fallire se non ci sono cambiamenti da committare
-        continue-on-error:
-        true
