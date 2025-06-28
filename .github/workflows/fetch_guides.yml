@@ -31,7 +31,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add output/guide.json
+          git add output
           git diff --cached --quiet || git commit -m "Update guide.json - $(date +'%Y-%m-%d')"
           git push origin HEAD:main
         env:
