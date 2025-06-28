@@ -2,33 +2,25 @@ name: Update Guide Files
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 1 * * *'  # ogni giorno alle 1:00 UTC
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
-
     - name: Setup Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
-
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install requests pytz
-
     - name: Run script to fetch guides
       run: python p.py
-
     - name: Generate index.json
       run: |
-        python -c "
-import os, json
+        python -c "import os, json
 directory = 'output/guides'
 files = [f for f in os.listdir(directory) if f.endswith('.json') and f != 'index.json']
 files.sort()
@@ -36,7 +28,6 @@ with open(f'{directory}/index.json', 'w', encoding='utf-8') as f:
     json.dump(files, f, indent=2)
 print(f'Creato index.json con {len(files)} file')
         "
-
     - name: Commit and push changes
       run: |
         git config user.name "github-actions[bot]"
@@ -45,5 +36,4 @@ print(f'Creato index.json con {len(files)} file')
         git commit -m "Aggiornamento guide e index.json"
         git push
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_
-        TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
