@@ -1,3 +1,4 @@
+orEach(item =>
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -9,9 +10,25 @@
       font-family: Arial, sans-serif;
       margin: 20px;
       background: #f9f9f9;
+      color: #333;
     }
     h1 {
       text-align: center;
+      margin-bottom: 10px;
+    }
+    #search-container {
+      max-width: 600px;
+      margin: 0 auto 20px auto;
+      text-align: center;
+    }
+    #search-input {
+      width: 100%;
+      max-width: 600px;
+      padding: 8px 12px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
     }
     ul {
       list-style: none;
@@ -22,22 +39,68 @@
     li {
       background: white;
       margin: 8px 0;
-      padding: 12px;
+      padding: 10px 15px;
       border-radius: 5px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      box-shadow: 0 2px 5px rgb(0 0 0 / 0.05);
+      transition: background-color 0.2s ease;
+    }
+    li:hover {
+      background-color: #f0f8ff;
     }
     a {
       text-decoration: none;
       color: #333;
       font-weight: bold;
+      flex-grow: 1;
     }
     a:hover {
       color: #0077cc;
+    }
+    .logo {
+      width: 48px;
+      height: 48px;
+      object-fit: contain;
+      flex-shrink: 0;
+      border-radius: 5px;
+      background: #fff;
+      box-shadow: 0 0 5px rgb(0 0 0 / 0.1);
+    }
+    .loading {
+      text-align: center;
+      margin: 30px 0;
+      font-size: 18px;
+      color: #666;
+    }
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      font-size: 0.9em;
+      color: #666;
+      border-top: 1px solid #ccc;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
   <h1>Seleziona un canale</h1>
-  <ul id="channel-list"></ul>
+
+  <div id="search-container">
+    <input
+      type="text"
+      id="search-input"
+      placeholder="Cerca un canale..."
+      aria-label="Cerca un canale"
+    />
+  </div>
+
+  <div id="loading" class="loading">Caricamento loghi e canali...</div>
+  <ul id="channel-list" style="display:none;"></ul>
+
+  <footer>Powered by 🐯</footer>
+
   <script>
     const CHANNELS = [
       {"name":"CNBC HD","site_id":"DTH_10713"},
@@ -209,15 +272,66 @@
       {"name":"ZONA DAZN","site_id":"DTH_11402"}
     ];
 
-    const list = document.getElementById('channel-list');
-    CHANNELS.forEach(ch => {
-      const li = document.createElement('li');
-      li.innerHTML = `<a href="guide.html?site_id=${encodeURIComponent(ch.site_id)}&name=${encodeURIComponent(ch.name)}">${ch.name}</a>`;
-      list.appendChild(li);
-    });
-  </script>
-  <footer style="text-align:center; padding:10px 0; font-size:0.9em; color:#666; border-top:1px solid #ccc; margin-top:20px;">
-    Powered by 🐯
-  </footer>
-</body>
-</html>
+    const channelList = document.getElementById('channel-list');
+    const loadingElem = document.getElementById('loading');
+    const searchInput = document.getElementById('search-input');
+
+    // Memorizziamo i li creati per il filtro
+    const liItems = [];
+
+    async function loadChannelLogo(site_id) {
+      try {
+        const url = `output/guides/${encodeURIComponent(site_id)}.json`;
+        const response = await fetch(url);
+        if (!response.ok) throw new Error('Non trovato');
+
+        const data = await response.json();
+
+        if (data.events_by_date?.length > 0) {
+          const firstDate = data.events_by_date[0];
+          if (firstDate.events?.length > 0) {
+            const firstEvent = firstDate.events[0];
+            if (firstEvent.channel?.logo) {
+              return firstEvent.channel.logo;
+            }
+          }
+        }
+        return null;
+      } catch (e) {
+        return null;
+      }
+    }
+
+    async function buildChannelList() {
+      for (const ch of CHANNELS) {
+        const li = document.createElement('li');
+
+        const logoUrl = await loadChannelLogo(ch.site_id);
+
+        const img = document.createElement('img');
+        img.className = 'logo';
+        img.alt = `${ch.name} logo`;
+        if (logoUrl) {
+          img.src = logoUrl;
+        } else {
+          img.src = 'https://via.placeholder.com/48?text=NO';
+        }
+
+        const a = document.createElement('a');
+        a.href = `guide.html?site_id=${encodeURIComponent(ch.site_id)}&name=${encodeURIComponent(ch.name)}`;
+        a.textContent = ch.name;
+
+        li.appendChild(img);
+        li.appendChild(a);
+
+        channelList.appendChild(li);
+        liItems.push({element: li, name: ch.name.toLowerCase()});
+      }
+
+      loadingElem.style.display = 'none';
+      channelList.style.display = 'block';
+    }
+
+    function filterChannels(query) {
+      const q = query.trim().toLowerCase();
+      liItems.forEach(item =>
