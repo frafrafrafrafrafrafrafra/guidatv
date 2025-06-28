@@ -1,8 +1,8 @@
-name: Fetch Guides Every 7 Days
+name: Fetch Guides Every 2 Days
 
 on:
   schedule:
-    - cron: '0 0 */7 * *'   # Ogni 7 giorni a mezzanotte UTC
+    - cron: '0 0 */2 * *'   # Ogni 7 giorni a mezzanotte UTC
   workflow_dispatch:        # Permette anche avvio manuale
 
 jobs:
