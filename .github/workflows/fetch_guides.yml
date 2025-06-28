@@ -1,21 +1,19 @@
-name: Fetch TV Guides
+name: Fetch Guides Every 7 Days
 
 on:
   schedule:
-    # Ogni 7 giorni, alle 2:00 UTC (puoi cambiare)
-    - cron: '0 2 */7 * *'
-
-  workflow_dispatch: # permette di avviare manualmente
+    - cron: '0 0 */7 * *'   # Ogni 7 giorni a mezzanotte UTC
+  workflow_dispatch:        # Permette anche avvio manuale
 
 jobs:
   fetch-guides:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
@@ -23,19 +21,18 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests pytz
+          pip install pytz requests
 
-      - name: Run fetch script
-        run: python fetch_guides.py
-
-      - name: Commit and push guides
+      - name: Run fetch_guides.py
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add guides/
-          git commit -m "Aggiornamento automatico guida TV $(date +'%Y-%m-%d')"
-          git push
+          python fetch_guides.py
+
+      - name: Commit and push updated guides.json
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add guides.json
+          git diff --cached --quiet || git commit -m "Update guides.json - $(date +'%Y-%m-%d')"
+          git push origin HEAD:main
         env:
-          # Se usi un token personalizzato, definiscilo qui:
-          # GITHUB_TOKEN: ${{ secrets.GITHUB_
-          TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
