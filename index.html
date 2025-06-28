@@ -3,20 +3,41 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Guida TV - Canali</title>
+  <title>Guida TV 🐯</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; background: #f9f9f9; }
-    h1 { text-align: center; }
-    ul { list-style: none; padding: 0; max-width: 600px; margin: 0 auto; }
-    li { background: white; margin: 8px 0; padding: 12px; border-radius: 5px; }
-    a { text-decoration: none; color: #333; font-weight: bold; }
-    a:hover { color: #0077cc; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    li {
+      background: white;
+      margin: 8px 0;
+      padding: 12px;
+      border-radius: 5px;
+    }
+    a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    a:hover {
+      color: #0077cc;
+    }
   </style>
 </head>
 <body>
   <h1>Seleziona un canale</h1>
   <ul id="channel-list"></ul>
-
   <script>
     fetch('channels.json')
       .then(response => response.json())
@@ -29,7 +50,6 @@
         });
       });
   </script>
-
   <footer style="text-align:center; padding:10px 0; font-size:0.9em; color:#666; border-top:1px solid #ccc; margin-top:20px;">
     Powered by 🐯
   </footer>
