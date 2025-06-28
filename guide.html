@@ -1,5 +1,3 @@
-/body>
-</html>
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -22,6 +20,11 @@
     button {
       margin: 0 5px;
       padding: 5px 10px;
+      cursor: pointer;
+    }
+    button:disabled {
+      opacity: 0.5;
+      cursor: default;
     }
     #programs {
       max-width: 800px;
@@ -32,48 +35,55 @@
       border-radius: 5px;
       padding: 10px;
       margin: 5px 0;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     }
     .time {
       font-weight: bold;
       margin-right: 10px;
+      color: #333;
     }
     #search-input {
-      margin: 10px auto;
+      margin: 10px auto 20px auto;
       display: block;
       max-width: 300px;
       padding: 5px;
-    }
-    .error {
-      color: red;
-      text-align: center;
-      margin-top: 20px;
+      font-size: 1em;
+      border-radius: 4px;
+      border: 1px solid #ccc;
     }
   </style>
 </head>
 <body>
   <div id="header">
-    <h1 id="channel-name"></h1>
+    <h1 id="channel-name">Caricamento...</h1>
     <div id="date-controls">
-      <button id="prev-day">◀</button>
+      <button id="prev-day" title="Giorno precedente">◀</button>
       <span id="current-date"></span>
-      <button id="next-day">▶</button>
+      <button id="next-day" title="Giorno successivo">▶</button>
     </div>
     <input type="text" id="search-input" placeholder="Cerca nel palinsesto..." />
   </div>
+
   <div id="programs"></div>
 
   <script>
+    // Parametri URL
     const urlParams = new URLSearchParams(window.location.search);
-    const site_id = urlParams.get('site_id'); // es. "DTH#10713"
-    const channel_name = urlParams.get('name') || 'Canale';
+    const site_id = urlParams.get('site_id');
+    const channel_name = urlParams.get('name') || "Canale sconosciuto";
+
     const maxDays = 30;
     let currentDate = new Date();
-    document.getElementById('channel-name').textContent = channel_name;
+
     const programsDiv = document.getElementById('programs');
     const currentDateSpan = document.getElementById('current-date');
     const prevDayBtn = document.getElementById('prev-day');
     const nextDayBtn = document.getElementById('next-day');
     const searchInput = document.getElementById('search-input');
+    const channelNameElem = document.getElementById('channel-name');
+
+    channelNameElem.textContent = channel_name;
+
     let allPrograms = [];
 
     function formatDate(d) {
@@ -82,6 +92,7 @@
       const day = d.getDate().toString().padStart(2, '0');
       return `${y}-${m}-${day}`;
     }
+
     function formatReadableDate(d) {
       return d.toLocaleDateString('it-IT', {
         weekday: 'long',
@@ -90,42 +101,35 @@
         day: 'numeric'
       });
     }
+
     function updateTitle() {
       const formattedDate = formatReadableDate(currentDate);
       document.title = `Guida TV - ${channel_name} - ${formattedDate}`;
     }
+
     function showPrograms(dayPrograms, searchTerm = '') {
       programsDiv.innerHTML = '';
       if (!dayPrograms || dayPrograms.length === 0) {
         programsDiv.innerHTML = '<p>Nessun programma trovato.</p>';
         return;
       }
-      let filtered = dayPrograms.filter(p =>
-        (p.title || p.eventTitle || '').toLowerCase().includes(searchTerm.toLowerCase())
+      const filtered = dayPrograms.filter(p =>
+        p.eventTitle.toLowerCase().includes(searchTerm.toLowerCase())
       );
       if (filtered.length === 0) {
         programsDiv.innerHTML = '<p>Nessun programma trovato per la ricerca.</p>';
         return;
       }
       filtered.forEach(prog => {
-        // gestione dei nomi di campo: adattato a "start" e "end" o "starttime"/"endtime"
-        const startStrRaw = prog.start || prog.starttime || '';
-        const stopStrRaw = prog.end || prog.endtime || '';
-
-        const start = startStrRaw ? new Date(startStrRaw) : null;
-        const stop = stopStrRaw ? new Date(stopStrRaw) : null;
-
-        const startStr = start ? start.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) : '';
-        const stopStr = stop ? stop.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) : '';
-
-        const title = prog.title || prog.eventTitle || 'Senza titolo';
-        const synopsis = prog.synopsis || prog.eventSynopsis || '';
-
+        const start = new Date(prog.starttime);
+        const stop = new Date(prog.endtime);
+        const startStr = start.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+        const stopStr = stop.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
         const div = document.createElement('div');
         div.className = 'program';
-        div.innerHTML = `<span class="time">[${startStr} - ${stopStr}]</span> ${title}`;
-        if (synopsis) {
-          div.innerHTML += `<br><small>${synopsis}</small>`;
+        div.innerHTML = `<span class="time">[${startStr} - ${stopStr}]</span> ${prog.eventTitle}`;
+        if (prog.eventSynopsis) {
+          div.innerHTML += `<br><small>${prog.eventSynopsis}</small>`;
         }
         programsDiv.appendChild(div);
       });
@@ -151,53 +155,40 @@
       currentDate.setDate(currentDate.getDate() - 1);
       updateView();
     });
+
     nextDayBtn.addEventListener('click', () => {
       currentDate.setDate(currentDate.getDate() + 1);
       updateView();
     });
+
     searchInput.addEventListener('input', () => {
       updateView();
     });
 
-    // Carica output/guides/index.json e verifica se il file site_id.json esiste
-    async function loadGuide() {
-      if (!site_id) {
-        programsDiv.innerHTML = '<p class="error">Parametro site_id mancante nell\'URL</p>';
-        return;
-      }
-
-      try {
-        const indexResp = await fetch('output/guides/index.json');
-        if (!indexResp.ok) throw new Error('Impossibile caricare index.json');
-
-        const guideFiles = await indexResp.json();
-        if (!Array.isArray(guideFiles) || guideFiles.length === 0) {
-          programsDiv.innerHTML = '<p class="error">Nessuna guida trovata in index.json</p>';
-          return;
-        }
-
-        // Controlla che il file site_id.json esista nella lista
-        const filename = `${site_id}.json`;
-        if (!guideFiles.includes(filename)) {
-          programsDiv.innerHTML = `<p class="error">Guida per "${site_id}" non trovata.</p>`;
-          return;
-        }
-
-        // Carica il file JSON della guida
-        const guideResp = await fetch(`output/guides/${filename}`);
-        if (!guideResp.ok) throw new Error(`Impossibile caricare ${filename}`);
-
-        const guideData = await guideResp.json();
-        allPrograms = guideData.events_by_date || [];
-
-        updateView();
-      } catch (e) {
-        console.error('Errore caricamento guide:', e);
-        programsDiv.innerHTML = `<p class="error">Errore caricamento guida: ${e.message}</p>`;
-      }
+    if (!site_id) {
+      programsDiv.innerHTML = '<p>Parametro site_id mancante o non valido nell\'URL.</p>';
+      channelNameElem.textContent = "Errore: Canale non specificato";
+    } else {
+      // Uso encodeURIComponent per permettere # e altri caratteri speciali nel nome file
+      const jsonPath = `guides/${encodeURIComponent(site_id)}.json`;
+      fetch(jsonPath)
+        .then(response => {
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          return response.json();
+        })
+        .then(data => {
+          if (!data.events_by_date) {
+            programsDiv.innerHTML = '<p>Formato dati non corretto.</p>';
+            return;
+          }
+          allPrograms = data.events_by_date;
+          updateView();
+        })
+        .catch(err => {
+          console.error('Errore caricamento JSON:', err);
+          programsDiv.innerHTML = `<p>Impossibile caricare il palinsesto per ${channel_name}.</p>`;
+        });
     }
-
-    window.onload = loadGuide;
   </script>
 
   <footer style="text-align:center; padding:10px 0; font-size:0.9em; color:#666; border-top:1px solid #ccc; margin-top:20px;">
