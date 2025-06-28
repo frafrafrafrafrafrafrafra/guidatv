@@ -1,9 +1,10 @@
 import requests
 import json
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 import pytz
+import os
 
-# Lista canali (escluso canale DTH#11386 che dà problemi)
+# Lista completa dei canali senza "DTH#11386"
 CHANNELS = [
     {"name":"CNBC HD","site_id":"DTH#10713"},
     {"name":"Sky Crime","site_id":"DTH#11216"},
@@ -138,6 +139,7 @@ CHANNELS = [
     {"name":"Sky Nature","site_id":"DTH#11242"},
     {"name":"Sky Nature","site_id":"DTH#11245"},
     {"name":"Sky Serie","site_id":"DTH#11244"},
+    # Qui togliamo "Sky Sport" DTH#11386 perché dava problemi
     {"name":"Sky Sport 4K","site_id":"DTH#10013"},
     {"name":"Sky Sport","site_id":"DTH#9046"},
     {"name":"Sky Sport","site_id":"DTH#8613"},
@@ -174,216 +176,64 @@ CHANNELS = [
     {"name":"ZONA DAZN","site_id":"DTH#11402"},
 ]
 
-# Fuso orario Roma
-ROME_TZ = pytz.timezone('Europe/Rome')
-
-def format_date_rome(dt: datetime) -> str:
-    """Formatta la data in ISO 8601 Zulu (UTC) con conversione da Roma."""
-    dt_rome = ROME_TZ.localize(dt.replace(tzinfo=None))
-    dt_utc = dt_rome.astimezone(timezone.utc)
-    return dt_utc.strftime('%Y-%m-%dT%H:%M:%SZ')
-
-def fetch_guide_for_day(env: str, channel_id: str, day_rome: datetime):
-    """Scarica i programmi per un singolo giorno, con gestione errori."""
-    from_str = format_date_rome(day_rome.replace(hour=0, minute=0, second=0, microsecond=0))
-    to_str = format_date_rome(day_rome.replace(hour=23, minute=59, second=59, microsecond=999999))
-    url = f"https://apid.sky.it/gtv/v1/events?from={from_str}&to={to_str}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
-    try:
-        resp = requests.get(url, timeout=20)
-        resp.raise_for_status()
-        data = resp.json()
-        events = data.get('events', [])
-        return events
-    except Exception as e:
-        print(f"Errore fetch canale {channel_id} giorno {day_rome.date()}: {e}")
-        return []
-
-def fetch_month_guide(env: str, channel_id: str, start_date_rome: datetime, days=30):
-    """Scarica il palinsesto di un canale per più giorni."""
-    month_guide = []
-    for i in range(days):
-        day = start_date_rome + timedelta(days=i)
-        events = fetch_guide_for_day(env, channel_id, day)
-        month_guide.append({
-            'date': day.strftime('%Y-%m-%d'),
-            'events': events
-        })
-    return month_guide
-
-def main():
-    start_date_rome = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
-    full_guide = {}
-
-    for ch in CHANNELS:
-        env, channel_id = ch['site_id'].split('#')
-        print(f"Fetching {ch['name']} ({ch['site_id']})")
-        guide = fetch_month_guide(env, channel_id, start_date_rome, days=30)
-        full_guide[ch['name']] = guide
-
-    # Salva su file JSON
-    with open('guide_data.json', 'w', encoding='utf-8') as f:
-        json.dump(full_guide, f, ensure_ascii=False, indent=2)
-
-if __name__ == "__main__":
-    main()
-te_id":"DTH#7968"},
-    {"name":"France 24 Francais HD","site_id":"DTH#5119"},
-    {"name":"-frisbee-","site_id":"DTH#6610"},
-    {"name":"Gambero Rosso HD","site_id":"DTH#9099"},
-    {"name":"Gambero Rosso HD","site_id":"DTH#11055"},
-    {"name":"GIALLO HD","site_id":"DTH#8131"},
-    {"name":"HGTV HD","site_id":"DTH#11154"},
-    {"name":"History HD","site_id":"DTH#9101"},
-    {"name":"History +1","site_id":"DTH#123"},
-    {"name":"Horse TV HD","site_id":"DTH#6611"},
-    {"name":"i24news","site_id":"DTH#8273"},
-    {"name":"Inter TV","site_id":"DTH#9893"},
-    {"name":"Iris HD","site_id":"DTH#10467"},
-    {"name":"Italia 1 HD","site_id":"DTH#10454"},
-    {"name":"Mediaset Italia2 HD","site_id":"DTH#10469"},
-    {"name":"K2","site_id":"DTH#6240"},
-    {"name":"LA7D","site_id":"DTH#6624"},
-    {"name":"LA7 HD","site_id":"DTH#319"},
-    {"name":"La 5 HD","site_id":"DTH#10466"},
-    {"name":"Lazio Style HD","site_id":"DTH#7527"},
-    {"name":"MTV HD","site_id":"DTH#9195"},
-    {"name":"MTV Music","site_id":"DTH#528"},
-    {"name":"MTV Music","site_id":"DTH#11054"},
-    {"name":"Mediaset Extra HD","site_id":"DTH#10465"},
-    {"name":"Milan TV","site_id":"DTH#9513"},
-    {"name":"Motor Trend HD","site_id":"DTH#8130"},
-    {"name":"Nick Jr","site_id":"DTH#461"},
-    {"name":"Nick Jr +1","site_id":"DTH#6701"},
-    {"name":"Nickelodeon","site_id":"DTH#320"},
-    {"name":"Nickelodeon +1","site_id":"DTH#6140"},
-    {"name":"NOVE HD","site_id":"DTH#9753"},
-    {"name":"Caccia e PESCA","site_id":"DTH#6220"},
-    {"name":"QVC","site_id":"DTH#6626"},
-    {"name":"RTL 102.5 HD","site_id":"DTH#6885"},
-    {"name":"Radio Italia TV HD","site_id":"DTH#9833"},
-    {"name":"Radio Italia Trend Tv HD","site_id":"DTH#10033"},
-    {"name":"Radio Monte Carlo","site_id":"DTH#10993"},
-    {"name":"RADIONORBA TV","site_id":"DTH#8213"},
-    {"name":"RADIOFRECCIA HD","site_id":"DTH#10616"},
-    {"name":"Rai 1 HD","site_id":"DTH#899"},
-    {"name":"Rai 2 HD","site_id":"DTH#898"},
-    {"name":"Rai 3 HD","site_id":"DTH#897"},
-    {"name":"Rai 4","site_id":"DTH#6622"},
-    {"name":"Rai 5","site_id":"DTH#6607"},
-    {"name":"Rai Gulp","site_id":"DTH#6629"},
-    {"name":"Rai Movie","site_id":"DTH#6608"},
-    {"name":"Rai News 24","site_id":"DTH#895"},
-    {"name":"Rai Premium","site_id":"DTH#6623"},
-    {"name":"RAI Sport","site_id":"DTH#807"},
-    {"name":"Rai Storia","site_id":"DTH#6630"},
-    {"name":"Rai Yoyo","site_id":"DTH#6609"},
-    {"name":"Real Time HD","site_id":"DTH#8173"},
-    {"name":"Rete 4 HD","site_id":"DTH#10464"},
-    {"name":"San Marino RTV","site_id":"DTH#6861"},
-    {"name":"Sky Arte","site_id":"DTH#7767"},
-    {"name":"Sky Arte","site_id":"DTH#8473"},
-    {"name":"Sky Arte +1","site_id":"DTH#11276"},
-    {"name":"Sky Arte +1","site_id":"DTH#11277"},
-    {"name":"Sky Atlantic","site_id":"DTH#9095"},
-    {"name":"Sky Cinema Action","site_id":"DTH#9050"},
-    {"name":"Sky Cinema Comedy","site_id":"DTH#9039"},
-    {"name":"Sky Cinema Drama","site_id":"DTH#10518"},
-    {"name":"Sky Cinema Due","site_id":"DTH#9034"},
-    {"name":"Sky Cinema Due +24","site_id":"DTH#10517"},
-    {"name":"Sky Cinema Family","site_id":"DTH#9042"},
-    {"name":"Sky Cinema Romance","site_id":"DTH#9055"},
-    {"name":"Sky Cinema Suspense","site_id":"DTH#10515"},
-    {"name":"Sky Cinema Uno","site_id":"DTH#9044"},
-    {"name":"Sky Cinema Uno +24","site_id":"DTH#9037"},
-    {"name":"Sky Documentaries","site_id":"DTH#11239"},
-    {"name":"Sky Documentaries","site_id":"DTH#11241"},
-    {"name":"Sky Documentaries +1","site_id":"DTH#11240"},
-    {"name":"Sky Documentaries +1","site_id":"DTH#11243"},
-    {"name":"Sky Investigation","site_id":"DTH#11246"},
-    {"name":"Sky Investigation +1 HD","site_id":"DTH#11238"},
-    {"name":"Sky Meteo24","site_id":"DTH#321"},
-    {"name":"Sky Nature","site_id":"DTH#11242"},
-    {"name":"Sky Nature","site_id":"DTH#11245"},
-    {"name":"Sky Serie","site_id":"DTH#11244"},
-    {"name":"Sky Sport 4K","site_id":"DTH#10013"},
-    {"name":"Sky Sport","site_id":"DTH#11386"},
-    {"name":"Sky Sport","site_id":"DTH#9046"},
-    {"name":"Sky Sport","site_id":"DTH#8613"},
-    {"name":"Sky Sport","site_id":"DTH#615"},
-    {"name":"Sky Sport24","site_id":"DTH#929"},
-    {"name":"Sky Sport Arena","site_id":"DTH#7507"},
-    {"name":"Sky Sport Calcio","site_id":"DTH#9113"},
-    {"name":"Sky Sport F1","site_id":"DTH#9096"},
-    {"name":"Sky Sport Golf","site_id":"DTH#10254"},
-    {"name":"Sky Sport Max","site_id":"DTH#9103"},
-    {"name":"Sky Sport MotoGP","site_id":"DTH#8434"},
-    {"name":"Sky Sport NBA","site_id":"DTH#8753"},
-    {"name":"Sky Sport Tennis","site_id":"DTH#11237"},
-    {"name":"Sky Sport Uno","site_id":"DTH#8714"},
-    {"name":"TG24PrimoPiano","site_id":"DTH#6510"},
-    {"name":"Sky TG24","site_id":"DTH#9117"},
-    {"name":"Sky Uno","site_id":"DTH#9115"},
-    {"name":"Sky Uno +1","site_id":"DTH#9114"},
-    {"name":"Super!","site_id":"DTH#6460"},
-    {"name":"SuperTennis HD","site_id":"DTH#6000"},
-    {"name":"TG NORBA 24","site_id":"DTH#6481"},
-    {"name":"TgCom24 HD","site_id":"DTH#10473"},
-    {"name":"TRM h24","site_id":"DTH#9013"},
-    {"name":"TV8 HD","site_id":"DTH#8195"},
-    {"name":"TV2000 HD","site_id":"DTH#7588"},
-    {"name":"TOPcrime HD","site_id":"DTH#10468"},
-    {"name":"27Twentyseven HD","site_id":"DTH#11342"},
-    {"name":"VH1 HD","site_id":"DTH#10918"},
-    {"name":"Virgin Radio","site_id":"DTH#11344"},
-    {"name":"ZONA DAZN 2","site_id":"DTH#11401"},
-    {"name":"ZONA DAZN 3","site_id":"DTH#11403"},
-    {"name":"ZONA DAZN 4","site_id":"DTH#11405"},
-    {"name":"ZONA DAZN 5","site_id":"DTH#11404"},
-    {"name":"ZONA DAZN","site_id":"DTH#11402"},
-]
+OUTPUT_DIR = "output"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 ROME_TZ = pytz.timezone("Europe/Rome")
 
-def fetch_guide_for_day(env, channel_id, date):
-    from_str = date.strftime("%Y-%m-%dT00:00:00Z")
-    to_date = date + timedelta(days=1)
-    to_str = to_date.strftime("%Y-%m-%dT00:00:00Z")
-    url = f"https://apid.sky.it/gtv/v1/events?from={from_str}&to={to_str}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
+def fetch_guide_for_day(env, channel_id, day_rome):
+    start_dt_rome = ROME_TZ.localize(datetime(day_rome.year, day_rome.month, day_rome.day, 0, 0, 0))
+    end_dt_rome = start_dt_rome + timedelta(days=1)
+
+    start_utc = start_dt_rome.astimezone(pytz.utc)
+    end_utc = end_dt_rome.astimezone(pytz.utc)
+
+    url = (
+        f"https://apid.sky.it/gtv/v1/events?"
+        f"from={start_utc.strftime('%Y-%m-%dT%H:%M:%SZ')}&"
+        f"to={end_utc.strftime('%Y-%m-%dT%H:%M:%SZ')}&"
+        f"pageSize=999&pageNum=0&env={env}&channels={channel_id}"
+    )
     try:
-        resp = requests.get(url, timeout=15)
+        resp = requests.get(url, timeout=10)
         resp.raise_for_status()
         data = resp.json()
-        return data.get("events", [])
-    except requests.exceptions.RequestException as e:
-        print(f"Warning: errore fetch {channel_id} {date.strftime('%Y-%m-%d')}: {e}")
+        events = data.get("events", [])
+        return events
+    except Exception as e:
+        print(f"Errore fetch canale {channel_id} giorno {start_dt_rome.date()}: {e}")
         return []
 
-def fetch_month_guide(env, channel_id, start_date, days=30):
+def fetch_month_guide(env, channel_id, start_date_rome, days=30):
     results = []
     for day_offset in range(days):
-        day = start_date + timedelta(days=day_offset)
+        day = start_date_rome + timedelta(days=day_offset)
         events = fetch_guide_for_day(env, channel_id, day)
-        results.append({"date": day.strftime("%Y-%m-%d"), "events": events})
+        results.append({
+            "date": day.strftime("%Y-%m-%d"),
+            "events": events
+        })
     return results
 
 def main():
-    now_rome = datetime.now(ROME_TZ)
-    start_date_rome = now_rome.replace(hour=0, minute=0, second=0, microsecond=0)
+    start_date_rome = datetime.now(tz=ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
+    output = []
 
-    all_data = {}
-    for channel in CHANNELS:
-        env, channel_id = channel["site_id"].split("#")
-        print(f"Scaricando guida per {channel['name']} ({channel_id})...")
-        month_guide = fetch_month_guide(env, channel_id, start_date_rome, days=30)
-        all_data[channel_id] = {
-            "name": channel["name"],
-            "env": env,
-            "site_id": channel["site_id"],
-            "guide": month_guide
-        }
-    with open("guides.json", "w", encoding="utf-8") as f:
-        json.dump(all_data, f, ensure_ascii=False, indent=2)
-    print("Download completato, dati salvati in guides.json")
+    for ch in CHANNELS:
+        env, channel_id = ch["site_id"].split("#")
+        print(f"Fetching {ch['name']} ({env}#{channel_id})")
+        guide = fetch_month_guide(env, channel_id, start_date_rome, days=30)
+        output.append({
+            "name": ch["name"],
+            "site_id": ch["site_id"],
+            "guide": guide
+        })
+
+    output_path = os.path.join(OUTPUT_DIR, "guides.json")
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+
+    print(f"Guide salvate in {output_path}")
 
 if __name__ == "__main__":
     main()
