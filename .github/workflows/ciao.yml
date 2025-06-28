@@ -4,18 +4,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-guides:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-
-      - name: Debug - Show directory structure
-        run: |
-          ls -R
-          pwd
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -27,55 +20,79 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests pytz
 
-      - name: Run guide fetch script
+      - name: Fetch guides and generate index.json
         run: |
-          cd guidatv/output/guides || cd output/guides || true
-          python p.py
-          cd -
+          python -c "
+import requests
+import json
+from datetime import datetime, timedelta
+import pytz
+import os
 
-      - name: Generate index.json
-        run: |
-          python <<EOF
-          import os
-          import json
+ROME_TZ = pytz.timezone('Europe/Rome')
+CHANNELS = [
+    {'name':'CNBC HD','site_id':'DTH#10713'},
+    {'name':'Sky Crime','site_id':'DTH#11216'},
+    # (qui puoi inserire tutti i canali come in p.py)
+    # Per brevità ne metto solo due, ma metti tutti quelli che ti servono
+]
 
-          paths_to_try = [
-              'guidatv/output/guides',
-              'output/guides',
-              'guides'
-          ]
-          
-          directory = None
-          for path in paths_to_try:
-              if os.path.exists(path):
-                  directory = path
-                  break
-          
-          if not directory:
-              raise FileNotFoundError("Nessuna directory delle guide trovata")
-          
-          os.makedirs(directory, exist_ok=True)
-          files = [f for f in os.listdir(directory) if f.endswith('.json') and f != 'index.json']
-          files.sort()
-          with open(os.path.join(directory, 'index.json'), 'w', encoding='utf-8') as f:
-              json.dump(files, f, indent=2)
-          print(f'Creato index.json in {directory} con {len(files)} file')
-          EOF
+def fetch_guide_for_channel(env, channel_id, start_date, days=30):
+    results = []
+    for day_offset in range(days):
+        date = start_date + timedelta(days=day_offset)
+        from_str = date.strftime('%Y-%m-%dT00:00:00Z')
+        to_date = date + timedelta(days=1)
+        to_str = to_date.strftime('%Y-%m-%dT00:00:00Z')
+        url = f'https://apid.sky.it/gtv/v1/events?from={from_str}&to={to_str}&pageSize=999&pageNum=0&env={env}&channels={channel_id}'
+        try:
+            response = requests.get(url, timeout=15)
+            response.raise_for_status()
+            data = response.json()
+            results.append({
+                'date': date.strftime('%Y-%m-%d'),
+                'events': data.get('events', [])
+            })
+            print(f'Fetched {channel_id} for {date.strftime('%Y-%m-%d')}')
+        except Exception as e:
+            print(f'Warning: errore fetch {channel_id} {date.strftime('%Y-%m-%d')}: {e}')
+            continue
+    return results
+
+def main():
+    now_rome = datetime.now(ROME_TZ)
+    start_date = now_rome.replace(hour=0, minute=0, second=0, microsecond=0)
+    os.makedirs('output/guides', exist_ok=True)
+
+    for ch in CHANNELS:
+        env_part, channel_id = ch['site_id'].split('#')
+        print(f'Fetching guide for {ch['name']} ({channel_id})...')
+        guide = fetch_guide_for_channel(env_part, channel_id, start_date)
+        out_path = f'output/guides/{ch['site_id']}.json'
+        with open(out_path, 'w', encoding='utf-8') as f:
+            json.dump({
+                'name': ch['name'],
+                'events_by_date': guide
+            }, f, indent=2, ensure_ascii=False)
+        print(f'Saved {out_path}')
+
+    # Genera index.json con lista file
+    files = [f for f in os.listdir('output/guides') if f.endswith('.json') and f != 'index.json']
+    files.sort()
+    with open('output/guides/index.json', 'w', encoding='utf-8') as f:
+        json.dump(files, f, indent=2, ensure_ascii=False)
+    print(f'Creato index.json con {len(files)} file')
+
+if __name__ == '__main__':
+    main()
+          "
 
       - name: Commit and push changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Prova a aggiungere file da possibili percorsi
-          git add guidatv/output/guides/*.json || git add output/guides/*.json || git add guides/*.json || true
-          git add guidatv/output/guides/index.json || git add output/guides/index.json || git add guides/index.json || true
-          
-          if git diff --cached --quiet; then
-            echo "Nessun cambiamento da commitare"
-          else
-            git commit -m "Aggiornamento automatico guide [skip ci]"
-            git push
-          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/guides/index.json output/guides/*.json
+          git diff --cached --quiet || git commit -m "Aggiornamento guide e index.json"
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
