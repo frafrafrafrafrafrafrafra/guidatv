@@ -9,9 +9,6 @@
       font-family: Arial, sans-serif;
       margin: 20px;
       background: #f9f9f9;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
     }
     h1 {
       text-align: center;
@@ -25,26 +22,30 @@
       margin-bottom: 20px;
     }
     .search-container {
-      max-width: 600px;
+      max-width: 90vw;
       margin: 0 auto 20px auto;
       display: flex;
-      justify-content: center; /* centra input orizzontalmente */
+      justify-content: center;
+      padding: 0 10px;
+      box-sizing: border-box;
     }
     #search-input {
       width: 100%;
-      max-width: 400px;
       padding: 10px;
       font-size: 16px;
       border-radius: 5px;
       border: 1px solid #ccc;
       box-sizing: border-box;
+      max-width: none;
     }
     ul {
       list-style: none;
       padding: 0;
-      max-width: 600px;
+      max-width: 90vw;
       margin: 0 auto;
       flex-grow: 1;
+      box-sizing: border-box;
+      padding: 0 10px;
     }
     li {
       background: white;
@@ -63,11 +64,10 @@
     }
     footer {
       text-align: center;
-      font-size: 0.9em;
-      color: #666;
-      padding: 15px 0 5px;
+      margin-top: 40px;
+      color: #777;
+      font-size: 14px;
       user-select: none;
-      margin-top: 20px;
     }
   </style>
 </head>
@@ -78,7 +78,9 @@
     <input type="text" id="search-input" placeholder="Cerca un canale..." />
   </div>
   <ul id="channel-list"></ul>
+
   <footer>Powered by 🐯</footer>
+
   <script>
     const CHANNELS = [
       {"name":"CNBC HD","site_id":"DTH_10713"},
@@ -249,7 +251,9 @@
       {"name":"ZONA DAZN 5","site_id":"DTH_11404"},
       {"name":"ZONA DAZN","site_id":"DTH_11402"}
     ];
+
     const list = document.getElementById('channel-list');
+
     function buildChannelList() {
       CHANNELS.forEach(ch => {
         const li = document.createElement('li');
@@ -261,6 +265,7 @@
         ch.element = li; // per filtro
       });
     }
+
     function filterChannels(query) {
       const q = query.trim().toLowerCase();
       CHANNELS.forEach(item => {
@@ -271,9 +276,11 @@
         }
       });
     }
+
     document.getElementById('search-input').addEventListener('input', e => {
       filterChannels(e.target.value);
     });
+
     buildChannelList();
   </script>
 </body>
