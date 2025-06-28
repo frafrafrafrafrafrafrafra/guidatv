@@ -178,7 +178,7 @@ CHANNELS = [
 ]
 
 
-def fetch_guide_for_channel(env, channel_id, start_date, days=30):
+def fetch_guide_for_channel(env, channel_id, start_date, days=60):
     results = []
     for day_offset in range(days):
         date = start_date + timedelta(days=day_offset)
