@@ -6,6 +6,7 @@ import os
 
 ROME_TZ = pytz.timezone("Europe/Rome")
 
+# TUTTI I TUOI CANALI PRECISI
 CHANNELS = [
     {"name":"CNBC HD","site_id":"DTH#10713"},
     {"name":"Sky Crime","site_id":"DTH#11216"},
@@ -199,28 +200,20 @@ def fetch_guide_for_channel(env, channel_id, start_date, days=30):
     return results
 
 def main():
-    # Ora di Roma mezzanotte per iniziare
     now_rome = datetime.now(ROME_TZ)
     start_date = now_rome.replace(hour=0, minute=0, second=0, microsecond=0)
-    env = "DTH"
-
-    all_guides = {}
+    os.makedirs("output/guides", exist_ok=True)
     for ch in CHANNELS:
         env_part, channel_id = ch["site_id"].split("#")
         print(f"Fetching guide for {ch['name']} ({channel_id})...")
         guide = fetch_guide_for_channel(env_part, channel_id, start_date)
-        all_guides[ch["site_id"]] = {
-            "name": ch["name"],
-            "events_by_date": guide
-        }
-
-    # Assicurati che output esista
-    os.makedirs("output", exist_ok=True)
-
-    with open("output/guide.json", "w", encoding="utf-8") as f:
-        json.dump(all_guides, f, indent=2, ensure_ascii=False)
-
-    print("Saved guide.json with all channels.")
+        out_path = f"output/guides/{ch['site_id']}.json"
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump({
+                "name": ch["name"],
+                "events_by_date": guide
+            }, f, indent=2, ensure_ascii=False)
+        print(f"Saved {out_path}")
 
 if __name__ == "__main__":
     main()
