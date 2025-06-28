@@ -103,7 +103,7 @@
       <div id="error-message" class="error" style="display: none;"></div>
       <div id="controls" style="display: none;">
         <div class="search-container">
-          <input type="text" id="search-input" placeholder="Cerca programmi..." />
+          <input type="text" id="search-input" placeholder="Cerca programmi...">
         </div>
         <div class="date-navigation">
           <button id="prev-day">◀ Giorno precedente</button>
@@ -114,10 +114,8 @@
       </div>
     </div>
   </div>
-
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      // Elementi DOM
       const channelNameElem = document.getElementById('channel-name');
       const loadingElem = document.getElementById('loading');
       const errorElem = document.getElementById('error-message');
@@ -128,17 +126,14 @@
       const nextDayBtn = document.getElementById('next-day');
       const currentDateElem = document.getElementById('current-date');
 
-      // Parametri URL
       const urlParams = new URLSearchParams(window.location.search);
-      const siteId = urlParams.get('site_id');
+      const siteId = urlParams.get('site_id'); // es: DTH_10013
       const channelName = urlParams.get('name') || "Canale sconosciuto";
 
-      // Variabili di stato
       let allPrograms = [];
       let currentDate = new Date();
       const maxDays = 30;
 
-      // Mostra errore
       function showError(message) {
         loadingElem.style.display = 'none';
         errorElem.style.display = 'block';
@@ -146,12 +141,10 @@
         controlsElem.style.display = 'none';
       }
 
-      // Formatta data come YYYY-MM-DD
       function formatDate(d) {
         return d.toISOString().split('T')[0];
       }
 
-      // Formatta data leggibile
       function formatReadableDate(d) {
         return d.toLocaleDateString('it-IT', {
           weekday: 'long',
@@ -161,7 +154,6 @@
         });
       }
 
-      // Mostra i programmi per la data corrente
       function showPrograms(searchTerm = '') {
         const dayStr = formatDate(currentDate);
         const dayPrograms = allPrograms.find(d => d.date === dayStr)?.events || [];
@@ -199,20 +191,17 @@
             <div class="program-title">${program.eventTitle}</div>
             ${program.eventSynopsis ? `<div class="program-synopsis">${program.eventSynopsis}</div>` : ''}
           `;
-
           programsContainer.appendChild(programElem);
         });
       }
 
-      // Aggiorna la vista
       function updateView() {
         currentDateElem.textContent = formatReadableDate(currentDate);
         document.title = `${channelName} - ${formatReadableDate(currentDate)}`;
         showPrograms(searchInput.value);
 
-        // Disabilita pulsanti se necessario
         const today = new Date();
-        today.setHours(0, 0, 0, 0);
+        today.setHours(0,0,0,0);
         prevDayBtn.disabled = currentDate <= today;
 
         const maxDate = new Date();
@@ -220,29 +209,23 @@
         nextDayBtn.disabled = currentDate >= maxDate;
       }
 
-      // Carica i dati del canale
       function loadChannelData() {
         if (!siteId) {
-          showError('Parametro site_id mancante nell\'URL');
+          showError("Parametro site_id mancante nell'URL");
           return;
         }
         channelNameElem.textContent = channelName;
 
-        // Usa siteId così com'è per il path (senza encodeURIComponent)
-        const jsonPath = `output/guides/${siteId}.json`;
+        // Percorso JSON corretto con underscore
+        const jsonPath = `output/guides/${encodeURIComponent(siteId)}.json`;
 
         fetch(jsonPath)
           .then(response => {
-            if (!response.ok) {
-              throw new Error(`Errore ${response.status}: ${response.statusText}`);
-            }
+            if (!response.ok) throw new Error(`Errore ${response.status}: ${response.statusText}`);
             return response.json();
           })
           .then(data => {
-            if (!data.events_by_date) {
-              throw new Error('Formato dati non valido: events_by_date mancante');
-            }
-
+            if (!data.events_by_date) throw new Error("Formato dati non valido: events_by_date mancante");
             allPrograms = data.events_by_date;
             loadingElem.style.display = 'none';
             controlsElem.style.display = 'block';
@@ -254,7 +237,6 @@
           });
       }
 
-      // Event listeners
       prevDayBtn.addEventListener('click', () => {
         currentDate.setDate(currentDate.getDate() - 1);
         updateView();
@@ -269,7 +251,6 @@
         updateView();
       });
 
-      // Inizia il caricamento
       loadChannelData();
     });
   </script>
