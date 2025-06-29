@@ -13,16 +13,14 @@ ROME_TZ = pytz.timezone("Europe/Rome")
 SCRAPE_CHANNELS = {
     "boing": "Boing.it",
     "cartoonito": "Cartoonito.it",
-    "Rai 1 HD": "Rai 1 HD"
 }
 
 SCRAPE_SITE_IDS = {
     "boing": "DTH#6628",
     "cartoonito": "DTH#8132",
-    "Rai 1 HD": "DTH#899",
 }
 
-# Inserisci qui la tua lista CHANNELS (omessa per brevità)
+# Inserisci qui la tua lista CHANNELS
 CHANNELS = [
     {"name": "27Twentyseven HD", "site_id": "DTH#11342"},
     {"name": "20Mediaset HD", "site_id": "DTH#10458"},
@@ -102,6 +100,7 @@ CHANNELS = [
     {"name": "Radio Monte Carlo", "site_id": "DTH#10993"},
     {"name": "RADIONORBA TV", "site_id": "DTH#8213"},
     {"name": "RADIOFRECCIA HD", "site_id": "DTH#10616"},
+    {"name": "Rai 1 HD", "site_id": "DTH#899"},
     {"name": "Rai 2 HD", "site_id": "DTH#898"},
     {"name": "Rai 3 HD", "site_id": "DTH#897"},
     {"name": "Rai 4", "site_id": "DTH#6622"},
@@ -195,7 +194,6 @@ def fetch_epg_guide_xml():
 
 def parse_epg_guide_xml(xml_data, channel_id):
     root = ET.fromstring(xml_data)
-    now_rome = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
     all_events = {}
 
     for prog in root.findall("programme"):
@@ -205,17 +203,22 @@ def parse_epg_guide_xml(xml_data, channel_id):
         start_str = prog.get("start")
         stop_str = prog.get("stop")
 
-        start_dt = datetime.strptime(start_str[:14], "%Y%m%d%H%M%S").replace(tzinfo=pytz.utc).astimezone(ROME_TZ)
-        stop_dt = datetime.strptime(stop_str[:14], "%Y%m%d%H%M%S").replace(tzinfo=pytz.utc).astimezone(ROME_TZ)
+        # Interpreta come ORARIO LOCALE (NON UTC)
+        start_dt = datetime.strptime(start_str[:14], "%Y%m%d%H%M%S")
+        stop_dt = datetime.strptime(stop_str[:14], "%Y%m%d%H%M%S")
+
+        # Assegna timezone Roma SENZA convertire
+        start_dt = ROME_TZ.localize(start_dt)
+        stop_dt = ROME_TZ.localize(stop_dt)
 
         date_key = start_dt.strftime("%Y-%m-%d")
-
         title_el = prog.find("title")
         desc_el = prog.find("desc")
         episode_el = prog.find("episode-num")
 
         title = title_el.text if title_el is not None else ""
         description = desc_el.text if desc_el is not None else ""
+
         if description.endswith("- EPG by epg-guide.com"):
             description = description[:-len("- EPG by epg-guide.com")].strip()
 
@@ -237,12 +240,14 @@ def parse_epg_guide_xml(xml_data, channel_id):
 
 def fetch_sky_guide(env, channel_id, now_rome, num_days):
     results = []
+
     for day_offset in range(num_days + 1):
         date = now_rome + timedelta(days=day_offset)
         date_str = date.strftime("%Y-%m-%d")
         from_str = date.strftime("%Y-%m-%dT00:00:00Z")
         to_str = (date + timedelta(days=1)).strftime("%Y-%m-%dT00:00:00Z")
         url = f"https://apid.sky.it/gtv/v1/events?from={from_str}&to={to_str}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
+
         try:
             response = requests.get(url, timeout=15)
             response.raise_for_status()
@@ -257,20 +262,23 @@ def fetch_sky_guide(env, channel_id, now_rome, num_days):
         except Exception as e:
             print(f"  ✗ Errore per {date_str}: {e}")
             continue
+
     return results
 
 def main():
-    # Numero di giorni da CLI (default 14)
+    # Numero di giorni da CLI (default 35)
     try:
         num_days = int(sys.argv[1])
     except (IndexError, ValueError):
         num_days = 35
 
     os.makedirs("output/guides", exist_ok=True)
+
     now_rome = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
 
     print("==> Inizio elaborazione Boing e Cartoonito da epg-guide.com")
     xml_data = fetch_epg_guide_xml()
+
     for ch_name, ch_id in SCRAPE_CHANNELS.items():
         print(f"• Elaboro {ch_name} ({ch_id})...")
         events = parse_epg_guide_xml(xml_data, ch_id)
