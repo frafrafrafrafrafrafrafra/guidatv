@@ -1,8 +1,8 @@
-name: Fetch Guides Every 2 Days
+name: Fetch Guides Everyday
 
 on:
   schedule:
-    - cron: '0 0 */2 * *'  # Ogni 2 giorni a mezzanotte UTC
+    - cron: '0 0 */1 * *'  # Ogni giorno a mezzanotte UTC
   workflow_dispatch:       # Permette avvio manuale
 
 jobs:
@@ -12,60 +12,35 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        env:
-          ACTIONS_STEP_DEBUG: true  # Debug info checkout
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      - name: Show Python version and pip info
-        run: |
-          python --version
-          pip --version
-          pip list
-
       - name: Install dependencies
         run: |
-          set -ex
           python -m pip install --upgrade pip
           pip install pytz requests aiohttp beautifulsoup4
 
-      - name: Set proxy environment variables
+      - name: Run fetch_guides.py
         run: |
-          echo "HTTP_PROXY=http://38.250.126.201:999" >> $GITHUB_ENV
-          echo "HTTPS_PROXY=http://38.250.126.201:999" >> $GITHUB_ENV
-          echo "http_proxy=http://38.250.126.201:999" >> $GITHUB_ENV
-          echo "https_proxy=http://38.250.126.201:999" >> $GITHUB_ENV
-
-      - name: List directory files before run
-        run: ls -la
-
-      - name: Run fetch_guides.py with maximum debug
-        run: |
-          set -ex
           echo "🟢 Inizio esecuzione fetch_guides.py"
           python fetch_guides.py
           echo "✅ fetch_guides.py completato con successo"
 
-      - name: List output files after run
+      - name: List output files
         run: |
           echo "Contenuto della cartella output/guides:"
           ls -la output/guides || echo "Cartella output/guides non trovata"
-
-      - name: Show last 50 lines of logs (if any)
-        if: failure()
-        run: tail -n 50 output/guides/* || echo "Nessun file da mostrare"
 
       - name: Commit and push updated guides.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          set -ex
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add output
-          git diff --cached --quiet || git commit -m "Update guide.json - $(date +'%Y-%m-%d')"
+          git diff --cached --quiet || git commit -m "Updated guides - $(date +'%Y-%m-%d')"
           git pull --rebase origin main
           git push origin HEAD:main
