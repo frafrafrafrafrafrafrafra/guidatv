@@ -22,9 +22,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytz requests aiohttp
 
-      - name: Run fetch_guides.py (35 days)
+      - name: Run fetch_guides.py (40 days)
         run: |
-          python fetch_guides.py 35
+          python fetch_guides.py 40
 
       - name: Commit and push updated guides.json
         run: |
