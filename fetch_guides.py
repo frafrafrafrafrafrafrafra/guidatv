@@ -9,23 +9,21 @@ import re
 
 ROME_TZ = pytz.timezone("Europe/Rome")
 
-# Lista canali fetch Sky API (tutta tranne Boing e Cartoonito)
+# Lista completa dei canali Sky (come prima)
+import requests
+import json
+from datetime import datetime, timedelta
+import pytz
+import os
+import time
+from bs4 import BeautifulSoup
+import re
+
+ROME_TZ = pytz.timezone("Europe/Rome")
+
+# Lista completa di tutti i canali Sky (API)
 CHANNELS = [
-    {"name": "CNBC HD", "site_id": "DTH#10713"},
-    {"name": "Sky Crime", "site_id": "DTH#11216"},
-    {"name": "Sky Serie +1", "site_id": "DTH#11247"},
-    {"name": "Sky Sport", "site_id": "DTH#11490"},
-    {"name": "Sky Sport", "site_id": "DTH#11491"},
-    {"name": "Sky Sport", "site_id": "DTH#11492"},
-    {"name": "Sky Sport", "site_id": "DTH#11494"},
-    {"name": "Sky Sport", "site_id": "DTH#11496"},
-    {"name": "Sky Sport", "site_id": "DTH#11497"},
-    {"name": "Sky News", "site_id": "DTH#445"},
-    {"name": "Sky Sport", "site_id": "DTH#617"},
-    {"name": "NHK World TV HD", "site_id": "DTH#6862"},
-    {"name": "Sky Crime", "site_id": "DTH#8336"},
-    {"name": "Sky Atlantic +1", "site_id": "DTH#8453"},
-    {"name": "Heroes Collection", "site_id": "DTH#9047"},
+    {"name": "27Twentyseven HD", "site_id": "DTH#11342"},
     {"name": "20Mediaset HD", "site_id": "DTH#10458"},
     {"name": "ACI Sport Tv", "site_id": "DTH#7587"},
     {"name": "Al Jazeera Intl. HD", "site_id": "DTH#5113"},
@@ -34,12 +32,12 @@ CHANNELS = [
     {"name": "Bloomberg", "site_id": "DTH#349"},
     {"name": "Boomerang", "site_id": "DTH#472"},
     {"name": "Boomerang +1", "site_id": "DTH#479"},
+    {"name": "CNBC HD", "site_id": "DTH#10713"},
     {"name": "CNN Intl.", "site_id": "DTH#312"},
     {"name": "CACCIA e Pesca", "site_id": "DTH#520"},
     {"name": "Canale 5 HD", "site_id": "DTH#10354"},
     {"name": "Cartoon Network HD", "site_id": "DTH#9693"},
     {"name": "Cartoon +1", "site_id": "DTH#476"},
-    # Boing e Cartoonito rimossi
     {"name": "cielo", "site_id": "DTH#8133"},
     {"name": "Cine34 HD", "site_id": "DTH#10893"},
     {"name": "Class CNBC", "site_id": "DTH#308"},
@@ -66,7 +64,7 @@ CHANNELS = [
     {"name": "Fox News", "site_id": "DTH#446"},
     {"name": "France 24 English HD", "site_id": "DTH#7968"},
     {"name": "France 24 Francais HD", "site_id": "DTH#5119"},
-    {"name": "-frisbee-", "site_id": "DTH#6610"},
+    {"name": "frisbee", "site_id": "DTH#6610"},
     {"name": "Gambero Rosso HD", "site_id": "DTH#9099"},
     {"name": "Gambero Rosso HD", "site_id": "DTH#11055"},
     {"name": "GIALLO HD", "site_id": "DTH#8131"},
@@ -133,6 +131,8 @@ CHANNELS = [
     {"name": "Sky Cinema Suspense", "site_id": "DTH#10515"},
     {"name": "Sky Cinema Uno", "site_id": "DTH#9044"},
     {"name": "Sky Cinema Uno +24", "site_id": "DTH#9037"},
+    {"name": "Sky Crime", "site_id": "DTH#8336"},
+    {"name": "Sky Crime", "site_id": "DTH#11216"},
     {"name": "Sky Documentaries", "site_id": "DTH#11239"},
     {"name": "Sky Documentaries", "site_id": "DTH#11241"},
     {"name": "Sky Documentaries +1", "site_id": "DTH#11240"},
@@ -142,12 +142,21 @@ CHANNELS = [
     {"name": "Sky Meteo24", "site_id": "DTH#321"},
     {"name": "Sky Nature", "site_id": "DTH#11242"},
     {"name": "Sky Nature", "site_id": "DTH#11245"},
+    {"name": "Sky News", "site_id": "DTH#445"},
     {"name": "Sky Serie", "site_id": "DTH#11244"},
-    {"name": "Sky Sport 4K", "site_id": "DTH#10013"},
-    {"name": "Sky Sport", "site_id": "DTH#9046"},
-    {"name": "Sky Sport", "site_id": "DTH#8613"},
+    {"name": "Sky Serie +1", "site_id": "DTH#11247"},
+    {"name": "Sky Sport", "site_id": "DTH#617"},
     {"name": "Sky Sport", "site_id": "DTH#615"},
+    {"name": "Sky Sport", "site_id": "DTH#8613"},
+    {"name": "Sky Sport", "site_id": "DTH#9046"},
+    {"name": "Sky Sport", "site_id": "DTH#11490"},
+    {"name": "Sky Sport", "site_id": "DTH#11491"},
+    {"name": "Sky Sport", "site_id": "DTH#11492"},
+    {"name": "Sky Sport", "site_id": "DTH#11494"},
+    {"name": "Sky Sport", "site_id": "DTH#11496"},
+    {"name": "Sky Sport", "site_id": "DTH#11497"},
     {"name": "Sky Sport24", "site_id": "DTH#929"},
+    {"name": "Sky Sport 4K", "site_id": "DTH#10013"},
     {"name": "Sky Sport Arena", "site_id": "DTH#7507"},
     {"name": "Sky Sport Calcio", "site_id": "DTH#9113"},
     {"name": "Sky Sport F1", "site_id": "DTH#9096"},
@@ -157,7 +166,6 @@ CHANNELS = [
     {"name": "Sky Sport NBA", "site_id": "DTH#8753"},
     {"name": "Sky Sport Tennis", "site_id": "DTH#11237"},
     {"name": "Sky Sport Uno", "site_id": "DTH#8714"},
-    {"name": "TG24PrimoPiano", "site_id": "DTH#6510"},
     {"name": "Sky TG24", "site_id": "DTH#9117"},
     {"name": "Sky Uno", "site_id": "DTH#9115"},
     {"name": "Sky Uno +1", "site_id": "DTH#9114"},
@@ -169,7 +177,6 @@ CHANNELS = [
     {"name": "TV8 HD", "site_id": "DTH#8195"},
     {"name": "TV2000 HD", "site_id": "DTH#7588"},
     {"name": "TOPcrime HD", "site_id": "DTH#10468"},
-    {"name": "27Twentyseven HD", "site_id": "DTH#11342"},
     {"name": "VH1 HD", "site_id": "DTH#10918"},
     {"name": "Virgin Radio", "site_id": "DTH#11344"},
     {"name": "ZONA DAZN 2", "site_id": "DTH#11401"},
@@ -179,150 +186,206 @@ CHANNELS = [
     {"name": "ZONA DAZN", "site_id": "DTH#11402"},
 ]
 
-# Canali da scrape con parsing HTML (solo Boing e Cartoonito)
+# Canali da scrape con parsing HTML (Boing prima, poi Cartoonito)
 SCRAPE_CHANNELS = {
     "boing": "DTH#6628",
     "cartoonito": "DTH#8132",
 }
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
-                  "Chrome/114.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
     "Referer": "https://tvepg.eu/"
 }
 
-
 def get_working_proxy(
     proxy_list_url="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.txt",
-    test_url="https://tvepg.eu/it/italy/channel/boing/2025-06-20",
-    timeout=5
+    test_url="https://tvepg.eu/it/italy/channel/boing",
+    timeout=5,
+    max_proxies_to_try=30
 ):
-    print("Scarico lista proxy da txt e cerco proxy funzionante...")
+    """Ottiene un proxy funzionante dalla lista specificata"""
+    print("🔎 Ricerca proxy funzionante...")
+    
     try:
-        r = requests.get(proxy_list_url, timeout=10)
-        r.raise_for_status()
-        raw_text = r.text
+        # Scarica la lista proxy
+        response = requests.get(proxy_list_url, timeout=10)
+        response.raise_for_status()
+        raw_text = response.text
+        
+        # Estrai proxy con regex
+        proxy_pattern = r'(?:https?|socks[45])://\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d+'
+        proxies = re.findall(proxy_pattern, raw_text)
+        print(f"📡 Trovati {len(proxies)} proxy. Ne proverò al massimo {max_proxies_to_try}")
+        
+        for i, proxy in enumerate(proxies[:max_proxies_to_try]):
+            proxies_dict = {"http": proxy, "https": proxy}
+            print(f"🔧 Test proxy {i+1}/{min(len(proxies), max_proxies_to_try)}: {proxy}")
+            
+            try:
+                start_time = time.time()
+                response = requests.get(
+                    test_url,
+                    proxies=proxies_dict,
+                    timeout=timeout,
+                    headers=HEADERS
+                )
+                elapsed = time.time() - start_time
+                
+                if response.status_code == 200:
+                    print(f"✅ Proxy funzionante trovato: {proxy} (tempo: {elapsed:.2f}s)")
+                    return proxies_dict
+                else:
+                    print(f"❌ Status code {response.status_code}")
+            except requests.exceptions.ProxyError:
+                print("❌ Errore proxy")
+            except requests.exceptions.ConnectTimeout:
+                print("⌛ Timeout")
+            except requests.exceptions.RequestException as e:
+                print(f"⚠️ Errore: {str(e)}")
+            
+            time.sleep(0.5)  # Pausa tra un test e l'altro
+        
+        print("⚠️ Nessun proxy valido trovato. Proseguo senza proxy.")
+        return None
+        
     except Exception as e:
-        print(f"Errore nel download lista proxy: {e}")
+        print(f"🚨 Errore durante il recupero dei proxy: {e}")
         return None
 
-    # Estrai proxy http://IP:PORT o socks4://IP:PORT usando regex
-    proxies = re.findall(r'(socks4?://\d+\.\d+\.\d+\.\d+:\d+|http://\d+\.\d+\.\d+\.\d+:\d+)', raw_text)
-    print(f"Trovati {len(proxies)} proxy")
-
-    for idx, proxy in enumerate(proxies):
-        proxies_dict = {
-            "http": proxy,
-            "https": proxy,
-        }
-        print(f"[{idx}] Provo proxy {proxy} ...")
-        try:
-            resp = requests.get(test_url, proxies=proxies_dict, timeout=timeout, headers=HEADERS)
-            if resp.status_code == 200:
-                print(f"Proxy funzionante trovato: {proxy}")
-                return proxies_dict
-            else:
-                print(f"Status code {resp.status_code} con proxy {proxy}")
-        except Exception as e:
-            print(f"Proxy {proxy} non funziona: {e}")
-
-    print("Nessun proxy valido trovato.")
-    return None
-
-
 def get_review_data(url, proxies=None):
-    r = requests.get(url, headers=HEADERS, proxies=proxies)
-    r.raise_for_status()
-    soup = BeautifulSoup(r.text, 'html.parser')
-    title_tag = soup.select_one("span.text-justify > p.grey-text")
-    title = title_tag.text.strip() if title_tag else (soup.title.string.strip() if soup.title else url)
-    desc_tag = soup.select_one("h4.text-justify > p.grey-text")
-    description = desc_tag.text.strip() if desc_tag else ""
-    return title, description
-
+    """Recupera titolo e descrizione dalla pagina di dettaglio"""
+    try:
+        r = requests.get(url, headers=HEADERS, proxies=proxies, timeout=10)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, 'html.parser')
+        
+        title_tag = soup.select_one("span.text-justify > p.grey-text")
+        title = title_tag.text.strip() if title_tag else (soup.title.string.strip() if soup.title else url)
+        
+        desc_tag = soup.select_one("h4.text-justify > p.grey-text")
+        description = desc_tag.text.strip() if desc_tag else ""
+        
+        return title, description
+    except Exception as e:
+        print(f"Errore recupero review: {e}")
+        return url, ""
 
 def parse_programs_from_page(url, target_date_str, proxies=None):
-    r = requests.get(url, headers=HEADERS, proxies=proxies)
-    r.raise_for_status()
-    soup = BeautifulSoup(r.text, 'html.parser')
-    channel_name = soup.title.string.split(" - ")[0].strip() if soup.title else url
-    events = soup.find_all("tr", itemtype="http://schema.org/BroadcastEvent")
-    program_list = []
-    target_date = datetime.fromisoformat(target_date_str).date()
-    for ev in events:
-        time_tag = ev.find("h5", itemprop="startDate")
-        if not time_tag:
-            continue
-        start_str = time_tag['content']
-        start_dt = datetime.fromisoformat(start_str)
-        if start_dt.date() != target_date:
-            continue
-        review_link_tag = ev.find("h6", itemprop="name").find("a")
-        if review_link_tag and review_link_tag.has_attr("href"):
-            review_url = "https://tvepg.eu" + review_link_tag['href']
-            try:
-                title, description = get_review_data(review_url, proxies=proxies)
-                time.sleep(0.3)
-            except Exception as e:
-                print(f"Errore recupero review {review_url}: {e}")
-                title = review_link_tag.text.strip()
+    """Estrae i programmi dalla pagina HTML"""
+    try:
+        r = requests.get(url, headers=HEADERS, proxies=proxies, timeout=15)
+        r.raise_for_status()
+        
+        soup = BeautifulSoup(r.text, 'html.parser')
+        channel_name = soup.title.string.split(" - ")[0].strip() if soup.title else url
+        
+        events = soup.find_all("tr", itemtype="http://schema.org/BroadcastEvent")
+        program_list = []
+        target_date = datetime.fromisoformat(target_date_str).date()
+        
+        for ev in events:
+            time_tag = ev.find("h5", itemprop="startDate")
+            if not time_tag:
+                continue
+                
+            start_str = time_tag['content']
+            start_dt = datetime.fromisoformat(start_str)
+            
+            if start_dt.date() != target_date:
+                continue
+                
+            review_link_tag = ev.find("h6", itemprop="name").find("a")
+            
+            if review_link_tag and review_link_tag.has_attr("href"):
+                review_url = "https://tvepg.eu" + review_link_tag['href']
+                try:
+                    title, description = get_review_data(review_url, proxies=proxies)
+                    time.sleep(0.3)  # Rate limiting
+                except Exception as e:
+                    print(f"Errore recupero review {review_url}: {e}")
+                    title = review_link_tag.text.strip()
+                    description = ""
+            else:
+                title = ev.find("h6", itemprop="name").text.strip()
                 description = ""
-        else:
-            title = ev.find("h6", itemprop="name").text.strip()
-            description = ""
-        program_list.append({
-            "start": start_dt,
-            "title": title,
-            "description": description
-        })
-    for i in range(len(program_list) - 1):
-        program_list[i]["end"] = program_list[i + 1]["start"]
-    if program_list:
-        program_list[-1]["end"] = program_list[-1]["start"] + timedelta(minutes=30)
-    return channel_name, program_list
-
+                
+            program_list.append({
+                "start": start_dt,
+                "title": title,
+                "description": description
+            })
+        
+        # Calcola orari di fine
+        for i in range(len(program_list) - 1):
+            program_list[i]["end"] = program_list[i + 1]["start"]
+            
+        if program_list:
+            program_list[-1]["end"] = program_list[-1]["start"] + timedelta(minutes=30)
+            
+        return channel_name, program_list
+        
+    except Exception as e:
+        print(f"Errore parsing pagina: {e}")
+        return url, []
 
 def fetch_guide_for_channel(env, channel_id, start_date, days_back=7, days_forward=35, proxies=None):
+    """Recupera la guida TV via API Sky"""
     results = []
+    
     for day_offset in range(-days_back, days_forward + 1):
         date = start_date + timedelta(days=day_offset)
         from_str = date.strftime("%Y-%m-%dT00:00:00Z")
         to_date = date + timedelta(days=1)
         to_str = to_date.strftime("%Y-%m-%dT00:00:00Z")
+        
         url = f"https://apid.sky.it/gtv/v1/events?from={from_str}&to={to_str}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
+        
         try:
             response = requests.get(url, headers=HEADERS, timeout=15, proxies=proxies)
             response.raise_for_status()
             data = response.json()
+            
             results.append({
                 "date": date.strftime("%Y-%m-%d"),
                 "events": data.get("events", [])
             })
-            print(f"Fetched {channel_id} for {date.strftime('%Y-%m-%d')}")
+            
+            print(f"✅ {channel_id} - {date.strftime('%Y-%m-%d')}")
+            time.sleep(0.3)
+            
         except requests.exceptions.RequestException as e:
-            print(f"Warning: errore fetch {channel_id} {date.strftime('%Y-%m-%d')}: {e}")
+            print(f"⚠️ Errore {channel_id} {date.strftime('%Y-%m-%d')}: {e}")
             continue
-        time.sleep(0.3)
+            
     return results
 
-
 def main():
-    proxies = get_working_proxy()
-    now_rome = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
+    # Crea directory output
     os.makedirs("output/guides", exist_ok=True)
-
-    # Boing e Cartoonito prima: scrape da -7 a +25 giorni
+    now_rome = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
+    
+    # Prima trova un proxy funzionante
+    proxies = get_working_proxy()
+    
+    # 1. Processa prima Boing e Cartoonito (scraping HTML)
+    print("\n" + "="*50)
+    print("🎬 INIZIO ELABORAZIONE BOING E CARTOONITO")
+    print("="*50)
+    
     for ch_name, site_id in SCRAPE_CHANNELS.items():
-        print(f"Fetching scraped guide for {ch_name}...")
+        print(f"\n📡 Elaboro {ch_name.upper()} ({site_id})...")
         all_events = {}
         channel_title = None
-        for day_offset in range(-7, 25 + 1):
+        
+        for day_offset in range(-7, 25 + 1):  # -7 a +25 giorni
             date = now_rome + timedelta(days=day_offset)
             date_str = date.strftime("%Y-%m-%d")
             url = f"https://tvepg.eu/it/italy/channel/{ch_name}/{date_str}"
+            
             try:
                 channel_title, programs = parse_programs_from_page(url, date_str, proxies=proxies)
                 all_events[date_str] = []
+                
                 for p in programs:
                     all_events[date_str].append({
                         "title": p["title"],
@@ -330,33 +393,46 @@ def main():
                         "start": p["start"].isoformat(),
                         "end": p["end"].isoformat() if p.get("end") else None
                     })
+                    
                 time.sleep(0.5)
+                
             except Exception as e:
-                print(f"Errore fetching day {date_str} per {ch_name}: {e}")
+                print(f"⚠️ Errore {ch_name} {date_str}: {e}")
                 continue
+                
+        # Salva i dati
         site_id_underscore = site_id.replace("#", "_")
         out_path = f"output/guides/{site_id_underscore}.json"
+        
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump({
                 "name": channel_title if channel_title else ch_name.capitalize(),
                 "events_by_date": all_events
             }, f, indent=2, ensure_ascii=False)
-        print(f"Saved {out_path}")
+            
+        print(f"💾 Salvato {out_path}")
 
-    # Poi i canali Sky: da -7 a +35 giorni
+    # 2. Processa tutti gli altri canali (API Sky)
+    print("\n" + "="*50)
+    print("📡 INIZIO ELABORAZIONE CANALI SKY")
+    print("="*50)
+    
     for ch in CHANNELS:
+        print(f"\n📡 Elaboro {ch['name']} ({ch['site_id']})...")
+        
         env_part, channel_id = ch["site_id"].split("#")
-        print(f"Fetching guide for {ch['name']} ({channel_id})...")
-        guide = fetch_guide_for_channel(env_part, channel_id, now_rome, days_back=7, days_forward=35, proxies=proxies)
+        guide = fetch_guide_for_channel(env_part, channel_id, now_rome, proxies=proxies)
+        
         site_id_underscore = ch["site_id"].replace("#", "_")
         out_path = f"output/guides/{site_id_underscore}.json"
+        
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump({
                 "name": ch["name"],
                 "events_by_date": {g["date"]: g["events"] for g in guide}
             }, f, indent=2, ensure_ascii=False)
-        print(f"Saved {out_path}")
-
+            
+        print(f"💾 Salvato {out_path}")
 
 if __name__ == "__main__":
     main()
