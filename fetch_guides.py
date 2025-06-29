@@ -9,19 +9,7 @@ import re
 
 ROME_TZ = pytz.timezone("Europe/Rome")
 
-# Lista completa dei canali Sky (come prima)
-import requests
-import json
-from datetime import datetime, timedelta
-import pytz
-import os
-import time
-from bs4 import BeautifulSoup
-import re
-
-ROME_TZ = pytz.timezone("Europe/Rome")
-
-# Lista completa di tutti i canali Sky (API)
+# Lista completa di tutti i canali Sky
 CHANNELS = [
     {"name": "27Twentyseven HD", "site_id": "DTH#11342"},
     {"name": "20Mediaset HD", "site_id": "DTH#10458"},
@@ -186,7 +174,7 @@ CHANNELS = [
     {"name": "ZONA DAZN", "site_id": "DTH#11402"},
 ]
 
-# Canali da scrape con parsing HTML (Boing prima, poi Cartoonito)
+# Canali da scrape con parsing HTML (Boing e Cartoonito)
 SCRAPE_CHANNELS = {
     "boing": "DTH#6628",
     "cartoonito": "DTH#8132",
@@ -201,31 +189,37 @@ def get_working_proxy(
     proxy_list_url="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.txt",
     test_url="https://tvepg.eu/it/italy/channel/boing",
     timeout=5,
-    max_proxies_to_try=1000  # Modificato da 30 a 1000
+    max_proxies_to_try=1000  # 1000 tentativi come richiesto
 ):
-    """Ottiene un proxy funzionante dalla lista specificata"""
-    print("🔎 Ricerca proxy funzionante (max 1000 tentativi)...")
+    """Ottiene un proxy funzionante testando fino a 1000 proxy nell'ordine originale"""
+    print("🔎 Ricerca proxy funzionante (1000 tentativi nell'ordine del file)...")
     
     try:
+        # Scarica la lista proxy mantenendo l'ordine originale
         response = requests.get(proxy_list_url, timeout=10)
         response.raise_for_status()
-        raw_text = response.text
+        raw_lines = response.text.splitlines()
         
-        proxy_pattern = r'(?:https?|socks[45])://\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d+'
-        proxies = re.findall(proxy_pattern, raw_text)
-        print(f"📡 Trovati {len(proxies)} proxy. Ne proverò fino a {max_proxies_to_try}")
+        # Estrai tutti i proxy mantenendo l'ordine originale
+        all_proxies = []
+        proxy_pattern = re.compile(r'(https?|socks[45])://\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d+')
         
-        # Aggiunto contatore per visualizzare la progressione
+        for line in raw_lines:
+            matches = proxy_pattern.findall(line)
+            if matches:
+                all_proxies.extend(matches)
+        
+        print(f"📡 Trovati {len(all_proxies)} proxy totali")
+        
+        # Testa fino a 1000 proxy nell'ordine originale
         tested = 0
-        working = 0
-        
-        for i, proxy in enumerate(proxies[:max_proxies_to_try]):
+        for i, proxy in enumerate(all_proxies[:max_proxies_to_try]):
             tested += 1
             proxies_dict = {"http": proxy, "https": proxy}
             
             # Mostra progresso ogni 50 tentativi
             if i % 50 == 0:
-                print(f"⚡ Progresso: {tested}/{min(len(proxies), max_proxies_to_try)} proxy testati")
+                print(f"⚡ Progresso: {tested}/{min(len(all_proxies), max_proxies_to_try)} proxy testati")
             
             try:
                 start_time = time.time()
@@ -238,13 +232,12 @@ def get_working_proxy(
                 elapsed = time.time() - start_time
                 
                 if response.status_code == 200:
-                    working += 1
-                    print(f"\n✅ Trovato proxy funzionante ({working}°): {proxy} (tempo: {elapsed:.2f}s)")
+                    print(f"\n✅ Proxy funzionante trovato al tentativo {tested}: {proxy} (tempo: {elapsed:.2f}s)")
                     return proxies_dict
             except:
                 continue
             
-            time.sleep(0.1)  # Ridotto il delay tra i tentativi
+            time.sleep(0.1)  # Piccola pausa tra i tentativi
         
         print(f"\n⚠️ Testati {tested} proxy senza successo")
         return None
@@ -365,7 +358,7 @@ def main():
     os.makedirs("output/guides", exist_ok=True)
     now_rome = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
     
-    # Prima trova un proxy funzionante
+    # Prima trova un proxy funzionante (1000 tentativi)
     proxies = get_working_proxy()
     
     # 1. Processa prima Boing e Cartoonito (scraping HTML)
