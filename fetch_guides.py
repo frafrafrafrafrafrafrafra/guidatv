@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 
 ROME_TZ = pytz.timezone("Europe/Rome")
 
-# Lista completa canali fetch Sky API
+# Lista canali fetch Sky API (SENZA Boing e Cartoonito)
 CHANNELS = [
     {"name":"CNBC HD","site_id":"DTH#10713"},
     {"name":"Sky Crime","site_id":"DTH#11216"},
@@ -31,7 +31,6 @@ CHANNELS = [
     {"name":"BBC World News","site_id":"DTH#891"},
     {"name":"BIKE","site_id":"DTH#11278"},
     {"name":"Bloomberg","site_id":"DTH#349"},
-    {"name":"Boing","site_id":"DTH#6628"},
     {"name":"Boomerang","site_id":"DTH#472"},
     {"name":"Boomerang +1","site_id":"DTH#479"},
     {"name":"CNN Intl.","site_id":"DTH#312"},
@@ -39,7 +38,7 @@ CHANNELS = [
     {"name":"Canale 5 HD","site_id":"DTH#10354"},
     {"name":"Cartoon Network HD","site_id":"DTH#9693"},
     {"name":"Cartoon +1","site_id":"DTH#476"},
-    {"name":"CARTOONITO DTT","site_id":"DTH#8132"},
+    # Boing e Cartoonito rimossi da qui
     {"name":"cielo","site_id":"DTH#8133"},
     {"name":"Cine34 HD","site_id":"DTH#10893"},
     {"name":"Class CNBC","site_id":"DTH#308"},
@@ -179,10 +178,10 @@ CHANNELS = [
     {"name":"ZONA DAZN","site_id":"DTH#11402"},
 ]
 
-# Canali da scrape con parsing HTML (Boing, Cartoonito)
+# Canali da scrape con parsing HTML (solo Boing e Cartoonito)
 SCRAPE_CHANNELS = {
-    "Boing": "DTH#6628",
-    "Cartoonito": "DTH#8132",
+    "boing": "DTH#6628",
+    "cartoonito": "DTH#8132",
 }
 
 HEADERS = {
@@ -208,7 +207,6 @@ def parse_programs_from_page(url, target_date_str):
     events = soup.find_all("tr", itemtype="http://schema.org/BroadcastEvent")
     program_list = []
     target_date = datetime.fromisoformat(target_date_str).date()
-
     for ev in events:
         time_tag = ev.find("h5", itemprop="startDate")
         if not time_tag:
@@ -235,18 +233,16 @@ def parse_programs_from_page(url, target_date_str):
             "title": title,
             "description": description
         })
-
-    # Calcola gli endtime
     for i in range(len(program_list) - 1):
         program_list[i]["end"] = program_list[i+1]["start"]
     if program_list:
         program_list[-1]["end"] = program_list[-1]["start"] + timedelta(minutes=30)
-
     return channel_name, program_list
 
-def fetch_guide_for_channel(env, channel_id, start_date, days=35):
+def fetch_guide_for_channel(env, channel_id, start_date, days_back=7, days_forward=35):
     results = []
-    for day_offset in range(days):
+    # range: from -days_back to +days_forward (inclusive)
+    for day_offset in range(-days_back, days_forward + 1):
         date = start_date + timedelta(days=day_offset)
         from_str = date.strftime("%Y-%m-%dT00:00:00Z")
         to_date = date + timedelta(days=1)
@@ -270,11 +266,11 @@ def main():
     now_rome = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
     os.makedirs("output/guides", exist_ok=True)
 
-    # Fetch API Sky: 35 giorni a partire da oggi
+    # Fetch API Sky: 7 giorni indietro + 35 avanti
     for ch in CHANNELS:
         env_part, channel_id = ch["site_id"].split("#")
         print(f"Fetching guide for {ch['name']} ({channel_id})...")
-        guide = fetch_guide_for_channel(env_part, channel_id, now_rome, days=35)
+        guide = fetch_guide_for_channel(env_part, channel_id, now_rome, days_back=7, days_forward=35)
         site_id_underscore = ch["site_id"].replace("#", "_")
         out_path = f"output/guides/{site_id_underscore}.json"
         with open(out_path, "w", encoding="utf-8") as f:
@@ -284,12 +280,12 @@ def main():
             }, f, indent=2, ensure_ascii=False)
         print(f"Saved {out_path}")
 
-    # Scraping Boing e Cartoonito: 25 giorni, da -7 a +17
+    # Scraping tvepg.eu per Boing e Cartoonito: 7 giorni indietro + 25 avanti
     for ch_name, site_id in SCRAPE_CHANNELS.items():
         print(f"Fetching scraped guide for {ch_name}...")
         all_events = {}
         channel_title = None
-        for day_offset in range(-7, 18):
+        for day_offset in range(-7, 25 + 1):
             date = now_rome + timedelta(days=day_offset)
             date_str = date.strftime("%Y-%m-%d")
             url = f"https://tvepg.eu/it/italy/channel/{ch_name}/{date_str}"
@@ -300,14 +296,13 @@ def main():
                     all_events[date_str].append({
                         "title": p["title"],
                         "description": p["description"],
-                        "starttime": p["start"].isoformat(),
-                        "endtime": p["end"].isoformat() if p.get("end") else None
+                        "start": p["start"].isoformat(),
+                        "end": p["end"].isoformat() if p.get("end") else None
                     })
                 time.sleep(0.5)
             except Exception as e:
                 print(f"Errore fetching day {date_str} per {ch_name}: {e}")
                 continue
-
         site_id_underscore = site_id.replace("#", "_")
         out_path = f"output/guides/{site_id_underscore}.json"
         with open(out_path, "w", encoding="utf-8") as f:
