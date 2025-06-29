@@ -8,6 +8,7 @@ on:
 jobs:
   fetch-guides:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -20,21 +21,21 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pytz requests aiohttp
+          pip install pytz requests aiohttp beautifulsoup4
 
       - name: Run fetch_guides.py
         run: |
           python fetch_guides.py
 
       - name: Commit and push updated guides.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add output
-          # Solo se ci sono modifiche
+          # Commit solo se ci sono modifiche
           git diff --cached --quiet || git commit -m "Update guide.json - $(date +'%Y-%m-%d')"
-          # Integra eventuali cambiamenti da remoto
+          # Integra eventuali cambiamenti da remoto prima di pushare
           git pull --rebase origin main
           git push origin HEAD:main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
