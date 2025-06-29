@@ -12,9 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        # Debug info checkout
         env:
-          ACTIONS_STEP_DEBUG: true
+          ACTIONS_STEP_DEBUG: true  # Debug info checkout
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -32,6 +31,13 @@ jobs:
           set -ex
           python -m pip install --upgrade pip
           pip install pytz requests aiohttp beautifulsoup4
+
+      - name: Set proxy environment variables
+        run: |
+          echo "HTTP_PROXY=http://38.250.126.201:999" >> $GITHUB_ENV
+          echo "HTTPS_PROXY=http://38.250.126.201:999" >> $GITHUB_ENV
+          echo "http_proxy=http://38.250.126.201:999" >> $GITHUB_ENV
+          echo "https_proxy=http://38.250.126.201:999" >> $GITHUB_ENV
 
       - name: List directory files before run
         run: ls -la
