@@ -1,5 +1,3 @@
-_":
-    main()
 import requests
 import json
 from datetime import datetime, timedelta
@@ -203,25 +201,31 @@ def get_working_proxy(
     proxy_list_url="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.txt",
     test_url="https://tvepg.eu/it/italy/channel/boing",
     timeout=5,
-    max_proxies_to_try=1000
+    max_proxies_to_try=1000  # Modificato da 30 a 1000
 ):
     """Ottiene un proxy funzionante dalla lista specificata"""
-    print("🔎 Ricerca proxy funzionante...")
+    print("🔎 Ricerca proxy funzionante (max 1000 tentativi)...")
     
     try:
-        # Scarica la lista proxy
         response = requests.get(proxy_list_url, timeout=10)
         response.raise_for_status()
         raw_text = response.text
         
-        # Estrai proxy con regex
         proxy_pattern = r'(?:https?|socks[45])://\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d+'
         proxies = re.findall(proxy_pattern, raw_text)
-        print(f"📡 Trovati {len(proxies)} proxy. Ne proverò al massimo {max_proxies_to_try}")
+        print(f"📡 Trovati {len(proxies)} proxy. Ne proverò fino a {max_proxies_to_try}")
+        
+        # Aggiunto contatore per visualizzare la progressione
+        tested = 0
+        working = 0
         
         for i, proxy in enumerate(proxies[:max_proxies_to_try]):
+            tested += 1
             proxies_dict = {"http": proxy, "https": proxy}
-            print(f"🔧 Test proxy {i+1}/{min(len(proxies), max_proxies_to_try)}: {proxy}")
+            
+            # Mostra progresso ogni 50 tentativi
+            if i % 50 == 0:
+                print(f"⚡ Progresso: {tested}/{min(len(proxies), max_proxies_to_try)} proxy testati")
             
             try:
                 start_time = time.time()
@@ -234,20 +238,15 @@ def get_working_proxy(
                 elapsed = time.time() - start_time
                 
                 if response.status_code == 200:
-                    print(f"✅ Proxy funzionante trovato: {proxy} (tempo: {elapsed:.2f}s)")
+                    working += 1
+                    print(f"\n✅ Trovato proxy funzionante ({working}°): {proxy} (tempo: {elapsed:.2f}s)")
                     return proxies_dict
-                else:
-                    print(f"❌ Status code {response.status_code}")
-            except requests.exceptions.ProxyError:
-                print("❌ Errore proxy")
-            except requests.exceptions.ConnectTimeout:
-                print("⌛ Timeout")
-            except requests.exceptions.RequestException as e:
-                print(f"⚠️ Errore: {str(e)}")
+            except:
+                continue
             
-            time.sleep(0.5)  # Pausa tra un test e l'altro
+            time.sleep(0.1)  # Ridotto il delay tra i tentativi
         
-        print("⚠️ Nessun proxy valido trovato. Proseguo senza proxy.")
+        print(f"\n⚠️ Testati {tested} proxy senza successo")
         return None
         
     except Exception as e:
