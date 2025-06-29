@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 
 ROME_TZ = pytz.timezone("Europe/Rome")
 
-# Lista canali fetch Sky API (SENZA Boing e Cartoonito)
+# Lista canali fetch Sky API (tutta tranne Boing e Cartoonito)
 CHANNELS = [
     {"name":"CNBC HD","site_id":"DTH#10713"},
     {"name":"Sky Crime","site_id":"DTH#11216"},
@@ -38,7 +38,7 @@ CHANNELS = [
     {"name":"Canale 5 HD","site_id":"DTH#10354"},
     {"name":"Cartoon Network HD","site_id":"DTH#9693"},
     {"name":"Cartoon +1","site_id":"DTH#476"},
-    # Boing e Cartoonito rimossi da qui
+    # Boing e Cartoonito rimossi
     {"name":"cielo","site_id":"DTH#8133"},
     {"name":"Cine34 HD","site_id":"DTH#10893"},
     {"name":"Class CNBC","site_id":"DTH#308"},
@@ -185,8 +185,9 @@ SCRAPE_CHANNELS = {
 }
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)"
-                  " Chrome/114.0.0.0 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/114.0.0.0 Safari/537.36",
+    "Referer": "https://tvepg.eu/"
 }
 
 def get_review_data(url):
@@ -239,9 +240,8 @@ def parse_programs_from_page(url, target_date_str):
         program_list[-1]["end"] = program_list[-1]["start"] + timedelta(minutes=30)
     return channel_name, program_list
 
-def fetch_guide_for_channel(env, channel_id, start_date, days_back=0, days_forward=35):
+def fetch_guide_for_channel(env, channel_id, start_date, days_back=7, days_forward=35):
     results = []
-    # range: from -days_back to +days_forward (inclusive)
     for day_offset in range(-days_back, days_forward + 1):
         date = start_date + timedelta(days=day_offset)
         from_str = date.strftime("%Y-%m-%dT00:00:00Z")
@@ -249,7 +249,7 @@ def fetch_guide_for_channel(env, channel_id, start_date, days_back=0, days_forwa
         to_str = to_date.strftime("%Y-%m-%dT00:00:00Z")
         url = f"https://apid.sky.it/gtv/v1/events?from={from_str}&to={to_str}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
         try:
-            response = requests.get(url, timeout=15)
+            response = requests.get(url, headers=HEADERS, timeout=15)
             response.raise_for_status()
             data = response.json()
             results.append({
@@ -260,27 +260,14 @@ def fetch_guide_for_channel(env, channel_id, start_date, days_back=0, days_forwa
         except requests.exceptions.RequestException as e:
             print(f"Warning: errore fetch {channel_id} {date.strftime('%Y-%m-%d')}: {e}")
             continue
+        time.sleep(0.3)
     return results
 
 def main():
     now_rome = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
     os.makedirs("output/guides", exist_ok=True)
 
-    # Fetch API Sky: solo 35 giorni avanti (0 indietro)
-    for ch in CHANNELS:
-        env_part, channel_id = ch["site_id"].split("#")
-        print(f"Fetching guide for {ch['name']} ({channel_id})...")
-        guide = fetch_guide_for_channel(env_part, channel_id, now_rome, days_back=0, days_forward=35)
-        site_id_underscore = ch["site_id"].replace("#", "_")
-        out_path = f"output/guides/{site_id_underscore}.json"
-        with open(out_path, "w", encoding="utf-8") as f:
-            json.dump({
-                "name": ch["name"],
-                "events_by_date": {g["date"]: g["events"] for g in guide}
-            }, f, indent=2, ensure_ascii=False)
-        print(f"Saved {out_path}")
-
-    # Scraping tvepg.eu per Boing e Cartoonito: 7 giorni indietro + 25 avanti
+    # Boing e Cartoonito prima: scrape da -7 a +25 giorni
     for ch_name, site_id in SCRAPE_CHANNELS.items():
         print(f"Fetching scraped guide for {ch_name}...")
         all_events = {}
@@ -309,6 +296,20 @@ def main():
             json.dump({
                 "name": channel_title if channel_title else ch_name.capitalize(),
                 "events_by_date": all_events
+            }, f, indent=2, ensure_ascii=False)
+        print(f"Saved {out_path}")
+
+    # Poi i canali Sky: da -7 a +35 giorni
+    for ch in CHANNELS:
+        env_part, channel_id = ch["site_id"].split("#")
+        print(f"Fetching guide for {ch['name']} ({channel_id})...")
+        guide = fetch_guide_for_channel(env_part, channel_id, now_rome, days_back=7, days_forward=35)
+        site_id_underscore = ch["site_id"].replace("#", "_")
+        out_path = f"output/guides/{site_id_underscore}.json"
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump({
+                "name": ch["name"],
+                "events_by_date": {g["date"]: g["events"] for g in guide}
             }, f, indent=2, ensure_ascii=False)
         print(f"Saved {out_path}")
 
