@@ -255,6 +255,7 @@
     const list = document.getElementById('channel-list');
 
     function buildChannelList() {
+      CHANNELS.sort((a, b) => a.name.localeCompare(b.name));
       CHANNELS.forEach(ch => {
         const li = document.createElement('li');
         const a = document.createElement('a');
