@@ -330,33 +330,62 @@
       {"name":"ZONA DAZN 3","site_id":"DTH_11403"},
       {"name":"ZONA DAZN 4","site_id":"DTH_11405"},
       {"name":"ZONA DAZN 5","site_id":"DTH_11404"},
-      {"name":"ZONA DAZN","site_id":"DTH_11402"}
+      {"name":"ZONA DAZN","site_id":"DTH_11397"}
     ];
 
-    const favoritesKey = 'tvGuideFavorites';
-
-    const input = document.getElementById('search-input');
-    const list = document.getElementById('channel-list');
     const favoritesSection = document.getElementById('favorites-section');
     const favoritesList = document.getElementById('favorites-list');
+    const list = document.getElementById('channel-list');
+    const searchInput = document.getElementById('search-input');
     const footer = document.getElementById('toggle-dark-mode');
 
-    // Leggi preferiti da localStorage, torna array di site_id
+    // Recupera lista preferiti da localStorage, ritorna array di site_id
     function getFavorites() {
-      try {
-        const fav = JSON.parse(localStorage.getItem(favoritesKey));
-        return Array.isArray(fav) ? fav : [];
-      } catch {
-        return [];
+      const fav = localStorage.getItem('favorites');
+      return fav ? JSON.parse(fav) : [];
+    }
+
+    // Salva lista preferiti su localStorage
+    function setFavorites(favs) {
+      localStorage.setItem('favorites', JSON.stringify(favs));
+    }
+
+    // Controlla se un canale è preferito
+    function isFavorite(site_id) {
+      return getFavorites().includes(site_id);
+    }
+
+    // Aggiunge o rimuove un canale dai preferiti
+    function toggleFavorite(site_id) {
+      let favs = getFavorites();
+      if (favs.includes(site_id)) {
+        favs = favs.filter(id => id !== site_id);
+      } else {
+        favs.push(site_id);
       }
+      setFavorites(favs);
     }
 
-    // Salva preferiti su localStorage
-    function saveFavorites(favs) {
-      localStorage.setItem(favoritesKey, JSON.stringify(favs));
+    // Crea un elemento <li> per un canale
+    function createChannelLi(channel, isFavSection) {
+      const li = document.createElement('li');
+      li.className = isFavorite(channel.site_id) ? 'favorite' : '';
+      li.title = 'Clicca per aggiungere/rimuovere dai preferiti';
+
+      const a = document.createElement('a');
+      a.href = '#';
+      a.textContent = channel.name;
+      a.addEventListener('click', (e) => {
+        e.preventDefault();
+        toggleFavorite(channel.site_id);
+        rebuildLists(searchInput.value);
+      });
+
+      li.appendChild(a);
+      return li;
     }
 
-    // Ricostruisci liste con preferiti in cima
+    // Ricostruisci liste con preferiti in cima e ordina alfabeticamente
     function rebuildLists(filter='') {
       // Pulisce liste
       list.innerHTML = '';
@@ -367,9 +396,12 @@
       const q = filter.trim().toLowerCase();
 
       // Canali preferiti filtrati
-      const filteredFavs = CHANNELS.filter(ch => favSet.has(ch.site_id) && ch.name.toLowerCase().includes(q));
+      let filteredFavs = CHANNELS.filter(ch => favSet.has(ch.site_id) && ch.name.toLowerCase().includes(q));
+      filteredFavs.sort((a, b) => a.name.localeCompare(b.name));
+
       // Canali non preferiti filtrati
-      const filteredOthers = CHANNELS.filter(ch => !favSet.has(ch.site_id) && ch.name.toLowerCase().includes(q));
+      let filteredOthers = CHANNELS.filter(ch => !favSet.has(ch.site_id) && ch.name.toLowerCase().includes(q));
+      filteredOthers.sort((a, b) => a.name.localeCompare(b.name));
 
       // Se ho preferiti da mostrare, mostro sezione e lista preferiti
       if (filteredFavs.length > 0) {
@@ -389,90 +421,30 @@
       });
     }
 
-    // Crea <li> di canale, con gestione eventi preferiti (press and hold)
-    function createChannelLi(ch, isFavorite) {
-      const li = document.createElement('li');
-      if (isFavorite) li.classList.add('favorite');
-      const a = document.createElement('a');
-      a.href = `guide.html?site_id=${encodeURIComponent(ch.site_id)}&name=${encodeURIComponent(ch.name)}`;
-      a.textContent = ch.name;
-      li.appendChild(a);
-
-      // Gestione "premi e tieni premuto" per togglare preferito
-      let pressTimer = null;
-
-      // Inizia timer alla pressione (mouse o touch)
-      function startPressTimer() {
-        if (pressTimer === null) {
-          pressTimer = setTimeout(() => {
-            toggleFavorite(ch.site_id);
-          }, 600); // 600 ms pressione lunga
-        }
-      }
-
-      // Cancella timer quando rilascia
-      function cancelPressTimer() {
-        if (pressTimer !== null) {
-          clearTimeout(pressTimer);
-          pressTimer = null;
-        }
-      }
-
-      // Eventi mouse
-      li.addEventListener('mousedown', startPressTimer);
-      li.addEventListener('mouseup', cancelPressTimer);
-      li.addEventListener('mouseleave', cancelPressTimer);
-
-      // Eventi touch
-      li.addEventListener('touchstart', startPressTimer);
-      li.addEventListener('touchend', cancelPressTimer);
-      li.addEventListener('touchcancel', cancelPressTimer);
-
-      return li;
+    // Cambio modalità scura / chiara
+    function toggleDarkMode() {
+      const isDark = document.body.classList.toggle('dark-mode');
+      footer.textContent = 'Powered by 🐯 - Modalità Scura ' + (isDark ? 'ON' : 'OFF');
+      localStorage.setItem('darkMode', isDark ? 'on' : 'off');
     }
 
-    // Toggle preferito e ricostruisce liste
-    function toggleFavorite(site_id) {
-      const favs = getFavorites();
-      const idx = favs.indexOf(site_id);
-      if (idx >= 0) {
-        favs.splice(idx, 1);
-      } else {
-        favs.push(site_id);
-      }
-      saveFavorites(favs);
-      rebuildLists(input.value);
-    }
-
-    // Funzione filtro canali con rebuild completo
-    function filterChannels(query) {
-      rebuildLists(query);
-    }
-
-    // Toggle modalità scura e salva in localStorage
-    function setDarkMode(enabled) {
-      if (enabled) {
+    // All'avvio carica preferiti e modalità
+    window.addEventListener('DOMContentLoaded', () => {
+      // Imposta modalità scura se salvata
+      if (localStorage.getItem('darkMode') === 'on') {
         document.body.classList.add('dark-mode');
         footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
-        localStorage.setItem('darkMode', 'true');
-      } else {
-        document.body.classList.remove('dark-mode');
-        footer.textContent = 'Powered by 🐯 - Modalità Scura OFF';
-        localStorage.setItem('darkMode', 'false');
       }
-    }
 
-    footer.addEventListener('click', () => {
-      const isDark = document.body.classList.contains('dark-mode');
-      setDarkMode(!isDark);
-    });
-
-    // Inizializza tutto
-    window.addEventListener('DOMContentLoaded', () => {
-      const savedMode = localStorage.getItem('darkMode') === 'true';
-      setDarkMode(savedMode);
       rebuildLists();
-      input.addEventListener('input', e => filterChannels(e.target.value));
+
+      // Ricerca live
+      searchInput.addEventListener('input', () => {
+        rebuildLists(searchInput.value);
+      });
+
+      // Toggle modalità scura al click footer
+      footer.addEventListener('click', toggleDarkMode);
     });
   </script>
 </body>
