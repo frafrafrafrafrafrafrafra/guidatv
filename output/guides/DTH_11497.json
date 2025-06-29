@@ -2,98 +2,6 @@
   "name": "Sky Sport",
   "events_by_date": [
     {
-      "date": "2025-06-28",
-      "events": [
-        {
-          "channel": {
-            "id": 11497,
-            "logo": "/logo/917skysport_Light_Fit.png?checksum=44524059-f893-4478-b68b-52fdc9174d9e",
-            "logoPadding": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
-            "logoDark": "/logo/917skysport_Dark_Fit.png?checksum=efb4ebda-6ace-412d-b820-eb2c23a1c1f1",
-            "logoDarkPadding": "/logo/917skysport_Dark_Padding.png?checksum=8a3bd842-a14c-45e7-8ae7-f0c889990481",
-            "logoLight": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
-            "name": "Sky Sport",
-            "number": 251,
-            "servicekey": "917",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "32b548a5-fe9b-49f1-aa05-c85469ceb220",
-            "contentTitle": "Finale",
-            "episodeNumber": 3,
-            "seasonNumber": 2025,
-            "url": "/sport/atp-250-maiorca/finale/32b548a5-fe9b-49f1-aa05-c85469ceb220",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 17,
-              "name": "Tennis"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=bdef3695c915bc48744cce98a1661688"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=bdef3695c915bc48744cce98a1661688"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=bdef3695c915bc48744cce98a1661688"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/background?territory=IT&md5ChecksumParam=0f71459c8cc9cad88313202477e0a90c"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/cover?territory=IT&md5ChecksumParam=bdef3695c915bc48744cce98a1661688"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/16-9?territory=IT&md5ChecksumParam=65d284b4b11c1352b423f227328dc8bd"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=65d284b4b11c1352b423f227328dc8bd"
-                }
-              }
-            ]
-          },
-          "eventId": "149545140",
-          "starttime": "2025-06-28T12:30:00Z",
-          "endtime": "2025-06-28T16:30:00Z",
-          "eventTitle": "Finale",
-          "eventSynopsis": "Tennis Atp 250 Maiorca Finale. Dalle ore 15:00",
-          "epgEventTitle": "Finale",
-          "programHighlights": "L",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2025-06-29",
       "events": [
         {
@@ -800,6 +708,10 @@
     },
     {
       "date": "2025-08-26",
+      "events": []
+    },
+    {
+      "date": "2025-08-27",
       "events": []
     }
   ]

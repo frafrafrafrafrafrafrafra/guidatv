@@ -2,1277 +2,6 @@
   "name": "Sky Sport Golf",
   "events_by_date": [
     {
-      "date": "2025-06-28",
-      "events": [
-        {
-          "channel": {
-            "id": 10254,
-            "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-            "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-            "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-            "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "name": "Sky Sport Golf",
-            "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-            "number": 206,
-            "servicekey": "768",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc",
-            "contentTitle": "Challenge De España ",
-            "episodeNumber": 9,
-            "seasonNumber": 2025,
-            "url": "/sport/challenge-series/challenge-de-espana/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 92,
-              "name": "Golf"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/background?territory=IT&md5ChecksumParam=b20c660269c7a06aec0f8d43189bf45e"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/16-9?territory=IT&md5ChecksumParam=48eb0c6b73db112650bc5f05eb7ac5ff"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=48eb0c6b73db112650bc5f05eb7ac5ff"
-                }
-              }
-            ]
-          },
-          "eventId": "411209517",
-          "starttime": "2025-06-28T00:30:00Z",
-          "endtime": "2025-06-28T00:55:00Z",
-          "eventTitle": "Challenge De España ",
-          "eventSynopsis": "Challenge De Espana - Challenge Series",
-          "epgEventTitle": "Challenge De España ",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        },
-        {
-          "channel": {
-            "id": 10254,
-            "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-            "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-            "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-            "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "name": "Sky Sport Golf",
-            "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-            "number": 206,
-            "servicekey": "768",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "450c7d08-04b3-44a1-badb-4ae50db9f271",
-            "contentTitle": "Italian Open 2a g.",
-            "episodeNumber": 81,
-            "seasonNumber": 2025,
-            "url": "/sport/dp-world-tour/italian-open-2a-g/450c7d08-04b3-44a1-badb-4ae50db9f271",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 92,
-              "name": "Golf"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/450c7d08-04b3-44a1-badb-4ae50db9f271/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d46e2b2ac59c155c0c7c62f9ee616727"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/450c7d08-04b3-44a1-badb-4ae50db9f271/background?territory=IT&md5ChecksumParam=f02b7a72ab266625b49f9ce6e4c2bd1f"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/450c7d08-04b3-44a1-badb-4ae50db9f271/cover?territory=IT&md5ChecksumParam=d46e2b2ac59c155c0c7c62f9ee616727"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/450c7d08-04b3-44a1-badb-4ae50db9f271/16-9?territory=IT&md5ChecksumParam=1f4125ae8ecb93a3b5c7c7bb23de96e8"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/450c7d08-04b3-44a1-badb-4ae50db9f271/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=1f4125ae8ecb93a3b5c7c7bb23de96e8"
-                }
-              }
-            ]
-          },
-          "eventId": "411209518",
-          "starttime": "2025-06-28T00:55:00Z",
-          "endtime": "2025-06-28T04:00:00Z",
-          "eventTitle": "Italian Open 2a g.",
-          "eventSynopsis": "Italian Open 2a g. - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
-          "epgEventTitle": "Italian Open 2a g.",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        },
-        {
-          "channel": {
-            "id": 10254,
-            "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-            "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-            "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-            "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "name": "Sky Sport Golf",
-            "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-            "number": 206,
-            "servicekey": "768",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "5fb98287-1d2b-46df-ad20-dea64b4810a8",
-            "contentTitle": "4a g.",
-            "episodeNumber": 4,
-            "seasonNumber": 2025,
-            "url": "/sport/us-open-championship/4a-g/5fb98287-1d2b-46df-ad20-dea64b4810a8",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 92,
-              "name": "Golf"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/background?territory=IT&md5ChecksumParam=97d8769ee09fd359a2c674b1459c7b6e"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/16-9?territory=IT&md5ChecksumParam=ff76395b52f4d932c53e1ebe435b915f"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=be3c29e3721337fd8508ce61872b05bb"
-                }
-              }
-            ]
-          },
-          "eventId": "411209456",
-          "starttime": "2025-06-28T04:00:00Z",
-          "endtime": "2025-06-28T07:00:00Z",
-          "eventTitle": "4a g.",
-          "eventSynopsis": "4a g. - Uno dei quattro 'Major' del circuito golfistico internazionale, lo US Open Championship, il trofeo che ogni golfista sogna di vincere almeno una volta.",
-          "epgEventTitle": "4a g.",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        },
-        {
-          "channel": {
-            "id": 10254,
-            "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-            "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-            "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-            "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "name": "Sky Sport Golf",
-            "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-            "number": 206,
-            "servicekey": "768",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "450c7d08-04b3-44a1-badb-4ae50db9f271",
-            "contentTitle": "Italian Open 2a g.",
-            "episodeNumber": 81,
-            "seasonNumber": 2025,
-            "url": "/sport/dp-world-tour/italian-open-2a-g/450c7d08-04b3-44a1-badb-4ae50db9f271",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 92,
-              "name": "Golf"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/450c7d08-04b3-44a1-badb-4ae50db9f271/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d46e2b2ac59c155c0c7c62f9ee616727"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/450c7d08-04b3-44a1-badb-4ae50db9f271/background?territory=IT&md5ChecksumParam=f02b7a72ab266625b49f9ce6e4c2bd1f"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/450c7d08-04b3-44a1-badb-4ae50db9f271/cover?territory=IT&md5ChecksumParam=d46e2b2ac59c155c0c7c62f9ee616727"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/450c7d08-04b3-44a1-badb-4ae50db9f271/16-9?territory=IT&md5ChecksumParam=1f4125ae8ecb93a3b5c7c7bb23de96e8"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/450c7d08-04b3-44a1-badb-4ae50db9f271/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=1f4125ae8ecb93a3b5c7c7bb23de96e8"
-                }
-              }
-            ]
-          },
-          "eventId": "411209457",
-          "starttime": "2025-06-28T07:00:00Z",
-          "endtime": "2025-06-28T09:50:00Z",
-          "eventTitle": "Italian Open 2a g.",
-          "eventSynopsis": "Italian Open 2a g. - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
-          "epgEventTitle": "Italian Open 2a g.",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        },
-        {
-          "channel": {
-            "id": 10254,
-            "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-            "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-            "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-            "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "name": "Sky Sport Golf",
-            "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-            "number": 206,
-            "servicekey": "768",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "dc2365bb-27b2-4dc2-aeee-d4f50c5bac57",
-            "contentTitle": "Soudal Open",
-            "episodeNumber": 17,
-            "seasonNumber": 2025,
-            "url": "/sport/highlights-dp-world-tour/soudal-open/dc2365bb-27b2-4dc2-aeee-d4f50c5bac57",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 92,
-              "name": "Golf"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/dc2365bb-27b2-4dc2-aeee-d4f50c5bac57/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=37766d22fd666068c917c103d8815678"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/dc2365bb-27b2-4dc2-aeee-d4f50c5bac57/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=37766d22fd666068c917c103d8815678"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/dc2365bb-27b2-4dc2-aeee-d4f50c5bac57/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=37766d22fd666068c917c103d8815678"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/dc2365bb-27b2-4dc2-aeee-d4f50c5bac57/background?territory=IT&md5ChecksumParam=5c95d17261f6c75bee332f55b98e2e62"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/dc2365bb-27b2-4dc2-aeee-d4f50c5bac57/cover?territory=IT&md5ChecksumParam=37766d22fd666068c917c103d8815678"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/dc2365bb-27b2-4dc2-aeee-d4f50c5bac57/16-9?territory=IT&md5ChecksumParam=f4c14c0c90c5909d8b6fdf730ab23cf3"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/dc2365bb-27b2-4dc2-aeee-d4f50c5bac57/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=f4c14c0c90c5909d8b6fdf730ab23cf3"
-                }
-              }
-            ]
-          },
-          "eventId": "411209458",
-          "starttime": "2025-06-28T09:50:00Z",
-          "endtime": "2025-06-28T10:10:00Z",
-          "eventTitle": "Soudal Open",
-          "eventSynopsis": "Soudal Open - Le immagini piu' belle di tutte le gare della Race to Dubai. I momenti decisivi di ogni tappa del DP World Tour, con il commento dei telecronisti e dei talent di Sky Sport.",
-          "epgEventTitle": "Soudal Open",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        },
-        {
-          "channel": {
-            "id": 10254,
-            "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-            "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-            "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-            "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "name": "Sky Sport Golf",
-            "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-            "number": 206,
-            "servicekey": "768",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "15dde811-0eef-439e-9727-077d6ca937a7",
-            "contentTitle": "2a g.",
-            "episodeNumber": 2,
-            "seasonNumber": 2025,
-            "url": "/sport/speciale-golf-open-ditalia/2a-g/15dde811-0eef-439e-9727-077d6ca937a7",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 92,
-              "name": "Golf"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/15dde811-0eef-439e-9727-077d6ca937a7/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8aefa43bdb0d99a7dbb39318fae5d8d6"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/15dde811-0eef-439e-9727-077d6ca937a7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6d3a822cf3c14ef76ccb090ea4be1f03"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/15dde811-0eef-439e-9727-077d6ca937a7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8aefa43bdb0d99a7dbb39318fae5d8d6"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/15dde811-0eef-439e-9727-077d6ca937a7/background?territory=IT&md5ChecksumParam=76b39ba54d9e4077e06b52dc649908c3"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/15dde811-0eef-439e-9727-077d6ca937a7/cover?territory=IT&md5ChecksumParam=6d3a822cf3c14ef76ccb090ea4be1f03"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/15dde811-0eef-439e-9727-077d6ca937a7/16-9?territory=IT&md5ChecksumParam=b3d03a4bf40129fb157d69890f239220"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/15dde811-0eef-439e-9727-077d6ca937a7/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=0d5c7e552a29240d5a7718aa55b2080c"
-                }
-              }
-            ]
-          },
-          "eventId": "411209459",
-          "starttime": "2025-06-28T10:10:00Z",
-          "endtime": "2025-06-28T10:30:00Z",
-          "eventTitle": "2a g.",
-          "eventSynopsis": "2a g. - Speciale Golf Open d'Italia",
-          "epgEventTitle": "2a g.",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        },
-        {
-          "channel": {
-            "id": 10254,
-            "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-            "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-            "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-            "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "name": "Sky Sport Golf",
-            "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-            "number": 206,
-            "servicekey": "768",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "47cf9ff1-b86f-4c66-a303-d99bc66f5912",
-            "contentTitle": "Italian Open 3a g.",
-            "episodeNumber": 82,
-            "seasonNumber": 2025,
-            "url": "/sport/dp-world-tour/italian-open-3a-g/47cf9ff1-b86f-4c66-a303-d99bc66f5912",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 92,
-              "name": "Golf"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=af4ac8f460bb9b599e86c3f7d7701b8b"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=af4ac8f460bb9b599e86c3f7d7701b8b"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=af4ac8f460bb9b599e86c3f7d7701b8b"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/background?territory=IT&md5ChecksumParam=f02b7a72ab266625b49f9ce6e4c2bd1f"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/cover?territory=IT&md5ChecksumParam=af4ac8f460bb9b599e86c3f7d7701b8b"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/16-9?territory=IT&md5ChecksumParam=0c6b81722522e05408cdb2da1a136b21"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=0c6b81722522e05408cdb2da1a136b21"
-                }
-              }
-            ]
-          },
-          "eventId": "411209460",
-          "starttime": "2025-06-28T10:30:00Z",
-          "endtime": "2025-06-28T15:15:00Z",
-          "eventTitle": "Italian Open 3a g.",
-          "eventSynopsis": "Italian Open 3a g. - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
-          "epgEventTitle": "Italian Open 3a g.",
-          "programHighlights": "L",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        },
-        {
-          "channel": {
-            "id": 10254,
-            "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-            "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-            "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-            "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "name": "Sky Sport Golf",
-            "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-            "number": 206,
-            "servicekey": "768",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "4697339d-e9d2-49f4-9366-4b90743a611a",
-            "contentTitle": "Open de Bretagne",
-            "episodeNumber": 14,
-            "seasonNumber": 2025,
-            "url": "/sport/challenge-series/open-de-bretagne/4697339d-e9d2-49f4-9366-4b90743a611a",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 92,
-              "name": "Golf"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/4697339d-e9d2-49f4-9366-4b90743a611a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f68dc2003c2985588294b5c31a2db0a2"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/4697339d-e9d2-49f4-9366-4b90743a611a/background?territory=IT&md5ChecksumParam=95fc87f6ee59760ac384fb2541af479d"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/4697339d-e9d2-49f4-9366-4b90743a611a/cover?territory=IT&md5ChecksumParam=f68dc2003c2985588294b5c31a2db0a2"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/4697339d-e9d2-49f4-9366-4b90743a611a/16-9?territory=IT&md5ChecksumParam=c9b407d6a4563af944524e8d5c5985b6"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/4697339d-e9d2-49f4-9366-4b90743a611a/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=c9b407d6a4563af944524e8d5c5985b6"
-                }
-              }
-            ]
-          },
-          "eventId": "411209461",
-          "starttime": "2025-06-28T15:15:00Z",
-          "endtime": "2025-06-28T15:45:00Z",
-          "eventTitle": "Open de Bretagne",
-          "eventSynopsis": "Open de Bretagne - Challenge Series",
-          "epgEventTitle": "Open de Bretagne",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        },
-        {
-          "channel": {
-            "id": 10254,
-            "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-            "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-            "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-            "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "name": "Sky Sport Golf",
-            "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-            "number": 206,
-            "servicekey": "768",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "b04e1bf7-23c2-45b8-a9c1-ead72a067ecd",
-            "contentTitle": "US Open",
-            "episodeNumber": 20,
-            "seasonNumber": 2025,
-            "url": "/sport/highlights-dp-world-tour/us-open/b04e1bf7-23c2-45b8-a9c1-ead72a067ecd",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 92,
-              "name": "Golf"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/b04e1bf7-23c2-45b8-a9c1-ead72a067ecd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9955add74f9363b0ec800f88a5910243"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/b04e1bf7-23c2-45b8-a9c1-ead72a067ecd/background?territory=IT&md5ChecksumParam=5c95d17261f6c75bee332f55b98e2e62"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/b04e1bf7-23c2-45b8-a9c1-ead72a067ecd/cover?territory=IT&md5ChecksumParam=9955add74f9363b0ec800f88a5910243"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/b04e1bf7-23c2-45b8-a9c1-ead72a067ecd/16-9?territory=IT&md5ChecksumParam=9ea2aee2990badf8934b6d50a6ccae1e"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/b04e1bf7-23c2-45b8-a9c1-ead72a067ecd/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=9ea2aee2990badf8934b6d50a6ccae1e"
-                }
-              }
-            ]
-          },
-          "eventId": "411209462",
-          "starttime": "2025-06-28T15:45:00Z",
-          "endtime": "2025-06-28T16:10:00Z",
-          "eventTitle": "US Open",
-          "eventSynopsis": "US Open - Le immagini piu' belle di tutte le gare della Race to Dubai. I momenti decisivi di ogni tappa del DP World Tour, con il commento dei telecronisti e dei talent di Sky Sport.",
-          "epgEventTitle": "US Open",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        },
-        {
-          "channel": {
-            "id": 10254,
-            "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-            "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-            "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-            "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "name": "Sky Sport Golf",
-            "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-            "number": 206,
-            "servicekey": "768",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "47cf9ff1-b86f-4c66-a303-d99bc66f5912",
-            "contentTitle": "Italian Open 3a g.",
-            "episodeNumber": 82,
-            "seasonNumber": 2025,
-            "url": "/sport/dp-world-tour/italian-open-3a-g/47cf9ff1-b86f-4c66-a303-d99bc66f5912",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 92,
-              "name": "Golf"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=af4ac8f460bb9b599e86c3f7d7701b8b"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=af4ac8f460bb9b599e86c3f7d7701b8b"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=af4ac8f460bb9b599e86c3f7d7701b8b"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/background?territory=IT&md5ChecksumParam=f02b7a72ab266625b49f9ce6e4c2bd1f"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/cover?territory=IT&md5ChecksumParam=af4ac8f460bb9b599e86c3f7d7701b8b"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/16-9?territory=IT&md5ChecksumParam=0c6b81722522e05408cdb2da1a136b21"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=0c6b81722522e05408cdb2da1a136b21"
-                }
-              }
-            ]
-          },
-          "eventId": "411209463",
-          "starttime": "2025-06-28T16:10:00Z",
-          "endtime": "2025-06-28T18:00:00Z",
-          "eventTitle": "Italian Open 3a g.",
-          "eventSynopsis": "Italian Open 3a g. - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
-          "epgEventTitle": "Italian Open 3a g.",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        },
-        {
-          "channel": {
-            "id": 10254,
-            "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-            "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-            "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-            "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "name": "Sky Sport Golf",
-            "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-            "number": 206,
-            "servicekey": "768",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "062a8565-ad2e-45fc-8e46-03e43bbe537c",
-            "contentTitle": "Italian Pro Tour: Memorial Giorgio Bordoni",
-            "episodeNumber": 155,
-            "seasonNumber": 2025,
-            "url": "/sport/golf/italian-pro-tour-memorial-giorgio-bordoni/062a8565-ad2e-45fc-8e46-03e43bbe537c",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 92,
-              "name": "Golf"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/background?territory=IT&md5ChecksumParam=80472d021f1f9febc3ea31495e71c97b"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/cover?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/16-9?territory=IT&md5ChecksumParam=999c2e8faf9275c41880358de2f6ce40"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=999c2e8faf9275c41880358de2f6ce40"
-                }
-              }
-            ]
-          },
-          "eventId": "411209464",
-          "starttime": "2025-06-28T18:00:00Z",
-          "endtime": "2025-06-28T18:25:00Z",
-          "eventTitle": "Memorial Giorgio Bordoni",
-          "eventSynopsis": "Memorial Giorgio Bordoni - Memorial Giorgio Bordoni.",
-          "epgEventTitle": "Memorial Giorgio Bordoni",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        },
-        {
-          "channel": {
-            "id": 10254,
-            "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-            "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-            "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-            "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "name": "Sky Sport Golf",
-            "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-            "number": 206,
-            "servicekey": "768",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "47cf9ff1-b86f-4c66-a303-d99bc66f5912",
-            "contentTitle": "Italian Open 3a g.",
-            "episodeNumber": 82,
-            "seasonNumber": 2025,
-            "url": "/sport/dp-world-tour/italian-open-3a-g/47cf9ff1-b86f-4c66-a303-d99bc66f5912",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 92,
-              "name": "Golf"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=af4ac8f460bb9b599e86c3f7d7701b8b"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=af4ac8f460bb9b599e86c3f7d7701b8b"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=af4ac8f460bb9b599e86c3f7d7701b8b"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/background?territory=IT&md5ChecksumParam=f02b7a72ab266625b49f9ce6e4c2bd1f"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/cover?territory=IT&md5ChecksumParam=af4ac8f460bb9b599e86c3f7d7701b8b"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/16-9?territory=IT&md5ChecksumParam=0c6b81722522e05408cdb2da1a136b21"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=0c6b81722522e05408cdb2da1a136b21"
-                }
-              }
-            ]
-          },
-          "eventId": "411209465",
-          "starttime": "2025-06-28T18:25:00Z",
-          "endtime": "2025-06-28T20:30:00Z",
-          "eventTitle": "Italian Open 3a g.",
-          "eventSynopsis": "Italian Open 3a g. - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
-          "epgEventTitle": "Italian Open 3a g.",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        },
-        {
-          "channel": {
-            "id": 10254,
-            "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-            "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-            "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-            "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "name": "Sky Sport Golf",
-            "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-            "number": 206,
-            "servicekey": "768",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "3bd14b59-6cda-4668-af30-4315df8ac00f",
-            "contentTitle": "Turkish Open",
-            "episodeNumber": 16,
-            "seasonNumber": 2025,
-            "url": "/sport/highlights-dp-world-tour/turkish-open/3bd14b59-6cda-4668-af30-4315df8ac00f",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 92,
-              "name": "Golf"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/background?territory=IT&md5ChecksumParam=5c95d17261f6c75bee332f55b98e2e62"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/cover?territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/16-9?territory=IT&md5ChecksumParam=5d090cb9dfe4f76526cd0e1f95bfab99"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=5d090cb9dfe4f76526cd0e1f95bfab99"
-                }
-              }
-            ]
-          },
-          "eventId": "411209466",
-          "starttime": "2025-06-28T20:30:00Z",
-          "endtime": "2025-06-28T20:45:00Z",
-          "eventTitle": "Turkish Open",
-          "eventSynopsis": "Turkish Open - Le immagini piu' belle di tutte le gare della Race to Dubai. I momenti decisivi di ogni tappa del DP World Tour, con il commento dei telecronisti e dei talent di Sky Sport.",
-          "epgEventTitle": "Turkish Open",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        },
-        {
-          "channel": {
-            "id": 10254,
-            "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-            "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-            "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-            "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "name": "Sky Sport Golf",
-            "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-            "number": 206,
-            "servicekey": "768",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "1186d55d-c0ca-4ca2-8efd-698dd3f1067d",
-            "contentTitle": "3a g.",
-            "episodeNumber": 3,
-            "seasonNumber": 2025,
-            "url": "/sport/speciale-golf-open-ditalia/3a-g/1186d55d-c0ca-4ca2-8efd-698dd3f1067d",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 92,
-              "name": "Golf"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/1186d55d-c0ca-4ca2-8efd-698dd3f1067d/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8aefa43bdb0d99a7dbb39318fae5d8d6"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/1186d55d-c0ca-4ca2-8efd-698dd3f1067d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6d3a822cf3c14ef76ccb090ea4be1f03"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/1186d55d-c0ca-4ca2-8efd-698dd3f1067d/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8aefa43bdb0d99a7dbb39318fae5d8d6"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/1186d55d-c0ca-4ca2-8efd-698dd3f1067d/background?territory=IT&md5ChecksumParam=76b39ba54d9e4077e06b52dc649908c3"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/1186d55d-c0ca-4ca2-8efd-698dd3f1067d/cover?territory=IT&md5ChecksumParam=6d3a822cf3c14ef76ccb090ea4be1f03"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/1186d55d-c0ca-4ca2-8efd-698dd3f1067d/16-9?territory=IT&md5ChecksumParam=b3d03a4bf40129fb157d69890f239220"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/1186d55d-c0ca-4ca2-8efd-698dd3f1067d/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=0d5c7e552a29240d5a7718aa55b2080c"
-                }
-              }
-            ]
-          },
-          "eventId": "411209467",
-          "starttime": "2025-06-28T20:45:00Z",
-          "endtime": "2025-06-28T21:00:00Z",
-          "eventTitle": "3a g.",
-          "eventSynopsis": "3a g. - Speciale Golf Open d'Italia",
-          "epgEventTitle": "3a g.",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        },
-        {
-          "channel": {
-            "id": 10254,
-            "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-            "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-            "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-            "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-            "name": "Sky Sport Golf",
-            "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-            "number": 206,
-            "servicekey": "768",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "47cf9ff1-b86f-4c66-a303-d99bc66f5912",
-            "contentTitle": "Italian Open 3a g.",
-            "episodeNumber": 82,
-            "seasonNumber": 2025,
-            "url": "/sport/dp-world-tour/italian-open-3a-g/47cf9ff1-b86f-4c66-a303-d99bc66f5912",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 92,
-              "name": "Golf"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=af4ac8f460bb9b599e86c3f7d7701b8b"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=af4ac8f460bb9b599e86c3f7d7701b8b"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=af4ac8f460bb9b599e86c3f7d7701b8b"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/background?territory=IT&md5ChecksumParam=f02b7a72ab266625b49f9ce6e4c2bd1f"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/cover?territory=IT&md5ChecksumParam=af4ac8f460bb9b599e86c3f7d7701b8b"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/16-9?territory=IT&md5ChecksumParam=0c6b81722522e05408cdb2da1a136b21"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/47cf9ff1-b86f-4c66-a303-d99bc66f5912/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=0c6b81722522e05408cdb2da1a136b21"
-                }
-              }
-            ]
-          },
-          "eventId": "411209468",
-          "starttime": "2025-06-28T21:00:00Z",
-          "endtime": "2025-06-29T00:00:00Z",
-          "eventTitle": "Italian Open 3a g.",
-          "eventSynopsis": "Italian Open 3a g. - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
-          "epgEventTitle": "Italian Open 3a g.",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2025-06-29",
       "events": [
         {
@@ -1309,12 +38,12 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
+                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
+                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
                 }
               },
               {
@@ -3197,12 +1926,12 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
+                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
+                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
                 }
               },
               {
@@ -3371,12 +2100,12 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
+                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
+                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
                 }
               },
               {
@@ -3535,7 +2264,7 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
+                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
                 }
               },
               {
@@ -3545,7 +2274,7 @@
               },
               {
                 "img": {
-                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
+                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
                 }
               },
               {
@@ -4226,12 +2955,12 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
+                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
+                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
                 }
               },
               {
@@ -4313,12 +3042,12 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
+                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
+                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
                 }
               },
               {
@@ -4400,12 +3129,12 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
+                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
+                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
                 }
               },
               {
@@ -5417,12 +4146,12 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
+                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
+                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
                 }
               },
               {
@@ -6006,12 +4735,12 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/92827ea9-5e34-4663-8c38-b54ba689767a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0924b9b02ee5a4a5ed48d3b565d85044"
+                  "url": "/uuid/92827ea9-5e34-4663-8c38-b54ba689767a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=0924b9b02ee5a4a5ed48d3b565d85044"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/92827ea9-5e34-4663-8c38-b54ba689767a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=0924b9b02ee5a4a5ed48d3b565d85044"
+                  "url": "/uuid/92827ea9-5e34-4663-8c38-b54ba689767a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0924b9b02ee5a4a5ed48d3b565d85044"
                 }
               },
               {
@@ -6093,12 +4822,12 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
+                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
+                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
                 }
               },
               {
@@ -6354,12 +5083,12 @@
               },
               {
                 "img": {
-                  "url": "/uuid/11e0a16a-3a82-456c-aea9-e1e690da8a31/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f4f9c3577814b93ff608afdb8df3347b"
+                  "url": "/uuid/11e0a16a-3a82-456c-aea9-e1e690da8a31/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f4f9c3577814b93ff608afdb8df3347b"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/11e0a16a-3a82-456c-aea9-e1e690da8a31/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f4f9c3577814b93ff608afdb8df3347b"
+                  "url": "/uuid/11e0a16a-3a82-456c-aea9-e1e690da8a31/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f4f9c3577814b93ff608afdb8df3347b"
                 }
               },
               {
@@ -6610,17 +5339,17 @@
             "imagesMap": [
               {
                 "img": {
+                  "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
+                }
+              },
+              {
+                "img": {
                   "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
                 }
               },
               {
                 "img": {
                   "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
                 }
               },
               {
@@ -6775,7 +5504,7 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
+                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
                 }
               },
               {
@@ -6785,7 +5514,7 @@
               },
               {
                 "img": {
-                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
+                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
                 }
               },
               {
@@ -6939,17 +5668,17 @@
             "imagesMap": [
               {
                 "img": {
+                  "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
+                }
+              },
+              {
+                "img": {
                   "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
                 }
               },
               {
                 "img": {
                   "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
                 }
               },
               {
@@ -7190,17 +5919,17 @@
             "imagesMap": [
               {
                 "img": {
+                  "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
+                }
+              },
+              {
+                "img": {
                   "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
                 }
               },
               {
                 "img": {
                   "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
                 }
               },
               {
@@ -7456,17 +6185,17 @@
             "imagesMap": [
               {
                 "img": {
+                  "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
+                }
+              },
+              {
+                "img": {
                   "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
                 }
               },
               {
                 "img": {
                   "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
                 }
               },
               {
@@ -7717,17 +6446,17 @@
             "imagesMap": [
               {
                 "img": {
+                  "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
+                }
+              },
+              {
+                "img": {
                   "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
                 }
               },
               {
                 "img": {
                   "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/d9a80c43-e062-4ebe-ac82-6bef7a3f74c3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=542302c2f11321ecec8a471b513cb382"
                 }
               },
               {
@@ -8046,7 +6775,7 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
+                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
                 }
               },
               {
@@ -8056,7 +6785,7 @@
               },
               {
                 "img": {
-                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
+                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
                 }
               },
               {
@@ -8456,12 +7185,12 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
+                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
+                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
                 }
               },
               {
@@ -10329,12 +9058,12 @@
               },
               {
                 "img": {
-                  "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
+                  "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
+                  "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
                 }
               },
               {
@@ -11698,12 +10427,12 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
+                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
+                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
                 }
               },
               {
@@ -11949,7 +10678,7 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
+                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
                 }
               },
               {
@@ -11959,7 +10688,7 @@
               },
               {
                 "img": {
-                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
+                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
                 }
               },
               {
@@ -13189,12 +11918,12 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
+                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
+                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
                 }
               },
               {
@@ -13460,12 +12189,12 @@
               },
               {
                 "img": {
-                  "url": "/uuid/11e0a16a-3a82-456c-aea9-e1e690da8a31/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f4f9c3577814b93ff608afdb8df3347b"
+                  "url": "/uuid/11e0a16a-3a82-456c-aea9-e1e690da8a31/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f4f9c3577814b93ff608afdb8df3347b"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/11e0a16a-3a82-456c-aea9-e1e690da8a31/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f4f9c3577814b93ff608afdb8df3347b"
+                  "url": "/uuid/11e0a16a-3a82-456c-aea9-e1e690da8a31/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f4f9c3577814b93ff608afdb8df3347b"
                 }
               },
               {
@@ -13716,12 +12445,12 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
+                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
+                  "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
                 }
               },
               {
@@ -13880,12 +12609,12 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
+                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
+                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
                 }
               },
               {
@@ -14203,12 +12932,12 @@
               },
               {
                 "img": {
-                  "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
+                  "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
+                  "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
                 }
               },
               {
@@ -14887,12 +13616,12 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
+                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
+                  "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
                 }
               },
               {
@@ -15785,17 +14514,17 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
-                }
-              },
-              {
-                "img": {
                   "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6ee72a7f80a013ff3ea7d9fa55b243bf"
                 }
               },
               {
                 "img": {
                   "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
+                }
+              },
+              {
+                "img": {
+                  "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
                 }
               },
               {
@@ -16757,7 +15486,7 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
+                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
                 }
               },
               {
@@ -16767,7 +15496,7 @@
               },
               {
                 "img": {
-                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
+                  "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
                 }
               },
               {
@@ -17262,12 +15991,12 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
+                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
+                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
                 }
               },
               {
@@ -17579,12 +16308,12 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
+                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
+                  "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
                 }
               },
               {
@@ -17911,12 +16640,12 @@
               },
               {
                 "img": {
-                  "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
+                  "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
+                  "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
                 }
               },
               {
@@ -18243,17 +16972,17 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
-                }
-              },
-              {
-                "img": {
                   "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6ee72a7f80a013ff3ea7d9fa55b243bf"
                 }
               },
               {
                 "img": {
                   "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
+                }
+              },
+              {
+                "img": {
+                  "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
                 }
               },
               {
@@ -19504,6 +18233,10 @@
     },
     {
       "date": "2025-08-26",
+      "events": []
+    },
+    {
+      "date": "2025-08-27",
       "events": []
     }
   ]

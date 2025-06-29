@@ -2,532 +2,6 @@
   "name": "Sky Sport Tennis",
   "events_by_date": [
     {
-      "date": "2025-06-28",
-      "events": [
-        {
-          "channel": {
-            "id": 11237,
-            "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-            "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-            "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-            "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-            "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-            "name": "Sky Sport Tennis",
-            "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-            "number": 203,
-            "servicekey": "559",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "6933220f-13ed-459a-a665-1a5b2b5b04e9",
-            "contentTitle": "Pennetta incontra Paolini",
-            "episodeNumber": 0,
-            "url": "/programmi-tv/tennis/pennetta-incontra-paolini/6933220f-13ed-459a-a665-1a5b2b5b04e9",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 17,
-              "name": "Tennis"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/6933220f-13ed-459a-a665-1a5b2b5b04e9/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ee6e955475e2068697e5799461720867"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/6933220f-13ed-459a-a665-1a5b2b5b04e9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=aae521c78e8d91b870278496e20fcf36"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/6933220f-13ed-459a-a665-1a5b2b5b04e9/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ee6e955475e2068697e5799461720867"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/6933220f-13ed-459a-a665-1a5b2b5b04e9/background?territory=IT&md5ChecksumParam=c8fc7131c40ba4788b61e8bf81816295"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/6933220f-13ed-459a-a665-1a5b2b5b04e9/cover?territory=IT&md5ChecksumParam=aae521c78e8d91b870278496e20fcf36"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/6933220f-13ed-459a-a665-1a5b2b5b04e9/16-9?territory=IT&md5ChecksumParam=f4972528ed7c1436ae88505b241dacdd"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/6933220f-13ed-459a-a665-1a5b2b5b04e9/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=83263b535390b2974857221618653b65"
-                }
-              }
-            ]
-          },
-          "eventId": "411285934",
-          "starttime": "2025-06-28T03:30:00Z",
-          "endtime": "2025-06-28T04:00:00Z",
-          "eventTitle": "Pennetta incontra Paolini",
-          "eventSynopsis": "Pennetta incontra Paolini",
-          "epgEventTitle": "Pennetta incontra Paolini",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        },
-        {
-          "channel": {
-            "id": 11237,
-            "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-            "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-            "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-            "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-            "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-            "name": "Sky Sport Tennis",
-            "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-            "number": 203,
-            "servicekey": "559",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "14ab1da7-31f3-4ae4-a699-76fb224c570b",
-            "contentTitle": "Panatta & Bertolucci Tennis Heroes",
-            "episodeNumber": 3,
-            "seasonNumber": 1,
-            "url": "/sport/panatta-and-bertolucci-tennis-heroes/panatta-and-bertolucci-tennis-heroes/14ab1da7-31f3-4ae4-a699-76fb224c570b",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 17,
-              "name": "Tennis"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=39205ce4d20b38d196f06c18760f5142"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=1f6db7ec8256af5d7bbd771b157670aa"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=39205ce4d20b38d196f06c18760f5142"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/background?territory=IT&md5ChecksumParam=03fa97f8ea7a07d8379359af52648a10"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/cover?territory=IT&md5ChecksumParam=1f6db7ec8256af5d7bbd771b157670aa"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/16-9?territory=IT&md5ChecksumParam=5745c26103cb7fd69cff8399656c70ce"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=5745c26103cb7fd69cff8399656c70ce"
-                }
-              }
-            ]
-          },
-          "eventId": "411332003",
-          "starttime": "2025-06-28T11:45:00Z",
-          "endtime": "2025-06-28T12:30:00Z",
-          "eventTitle": "Panatta & Bertolucci Tennis Heroes",
-          "eventSynopsis": "Agassi Sampras - Panatta & Bertolucci Tennis Heroes",
-          "epgEventTitle": "Panatta & Bertolucci Tennis Heroes",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        },
-        {
-          "channel": {
-            "id": 11237,
-            "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-            "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-            "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-            "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-            "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-            "name": "Sky Sport Tennis",
-            "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-            "number": 203,
-            "servicekey": "559",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "14ab1da7-31f3-4ae4-a699-76fb224c570b",
-            "contentTitle": "Panatta & Bertolucci Tennis Heroes",
-            "episodeNumber": 3,
-            "seasonNumber": 1,
-            "url": "/sport/panatta-and-bertolucci-tennis-heroes/panatta-and-bertolucci-tennis-heroes/14ab1da7-31f3-4ae4-a699-76fb224c570b",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 17,
-              "name": "Tennis"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=39205ce4d20b38d196f06c18760f5142"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=1f6db7ec8256af5d7bbd771b157670aa"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=39205ce4d20b38d196f06c18760f5142"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/background?territory=IT&md5ChecksumParam=03fa97f8ea7a07d8379359af52648a10"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/cover?territory=IT&md5ChecksumParam=1f6db7ec8256af5d7bbd771b157670aa"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/16-9?territory=IT&md5ChecksumParam=5745c26103cb7fd69cff8399656c70ce"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=5745c26103cb7fd69cff8399656c70ce"
-                }
-              }
-            ]
-          },
-          "eventId": "411332007",
-          "starttime": "2025-06-28T18:50:00Z",
-          "endtime": "2025-06-28T19:35:00Z",
-          "eventTitle": "Panatta & Bertolucci Tennis Heroes",
-          "eventSynopsis": "Agassi Sampras - Panatta & Bertolucci Tennis Heroes",
-          "epgEventTitle": "Panatta & Bertolucci Tennis Heroes",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        },
-        {
-          "channel": {
-            "id": 11237,
-            "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-            "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-            "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-            "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-            "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-            "name": "Sky Sport Tennis",
-            "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-            "number": 203,
-            "servicekey": "559",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "32b548a5-fe9b-49f1-aa05-c85469ceb220",
-            "contentTitle": "Finale",
-            "episodeNumber": 3,
-            "seasonNumber": 2025,
-            "url": "/sport/atp-250-maiorca/finale/32b548a5-fe9b-49f1-aa05-c85469ceb220",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 17,
-              "name": "Tennis"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=bdef3695c915bc48744cce98a1661688"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=bdef3695c915bc48744cce98a1661688"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=bdef3695c915bc48744cce98a1661688"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/background?territory=IT&md5ChecksumParam=0f71459c8cc9cad88313202477e0a90c"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/cover?territory=IT&md5ChecksumParam=bdef3695c915bc48744cce98a1661688"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/16-9?territory=IT&md5ChecksumParam=65d284b4b11c1352b423f227328dc8bd"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=65d284b4b11c1352b423f227328dc8bd"
-                }
-              }
-            ]
-          },
-          "eventId": "411332008",
-          "starttime": "2025-06-28T19:35:00Z",
-          "endtime": "2025-06-28T21:45:00Z",
-          "eventTitle": "Finale",
-          "eventSynopsis": "Finale - ATP 250 Maiorca",
-          "epgEventTitle": "Finale",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        },
-        {
-          "channel": {
-            "id": 11237,
-            "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-            "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-            "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-            "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-            "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-            "name": "Sky Sport Tennis",
-            "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-            "number": 203,
-            "servicekey": "559",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "14ab1da7-31f3-4ae4-a699-76fb224c570b",
-            "contentTitle": "Panatta & Bertolucci Tennis Heroes",
-            "episodeNumber": 3,
-            "seasonNumber": 1,
-            "url": "/sport/panatta-and-bertolucci-tennis-heroes/panatta-and-bertolucci-tennis-heroes/14ab1da7-31f3-4ae4-a699-76fb224c570b",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 17,
-              "name": "Tennis"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=39205ce4d20b38d196f06c18760f5142"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=1f6db7ec8256af5d7bbd771b157670aa"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=39205ce4d20b38d196f06c18760f5142"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/background?territory=IT&md5ChecksumParam=03fa97f8ea7a07d8379359af52648a10"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/cover?territory=IT&md5ChecksumParam=1f6db7ec8256af5d7bbd771b157670aa"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/16-9?territory=IT&md5ChecksumParam=5745c26103cb7fd69cff8399656c70ce"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=5745c26103cb7fd69cff8399656c70ce"
-                }
-              }
-            ]
-          },
-          "eventId": "411332009",
-          "starttime": "2025-06-28T21:45:00Z",
-          "endtime": "2025-06-28T22:30:00Z",
-          "eventTitle": "Panatta & Bertolucci Tennis Heroes",
-          "eventSynopsis": "Agassi Sampras - Panatta & Bertolucci Tennis Heroes",
-          "epgEventTitle": "Panatta & Bertolucci Tennis Heroes",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        },
-        {
-          "channel": {
-            "id": 11237,
-            "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-            "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-            "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-            "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-            "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-            "name": "Sky Sport Tennis",
-            "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-            "number": 203,
-            "servicekey": "559",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
-          },
-          "content": {
-            "uuid": "32b548a5-fe9b-49f1-aa05-c85469ceb220",
-            "contentTitle": "Finale",
-            "episodeNumber": 3,
-            "seasonNumber": 2025,
-            "url": "/sport/atp-250-maiorca/finale/32b548a5-fe9b-49f1-aa05-c85469ceb220",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 17,
-              "name": "Tennis"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=bdef3695c915bc48744cce98a1661688"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=bdef3695c915bc48744cce98a1661688"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=bdef3695c915bc48744cce98a1661688"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/background?territory=IT&md5ChecksumParam=0f71459c8cc9cad88313202477e0a90c"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/cover?territory=IT&md5ChecksumParam=bdef3695c915bc48744cce98a1661688"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/16-9?territory=IT&md5ChecksumParam=65d284b4b11c1352b423f227328dc8bd"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=65d284b4b11c1352b423f227328dc8bd"
-                }
-              }
-            ]
-          },
-          "eventId": "411332010",
-          "starttime": "2025-06-28T22:30:00Z",
-          "endtime": "2025-06-29T00:30:00Z",
-          "eventTitle": "Finale",
-          "eventSynopsis": "Finale - ATP 250 Maiorca",
-          "epgEventTitle": "Finale",
-          "primeVision": false,
-          "resolutions": [
-            {
-              "resolutionType": "resolution4k",
-              "value": false
-            }
-          ]
-        }
-      ]
-    },
-    {
       "date": "2025-06-29",
       "events": [
         {
@@ -738,17 +212,17 @@
             "imagesMap": [
               {
                 "img": {
+                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=bdef3695c915bc48744cce98a1661688"
+                }
+              },
+              {
+                "img": {
                   "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=bdef3695c915bc48744cce98a1661688"
                 }
               },
               {
                 "img": {
                   "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=bdef3695c915bc48744cce98a1661688"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/32b548a5-fe9b-49f1-aa05-c85469ceb220/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=bdef3695c915bc48744cce98a1661688"
                 }
               },
               {
@@ -1086,17 +560,17 @@
             "imagesMap": [
               {
                 "img": {
+                  "url": "/uuid/4920c284-5ff2-42ef-a405-a317f37cba47/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7efd12646ad6ec12da98e4c85b6b3e4e"
+                }
+              },
+              {
+                "img": {
                   "url": "/uuid/4920c284-5ff2-42ef-a405-a317f37cba47/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=7efd12646ad6ec12da98e4c85b6b3e4e"
                 }
               },
               {
                 "img": {
                   "url": "/uuid/4920c284-5ff2-42ef-a405-a317f37cba47/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7efd12646ad6ec12da98e4c85b6b3e4e"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/4920c284-5ff2-42ef-a405-a317f37cba47/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7efd12646ad6ec12da98e4c85b6b3e4e"
                 }
               },
               {
@@ -1260,17 +734,17 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/a1139bca-5be5-46bc-9d62-1beb3d4a9f8b/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=43779e3822ff6ccbe661e528d1315c60"
-                }
-              },
-              {
-                "img": {
                   "url": "/uuid/a1139bca-5be5-46bc-9d62-1beb3d4a9f8b/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=43779e3822ff6ccbe661e528d1315c60"
                 }
               },
               {
                 "img": {
                   "url": "/uuid/a1139bca-5be5-46bc-9d62-1beb3d4a9f8b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=43779e3822ff6ccbe661e528d1315c60"
+                }
+              },
+              {
+                "img": {
+                  "url": "/uuid/a1139bca-5be5-46bc-9d62-1beb3d4a9f8b/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=43779e3822ff6ccbe661e528d1315c60"
                 }
               },
               {
@@ -1686,12 +1160,12 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/dc4a7de6-68b9-49f8-9557-619372e647f6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b5a3ecdec2ac508b0eeb7af76605e198"
+                  "url": "/uuid/dc4a7de6-68b9-49f8-9557-619372e647f6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fc6c08822973bedbde110db98c4e4d9c"
                 }
               },
               {
                 "img": {
-                  "url": "/uuid/dc4a7de6-68b9-49f8-9557-619372e647f6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fc6c08822973bedbde110db98c4e4d9c"
+                  "url": "/uuid/dc4a7de6-68b9-49f8-9557-619372e647f6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b5a3ecdec2ac508b0eeb7af76605e198"
                 }
               },
               {
@@ -2474,7 +1948,7 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                  "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
                 }
               },
               {
@@ -2484,7 +1958,7 @@
               },
               {
                 "img": {
-                  "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                  "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
                 }
               },
               {
@@ -2650,7 +2124,7 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                  "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
                 }
               },
               {
@@ -2660,7 +2134,7 @@
               },
               {
                 "img": {
-                  "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                  "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
                 }
               },
               {
@@ -2831,7 +2305,7 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                  "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
                 }
               },
               {
@@ -2841,7 +2315,7 @@
               },
               {
                 "img": {
-                  "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                  "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
                 }
               },
               {
@@ -3007,7 +2481,7 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                  "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
                 }
               },
               {
@@ -3017,7 +2491,7 @@
               },
               {
                 "img": {
-                  "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                  "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
                 }
               },
               {
@@ -3183,7 +2657,7 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                  "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
                 }
               },
               {
@@ -3193,7 +2667,7 @@
               },
               {
                 "img": {
-                  "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                  "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
                 }
               },
               {
@@ -3359,7 +2833,7 @@
             "imagesMap": [
               {
                 "img": {
-                  "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                  "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
                 }
               },
               {
@@ -3369,7 +2843,7 @@
               },
               {
                 "img": {
-                  "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                  "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
                 }
               },
               {
@@ -5485,6 +4959,10 @@
     },
     {
       "date": "2025-08-26",
+      "events": []
+    },
+    {
+      "date": "2025-08-27",
       "events": []
     }
   ]
