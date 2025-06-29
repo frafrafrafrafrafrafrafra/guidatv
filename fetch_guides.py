@@ -1,3 +1,5 @@
+_":
+    main()
 import requests
 import json
 from datetime import datetime, timedelta
@@ -201,7 +203,7 @@ def get_working_proxy(
     proxy_list_url="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.txt",
     test_url="https://tvepg.eu/it/italy/channel/boing",
     timeout=5,
-    max_proxies_to_try=30
+    max_proxies_to_try=1000
 ):
     """Ottiene un proxy funzionante dalla lista specificata"""
     print("🔎 Ricerca proxy funzionante...")
