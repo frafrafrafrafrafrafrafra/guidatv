@@ -344,81 +344,67 @@
       {"name":"TRM h24","site_id":"DTH_9013"},
       {"name":"TV8 HD","site_id":"DTH_8195"},
       {"name":"TV2000 HD","site_id":"DTH_7588"},
-      {"name":"TOPcrime","site_id":"DTH_8196"},
-      {"name":"Venti+","site_id":"DTH_11231"},
-      {"name":"Venti+","site_id":"DTH_11232"},
-      {"name":"Venti+","site_id":"DTH_11233"},
-      {"name":"Venti+","site_id":"DTH_11234"},
-      {"name":"Venti+","site_id":"DTH_11235"},
-      {"name":"Venti+","site_id":"DTH_11236"},
-      {"name":"Virgin Radio TV HD","site_id":"DTH_10994"},
-      {"name":"X-Travel TV","site_id":"DTH_6244"},
-      {"name":"Zee TV","site_id":"DTH_9187"}
+      {"name":"TOPcrime","site_id":"DTH_11217"},
+      {"name":"TLC","site_id":"DTH_6617"},
+      {"name":"TMC 2 HD","site_id":"DTH_10461"},
+      {"name":"TMC HD","site_id":"DTH_10460"},
+      {"name":"TIMMUSIC","site_id":"DTH_6724"},
+      {"name":"Trace Urban","site_id":"DTH_11279"},
+      {"name":"TV 2000","site_id":"DTH_7120"},
+      {"name":"VEGA","site_id":"DTH_9026"},
+      {"name":"VTV","site_id":"DTH_9015"},
+      {"name":"Viasat Explore","site_id":"DTH_11182"},
+      {"name":"Viasat History","site_id":"DTH_11183"},
+      {"name":"Viasat Nature","site_id":"DTH_11184"},
+      {"name":"Viasat Nature Wild","site_id":"DTH_11204"},
+      {"name":"VH1","site_id":"DTH_11280"},
+      {"name":"VIVA","site_id":"DTH_11281"},
+      {"name":"VIVACOMEDY","site_id":"DTH_11282"},
+      {"name":"ZEE TV","site_id":"DTH_7460"},
+      {"name":"Zoomerang","site_id":"DTH_11283"},
+      {"name":"Zoomerang+1","site_id":"DTH_11284"}
     ];
 
-    const list = document.getElementById('channel-list');
-    const favoritesList = document.getElementById('favorites-list');
-    const favoritesSection = document.getElementById('favorites-section');
-    const searchInput = document.getElementById('search-input');
     const footer = document.getElementById('toggle-dark-mode');
+    const searchInput = document.getElementById('search-input');
+    const channelList = document.getElementById('channel-list');
+    const favoritesSection = document.getElementById('favorites-section');
+    const favoritesList = document.getElementById('favorites-list');
 
-    // Ritorna array di site_id preferiti da localStorage
-    function getFavorites() {
-      try {
-        const favs = localStorage.getItem('favorites');
-        return favs ? JSON.parse(favs) : [];
-      } catch {
-        return [];
-      }
+    // Recupera i preferiti dal localStorage, oppure array vuoto
+    let favorites = JSON.parse(localStorage.getItem('favoritesChannels') || '[]');
+
+    // Salva preferiti su localStorage
+    function saveFavorites() {
+      localStorage.setItem('favoritesChannels', JSON.stringify(favorites));
     }
 
-    // Salva array di preferiti in localStorage
-    function setFavorites(arr) {
-      localStorage.setItem('favorites', JSON.stringify(arr));
-    }
-
-    // Controlla se un canale è preferito
-    function isFavorite(site_id) {
-      return getFavorites().includes(site_id);
-    }
-
-    // Toggle preferito per site_id
-    function toggleFavorite(site_id) {
-      let favs = getFavorites();
-      if (favs.includes(site_id)) {
-        favs = favs.filter(id => id !== site_id);
-      } else {
-        favs.push(site_id);
-      }
-      setFavorites(favs);
-    }
-
-    // Crea li canale con link e bottone stella
+    // Crea elemento <li> canale, con link e bottone stella
     function createChannelLi(channel) {
       const li = document.createElement('li');
-      if (isFavorite(channel.site_id)) {
+      if (favorites.includes(channel.site_id)) {
         li.classList.add('favorite');
       }
 
-      // Link nome canale (clicca per aprire guida)
       const a = document.createElement('a');
-      a.href = `guide.html?site_id=${encodeURIComponent(ch.site_id)}&name=${encodeURIComponent(ch.name)}`;
+      a.href = `guide.html?site_id=${encodeURIComponent(channel.site_id)}&name=${encodeURIComponent(channel.name)}`;
       a.textContent = channel.name;
       a.title = 'Apri guida TV';
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
 
-      // Bottone stella preferiti
+      // Bottone stella per preferiti
       const favBtn = document.createElement('button');
-      favBtn.className = 'favorite-btn';
-      favBtn.title = isFavorite(channel.site_id) ? 'Rimuovi dai preferiti' : 'Aggiungi ai preferiti';
-      favBtn.textContent = isFavorite(channel.site_id) ? '★' : '☆';
-      if (isFavorite(channel.site_id)) {
+      favBtn.classList.add('favorite-btn');
+      favBtn.innerHTML = favorites.includes(channel.site_id) ? '⭐' : '☆';
+      if (favorites.includes(channel.site_id)) {
         favBtn.classList.add('active');
       }
-
+      favBtn.title = favorites.includes(channel.site_id) ? 'Rimuovi dai preferiti' : 'Aggiungi ai preferiti';
       favBtn.addEventListener('click', (e) => {
         e.preventDefault();
+        e.stopPropagation();
         toggleFavorite(channel.site_id);
-        rebuildLists(searchInput.value);
       });
 
       li.appendChild(a);
@@ -427,54 +413,86 @@
       return li;
     }
 
-    // Ricostruisce liste con filtro
-    function rebuildLists(filter = '') {
-      list.innerHTML = '';
-      favoritesList.innerHTML = '';
+    // Toggle preferito
+    function toggleFavorite(site_id) {
+      const idx = favorites.indexOf(site_id);
+      if (idx === -1) {
+        favorites.push(site_id);
+      } else {
+        favorites.splice(idx, 1);
+      }
+      saveFavorites();
+      rebuildLists();
+    }
 
-      const favs = getFavorites();
-      const favSet = new Set(favs);
-      const q = filter.trim().toLowerCase();
+    // Filtra canali per testo (case insensitive)
+    function filterChannels(text) {
+      const lowerText = text.toLowerCase();
+      return CHANNELS.filter(ch => ch.name.toLowerCase().includes(lowerText));
+    }
 
-      // Canali preferiti filtrati
-      let filteredFavs = CHANNELS.filter(ch => favSet.has(ch.site_id) && ch.name.toLowerCase().includes(q));
-      filteredFavs.sort((a, b) => a.name.localeCompare(b.name));
+    // Ricostruisce entrambe le liste: preferiti e principali, in base a filtro
+    function rebuildLists() {
+      const filterText = searchInput.value.trim().toLowerCase();
 
-      // Canali non preferiti filtrati
-      let filteredOthers = CHANNELS.filter(ch => !favSet.has(ch.site_id) && ch.name.toLowerCase().includes(q));
-      filteredOthers.sort((a, b) => a.name.localeCompare(b.name));
+      // Canali filtrati
+      const filteredChannels = filterChannels(filterText);
 
-      if (filteredFavs.length > 0) {
+      // Preferiti filtrati
+      const filteredFavorites = filteredChannels.filter(ch => favorites.includes(ch.site_id));
+
+      // Mostra o nascondi sezione preferiti
+      if (filteredFavorites.length > 0) {
         favoritesSection.style.display = 'block';
-        filteredFavs.forEach(ch => {
-          favoritesList.appendChild(createChannelLi(ch));
-        });
       } else {
         favoritesSection.style.display = 'none';
       }
 
-      filteredOthers.forEach(ch => {
-        list.appendChild(createChannelLi(ch));
+      // Pulisci liste
+      favoritesList.innerHTML = '';
+      channelList.innerHTML = '';
+
+      // Aggiungi preferiti
+      filteredFavorites.forEach(ch => {
+        const li = createChannelLi(ch);
+        favoritesList.appendChild(li);
+      });
+
+      // Aggiungi canali (non preferiti)
+      filteredChannels.forEach(ch => {
+        if (!favorites.includes(ch.site_id)) {
+          const li = createChannelLi(ch);
+          channelList.appendChild(li);
+        }
       });
     }
 
-    // Gestione ricerca dinamica
-    searchInput.addEventListener('input', () => {
-      rebuildLists(searchInput.value);
-    });
-
-    // Modalità scura toggler
-    footer.addEventListener('click', () => {
-      document.body.classList.toggle('dark-mode');
-      if (document.body.classList.contains('dark-mode')) {
+    // --- Gestione modalità scura ---
+    function updateDarkModeUI(isDark) {
+      if (isDark) {
+        document.body.classList.add('dark-mode');
         footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
       } else {
+        document.body.classList.remove('dark-mode');
         footer.textContent = 'Powered by 🐯 - Modalità Scura OFF';
       }
+    }
+
+    // Carica preferenza modalità scura
+    const darkModePref = localStorage.getItem('darkMode');
+    updateDarkModeUI(darkModePref === 'on');
+
+    footer.addEventListener('click', () => {
+      const isDark = document.body.classList.toggle('dark-mode');
+      footer.textContent = isDark
+        ? 'Powered by 🐯 - Modalità Scura ON'
+        : 'Powered by 🐯 - Modalità Scura OFF';
+      localStorage.setItem('darkMode', isDark ? 'on' : 'off');
     });
 
-    // Inizializza liste e stato
+    // Ricostruzione lista all'avvio e ad ogni input
     rebuildLists();
+    searchInput.addEventListener('input', rebuildLists);
   </script>
 </body>
 </html>
