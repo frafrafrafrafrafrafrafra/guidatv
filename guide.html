@@ -243,7 +243,7 @@
       </div>
     </div>
   </div>
-  <footer title="Clicca per attivare/disattivare la modalità scura">Powered by 🐯</footer>
+  <footer title="Clicca per attivare/disattivare la modalità scura">Powered by 🐯 - Modalità Scura OFF</footer>
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -368,6 +368,13 @@
         }, 100);
       }
 
+      function toggleDarkMode() {
+        const isDark = document.body.classList.toggle('dark-mode');
+        footer.textContent = 'Powered by 🐯 - Modalità Scura ' + (isDark ? 'ON' : 'OFF');
+        footer.title = 'Clicca per attivare/disattivare la modalità scura';
+        localStorage.setItem('darkMode', isDark ? 'true' : 'false');
+      }
+
       function loadChannelData() {
         if (!siteId) {
           showError("Parametro site_id mancante nell'URL");
@@ -429,17 +436,15 @@
 
       exportTxtBtn.addEventListener('click', exportToTxt);
 
-      // Carica la modalità scura da localStorage se impostata
+      // Carica la modalità scura da localStorage e aggiorna testo footer
       const darkModeStored = localStorage.getItem('darkMode');
       if (darkModeStored === 'true') {
         document.body.classList.add('dark-mode');
+        footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
       }
 
       // Toggle modalità scura e salva localStorage
-      footer.addEventListener('click', () => {
-        const isDark = document.body.classList.toggle('dark-mode');
-        localStorage.setItem('darkMode', isDark ? 'true' : 'false');
-      });
+      footer.addEventListener('click', toggleDarkMode);
 
       loadChannelData();
     });
