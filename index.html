@@ -184,7 +184,6 @@
     Powered by 🐯 - Modalità Scura OFF
   </footer>
 
-  <script>
     const CHANNELS = [
       {"name":"CNBC HD","site_id":"DTH_10713"},
       {"name":"Sky Crime","site_id":"DTH_11216"},
@@ -456,27 +455,26 @@
       });
     }
 
-    // --- Gestione modalità scura ---
-    function updateDarkModeUI(isDark) {
+    // --- Gestione modalità scura robusta ---
+    function setDarkMode(isDark) {
       if (isDark) {
         document.body.classList.add('dark-mode');
         footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
+        localStorage.setItem('darkMode', 'on');
       } else {
         document.body.classList.remove('dark-mode');
         footer.textContent = 'Powered by 🐯 - Modalità Scura OFF';
+        localStorage.setItem('darkMode', 'off');
       }
     }
 
-    // Carica preferenza modalità scura
-    const darkModePref = localStorage.getItem('darkMode');
-    updateDarkModeUI(darkModePref === 'on');
+    // Inizializza modalità scura dal localStorage
+    const darkModePref = localStorage.getItem('darkMode') === 'on';
+    setDarkMode(darkModePref);
 
     footer.addEventListener('click', () => {
-      const isDark = document.body.classList.toggle('dark-mode');
-      footer.textContent = isDark
-        ? 'Powered by 🐯 - Modalità Scura ON'
-        : 'Powered by 🐯 - Modalità Scura OFF';
-      localStorage.setItem('darkMode', isDark ? 'on' : 'off');
+      const isDark = document.body.classList.contains('dark-mode');
+      setDarkMode(!isDark);
     });
 
     // Ricostruzione lista all'avvio e ad ogni input
