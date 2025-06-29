@@ -177,7 +177,9 @@
       const channelName = urlParams.get('name') || "Canale sconosciuto";
       let allPrograms = [];
       let currentDate = new Date();
-      const maxDays = 60;
+
+      const maxDays = 60;   // giorni avanti
+      const minDays = 7;    // giorni indietro
 
       function showError(message) {
         loadingElem.style.display = 'none';
@@ -245,11 +247,17 @@
         document.title = `${channelName} - ${formatReadableDate(currentDate)}`;
         showPrograms(searchInput.value);
         datePicker.value = formatDate(currentDate);
+
         const today = new Date();
         today.setHours(0,0,0,0);
-        prevDayBtn.disabled = currentDate <= today;
-        const maxDate = new Date();
+
+        const minDate = new Date(today);
+        minDate.setDate(minDate.getDate() - minDays);
+        const maxDate = new Date(today);
         maxDate.setDate(maxDate.getDate() + maxDays - 1);
+
+        // Disabilita bottoni avanti/indietro
+        prevDayBtn.disabled = currentDate <= minDate;
         nextDayBtn.disabled = currentDate >= maxDate;
       }
 
@@ -303,10 +311,12 @@
           const newDate = new Date(selected + 'T00:00:00');
           const today = new Date();
           today.setHours(0,0,0,0);
-          const maxDate = new Date();
+          const minDate = new Date(today);
+          minDate.setDate(minDate.getDate() - minDays);
+          const maxDate = new Date(today);
           maxDate.setDate(maxDate.getDate() + maxDays - 1);
-          if (newDate < today) {
-            alert("Non puoi selezionare una data precedente a oggi.");
+          if (newDate < minDate) {
+            alert(`Non puoi selezionare una data precedente a ${minDays} giorni fa.`);
             datePicker.value = formatDate(currentDate);
             return;
           }
