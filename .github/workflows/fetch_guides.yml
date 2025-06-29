@@ -23,19 +23,31 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytz requests aiohttp beautifulsoup4
 
+      - name: Debug working directory
+        run: |
+          echo "🟢 Working directory: $(pwd)"
+          echo "🟢 Listing files:"
+          ls -la
+
       - name: Run fetch_guides.py
         run: |
+          set -e
+          echo "🟢 Running fetch_guides.py..."
           python fetch_guides.py
 
-      - name: Commit and push updated guides.json
+      - name: Commit and push updated guides
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add output
+
           # Commit solo se ci sono modifiche
-          git diff --cached --quiet || git commit -m "Update guide.json - $(date +'%Y-%m-%d')"
-          # Integra eventuali cambiamenti da remoto prima di pushare
-          git pull --rebase origin main
-          git push origin HEAD:main
+          if git diff --cached --quiet; then
+            echo "🟢 Nessuna modifica da commitare."
+          else
+            git commit -m "Update guides - $(date +'%Y-%m-%d')"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
