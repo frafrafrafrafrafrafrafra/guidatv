@@ -732,12 +732,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/00abc77b-a586-4ba5-b70b-fc016223e069/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8018e1ec478597c4c1f9825e8df3fe8a"
+                "url": "/uuid/00abc77b-a586-4ba5-b70b-fc016223e069/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7cea315037cfb24e3fbd54aef374cf23"
               }
             },
             {
               "img": {
-                "url": "/uuid/00abc77b-a586-4ba5-b70b-fc016223e069/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7cea315037cfb24e3fbd54aef374cf23"
+                "url": "/uuid/00abc77b-a586-4ba5-b70b-fc016223e069/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8018e1ec478597c4c1f9825e8df3fe8a"
               }
             },
             {
@@ -974,17 +974,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/87502dda-3c8a-4948-9a8e-83b3717921e1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fdf6626552e47dd318e7a8cb191de56a"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/87502dda-3c8a-4948-9a8e-83b3717921e1/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3051511a3f5429bb3eb508d2a4e55541"
               }
             },
             {
               "img": {
                 "url": "/uuid/87502dda-3c8a-4948-9a8e-83b3717921e1/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3051511a3f5429bb3eb508d2a4e55541"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/87502dda-3c8a-4948-9a8e-83b3717921e1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fdf6626552e47dd318e7a8cb191de56a"
               }
             },
             {
@@ -1634,17 +1634,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/c4569976-38f7-48b3-a1ee-a249ff234108/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8444f84e596f35bb39a7ac3d06e193ad"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/c4569976-38f7-48b3-a1ee-a249ff234108/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2b22a93f3ea451bf97176698733dfd7d"
               }
             },
             {
               "img": {
                 "url": "/uuid/c4569976-38f7-48b3-a1ee-a249ff234108/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8444f84e596f35bb39a7ac3d06e193ad"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c4569976-38f7-48b3-a1ee-a249ff234108/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8444f84e596f35bb39a7ac3d06e193ad"
               }
             },
             {
@@ -1791,17 +1791,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/878ba6e2-4c95-4834-a570-02c22208e80f/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6470191e3c1c967ea66f6d2200223ad7"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/878ba6e2-4c95-4834-a570-02c22208e80f/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6470191e3c1c967ea66f6d2200223ad7"
               }
             },
             {
               "img": {
                 "url": "/uuid/878ba6e2-4c95-4834-a570-02c22208e80f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=975e855eb23a8850a61447ca54132076"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/878ba6e2-4c95-4834-a570-02c22208e80f/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6470191e3c1c967ea66f6d2200223ad7"
               }
             },
             {
@@ -2439,16 +2439,21 @@
         "content": {
           "uuid": "5bdc90e1-6b8d-46f3-a67d-6223415b790e",
           "contentTitle": "Mission to Mars",
-          "url": "/film/fantascienza/mission-to-mars/5bdc90e1-6b8d-46f3-a67d-6223415b790e",
+          "url": "/film/cinema/mission-to-mars/5bdc90e1-6b8d-46f3-a67d-6223415b790e",
           "genre": {
             "id": 3,
             "name": "Film"
           },
           "subgenre": {
-            "id": 39,
-            "name": "Fantascienza"
+            "id": 4,
+            "name": "Cinema"
           },
           "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/5bdc90e1-6b8d-46f3-a67d-6223415b790e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f7eb5372405ca60c48506efe8bbff74d"
+              }
+            },
             {
               "key": "background",
               "img": {
@@ -2465,12 +2470,6 @@
               "key": "scene",
               "img": {
                 "url": "/uuid/5bdc90e1-6b8d-46f3-a67d-6223415b790e/16-9?territory=IT&md5ChecksumParam=7d5d97f69ed3f66c37d26a4c739c20ca"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
               }
             }
           ]
@@ -2833,17 +2832,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/49ddb66d-5dd4-45f9-b769-9f2463e7a285/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=bbc465bad099297e036b70b879385011"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/49ddb66d-5dd4-45f9-b769-9f2463e7a285/COVER_CLEAN_TALL?territory=IT&version=3960b5e1-0059-32b8-9a65-3a85dba9ffd7&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=04fd7f1f9fc2b8646a277d90efad1886"
               }
             },
             {
               "img": {
                 "url": "/uuid/49ddb66d-5dd4-45f9-b769-9f2463e7a285/COVER_CLEAN_TALL?territory=IT&version=3960b5e1-0059-32b8-9a65-3a85dba9ffd7&w=600&h=800&md5ChecksumParam=04fd7f1f9fc2b8646a277d90efad1886"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/49ddb66d-5dd4-45f9-b769-9f2463e7a285/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=bbc465bad099297e036b70b879385011"
               }
             },
             {
@@ -3408,17 +3407,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/c4569976-38f7-48b3-a1ee-a249ff234108/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8444f84e596f35bb39a7ac3d06e193ad"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/c4569976-38f7-48b3-a1ee-a249ff234108/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2b22a93f3ea451bf97176698733dfd7d"
               }
             },
             {
               "img": {
                 "url": "/uuid/c4569976-38f7-48b3-a1ee-a249ff234108/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8444f84e596f35bb39a7ac3d06e193ad"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c4569976-38f7-48b3-a1ee-a249ff234108/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8444f84e596f35bb39a7ac3d06e193ad"
               }
             },
             {
@@ -4424,17 +4423,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/2af913f3-ad31-42e4-aee3-fb4278a868d9/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7a9a314321ca4744d4e7035965085c85"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/2af913f3-ad31-42e4-aee3-fb4278a868d9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=a7caadec755b91090a42a64bac5ba506"
               }
             },
             {
               "img": {
                 "url": "/uuid/2af913f3-ad31-42e4-aee3-fb4278a868d9/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7a9a314321ca4744d4e7035965085c85"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/2af913f3-ad31-42e4-aee3-fb4278a868d9/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7a9a314321ca4744d4e7035965085c85"
               }
             },
             {
@@ -4879,16 +4878,21 @@
         "content": {
           "uuid": "5bdc90e1-6b8d-46f3-a67d-6223415b790e",
           "contentTitle": "Mission to Mars",
-          "url": "/film/fantascienza/mission-to-mars/5bdc90e1-6b8d-46f3-a67d-6223415b790e",
+          "url": "/film/cinema/mission-to-mars/5bdc90e1-6b8d-46f3-a67d-6223415b790e",
           "genre": {
             "id": 3,
             "name": "Film"
           },
           "subgenre": {
-            "id": 39,
-            "name": "Fantascienza"
+            "id": 4,
+            "name": "Cinema"
           },
           "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/5bdc90e1-6b8d-46f3-a67d-6223415b790e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f7eb5372405ca60c48506efe8bbff74d"
+              }
+            },
             {
               "key": "background",
               "img": {
@@ -4905,12 +4909,6 @@
               "key": "scene",
               "img": {
                 "url": "/uuid/5bdc90e1-6b8d-46f3-a67d-6223415b790e/16-9?territory=IT&md5ChecksumParam=7d5d97f69ed3f66c37d26a4c739c20ca"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
               }
             }
           ]
@@ -5466,17 +5464,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/c4569976-38f7-48b3-a1ee-a249ff234108/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8444f84e596f35bb39a7ac3d06e193ad"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/c4569976-38f7-48b3-a1ee-a249ff234108/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2b22a93f3ea451bf97176698733dfd7d"
               }
             },
             {
               "img": {
                 "url": "/uuid/c4569976-38f7-48b3-a1ee-a249ff234108/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8444f84e596f35bb39a7ac3d06e193ad"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c4569976-38f7-48b3-a1ee-a249ff234108/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8444f84e596f35bb39a7ac3d06e193ad"
               }
             },
             {
@@ -5691,12 +5689,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/52e9bfb8-c593-4477-a739-3728809db3d1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=39c8568a8c3bfedcdf1857c4fc9bda1e"
+                "url": "/uuid/52e9bfb8-c593-4477-a739-3728809db3d1/COVER_CLEAN_TALL?territory=IT&version=0b7f6383-1de7-3477-b50c-91a00168f111&w=600&h=800&md5ChecksumParam=d8fb22977263d89479877c2ec6a0c9f5"
               }
             },
             {
               "img": {
-                "url": "/uuid/52e9bfb8-c593-4477-a739-3728809db3d1/COVER_CLEAN_TALL?territory=IT&version=0b7f6383-1de7-3477-b50c-91a00168f111&w=600&h=800&md5ChecksumParam=d8fb22977263d89479877c2ec6a0c9f5"
+                "url": "/uuid/52e9bfb8-c593-4477-a739-3728809db3d1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=39c8568a8c3bfedcdf1857c4fc9bda1e"
               }
             },
             {
@@ -6567,17 +6565,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/60c7dd2d-92a6-46b2-9a5a-5514f2c434ce/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6b293f9248b4d1dc091373dd7166eff8"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/60c7dd2d-92a6-46b2-9a5a-5514f2c434ce/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=bc169a7a3967f691d62dd500c36cf166"
               }
             },
             {
               "img": {
                 "url": "/uuid/60c7dd2d-92a6-46b2-9a5a-5514f2c434ce/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6b293f9248b4d1dc091373dd7166eff8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/60c7dd2d-92a6-46b2-9a5a-5514f2c434ce/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6b293f9248b4d1dc091373dd7166eff8"
               }
             },
             {
@@ -6652,17 +6650,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/0b161500-70f8-4d9d-9616-fa2eb4848b18/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=96d6231309128f7b4cfb7b848a666147"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/0b161500-70f8-4d9d-9616-fa2eb4848b18/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2302f3fc5a5374fb0be12b2b88faf005"
               }
             },
             {
               "img": {
                 "url": "/uuid/0b161500-70f8-4d9d-9616-fa2eb4848b18/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2302f3fc5a5374fb0be12b2b88faf005"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/0b161500-70f8-4d9d-9616-fa2eb4848b18/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=96d6231309128f7b4cfb7b848a666147"
               }
             },
             {
@@ -7019,17 +7017,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/0b161500-70f8-4d9d-9616-fa2eb4848b18/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=96d6231309128f7b4cfb7b848a666147"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/0b161500-70f8-4d9d-9616-fa2eb4848b18/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2302f3fc5a5374fb0be12b2b88faf005"
               }
             },
             {
               "img": {
                 "url": "/uuid/0b161500-70f8-4d9d-9616-fa2eb4848b18/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2302f3fc5a5374fb0be12b2b88faf005"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/0b161500-70f8-4d9d-9616-fa2eb4848b18/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=96d6231309128f7b4cfb7b848a666147"
               }
             },
             {
@@ -7319,12 +7317,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/52e9bfb8-c593-4477-a739-3728809db3d1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=39c8568a8c3bfedcdf1857c4fc9bda1e"
+                "url": "/uuid/52e9bfb8-c593-4477-a739-3728809db3d1/COVER_CLEAN_TALL?territory=IT&version=0b7f6383-1de7-3477-b50c-91a00168f111&w=600&h=800&md5ChecksumParam=d8fb22977263d89479877c2ec6a0c9f5"
               }
             },
             {
               "img": {
-                "url": "/uuid/52e9bfb8-c593-4477-a739-3728809db3d1/COVER_CLEAN_TALL?territory=IT&version=0b7f6383-1de7-3477-b50c-91a00168f111&w=600&h=800&md5ChecksumParam=d8fb22977263d89479877c2ec6a0c9f5"
+                "url": "/uuid/52e9bfb8-c593-4477-a739-3728809db3d1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=39c8568a8c3bfedcdf1857c4fc9bda1e"
               }
             },
             {
