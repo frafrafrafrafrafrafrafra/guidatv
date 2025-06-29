@@ -121,6 +121,22 @@
       width: 100%;
       max-width: 200px;
     }
+    #export-txt-btn {
+      margin: 10px auto 0 auto;
+      padding: 8px 16px;
+      font-size: 16px;
+      cursor: pointer;
+      border: 1px solid #3498db;
+      background: #3498db;
+      color: white;
+      border-radius: 4px;
+      display: none;
+      user-select: none;
+      transition: background-color 0.2s ease;
+    }
+    #export-txt-btn:hover {
+      background: #217dbb;
+    }
     footer {
       text-align: center;
       font-size: 0.9em;
@@ -155,6 +171,7 @@
           </div>
           <button id="next-day" aria-label="Giorno successivo">▶</button>
         </div>
+        <button id="export-txt-btn" title="Esporta il palinsesto del giorno corrente in TXT">Esporta in TXT</button>
         <div id="programs-container"></div>
       </div>
     </div>
@@ -172,10 +189,11 @@
       const nextDayBtn = document.getElementById('next-day');
       const currentDateElem = document.getElementById('current-date');
       const datePicker = document.getElementById('date-picker');
+      const exportTxtBtn = document.getElementById('export-txt-btn');
       const urlParams = new URLSearchParams(window.location.search);
       const siteId = urlParams.get('site_id');
       const channelName = urlParams.get('name') || "Canale sconosciuto";
-      let allPrograms = [];
+      let allPrograms = {};
       let currentDate = new Date();
 
       const maxDays = 60;   // giorni avanti
@@ -186,6 +204,7 @@
         errorElem.style.display = 'block';
         errorElem.textContent = message;
         controlsElem.style.display = 'none';
+        exportTxtBtn.style.display = 'none';
       }
 
       function formatDate(d) {
@@ -203,7 +222,7 @@
 
       function showPrograms(searchTerm = '') {
         const dayStr = formatDate(currentDate);
-        const dayPrograms = allPrograms.find(d => d.date === dayStr)?.events || [];
+        const dayPrograms = allPrograms[dayStr] || [];
         programsContainer.innerHTML = '';
         if (dayPrograms.length === 0) {
           programsContainer.innerHTML = '<div class="program">Nessun programma in onda in questa data.</div>';
@@ -211,7 +230,7 @@
         }
         const filtered = searchTerm
           ? dayPrograms.filter(p =>
-              p.eventTitle.toLowerCase().includes(searchTerm.toLowerCase()) ||
+              (p.eventTitle && p.eventTitle.toLowerCase().includes(searchTerm.toLowerCase())) ||
               (p.eventSynopsis && p.eventSynopsis.toLowerCase().includes(searchTerm.toLowerCase()))
             )
           : dayPrograms;
@@ -235,7 +254,7 @@
               ${endTime.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
               ${isNow ? `<span class="now-on-air">• Ora in onda</span>` : ''}
             </div>
-            <div class="program-title">${program.eventTitle}</div>
+            <div class="program-title">${program.eventTitle || ''}</div>
             ${program.eventSynopsis ? `<div class="program-synopsis">${program.eventSynopsis}</div>` : ''}
           `;
           programsContainer.appendChild(programElem);
@@ -256,9 +275,39 @@
         const maxDate = new Date(today);
         maxDate.setDate(maxDate.getDate() + maxDays - 1);
 
-        // Disabilita bottoni avanti/indietro
         prevDayBtn.disabled = currentDate <= minDate;
         nextDayBtn.disabled = currentDate >= maxDate;
+      }
+
+      function exportToTxt() {
+        const dayStr = formatDate(currentDate);
+        const dayPrograms = allPrograms[dayStr] || [];
+        if(dayPrograms.length === 0){
+          alert('Nessun programma disponibile per questa data.');
+          return;
+        }
+        let text = `Palinsesto per ${channelName} - ${formatReadableDate(currentDate)}\n\n`;
+        dayPrograms.forEach(prog => {
+          const startTime = new Date(prog.starttime).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+          const endTime = new Date(prog.endtime).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+          const title = prog.eventTitle || '';
+          text += `${startTime} - ${endTime}  ${title}\n`;
+          if(prog.eventSynopsis){
+            text += `    ${prog.eventSynopsis}\n`;
+          }
+        });
+
+        const blob = new Blob([text], {type: 'text/plain'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `${channelName.replace(/\s+/g,'_')}_${dayStr}.txt`;
+        document.body.appendChild(a);
+        a.click();
+        setTimeout(() => {
+          document.body.removeChild(a);
+          URL.revokeObjectURL(url);
+        }, 100);
       }
 
       function loadChannelData() {
@@ -278,6 +327,7 @@
             allPrograms = data.events_by_date;
             loadingElem.style.display = 'none';
             controlsElem.style.display = 'block';
+            exportTxtBtn.style.display = 'inline-block';
             updateView();
           })
           .catch(error => {
@@ -334,6 +384,8 @@
       datePicker.addEventListener('blur', () => {
         datePicker.style.display = 'none';
       });
+
+      exportTxtBtn.addEventListener('click', exportToTxt);
 
       loadChannelData();
     });
