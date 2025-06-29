@@ -1,638 +1,514 @@
 {
   "name": "Sky Sport",
-  "events_by_date": [
-    {
-      "date": "2025-06-29",
-      "events": [
-        {
-          "channel": {
-            "id": 11497,
-            "logo": "/logo/917skysport_Light_Fit.png?checksum=44524059-f893-4478-b68b-52fdc9174d9e",
-            "logoPadding": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
-            "logoDark": "/logo/917skysport_Dark_Fit.png?checksum=efb4ebda-6ace-412d-b820-eb2c23a1c1f1",
-            "logoDarkPadding": "/logo/917skysport_Dark_Padding.png?checksum=8a3bd842-a14c-45e7-8ae7-f0c889990481",
-            "logoLight": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
-            "name": "Sky Sport",
-            "number": 251,
-            "servicekey": "917",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
+  "events_by_date": {
+    "2025-06-29": [
+      {
+        "channel": {
+          "id": 11497,
+          "logo": "/logo/917skysport_Light_Fit.png?checksum=44524059-f893-4478-b68b-52fdc9174d9e",
+          "logoPadding": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
+          "logoDark": "/logo/917skysport_Dark_Fit.png?checksum=efb4ebda-6ace-412d-b820-eb2c23a1c1f1",
+          "logoDarkPadding": "/logo/917skysport_Dark_Padding.png?checksum=8a3bd842-a14c-45e7-8ae7-f0c889990481",
+          "logoLight": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
+          "name": "Sky Sport",
+          "number": 251,
+          "servicekey": "917",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
+          "uuid": "679a2847-da7a-4d73-b064-64c6313216f0",
+          "contentTitle": "Australia - Sudafrica",
+          "episodeNumber": 1,
+          "seasonNumber": 2025,
+          "url": "/sport/world-rugby-championship-u20/australia-sudafrica/679a2847-da7a-4d73-b064-64c6313216f0",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
           },
-          "content": {
-            "uuid": "679a2847-da7a-4d73-b064-64c6313216f0",
-            "contentTitle": "Australia - Sudafrica",
-            "episodeNumber": 1,
-            "seasonNumber": 2025,
-            "url": "/sport/world-rugby-championship-u20/australia-sudafrica/679a2847-da7a-4d73-b064-64c6313216f0",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 51,
-              "name": "Rugby"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/679a2847-da7a-4d73-b064-64c6313216f0/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0003cf354f22a69a877955de98da6641"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/679a2847-da7a-4d73-b064-64c6313216f0/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=988e6612ed495335b4df4c92eaba5f53"
-                }
-              },
-              {
-                "img": {
-                  "url": "/uuid/679a2847-da7a-4d73-b064-64c6313216f0/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=988e6612ed495335b4df4c92eaba5f53"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/679a2847-da7a-4d73-b064-64c6313216f0/background?territory=IT&md5ChecksumParam=81016a88cbef55179913825d0dd6e82a"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/679a2847-da7a-4d73-b064-64c6313216f0/cover?territory=IT&md5ChecksumParam=0003cf354f22a69a877955de98da6641"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/679a2847-da7a-4d73-b064-64c6313216f0/16-9?territory=IT&md5ChecksumParam=cc682da5385349af1541c57e46a5339e"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/679a2847-da7a-4d73-b064-64c6313216f0/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=cc682da5385349af1541c57e46a5339e"
-                }
-              }
-            ]
+          "subgenre": {
+            "id": 51,
+            "name": "Rugby"
           },
-          "eventId": "149545153",
-          "starttime": "2025-06-29T13:00:00Z",
-          "endtime": "2025-06-29T16:30:00Z",
-          "eventTitle": "Australia - Sudafrica",
-          "eventSynopsis": "World Rugby U20 Championship Australia-Sudafrica. Dalle ore 15:30",
-          "epgEventTitle": "Australia - Sudafrica",
-          "programHighlights": "L",
-          "primeVision": false,
-          "resolutions": [
+          "imagesMap": [
             {
-              "resolutionType": "resolution4k",
-              "value": false
+              "img": {
+                "url": "/uuid/679a2847-da7a-4d73-b064-64c6313216f0/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0003cf354f22a69a877955de98da6641"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/679a2847-da7a-4d73-b064-64c6313216f0/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=988e6612ed495335b4df4c92eaba5f53"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/679a2847-da7a-4d73-b064-64c6313216f0/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=988e6612ed495335b4df4c92eaba5f53"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/679a2847-da7a-4d73-b064-64c6313216f0/background?territory=IT&md5ChecksumParam=81016a88cbef55179913825d0dd6e82a"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/679a2847-da7a-4d73-b064-64c6313216f0/cover?territory=IT&md5ChecksumParam=0003cf354f22a69a877955de98da6641"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/679a2847-da7a-4d73-b064-64c6313216f0/16-9?territory=IT&md5ChecksumParam=cc682da5385349af1541c57e46a5339e"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/679a2847-da7a-4d73-b064-64c6313216f0/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=cc682da5385349af1541c57e46a5339e"
+              }
             }
           ]
-        }
-      ]
-    },
-    {
-      "date": "2025-06-30",
-      "events": [
-        {
-          "channel": {
-            "id": 11497,
-            "logo": "/logo/917skysport_Light_Fit.png?checksum=44524059-f893-4478-b68b-52fdc9174d9e",
-            "logoPadding": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
-            "logoDark": "/logo/917skysport_Dark_Fit.png?checksum=efb4ebda-6ace-412d-b820-eb2c23a1c1f1",
-            "logoDarkPadding": "/logo/917skysport_Dark_Padding.png?checksum=8a3bd842-a14c-45e7-8ae7-f0c889990481",
-            "logoLight": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
-            "name": "Sky Sport",
-            "number": 251,
-            "servicekey": "917",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
+        },
+        "eventId": "149545153",
+        "starttime": "2025-06-29T13:00:00Z",
+        "endtime": "2025-06-29T16:30:00Z",
+        "eventTitle": "Australia - Sudafrica",
+        "eventSynopsis": "World Rugby U20 Championship Australia-Sudafrica. Dalle ore 15:30",
+        "epgEventTitle": "Australia - Sudafrica",
+        "programHighlights": "L",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      }
+    ],
+    "2025-06-30": [
+      {
+        "channel": {
+          "id": 11497,
+          "logo": "/logo/917skysport_Light_Fit.png?checksum=44524059-f893-4478-b68b-52fdc9174d9e",
+          "logoPadding": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
+          "logoDark": "/logo/917skysport_Dark_Fit.png?checksum=efb4ebda-6ace-412d-b820-eb2c23a1c1f1",
+          "logoDarkPadding": "/logo/917skysport_Dark_Padding.png?checksum=8a3bd842-a14c-45e7-8ae7-f0c889990481",
+          "logoLight": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
+          "name": "Sky Sport",
+          "number": 251,
+          "servicekey": "917",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
+          "uuid": "b8692912-9969-4bba-8fae-a360a008d277",
+          "contentTitle": "Stag. 2025 - Wimbledon 2025",
+          "url": "/sport/tennis/stag-2025-wimbledon-2025/b8692912-9969-4bba-8fae-a360a008d277",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
           },
-          "content": {
-            "uuid": "b8692912-9969-4bba-8fae-a360a008d277",
-            "contentTitle": "Stag. 2025 - Wimbledon 2025",
-            "url": "/sport/tennis/stag-2025-wimbledon-2025/b8692912-9969-4bba-8fae-a360a008d277",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 17,
-              "name": "Tennis"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/b8692912-9969-4bba-8fae-a360a008d277/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=592a86491cb8aaf1e2c612deb9bb51cc"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/b8692912-9969-4bba-8fae-a360a008d277/background?territory=IT&md5ChecksumParam=046af0ef62bb0cfda466963c4cd3bb7e"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/b8692912-9969-4bba-8fae-a360a008d277/cover?territory=IT&md5ChecksumParam=40c4fd22774f03fcc728e7ce3e35a6a8"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/b8692912-9969-4bba-8fae-a360a008d277/16-9?territory=IT&md5ChecksumParam=0d4b41169c39d8710298f13adab9c15a"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/b8692912-9969-4bba-8fae-a360a008d277/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=0d4b41169c39d8710298f13adab9c15a"
-                }
-              }
-            ]
+          "subgenre": {
+            "id": 17,
+            "name": "Tennis"
           },
-          "eventId": "149584225",
-          "starttime": "2025-06-30T10:00:00Z",
-          "endtime": "2025-06-30T20:00:00Z",
-          "eventTitle": "Stag. 2025 - Wimbledon 2025",
-          "eventSynopsis": "Wimbledon Live",
-          "epgEventTitle": "Stag. 2025 - Wimbledon 2025",
-          "programHighlights": "L",
-          "primeVision": false,
-          "ppvReferenceId": "921921",
-          "resolutions": [
+          "imagesMap": [
             {
-              "resolutionType": "resolution4k",
-              "value": false
+              "img": {
+                "url": "/uuid/b8692912-9969-4bba-8fae-a360a008d277/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=592a86491cb8aaf1e2c612deb9bb51cc"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/b8692912-9969-4bba-8fae-a360a008d277/background?territory=IT&md5ChecksumParam=046af0ef62bb0cfda466963c4cd3bb7e"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/b8692912-9969-4bba-8fae-a360a008d277/cover?territory=IT&md5ChecksumParam=40c4fd22774f03fcc728e7ce3e35a6a8"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/b8692912-9969-4bba-8fae-a360a008d277/16-9?territory=IT&md5ChecksumParam=0d4b41169c39d8710298f13adab9c15a"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/b8692912-9969-4bba-8fae-a360a008d277/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=0d4b41169c39d8710298f13adab9c15a"
+              }
             }
           ]
-        }
-      ]
-    },
-    {
-      "date": "2025-07-01",
-      "events": []
-    },
-    {
-      "date": "2025-07-02",
-      "events": []
-    },
-    {
-      "date": "2025-07-03",
-      "events": []
-    },
-    {
-      "date": "2025-07-04",
-      "events": []
-    },
-    {
-      "date": "2025-07-05",
-      "events": []
-    },
-    {
-      "date": "2025-07-06",
-      "events": []
-    },
-    {
-      "date": "2025-07-07",
-      "events": [
-        {
-          "channel": {
-            "id": 11497,
-            "logo": "/logo/917skysport_Light_Fit.png?checksum=44524059-f893-4478-b68b-52fdc9174d9e",
-            "logoPadding": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
-            "logoDark": "/logo/917skysport_Dark_Fit.png?checksum=efb4ebda-6ace-412d-b820-eb2c23a1c1f1",
-            "logoDarkPadding": "/logo/917skysport_Dark_Padding.png?checksum=8a3bd842-a14c-45e7-8ae7-f0c889990481",
-            "logoLight": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
-            "name": "Sky Sport",
-            "number": 251,
-            "servicekey": "917",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
+        },
+        "eventId": "149584225",
+        "starttime": "2025-06-30T10:00:00Z",
+        "endtime": "2025-06-30T20:00:00Z",
+        "eventTitle": "Stag. 2025 - Wimbledon 2025",
+        "eventSynopsis": "Wimbledon Live",
+        "epgEventTitle": "Stag. 2025 - Wimbledon 2025",
+        "programHighlights": "L",
+        "primeVision": false,
+        "ppvReferenceId": "921921",
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      }
+    ],
+    "2025-07-01": [],
+    "2025-07-02": [],
+    "2025-07-03": [],
+    "2025-07-04": [],
+    "2025-07-05": [],
+    "2025-07-06": [],
+    "2025-07-07": [
+      {
+        "channel": {
+          "id": 11497,
+          "logo": "/logo/917skysport_Light_Fit.png?checksum=44524059-f893-4478-b68b-52fdc9174d9e",
+          "logoPadding": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
+          "logoDark": "/logo/917skysport_Dark_Fit.png?checksum=efb4ebda-6ace-412d-b820-eb2c23a1c1f1",
+          "logoDarkPadding": "/logo/917skysport_Dark_Padding.png?checksum=8a3bd842-a14c-45e7-8ae7-f0c889990481",
+          "logoLight": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
+          "name": "Sky Sport",
+          "number": 251,
+          "servicekey": "917",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
+          "uuid": "39c112f0-1f3c-474b-b00a-af182ec1ec79",
+          "contentTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 07/07/2025",
+          "url": "/sport/tennis/studi-tennis-stag-studi-tennis-2025-2-2-studio-tennis-wimbledon-07-07-2025/39c112f0-1f3c-474b-b00a-af182ec1ec79",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
           },
-          "content": {
-            "uuid": "39c112f0-1f3c-474b-b00a-af182ec1ec79",
-            "contentTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 07/07/2025",
-            "url": "/sport/tennis/studi-tennis-stag-studi-tennis-2025-2-2-studio-tennis-wimbledon-07-07-2025/39c112f0-1f3c-474b-b00a-af182ec1ec79",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 17,
-              "name": "Tennis"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=57bd798c06853d6a070af321bfe25dff"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/background?territory=IT&md5ChecksumParam=30f498a58b21a82e8cabb338bdf75671"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/cover?territory=IT&md5ChecksumParam=57bd798c06853d6a070af321bfe25dff"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/16-9?territory=IT&md5ChecksumParam=2d0f8553806303a2c3032c319e83ca7d"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=2d0f8553806303a2c3032c319e83ca7d"
-                }
-              }
-            ]
+          "subgenre": {
+            "id": 17,
+            "name": "Tennis"
           },
-          "eventId": "149589644",
-          "starttime": "2025-07-07T09:45:00Z",
-          "endtime": "2025-07-07T10:00:00Z",
-          "eventTitle": "Studio Tennis 2025",
-          "eventSynopsis": "Studio Tennis Wimbledon",
-          "epgEventTitle": "Studio Tennis 2025",
-          "programHighlights": "L",
-          "primeVision": false,
-          "ppvReferenceId": "921921",
-          "resolutions": [
+          "imagesMap": [
             {
-              "resolutionType": "resolution4k",
-              "value": false
+              "img": {
+                "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=57bd798c06853d6a070af321bfe25dff"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/background?territory=IT&md5ChecksumParam=30f498a58b21a82e8cabb338bdf75671"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/cover?territory=IT&md5ChecksumParam=57bd798c06853d6a070af321bfe25dff"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/16-9?territory=IT&md5ChecksumParam=2d0f8553806303a2c3032c319e83ca7d"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=2d0f8553806303a2c3032c319e83ca7d"
+              }
             }
           ]
-        }
-      ]
-    },
-    {
-      "date": "2025-07-08",
-      "events": [
-        {
-          "channel": {
-            "id": 11497,
-            "logo": "/logo/917skysport_Light_Fit.png?checksum=44524059-f893-4478-b68b-52fdc9174d9e",
-            "logoPadding": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
-            "logoDark": "/logo/917skysport_Dark_Fit.png?checksum=efb4ebda-6ace-412d-b820-eb2c23a1c1f1",
-            "logoDarkPadding": "/logo/917skysport_Dark_Padding.png?checksum=8a3bd842-a14c-45e7-8ae7-f0c889990481",
-            "logoLight": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
-            "name": "Sky Sport",
-            "number": 251,
-            "servicekey": "917",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
+        },
+        "eventId": "149589644",
+        "starttime": "2025-07-07T09:45:00Z",
+        "endtime": "2025-07-07T10:00:00Z",
+        "eventTitle": "Studio Tennis 2025",
+        "eventSynopsis": "Studio Tennis Wimbledon",
+        "epgEventTitle": "Studio Tennis 2025",
+        "programHighlights": "L",
+        "primeVision": false,
+        "ppvReferenceId": "921921",
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      }
+    ],
+    "2025-07-08": [
+      {
+        "channel": {
+          "id": 11497,
+          "logo": "/logo/917skysport_Light_Fit.png?checksum=44524059-f893-4478-b68b-52fdc9174d9e",
+          "logoPadding": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
+          "logoDark": "/logo/917skysport_Dark_Fit.png?checksum=efb4ebda-6ace-412d-b820-eb2c23a1c1f1",
+          "logoDarkPadding": "/logo/917skysport_Dark_Padding.png?checksum=8a3bd842-a14c-45e7-8ae7-f0c889990481",
+          "logoLight": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
+          "name": "Sky Sport",
+          "number": 251,
+          "servicekey": "917",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
+          "uuid": "78df8624-0403-495d-b4a6-7b94ad09dc7c",
+          "contentTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 08/07/2025",
+          "url": "/sport/tennis/studi-tennis-stag-studi-tennis-2025-2-2-studio-tennis-wimbledon-08-07-2025/78df8624-0403-495d-b4a6-7b94ad09dc7c",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
           },
-          "content": {
-            "uuid": "78df8624-0403-495d-b4a6-7b94ad09dc7c",
-            "contentTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 08/07/2025",
-            "url": "/sport/tennis/studi-tennis-stag-studi-tennis-2025-2-2-studio-tennis-wimbledon-08-07-2025/78df8624-0403-495d-b4a6-7b94ad09dc7c",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 17,
-              "name": "Tennis"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/78df8624-0403-495d-b4a6-7b94ad09dc7c/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=45f894ec40586f0fff3e245a2ea011be"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/78df8624-0403-495d-b4a6-7b94ad09dc7c/background?territory=IT&md5ChecksumParam=30f498a58b21a82e8cabb338bdf75671"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/78df8624-0403-495d-b4a6-7b94ad09dc7c/cover?territory=IT&md5ChecksumParam=45f894ec40586f0fff3e245a2ea011be"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/78df8624-0403-495d-b4a6-7b94ad09dc7c/16-9?territory=IT&md5ChecksumParam=be82ab1b0469e2fa9afa6c76519f9706"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/78df8624-0403-495d-b4a6-7b94ad09dc7c/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=be82ab1b0469e2fa9afa6c76519f9706"
-                }
-              }
-            ]
+          "subgenre": {
+            "id": 17,
+            "name": "Tennis"
           },
-          "eventId": "149589648",
-          "starttime": "2025-07-08T09:45:00Z",
-          "endtime": "2025-07-08T10:00:00Z",
-          "eventTitle": "Studio Tennis 2025",
-          "eventSynopsis": "Studio Tennis Wimbledon",
-          "epgEventTitle": "Studio Tennis 2025",
-          "programHighlights": "L",
-          "primeVision": false,
-          "ppvReferenceId": "921921",
-          "resolutions": [
+          "imagesMap": [
             {
-              "resolutionType": "resolution4k",
-              "value": false
+              "img": {
+                "url": "/uuid/78df8624-0403-495d-b4a6-7b94ad09dc7c/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=45f894ec40586f0fff3e245a2ea011be"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/78df8624-0403-495d-b4a6-7b94ad09dc7c/background?territory=IT&md5ChecksumParam=30f498a58b21a82e8cabb338bdf75671"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/78df8624-0403-495d-b4a6-7b94ad09dc7c/cover?territory=IT&md5ChecksumParam=45f894ec40586f0fff3e245a2ea011be"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/78df8624-0403-495d-b4a6-7b94ad09dc7c/16-9?territory=IT&md5ChecksumParam=be82ab1b0469e2fa9afa6c76519f9706"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/78df8624-0403-495d-b4a6-7b94ad09dc7c/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=be82ab1b0469e2fa9afa6c76519f9706"
+              }
             }
           ]
-        }
-      ]
-    },
-    {
-      "date": "2025-07-09",
-      "events": [
-        {
-          "channel": {
-            "id": 11497,
-            "logo": "/logo/917skysport_Light_Fit.png?checksum=44524059-f893-4478-b68b-52fdc9174d9e",
-            "logoPadding": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
-            "logoDark": "/logo/917skysport_Dark_Fit.png?checksum=efb4ebda-6ace-412d-b820-eb2c23a1c1f1",
-            "logoDarkPadding": "/logo/917skysport_Dark_Padding.png?checksum=8a3bd842-a14c-45e7-8ae7-f0c889990481",
-            "logoLight": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
-            "name": "Sky Sport",
-            "number": 251,
-            "servicekey": "917",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
+        },
+        "eventId": "149589648",
+        "starttime": "2025-07-08T09:45:00Z",
+        "endtime": "2025-07-08T10:00:00Z",
+        "eventTitle": "Studio Tennis 2025",
+        "eventSynopsis": "Studio Tennis Wimbledon",
+        "epgEventTitle": "Studio Tennis 2025",
+        "programHighlights": "L",
+        "primeVision": false,
+        "ppvReferenceId": "921921",
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      }
+    ],
+    "2025-07-09": [
+      {
+        "channel": {
+          "id": 11497,
+          "logo": "/logo/917skysport_Light_Fit.png?checksum=44524059-f893-4478-b68b-52fdc9174d9e",
+          "logoPadding": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
+          "logoDark": "/logo/917skysport_Dark_Fit.png?checksum=efb4ebda-6ace-412d-b820-eb2c23a1c1f1",
+          "logoDarkPadding": "/logo/917skysport_Dark_Padding.png?checksum=8a3bd842-a14c-45e7-8ae7-f0c889990481",
+          "logoLight": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
+          "name": "Sky Sport",
+          "number": 251,
+          "servicekey": "917",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
+          "uuid": "d8fb9b88-8361-42bf-ba69-685a62cbd2db",
+          "contentTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 09/07/2025",
+          "url": "/sport/tennis/studi-tennis-stag-studi-tennis-2025-2-2-studio-tennis-wimbledon-09-07-2025/d8fb9b88-8361-42bf-ba69-685a62cbd2db",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
           },
-          "content": {
-            "uuid": "d8fb9b88-8361-42bf-ba69-685a62cbd2db",
-            "contentTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 09/07/2025",
-            "url": "/sport/tennis/studi-tennis-stag-studi-tennis-2025-2-2-studio-tennis-wimbledon-09-07-2025/d8fb9b88-8361-42bf-ba69-685a62cbd2db",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 17,
-              "name": "Tennis"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/d8fb9b88-8361-42bf-ba69-685a62cbd2db/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ad43ba355254d98a603868a99f48456a"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/d8fb9b88-8361-42bf-ba69-685a62cbd2db/background?territory=IT&md5ChecksumParam=30f498a58b21a82e8cabb338bdf75671"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/d8fb9b88-8361-42bf-ba69-685a62cbd2db/cover?territory=IT&md5ChecksumParam=ad43ba355254d98a603868a99f48456a"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/d8fb9b88-8361-42bf-ba69-685a62cbd2db/16-9?territory=IT&md5ChecksumParam=97739dfc7b3b9b2dbe995bce96fada8d"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/d8fb9b88-8361-42bf-ba69-685a62cbd2db/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=97739dfc7b3b9b2dbe995bce96fada8d"
-                }
-              }
-            ]
+          "subgenre": {
+            "id": 17,
+            "name": "Tennis"
           },
-          "eventId": "149589652",
-          "starttime": "2025-07-09T09:45:00Z",
-          "endtime": "2025-07-09T10:00:00Z",
-          "eventTitle": "Studio Tennis 2025",
-          "eventSynopsis": "Studio Tennis Wimbledon",
-          "epgEventTitle": "Studio Tennis 2025",
-          "programHighlights": "L",
-          "primeVision": false,
-          "ppvReferenceId": "921921",
-          "resolutions": [
+          "imagesMap": [
             {
-              "resolutionType": "resolution4k",
-              "value": false
+              "img": {
+                "url": "/uuid/d8fb9b88-8361-42bf-ba69-685a62cbd2db/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ad43ba355254d98a603868a99f48456a"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/d8fb9b88-8361-42bf-ba69-685a62cbd2db/background?territory=IT&md5ChecksumParam=30f498a58b21a82e8cabb338bdf75671"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/d8fb9b88-8361-42bf-ba69-685a62cbd2db/cover?territory=IT&md5ChecksumParam=ad43ba355254d98a603868a99f48456a"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/d8fb9b88-8361-42bf-ba69-685a62cbd2db/16-9?territory=IT&md5ChecksumParam=97739dfc7b3b9b2dbe995bce96fada8d"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/d8fb9b88-8361-42bf-ba69-685a62cbd2db/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=97739dfc7b3b9b2dbe995bce96fada8d"
+              }
             }
           ]
-        }
-      ]
-    },
-    {
-      "date": "2025-07-10",
-      "events": [
-        {
-          "channel": {
-            "id": 11497,
-            "logo": "/logo/917skysport_Light_Fit.png?checksum=44524059-f893-4478-b68b-52fdc9174d9e",
-            "logoPadding": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
-            "logoDark": "/logo/917skysport_Dark_Fit.png?checksum=efb4ebda-6ace-412d-b820-eb2c23a1c1f1",
-            "logoDarkPadding": "/logo/917skysport_Dark_Padding.png?checksum=8a3bd842-a14c-45e7-8ae7-f0c889990481",
-            "logoLight": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
-            "name": "Sky Sport",
-            "number": 251,
-            "servicekey": "917",
-            "category": {
-              "id": 6,
-              "name": "Sport e Calcio"
-            }
+        },
+        "eventId": "149589652",
+        "starttime": "2025-07-09T09:45:00Z",
+        "endtime": "2025-07-09T10:00:00Z",
+        "eventTitle": "Studio Tennis 2025",
+        "eventSynopsis": "Studio Tennis Wimbledon",
+        "epgEventTitle": "Studio Tennis 2025",
+        "programHighlights": "L",
+        "primeVision": false,
+        "ppvReferenceId": "921921",
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      }
+    ],
+    "2025-07-10": [
+      {
+        "channel": {
+          "id": 11497,
+          "logo": "/logo/917skysport_Light_Fit.png?checksum=44524059-f893-4478-b68b-52fdc9174d9e",
+          "logoPadding": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
+          "logoDark": "/logo/917skysport_Dark_Fit.png?checksum=efb4ebda-6ace-412d-b820-eb2c23a1c1f1",
+          "logoDarkPadding": "/logo/917skysport_Dark_Padding.png?checksum=8a3bd842-a14c-45e7-8ae7-f0c889990481",
+          "logoLight": "/logo/917skysport_Light_Padding.png?checksum=fd508ee2-f40a-416b-90e5-f5b4c1ab1a69",
+          "name": "Sky Sport",
+          "number": 251,
+          "servicekey": "917",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
+          "uuid": "46c3d9a3-1bb5-4928-b9f5-3b82be4617d7",
+          "contentTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 10/07/2025",
+          "url": "/sport/tennis/studi-tennis-stag-studi-tennis-2025-2-2-studio-tennis-wimbledon-10-07-2025/46c3d9a3-1bb5-4928-b9f5-3b82be4617d7",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
           },
-          "content": {
-            "uuid": "46c3d9a3-1bb5-4928-b9f5-3b82be4617d7",
-            "contentTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 10/07/2025",
-            "url": "/sport/tennis/studi-tennis-stag-studi-tennis-2025-2-2-studio-tennis-wimbledon-10-07-2025/46c3d9a3-1bb5-4928-b9f5-3b82be4617d7",
-            "genre": {
-              "id": 2,
-              "name": "Sport"
-            },
-            "subgenre": {
-              "id": 17,
-              "name": "Tennis"
-            },
-            "imagesMap": [
-              {
-                "img": {
-                  "url": "/uuid/46c3d9a3-1bb5-4928-b9f5-3b82be4617d7/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=4a440957fe0edd3d288460dda0600ce7"
-                }
-              },
-              {
-                "key": "background",
-                "img": {
-                  "url": "/uuid/46c3d9a3-1bb5-4928-b9f5-3b82be4617d7/background?territory=IT&md5ChecksumParam=30f498a58b21a82e8cabb338bdf75671"
-                }
-              },
-              {
-                "key": "cover",
-                "img": {
-                  "url": "/uuid/46c3d9a3-1bb5-4928-b9f5-3b82be4617d7/cover?territory=IT&md5ChecksumParam=4a440957fe0edd3d288460dda0600ce7"
-                }
-              },
-              {
-                "key": "scene",
-                "img": {
-                  "url": "/uuid/46c3d9a3-1bb5-4928-b9f5-3b82be4617d7/16-9?territory=IT&md5ChecksumParam=03ce0d1c53290bda3d421dc7660d8efe"
-                }
-              },
-              {
-                "key": "scene_key_art",
-                "img": {
-                  "url": "/uuid/46c3d9a3-1bb5-4928-b9f5-3b82be4617d7/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=03ce0d1c53290bda3d421dc7660d8efe"
-                }
-              }
-            ]
+          "subgenre": {
+            "id": 17,
+            "name": "Tennis"
           },
-          "eventId": "149589656",
-          "starttime": "2025-07-10T09:45:00Z",
-          "endtime": "2025-07-10T10:00:00Z",
-          "eventTitle": "Studio Tennis 2025",
-          "eventSynopsis": "Studio Tennis Wimbledon",
-          "epgEventTitle": "Studio Tennis 2025",
-          "programHighlights": "L",
-          "primeVision": false,
-          "ppvReferenceId": "921921",
-          "resolutions": [
+          "imagesMap": [
             {
-              "resolutionType": "resolution4k",
-              "value": false
+              "img": {
+                "url": "/uuid/46c3d9a3-1bb5-4928-b9f5-3b82be4617d7/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=4a440957fe0edd3d288460dda0600ce7"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/46c3d9a3-1bb5-4928-b9f5-3b82be4617d7/background?territory=IT&md5ChecksumParam=30f498a58b21a82e8cabb338bdf75671"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/46c3d9a3-1bb5-4928-b9f5-3b82be4617d7/cover?territory=IT&md5ChecksumParam=4a440957fe0edd3d288460dda0600ce7"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/46c3d9a3-1bb5-4928-b9f5-3b82be4617d7/16-9?territory=IT&md5ChecksumParam=03ce0d1c53290bda3d421dc7660d8efe"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/46c3d9a3-1bb5-4928-b9f5-3b82be4617d7/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=03ce0d1c53290bda3d421dc7660d8efe"
+              }
             }
           ]
-        }
-      ]
-    },
-    {
-      "date": "2025-07-11",
-      "events": []
-    },
-    {
-      "date": "2025-07-12",
-      "events": []
-    },
-    {
-      "date": "2025-07-13",
-      "events": []
-    },
-    {
-      "date": "2025-07-14",
-      "events": []
-    },
-    {
-      "date": "2025-07-15",
-      "events": []
-    },
-    {
-      "date": "2025-07-16",
-      "events": []
-    },
-    {
-      "date": "2025-07-17",
-      "events": []
-    },
-    {
-      "date": "2025-07-18",
-      "events": []
-    },
-    {
-      "date": "2025-07-19",
-      "events": []
-    },
-    {
-      "date": "2025-07-20",
-      "events": []
-    },
-    {
-      "date": "2025-07-21",
-      "events": []
-    },
-    {
-      "date": "2025-07-22",
-      "events": []
-    },
-    {
-      "date": "2025-07-23",
-      "events": []
-    },
-    {
-      "date": "2025-07-24",
-      "events": []
-    },
-    {
-      "date": "2025-07-25",
-      "events": []
-    },
-    {
-      "date": "2025-07-26",
-      "events": []
-    },
-    {
-      "date": "2025-07-27",
-      "events": []
-    },
-    {
-      "date": "2025-07-28",
-      "events": []
-    },
-    {
-      "date": "2025-07-29",
-      "events": []
-    },
-    {
-      "date": "2025-07-30",
-      "events": []
-    },
-    {
-      "date": "2025-07-31",
-      "events": []
-    },
-    {
-      "date": "2025-08-01",
-      "events": []
-    },
-    {
-      "date": "2025-08-02",
-      "events": []
-    },
-    {
-      "date": "2025-08-03",
-      "events": []
-    },
-    {
-      "date": "2025-08-04",
-      "events": []
-    },
-    {
-      "date": "2025-08-05",
-      "events": []
-    },
-    {
-      "date": "2025-08-06",
-      "events": []
-    },
-    {
-      "date": "2025-08-07",
-      "events": []
-    }
-  ]
+        },
+        "eventId": "149589656",
+        "starttime": "2025-07-10T09:45:00Z",
+        "endtime": "2025-07-10T10:00:00Z",
+        "eventTitle": "Studio Tennis 2025",
+        "eventSynopsis": "Studio Tennis Wimbledon",
+        "epgEventTitle": "Studio Tennis 2025",
+        "programHighlights": "L",
+        "primeVision": false,
+        "ppvReferenceId": "921921",
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      }
+    ],
+    "2025-07-11": [],
+    "2025-07-12": [],
+    "2025-07-13": [],
+    "2025-07-14": [],
+    "2025-07-15": [],
+    "2025-07-16": [],
+    "2025-07-17": [],
+    "2025-07-18": [],
+    "2025-07-19": [],
+    "2025-07-20": [],
+    "2025-07-21": [],
+    "2025-07-22": [],
+    "2025-07-23": [],
+    "2025-07-24": [],
+    "2025-07-25": [],
+    "2025-07-26": [],
+    "2025-07-27": [],
+    "2025-07-28": [],
+    "2025-07-29": [],
+    "2025-07-30": [],
+    "2025-07-31": [],
+    "2025-08-01": [],
+    "2025-08-02": [],
+    "2025-08-03": []
+  }
 }
