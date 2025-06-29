@@ -181,8 +181,8 @@ CHANNELS = [
 
 # Canali da scrape con parsing HTML (Boing, Cartoonito)
 SCRAPE_CHANNELS = {
-    "boing": "DTH#6628",
-    "cartoonito": "DTH#8132",
+    "Boing": "DTH#6628",
+    "Cartoonito": "DTH#8132",
 }
 
 HEADERS = {
@@ -204,9 +204,7 @@ def parse_programs_from_page(url, target_date_str):
     r = requests.get(url, headers=HEADERS)
     r.raise_for_status()
     soup = BeautifulSoup(r.text, 'html.parser')
-
     channel_name = soup.title.string.split(" - ")[0].strip() if soup.title else url
-
     events = soup.find_all("tr", itemtype="http://schema.org/BroadcastEvent")
     program_list = []
     target_date = datetime.fromisoformat(target_date_str).date()
@@ -219,7 +217,6 @@ def parse_programs_from_page(url, target_date_str):
         start_dt = datetime.fromisoformat(start_str)
         if start_dt.date() != target_date:
             continue
-
         review_link_tag = ev.find("h6", itemprop="name").find("a")
         if review_link_tag and review_link_tag.has_attr("href"):
             review_url = "https://tvepg.eu" + review_link_tag['href']
@@ -233,13 +230,13 @@ def parse_programs_from_page(url, target_date_str):
         else:
             title = ev.find("h6", itemprop="name").text.strip()
             description = ""
-
         program_list.append({
             "start": start_dt,
             "title": title,
             "description": description
         })
 
+    # Calcola gli endtime
     for i in range(len(program_list) - 1):
         program_list[i]["end"] = program_list[i+1]["start"]
     if program_list:
@@ -247,7 +244,7 @@ def parse_programs_from_page(url, target_date_str):
 
     return channel_name, program_list
 
-def fetch_guide_for_channel(env, channel_id, start_date, days=40):
+def fetch_guide_for_channel(env, channel_id, start_date, days=35):
     results = []
     for day_offset in range(days):
         date = start_date + timedelta(days=day_offset)
@@ -273,11 +270,11 @@ def main():
     now_rome = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
     os.makedirs("output/guides", exist_ok=True)
 
-    # Fetch API Sky: 40 giorni
+    # Fetch API Sky: 35 giorni a partire da oggi
     for ch in CHANNELS:
         env_part, channel_id = ch["site_id"].split("#")
         print(f"Fetching guide for {ch['name']} ({channel_id})...")
-        guide = fetch_guide_for_channel(env_part, channel_id, now_rome, days=40)
+        guide = fetch_guide_for_channel(env_part, channel_id, now_rome, days=35)
         site_id_underscore = ch["site_id"].replace("#", "_")
         out_path = f"output/guides/{site_id_underscore}.json"
         with open(out_path, "w", encoding="utf-8") as f:
@@ -287,12 +284,12 @@ def main():
             }, f, indent=2, ensure_ascii=False)
         print(f"Saved {out_path}")
 
-    # Scraping tvepg.eu per Boing e Cartoonito: 25 giorni, un giorno per pagina
+    # Scraping Boing e Cartoonito: 25 giorni, da -7 a +17
     for ch_name, site_id in SCRAPE_CHANNELS.items():
         print(f"Fetching scraped guide for {ch_name}...")
         all_events = {}
         channel_title = None
-        for day_offset in range(25):
+        for day_offset in range(-7, 18):
             date = now_rome + timedelta(days=day_offset)
             date_str = date.strftime("%Y-%m-%d")
             url = f"https://tvepg.eu/it/italy/channel/{ch_name}/{date_str}"
@@ -303,8 +300,8 @@ def main():
                     all_events[date_str].append({
                         "title": p["title"],
                         "description": p["description"],
-                        "start": p["start"].isoformat(),
-                        "end": p["end"].isoformat() if p.get("end") else None
+                        "starttime": p["start"].isoformat(),
+                        "endtime": p["end"].isoformat() if p.get("end") else None
                     })
                 time.sleep(0.5)
             except Exception as e:
