@@ -239,7 +239,7 @@ def parse_programs_from_page(url, target_date_str):
         program_list[-1]["end"] = program_list[-1]["start"] + timedelta(minutes=30)
     return channel_name, program_list
 
-def fetch_guide_for_channel(env, channel_id, start_date, days_back=7, days_forward=35):
+def fetch_guide_for_channel(env, channel_id, start_date, days_back=0, days_forward=35):
     results = []
     # range: from -days_back to +days_forward (inclusive)
     for day_offset in range(-days_back, days_forward + 1):
@@ -266,17 +266,17 @@ def main():
     now_rome = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
     os.makedirs("output/guides", exist_ok=True)
 
-    # Fetch API Sky: 7 giorni indietro + 35 avanti
+    # Fetch API Sky: solo 35 giorni avanti (0 indietro)
     for ch in CHANNELS:
         env_part, channel_id = ch["site_id"].split("#")
         print(f"Fetching guide for {ch['name']} ({channel_id})...")
-        guide = fetch_guide_for_channel(env_part, channel_id, now_rome, days_back=7, days_forward=35)
+        guide = fetch_guide_for_channel(env_part, channel_id, now_rome, days_back=0, days_forward=35)
         site_id_underscore = ch["site_id"].replace("#", "_")
         out_path = f"output/guides/{site_id_underscore}.json"
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump({
                 "name": ch["name"],
-                "events_by_date": guide
+                "events_by_date": {g["date"]: g["events"] for g in guide}
             }, f, indent=2, ensure_ascii=False)
         print(f"Saved {out_path}")
 
