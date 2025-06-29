@@ -58,7 +58,10 @@
       border-radius: 5px;
       transition: background-color 0.3s, color 0.3s;
       user-select: none;
-      cursor: pointer;
+      cursor: default;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
     li.favorite {
       border: 2px solid #f9a825; /* giallo oro per preferiti */
@@ -68,7 +71,7 @@
       text-decoration: none;
       color: #333;
       font-weight: bold;
-      display: block;
+      flex-grow: 1;
       transition: color 0.3s;
     }
     a:hover {
@@ -139,6 +142,25 @@
     body.dark-mode footer:hover {
       background: rgba(102, 170, 255, 0.15);
       color: #aaddff;
+    }
+
+    /* Stile bottone stella */
+    button.favorite-btn {
+      margin-left: 10px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      font-size: 18px;
+      user-select: none;
+      color: #999;
+      transition: color 0.3s;
+      flex-shrink: 0;
+    }
+    button.favorite-btn:hover {
+      color: #f9a825;
+    }
+    button.favorite-btn.active {
+      color: #f9a825;
     }
   </style>
 </head>
@@ -322,32 +344,37 @@
       {"name":"TRM h24","site_id":"DTH_9013"},
       {"name":"TV8 HD","site_id":"DTH_8195"},
       {"name":"TV2000 HD","site_id":"DTH_7588"},
-      {"name":"TOPcrime HD","site_id":"DTH_10468"},
-      {"name":"27Twentyseven HD","site_id":"DTH_11342"},
-      {"name":"VH1 HD","site_id":"DTH_10918"},
-      {"name":"Virgin Radio","site_id":"DTH_11344"},
-      {"name":"ZONA DAZN 2","site_id":"DTH_11401"},
-      {"name":"ZONA DAZN 3","site_id":"DTH_11403"},
-      {"name":"ZONA DAZN 4","site_id":"DTH_11405"},
-      {"name":"ZONA DAZN 5","site_id":"DTH_11404"},
-      {"name":"ZONA DAZN","site_id":"DTH_11397"}
+      {"name":"TOPcrime","site_id":"DTH_8196"},
+      {"name":"Venti+","site_id":"DTH_11231"},
+      {"name":"Venti+","site_id":"DTH_11232"},
+      {"name":"Venti+","site_id":"DTH_11233"},
+      {"name":"Venti+","site_id":"DTH_11234"},
+      {"name":"Venti+","site_id":"DTH_11235"},
+      {"name":"Venti+","site_id":"DTH_11236"},
+      {"name":"Virgin Radio TV HD","site_id":"DTH_10994"},
+      {"name":"X-Travel TV","site_id":"DTH_6244"},
+      {"name":"Zee TV","site_id":"DTH_9187"}
     ];
 
-    const favoritesSection = document.getElementById('favorites-section');
-    const favoritesList = document.getElementById('favorites-list');
     const list = document.getElementById('channel-list');
+    const favoritesList = document.getElementById('favorites-list');
+    const favoritesSection = document.getElementById('favorites-section');
     const searchInput = document.getElementById('search-input');
     const footer = document.getElementById('toggle-dark-mode');
 
-    // Recupera lista preferiti da localStorage, ritorna array di site_id
+    // Ritorna array di site_id preferiti da localStorage
     function getFavorites() {
-      const fav = localStorage.getItem('favorites');
-      return fav ? JSON.parse(fav) : [];
+      try {
+        const favs = localStorage.getItem('favorites');
+        return favs ? JSON.parse(favs) : [];
+      } catch {
+        return [];
+      }
     }
 
-    // Salva lista preferiti su localStorage
-    function setFavorites(favs) {
-      localStorage.setItem('favorites', JSON.stringify(favs));
+    // Salva array di preferiti in localStorage
+    function setFavorites(arr) {
+      localStorage.setItem('favorites', JSON.stringify(arr));
     }
 
     // Controlla se un canale è preferito
@@ -355,7 +382,7 @@
       return getFavorites().includes(site_id);
     }
 
-    // Aggiunge o rimuove un canale dai preferiti
+    // Toggle preferito per site_id
     function toggleFavorite(site_id) {
       let favs = getFavorites();
       if (favs.includes(site_id)) {
@@ -366,28 +393,42 @@
       setFavorites(favs);
     }
 
-    // Crea un elemento <li> per un canale
-    function createChannelLi(channel, isFavSection) {
+    // Crea li canale con link e bottone stella
+    function createChannelLi(channel) {
       const li = document.createElement('li');
-      li.className = isFavorite(channel.site_id) ? 'favorite' : '';
-      li.title = 'Clicca per aggiungere/rimuovere dai preferiti';
+      if (isFavorite(channel.site_id)) {
+        li.classList.add('favorite');
+      }
 
+      // Link nome canale (clicca per aprire guida)
       const a = document.createElement('a');
-      a.href = '#';
+      a.href = `guide.html?site_id=${encodeURIComponent(ch.site_id)}&name=${encodeURIComponent(ch.name)}`;
       a.textContent = channel.name;
-      a.addEventListener('click', (e) => {
+      a.title = 'Apri guida TV';
+
+      // Bottone stella preferiti
+      const favBtn = document.createElement('button');
+      favBtn.className = 'favorite-btn';
+      favBtn.title = isFavorite(channel.site_id) ? 'Rimuovi dai preferiti' : 'Aggiungi ai preferiti';
+      favBtn.textContent = isFavorite(channel.site_id) ? '★' : '☆';
+      if (isFavorite(channel.site_id)) {
+        favBtn.classList.add('active');
+      }
+
+      favBtn.addEventListener('click', (e) => {
         e.preventDefault();
         toggleFavorite(channel.site_id);
         rebuildLists(searchInput.value);
       });
 
       li.appendChild(a);
+      li.appendChild(favBtn);
+
       return li;
     }
 
-    // Ricostruisci liste con preferiti in cima e ordina alfabeticamente
-    function rebuildLists(filter='') {
-      // Pulisce liste
+    // Ricostruisce liste con filtro
+    function rebuildLists(filter = '') {
       list.innerHTML = '';
       favoritesList.innerHTML = '';
 
@@ -403,49 +444,37 @@
       let filteredOthers = CHANNELS.filter(ch => !favSet.has(ch.site_id) && ch.name.toLowerCase().includes(q));
       filteredOthers.sort((a, b) => a.name.localeCompare(b.name));
 
-      // Se ho preferiti da mostrare, mostro sezione e lista preferiti
       if (filteredFavs.length > 0) {
         favoritesSection.style.display = 'block';
         filteredFavs.forEach(ch => {
-          const li = createChannelLi(ch, true);
-          favoritesList.appendChild(li);
+          favoritesList.appendChild(createChannelLi(ch));
         });
       } else {
         favoritesSection.style.display = 'none';
       }
 
-      // Lista canali normali
       filteredOthers.forEach(ch => {
-        const li = createChannelLi(ch, false);
-        list.appendChild(li);
+        list.appendChild(createChannelLi(ch));
       });
     }
 
-    // Cambio modalità scura / chiara
-    function toggleDarkMode() {
-      const isDark = document.body.classList.toggle('dark-mode');
-      footer.textContent = 'Powered by 🐯 - Modalità Scura ' + (isDark ? 'ON' : 'OFF');
-      localStorage.setItem('darkMode', isDark ? 'on' : 'off');
-    }
-
-    // All'avvio carica preferiti e modalità
-    window.addEventListener('DOMContentLoaded', () => {
-      // Imposta modalità scura se salvata
-      if (localStorage.getItem('darkMode') === 'on') {
-        document.body.classList.add('dark-mode');
-        footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
-      }
-
-      rebuildLists();
-
-      // Ricerca live
-      searchInput.addEventListener('input', () => {
-        rebuildLists(searchInput.value);
-      });
-
-      // Toggle modalità scura al click footer
-      footer.addEventListener('click', toggleDarkMode);
+    // Gestione ricerca dinamica
+    searchInput.addEventListener('input', () => {
+      rebuildLists(searchInput.value);
     });
+
+    // Modalità scura toggler
+    footer.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      if (document.body.classList.contains('dark-mode')) {
+        footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
+      } else {
+        footer.textContent = 'Powered by 🐯 - Modalità Scura OFF';
+      }
+    });
+
+    // Inizializza liste e stato
+    rebuildLists();
   </script>
 </body>
 </html>
