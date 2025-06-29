@@ -207,6 +207,8 @@
       color: #ccc;
     }
   </style>
+  <!-- Luxon -->
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
 </head>
 <body>
   <div class="container">
@@ -236,10 +238,10 @@
   <footer title="Clicca per attivare/disattivare la modalità scura">Powered by 🐯 - Modalità Scura OFF</footer>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
+      const { DateTime } = luxon;
       const urlParams = new URLSearchParams(window.location.search);
       const siteId = urlParams.get('site_id');
       const channelName = urlParams.get('name') || "Canale sconosciuto";
-
       const channelNameElem = document.getElementById('channel-name');
       const loadingElem = document.getElementById('loading');
       const errorElem = document.getElementById('error-message');
@@ -252,7 +254,6 @@
       const datePicker = document.getElementById('date-picker');
       const exportTxtBtn = document.getElementById('export-txt-btn');
       const footer = document.querySelector('footer');
-
       let allPrograms = {};
       let currentDate = new Date();
 
@@ -275,7 +276,6 @@
       function showPrograms(searchTerm = '') {
         const dayStr = formatDate(currentDate);
         const dayPrograms = allPrograms[dayStr] || [];
-
         programsContainer.innerHTML = '';
 
         if (dayPrograms.length === 0) {
@@ -299,14 +299,14 @@
           return;
         }
 
-        const now = new Date();
+        const now = DateTime.now().setZone('Europe/Rome');
 
         filtered.forEach(program => {
-          const startTime = new Date(program.starttime || program.start);
-          const endTime = new Date(program.endtime || program.end);
+          const startTime = DateTime.fromISO(program.starttime || program.start, { zone: 'Europe/Rome' });
+          const endTime = DateTime.fromISO(program.endtime || program.end, { zone: 'Europe/Rome' });
+
           const isNow = now >= startTime && now <= endTime;
           const isPrimeVision = program.primeVision || false;
-
           const title = program.eventTitle || program.title || '';
           const synopsis = program.eventSynopsis || program.description || '';
 
@@ -329,8 +329,7 @@
 
           programElem.innerHTML = `
             <div class="program-time">
-              ${startTime.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})} -
-              ${endTime.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
+              ${startTime.toFormat('HH:mm')} - ${endTime.toFormat('HH:mm')}
               ${statusText}
             </div>
             <div class="program-title">${title}</div>
@@ -355,12 +354,13 @@
           return;
         }
         const text = dayPrograms.map(p => {
-          const start = new Date(p.starttime || p.start).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
-          const end = new Date(p.endtime || p.end).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+          const start = DateTime.fromISO(p.starttime || p.start, { zone: 'Europe/Rome' }).toFormat('HH:mm');
+          const end = DateTime.fromISO(p.endtime || p.end, { zone: 'Europe/Rome' }).toFormat('HH:mm');
           const title = p.eventTitle || p.title || '';
           const synopsis = p.eventSynopsis || p.description || '';
           return `${start} - ${end} ${title}\n    ${synopsis}`;
         }).join('\n\n');
+
         const blob = new Blob([text], {type: 'text/plain'});
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
@@ -428,13 +428,11 @@
       });
       datePicker.addEventListener('blur', () => datePicker.style.display = 'none');
       exportTxtBtn.addEventListener('click', exportToTxt);
-
       if (localStorage.getItem('darkMode') === 'true') {
         document.body.classList.add('dark-mode');
         footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
       }
       footer.addEventListener('click', toggleDarkMode);
-
       loadChannelData();
     });
   </script>
