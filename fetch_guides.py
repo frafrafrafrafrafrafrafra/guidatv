@@ -9,7 +9,24 @@ import re
 
 ROME_TZ = pytz.timezone("Europe/Rome")
 
-# Lista completa di tutti i canali Sky
+# Proxy per Boing e Cartoonito
+PROXIES = {
+    "http": "http://38.250.126.201:999",
+    "https": "http://38.250.126.201:999"
+}
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+    "Referer": "https://tvepg.eu/"
+}
+
+# Canali da scraping
+SCRAPE_CHANNELS = {
+    "boing": "DTH#6628",
+    "cartoonito": "DTH#8132",
+}
+
+# Canali Sky
 CHANNELS = [
     {"name": "27Twentyseven HD", "site_id": "DTH#11342"},
     {"name": "20Mediaset HD", "site_id": "DTH#10458"},
@@ -174,212 +191,126 @@ CHANNELS = [
     {"name": "ZONA DAZN", "site_id": "DTH#11402"},
 ]
 
-# Canali da scrape con parsing HTML (Boing e Cartoonito)
-SCRAPE_CHANNELS = {
-    "boing": "DTH#6628",
-    "cartoonito": "DTH#8132",
-}
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-    "Referer": "https://tvepg.eu/"
-}
-
-def get_working_proxy(
-    proxy_list_url="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.txt",
-    test_url="https://tvepg.eu/it/italy/channel/boing",
-    timeout=5,
-    max_proxies_to_try=1000  # 1000 tentativi come richiesto
-):
-    """Ottiene un proxy funzionante testando fino a 1000 proxy nell'ordine originale"""
-    print("🔎 Ricerca proxy funzionante (1000 tentativi nell'ordine del file)...")
-    
-    try:
-        # Scarica la lista proxy mantenendo l'ordine originale
-        response = requests.get(proxy_list_url, timeout=10)
-        response.raise_for_status()
-        raw_lines = response.text.splitlines()
-        
-        # Estrai tutti i proxy mantenendo l'ordine originale
-        all_proxies = []
-        proxy_pattern = re.compile(r'(https?|socks[45])://\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d+')
-        
-        for line in raw_lines:
-            matches = proxy_pattern.findall(line)
-            if matches:
-                all_proxies.extend(matches)
-        
-        print(f"📡 Trovati {len(all_proxies)} proxy totali")
-        
-        # Testa fino a 1000 proxy nell'ordine originale
-        tested = 0
-        for i, proxy in enumerate(all_proxies[:max_proxies_to_try]):
-            tested += 1
-            proxies_dict = {"http": proxy, "https": proxy}
-            
-            # Mostra progresso ogni 50 tentativi
-            if i % 50 == 0:
-                print(f"⚡ Progresso: {tested}/{min(len(all_proxies), max_proxies_to_try)} proxy testati")
-            
-            try:
-                start_time = time.time()
-                response = requests.get(
-                    test_url,
-                    proxies=proxies_dict,
-                    timeout=timeout,
-                    headers=HEADERS
-                )
-                elapsed = time.time() - start_time
-                
-                if response.status_code == 200:
-                    print(f"\n✅ Proxy funzionante trovato al tentativo {tested}: {proxy} (tempo: {elapsed:.2f}s)")
-                    return proxies_dict
-            except:
-                continue
-            
-            time.sleep(0.1)  # Piccola pausa tra i tentativi
-        
-        print(f"\n⚠️ Testati {tested} proxy senza successo")
-        return None
-        
-    except Exception as e:
-        print(f"🚨 Errore durante il recupero dei proxy: {e}")
-        return None
-
 def get_review_data(url, proxies=None):
-    """Recupera titolo e descrizione dalla pagina di dettaglio"""
     try:
         r = requests.get(url, headers=HEADERS, proxies=proxies, timeout=10)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, 'html.parser')
-        
+
         title_tag = soup.select_one("span.text-justify > p.grey-text")
         title = title_tag.text.strip() if title_tag else (soup.title.string.strip() if soup.title else url)
-        
+
         desc_tag = soup.select_one("h4.text-justify > p.grey-text")
         description = desc_tag.text.strip() if desc_tag else ""
-        
+
         return title, description
     except Exception as e:
         print(f"Errore recupero review: {e}")
         return url, ""
 
 def parse_programs_from_page(url, target_date_str, proxies=None):
-    """Estrae i programmi dalla pagina HTML"""
     try:
         r = requests.get(url, headers=HEADERS, proxies=proxies, timeout=15)
         r.raise_for_status()
-        
         soup = BeautifulSoup(r.text, 'html.parser')
+
         channel_name = soup.title.string.split(" - ")[0].strip() if soup.title else url
-        
+
         events = soup.find_all("tr", itemtype="http://schema.org/BroadcastEvent")
         program_list = []
         target_date = datetime.fromisoformat(target_date_str).date()
-        
+
         for ev in events:
             time_tag = ev.find("h5", itemprop="startDate")
             if not time_tag:
                 continue
-                
+
             start_str = time_tag['content']
             start_dt = datetime.fromisoformat(start_str)
-            
+
             if start_dt.date() != target_date:
                 continue
-                
+
             review_link_tag = ev.find("h6", itemprop="name").find("a")
-            
+
             if review_link_tag and review_link_tag.has_attr("href"):
                 review_url = "https://tvepg.eu" + review_link_tag['href']
-                try:
-                    title, description = get_review_data(review_url, proxies=proxies)
-                    time.sleep(0.3)  # Rate limiting
-                except Exception as e:
-                    print(f"Errore recupero review {review_url}: {e}")
-                    title = review_link_tag.text.strip()
-                    description = ""
+                title, description = get_review_data(review_url, proxies=proxies)
+                time.sleep(0.3)
             else:
                 title = ev.find("h6", itemprop="name").text.strip()
                 description = ""
-                
+
             program_list.append({
                 "start": start_dt,
                 "title": title,
                 "description": description
             })
-        
-        # Calcola orari di fine
+
+        # Orari di fine
         for i in range(len(program_list) - 1):
             program_list[i]["end"] = program_list[i + 1]["start"]
-            
+
         if program_list:
             program_list[-1]["end"] = program_list[-1]["start"] + timedelta(minutes=30)
-            
+
         return channel_name, program_list
-        
+
     except Exception as e:
         print(f"Errore parsing pagina: {e}")
         return url, []
 
 def fetch_guide_for_channel(env, channel_id, start_date, days_back=7, days_forward=35, proxies=None):
-    """Recupera la guida TV via API Sky"""
     results = []
-    
+
     for day_offset in range(-days_back, days_forward + 1):
         date = start_date + timedelta(days=day_offset)
         from_str = date.strftime("%Y-%m-%dT00:00:00Z")
-        to_date = date + timedelta(days=1)
-        to_str = to_date.strftime("%Y-%m-%dT00:00:00Z")
-        
+        to_str = (date + timedelta(days=1)).strftime("%Y-%m-%dT00:00:00Z")
+
         url = f"https://apid.sky.it/gtv/v1/events?from={from_str}&to={to_str}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
-        
+
         try:
             response = requests.get(url, headers=HEADERS, timeout=15, proxies=proxies)
             response.raise_for_status()
             data = response.json()
-            
+
             results.append({
                 "date": date.strftime("%Y-%m-%d"),
                 "events": data.get("events", [])
             })
-            
+
             print(f"✅ {channel_id} - {date.strftime('%Y-%m-%d')}")
             time.sleep(0.3)
-            
+
         except requests.exceptions.RequestException as e:
             print(f"⚠️ Errore {channel_id} {date.strftime('%Y-%m-%d')}: {e}")
             continue
-            
+
     return results
 
 def main():
-    # Crea directory output
     os.makedirs("output/guides", exist_ok=True)
     now_rome = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
-    
-    # Prima trova un proxy funzionante (1000 tentativi)
-    proxies = get_working_proxy()
-    
-    # 1. Processa prima Boing e Cartoonito (scraping HTML)
+
     print("\n" + "="*50)
     print("🎬 INIZIO ELABORAZIONE BOING E CARTOONITO")
     print("="*50)
-    
+
     for ch_name, site_id in SCRAPE_CHANNELS.items():
         print(f"\n📡 Elaboro {ch_name.upper()} ({site_id})...")
         all_events = {}
         channel_title = None
-        
-        for day_offset in range(-7, 25 + 1):  # -7 a +25 giorni
+
+        for day_offset in range(-7, 25 + 1):
             date = now_rome + timedelta(days=day_offset)
             date_str = date.strftime("%Y-%m-%d")
             url = f"https://tvepg.eu/it/italy/channel/{ch_name}/{date_str}"
-            
+
             try:
-                channel_title, programs = parse_programs_from_page(url, date_str, proxies=proxies)
+                channel_title, programs = parse_programs_from_page(url, date_str, proxies=PROXIES)
                 all_events[date_str] = []
-                
+
                 for p in programs:
                     all_events[date_str].append({
                         "title": p["title"],
@@ -387,45 +318,43 @@ def main():
                         "start": p["start"].isoformat(),
                         "end": p["end"].isoformat() if p.get("end") else None
                     })
-                    
+
                 time.sleep(0.5)
-                
+
             except Exception as e:
                 print(f"⚠️ Errore {ch_name} {date_str}: {e}")
                 continue
-                
-        # Salva i dati
+
         site_id_underscore = site_id.replace("#", "_")
         out_path = f"output/guides/{site_id_underscore}.json"
-        
+
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump({
                 "name": channel_title if channel_title else ch_name.capitalize(),
                 "events_by_date": all_events
             }, f, indent=2, ensure_ascii=False)
-            
+
         print(f"💾 Salvato {out_path}")
 
-    # 2. Processa tutti gli altri canali (API Sky)
     print("\n" + "="*50)
     print("📡 INIZIO ELABORAZIONE CANALI SKY")
     print("="*50)
-    
+
     for ch in CHANNELS:
         print(f"\n📡 Elaboro {ch['name']} ({ch['site_id']})...")
-        
+
         env_part, channel_id = ch["site_id"].split("#")
-        guide = fetch_guide_for_channel(env_part, channel_id, now_rome, proxies=proxies)
-        
+        guide = fetch_guide_for_channel(env_part, channel_id, now_rome, proxies=None)
+
         site_id_underscore = ch["site_id"].replace("#", "_")
         out_path = f"output/guides/{site_id_underscore}.json"
-        
+
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump({
                 "name": ch["name"],
                 "events_by_date": {g["date"]: g["events"] for g in guide}
             }, f, indent=2, ensure_ascii=False)
-            
+
         print(f"💾 Salvato {out_path}")
 
 if __name__ == "__main__":
