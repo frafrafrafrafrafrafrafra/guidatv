@@ -270,7 +270,7 @@ def main():
     try:
         num_days = int(sys.argv[1])
     except (IndexError, ValueError):
-        num_days = 35
+        num_days = 40
 
     os.makedirs("output/guides", exist_ok=True)
 
