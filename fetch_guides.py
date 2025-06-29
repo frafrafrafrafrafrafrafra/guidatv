@@ -3,10 +3,12 @@ import json
 from datetime import datetime, timedelta
 import pytz
 import os
+import time
+from bs4 import BeautifulSoup
 
 ROME_TZ = pytz.timezone("Europe/Rome")
 
-# TUTTI I TUOI CANALI PRECISI
+# Lista completa canali fetch Sky API
 CHANNELS = [
     {"name":"CNBC HD","site_id":"DTH#10713"},
     {"name":"Sky Crime","site_id":"DTH#11216"},
@@ -177,15 +179,81 @@ CHANNELS = [
     {"name":"ZONA DAZN","site_id":"DTH#11402"},
 ]
 
+# Canali da scrape con parsing HTML (Boing, Cartoonito)
+SCRAPE_CHANNELS = {
+    "boing": "DTH#6628",
+    "cartoonito": "DTH#8132",
+}
 
-def fetch_guide_for_channel(env, channel_id, start_date, days=60):
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)"
+                  " Chrome/114.0.0.0 Safari/537.36"
+}
+
+def get_review_data(url):
+    r = requests.get(url, headers=HEADERS)
+    r.raise_for_status()
+    soup = BeautifulSoup(r.text, 'html.parser')
+    title_tag = soup.select_one("span.text-justify > p.grey-text")
+    title = title_tag.text.strip() if title_tag else (soup.title.string.strip() if soup.title else url)
+    desc_tag = soup.select_one("h4.text-justify > p.grey-text")
+    description = desc_tag.text.strip() if desc_tag else ""
+    return title, description
+
+def parse_programs_from_page(url, target_date_str):
+    r = requests.get(url, headers=HEADERS)
+    r.raise_for_status()
+    soup = BeautifulSoup(r.text, 'html.parser')
+
+    channel_name = soup.title.string.split(" - ")[0].strip() if soup.title else url
+
+    events = soup.find_all("tr", itemtype="http://schema.org/BroadcastEvent")
+    program_list = []
+    target_date = datetime.fromisoformat(target_date_str).date()
+
+    for ev in events:
+        time_tag = ev.find("h5", itemprop="startDate")
+        if not time_tag:
+            continue
+        start_str = time_tag['content']
+        start_dt = datetime.fromisoformat(start_str)
+        if start_dt.date() != target_date:
+            continue
+
+        review_link_tag = ev.find("h6", itemprop="name").find("a")
+        if review_link_tag and review_link_tag.has_attr("href"):
+            review_url = "https://tvepg.eu" + review_link_tag['href']
+            try:
+                title, description = get_review_data(review_url)
+                time.sleep(0.3)
+            except Exception as e:
+                print(f"Errore recupero review {review_url}: {e}")
+                title = review_link_tag.text.strip()
+                description = ""
+        else:
+            title = ev.find("h6", itemprop="name").text.strip()
+            description = ""
+
+        program_list.append({
+            "start": start_dt,
+            "title": title,
+            "description": description
+        })
+
+    for i in range(len(program_list) - 1):
+        program_list[i]["end"] = program_list[i+1]["start"]
+    if program_list:
+        program_list[-1]["end"] = program_list[-1]["start"] + timedelta(minutes=30)
+
+    return channel_name, program_list
+
+def fetch_guide_for_channel(env, channel_id, start_date, days=40):
     results = []
     for day_offset in range(days):
         date = start_date + timedelta(days=day_offset)
         from_str = date.strftime("%Y-%m-%dT00:00:00Z")
         to_date = date + timedelta(days=1)
         to_str = to_date.strftime("%Y-%m-%dT00:00:00Z")
-
         url = f"https://apid.sky.it/gtv/v1/events?from={from_str}&to={to_str}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
         try:
             response = requests.get(url, timeout=15)
@@ -202,26 +270,54 @@ def fetch_guide_for_channel(env, channel_id, start_date, days=60):
     return results
 
 def main():
-    now_rome = datetime.now(ROME_TZ)
-    start_date = now_rome.replace(hour=0, minute=0, second=0, microsecond=0)
+    now_rome = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
     os.makedirs("output/guides", exist_ok=True)
 
+    # Fetch API Sky: 40 giorni
     for ch in CHANNELS:
         env_part, channel_id = ch["site_id"].split("#")
         print(f"Fetching guide for {ch['name']} ({channel_id})...")
-
-        guide = fetch_guide_for_channel(env_part, channel_id, start_date)
-
-        # Sostituisco # con _ per il nome del file
+        guide = fetch_guide_for_channel(env_part, channel_id, now_rome, days=40)
         site_id_underscore = ch["site_id"].replace("#", "_")
         out_path = f"output/guides/{site_id_underscore}.json"
-
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump({
                 "name": ch["name"],
                 "events_by_date": guide
             }, f, indent=2, ensure_ascii=False)
+        print(f"Saved {out_path}")
 
+    # Scraping tvepg.eu per Boing e Cartoonito: 25 giorni, un giorno per pagina
+    for ch_name, site_id in SCRAPE_CHANNELS.items():
+        print(f"Fetching scraped guide for {ch_name}...")
+        all_events = {}
+        channel_title = None
+        for day_offset in range(25):
+            date = now_rome + timedelta(days=day_offset)
+            date_str = date.strftime("%Y-%m-%d")
+            url = f"https://tvepg.eu/it/italy/channel/{ch_name}/{date_str}"
+            try:
+                channel_title, programs = parse_programs_from_page(url, date_str)
+                all_events[date_str] = []
+                for p in programs:
+                    all_events[date_str].append({
+                        "title": p["title"],
+                        "description": p["description"],
+                        "start": p["start"].isoformat(),
+                        "end": p["end"].isoformat() if p.get("end") else None
+                    })
+                time.sleep(0.5)
+            except Exception as e:
+                print(f"Errore fetching day {date_str} per {ch_name}: {e}")
+                continue
+
+        site_id_underscore = site_id.replace("#", "_")
+        out_path = f"output/guides/{site_id_underscore}.json"
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump({
+                "name": channel_title if channel_title else ch_name.capitalize(),
+                "events_by_date": all_events
+            }, f, indent=2, ensure_ascii=False)
         print(f"Saved {out_path}")
 
 if __name__ == "__main__":
