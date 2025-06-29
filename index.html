@@ -15,7 +15,6 @@
     h1 {
       text-align: center;
       margin-bottom: 5px;
-      transition: color 0.3s;
     }
     h2 {
       text-align: center;
@@ -23,7 +22,6 @@
       color: #555;
       margin-top: 0;
       margin-bottom: 20px;
-      transition: color 0.3s;
     }
     .search-container {
       max-width: 90vw;
@@ -41,13 +39,14 @@
       border: 1px solid #ccc;
       box-sizing: border-box;
       max-width: none;
-      transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+      transition: background-color 0.3s, color 0.3s, border-color 0.3s;
     }
+    /* Lista principale */
     ul {
       list-style: none;
       padding: 0;
       max-width: 90vw;
-      margin: 0 auto;
+      margin: 0 auto 30px auto;
       flex-grow: 1;
       box-sizing: border-box;
       padding: 0 10px;
@@ -58,6 +57,12 @@
       padding: 12px;
       border-radius: 5px;
       transition: background-color 0.3s, color 0.3s;
+      user-select: none;
+      cursor: pointer;
+    }
+    li.favorite {
+      border: 2px solid #f9a825; /* giallo oro per preferiti */
+      box-shadow: 0 0 8px rgba(249,168,37,0.4);
     }
     a {
       text-decoration: none;
@@ -69,6 +74,16 @@
     a:hover {
       color: #0077cc;
     }
+    /* Titolo sezione preferiti */
+    #favorites-title {
+      max-width: 90vw;
+      margin: 0 auto 10px auto;
+      font-weight: bold;
+      font-size: 18px;
+      color: #f9a825;
+      user-select: none;
+      padding-left: 15px;
+    }
     footer {
       text-align: center;
       margin-top: 40px;
@@ -76,50 +91,76 @@
       font-size: 14px;
       user-select: none;
       cursor: pointer;
-      max-width: 90vw;
-      margin-left: auto;
-      margin-right: auto;
-      transition: background-color 0.3s, color 0.3s;
+      transition: color 0.3s, background-color 0.3s;
+      padding: 8px 0;
+      background: transparent;
+      border-radius: 4px;
+    }
+    footer:hover {
+      color: #0077cc;
+      background: rgba(0, 119, 204, 0.1);
     }
 
-    /* Modalità scura */
-    .dark-mode {
-      background-color: #121212;
-      color: #e0e0e0;
+    /* --- Modalità scura --- */
+    body.dark-mode {
+      background: #121212;
+      color: #ddd;
     }
-    .dark-mode h1,
-    .dark-mode h2 {
-      color: #bbdefb;
+    body.dark-mode h2 {
+      color: #aaa;
     }
-    .dark-mode #search-input {
-      background-color: #333;
-      border: 1px solid #555;
+    body.dark-mode #search-input {
+      background: #222;
       color: #eee;
+      border-color: #555;
     }
-    .dark-mode li {
-      background-color: #1e1e1e;
-    }
-    .dark-mode a {
-      color: #bbdefb;
-    }
-    .dark-mode a:hover {
-      color: #5599ff;
-    }
-    .dark-mode footer {
-      background-color: #222;
+    body.dark-mode li {
+      background: #1e1e1e;
       color: #ccc;
+    }
+    body.dark-mode li.favorite {
+      border-color: #f9a825;
+      box-shadow: 0 0 8px rgba(249,168,37,0.8);
+      background: #292921;
+    }
+    body.dark-mode a {
+      color: #ccc;
+    }
+    body.dark-mode a:hover {
+      color: #66aaff;
+    }
+    body.dark-mode #favorites-title {
+      color: #f9a825;
+    }
+    body.dark-mode footer {
+      background: transparent !important;
+      color: #bbb;
+    }
+    body.dark-mode footer:hover {
+      background: rgba(102, 170, 255, 0.15);
+      color: #aaddff;
     }
   </style>
 </head>
 <body>
   <h1>Guida TV</h1>
   <h2>Seleziona un canale</h2>
+
   <div class="search-container">
     <input type="text" id="search-input" placeholder="Cerca un canale..." />
   </div>
+
+  <!-- Titolo e lista preferiti, nascosti se nessun preferito -->
+  <div id="favorites-section" style="display:none;">
+    <div id="favorites-title">⭐ Preferiti</div>
+    <ul id="favorites-list"></ul>
+  </div>
+
   <ul id="channel-list"></ul>
 
-  <footer title="Clicca per attivare/disattivare la modalità scura">Powered by 🐯</footer>
+  <footer id="toggle-dark-mode" title="Clicca per attivare/disattivare la modalità scura">
+    Powered by 🐯 - Modalità Scura OFF
+  </footer>
 
   <script>
     const CHANNELS = [
@@ -292,51 +333,147 @@
       {"name":"ZONA DAZN","site_id":"DTH_11402"}
     ];
 
+    const favoritesKey = 'tvGuideFavorites';
+
+    const input = document.getElementById('search-input');
     const list = document.getElementById('channel-list');
+    const favoritesSection = document.getElementById('favorites-section');
+    const favoritesList = document.getElementById('favorites-list');
+    const footer = document.getElementById('toggle-dark-mode');
 
-    function buildChannelList() {
-      CHANNELS.sort((a, b) => a.name.localeCompare(b.name));
-      CHANNELS.forEach(ch => {
-        const li = document.createElement('li');
-        const a = document.createElement('a');
-        a.href = `guide.html?site_id=${encodeURIComponent(ch.site_id)}&name=${encodeURIComponent(ch.name)}`;
-        a.textContent = ch.name;
-        li.appendChild(a);
-        list.appendChild(li);
-        ch.element = li; // per filtro
-      });
+    // Leggi preferiti da localStorage, torna array di site_id
+    function getFavorites() {
+      try {
+        const fav = JSON.parse(localStorage.getItem(favoritesKey));
+        return Array.isArray(fav) ? fav : [];
+      } catch {
+        return [];
+      }
     }
 
-    function filterChannels(query) {
-      const q = query.trim().toLowerCase();
-      CHANNELS.forEach(item => {
-        if (item.name.toLowerCase().includes(q)) {
-          item.element.style.display = '';
-        } else {
-          item.element.style.display = 'none';
-        }
-      });
+    // Salva preferiti su localStorage
+    function saveFavorites(favs) {
+      localStorage.setItem(favoritesKey, JSON.stringify(favs));
     }
 
-    document.getElementById('search-input').addEventListener('input', e => {
-      filterChannels(e.target.value);
-    });
+    // Ricostruisci liste con preferiti in cima
+    function rebuildLists(filter='') {
+      // Pulisce liste
+      list.innerHTML = '';
+      favoritesList.innerHTML = '';
 
-    // Gestione modalità scura con localStorage
-    document.addEventListener('DOMContentLoaded', () => {
-      // Applica modalità scura se salvata
-      if (localStorage.getItem('darkMode') === 'true') {
-        document.body.classList.add('dark-mode');
+      const favs = getFavorites();
+      const favSet = new Set(favs);
+      const q = filter.trim().toLowerCase();
+
+      // Canali preferiti filtrati
+      const filteredFavs = CHANNELS.filter(ch => favSet.has(ch.site_id) && ch.name.toLowerCase().includes(q));
+      // Canali non preferiti filtrati
+      const filteredOthers = CHANNELS.filter(ch => !favSet.has(ch.site_id) && ch.name.toLowerCase().includes(q));
+
+      // Se ho preferiti da mostrare, mostro sezione e lista preferiti
+      if (filteredFavs.length > 0) {
+        favoritesSection.style.display = 'block';
+        filteredFavs.forEach(ch => {
+          const li = createChannelLi(ch, true);
+          favoritesList.appendChild(li);
+        });
+      } else {
+        favoritesSection.style.display = 'none';
       }
 
-      // Toggle modalità scura al click sul footer
-      document.querySelector('footer').addEventListener('click', () => {
-        const isDark = document.body.classList.toggle('dark-mode');
-        localStorage.setItem('darkMode', isDark ? 'true' : 'false');
+      // Lista canali normali
+      filteredOthers.forEach(ch => {
+        const li = createChannelLi(ch, false);
+        list.appendChild(li);
       });
+    }
+
+    // Crea <li> di canale, con gestione eventi preferiti (press and hold)
+    function createChannelLi(ch, isFavorite) {
+      const li = document.createElement('li');
+      if (isFavorite) li.classList.add('favorite');
+      const a = document.createElement('a');
+      a.href = `guide.html?site_id=${encodeURIComponent(ch.site_id)}&name=${encodeURIComponent(ch.name)}`;
+      a.textContent = ch.name;
+      li.appendChild(a);
+
+      // Gestione "premi e tieni premuto" per togglare preferito
+      let pressTimer = null;
+
+      // Inizia timer alla pressione (mouse o touch)
+      function startPressTimer() {
+        if (pressTimer === null) {
+          pressTimer = setTimeout(() => {
+            toggleFavorite(ch.site_id);
+          }, 600); // 600 ms pressione lunga
+        }
+      }
+
+      // Cancella timer quando rilascia
+      function cancelPressTimer() {
+        if (pressTimer !== null) {
+          clearTimeout(pressTimer);
+          pressTimer = null;
+        }
+      }
+
+      // Eventi mouse
+      li.addEventListener('mousedown', startPressTimer);
+      li.addEventListener('mouseup', cancelPressTimer);
+      li.addEventListener('mouseleave', cancelPressTimer);
+
+      // Eventi touch
+      li.addEventListener('touchstart', startPressTimer);
+      li.addEventListener('touchend', cancelPressTimer);
+      li.addEventListener('touchcancel', cancelPressTimer);
+
+      return li;
+    }
+
+    // Toggle preferito e ricostruisce liste
+    function toggleFavorite(site_id) {
+      const favs = getFavorites();
+      const idx = favs.indexOf(site_id);
+      if (idx >= 0) {
+        favs.splice(idx, 1);
+      } else {
+        favs.push(site_id);
+      }
+      saveFavorites(favs);
+      rebuildLists(input.value);
+    }
+
+    // Funzione filtro canali con rebuild completo
+    function filterChannels(query) {
+      rebuildLists(query);
+    }
+
+    // Toggle modalità scura e salva in localStorage
+    function setDarkMode(enabled) {
+      if (enabled) {
+        document.body.classList.add('dark-mode');
+        footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
+        localStorage.setItem('darkMode', 'true');
+      } else {
+        document.body.classList.remove('dark-mode');
+        footer.textContent = 'Powered by 🐯 - Modalità Scura OFF';
+        localStorage.setItem('darkMode', 'false');
+      }
+    }
+
+    footer.addEventListener('click', () => {
+      const isDark = document.body.classList.contains('dark-mode');
+      setDarkMode(!isDark);
     });
 
-    buildChannelList();
+    // Inizializza tutto
+    window.addEventListener('DOMContentLoaded', () => {
+      const savedMode = localStorage.getItem('darkMode') === 'true';
+      setDarkMode(savedMode);
+      rebuildLists();
+      input.addEventListener('input', e => filterChannels(e.target.value));
+    });
   </script>
 </body>
 </html>
