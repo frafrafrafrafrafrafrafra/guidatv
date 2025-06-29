@@ -26,19 +26,16 @@
       flex-grow: 1;
       display: flex;
       flex-direction: column;
-      transition: background-color 0.3s, color 0.3s;
     }
     header {
       text-align: center;
       margin-bottom: 20px;
       padding-bottom: 20px;
       border-bottom: 1px solid #eee;
-      transition: border-color 0.3s;
     }
     h1 {
       color: #2c3e50;
       margin: 0;
-      transition: color 0.3s;
     }
     .loading {
       text-align: center;
@@ -52,7 +49,6 @@
       background: #fdecea;
       border-radius: 4px;
       margin: 20px 0;
-      transition: background-color 0.3s;
     }
     .program {
       padding: 15px;
@@ -60,24 +56,20 @@
       background: #f9f9f9;
       border-radius: 4px;
       border-left: 4px solid #3498db;
-      transition: background-color 0.3s, border-color 0.3s;
     }
     .program-time {
       font-weight: bold;
       color: #2c3e50;
-      transition: color 0.3s;
     }
     .now-on-air {
       color: #e74c3c;
       font-weight: bold;
       margin-left: 10px;
-      transition: color 0.3s;
     }
     .prime-vision {
       color: #1a4b8c;
       font-weight: bold;
       margin-left: 10px;
-      transition: color 0.3s;
     }
     .search-container {
       margin: 20px 0;
@@ -91,7 +83,6 @@
       border: 1px solid #ddd;
       border-radius: 4px;
       font-size: 16px;
-      transition: background-color 0.3s, border-color 0.3s, color 0.3s;
     }
     .date-navigation {
       display: flex;
@@ -109,7 +100,6 @@
       font-size: 24px;
       cursor: pointer;
       user-select: none;
-      transition: color 0.2s ease;
     }
     .date-navigation button:hover:not(:disabled) {
       color: #555;
@@ -125,7 +115,6 @@
       cursor: pointer;
       user-select: none;
       border-bottom: 1px dashed #999;
-      transition: color 0.3s, border-color 0.3s;
     }
     #date-picker {
       font-size: 16px;
@@ -136,7 +125,6 @@
       margin-top: 6px;
       width: 100%;
       max-width: 200px;
-      transition: background-color 0.3s, border-color 0.3s, color 0.3s;
     }
     #export-txt-btn {
       margin: 10px auto 0 auto;
@@ -148,8 +136,6 @@
       color: white;
       border-radius: 4px;
       display: none;
-      user-select: none;
-      transition: background-color 0.2s ease;
     }
     #export-txt-btn:hover {
       background: #217dbb;
@@ -165,10 +151,7 @@
       margin-right: auto;
       user-select: none;
       cursor: pointer;
-      transition: background-color 0.3s, color 0.3s;
     }
-
-    /* Modalità scura */
     .dark-mode {
       background-color: #121212;
       color: #e0e0e0;
@@ -176,10 +159,7 @@
     .dark-mode .container {
       background-color: #1e1e1e;
       color: #e0e0e0;
-      box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
-    }
-    .dark-mode header {
-      border-bottom: 1px solid #333;
+      box-shadow: 0 2px 10px rgba(255,255,255,0.1);
     }
     .dark-mode h1 {
       color: #bbdefb;
@@ -241,22 +221,25 @@
           <input type="text" id="search-input" placeholder="Cerca programmi...">
         </div>
         <div class="date-navigation">
-          <button id="prev-day" aria-label="Giorno precedente">◀</button>
+          <button id="prev-day">◀</button>
           <div style="display: flex; flex-direction: column; align-items: center;">
             <div class="current-date" id="current-date" title="Clicca per selezionare una data"></div>
             <input type="date" id="date-picker" />
           </div>
-          <button id="next-day" aria-label="Giorno successivo">▶</button>
+          <button id="next-day">▶</button>
         </div>
-        <button id="export-txt-btn" title="Esporta il palinsesto del giorno corrente in TXT">Esporta in TXT</button>
+        <button id="export-txt-btn">Esporta in TXT</button>
         <div id="programs-container"></div>
       </div>
     </div>
   </div>
   <footer title="Clicca per attivare/disattivare la modalità scura">Powered by 🐯 - Modalità Scura OFF</footer>
-
   <script>
     document.addEventListener('DOMContentLoaded', function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const siteId = urlParams.get('site_id');
+      const channelName = urlParams.get('name') || "Canale sconosciuto";
+
       const channelNameElem = document.getElementById('channel-name');
       const loadingElem = document.getElementById('loading');
       const errorElem = document.getElementById('error-message');
@@ -270,9 +253,6 @@
       const exportTxtBtn = document.getElementById('export-txt-btn');
       const footer = document.querySelector('footer');
 
-      const urlParams = new URLSearchParams(window.location.search);
-      const siteId = urlParams.get('site_id');
-      const channelName = urlParams.get('name') || "Canale sconosciuto";
       let allPrograms = {};
       let currentDate = new Date();
 
@@ -289,47 +269,55 @@
       }
 
       function formatReadableDate(d) {
-        return d.toLocaleDateString('it-IT', {
-          weekday: 'long',
-          year: 'numeric',
-          month: 'long',
-          day: 'numeric'
-        });
+        return d.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
       }
 
       function showPrograms(searchTerm = '') {
         const dayStr = formatDate(currentDate);
         const dayPrograms = allPrograms[dayStr] || [];
+
         programsContainer.innerHTML = '';
+
         if (dayPrograms.length === 0) {
           programsContainer.innerHTML = '<div class="program">Nessun programma in onda in questa data.</div>';
           return;
         }
+
         const filtered = searchTerm
-          ? dayPrograms.filter(p =>
-              (p.eventTitle && p.eventTitle.toLowerCase().includes(searchTerm.toLowerCase())) ||
-              (p.eventSynopsis && p.eventSynopsis.toLowerCase().includes(searchTerm.toLowerCase()))
-            )
+          ? dayPrograms.filter(p => {
+              const title = p.eventTitle || p.title || '';
+              const synopsis = p.eventSynopsis || p.description || '';
+              return (
+                title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                synopsis.toLowerCase().includes(searchTerm.toLowerCase())
+              );
+            })
           : dayPrograms;
+
         if (filtered.length === 0) {
           programsContainer.innerHTML = '<div class="program">Nessun programma corrisponde alla ricerca.</div>';
           return;
         }
+
         const now = new Date();
+
         filtered.forEach(program => {
-          const startTime = new Date(program.starttime);
-          const endTime = new Date(program.endtime);
+          const startTime = new Date(program.starttime || program.start);
+          const endTime = new Date(program.endtime || program.end);
           const isNow = now >= startTime && now <= endTime;
-          const isPrimeVision = program.primeVision;
+          const isPrimeVision = program.primeVision || false;
+
+          const title = program.eventTitle || program.title || '';
+          const synopsis = program.eventSynopsis || program.description || '';
+
           const programElem = document.createElement('div');
           programElem.className = 'program';
-          
           if (isNow) {
             programElem.style.borderLeft = '4px solid #e74c3c';
           } else if (isPrimeVision) {
             programElem.style.borderLeft = '4px solid #1a4b8c';
           }
-          
+
           let statusText = '';
           if (isNow && isPrimeVision) {
             statusText = `<span class="now-on-air">• Ora in onda</span> <span class="prime-vision">• Prima TV</span>`;
@@ -338,15 +326,15 @@
           } else if (isPrimeVision) {
             statusText = `<span class="prime-vision">• Prima TV</span>`;
           }
-          
+
           programElem.innerHTML = `
             <div class="program-time">
               ${startTime.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})} -
               ${endTime.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
               ${statusText}
             </div>
-            <div class="program-title">${program.eventTitle || ''}</div>
-            ${program.eventSynopsis ? `<div class="program-synopsis">${program.eventSynopsis}</div>` : ''}
+            <div class="program-title">${title}</div>
+            ${synopsis ? `<div class="program-synopsis">${synopsis}</div>` : ''}
           `;
           programsContainer.appendChild(programElem);
         });
@@ -357,46 +345,22 @@
         document.title = `${channelName} - ${formatReadableDate(currentDate)}`;
         showPrograms(searchInput.value);
         datePicker.value = formatDate(currentDate);
-        prevDayBtn.disabled = false;
-        nextDayBtn.disabled = false;
       }
 
       function exportToTxt() {
         const dayStr = formatDate(currentDate);
         const dayPrograms = allPrograms[dayStr] || [];
-        if(dayPrograms.length === 0){
+        if (dayPrograms.length === 0) {
           alert('Nessun programma disponibile per questa data.');
           return;
         }
-        
-        const now = new Date();
-        let text = `Palinsesto per ${channelName} - ${formatReadableDate(currentDate)}\n\n`;
-        
-        dayPrograms.forEach(prog => {
-          const startTime = new Date(prog.starttime);
-          const endTime = new Date(prog.endtime);
-          
-          // Salta il programma se è in onda ora
-          if (now >= startTime && now <= endTime) {
-            return;
-          }
-          
-          const startStr = startTime.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
-          const endStr = endTime.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
-          const title = prog.eventTitle || '';
-          
-          text += `${startStr} - ${endStr}  ${title}`;
-          
-          if (prog.primeVision) {
-            text += ' (Prima TV)';
-          }
-          text += '\n';
-          
-          if(prog.eventSynopsis){
-            text += `    ${prog.eventSynopsis}\n`;
-          }
-        });
-
+        const text = dayPrograms.map(p => {
+          const start = new Date(p.starttime || p.start).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+          const end = new Date(p.endtime || p.end).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+          const title = p.eventTitle || p.title || '';
+          const synopsis = p.eventSynopsis || p.description || '';
+          return `${start} - ${end} ${title}\n    ${synopsis}`;
+        }).join('\n\n');
         const blob = new Blob([text], {type: 'text/plain'});
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
@@ -413,7 +377,6 @@
       function toggleDarkMode() {
         const isDark = document.body.classList.toggle('dark-mode');
         footer.textContent = 'Powered by 🐯 - Modalità Scura ' + (isDark ? 'ON' : 'OFF');
-        footer.title = 'Clicca per attivare/disattivare la modalità scura';
         localStorage.setItem('darkMode', isDark ? 'true' : 'false');
       }
 
@@ -447,45 +410,29 @@
         currentDate.setDate(currentDate.getDate() - 1);
         updateView();
       });
-
       nextDayBtn.addEventListener('click', () => {
         currentDate.setDate(currentDate.getDate() + 1);
         updateView();
       });
-
-      searchInput.addEventListener('input', () => {
-        updateView();
-      });
-
+      searchInput.addEventListener('input', () => updateView());
       currentDateElem.addEventListener('click', () => {
         datePicker.style.display = 'block';
         datePicker.focus();
       });
-
       datePicker.addEventListener('change', () => {
-        const selected = datePicker.value;
-        if (selected) {
-          const newDate = new Date(selected + 'T00:00:00');
-          currentDate = newDate;
+        if (datePicker.value) {
+          currentDate = new Date(datePicker.value);
           updateView();
         }
         datePicker.style.display = 'none';
       });
-
-      datePicker.addEventListener('blur', () => {
-        datePicker.style.display = 'none';
-      });
-
+      datePicker.addEventListener('blur', () => datePicker.style.display = 'none');
       exportTxtBtn.addEventListener('click', exportToTxt);
 
-      // Carica la modalità scura da localStorage e aggiorna testo footer
-      const darkModeStored = localStorage.getItem('darkMode');
-      if (darkModeStored === 'true') {
+      if (localStorage.getItem('darkMode') === 'true') {
         document.body.classList.add('dark-mode');
         footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
       }
-
-      // Toggle modalità scura e salva localStorage
       footer.addEventListener('click', toggleDarkMode);
 
       loadChannelData();
