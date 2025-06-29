@@ -190,8 +190,49 @@ HEADERS = {
     "Referer": "https://tvepg.eu/"
 }
 
-def get_review_data(url):
-    r = requests.get(url, headers=HEADERS)
+def get_working_proxy(proxy_list_url="https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.json",
+                      test_url="https://tvepg.eu/it/italy/channel/boing/2025-06-20",
+                      timeout=5):
+    print("Caricando lista proxy e cercando proxy funzionante...")
+    try:
+        resp = requests.get(proxy_list_url, timeout=10)
+        resp.raise_for_status()
+        proxies_data = resp.json()  # Lista di dict con 'host', 'port', 'protocol' o 'type'
+    except Exception as e:
+        print(f"Errore caricando lista proxy: {e}")
+        return None
+
+    for p in proxies_data:
+        host = p.get("host")
+        port = p.get("port")
+        proto = p.get("protocol") or p.get("type") or "http"
+        if not host or not port:
+            continue
+
+        proto = proto.lower()
+        if proto not in ("http", "socks5"):
+            continue
+
+        proxy_url = f"{proto}://{host}:{port}"
+        proxies = {
+            "http": proxy_url,
+            "https": proxy_url,
+        }
+        try:
+            r = requests.get(test_url, proxies=proxies, headers=HEADERS, timeout=timeout)
+            if r.status_code == 200:
+                print(f"Trovato proxy funzionante: {proxy_url}")
+                return proxies
+        except Exception as e:
+            # Proxy non funzionante
+            continue
+
+    print("Nessun proxy valido trovato")
+    return None
+
+
+def get_review_data(url, proxies=None):
+    r = requests.get(url, headers=HEADERS, proxies=proxies)
     r.raise_for_status()
     soup = BeautifulSoup(r.text, 'html.parser')
     title_tag = soup.select_one("span.text-justify > p.grey-text")
@@ -200,8 +241,8 @@ def get_review_data(url):
     description = desc_tag.text.strip() if desc_tag else ""
     return title, description
 
-def parse_programs_from_page(url, target_date_str):
-    r = requests.get(url, headers=HEADERS)
+def parse_programs_from_page(url, target_date_str, proxies=None):
+    r = requests.get(url, headers=HEADERS, proxies=proxies)
     r.raise_for_status()
     soup = BeautifulSoup(r.text, 'html.parser')
     channel_name = soup.title.string.split(" - ")[0].strip() if soup.title else url
@@ -220,7 +261,7 @@ def parse_programs_from_page(url, target_date_str):
         if review_link_tag and review_link_tag.has_attr("href"):
             review_url = "https://tvepg.eu" + review_link_tag['href']
             try:
-                title, description = get_review_data(review_url)
+                title, description = get_review_data(review_url, proxies=proxies)
                 time.sleep(0.3)
             except Exception as e:
                 print(f"Errore recupero review {review_url}: {e}")
@@ -240,7 +281,7 @@ def parse_programs_from_page(url, target_date_str):
         program_list[-1]["end"] = program_list[-1]["start"] + timedelta(minutes=30)
     return channel_name, program_list
 
-def fetch_guide_for_channel(env, channel_id, start_date, days_back=7, days_forward=35):
+def fetch_guide_for_channel(env, channel_id, start_date, days_back=7, days_forward=35, proxies=None):
     results = []
     for day_offset in range(-days_back, days_forward + 1):
         date = start_date + timedelta(days=day_offset)
@@ -249,7 +290,7 @@ def fetch_guide_for_channel(env, channel_id, start_date, days_back=7, days_forwa
         to_str = to_date.strftime("%Y-%m-%dT00:00:00Z")
         url = f"https://apid.sky.it/gtv/v1/events?from={from_str}&to={to_str}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
         try:
-            response = requests.get(url, headers=HEADERS, timeout=15)
+            response = requests.get(url, headers=HEADERS, timeout=15, proxies=proxies)
             response.raise_for_status()
             data = response.json()
             results.append({
@@ -264,6 +305,7 @@ def fetch_guide_for_channel(env, channel_id, start_date, days_back=7, days_forwa
     return results
 
 def main():
+    proxies = get_working_proxy()
     now_rome = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
     os.makedirs("output/guides", exist_ok=True)
 
@@ -277,7 +319,7 @@ def main():
             date_str = date.strftime("%Y-%m-%d")
             url = f"https://tvepg.eu/it/italy/channel/{ch_name}/{date_str}"
             try:
-                channel_title, programs = parse_programs_from_page(url, date_str)
+                channel_title, programs = parse_programs_from_page(url, date_str, proxies=proxies)
                 all_events[date_str] = []
                 for p in programs:
                     all_events[date_str].append({
@@ -303,7 +345,7 @@ def main():
     for ch in CHANNELS:
         env_part, channel_id = ch["site_id"].split("#")
         print(f"Fetching guide for {ch['name']} ({channel_id})...")
-        guide = fetch_guide_for_channel(env_part, channel_id, now_rome, days_back=7, days_forward=35)
+        guide = fetch_guide_for_channel(env_part, channel_id, now_rome, days_back=7, days_forward=35, proxies=proxies)
         site_id_underscore = ch["site_id"].replace("#", "_")
         out_path = f"output/guides/{site_id_underscore}.json"
         with open(out_path, "w", encoding="utf-8") as f:
