@@ -9,8 +9,6 @@
       font-family: Arial, sans-serif;
       margin: 20px;
       background: #f9f9f9;
-      color: #333;
-      transition: background-color 0.3s, color 0.3s;
     }
     h1 {
       text-align: center;
@@ -39,14 +37,12 @@
       border: 1px solid #ccc;
       box-sizing: border-box;
       max-width: none;
-      transition: background-color 0.3s, color 0.3s, border-color 0.3s;
     }
-    /* Lista principale */
     ul {
       list-style: none;
       padding: 0;
       max-width: 90vw;
-      margin: 0 auto 30px auto;
+      margin: 0 auto;
       flex-grow: 1;
       box-sizing: border-box;
       padding: 0 10px;
@@ -56,36 +52,15 @@
       margin: 8px 0;
       padding: 12px;
       border-radius: 5px;
-      transition: background-color 0.3s, color 0.3s;
-      user-select: none;
-      cursor: default;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    li.favorite {
-      border: 2px solid #f9a825; /* giallo oro per preferiti */
-      box-shadow: 0 0 8px rgba(249,168,37,0.4);
     }
     a {
       text-decoration: none;
       color: #333;
       font-weight: bold;
-      flex-grow: 1;
-      transition: color 0.3s;
+      display: block;
     }
     a:hover {
       color: #0077cc;
-    }
-    /* Titolo sezione preferiti */
-    #favorites-title {
-      max-width: 90vw;
-      margin: 0 auto 10px auto;
-      font-weight: bold;
-      font-size: 18px;
-      color: #f9a825;
-      user-select: none;
-      padding-left: 15px;
     }
     footer {
       text-align: center;
@@ -93,97 +68,20 @@
       color: #777;
       font-size: 14px;
       user-select: none;
-      cursor: pointer;
-      transition: color 0.3s, background-color 0.3s;
-      padding: 8px 0;
-      background: transparent;
-      border-radius: 4px;
-    }
-    footer:hover {
-      color: #0077cc;
-      background: rgba(0, 119, 204, 0.1);
-    }
-
-    /* --- Modalità scura --- */
-    body.dark-mode {
-      background: #121212;
-      color: #ddd;
-    }
-    body.dark-mode h2 {
-      color: #aaa;
-    }
-    body.dark-mode #search-input {
-      background: #222;
-      color: #eee;
-      border-color: #555;
-    }
-    body.dark-mode li {
-      background: #1e1e1e;
-      color: #ccc;
-    }
-    body.dark-mode li.favorite {
-      border-color: #f9a825;
-      box-shadow: 0 0 8px rgba(249,168,37,0.8);
-      background: #292921;
-    }
-    body.dark-mode a {
-      color: #ccc;
-    }
-    body.dark-mode a:hover {
-      color: #66aaff;
-    }
-    body.dark-mode #favorites-title {
-      color: #f9a825;
-    }
-    body.dark-mode footer {
-      background: transparent !important;
-      color: #bbb;
-    }
-    body.dark-mode footer:hover {
-      background: rgba(102, 170, 255, 0.15);
-      color: #aaddff;
-    }
-
-    /* Stile bottone stella */
-    button.favorite-btn {
-      margin-left: 10px;
-      cursor: pointer;
-      background: none;
-      border: none;
-      font-size: 18px;
-      user-select: none;
-      color: #999;
-      transition: color 0.3s;
-      flex-shrink: 0;
-    }
-    button.favorite-btn:hover {
-      color: #f9a825;
-    }
-    button.favorite-btn.active {
-      color: #f9a825;
     }
   </style>
 </head>
 <body>
   <h1>Guida TV</h1>
   <h2>Seleziona un canale</h2>
-
   <div class="search-container">
     <input type="text" id="search-input" placeholder="Cerca un canale..." />
   </div>
-
-  <!-- Titolo e lista preferiti, nascosti se nessun preferito -->
-  <div id="favorites-section" style="display:none;">
-    <div id="favorites-title">⭐ Preferiti</div>
-    <ul id="favorites-list"></ul>
-  </div>
-
   <ul id="channel-list"></ul>
 
-  <footer id="toggle-dark-mode" title="Clicca per attivare/disattivare la modalità scura">
-    Powered by 🐯 - Modalità Scura OFF
-  </footer>
+  <footer>Powered by 🐯</footer>
 
+  <script>
     const CHANNELS = [
       {"name":"CNBC HD","site_id":"DTH_10713"},
       {"name":"Sky Crime","site_id":"DTH_11216"},
@@ -354,132 +252,36 @@
       {"name":"ZONA DAZN","site_id":"DTH_11402"}
     ];
 
-    const footer = document.getElementById('toggle-dark-mode');
-    const searchInput = document.getElementById('search-input');
-    const channelList = document.getElementById('channel-list');
-    const favoritesSection = document.getElementById('favorites-section');
-    const favoritesList = document.getElementById('favorites-list');
+    const list = document.getElementById('channel-list');
 
-    // Recupera i preferiti dal localStorage, oppure array vuoto
-    let favorites = JSON.parse(localStorage.getItem('favoritesChannels') || '[]');
-
-    // Salva preferiti su localStorage
-    function saveFavorites() {
-      localStorage.setItem('favoritesChannels', JSON.stringify(favorites));
-    }
-
-    // Crea elemento <li> canale, con link e bottone stella
-    function createChannelLi(channel) {
-      const li = document.createElement('li');
-      if (favorites.includes(channel.site_id)) {
-        li.classList.add('favorite');
-      }
-
-      const a = document.createElement('a');
-      a.href = `guide.html?site_id=${encodeURIComponent(channel.site_id)}&name=${encodeURIComponent(channel.name)}`;
-      a.textContent = channel.name;
-      a.title = 'Apri guida TV';
-
-      // Bottone stella per preferiti
-      const favBtn = document.createElement('button');
-      favBtn.classList.add('favorite-btn');
-      favBtn.innerHTML = favorites.includes(channel.site_id) ? '⭐' : '☆';
-      if (favorites.includes(channel.site_id)) {
-        favBtn.classList.add('active');
-      }
-      favBtn.title = favorites.includes(channel.site_id) ? 'Rimuovi dai preferiti' : 'Aggiungi ai preferiti';
-      favBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        toggleFavorite(channel.site_id);
+    function buildChannelList() {
+      CHANNELS.forEach(ch => {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = `guide.html?site_id=${encodeURIComponent(ch.site_id)}&name=${encodeURIComponent(ch.name)}`;
+        a.textContent = ch.name;
+        li.appendChild(a);
+        list.appendChild(li);
+        ch.element = li; // per filtro
       });
-
-      li.appendChild(a);
-      li.appendChild(favBtn);
-
-      return li;
     }
 
-    // Toggle preferito
-    function toggleFavorite(site_id) {
-      const idx = favorites.indexOf(site_id);
-      if (idx === -1) {
-        favorites.push(site_id);
-      } else {
-        favorites.splice(idx, 1);
-      }
-      saveFavorites();
-      rebuildLists();
-    }
-
-    // Filtra canali per testo (case insensitive)
-    function filterChannels(text) {
-      const lowerText = text.toLowerCase();
-      return CHANNELS.filter(ch => ch.name.toLowerCase().includes(lowerText));
-    }
-
-    // Ricostruisce entrambe le liste: preferiti e principali, in base a filtro
-    function rebuildLists() {
-      const filterText = searchInput.value.trim().toLowerCase();
-
-      // Canali filtrati
-      const filteredChannels = filterChannels(filterText);
-      filteredChannels.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
-
-      // Preferiti filtrati
-      const filteredFavorites = filteredChannels.filter(ch => favorites.includes(ch.site_id));
-
-      // Mostra o nascondi sezione preferiti
-      if (filteredFavorites.length > 0) {
-        favoritesSection.style.display = 'block';
-      } else {
-        favoritesSection.style.display = 'none';
-      }
-
-      // Pulisci liste
-      favoritesList.innerHTML = '';
-      channelList.innerHTML = '';
-
-      // Aggiungi preferiti
-      filteredFavorites.forEach(ch => {
-        const li = createChannelLi(ch);
-        favoritesList.appendChild(li);
-      });
-
-      // Aggiungi canali (non preferiti)
-      filteredChannels.forEach(ch => {
-        if (!favorites.includes(ch.site_id)) {
-          const li = createChannelLi(ch);
-          channelList.appendChild(li);
+    function filterChannels(query) {
+      const q = query.trim().toLowerCase();
+      CHANNELS.forEach(item => {
+        if (item.name.toLowerCase().includes(q)) {
+          item.element.style.display = '';
+        } else {
+          item.element.style.display = 'none';
         }
       });
     }
 
-    // --- Gestione modalità scura robusta ---
-    function setDarkMode(isDark) {
-      if (isDark) {
-        document.body.classList.add('dark-mode');
-        footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
-        localStorage.setItem('darkMode', 'on');
-      } else {
-        document.body.classList.remove('dark-mode');
-        footer.textContent = 'Powered by 🐯 - Modalità Scura OFF';
-        localStorage.setItem('darkMode', 'off');
-      }
-    }
-
-    // Inizializza modalità scura dal localStorage
-    const darkModePref = localStorage.getItem('darkMode') === 'on';
-    setDarkMode(darkModePref);
-
-    footer.addEventListener('click', () => {
-      const isDark = document.body.classList.contains('dark-mode');
-      setDarkMode(!isDark);
+    document.getElementById('search-input').addEventListener('input', e => {
+      filterChannels(e.target.value);
     });
 
-    // Ricostruzione lista all'avvio e ad ogni input
-    rebuildLists();
-    searchInput.addEventListener('input', rebuildLists);
+    buildChannelList();
   </script>
 </body>
 </html>
