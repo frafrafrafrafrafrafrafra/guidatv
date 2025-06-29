@@ -344,25 +344,15 @@
       {"name":"TRM h24","site_id":"DTH_9013"},
       {"name":"TV8 HD","site_id":"DTH_8195"},
       {"name":"TV2000 HD","site_id":"DTH_7588"},
-      {"name":"TOPcrime","site_id":"DTH_11217"},
-      {"name":"TLC","site_id":"DTH_6617"},
-      {"name":"TMC 2 HD","site_id":"DTH_10461"},
-      {"name":"TMC HD","site_id":"DTH_10460"},
-      {"name":"TIMMUSIC","site_id":"DTH_6724"},
-      {"name":"Trace Urban","site_id":"DTH_11279"},
-      {"name":"TV 2000","site_id":"DTH_7120"},
-      {"name":"VEGA","site_id":"DTH_9026"},
-      {"name":"VTV","site_id":"DTH_9015"},
-      {"name":"Viasat Explore","site_id":"DTH_11182"},
-      {"name":"Viasat History","site_id":"DTH_11183"},
-      {"name":"Viasat Nature","site_id":"DTH_11184"},
-      {"name":"Viasat Nature Wild","site_id":"DTH_11204"},
-      {"name":"VH1","site_id":"DTH_11280"},
-      {"name":"VIVA","site_id":"DTH_11281"},
-      {"name":"VIVACOMEDY","site_id":"DTH_11282"},
-      {"name":"ZEE TV","site_id":"DTH_7460"},
-      {"name":"Zoomerang","site_id":"DTH_11283"},
-      {"name":"Zoomerang+1","site_id":"DTH_11284"}
+      {"name":"TOPcrime HD","site_id":"DTH_10468"},
+      {"name":"27Twentyseven HD","site_id":"DTH_11342"},
+      {"name":"VH1 HD","site_id":"DTH_10918"},
+      {"name":"Virgin Radio","site_id":"DTH_11344"},
+      {"name":"ZONA DAZN 2","site_id":"DTH_11401"},
+      {"name":"ZONA DAZN 3","site_id":"DTH_11403"},
+      {"name":"ZONA DAZN 4","site_id":"DTH_11405"},
+      {"name":"ZONA DAZN 5","site_id":"DTH_11404"},
+      {"name":"ZONA DAZN","site_id":"DTH_11402"}
     ];
 
     const footer = document.getElementById('toggle-dark-mode');
@@ -437,6 +427,7 @@
 
       // Canali filtrati
       const filteredChannels = filterChannels(filterText);
+      filteredChannels.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
 
       // Preferiti filtrati
       const filteredFavorites = filteredChannels.filter(ch => favorites.includes(ch.site_id));
