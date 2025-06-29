@@ -14,6 +14,7 @@
       display: flex;
       flex-direction: column;
       min-height: 100vh;
+      transition: background-color 0.3s, color 0.3s;
     }
     .container {
       max-width: 800px;
@@ -25,16 +26,19 @@
       flex-grow: 1;
       display: flex;
       flex-direction: column;
+      transition: background-color 0.3s, color 0.3s;
     }
     header {
       text-align: center;
       margin-bottom: 20px;
       padding-bottom: 20px;
       border-bottom: 1px solid #eee;
+      transition: border-color 0.3s;
     }
     h1 {
       color: #2c3e50;
       margin: 0;
+      transition: color 0.3s;
     }
     .loading {
       text-align: center;
@@ -55,15 +59,18 @@
       background: #f9f9f9;
       border-radius: 4px;
       border-left: 4px solid #3498db;
+      transition: background-color 0.3s, border-color 0.3s;
     }
     .program-time {
       font-weight: bold;
       color: #2c3e50;
+      transition: color 0.3s;
     }
     .now-on-air {
       color: #e74c3c;
       font-weight: bold;
       margin-left: 10px;
+      transition: color 0.3s;
     }
     .search-container {
       margin: 20px 0;
@@ -77,6 +84,7 @@
       border: 1px solid #ddd;
       border-radius: 4px;
       font-size: 16px;
+      transition: background-color 0.3s, border-color 0.3s, color 0.3s;
     }
     .date-navigation {
       display: flex;
@@ -110,6 +118,7 @@
       cursor: pointer;
       user-select: none;
       border-bottom: 1px dashed #999;
+      transition: color 0.3s, border-color 0.3s;
     }
     #date-picker {
       font-size: 16px;
@@ -120,6 +129,7 @@
       margin-top: 6px;
       width: 100%;
       max-width: 200px;
+      transition: background-color 0.3s, border-color 0.3s, color 0.3s;
     }
     #export-txt-btn {
       margin: 10px auto 0 auto;
@@ -148,6 +158,62 @@
       margin-left: auto;
       margin-right: auto;
       user-select: none;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    }
+
+    /* Modalità scura */
+    .dark-mode {
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+    .dark-mode .container {
+      background-color: #1e1e1e;
+      color: #e0e0e0;
+      box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+    }
+    .dark-mode header {
+      border-bottom: 1px solid #333;
+    }
+    .dark-mode h1 {
+      color: #bbdefb;
+    }
+    .dark-mode .program {
+      background: #2c2c2c;
+      border-left-color: #8ab4f8;
+    }
+    .dark-mode .program-time {
+      color: #bbdefb;
+    }
+    .dark-mode .now-on-air {
+      color: #ff6e6e;
+    }
+    .dark-mode #search-input,
+    .dark-mode #date-picker {
+      background-color: #333;
+      border: 1px solid #555;
+      color: #eee;
+    }
+    .dark-mode #export-txt-btn {
+      background: #5599ff;
+      border-color: #5599ff;
+      color: #fff;
+    }
+    .dark-mode #export-txt-btn:hover {
+      background: #3377ff;
+    }
+    .dark-mode .date-navigation button {
+      color: #eee;
+    }
+    .dark-mode .date-navigation button:hover:not(:disabled) {
+      color: #bbb;
+    }
+    .dark-mode .date-navigation button:disabled {
+      color: #555;
+    }
+    .dark-mode footer {
+      background-color: #222;
+      color: #ccc;
     }
   </style>
 </head>
@@ -176,7 +242,8 @@
       </div>
     </div>
   </div>
-  <footer>Powered by 🐯</footer>
+  <footer title="Clicca per attivare/disattivare la modalità scura">Powered by 🐯</footer>
+
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const channelNameElem = document.getElementById('channel-name');
@@ -195,9 +262,6 @@
       const channelName = urlParams.get('name') || "Canale sconosciuto";
       let allPrograms = {};
       let currentDate = new Date();
-
-      const maxDays = 60;   // giorni avanti
-      const minDays = 7;    // giorni indietro
 
       function showError(message) {
         loadingElem.style.display = 'none';
@@ -266,17 +330,9 @@
         document.title = `${channelName} - ${formatReadableDate(currentDate)}`;
         showPrograms(searchInput.value);
         datePicker.value = formatDate(currentDate);
-
-        const today = new Date();
-        today.setHours(0,0,0,0);
-
-        const minDate = new Date(today);
-        minDate.setDate(minDate.getDate() - minDays);
-        const maxDate = new Date(today);
-        maxDate.setDate(maxDate.getDate() + maxDays - 1);
-
-        prevDayBtn.disabled = currentDate <= minDate;
-        nextDayBtn.disabled = currentDate >= maxDate;
+        // Non ci sono più limiti per disabilitare i pulsanti:
+        prevDayBtn.disabled = false;
+        nextDayBtn.disabled = false;
       }
 
       function exportToTxt() {
@@ -359,22 +415,6 @@
         const selected = datePicker.value;
         if (selected) {
           const newDate = new Date(selected + 'T00:00:00');
-          const today = new Date();
-          today.setHours(0,0,0,0);
-          const minDate = new Date(today);
-          minDate.setDate(minDate.getDate() - minDays);
-          const maxDate = new Date(today);
-          maxDate.setDate(maxDate.getDate() + maxDays - 1);
-          if (newDate < minDate) {
-            alert(`Non puoi selezionare una data precedente a ${minDays} giorni fa.`);
-            datePicker.value = formatDate(currentDate);
-            return;
-          }
-          if (newDate > maxDate) {
-            alert(`Non puoi selezionare una data oltre ${maxDays} giorni da oggi.`);
-            datePicker.value = formatDate(currentDate);
-            return;
-          }
           currentDate = newDate;
           updateView();
         }
@@ -386,6 +426,12 @@
       });
 
       exportTxtBtn.addEventListener('click', exportToTxt);
+
+      // Modalità scura toggle al click sul footer
+      const footer = document.querySelector('footer');
+      footer.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+      });
 
       loadChannelData();
     });
