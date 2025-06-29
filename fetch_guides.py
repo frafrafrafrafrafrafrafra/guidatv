@@ -13,11 +13,13 @@ ROME_TZ = pytz.timezone("Europe/Rome")
 SCRAPE_CHANNELS = {
     "boing": "Boing.it",
     "cartoonito": "Cartoonito.it",
+    "Rai 1 HD": "Rai 1 HD"
 }
 
 SCRAPE_SITE_IDS = {
     "boing": "DTH#6628",
     "cartoonito": "DTH#8132",
+    "Rai 1 HD": "DTH#899",
 }
 
 # Inserisci qui la tua lista CHANNELS (omessa per brevità)
@@ -100,7 +102,6 @@ CHANNELS = [
     {"name": "Radio Monte Carlo", "site_id": "DTH#10993"},
     {"name": "RADIONORBA TV", "site_id": "DTH#8213"},
     {"name": "RADIOFRECCIA HD", "site_id": "DTH#10616"},
-    {"name": "Rai 1 HD", "site_id": "DTH#899"},
     {"name": "Rai 2 HD", "site_id": "DTH#898"},
     {"name": "Rai 3 HD", "site_id": "DTH#897"},
     {"name": "Rai 4", "site_id": "DTH#6622"},
