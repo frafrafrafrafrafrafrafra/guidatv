@@ -257,6 +257,8 @@
       const currentDateElem = document.getElementById('current-date');
       const datePicker = document.getElementById('date-picker');
       const exportTxtBtn = document.getElementById('export-txt-btn');
+      const footer = document.querySelector('footer');
+
       const urlParams = new URLSearchParams(window.location.search);
       const siteId = urlParams.get('site_id');
       const channelName = urlParams.get('name') || "Canale sconosciuto";
@@ -330,7 +332,6 @@
         document.title = `${channelName} - ${formatReadableDate(currentDate)}`;
         showPrograms(searchInput.value);
         datePicker.value = formatDate(currentDate);
-        // Non ci sono più limiti per disabilitare i pulsanti:
         prevDayBtn.disabled = false;
         nextDayBtn.disabled = false;
       }
@@ -427,10 +428,16 @@
 
       exportTxtBtn.addEventListener('click', exportToTxt);
 
-      // Modalità scura toggle al click sul footer
-      const footer = document.querySelector('footer');
+      // Carica la modalità scura da localStorage se impostata
+      const darkModeStored = localStorage.getItem('darkMode');
+      if (darkModeStored === 'true') {
+        document.body.classList.add('dark-mode');
+      }
+
+      // Toggle modalità scura e salva localStorage
       footer.addEventListener('click', () => {
-        document.body.classList.toggle('dark-mode');
+        const isDark = document.body.classList.toggle('dark-mode');
+        localStorage.setItem('darkMode', isDark ? 'true' : 'false');
       });
 
       loadChannelData();
