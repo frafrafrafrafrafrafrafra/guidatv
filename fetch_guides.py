@@ -1,25 +1,26 @@
 import requests
+import xml.etree.ElementTree as ET
 import json
 from datetime import datetime, timedelta
 import pytz
 import os
 import time
-from bs4 import BeautifulSoup
 
 ROME_TZ = pytz.timezone("Europe/Rome")
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-    "Referer": "https://tvepg.eu/"
+# Canali da scraping (id come nell'XML)
+SCRAPE_CHANNELS = {
+    "boing": "Boing.it",
+    "cartoonito": "Cartoonito.it",
 }
 
-# Canali da scraping
-SCRAPE_CHANNELS = {
+# site_id per Boing e Cartoonito (per il nome file)
+SCRAPE_SITE_IDS = {
     "boing": "DTH#6628",
     "cartoonito": "DTH#8132",
 }
 
-# Tutti i canali Sky (lista completa come fornita)
+# Lista canali Sky
 CHANNELS = [
     {"name": "27Twentyseven HD", "site_id": "DTH#11342"},
     {"name": "20Mediaset HD", "site_id": "DTH#10458"},
@@ -184,79 +185,72 @@ CHANNELS = [
     {"name": "ZONA DAZN", "site_id": "DTH#11402"},
 ]
 
-def get_review_data(url):
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=10)
-        r.raise_for_status()
-        soup = BeautifulSoup(r.text, 'html.parser')
-        title_tag = soup.select_one("span.text-justify > p.grey-text")
-        title = title_tag.text.strip() if title_tag else (soup.title.string.strip() if soup.title else url)
-        desc_tag = soup.select_one("h4.text-justify > p.grey-text")
-        description = desc_tag.text.strip() if desc_tag else ""
-        return title, description
-    except Exception as e:
-        print(f"Errore recupero review: {e}")
-        return url, ""
+def fetch_epg_guide_xml():
+    url = "http://epg-guide.com/dttsat.xml"
+    r = requests.get(url, timeout=20)
+    r.raise_for_status()
+    return r.content
 
-def parse_programs_from_page(url, target_date_str):
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=15)
-        r.raise_for_status()
-        soup = BeautifulSoup(r.text, 'html.parser')
-        channel_name = soup.title.string.split(" - ")[0].strip() if soup.title else url
-        events = soup.find_all("tr", itemtype="http://schema.org/BroadcastEvent")
-        program_list = []
-        target_date = datetime.fromisoformat(target_date_str).date()
-        for ev in events:
-            time_tag = ev.find("h5", itemprop="startDate")
-            if not time_tag:
-                continue
-            start_str = time_tag['content']
-            start_dt = datetime.fromisoformat(start_str)
-            if start_dt.date() != target_date:
-                continue
-            review_link_tag = ev.find("h6", itemprop="name").find("a")
-            if review_link_tag and review_link_tag.has_attr("href"):
-                review_url = "https://tvepg.eu" + review_link_tag['href']
-                title, description = get_review_data(review_url)
-                time.sleep(0.3)
-            else:
-                title = ev.find("h6", itemprop="name").text.strip()
-                description = ""
-            program_list.append({
-                "start": start_dt,
-                "title": title,
-                "description": description
-            })
-        # Orari di fine
-        for i in range(len(program_list) - 1):
-            program_list[i]["end"] = program_list[i + 1]["start"]
-        if program_list:
-            program_list[-1]["end"] = program_list[-1]["start"] + timedelta(minutes=30)
-        return channel_name, program_list
-    except Exception as e:
-        print(f"Errore parsing pagina: {e}")
-        return url, []
+def parse_epg_guide_xml(xml_data, channel_id):
+    root = ET.fromstring(xml_data)
+    now_rome = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
+    all_events = {}
 
-def fetch_guide_for_channel(env, channel_id, start_date, days_back=7, days_forward=35):
+    for prog in root.findall("programme"):
+        if prog.get("channel") != channel_id:
+            continue
+
+        start_str = prog.get("start")
+        stop_str = prog.get("stop")
+
+        start_dt = datetime.strptime(start_str[:14], "%Y%m%d%H%M%S").replace(tzinfo=pytz.utc).astimezone(ROME_TZ)
+        stop_dt = datetime.strptime(stop_str[:14], "%Y%m%d%H%M%S").replace(tzinfo=pytz.utc).astimezone(ROME_TZ)
+
+        date_key = start_dt.strftime("%Y-%m-%d")
+
+        title_el = prog.find("title")
+        desc_el = prog.find("desc")
+        episode_el = prog.find("episode-num")
+
+        title = title_el.text if title_el is not None else ""
+        description = desc_el.text if desc_el is not None else ""
+        if description.endswith("- EPG by epg-guide.com"):
+            description = description[:-len("- EPG by epg-guide.com")].strip()
+
+        episode = episode_el.text if episode_el is not None else None
+        if episode:
+            title = f"{title} ({episode})"
+
+        if date_key not in all_events:
+            all_events[date_key] = []
+
+        all_events[date_key].append({
+            "title": title,
+            "description": description,
+            "start": start_dt.isoformat(),
+            "end": stop_dt.isoformat(),
+        })
+
+    return all_events
+
+def fetch_sky_guide(env, channel_id, now_rome):
     results = []
-    for day_offset in range(-days_back, days_forward + 1):
-        date = start_date + timedelta(days=day_offset)
+    for day_offset in range(0, 35 + 1):
+        date = now_rome + timedelta(days=day_offset)
         from_str = date.strftime("%Y-%m-%dT00:00:00Z")
         to_str = (date + timedelta(days=1)).strftime("%Y-%m-%dT00:00:00Z")
         url = f"https://apid.sky.it/gtv/v1/events?from={from_str}&to={to_str}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
         try:
-            response = requests.get(url, headers=HEADERS, timeout=15)
+            response = requests.get(url, timeout=15)
             response.raise_for_status()
             data = response.json()
             results.append({
                 "date": date.strftime("%Y-%m-%d"),
                 "events": data.get("events", [])
             })
-            print(f"✅ {channel_id} - {date.strftime('%Y-%m-%d')}")
             time.sleep(0.3)
-        except requests.exceptions.RequestException as e:
-            print(f"⚠️ Errore {channel_id} {date.strftime('%Y-%m-%d')}: {e}")
+        except Exception as e:
+            print(f"Errore Sky {channel_id} {date.strftime('%Y-%m-%d')}: {e}")
             continue
     return results
 
@@ -264,57 +258,33 @@ def main():
     os.makedirs("output/guides", exist_ok=True)
     now_rome = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
 
-    print("\n" + "="*50)
-    print("🎬 INIZIO ELABORAZIONE BOING E CARTOONITO")
-    print("="*50)
+    print("Inizio elaborazione Boing e Cartoonito da epg-guide.com")
+    xml_data = fetch_epg_guide_xml()
 
-    for ch_name, site_id in SCRAPE_CHANNELS.items():
-        print(f"\n📡 Elaboro {ch_name.upper()} ({site_id})...")
-        all_events = {}
-        channel_title = None
-        for day_offset in range(-7, 25 + 1):
-            date = now_rome + timedelta(days=day_offset)
-            date_str = date.strftime("%Y-%m-%d")
-            url = f"https://tvepg.eu/it/italy/channel/{ch_name}/{date_str}"
-            try:
-                channel_title, programs = parse_programs_from_page(url, date_str)
-                all_events[date_str] = []
-                for p in programs:
-                    all_events[date_str].append({
-                        "title": p["title"],
-                        "description": p["description"],
-                        "start": p["start"].isoformat(),
-                        "end": p["end"].isoformat() if p.get("end") else None
-                    })
-                time.sleep(0.5)
-            except Exception as e:
-                print(f"⚠️ Errore {ch_name} {date_str}: {e}")
-                continue
-        site_id_underscore = site_id.replace("#", "_")
-        out_path = f"output/guides/{site_id_underscore}.json"
+    for ch_name, ch_id in SCRAPE_CHANNELS.items():
+        print(f"Elaboro {ch_name} ({ch_id})...")
+        events = parse_epg_guide_xml(xml_data, ch_id)
+        site_id = SCRAPE_SITE_IDS[ch_name]
+        out_path = f"output/guides/{site_id.replace('#','_')}.json"
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump({
-                "name": channel_title if channel_title else ch_name.capitalize(),
-                "events_by_date": all_events
+                "name": ch_name.capitalize(),
+                "events_by_date": events
             }, f, indent=2, ensure_ascii=False)
-        print(f"💾 Salvato {out_path}")
+        print(f"Salvato {out_path}")
 
-    print("\n" + "="*50)
-    print("📡 INIZIO ELABORAZIONE CANALI SKY")
-    print("="*50)
-
+    print("Inizio elaborazione canali Sky")
     for ch in CHANNELS:
-        print(f"\n📡 Elaboro {ch['name']} ({ch['site_id']})...")
+        print(f"Elaboro {ch['name']} ({ch['site_id']})...")
         env_part, channel_id = ch["site_id"].split("#")
-        guide = fetch_guide_for_channel(env_part, channel_id, now_rome)
-        site_id_underscore = ch["site_id"].replace("#", "_")
-        out_path = f"output/guides/{site_id_underscore}.json"
+        guide = fetch_sky_guide(env_part, channel_id, now_rome)
+        out_path = f"output/guides/{ch['site_id'].replace('#','_')}.json"
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump({
                 "name": ch["name"],
                 "events_by_date": {g["date"]: g["events"] for g in guide}
             }, f, indent=2, ensure_ascii=False)
-        print(f"💾 Salvato {out_path}")
+        print(f"Salvato {out_path}")
 
 if __name__ == "__main__":
     main()
