@@ -3,51 +3,63 @@ name: Fetch Guides Every 2 Days
 on:
   schedule:
     - cron: '0 0 */2 * *'  # Ogni 2 giorni a mezzanotte UTC
-  workflow_dispatch:        # Permette anche avvio manuale
+  workflow_dispatch:       # Permette avvio manuale
 
 jobs:
   fetch-guides:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 20
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        # Debug info checkout
+        env:
+          ACTIONS_STEP_DEBUG: true
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
+      - name: Show Python version and pip info
+        run: |
+          python --version
+          pip --version
+          pip list
+
       - name: Install dependencies
         run: |
+          set -ex
           python -m pip install --upgrade pip
           pip install pytz requests aiohttp beautifulsoup4
 
-      - name: Debug working directory
-        run: |
-          echo "🟢 Working directory: $(pwd)"
-          echo "🟢 Listing files:"
-          ls -la
+      - name: List directory files before run
+        run: ls -la
 
-      - name: Run fetch_guides.py
+      - name: Run fetch_guides.py with maximum debug
         run: |
-          set -e
-          echo "🟢 Running fetch_guides.py..."
+          set -ex
+          echo "🟢 Inizio esecuzione fetch_guides.py"
           python fetch_guides.py
+          echo "✅ fetch_guides.py completato con successo"
 
-      - name: Commit and push updated guides
+      - name: List output files after run
+        run: |
+          echo "Contenuto della cartella output/guides:"
+          ls -la output/guides || echo "Cartella output/guides non trovata"
+
+      - name: Show last 50 lines of logs (if any)
+        if: failure()
+        run: tail -n 50 output/guides/* || echo "Nessun file da mostrare"
+
+      - name: Commit and push updated guides.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          set -ex
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add output
-
-          # Commit solo se ci sono modifiche
-          if git diff --cached --quiet; then
-            echo "🟢 Nessuna modifica da commitare."
-          else
-            git commit -m "Update guides - $(date +'%Y-%m-%d')"
-            git pull --rebase origin main
-            git push origin HEAD:main
-          fi
+          git diff --cached --quiet || git commit -m "Update guide.json - $(date +'%Y-%m-%d')"
+          git pull --rebase origin main
+          git push origin HEAD:main
