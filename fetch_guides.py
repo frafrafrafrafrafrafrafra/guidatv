@@ -187,6 +187,7 @@ CHANNELS = [
 
 def fetch_epg_guide_xml():
     url = "http://epg-guide.com/dttsat.xml"
+    print(f"Richiedo XML da {url}")
     r = requests.get(url, timeout=20)
     r.raise_for_status()
     return r.content
@@ -235,20 +236,24 @@ def parse_epg_guide_xml(xml_data, channel_id):
 
 def fetch_sky_guide(env, channel_id, now_rome):
     results = []
-    for day_offset in range(0, 35 + 1):
+    days = int(os.environ.get("SKY_DAYS", 1))  # default a 1 giorno per debug
+    for day_offset in range(days):
         date = now_rome + timedelta(days=day_offset)
         from_str = date.strftime("%Y-%m-%dT00:00:00Z")
         to_str = (date + timedelta(days=1)).strftime("%Y-%m-%dT00:00:00Z")
         url = f"https://apid.sky.it/gtv/v1/events?from={from_str}&to={to_str}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
+        print(f"→ Chiamata Sky API per {channel_id} [{from_str} → {to_str}]")
         try:
             response = requests.get(url, timeout=15)
             response.raise_for_status()
             data = response.json()
+            events = data.get("events", [])
+            print(f"← Ricevuti {len(events)} eventi per {channel_id} ({date.strftime('%Y-%m-%d')})")
             results.append({
                 "date": date.strftime("%Y-%m-%d"),
-                "events": data.get("events", [])
+                "events": events
             })
-            time.sleep(0.3)
+            time.sleep(0.1)
         except Exception as e:
             print(f"Errore Sky {channel_id} {date.strftime('%Y-%m-%d')}: {e}")
             continue
