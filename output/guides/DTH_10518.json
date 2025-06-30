@@ -1,853 +1,6 @@
 {
   "name": "Sky Cinema Drama",
   "events_by_date": {
-    "2025-06-29": [
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "5758d7bc-292a-4b41-8d49-2fdb5564d821",
-          "contentTitle": "Il professore e il pazzo",
-          "url": "/film/biografico/il-professore-e-il-pazzo/5758d7bc-292a-4b41-8d49-2fdb5564d821",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 102,
-            "name": "Biografico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/5758d7bc-292a-4b41-8d49-2fdb5564d821/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=a57b4f52ea489b428b3ec2ce68d7b0e9"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/5758d7bc-292a-4b41-8d49-2fdb5564d821/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=540fffe44e8ce2d05656b98f17cf110e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/5758d7bc-292a-4b41-8d49-2fdb5564d821/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=540fffe44e8ce2d05656b98f17cf110e"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/5758d7bc-292a-4b41-8d49-2fdb5564d821/background?territory=IT&md5ChecksumParam=7620d29d094e7f0e14308676d6afb34d"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/5758d7bc-292a-4b41-8d49-2fdb5564d821/cover?territory=IT&md5ChecksumParam=a57b4f52ea489b428b3ec2ce68d7b0e9"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/5758d7bc-292a-4b41-8d49-2fdb5564d821/16-9?territory=IT&md5ChecksumParam=20fdcf0893150c794d57211ac1551d92"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/5758d7bc-292a-4b41-8d49-2fdb5564d821/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=d9668d5cc5b00b45328f7d26e0250761"
-              }
-            }
-          ]
-        },
-        "eventId": "411093549",
-        "starttime": "2025-06-29T00:20:00Z",
-        "endtime": "2025-06-29T02:25:00Z",
-        "eventTitle": "Il professore e il pazzo",
-        "eventSynopsis": "Mel Gibson e Sean Penn nel resoconto di una storica impresa. 1879: per redigere il primo dizionario di inglese, un accademico di Oxford riceve l'aiuto di un reduce rinchiuso in manicomio.",
-        "epgEventTitle": "Il professore e il pazzo",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "325838d2-b0bc-4c4b-acf6-68756f73cd85",
-          "contentTitle": "Light of My Life",
-          "url": "/film/drammatico/light-of-my-life/325838d2-b0bc-4c4b-acf6-68756f73cd85",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/325838d2-b0bc-4c4b-acf6-68756f73cd85/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b3b9542df0f704a496ddfd7fa39849b4"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/325838d2-b0bc-4c4b-acf6-68756f73cd85/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e7c66b805a24988f881426ebf3da1d23"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/325838d2-b0bc-4c4b-acf6-68756f73cd85/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b3b9542df0f704a496ddfd7fa39849b4"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/325838d2-b0bc-4c4b-acf6-68756f73cd85/background?territory=IT&md5ChecksumParam=f7eb8132bc35575953856efae0b47b8e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/325838d2-b0bc-4c4b-acf6-68756f73cd85/cover?territory=IT&md5ChecksumParam=e7c66b805a24988f881426ebf3da1d23"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/325838d2-b0bc-4c4b-acf6-68756f73cd85/16-9?territory=IT&md5ChecksumParam=ba799f37c6a82029fcaed26a130dfb78"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/325838d2-b0bc-4c4b-acf6-68756f73cd85/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=357489f7b067491795cce4c5651c7f77"
-              }
-            }
-          ]
-        },
-        "eventId": "411093550",
-        "starttime": "2025-06-29T02:25:00Z",
-        "endtime": "2025-06-29T04:30:00Z",
-        "eventTitle": "Light of My Life",
-        "eventSynopsis": "Casey Affleck dirige e interpreta un dramma post-apocalittico. Con la popolazione femminile quasi interamente decimata da un virus, un padre difende la figlia dalla brutalita' degli uomini (USA 2019)",
-        "epgEventTitle": "Light of My Life",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "b1819c52-4a02-4e8a-87d3-f1af6a76443a",
-          "contentTitle": "The Arturo Sandoval Story",
-          "url": "/film/drammatico/the-arturo-sandoval-story/b1819c52-4a02-4e8a-87d3-f1af6a76443a",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/b1819c52-4a02-4e8a-87d3-f1af6a76443a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=66067589e7691b7e25f9f5041d9df870"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/b1819c52-4a02-4e8a-87d3-f1af6a76443a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=efdc906e6f01bdefa8e7ed5ec0916133"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/b1819c52-4a02-4e8a-87d3-f1af6a76443a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=efdc906e6f01bdefa8e7ed5ec0916133"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/b1819c52-4a02-4e8a-87d3-f1af6a76443a/background?territory=IT&md5ChecksumParam=dbca274e1a80bd3e91cf3e2505cbabb4"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/b1819c52-4a02-4e8a-87d3-f1af6a76443a/cover?territory=IT&md5ChecksumParam=66067589e7691b7e25f9f5041d9df870"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/b1819c52-4a02-4e8a-87d3-f1af6a76443a/16-9?territory=IT&md5ChecksumParam=7b32f628e1d20d28adf68806c29e57eb"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/b1819c52-4a02-4e8a-87d3-f1af6a76443a/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=be2d12eef2b0a15edafd8653388cc049"
-              }
-            }
-          ]
-        },
-        "eventId": "411113020",
-        "starttime": "2025-06-29T04:30:00Z",
-        "endtime": "2025-06-29T06:40:00Z",
-        "eventTitle": "The Arturo Sandoval Story",
-        "eventSynopsis": "Biopic HBO sul celebre musicista jazz cubano con Andy Garcia, Mia Maestro e Gloria Estefan. Atene 1989. Nell'Ufficio Visti dell'Ambasciata americana, Sandoval ripercorre la sua storia (USA 2000)",
-        "epgEventTitle": "The Arturo Sandoval Story",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "6b6cec9a-b4a1-49f1-88c1-70aa8635d977",
-          "contentTitle": "C'era una volta in America",
-          "url": "/film/drammatico/cera-una-volta-in-america/6b6cec9a-b4a1-49f1-88c1-70aa8635d977",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/6b6cec9a-b4a1-49f1-88c1-70aa8635d977/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=5e71537bf4fb0cbae751cfd62de001c2"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6b6cec9a-b4a1-49f1-88c1-70aa8635d977/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=095699ce9861232c0e9bd4dd2684623d"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/6b6cec9a-b4a1-49f1-88c1-70aa8635d977/background?territory=IT&md5ChecksumParam=ade0586a1472f26eccfc4967ffac2c5d"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/6b6cec9a-b4a1-49f1-88c1-70aa8635d977/cover?territory=IT&md5ChecksumParam=5e71537bf4fb0cbae751cfd62de001c2"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/6b6cec9a-b4a1-49f1-88c1-70aa8635d977/16-9?territory=IT&md5ChecksumParam=7e0a1d7f56034737e4b490febb83c2d1"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/6b6cec9a-b4a1-49f1-88c1-70aa8635d977/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=3c990603761a2e04c4664d9a960fc7c4"
-              }
-            }
-          ]
-        },
-        "eventId": "411113021",
-        "starttime": "2025-06-29T06:40:00Z",
-        "endtime": "2025-06-29T10:50:00Z",
-        "eventTitle": "C'era una volta in America",
-        "eventSynopsis": "Versione estesa e restaurata del capolavoro di Sergio Leone con Robert De Niro sulle note di Ennio Morricone. L'ascesa e il declino di due gangster divisi dall'amore per la stessa donna (ITA/USA 1984)",
-        "epgEventTitle": "C'era una volta in America",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "5b7cf980-8aed-4190-80eb-11914aad76da",
-          "contentTitle": "Plutonio 239 - Pericolo invisibile",
-          "url": "/film/drammatico/plutonio-239-pericolo-invisibile/5b7cf980-8aed-4190-80eb-11914aad76da",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/5b7cf980-8aed-4190-80eb-11914aad76da/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=54ad77b9e7d3b700ed3454268ccee6c1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/5b7cf980-8aed-4190-80eb-11914aad76da/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=27f2f0ed3ef5e68f0ea42d4557c80548"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/5b7cf980-8aed-4190-80eb-11914aad76da/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=27f2f0ed3ef5e68f0ea42d4557c80548"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/5b7cf980-8aed-4190-80eb-11914aad76da/background?territory=IT&md5ChecksumParam=b6d20f0e71c3b58e1897a6abdaa113b8"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/5b7cf980-8aed-4190-80eb-11914aad76da/cover?territory=IT&md5ChecksumParam=54ad77b9e7d3b700ed3454268ccee6c1"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/5b7cf980-8aed-4190-80eb-11914aad76da/16-9?territory=IT&md5ChecksumParam=8d7c86e73029387200bcebcfc5c632a1"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/5b7cf980-8aed-4190-80eb-11914aad76da/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=4678980c9fe02fab8cbe5be16f7b4bac"
-              }
-            }
-          ]
-        },
-        "eventId": "411113022",
-        "starttime": "2025-06-29T10:50:00Z",
-        "endtime": "2025-06-29T12:30:00Z",
-        "eventTitle": "Plutonio 239 - Pericolo invisibile",
-        "eventSynopsis": "Dramma e fantascienza in una pellicola HBO. Un operaio di una centrale nucleare russa, gravemente malato a causa delle radiazioni, ruba del plutonio per venderlo al mercato nero (USA 2006)",
-        "epgEventTitle": "Plutonio 239 - Pericolo invisibile",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "83c6e6c4-da9c-4e14-8bcb-c0dca35fecf8",
-          "contentTitle": "La treccia",
-          "url": "/film/drammatico/la-treccia/83c6e6c4-da9c-4e14-8bcb-c0dca35fecf8",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/83c6e6c4-da9c-4e14-8bcb-c0dca35fecf8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=da0eae21b2ca4a2d10e5bde6f46aa748"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/83c6e6c4-da9c-4e14-8bcb-c0dca35fecf8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8401ca3ca43cbb708b31a05b7c5c0a1a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/83c6e6c4-da9c-4e14-8bcb-c0dca35fecf8/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8401ca3ca43cbb708b31a05b7c5c0a1a"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/83c6e6c4-da9c-4e14-8bcb-c0dca35fecf8/background?territory=IT&md5ChecksumParam=43b7fbca0a7d3826dfa3e9cea8a68067"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/83c6e6c4-da9c-4e14-8bcb-c0dca35fecf8/cover?territory=IT&md5ChecksumParam=da0eae21b2ca4a2d10e5bde6f46aa748"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/83c6e6c4-da9c-4e14-8bcb-c0dca35fecf8/16-9?territory=IT&md5ChecksumParam=0702ca885485485f293175a0fc3e7336"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/83c6e6c4-da9c-4e14-8bcb-c0dca35fecf8/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=95d6cb00a9dd9ba50f0713a767212ba5"
-              }
-            }
-          ]
-        },
-        "eventId": "411113023",
-        "starttime": "2025-06-29T12:30:00Z",
-        "endtime": "2025-06-29T14:35:00Z",
-        "eventTitle": "La treccia",
-        "eventSynopsis": "Storia di coraggio al femminile di Laetitia Colombani. Legate senza saperlo da cio' che hanno di piu' prezioso, tre donne decidono di ribellarsi alla sorte che e' stata loro assegnata (ITA/CAN 2023)",
-        "epgEventTitle": "La treccia",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "a628825b-767f-44fe-b699-d0c546899fd4",
-          "contentTitle": "The Untouchables - Gli intoccabili",
-          "url": "/film/drammatico/the-untouchables-gli-intoccabili/a628825b-767f-44fe-b699-d0c546899fd4",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/a628825b-767f-44fe-b699-d0c546899fd4/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=d78f319dc6608a4a269241c85cb43280"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/a628825b-767f-44fe-b699-d0c546899fd4/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=75b9550b19c603ba4aee329736556444"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/a628825b-767f-44fe-b699-d0c546899fd4/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=75b9550b19c603ba4aee329736556444"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/a628825b-767f-44fe-b699-d0c546899fd4/background?territory=IT&md5ChecksumParam=3cb18a6c99587dc4499cf0570fe9419c"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/a628825b-767f-44fe-b699-d0c546899fd4/cover?territory=IT&md5ChecksumParam=d78f319dc6608a4a269241c85cb43280"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/a628825b-767f-44fe-b699-d0c546899fd4/16-9?territory=IT&md5ChecksumParam=da2a001c2d0bd11e36b5f7109504259f"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/a628825b-767f-44fe-b699-d0c546899fd4/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=03312da53d96b0564dff871649fd06ce"
-              }
-            }
-          ]
-        },
-        "eventId": "411113024",
-        "starttime": "2025-06-29T14:35:00Z",
-        "endtime": "2025-06-29T16:35:00Z",
-        "eventTitle": "Gli intoccabili",
-        "eventSynopsis": "Oscar e Golden Globe a Sean Connery, nel capolavoro di Brian De Palma con Kevin Costner e Robert De Niro. Chicago, 1930: una squadra speciale viene incaricata di incastrare Al Capone (USA 1987)",
-        "epgEventTitle": "Gli intoccabili",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "95da039b-7b47-4d68-8963-4d52724cddcb",
-          "contentTitle": "Lettere da Iwo Jima",
-          "url": "/film/guerra/lettere-da-iwo-jima/95da039b-7b47-4d68-8963-4d52724cddcb",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 73,
-            "name": "Guerra"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/95da039b-7b47-4d68-8963-4d52724cddcb/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=af815cfc8d7c864a9c4c1f541c0a69b2"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/95da039b-7b47-4d68-8963-4d52724cddcb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4eedc94f7099cf8ec2b53c039e0f430e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/95da039b-7b47-4d68-8963-4d52724cddcb/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=af815cfc8d7c864a9c4c1f541c0a69b2"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/95da039b-7b47-4d68-8963-4d52724cddcb/background?territory=IT&md5ChecksumParam=339b733338ce988dc2403db08f195c53"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/95da039b-7b47-4d68-8963-4d52724cddcb/cover?territory=IT&md5ChecksumParam=4eedc94f7099cf8ec2b53c039e0f430e"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/95da039b-7b47-4d68-8963-4d52724cddcb/16-9?territory=IT&md5ChecksumParam=023036b35e7c416b16b1d53ec1e15312"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/95da039b-7b47-4d68-8963-4d52724cddcb/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=a6aa91823ca6bbbc30efd7ab635706ec"
-              }
-            }
-          ]
-        },
-        "eventId": "411113025",
-        "starttime": "2025-06-29T16:35:00Z",
-        "endtime": "2025-06-29T19:00:00Z",
-        "eventTitle": "Lettere da Iwo Jima",
-        "eventSynopsis": "Un Oscar e un Golden Globe alla pellicola di Clint Eastwood che, dopo \"Flags of Our Fathers\", torna ad affrontare la battaglia di Iwo Jima ma questa volta dal punto di vista giapponese (USA 2006)",
-        "epgEventTitle": "Lettere da Iwo Jima",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "068ae065-3585-4b2e-86fd-e877357f0636",
-          "contentTitle": "Apocalypse Now",
-          "url": "/film/guerra/apocalypse-now/068ae065-3585-4b2e-86fd-e877357f0636",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 73,
-            "name": "Guerra"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/068ae065-3585-4b2e-86fd-e877357f0636/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=24a9c40d80c1d69fd143b5a8f32330af"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/068ae065-3585-4b2e-86fd-e877357f0636/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=791a1d9f5fb573f364bef51df2687892"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/068ae065-3585-4b2e-86fd-e877357f0636/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=24a9c40d80c1d69fd143b5a8f32330af"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/068ae065-3585-4b2e-86fd-e877357f0636/background?territory=IT&md5ChecksumParam=9054a68055201d28df4df9d8fa7050df"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/068ae065-3585-4b2e-86fd-e877357f0636/cover?territory=IT&md5ChecksumParam=791a1d9f5fb573f364bef51df2687892"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/068ae065-3585-4b2e-86fd-e877357f0636/16-9?territory=IT&md5ChecksumParam=c269b4c1f022859c3e7d58a501837e1f"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/068ae065-3585-4b2e-86fd-e877357f0636/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=13d499174852deb8bace3eb07a9207df"
-              }
-            }
-          ]
-        },
-        "eventId": "411113026",
-        "starttime": "2025-06-29T19:00:00Z",
-        "endtime": "2025-06-29T22:00:00Z",
-        "eventTitle": "Apocalypse Now",
-        "eventSynopsis": "Palma d'oro e 2 Oscar al capolavoro bellico di F.F. Coppola con Marlon Brando, in versione final cut. Nella giungla del Vietnam, il capitano Willard deve scovare il colonnello Kurtz (USA 1979)",
-        "epgEventTitle": "Apocalypse Now",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "90aba07c-c73b-4371-984e-5d167fba98ff",
-          "contentTitle": "Vendetta",
-          "url": "/film/drammatico/vendetta/90aba07c-c73b-4371-984e-5d167fba98ff",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/90aba07c-c73b-4371-984e-5d167fba98ff/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fac3b70896d33e78b0ea9f3c58473e88"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/90aba07c-c73b-4371-984e-5d167fba98ff/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d6a425d74d66fd9a7f48db8d6d63526f"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/90aba07c-c73b-4371-984e-5d167fba98ff/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d6a425d74d66fd9a7f48db8d6d63526f"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/90aba07c-c73b-4371-984e-5d167fba98ff/background?territory=IT&md5ChecksumParam=aaaf8e824488e581c6ca7e26aac04ec3"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/90aba07c-c73b-4371-984e-5d167fba98ff/cover?territory=IT&md5ChecksumParam=fac3b70896d33e78b0ea9f3c58473e88"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/90aba07c-c73b-4371-984e-5d167fba98ff/16-9?territory=IT&md5ChecksumParam=6f081c2d5a9e79a1de1bc8ddb6b68d3e"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/90aba07c-c73b-4371-984e-5d167fba98ff/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=07ce2631170bbe06465c5ccbb198d77a"
-              }
-            }
-          ]
-        },
-        "eventId": "411113027",
-        "starttime": "2025-06-29T22:00:00Z",
-        "endtime": "2025-06-30T00:00:00Z",
-        "eventTitle": "Vendetta",
-        "eventSynopsis": "Accurata ricostruzione storica in un superbo thriller con Christopher Walken. New Orleans, 1890: un gruppo di immigrati siciliani viene accusato dell'omicidio del capo della polizia (USA 1999)",
-        "epgEventTitle": "Vendetta",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
     "2025-06-30": [
       {
         "channel": {
@@ -4460,12 +3613,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fe8aac30aade435214344e05c32b359f"
+                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3153199558a8eba5d102422c86a4eaf1"
               }
             },
             {
               "img": {
-                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3153199558a8eba5d102422c86a4eaf1"
+                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fe8aac30aade435214344e05c32b359f"
               }
             },
             {
@@ -5057,17 +4210,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/85e958b2-4172-45c3-a36c-85b8963df377/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8204bf6b322d017819aab4c66cbd2919"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/85e958b2-4172-45c3-a36c-85b8963df377/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=1ccf658faaf54a4469a3bed479488dff"
               }
             },
             {
               "img": {
                 "url": "/uuid/85e958b2-4172-45c3-a36c-85b8963df377/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8204bf6b322d017819aab4c66cbd2919"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/85e958b2-4172-45c3-a36c-85b8963df377/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8204bf6b322d017819aab4c66cbd2919"
               }
             },
             {
@@ -5142,12 +4295,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fe8aac30aade435214344e05c32b359f"
+                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3153199558a8eba5d102422c86a4eaf1"
               }
             },
             {
               "img": {
-                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3153199558a8eba5d102422c86a4eaf1"
+                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fe8aac30aade435214344e05c32b359f"
               }
             },
             {
@@ -5489,12 +4642,12 @@
             },
             {
               "img": {
-                "url": "/uuid/10750b04-a165-46d8-a8b4-d9d3ac57d9fd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=536b0d7469e35e17978e11bc4ce2525b"
+                "url": "/uuid/10750b04-a165-46d8-a8b4-d9d3ac57d9fd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f2609d06eedd41ac6eeb0687cbd8fdf4"
               }
             },
             {
               "img": {
-                "url": "/uuid/10750b04-a165-46d8-a8b4-d9d3ac57d9fd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f2609d06eedd41ac6eeb0687cbd8fdf4"
+                "url": "/uuid/10750b04-a165-46d8-a8b4-d9d3ac57d9fd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=536b0d7469e35e17978e11bc4ce2525b"
               }
             },
             {
@@ -5569,12 +4722,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/56f17977-6cf8-4b14-a958-066ff1daa2c5/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=9a3c0f89352152ca3f16feaa2143b18f"
+                "url": "/uuid/56f17977-6cf8-4b14-a958-066ff1daa2c5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9a3c0f89352152ca3f16feaa2143b18f"
               }
             },
             {
               "img": {
-                "url": "/uuid/56f17977-6cf8-4b14-a958-066ff1daa2c5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9a3c0f89352152ca3f16feaa2143b18f"
+                "url": "/uuid/56f17977-6cf8-4b14-a958-066ff1daa2c5/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=9a3c0f89352152ca3f16feaa2143b18f"
               }
             },
             {
@@ -5909,12 +5062,12 @@
             },
             {
               "img": {
-                "url": "/uuid/4f8559aa-b46b-4ebe-b41a-a7dff6991e54/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5948c9ae1627bdd6fcd5fc827397f72c"
+                "url": "/uuid/4f8559aa-b46b-4ebe-b41a-a7dff6991e54/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6f8c744626dc8c18d5037aae1205b123"
               }
             },
             {
               "img": {
-                "url": "/uuid/4f8559aa-b46b-4ebe-b41a-a7dff6991e54/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6f8c744626dc8c18d5037aae1205b123"
+                "url": "/uuid/4f8559aa-b46b-4ebe-b41a-a7dff6991e54/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5948c9ae1627bdd6fcd5fc827397f72c"
               }
             },
             {
@@ -6246,12 +5399,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/56f17977-6cf8-4b14-a958-066ff1daa2c5/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=9a3c0f89352152ca3f16feaa2143b18f"
+                "url": "/uuid/56f17977-6cf8-4b14-a958-066ff1daa2c5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9a3c0f89352152ca3f16feaa2143b18f"
               }
             },
             {
               "img": {
-                "url": "/uuid/56f17977-6cf8-4b14-a958-066ff1daa2c5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9a3c0f89352152ca3f16feaa2143b18f"
+                "url": "/uuid/56f17977-6cf8-4b14-a958-066ff1daa2c5/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=9a3c0f89352152ca3f16feaa2143b18f"
               }
             },
             {
@@ -6336,12 +5489,12 @@
             },
             {
               "img": {
-                "url": "/uuid/679a81d7-86eb-4966-965e-3d9e01ac4dcf/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c4c732a55b8c19e8eb61f2cf556e1ce7"
+                "url": "/uuid/679a81d7-86eb-4966-965e-3d9e01ac4dcf/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c4c732a55b8c19e8eb61f2cf556e1ce7"
               }
             },
             {
               "img": {
-                "url": "/uuid/679a81d7-86eb-4966-965e-3d9e01ac4dcf/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c4c732a55b8c19e8eb61f2cf556e1ce7"
+                "url": "/uuid/679a81d7-86eb-4966-965e-3d9e01ac4dcf/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c4c732a55b8c19e8eb61f2cf556e1ce7"
               }
             },
             {
@@ -6581,12 +5734,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/dc426da0-93f2-49eb-8482-965a0c890141/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e8bc1de98d0628f06015ae16823ca3f2"
+                "url": "/uuid/dc426da0-93f2-49eb-8482-965a0c890141/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=cc1716194253c1a8afd280eb05930441"
               }
             },
             {
               "img": {
-                "url": "/uuid/dc426da0-93f2-49eb-8482-965a0c890141/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=cc1716194253c1a8afd280eb05930441"
+                "url": "/uuid/dc426da0-93f2-49eb-8482-965a0c890141/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e8bc1de98d0628f06015ae16823ca3f2"
               }
             },
             {
@@ -6921,12 +6074,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/75cbb90a-bb0e-4590-923d-de85d2a120e5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16d304abf0616cf9a956abd351bdd435"
+                "url": "/uuid/75cbb90a-bb0e-4590-923d-de85d2a120e5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5abde1c95013df3f3353bee8e163ea81"
               }
             },
             {
               "img": {
-                "url": "/uuid/75cbb90a-bb0e-4590-923d-de85d2a120e5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5abde1c95013df3f3353bee8e163ea81"
+                "url": "/uuid/75cbb90a-bb0e-4590-923d-de85d2a120e5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16d304abf0616cf9a956abd351bdd435"
               }
             },
             {
@@ -7093,17 +6246,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/c7074a53-bb1e-4f3e-9080-3cc2bad4f692/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1b5a99a142dd37e22bad2479df5c65ff"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/c7074a53-bb1e-4f3e-9080-3cc2bad4f692/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1b5a99a142dd37e22bad2479df5c65ff"
               }
             },
             {
               "img": {
                 "url": "/uuid/c7074a53-bb1e-4f3e-9080-3cc2bad4f692/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=79a63d7478bc7adc908e5b5f57ea6b7f"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/c7074a53-bb1e-4f3e-9080-3cc2bad4f692/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1b5a99a142dd37e22bad2479df5c65ff"
               }
             },
             {
@@ -7924,17 +7077,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/60c7dd2d-92a6-46b2-9a5a-5514f2c434ce/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6b293f9248b4d1dc091373dd7166eff8"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/60c7dd2d-92a6-46b2-9a5a-5514f2c434ce/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=bc169a7a3967f691d62dd500c36cf166"
               }
             },
             {
               "img": {
                 "url": "/uuid/60c7dd2d-92a6-46b2-9a5a-5514f2c434ce/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6b293f9248b4d1dc091373dd7166eff8"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/60c7dd2d-92a6-46b2-9a5a-5514f2c434ce/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6b293f9248b4d1dc091373dd7166eff8"
               }
             },
             {
@@ -8181,12 +7334,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/7154b85e-b6fd-4563-b12b-70171d48a1e3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d4907fad7f6868878fec8a8b0efa83df"
+                "url": "/uuid/7154b85e-b6fd-4563-b12b-70171d48a1e3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d4907fad7f6868878fec8a8b0efa83df"
               }
             },
             {
               "img": {
-                "url": "/uuid/7154b85e-b6fd-4563-b12b-70171d48a1e3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d4907fad7f6868878fec8a8b0efa83df"
+                "url": "/uuid/7154b85e-b6fd-4563-b12b-70171d48a1e3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d4907fad7f6868878fec8a8b0efa83df"
               }
             },
             {
@@ -8266,12 +7419,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/4dee5a75-4086-42aa-b583-73a14d064713/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=bc5c32274215ada0345a78ab8dce8cce"
+                "url": "/uuid/4dee5a75-4086-42aa-b583-73a14d064713/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=d6a8ffa13b9a64bdd037528f69ce6990"
               }
             },
             {
               "img": {
-                "url": "/uuid/4dee5a75-4086-42aa-b583-73a14d064713/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=d6a8ffa13b9a64bdd037528f69ce6990"
+                "url": "/uuid/4dee5a75-4086-42aa-b583-73a14d064713/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=bc5c32274215ada0345a78ab8dce8cce"
               }
             },
             {
@@ -8691,12 +7844,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/5fd3e9b2-f23b-4762-9d84-0b463ebae1ee/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=96747ea3449cc8f1e5bd73d0d031060b"
+                "url": "/uuid/5fd3e9b2-f23b-4762-9d84-0b463ebae1ee/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=77b1aed25429c79aad23f997606e8d93"
               }
             },
             {
               "img": {
-                "url": "/uuid/5fd3e9b2-f23b-4762-9d84-0b463ebae1ee/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=77b1aed25429c79aad23f997606e8d93"
+                "url": "/uuid/5fd3e9b2-f23b-4762-9d84-0b463ebae1ee/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=96747ea3449cc8f1e5bd73d0d031060b"
               }
             },
             {
@@ -8861,12 +8014,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/dcdbcdca-5421-4bb0-aae9-872c13693f91/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16aa7b1aaf0d6a71163dfdc59a8e4779"
+                "url": "/uuid/dcdbcdca-5421-4bb0-aae9-872c13693f91/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2582fe8a3c594de401f401dc3619898c"
               }
             },
             {
               "img": {
-                "url": "/uuid/dcdbcdca-5421-4bb0-aae9-872c13693f91/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2582fe8a3c594de401f401dc3619898c"
+                "url": "/uuid/dcdbcdca-5421-4bb0-aae9-872c13693f91/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16aa7b1aaf0d6a71163dfdc59a8e4779"
               }
             },
             {
@@ -14959,12 +14112,12 @@
             },
             {
               "img": {
-                "url": "/uuid/10750b04-a165-46d8-a8b4-d9d3ac57d9fd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=536b0d7469e35e17978e11bc4ce2525b"
+                "url": "/uuid/10750b04-a165-46d8-a8b4-d9d3ac57d9fd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f2609d06eedd41ac6eeb0687cbd8fdf4"
               }
             },
             {
               "img": {
-                "url": "/uuid/10750b04-a165-46d8-a8b4-d9d3ac57d9fd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f2609d06eedd41ac6eeb0687cbd8fdf4"
+                "url": "/uuid/10750b04-a165-46d8-a8b4-d9d3ac57d9fd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=536b0d7469e35e17978e11bc4ce2525b"
               }
             },
             {
@@ -15039,12 +14192,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/56f17977-6cf8-4b14-a958-066ff1daa2c5/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=9a3c0f89352152ca3f16feaa2143b18f"
+                "url": "/uuid/56f17977-6cf8-4b14-a958-066ff1daa2c5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9a3c0f89352152ca3f16feaa2143b18f"
               }
             },
             {
               "img": {
-                "url": "/uuid/56f17977-6cf8-4b14-a958-066ff1daa2c5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9a3c0f89352152ca3f16feaa2143b18f"
+                "url": "/uuid/56f17977-6cf8-4b14-a958-066ff1daa2c5/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=9a3c0f89352152ca3f16feaa2143b18f"
               }
             },
             {
@@ -15641,12 +14794,12 @@
             },
             {
               "img": {
-                "url": "/uuid/10750b04-a165-46d8-a8b4-d9d3ac57d9fd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=536b0d7469e35e17978e11bc4ce2525b"
+                "url": "/uuid/10750b04-a165-46d8-a8b4-d9d3ac57d9fd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f2609d06eedd41ac6eeb0687cbd8fdf4"
               }
             },
             {
               "img": {
-                "url": "/uuid/10750b04-a165-46d8-a8b4-d9d3ac57d9fd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f2609d06eedd41ac6eeb0687cbd8fdf4"
+                "url": "/uuid/10750b04-a165-46d8-a8b4-d9d3ac57d9fd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=536b0d7469e35e17978e11bc4ce2525b"
               }
             },
             {
@@ -15721,12 +14874,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fe8aac30aade435214344e05c32b359f"
+                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3153199558a8eba5d102422c86a4eaf1"
               }
             },
             {
               "img": {
-                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3153199558a8eba5d102422c86a4eaf1"
+                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fe8aac30aade435214344e05c32b359f"
               }
             },
             {
@@ -16148,12 +15301,12 @@
             },
             {
               "img": {
-                "url": "/uuid/679a81d7-86eb-4966-965e-3d9e01ac4dcf/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c4c732a55b8c19e8eb61f2cf556e1ce7"
+                "url": "/uuid/679a81d7-86eb-4966-965e-3d9e01ac4dcf/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c4c732a55b8c19e8eb61f2cf556e1ce7"
               }
             },
             {
               "img": {
-                "url": "/uuid/679a81d7-86eb-4966-965e-3d9e01ac4dcf/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c4c732a55b8c19e8eb61f2cf556e1ce7"
+                "url": "/uuid/679a81d7-86eb-4966-965e-3d9e01ac4dcf/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c4c732a55b8c19e8eb61f2cf556e1ce7"
               }
             },
             {
@@ -16313,12 +15466,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/7154b85e-b6fd-4563-b12b-70171d48a1e3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d4907fad7f6868878fec8a8b0efa83df"
+                "url": "/uuid/7154b85e-b6fd-4563-b12b-70171d48a1e3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d4907fad7f6868878fec8a8b0efa83df"
               }
             },
             {
               "img": {
-                "url": "/uuid/7154b85e-b6fd-4563-b12b-70171d48a1e3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d4907fad7f6868878fec8a8b0efa83df"
+                "url": "/uuid/7154b85e-b6fd-4563-b12b-70171d48a1e3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d4907fad7f6868878fec8a8b0efa83df"
               }
             },
             {
@@ -16654,17 +15807,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/60c7dd2d-92a6-46b2-9a5a-5514f2c434ce/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6b293f9248b4d1dc091373dd7166eff8"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/60c7dd2d-92a6-46b2-9a5a-5514f2c434ce/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=bc169a7a3967f691d62dd500c36cf166"
               }
             },
             {
               "img": {
                 "url": "/uuid/60c7dd2d-92a6-46b2-9a5a-5514f2c434ce/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6b293f9248b4d1dc091373dd7166eff8"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/60c7dd2d-92a6-46b2-9a5a-5514f2c434ce/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6b293f9248b4d1dc091373dd7166eff8"
               }
             },
             {
@@ -17676,12 +16829,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/dcdbcdca-5421-4bb0-aae9-872c13693f91/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16aa7b1aaf0d6a71163dfdc59a8e4779"
+                "url": "/uuid/dcdbcdca-5421-4bb0-aae9-872c13693f91/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2582fe8a3c594de401f401dc3619898c"
               }
             },
             {
               "img": {
-                "url": "/uuid/dcdbcdca-5421-4bb0-aae9-872c13693f91/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2582fe8a3c594de401f401dc3619898c"
+                "url": "/uuid/dcdbcdca-5421-4bb0-aae9-872c13693f91/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16aa7b1aaf0d6a71163dfdc59a8e4779"
               }
             },
             {
@@ -18188,12 +17341,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/dcdbcdca-5421-4bb0-aae9-872c13693f91/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16aa7b1aaf0d6a71163dfdc59a8e4779"
+                "url": "/uuid/dcdbcdca-5421-4bb0-aae9-872c13693f91/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2582fe8a3c594de401f401dc3619898c"
               }
             },
             {
               "img": {
-                "url": "/uuid/dcdbcdca-5421-4bb0-aae9-872c13693f91/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2582fe8a3c594de401f401dc3619898c"
+                "url": "/uuid/dcdbcdca-5421-4bb0-aae9-872c13693f91/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16aa7b1aaf0d6a71163dfdc59a8e4779"
               }
             },
             {
@@ -18528,12 +17681,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/75cbb90a-bb0e-4590-923d-de85d2a120e5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16d304abf0616cf9a956abd351bdd435"
+                "url": "/uuid/75cbb90a-bb0e-4590-923d-de85d2a120e5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5abde1c95013df3f3353bee8e163ea81"
               }
             },
             {
               "img": {
-                "url": "/uuid/75cbb90a-bb0e-4590-923d-de85d2a120e5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5abde1c95013df3f3353bee8e163ea81"
+                "url": "/uuid/75cbb90a-bb0e-4590-923d-de85d2a120e5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16d304abf0616cf9a956abd351bdd435"
               }
             },
             {
@@ -18937,12 +18090,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/6a9e5b0a-ba68-4415-b5de-0ca3c29875f8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=90d04aa338d211adccc8206522ecaf12"
+                "url": "/uuid/6a9e5b0a-ba68-4415-b5de-0ca3c29875f8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=55182af796a0e4fed0cef89d27c9dbe1"
               }
             },
             {
               "img": {
-                "url": "/uuid/6a9e5b0a-ba68-4415-b5de-0ca3c29875f8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=55182af796a0e4fed0cef89d27c9dbe1"
+                "url": "/uuid/6a9e5b0a-ba68-4415-b5de-0ca3c29875f8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=90d04aa338d211adccc8206522ecaf12"
               }
             },
             {
@@ -19107,12 +18260,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/4dee5a75-4086-42aa-b583-73a14d064713/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=bc5c32274215ada0345a78ab8dce8cce"
+                "url": "/uuid/4dee5a75-4086-42aa-b583-73a14d064713/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=d6a8ffa13b9a64bdd037528f69ce6990"
               }
             },
             {
               "img": {
-                "url": "/uuid/4dee5a75-4086-42aa-b583-73a14d064713/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=d6a8ffa13b9a64bdd037528f69ce6990"
+                "url": "/uuid/4dee5a75-4086-42aa-b583-73a14d064713/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=bc5c32274215ada0345a78ab8dce8cce"
               }
             },
             {
@@ -19704,12 +18857,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/6a9e5b0a-ba68-4415-b5de-0ca3c29875f8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=90d04aa338d211adccc8206522ecaf12"
+                "url": "/uuid/6a9e5b0a-ba68-4415-b5de-0ca3c29875f8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=55182af796a0e4fed0cef89d27c9dbe1"
               }
             },
             {
               "img": {
-                "url": "/uuid/6a9e5b0a-ba68-4415-b5de-0ca3c29875f8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=55182af796a0e4fed0cef89d27c9dbe1"
+                "url": "/uuid/6a9e5b0a-ba68-4415-b5de-0ca3c29875f8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=90d04aa338d211adccc8206522ecaf12"
               }
             },
             {
@@ -20466,17 +19619,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/85e958b2-4172-45c3-a36c-85b8963df377/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8204bf6b322d017819aab4c66cbd2919"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/85e958b2-4172-45c3-a36c-85b8963df377/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=1ccf658faaf54a4469a3bed479488dff"
               }
             },
             {
               "img": {
                 "url": "/uuid/85e958b2-4172-45c3-a36c-85b8963df377/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8204bf6b322d017819aab4c66cbd2919"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/85e958b2-4172-45c3-a36c-85b8963df377/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8204bf6b322d017819aab4c66cbd2919"
               }
             },
             {
@@ -21066,12 +20219,12 @@
             },
             {
               "img": {
-                "url": "/uuid/e2ac8488-26ac-42d2-a795-3bbe04411328/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6c0514d76baf847f664747af975cccec"
+                "url": "/uuid/e2ac8488-26ac-42d2-a795-3bbe04411328/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2dbba21aa5a46e53ed6ec7e62cd5717b"
               }
             },
             {
               "img": {
-                "url": "/uuid/e2ac8488-26ac-42d2-a795-3bbe04411328/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2dbba21aa5a46e53ed6ec7e62cd5717b"
+                "url": "/uuid/e2ac8488-26ac-42d2-a795-3bbe04411328/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6c0514d76baf847f664747af975cccec"
               }
             },
             {
@@ -21318,17 +20471,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/c7074a53-bb1e-4f3e-9080-3cc2bad4f692/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1b5a99a142dd37e22bad2479df5c65ff"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/c7074a53-bb1e-4f3e-9080-3cc2bad4f692/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1b5a99a142dd37e22bad2479df5c65ff"
               }
             },
             {
               "img": {
                 "url": "/uuid/c7074a53-bb1e-4f3e-9080-3cc2bad4f692/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=79a63d7478bc7adc908e5b5f57ea6b7f"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/c7074a53-bb1e-4f3e-9080-3cc2bad4f692/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1b5a99a142dd37e22bad2479df5c65ff"
               }
             },
             {
@@ -21573,12 +20726,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/dc426da0-93f2-49eb-8482-965a0c890141/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e8bc1de98d0628f06015ae16823ca3f2"
+                "url": "/uuid/dc426da0-93f2-49eb-8482-965a0c890141/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=cc1716194253c1a8afd280eb05930441"
               }
             },
             {
               "img": {
-                "url": "/uuid/dc426da0-93f2-49eb-8482-965a0c890141/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=cc1716194253c1a8afd280eb05930441"
+                "url": "/uuid/dc426da0-93f2-49eb-8482-965a0c890141/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e8bc1de98d0628f06015ae16823ca3f2"
               }
             },
             {
@@ -23908,12 +23061,12 @@
             },
             {
               "img": {
-                "url": "/uuid/10750b04-a165-46d8-a8b4-d9d3ac57d9fd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=536b0d7469e35e17978e11bc4ce2525b"
+                "url": "/uuid/10750b04-a165-46d8-a8b4-d9d3ac57d9fd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f2609d06eedd41ac6eeb0687cbd8fdf4"
               }
             },
             {
               "img": {
-                "url": "/uuid/10750b04-a165-46d8-a8b4-d9d3ac57d9fd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f2609d06eedd41ac6eeb0687cbd8fdf4"
+                "url": "/uuid/10750b04-a165-46d8-a8b4-d9d3ac57d9fd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=536b0d7469e35e17978e11bc4ce2525b"
               }
             },
             {
@@ -24142,12 +23295,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fe8aac30aade435214344e05c32b359f"
+                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3153199558a8eba5d102422c86a4eaf1"
               }
             },
             {
               "img": {
-                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3153199558a8eba5d102422c86a4eaf1"
+                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fe8aac30aade435214344e05c32b359f"
               }
             },
             {
@@ -24569,12 +23722,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fe8aac30aade435214344e05c32b359f"
+                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3153199558a8eba5d102422c86a4eaf1"
               }
             },
             {
               "img": {
-                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3153199558a8eba5d102422c86a4eaf1"
+                "url": "/uuid/5238f426-bd6b-4fce-bfe0-a2bca011c621/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fe8aac30aade435214344e05c32b359f"
               }
             },
             {
@@ -24728,12 +23881,12 @@
             },
             {
               "img": {
-                "url": "/uuid/679a81d7-86eb-4966-965e-3d9e01ac4dcf/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c4c732a55b8c19e8eb61f2cf556e1ce7"
+                "url": "/uuid/679a81d7-86eb-4966-965e-3d9e01ac4dcf/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c4c732a55b8c19e8eb61f2cf556e1ce7"
               }
             },
             {
               "img": {
-                "url": "/uuid/679a81d7-86eb-4966-965e-3d9e01ac4dcf/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c4c732a55b8c19e8eb61f2cf556e1ce7"
+                "url": "/uuid/679a81d7-86eb-4966-965e-3d9e01ac4dcf/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c4c732a55b8c19e8eb61f2cf556e1ce7"
               }
             },
             {
@@ -25992,17 +25145,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/60c7dd2d-92a6-46b2-9a5a-5514f2c434ce/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6b293f9248b4d1dc091373dd7166eff8"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/60c7dd2d-92a6-46b2-9a5a-5514f2c434ce/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=bc169a7a3967f691d62dd500c36cf166"
               }
             },
             {
               "img": {
                 "url": "/uuid/60c7dd2d-92a6-46b2-9a5a-5514f2c434ce/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6b293f9248b4d1dc091373dd7166eff8"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/60c7dd2d-92a6-46b2-9a5a-5514f2c434ce/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6b293f9248b4d1dc091373dd7166eff8"
               }
             },
             {
@@ -26755,12 +25908,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/7154b85e-b6fd-4563-b12b-70171d48a1e3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d4907fad7f6868878fec8a8b0efa83df"
+                "url": "/uuid/7154b85e-b6fd-4563-b12b-70171d48a1e3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d4907fad7f6868878fec8a8b0efa83df"
               }
             },
             {
               "img": {
-                "url": "/uuid/7154b85e-b6fd-4563-b12b-70171d48a1e3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d4907fad7f6868878fec8a8b0efa83df"
+                "url": "/uuid/7154b85e-b6fd-4563-b12b-70171d48a1e3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d4907fad7f6868878fec8a8b0efa83df"
               }
             },
             {
@@ -27352,12 +26505,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/75cbb90a-bb0e-4590-923d-de85d2a120e5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16d304abf0616cf9a956abd351bdd435"
+                "url": "/uuid/75cbb90a-bb0e-4590-923d-de85d2a120e5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5abde1c95013df3f3353bee8e163ea81"
               }
             },
             {
               "img": {
-                "url": "/uuid/75cbb90a-bb0e-4590-923d-de85d2a120e5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5abde1c95013df3f3353bee8e163ea81"
+                "url": "/uuid/75cbb90a-bb0e-4590-923d-de85d2a120e5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16d304abf0616cf9a956abd351bdd435"
               }
             },
             {
@@ -27858,12 +27011,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/dcdbcdca-5421-4bb0-aae9-872c13693f91/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16aa7b1aaf0d6a71163dfdc59a8e4779"
+                "url": "/uuid/dcdbcdca-5421-4bb0-aae9-872c13693f91/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2582fe8a3c594de401f401dc3619898c"
               }
             },
             {
               "img": {
-                "url": "/uuid/dcdbcdca-5421-4bb0-aae9-872c13693f91/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2582fe8a3c594de401f401dc3619898c"
+                "url": "/uuid/dcdbcdca-5421-4bb0-aae9-872c13693f91/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16aa7b1aaf0d6a71163dfdc59a8e4779"
               }
             },
             {
@@ -28113,12 +27266,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/56f17977-6cf8-4b14-a958-066ff1daa2c5/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=9a3c0f89352152ca3f16feaa2143b18f"
+                "url": "/uuid/56f17977-6cf8-4b14-a958-066ff1daa2c5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9a3c0f89352152ca3f16feaa2143b18f"
               }
             },
             {
               "img": {
-                "url": "/uuid/56f17977-6cf8-4b14-a958-066ff1daa2c5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9a3c0f89352152ca3f16feaa2143b18f"
+                "url": "/uuid/56f17977-6cf8-4b14-a958-066ff1daa2c5/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=9a3c0f89352152ca3f16feaa2143b18f"
               }
             },
             {
@@ -28352,17 +27505,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/1bce19d7-f241-4817-9717-8059f6842b4c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2b7f622b70b9a0aa296286687fba61d3"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/1bce19d7-f241-4817-9717-8059f6842b4c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6942b0c68e376c3c52b1102dbd51ca6b"
               }
             },
             {
               "img": {
                 "url": "/uuid/1bce19d7-f241-4817-9717-8059f6842b4c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2b7f622b70b9a0aa296286687fba61d3"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/1bce19d7-f241-4817-9717-8059f6842b4c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2b7f622b70b9a0aa296286687fba61d3"
               }
             },
             {
@@ -29875,12 +29028,12 @@
             },
             {
               "img": {
-                "url": "/uuid/e2ac8488-26ac-42d2-a795-3bbe04411328/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6c0514d76baf847f664747af975cccec"
+                "url": "/uuid/e2ac8488-26ac-42d2-a795-3bbe04411328/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2dbba21aa5a46e53ed6ec7e62cd5717b"
               }
             },
             {
               "img": {
-                "url": "/uuid/e2ac8488-26ac-42d2-a795-3bbe04411328/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2dbba21aa5a46e53ed6ec7e62cd5717b"
+                "url": "/uuid/e2ac8488-26ac-42d2-a795-3bbe04411328/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6c0514d76baf847f664747af975cccec"
               }
             },
             {
@@ -30210,12 +29363,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/dc426da0-93f2-49eb-8482-965a0c890141/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e8bc1de98d0628f06015ae16823ca3f2"
+                "url": "/uuid/dc426da0-93f2-49eb-8482-965a0c890141/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=cc1716194253c1a8afd280eb05930441"
               }
             },
             {
               "img": {
-                "url": "/uuid/dc426da0-93f2-49eb-8482-965a0c890141/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=cc1716194253c1a8afd280eb05930441"
+                "url": "/uuid/dc426da0-93f2-49eb-8482-965a0c890141/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e8bc1de98d0628f06015ae16823ca3f2"
               }
             },
             {
@@ -30465,17 +29618,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/85e958b2-4172-45c3-a36c-85b8963df377/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8204bf6b322d017819aab4c66cbd2919"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/85e958b2-4172-45c3-a36c-85b8963df377/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=1ccf658faaf54a4469a3bed479488dff"
               }
             },
             {
               "img": {
                 "url": "/uuid/85e958b2-4172-45c3-a36c-85b8963df377/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8204bf6b322d017819aab4c66cbd2919"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/85e958b2-4172-45c3-a36c-85b8963df377/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8204bf6b322d017819aab4c66cbd2919"
               }
             },
             {
@@ -31031,12 +30184,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/6a9e5b0a-ba68-4415-b5de-0ca3c29875f8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=90d04aa338d211adccc8206522ecaf12"
+                "url": "/uuid/6a9e5b0a-ba68-4415-b5de-0ca3c29875f8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=55182af796a0e4fed0cef89d27c9dbe1"
               }
             },
             {
               "img": {
-                "url": "/uuid/6a9e5b0a-ba68-4415-b5de-0ca3c29875f8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=55182af796a0e4fed0cef89d27c9dbe1"
+                "url": "/uuid/6a9e5b0a-ba68-4415-b5de-0ca3c29875f8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=90d04aa338d211adccc8206522ecaf12"
               }
             },
             {
@@ -32140,17 +31293,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/c7074a53-bb1e-4f3e-9080-3cc2bad4f692/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1b5a99a142dd37e22bad2479df5c65ff"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/c7074a53-bb1e-4f3e-9080-3cc2bad4f692/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1b5a99a142dd37e22bad2479df5c65ff"
               }
             },
             {
               "img": {
                 "url": "/uuid/c7074a53-bb1e-4f3e-9080-3cc2bad4f692/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=79a63d7478bc7adc908e5b5f57ea6b7f"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/c7074a53-bb1e-4f3e-9080-3cc2bad4f692/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1b5a99a142dd37e22bad2479df5c65ff"
               }
             },
             {
@@ -32395,12 +31548,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/5fd3e9b2-f23b-4762-9d84-0b463ebae1ee/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=96747ea3449cc8f1e5bd73d0d031060b"
+                "url": "/uuid/5fd3e9b2-f23b-4762-9d84-0b463ebae1ee/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=77b1aed25429c79aad23f997606e8d93"
               }
             },
             {
               "img": {
-                "url": "/uuid/5fd3e9b2-f23b-4762-9d84-0b463ebae1ee/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=77b1aed25429c79aad23f997606e8d93"
+                "url": "/uuid/5fd3e9b2-f23b-4762-9d84-0b463ebae1ee/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=96747ea3449cc8f1e5bd73d0d031060b"
               }
             },
             {
@@ -33237,12 +32390,12 @@
             },
             {
               "img": {
-                "url": "/uuid/679a81d7-86eb-4966-965e-3d9e01ac4dcf/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c4c732a55b8c19e8eb61f2cf556e1ce7"
+                "url": "/uuid/679a81d7-86eb-4966-965e-3d9e01ac4dcf/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c4c732a55b8c19e8eb61f2cf556e1ce7"
               }
             },
             {
               "img": {
-                "url": "/uuid/679a81d7-86eb-4966-965e-3d9e01ac4dcf/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c4c732a55b8c19e8eb61f2cf556e1ce7"
+                "url": "/uuid/679a81d7-86eb-4966-965e-3d9e01ac4dcf/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c4c732a55b8c19e8eb61f2cf556e1ce7"
               }
             },
             {
@@ -33532,6 +32685,7 @@
     "2025-08-05": [],
     "2025-08-06": [],
     "2025-08-07": [],
-    "2025-08-08": []
+    "2025-08-08": [],
+    "2025-08-09": []
   }
 }

@@ -1,1192 +1,6 @@
 {
   "name": "Sky Sport 4K",
   "events_by_date": {
-    "2025-06-29": [
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "0c6d1f0b-e412-4c6e-9177-2d5a349cba3e",
-          "contentTitle": "Djokovic - Alcaraz",
-          "episodeNumber": 24,
-          "seasonNumber": 2024,
-          "url": "/sport/wimbledon/djokovic-alcaraz/0c6d1f0b-e412-4c6e-9177-2d5a349cba3e",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/0c6d1f0b-e412-4c6e-9177-2d5a349cba3e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=acd2260a19ef35a0f0726e1e19b19d48"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/0c6d1f0b-e412-4c6e-9177-2d5a349cba3e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=acd2260a19ef35a0f0726e1e19b19d48"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/0c6d1f0b-e412-4c6e-9177-2d5a349cba3e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=acd2260a19ef35a0f0726e1e19b19d48"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/0c6d1f0b-e412-4c6e-9177-2d5a349cba3e/background?territory=IT&md5ChecksumParam=9b5c5219553bfda3e7df16e965d48611"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/0c6d1f0b-e412-4c6e-9177-2d5a349cba3e/cover?territory=IT&md5ChecksumParam=acd2260a19ef35a0f0726e1e19b19d48"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/0c6d1f0b-e412-4c6e-9177-2d5a349cba3e/16-9?territory=IT&md5ChecksumParam=078465621754694704b6ab56bb663d42"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/0c6d1f0b-e412-4c6e-9177-2d5a349cba3e/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=d4cca7c50947cbeb51c682af5b14cbf7"
-              }
-            }
-          ]
-        },
-        "eventId": "411238693",
-        "starttime": "2025-06-29T01:10:00Z",
-        "endtime": "2025-06-29T04:00:00Z",
-        "eventTitle": "Alcaraz - Djokovic",
-        "eventSynopsis": "Djokovic - Alcaraz - Sul Centrale di Wimbledon, l'ultimo atto dei Championships 2024 e' la rivincita dell'anno scorso, quando Alcaraz sconfisse Djokovic in cinque set. Tc: Pero-Bertolucci-Ljubicic.",
-        "epgEventTitle": "Alcaraz - Djokovic",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc",
-          "contentTitle": "Tottenham - Manchester Utd (diretta)",
-          "episodeNumber": 115,
-          "seasonNumber": 2024,
-          "url": "/sport/uefa-europa-league/tottenham-manchester-utd-diretta/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 10,
-            "name": "Calcio"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/background?territory=IT&md5ChecksumParam=e89a38e033064e83c64fb497584418c0"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/cover?territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/16-9?territory=IT&md5ChecksumParam=fe06d5c8ad4b06eaca3aefabf1f46bb0"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=fe06d5c8ad4b06eaca3aefabf1f46bb0"
-              }
-            }
-          ]
-        },
-        "eventId": "411238635",
-        "starttime": "2025-06-29T04:00:00Z",
-        "endtime": "2025-06-29T06:00:00Z",
-        "eventTitle": "Tottenham - Manchester United",
-        "eventSynopsis": "UEFA Europa League, Finale - Spurs per vincere un trofeo europeo dopo il ko in UCL nel 2019 (0-2 Liverpool). Red Devils per la seconda UEL dopo quella vinta nel 2017 (2-0 sull'Ajax). TC: Borghi-Dzemaili",
-        "epgEventTitle": "Tottenham - Manchester United",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "d054b47b-3b84-4b92-aee0-e72af73a24a3",
-          "contentTitle": "Manchester City - Inter",
-          "episodeNumber": 171,
-          "seasonNumber": 1,
-          "url": "/sport/uefa-champions-league-story/manchester-city-inter/d054b47b-3b84-4b92-aee0-e72af73a24a3",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 10,
-            "name": "Calcio"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/d054b47b-3b84-4b92-aee0-e72af73a24a3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0369b7ef4cdd4f75cd9d28d5fd198ceb"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/1003f850-7594-4a8e-ac38-af7a5130041f/COVER_CLEAN_WIDE-SEASON?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8f66e9cc1c585d05392bbf7eb6b6712b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/1003f850-7594-4a8e-ac38-af7a5130041f/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=8f66e9cc1c585d05392bbf7eb6b6712b"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/d054b47b-3b84-4b92-aee0-e72af73a24a3/background?territory=IT&md5ChecksumParam=cc1ae85850f77e7a439236449807ef3d"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/d054b47b-3b84-4b92-aee0-e72af73a24a3/cover?territory=IT&md5ChecksumParam=0369b7ef4cdd4f75cd9d28d5fd198ceb"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/d054b47b-3b84-4b92-aee0-e72af73a24a3/16-9?territory=IT&md5ChecksumParam=4a638a53233dbaab56957cab4bb1fec1"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/d054b47b-3b84-4b92-aee0-e72af73a24a3/COVER_TITLE_WIDE?territory=IT&version=e1bbf2dc-7bc7-3838-b06c-51893f721c53&w=1920&h=1080&md5ChecksumParam=2ac7307e1a95d146028254cf5bd5c663"
-              }
-            }
-          ]
-        },
-        "eventId": "411238636",
-        "starttime": "2025-06-29T06:00:00Z",
-        "endtime": "2025-06-29T07:55:00Z",
-        "eventTitle": "Manchester City - Inter",
-        "eventSynopsis": "Manchester City - Inter - City per il secondo trofeo europeo dopo una Coppa delle Coppe nel 1970. Inter per la seconda Champions League dopo quella del 2010. In bacheca anche 2 Coppe dei Campioni. TC: Caressa-Bergomi.",
-        "epgEventTitle": "Manchester City - Inter",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "2b736877-02f4-4a60-bded-d03f505067e6",
-          "contentTitle": "Paris - Inter",
-          "episodeNumber": 177,
-          "seasonNumber": 2024,
-          "url": "/sport/uefa-champions-league/paris-inter/2b736877-02f4-4a60-bded-d03f505067e6",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 10,
-            "name": "Calcio"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/background?territory=IT&md5ChecksumParam=c78eb29494756f493c4d1767d58e5182"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/cover?territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/16-9?territory=IT&md5ChecksumParam=5dae8ecc90ab57d030469bbed147edeb"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=5dae8ecc90ab57d030469bbed147edeb"
-              }
-            }
-          ]
-        },
-        "eventId": "411238637",
-        "starttime": "2025-06-29T07:55:00Z",
-        "endtime": "2025-06-29T09:50:00Z",
-        "eventTitle": "Paris - Inter",
-        "eventSynopsis": "UEFA Champions League, Finale - Nerazzurri per la seconda Champions, dopo quella vinta nel 2010 (2-0 sul Bayern). Francesi per la prima, dopo il ko in finale contro il Bayern nel 2020 (0-1). TC: Caressa-Bergomi",
-        "epgEventTitle": "Paris - Inter",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "8497bda1-9cc9-4a82-8ee7-25ec90eef957",
-          "contentTitle": "GP Austria: Qualifiche",
-          "episodeNumber": 54,
-          "seasonNumber": 2025,
-          "url": "/sport/f1/gp-austria-qualifiche/8497bda1-9cc9-4a82-8ee7-25ec90eef957",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 24,
-            "name": "Motori"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/8497bda1-9cc9-4a82-8ee7-25ec90eef957/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=d9ee53fe377b3833eace53ec1a69172a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8497bda1-9cc9-4a82-8ee7-25ec90eef957/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=d9ee53fe377b3833eace53ec1a69172a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8497bda1-9cc9-4a82-8ee7-25ec90eef957/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d9ee53fe377b3833eace53ec1a69172a"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/8497bda1-9cc9-4a82-8ee7-25ec90eef957/background?territory=IT&md5ChecksumParam=b081668d23dd93da45cbc9816d2fa38f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/8497bda1-9cc9-4a82-8ee7-25ec90eef957/cover?territory=IT&md5ChecksumParam=d9ee53fe377b3833eace53ec1a69172a"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/8497bda1-9cc9-4a82-8ee7-25ec90eef957/16-9?territory=IT&md5ChecksumParam=b171be04ab54516a1a3a002f0d79ef28"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/8497bda1-9cc9-4a82-8ee7-25ec90eef957/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=731df25598cb853c2ef1e7cba9152088"
-              }
-            }
-          ]
-        },
-        "eventId": "411238638",
-        "starttime": "2025-06-29T09:50:00Z",
-        "endtime": "2025-06-29T11:15:00Z",
-        "eventTitle": "GP Austria: Qualifiche",
-        "eventSynopsis": "GP Austria: Qualifiche - Dal Red Bull Ring di Spielberg, Austria.",
-        "epgEventTitle": "GP Austria: Qualifiche",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "ed61f954-b333-43b4-a39e-5fdd1dd82abe",
-          "contentTitle": "F1 Paddock Live Pre Gara",
-          "episodeNumber": 0,
-          "url": "/programmi-tv/motori/f1-paddock-live-pre-gara/ed61f954-b333-43b4-a39e-5fdd1dd82abe",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 24,
-            "name": "Motori"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/ed61f954-b333-43b4-a39e-5fdd1dd82abe/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f5e76a14e57c6265f7cc1b691fb68ed3"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/ed61f954-b333-43b4-a39e-5fdd1dd82abe/background?territory=IT&md5ChecksumParam=90d5f7d92242626c383d73ca4122e5dd"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/ed61f954-b333-43b4-a39e-5fdd1dd82abe/cover?territory=IT&md5ChecksumParam=f5e76a14e57c6265f7cc1b691fb68ed3"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/ed61f954-b333-43b4-a39e-5fdd1dd82abe/16-9?territory=IT&md5ChecksumParam=b8ed7e5fee979cdf00f76abcf7573a54"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/ed61f954-b333-43b4-a39e-5fdd1dd82abe/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=b8ed7e5fee979cdf00f76abcf7573a54"
-              }
-            }
-          ]
-        },
-        "eventId": "411238640",
-        "starttime": "2025-06-29T11:30:00Z",
-        "endtime": "2025-06-29T12:55:00Z",
-        "eventTitle": "F1 Paddock Live Pre Gara",
-        "eventSynopsis": "L'avvicinamento al Gran Premio con l'analisi di quanto successo nel weekend, le interviste, i giri di riscaldamento delle monoposto e l'atmosfera unica della griglia di partenza prima del via.",
-        "epgEventTitle": "F1 Paddock Live Pre Gara",
-        "programHighlights": "L",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3",
-          "contentTitle": "GP Austria: Gara",
-          "episodeNumber": 55,
-          "seasonNumber": 2025,
-          "url": "/sport/f1/gp-austria-gara/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 24,
-            "name": "Motori"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/background?territory=IT&md5ChecksumParam=f4fe0388b7a1c4f85c85be750d5b354c"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/cover?territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/16-9?territory=IT&md5ChecksumParam=e45db90ab920488afce995abaabd9236"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=1140d741fc1f6a7c180d3e92520d91cc"
-              }
-            }
-          ]
-        },
-        "eventId": "411238641",
-        "starttime": "2025-06-29T12:55:00Z",
-        "endtime": "2025-06-29T14:50:00Z",
-        "eventTitle": "GP Austria: Gara",
-        "eventSynopsis": "GP Austria: Gara - From Red Bull Ring in Austria.",
-        "epgEventTitle": "GP Austria: Gara",
-        "programHighlights": "L",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "28a0fe6e-1c78-43ba-985b-e029b92a79ba",
-          "contentTitle": "F1 Paddock Live Post Gara",
-          "episodeNumber": 0,
-          "url": "/programmi-tv/motori/f1-paddock-live-post-gara/28a0fe6e-1c78-43ba-985b-e029b92a79ba",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 24,
-            "name": "Motori"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/28a0fe6e-1c78-43ba-985b-e029b92a79ba/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b08a99eab69a49926db84bfacb93c9f9"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/28a0fe6e-1c78-43ba-985b-e029b92a79ba/background?territory=IT&md5ChecksumParam=90d5f7d92242626c383d73ca4122e5dd"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/28a0fe6e-1c78-43ba-985b-e029b92a79ba/cover?territory=IT&md5ChecksumParam=b08a99eab69a49926db84bfacb93c9f9"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/28a0fe6e-1c78-43ba-985b-e029b92a79ba/16-9?territory=IT&md5ChecksumParam=4fbf4c51bb1a05ce2084b9e4e0ce28bf"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/28a0fe6e-1c78-43ba-985b-e029b92a79ba/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=4fbf4c51bb1a05ce2084b9e4e0ce28bf"
-              }
-            }
-          ]
-        },
-        "eventId": "411238642",
-        "starttime": "2025-06-29T14:50:00Z",
-        "endtime": "2025-06-29T15:30:00Z",
-        "eventTitle": "F1 Paddock Live Post Gara",
-        "eventSynopsis": "I commenti dei piloti e dei team principal accompagnano l'analisi della gara appena conclusa. Con Davide Camicioli e tutta la squadra di Sky Sport F1.",
-        "epgEventTitle": "F1 Paddock Live Post Gara",
-        "programHighlights": "L",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "69df7712-56d1-46e1-a38f-474896c02a24",
-          "contentTitle": "F1 Debriefing",
-          "episodeNumber": 0,
-          "url": "/programmi-tv/motori/f1-debriefing/69df7712-56d1-46e1-a38f-474896c02a24",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 24,
-            "name": "Motori"
-          },
-          "imagesMap": [
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/69df7712-56d1-46e1-a38f-474896c02a24/background?territory=IT&md5ChecksumParam=e28f87c85c44d6a0cd253fc46c2f9c49"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/69df7712-56d1-46e1-a38f-474896c02a24/cover?territory=IT&md5ChecksumParam=13d0630c29bfee23d5875a422aba0af0"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/69df7712-56d1-46e1-a38f-474896c02a24/16-9?territory=IT&md5ChecksumParam=2cb5526faf9e4871c1ab328a48c16f0f"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/69df7712-56d1-46e1-a38f-474896c02a24/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=2cb5526faf9e4871c1ab328a48c16f0f"
-              }
-            }
-          ]
-        },
-        "eventId": "411238643",
-        "starttime": "2025-06-29T15:30:00Z",
-        "endtime": "2025-06-29T16:00:00Z",
-        "eventTitle": "F1 Debriefing",
-        "eventSynopsis": "E' il momento dell'analisi: dopo i giri in pista, giro di opinioni sui temi principali emersi dalla gara e dall'intero weekend. Conduce Davide Camicioli.",
-        "epgEventTitle": "F1 Debriefing",
-        "programHighlights": "L",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "0b15c0cb-6423-48e3-85e1-3fda29365aeb",
-          "contentTitle": "Aldo e Massimo",
-          "episodeNumber": 6,
-          "seasonNumber": 1,
-          "url": "/sport/4-amici-al-box/aldo-e-massimo/0b15c0cb-6423-48e3-85e1-3fda29365aeb",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 24,
-            "name": "Motori"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/0b15c0cb-6423-48e3-85e1-3fda29365aeb/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=41cfcbf12695ebdeb600a8fbefef489b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/0b15c0cb-6423-48e3-85e1-3fda29365aeb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41cfcbf12695ebdeb600a8fbefef489b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/0b15c0cb-6423-48e3-85e1-3fda29365aeb/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=41cfcbf12695ebdeb600a8fbefef489b"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/0b15c0cb-6423-48e3-85e1-3fda29365aeb/background?territory=IT&md5ChecksumParam=fd1168bd1d7cbba7bfc3f9fe49803dd5"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/0b15c0cb-6423-48e3-85e1-3fda29365aeb/cover?territory=IT&md5ChecksumParam=41cfcbf12695ebdeb600a8fbefef489b"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/0b15c0cb-6423-48e3-85e1-3fda29365aeb/16-9?territory=IT&md5ChecksumParam=f546003096f4a06746d373512917dfba"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/0b15c0cb-6423-48e3-85e1-3fda29365aeb/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=f546003096f4a06746d373512917dfba"
-              }
-            }
-          ]
-        },
-        "eventId": "411238644",
-        "starttime": "2025-06-29T16:00:00Z",
-        "endtime": "2025-06-29T16:30:00Z",
-        "eventTitle": "Aldo e Massimo",
-        "eventSynopsis": "Ep6 Aldo e Massimo - Dalle ricette dell'ingegner Aldo Costa, dal passato vincente in Ferrari e Mercedes, a quelle dello chef Massimo Bottura, grande appassionato di F1. Con Carlo Vanzini e Roberto Chinchero.",
-        "epgEventTitle": "Aldo e Massimo",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3",
-          "contentTitle": "GP Austria: Gara",
-          "episodeNumber": 55,
-          "seasonNumber": 2025,
-          "url": "/sport/f1/gp-austria-gara/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 24,
-            "name": "Motori"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/background?territory=IT&md5ChecksumParam=f4fe0388b7a1c4f85c85be750d5b354c"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/cover?territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/16-9?territory=IT&md5ChecksumParam=e45db90ab920488afce995abaabd9236"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=1140d741fc1f6a7c180d3e92520d91cc"
-              }
-            }
-          ]
-        },
-        "eventId": "411238645",
-        "starttime": "2025-06-29T16:30:00Z",
-        "endtime": "2025-06-29T18:30:00Z",
-        "eventTitle": "GP Austria: Gara",
-        "eventSynopsis": "GP Austria: Gara - From Red Bull Ring in Austria.",
-        "epgEventTitle": "GP Austria: Gara",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "0c6d1f0b-e412-4c6e-9177-2d5a349cba3e",
-          "contentTitle": "Djokovic - Alcaraz",
-          "episodeNumber": 24,
-          "seasonNumber": 2024,
-          "url": "/sport/wimbledon/djokovic-alcaraz/0c6d1f0b-e412-4c6e-9177-2d5a349cba3e",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/0c6d1f0b-e412-4c6e-9177-2d5a349cba3e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=acd2260a19ef35a0f0726e1e19b19d48"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/0c6d1f0b-e412-4c6e-9177-2d5a349cba3e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=acd2260a19ef35a0f0726e1e19b19d48"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/0c6d1f0b-e412-4c6e-9177-2d5a349cba3e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=acd2260a19ef35a0f0726e1e19b19d48"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/0c6d1f0b-e412-4c6e-9177-2d5a349cba3e/background?territory=IT&md5ChecksumParam=9b5c5219553bfda3e7df16e965d48611"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/0c6d1f0b-e412-4c6e-9177-2d5a349cba3e/cover?territory=IT&md5ChecksumParam=acd2260a19ef35a0f0726e1e19b19d48"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/0c6d1f0b-e412-4c6e-9177-2d5a349cba3e/16-9?territory=IT&md5ChecksumParam=078465621754694704b6ab56bb663d42"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/0c6d1f0b-e412-4c6e-9177-2d5a349cba3e/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=d4cca7c50947cbeb51c682af5b14cbf7"
-              }
-            }
-          ]
-        },
-        "eventId": "411238646",
-        "starttime": "2025-06-29T18:30:00Z",
-        "endtime": "2025-06-29T21:20:00Z",
-        "eventTitle": "Alcaraz - Djokovic",
-        "eventSynopsis": "Djokovic - Alcaraz - Sul Centrale di Wimbledon, l'ultimo atto dei Championships 2024 e' la rivincita dell'anno scorso, quando Alcaraz sconfisse Djokovic in cinque set. Tc: Pero-Bertolucci-Ljubicic.",
-        "epgEventTitle": "Alcaraz - Djokovic",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3",
-          "contentTitle": "GP Austria: Gara",
-          "episodeNumber": 55,
-          "seasonNumber": 2025,
-          "url": "/sport/f1/gp-austria-gara/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 24,
-            "name": "Motori"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/background?territory=IT&md5ChecksumParam=f4fe0388b7a1c4f85c85be750d5b354c"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/cover?territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/16-9?territory=IT&md5ChecksumParam=e45db90ab920488afce995abaabd9236"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=1140d741fc1f6a7c180d3e92520d91cc"
-              }
-            }
-          ]
-        },
-        "eventId": "411238647",
-        "starttime": "2025-06-29T21:20:00Z",
-        "endtime": "2025-06-29T23:20:00Z",
-        "eventTitle": "GP Austria: Gara",
-        "eventSynopsis": "GP Austria: Gara - From Red Bull Ring in Austria.",
-        "epgEventTitle": "GP Austria: Gara",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "2b736877-02f4-4a60-bded-d03f505067e6",
-          "contentTitle": "Paris - Inter",
-          "episodeNumber": 177,
-          "seasonNumber": 2024,
-          "url": "/sport/uefa-champions-league/paris-inter/2b736877-02f4-4a60-bded-d03f505067e6",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 10,
-            "name": "Calcio"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/background?territory=IT&md5ChecksumParam=c78eb29494756f493c4d1767d58e5182"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/cover?territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/16-9?territory=IT&md5ChecksumParam=5dae8ecc90ab57d030469bbed147edeb"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=5dae8ecc90ab57d030469bbed147edeb"
-              }
-            }
-          ]
-        },
-        "eventId": "411238648",
-        "starttime": "2025-06-29T23:20:00Z",
-        "endtime": "2025-06-30T01:15:00Z",
-        "eventTitle": "Paris - Inter",
-        "eventSynopsis": "UEFA Champions League, Finale - Nerazzurri per la seconda Champions, dopo quella vinta nel 2010 (2-0 sul Bayern). Francesi per la prima, dopo il ko in finale contro il Bayern nel 2020 (0-1). TC: Caressa-Bergomi",
-        "epgEventTitle": "Paris - Inter",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      }
-    ],
     "2025-06-30": [
       {
         "channel": {
@@ -1262,8 +76,8 @@
           ]
         },
         "eventId": "411238649",
-        "starttime": "2025-06-30T01:15:00Z",
-        "endtime": "2025-06-30T03:10:00Z",
+        "starttime": "2025-06-30T01:20:00Z",
+        "endtime": "2025-06-30T03:20:00Z",
         "eventTitle": "GP Austria: Gara",
         "eventSynopsis": "GP Austria: Gara - From Red Bull Ring in Austria.",
         "epgEventTitle": "GP Austria: Gara",
@@ -1339,8 +153,8 @@
           ]
         },
         "eventId": "411238650",
-        "starttime": "2025-06-30T03:10:00Z",
-        "endtime": "2025-06-30T04:00:00Z",
+        "starttime": "2025-06-30T03:20:00Z",
+        "endtime": "2025-06-30T04:10:00Z",
         "eventTitle": "Review Of The Season",
         "eventSynopsis": "Review Of The Season - Le immagini dei grandi match con i gol e le interviste ai protagonisti del presente e del passato. E le piu' belle storie di questa prestigiosissima competizione continentale.",
         "epgEventTitle": "Review Of The Season",
@@ -1426,7 +240,7 @@
           ]
         },
         "eventId": "411335071",
-        "starttime": "2025-06-30T04:00:00Z",
+        "starttime": "2025-06-30T04:10:00Z",
         "endtime": "2025-06-30T06:00:00Z",
         "eventTitle": "Finale Singolare",
         "eventSynopsis": "Finale Singolare - WTA 1000 Madrid",
@@ -1928,7 +742,7 @@
           ]
         },
         "eventId": "411335080",
-        "starttime": "2025-06-30T23:30:00Z",
+        "starttime": "2025-06-30T23:35:00Z",
         "endtime": "2025-07-01T01:30:00Z",
         "eventTitle": "Paris - Inter",
         "eventSynopsis": "UEFA Champions League, Finale - Nerazzurri per la seconda Champions, dopo quella vinta nel 2010 (2-0 sul Bayern). Francesi per la prima, dopo il ko in finale contro il Bayern nel 2020 (0-1). TC: Caressa-Bergomi",
@@ -2018,7 +832,7 @@
         },
         "eventId": "411335081",
         "starttime": "2025-07-01T01:30:00Z",
-        "endtime": "2025-07-01T03:30:00Z",
+        "endtime": "2025-07-01T03:25:00Z",
         "eventTitle": "Betis - Chelsea",
         "eventSynopsis": "UEFA Europa Conference League, Finale - Iberici per la prima storica coppa europea. Chelsea per il quinto trofeo europeo nelle ultime 14 stagioni, dopo due Champions League e due Europa League. TC: Polizzi-Minotti",
         "epgEventTitle": "Betis - Chelsea",
@@ -2064,12 +878,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
+                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
               }
             },
             {
               "img": {
-                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
+                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
               }
             },
             {
@@ -2104,7 +918,7 @@
           ]
         },
         "eventId": "411335082",
-        "starttime": "2025-07-01T03:30:00Z",
+        "starttime": "2025-07-01T03:25:00Z",
         "endtime": "2025-07-01T04:00:00Z",
         "eventTitle": "Venezia - Juventus",
         "eventSynopsis": "Serie A 38a g. - Veneti sempre penultimi dopo il ko di Cagliari (3-0). Juve per difendere il quarto posto. Imbattuta a Venezia nelle ultime 6 sfide di A, 4 vittorie e 2 pari. TC: Zancan-Marocchi",
@@ -2151,12 +965,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
+                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
               }
             },
             {
               "img": {
-                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
+                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
               }
             },
             {
@@ -2752,12 +1566,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/eccd979b-d9cc-470d-aef3-f515e7fde801/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7f8e8cf51cdf4973a4eda2800728db41"
+                "url": "/uuid/eccd979b-d9cc-470d-aef3-f515e7fde801/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7f8e8cf51cdf4973a4eda2800728db41"
               }
             },
             {
               "img": {
-                "url": "/uuid/eccd979b-d9cc-470d-aef3-f515e7fde801/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7f8e8cf51cdf4973a4eda2800728db41"
+                "url": "/uuid/eccd979b-d9cc-470d-aef3-f515e7fde801/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7f8e8cf51cdf4973a4eda2800728db41"
               }
             },
             {
@@ -3127,9 +1941,9 @@
         "eventId": "411335085",
         "starttime": "2025-07-02T08:00:00Z",
         "endtime": "2025-07-02T10:00:00Z",
-        "eventTitle": "UEFA Champions League",
+        "eventTitle": "Liverpool - Real Madrid 28/05/22",
         "eventSynopsis": "Liverpool - Real Madrid - Ultima finale dei Reds nel 2019, 2-0 sul Tottenham. Ultima del Real nel 2018, 3-1 sul Liverpool. Quinta finale di Champions per Ancelotti. Quarta per Klopp. TC: Marianella-Marchegiani.",
-        "epgEventTitle": "UEFA Champions League",
+        "epgEventTitle": "Liverpool - Real Madrid 28/05/22",
         "primeVision": false,
         "resolutions": [
           {
@@ -3172,12 +1986,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
+                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
               }
             },
             {
               "img": {
-                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
+                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
               }
             },
             {
@@ -3476,7 +2290,7 @@
         "starttime": "2025-07-02T23:30:00Z",
         "endtime": "2025-07-03T01:30:00Z",
         "eventTitle": "GP Austria: Gara",
-        "eventSynopsis": "GP Austria: Gara - Undicesima prova del mondiale 2025: sul circuito di proprieta' della Red Bull tanti punti di sorpasso e gare sempre spettacolari. Telecronaca di Carlo Vanzini, Marc Gene' e Roberto Chinchero.",
+        "eventSynopsis": "GP Austria: Gara - Dal Red Bull Ring di Spielberg, Austria.",
         "epgEventTitle": "GP Austria: Gara",
         "primeVision": false,
         "resolutions": [
@@ -3522,12 +2336,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
+                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
               }
             },
             {
               "img": {
-                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
+                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
               }
             },
             {
@@ -4402,7 +3216,7 @@
         "starttime": "2025-07-04T02:00:00Z",
         "endtime": "2025-07-04T04:00:00Z",
         "eventTitle": "GP Austria: Gara",
-        "eventSynopsis": "Undicesima prova del mondiale 2025: sul circuito di proprieta' della Red Bull tanti punti di sorpasso e gare sempre spettacolari. Telecronaca di Carlo Vanzini, Marc Gene' e Roberto Chinchero.",
+        "eventSynopsis": "GP Austria: Gara - Undicesima prova del mondiale 2025: sul circuito di proprieta' della Red Bull tanti punti di sorpasso e gare sempre spettacolari. Telecronaca di Carlo Vanzini, Marc Gene' e Roberto Chinchero.",
         "epgEventTitle": "GP Austria: Gara",
         "primeVision": false,
         "resolutions": [
@@ -4663,7 +3477,7 @@
         "starttime": "2025-07-04T08:00:00Z",
         "endtime": "2025-07-04T10:00:00Z",
         "eventTitle": "GP Austria: Gara",
-        "eventSynopsis": "GP Austria: Gara - Undicesima prova del mondiale 2025: sul circuito di proprieta' della Red Bull tanti punti di sorpasso e gare sempre spettacolari. Telecronaca di Carlo Vanzini, Marc Gene' e Roberto Chinchero.",
+        "eventSynopsis": "GP Austria: Gara - Dal Red Bull Ring di Spielberg, Austria.",
         "epgEventTitle": "GP Austria: Gara",
         "primeVision": false,
         "resolutions": [
@@ -4957,12 +3771,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/eccd979b-d9cc-470d-aef3-f515e7fde801/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7f8e8cf51cdf4973a4eda2800728db41"
+                "url": "/uuid/eccd979b-d9cc-470d-aef3-f515e7fde801/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7f8e8cf51cdf4973a4eda2800728db41"
               }
             },
             {
               "img": {
-                "url": "/uuid/eccd979b-d9cc-470d-aef3-f515e7fde801/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7f8e8cf51cdf4973a4eda2800728db41"
+                "url": "/uuid/eccd979b-d9cc-470d-aef3-f515e7fde801/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7f8e8cf51cdf4973a4eda2800728db41"
               }
             },
             {
@@ -5873,12 +4687,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
+                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
               }
             },
             {
               "img": {
-                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
+                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
               }
             },
             {
@@ -6126,12 +4940,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
+                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
               }
             },
             {
               "img": {
-                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
+                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
               }
             },
             {
@@ -7414,12 +6228,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
+                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
               }
             },
             {
               "img": {
-                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
+                "url": "/uuid/1bbf743d-a3fd-4b4f-8d4c-e4b92115d1fc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa54e872cdd242e628c7408689bdf0b"
               }
             },
             {
@@ -8089,12 +6903,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/eccd979b-d9cc-470d-aef3-f515e7fde801/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7f8e8cf51cdf4973a4eda2800728db41"
+                "url": "/uuid/eccd979b-d9cc-470d-aef3-f515e7fde801/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7f8e8cf51cdf4973a4eda2800728db41"
               }
             },
             {
               "img": {
-                "url": "/uuid/eccd979b-d9cc-470d-aef3-f515e7fde801/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7f8e8cf51cdf4973a4eda2800728db41"
+                "url": "/uuid/eccd979b-d9cc-470d-aef3-f515e7fde801/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7f8e8cf51cdf4973a4eda2800728db41"
               }
             },
             {
@@ -11347,6 +10161,7 @@
     "2025-08-05": [],
     "2025-08-06": [],
     "2025-08-07": [],
-    "2025-08-08": []
+    "2025-08-08": [],
+    "2025-08-09": []
   }
 }
