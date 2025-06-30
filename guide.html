@@ -230,6 +230,7 @@
     </div>
   </div>
   <footer title="Clicca per attivare/disattivare la modalità scura">Powered by 🐯 - Modalità Scura OFF</footer>
+
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const { DateTime } = luxon;
@@ -237,7 +238,6 @@
       const siteId = urlParams.get('site_id');
       const channelName = urlParams.get('name') || "Canale sconosciuto";
       const isSimplified = ["boing", "cartoonito", "nove", "real time", "k2", "frisbee"].includes(channelName.toLowerCase());
-
       const channelNameElem = document.getElementById('channel-name');
       const loadingElem = document.getElementById('loading');
       const errorElem = document.getElementById('error-message');
@@ -250,28 +250,41 @@
       const datePicker = document.getElementById('date-picker');
       const exportTxtBtn = document.getElementById('export-txt-btn');
       const footer = document.querySelector('footer');
-
       let allPrograms = {};
       let currentDate = new Date();
 
       function formatDate(d) {
         return d.toISOString().split('T')[0];
       }
-
       function formatReadableDate(d) {
         return d.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+      }
+
+      function parseEventTitle(eventTitle) {
+        if (!eventTitle) return { series: '', episodeInfo: '', episodeTitle: '' };
+        const parts = eventTitle.split(' - ');
+        if (parts.length >= 3) {
+          return {
+            series: parts[0].trim(),
+            episodeInfo: parts[1].trim(),
+            episodeTitle: parts.slice(2).join(' - ').trim()
+          };
+        }
+        return {
+          series: '',
+          episodeInfo: '',
+          episodeTitle: eventTitle
+        };
       }
 
       function showPrograms(searchTerm = '') {
         const dayStr = formatDate(currentDate);
         const dayPrograms = allPrograms[dayStr] || [];
         programsContainer.innerHTML = '';
-
         if (dayPrograms.length === 0) {
           programsContainer.innerHTML = '<div class="program">Nessun programma in onda in questa data.</div>';
           return;
         }
-
         const filtered = searchTerm
           ? dayPrograms.filter(p => {
               const title = p.eventTitle || p.title || '';
@@ -282,30 +295,40 @@
           : dayPrograms;
 
         const now = DateTime.now().setZone('Europe/Rome');
+        const isToday = formatDate(currentDate) === formatDate(new Date());
 
         filtered.forEach((program, idx) => {
           const start = program.time
             ? DateTime.fromFormat(program.time, 'HH:mm', { zone: 'Europe/Rome' })
             : DateTime.fromISO(program.starttime || program.start, { zone: 'Europe/Rome' });
-
           const next = filtered[idx + 1];
           const end = next?.time
             ? DateTime.fromFormat(next.time, 'HH:mm', { zone: 'Europe/Rome' })
             : DateTime.fromISO(program.endtime || program.end, { zone: 'Europe/Rome' });
 
-          const isNow = isSimplified && formatDate(currentDate) === formatDate(new Date())
-            ? (now >= start && (!end || now < end))
-            : (now >= start && end && now < end);
+          // Mostra ora in onda solo se è il giorno corrente
+          const isNow = isToday && now >= start && (!end || now < end);
 
-          const title = program.eventTitle || program.title || '';
-          const episodeInfo = program.episode_info || '';
-          const episodeTitle = program.episode_title || '';
-          const synopsis = program.eventSynopsis || program.description || program.episode_title || '';
+          // Parsing titolo per JSON complessi
+          let series = '', episodeInfo = '', episodeTitle = '';
+          if (program.eventTitle) {
+            const parsed = parseEventTitle(program.eventTitle);
+            series = parsed.series;
+            episodeInfo = parsed.episodeInfo;
+            episodeTitle = parsed.episodeTitle;
+          } else {
+            episodeTitle = program.eventTitle || program.title || '';
+            episodeInfo = program.episode_info || '';
+          }
+
           const isPrimeVision = program.primeVision || false;
 
-          let finalTitle = isSimplified
-            ? `${title}${episodeInfo ? ' - ' + episodeInfo : ''}`
-            : `${episodeInfo ? episodeInfo + ' - ' : ''}${title}`;
+          let finalTitle = '';
+          if (isSimplified) {
+            finalTitle = `${episodeTitle}${episodeInfo ? ' - ' + episodeInfo : ''}`;
+          } else {
+            finalTitle = `${series ? series + ' - ' : ''}${episodeInfo ? episodeInfo + ' - ' : ''}${episodeTitle}`;
+          }
 
           const programElem = document.createElement('div');
           programElem.className = 'program';
@@ -318,11 +341,13 @@
           else if (isPrimeVision) statusText = `<span class="prime-vision">• Prima TV</span>`;
 
           const timeStr = program.time || (start.isValid && end.isValid ? `${start.toFormat('HH:mm')} - ${end.toFormat('HH:mm')}` : 'Orario sconosciuto');
+
           programElem.innerHTML = `
             <div class="program-time">${timeStr} ${statusText}</div>
             <div class="program-title">${finalTitle}</div>
-            ${synopsis ? `<div class="program-synopsis">${synopsis}</div>` : ''}
+            ${program.eventSynopsis || program.description ? `<div class="program-synopsis">${program.eventSynopsis || program.description}</div>` : ''}
           `;
+
           programsContainer.appendChild(programElem);
         });
       }
@@ -348,7 +373,6 @@
           const desc = p.eventSynopsis || p.description || p.episode_title || '';
           return `${time} ${episodeInfo ? episodeInfo + ' - ' : ''}${title}\n    ${desc}`;
         }).join('\n\n');
-
         const blob = new Blob([text], { type: 'text/plain' });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
@@ -409,6 +433,7 @@
         footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
       }
       footer.addEventListener('click', toggleDarkMode);
+
       loadChannelData();
     });
   </script>
