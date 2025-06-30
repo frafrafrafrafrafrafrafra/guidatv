@@ -37,13 +37,15 @@
       color: #2c3e50;
       margin: 0;
     }
-    .loading, .error {
+    .loading {
       text-align: center;
       padding: 40px;
       font-size: 18px;
     }
     .error {
       color: #e74c3c;
+      text-align: center;
+      padding: 20px;
       background: #fdecea;
       border-radius: 4px;
       margin: 20px 0;
@@ -58,6 +60,15 @@
     .program-time {
       font-weight: bold;
       color: #2c3e50;
+    }
+    .program-title {
+      margin-top: 5px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .program-synopsis {
+      margin-top: 5px;
+      font-size: 14px;
     }
     .now-on-air {
       color: #e74c3c;
@@ -99,6 +110,7 @@
       cursor: pointer;
       user-select: none;
     }
+    .date-navigation button:hover:not(:disabled) { color: #555; }
     .date-navigation button:disabled {
       color: #ccc;
       cursor: default;
@@ -132,18 +144,13 @@
       border-radius: 4px;
       display: none;
     }
-    #export-txt-btn:hover {
-      background: #217dbb;
-    }
+    #export-txt-btn:hover { background: #217dbb; }
     footer {
       text-align: center;
       font-size: 0.9em;
       color: #666;
       padding: 10px 0;
-      margin-top: 20px;
-      max-width: 800px;
-      margin-left: auto;
-      margin-right: auto;
+      margin: 20px auto 0;
       user-select: none;
       cursor: pointer;
     }
@@ -156,25 +163,15 @@
       color: #e0e0e0;
       box-shadow: 0 2px 10px rgba(255,255,255,0.1);
     }
-    .dark-mode h1 {
-      color: #bbdefb;
-    }
-    .dark-mode .error {
-      background: #3a1a1a;
-    }
+    .dark-mode h1 { color: #bbdefb; }
+    .dark-mode .error { background: #3a1a1a; }
     .dark-mode .program {
       background: #2c2c2c;
       border-left-color: #8ab4f8;
     }
-    .dark-mode .program-time {
-      color: #bbdefb;
-    }
-    .dark-mode .now-on-air {
-      color: #ff6e6e;
-    }
-    .dark-mode .prime-vision {
-      color: #7aa7ff;
-    }
+    .dark-mode .program-time { color: #bbdefb; }
+    .dark-mode .now-on-air { color: #ff6e6e; }
+    .dark-mode .prime-vision { color: #7aa7ff; }
     .dark-mode #search-input,
     .dark-mode #date-picker {
       background-color: #333;
@@ -186,41 +183,29 @@
       border-color: #5599ff;
       color: #fff;
     }
-    .dark-mode #export-txt-btn:hover {
-      background: #3377ff;
-    }
-    .dark-mode .date-navigation button {
-      color: #eee;
-    }
-    .dark-mode .date-navigation button:hover:not(:disabled) {
-      color: #bbb;
-    }
-    .dark-mode .date-navigation button:disabled {
-      color: #555;
-    }
-    .dark-mode footer {
-      color: #ccc;
-    }
+    .dark-mode #export-txt-btn:hover { background: #3377ff; }
+    .dark-mode .date-navigation button { color: #eee; }
+    .dark-mode .date-navigation button:hover:not(:disabled) { color: #bbb; }
+    .dark-mode .date-navigation button:disabled { color: #555; }
+    .dark-mode footer { color: #ccc; }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
 </head>
 <body>
   <div class="container">
-    <header>
-      <h1 id="channel-name">Caricamento...</h1>
-    </header>
+    <header><h1 id="channel-name">Caricamento...</h1></header>
     <div id="content">
       <div class="loading" id="loading">Caricamento guida TV in corso...</div>
-      <div id="error-message" class="error" style="display: none;"></div>
-      <div id="controls" style="display: none;">
+      <div id="error-message" class="error" style="display:none;"></div>
+      <div id="controls" style="display:none;">
         <div class="search-container">
-          <input type="text" id="search-input" placeholder="Cerca programmi...">
+          <input type="text" id="search-input" placeholder="Cerca programmi…">
         </div>
         <div class="date-navigation">
           <button id="prev-day">◀</button>
-          <div style="display: flex; flex-direction: column; align-items: center;">
+          <div style="display:flex; flex-direction:column; align-items:center;">
             <div class="current-date" id="current-date" title="Clicca per selezionare una data"></div>
-            <input type="date" id="date-picker" />
+            <input type="date" id="date-picker">
           </div>
           <button id="next-day">▶</button>
         </div>
@@ -230,193 +215,171 @@
     </div>
   </div>
   <footer title="Clicca per attivare/disattivare la modalità scura">Powered by 🐯 - Modalità Scura OFF</footer>
+
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', () => {
       const { DateTime } = luxon;
-      const urlParams = new URLSearchParams(window.location.search);
+      const urlParams = new URLSearchParams(location.search);
       const siteId = urlParams.get('site_id');
-      const channelName = urlParams.get('name') || "Canale sconosciuto";
-      const channelNameElem = document.getElementById('channel-name');
+      const channelName = urlParams.get('name') || 'Canale sconosciuto';
+      const channelElem = document.getElementById('channel-name');
       const loadingElem = document.getElementById('loading');
       const errorElem = document.getElementById('error-message');
-      const controlsElem = document.getElementById('controls');
+      const controls = document.getElementById('controls');
       const programsContainer = document.getElementById('programs-container');
       const searchInput = document.getElementById('search-input');
-      const prevDayBtn = document.getElementById('prev-day');
-      const nextDayBtn = document.getElementById('next-day');
+      const prevBtn = document.getElementById('prev-day');
+      const nextBtn = document.getElementById('next-day');
       const currentDateElem = document.getElementById('current-date');
       const datePicker = document.getElementById('date-picker');
-      const exportTxtBtn = document.getElementById('export-txt-btn');
+      const exportBtn = document.getElementById('export-txt-btn');
       const footer = document.querySelector('footer');
+
       let allPrograms = {};
       let currentDate = new Date();
 
       function formatDate(d) {
         return d.toISOString().split('T')[0];
       }
-
-      function formatReadableDate(d) {
-        return d.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+      function formatReadable(d) {
+        return d.toLocaleDateString('it-IT', { weekday:'long', year:'numeric', month:'long', day:'numeric' });
       }
 
-      function showPrograms(searchTerm = '') {
-        const dayStr = formatDate(currentDate);
-        const dayPrograms = allPrograms[dayStr] || [];
+      function showPrograms(search='') {
+        const todayStr = DateTime.now().setZone('Europe/Rome').toISODate();
+        const dateStr = formatDate(currentDate);
+        const dayProgs = allPrograms[dateStr] || [];
         programsContainer.innerHTML = '';
-
-        if (dayPrograms.length === 0) {
+        if (!dayProgs.length) {
           programsContainer.innerHTML = '<div class="program">Nessun programma in onda in questa data.</div>';
           return;
         }
 
-        const filtered = searchTerm
-          ? dayPrograms.filter(p => {
-              const title = p.eventTitle || p.title || '';
-              const synopsis = p.eventSynopsis || p.description || p.episode_title || '';
-              return title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                     synopsis.toLowerCase().includes(searchTerm.toLowerCase());
+        const filtered = search
+          ? dayProgs.filter(p => {
+              const title = p.eventTitle||p.title||'';
+              const desc = p.eventSynopsis||p.description||p.episode_title||'';
+              return title.toLowerCase().includes(search.toLowerCase()) ||
+                     desc.toLowerCase().includes(search.toLowerCase());
             })
-          : dayPrograms;
+          : dayProgs;
 
         const now = DateTime.now().setZone('Europe/Rome');
+        filtered.forEach((p, i) => {
+          const next = filtered[i+1];
+          const startISO = p.starttime||p.start||p.time;
+          const start = DateTime.fromISO(startISO, { zone:'Europe/Rome' });
+          let end = null;
+          if (p.endtime||p.end) end = DateTime.fromISO(p.endtime||p.end, { zone:'Europe/Rome' });
+          else if (next?.time) end = DateTime.fromISO(next.time, { zone:'Europe/Rome' });
 
-        filtered.forEach((program, idx) => {
-          const nextProgram = filtered[idx + 1];
-          const startStr = program.starttime || program.start || program.time;
-          const start = DateTime.fromISO(startStr, { zone: 'Europe/Rome' });
+          const isToday = dateStr === todayStr;
+          const isNow = isToday && end && start.isValid && end.isValid && now>=start && now<end;
+          const isPrime = p.primeVision || false;
 
-          let end;
-          if (program.endtime || program.end) {
-            end = DateTime.fromISO(program.endtime || program.end, { zone: 'Europe/Rome' });
-          } else if (nextProgram?.time) {
-            end = DateTime.fromISO(nextProgram.time, { zone: 'Europe/Rome' });
-          }
+          const serie = p.title||'';
+          const epInfo = p.episode_info ? p.episode_info+' - ' : '';
+          const epTitle = p.episode_title ? ' - '+p.episode_title : '';
+          const eventTitle = p.eventTitle||serie;
+          const desc = p.eventSynopsis||p.description||'';
 
-          const isNow = end && now >= start && now < end;
-          const isPrimeVision = program.primeVision || false;
-          const title = program.eventTitle || program.title || '';
-          const synopsis = program.eventSynopsis || program.description || program.episode_title || '';
-          const episodeInfo = program.episode_info || '';
+          const prog = document.createElement('div');
+          prog.className = 'program';
+          if (isNow) prog.style.borderLeft='4px solid #e74c3c';
+          else if (isPrime) prog.style.borderLeft='4px solid #1a4b8c';
 
-          const programElem = document.createElement('div');
-          programElem.className = 'program';
-          if (isNow) {
-            programElem.style.borderLeft = '4px solid #e74c3c';
-          } else if (isPrimeVision) {
-            programElem.style.borderLeft = '4px solid #1a4b8c';
-          }
+          let status='';
+          if (isNow && isPrime) status = '<span class="now-on-air">• Ora in onda</span><span class="prime-vision">• Prima TV</span>';
+          else if (isNow) status = '<span class="now-on-air">• Ora in onda</span>';
+          else if (isPrime) status = '<span class="prime-vision">• Prima TV</span>';
 
-          let statusText = '';
-          if (isNow && isPrimeVision) statusText = `<span class="now-on-air">• Ora in onda</span> <span class="prime-vision">• Prima TV</span>`;
-          else if (isNow) statusText = `<span class="now-on-air">• Ora in onda</span>`;
-          else if (isPrimeVision) statusText = `<span class="prime-vision">• Prima TV</span>`;
-
-          programElem.innerHTML = `
-            <div class="program-time">${start.isValid ? start.toFormat('HH:mm') : '??:??'}${end?.isValid ? ' - ' + end.toFormat('HH:mm') : ''} ${statusText}</div>
-            <div class="program-title">${episodeInfo ? episodeInfo + ' - ' : ''}${title}</div>
-            ${synopsis ? `<div class="program-synopsis">${synopsis}</div>` : ''}
+          prog.innerHTML = `
+            <div class="program-time">
+              ${start.isValid ? start.toFormat('HH:mm') : '??:??'}
+              ${end?.isValid ? ' - '+end.toFormat('HH:mm') : ''}
+              ${status}
+            </div>
+            <div class="program-title">
+              ${serie}${epTitle.replace(' - '+serie,'').length>1 ? ' - '+epTitle.replace(' - '+serie,'') : ''}
+            </div>
+            ${desc ? '<div class="program-synopsis">'+desc+'</div>' : ''}
           `;
-          programsContainer.appendChild(programElem);
+          programsContainer.appendChild(prog);
         });
       }
 
       function updateView() {
-        currentDateElem.textContent = formatReadableDate(currentDate);
-        document.title = `${channelName} - ${formatReadableDate(currentDate)}`;
+        currentDateElem.textContent = formatReadable(currentDate);
+        document.title = channelName+' - '+formatReadable(currentDate);
         showPrograms(searchInput.value);
         datePicker.value = formatDate(currentDate);
       }
 
       function exportToTxt() {
-        const dayStr = formatDate(currentDate);
-        const dayPrograms = allPrograms[dayStr] || [];
-        if (dayPrograms.length === 0) {
-          alert('Nessun programma disponibile per questa data.');
-          return;
-        }
-        const text = dayPrograms.map(p => {
-          const start = DateTime.fromISO(p.starttime || p.start || p.time, { zone: 'Europe/Rome' }).toFormat('HH:mm');
-          const end = p.endtime || p.end
-            ? DateTime.fromISO(p.endtime || p.end, { zone: 'Europe/Rome' }).toFormat('HH:mm')
+        const dateStr = formatDate(currentDate);
+        const progs = allPrograms[dateStr]||[];
+        if (!progs.length) return alert('Nessun programma disponibile per questa data.');
+        const lines = progs.map(p => {
+          const start = DateTime.fromISO(p.starttime||p.start||p.time,{zone:'Europe/Rome'}).toFormat('HH:mm');
+          const end = (p.endtime||p.end)
+            ? DateTime.fromISO(p.endtime||p.end,{zone:'Europe/Rome'}).toFormat('HH:mm')
             : '';
-          const title = p.eventTitle || p.title || '';
-          const synopsis = p.eventSynopsis || p.description || p.episode_title || '';
-          const episodeInfo = p.episode_info || '';
-          return `${start}${end ? ' - ' + end : ''} ${episodeInfo ? episodeInfo + ' - ' : ''}${title}\n    ${synopsis}`;
-        }).join('\n\n');
-
-        const blob = new Blob([text], { type: 'text/plain' });
-        const url = URL.createObjectURL(blob);
+          const serie = p.title||'';
+          const epInfo = p.episode_info ? p.episode_info+' - ' : '';
+          const epTitle = p.episode_title ? ' - '+p.episode_title : '';
+          const title = p.eventTitle||serie;
+          return `${start}${end?' - '+end:''} ${epInfo}${serie}${epTitle}`;
+        });
+        const blob = new Blob([lines.join("\n")],{type:'text/plain'});
         const a = document.createElement('a');
-        a.href = url;
-        a.download = `${channelName.replace(/\s+/g, '_')}_${dayStr}.txt`;
+        a.href = URL.createObjectURL(blob);
+        a.download = `${channelName.replace(/\s+/g,'_')}_${dateStr}.txt`;
         document.body.appendChild(a);
         a.click();
-        setTimeout(() => {
-          document.body.removeChild(a);
-          URL.revokeObjectURL(url);
-        }, 100);
+        setTimeout(()=>{ document.body.removeChild(a); URL.revokeObjectURL(a.href); }, 100);
       }
 
-      function toggleDarkMode() {
-        const isDark = document.body.classList.toggle('dark-mode');
-        footer.textContent = 'Powered by 🐯 - Modalità Scura ' + (isDark ? 'ON' : 'OFF');
-        localStorage.setItem('darkMode', isDark ? 'true' : 'false');
+      function toggleDark() {
+        const dark = document.body.classList.toggle('dark-mode');
+        footer.textContent = 'Powered by 🐯 - Modalità Scura '+(dark?'ON':'OFF');
+        localStorage.setItem('darkMode', dark);
       }
 
-      function showError(message) {
-        loadingElem.style.display = 'none';
-        errorElem.style.display = 'block';
-        errorElem.textContent = message;
-        controlsElem.style.display = 'none';
-        exportTxtBtn.style.display = 'none';
-      }
-
-      function loadChannelData() {
-        if (!siteId) {
-          showError("Parametro site_id mancante nell'URL");
-          return;
-        }
-        channelNameElem.textContent = channelName;
-        const jsonPath = `output/guides/${encodeURIComponent(siteId)}.json`;
-        fetch(jsonPath)
-          .then(response => {
-            if (!response.ok) throw new Error(`Errore ${response.status}: ${response.statusText}`);
-            return response.json();
-          })
-          .then(data => {
-            if (!data.events_by_date) throw new Error("Formato dati non valido: events_by_date mancante");
-            allPrograms = data.events_by_date;
-            loadingElem.style.display = 'none';
-            controlsElem.style.display = 'block';
-            exportTxtBtn.style.display = 'inline-block';
+      function load() {
+        if (!siteId) return showErr('Parametro site_id mancante');
+        channelElem.textContent = channelName;
+        fetch(`output/guides/${encodeURIComponent(siteId)}.json`)
+          .then(r=>r.json())
+          .then(d=>{
+            if (!d.events_by_date) throw 'Formato dati non valido';
+            allPrograms = d.events_by_date;
+            loadingElem.style.display='none';
+            controls.style.display='block';
+            exportBtn.style.display='inline-block';
             updateView();
           })
-          .catch(error => {
-            console.error('Errore caricamento dati:', error);
-            showError(`Impossibile caricare la guida TV: ${error.message}`);
-          });
+          .catch(e=>showErr('Errore caricamento: '+e));
       }
 
-      prevDayBtn.addEventListener('click', () => { currentDate.setDate(currentDate.getDate() - 1); updateView(); });
-      nextDayBtn.addEventListener('click', () => { currentDate.setDate(currentDate.getDate() + 1); updateView(); });
-      searchInput.addEventListener('input', () => updateView());
-      currentDateElem.addEventListener('click', () => { datePicker.style.display = 'block'; datePicker.focus(); });
-      datePicker.addEventListener('change', () => {
-        if (datePicker.value) {
-          currentDate = new Date(datePicker.value);
-          updateView();
-        }
-        datePicker.style.display = 'none';
-      });
-      datePicker.addEventListener('blur', () => datePicker.style.display = 'none');
-      exportTxtBtn.addEventListener('click', exportToTxt);
-      if (localStorage.getItem('darkMode') === 'true') {
-        document.body.classList.add('dark-mode');
-        footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
+      function showErr(msg) {
+        loadingElem.style.display='none';
+        errorElem.textContent=msg;
+        errorElem.style.display='block';
       }
-      footer.addEventListener('click', toggleDarkMode);
-      loadChannelData();
+
+      prevBtn.onclick = ()=>{ currentDate.setDate(currentDate.getDate()-1); updateView(); };
+      nextBtn.onclick = ()=>{ currentDate.setDate(currentDate.getDate()+1); updateView(); };
+      searchInput.oninput = ()=>updateView();
+      currentDateElem.onclick = ()=>{ datePicker.style.display='block'; datePicker.focus(); };
+      datePicker.onchange = ()=>{
+        if(datePicker.value) currentDate=new Date(datePicker.value);
+        datePicker.style.display='none';
+        updateView();
+      };
+      exportBtn.onclick = exportToTxt;
+      footer.onclick = toggleDark;
+      if (localStorage.getItem('darkMode')==='true') toggleDark();
+      load();
     });
   </script>
 </body>
