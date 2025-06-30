@@ -23,5 +23,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4
 
-      - name: Run scraping script
+      - name: Run scraping script with proxy
+        env:
+          HTTP_PROXY: http://104.18.112.148:80
+          HTTPS_PROXY: http://104.18.112.148:80
         run: python bc.py
