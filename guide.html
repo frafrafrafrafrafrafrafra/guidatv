@@ -37,15 +37,13 @@
       color: #2c3e50;
       margin: 0;
     }
-    .loading {
+    .loading, .error {
       text-align: center;
       padding: 40px;
       font-size: 18px;
     }
     .error {
       color: #e74c3c;
-      text-align: center;
-      padding: 20px;
       background: #fdecea;
       border-radius: 4px;
       margin: 20px 0;
@@ -100,9 +98,6 @@
       font-size: 24px;
       cursor: pointer;
       user-select: none;
-    }
-    .date-navigation button:hover:not(:disabled) {
-      color: #555;
     }
     .date-navigation button:disabled {
       color: #ccc;
@@ -207,7 +202,6 @@
       color: #ccc;
     }
   </style>
-  <!-- Luxon -->
   <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
 </head>
 <body>
@@ -237,7 +231,7 @@
   </div>
   <footer title="Clicca per attivare/disattivare la modalità scura">Powered by 🐯 - Modalità Scura OFF</footer>
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       const { DateTime } = luxon;
       const urlParams = new URLSearchParams(window.location.search);
       const siteId = urlParams.get('site_id');
@@ -256,14 +250,6 @@
       const footer = document.querySelector('footer');
       let allPrograms = {};
       let currentDate = new Date();
-
-      function showError(message) {
-        loadingElem.style.display = 'none';
-        errorElem.style.display = 'block';
-        errorElem.textContent = message;
-        controlsElem.style.display = 'none';
-        exportTxtBtn.style.display = 'none';
-      }
 
       function formatDate(d) {
         return d.toISOString().split('T')[0];
@@ -286,29 +272,31 @@
         const filtered = searchTerm
           ? dayPrograms.filter(p => {
               const title = p.eventTitle || p.title || '';
-              const synopsis = p.eventSynopsis || p.description || '';
-              return (
-                title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                synopsis.toLowerCase().includes(searchTerm.toLowerCase())
-              );
+              const synopsis = p.eventSynopsis || p.description || p.episode_title || '';
+              return title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                     synopsis.toLowerCase().includes(searchTerm.toLowerCase());
             })
           : dayPrograms;
 
-        if (filtered.length === 0) {
-          programsContainer.innerHTML = '<div class="program">Nessun programma corrisponde alla ricerca.</div>';
-          return;
-        }
-
         const now = DateTime.now().setZone('Europe/Rome');
 
-        filtered.forEach(program => {
-          const startTime = DateTime.fromISO(program.starttime || program.start, { zone: 'Europe/Rome' });
-          const endTime = DateTime.fromISO(program.endtime || program.end, { zone: 'Europe/Rome' });
+        filtered.forEach((program, idx) => {
+          const nextProgram = filtered[idx + 1];
+          const startStr = program.starttime || program.start || program.time;
+          const start = DateTime.fromISO(startStr, { zone: 'Europe/Rome' });
 
-          const isNow = now >= startTime && now <= endTime;
+          let end;
+          if (program.endtime || program.end) {
+            end = DateTime.fromISO(program.endtime || program.end, { zone: 'Europe/Rome' });
+          } else if (nextProgram?.time) {
+            end = DateTime.fromISO(nextProgram.time, { zone: 'Europe/Rome' });
+          }
+
+          const isNow = end && now >= start && now < end;
           const isPrimeVision = program.primeVision || false;
           const title = program.eventTitle || program.title || '';
-          const synopsis = program.eventSynopsis || program.description || '';
+          const synopsis = program.eventSynopsis || program.description || program.episode_title || '';
+          const episodeInfo = program.episode_info || '';
 
           const programElem = document.createElement('div');
           programElem.className = 'program';
@@ -319,20 +307,13 @@
           }
 
           let statusText = '';
-          if (isNow && isPrimeVision) {
-            statusText = `<span class="now-on-air">• Ora in onda</span> <span class="prime-vision">• Prima TV</span>`;
-          } else if (isNow) {
-            statusText = `<span class="now-on-air">• Ora in onda</span>`;
-          } else if (isPrimeVision) {
-            statusText = `<span class="prime-vision">• Prima TV</span>`;
-          }
+          if (isNow && isPrimeVision) statusText = `<span class="now-on-air">• Ora in onda</span> <span class="prime-vision">• Prima TV</span>`;
+          else if (isNow) statusText = `<span class="now-on-air">• Ora in onda</span>`;
+          else if (isPrimeVision) statusText = `<span class="prime-vision">• Prima TV</span>`;
 
           programElem.innerHTML = `
-            <div class="program-time">
-              ${startTime.toFormat('HH:mm')} - ${endTime.toFormat('HH:mm')}
-              ${statusText}
-            </div>
-            <div class="program-title">${title}</div>
+            <div class="program-time">${start.isValid ? start.toFormat('HH:mm') : '??:??'}${end?.isValid ? ' - ' + end.toFormat('HH:mm') : ''} ${statusText}</div>
+            <div class="program-title">${episodeInfo ? episodeInfo + ' - ' : ''}${title}</div>
             ${synopsis ? `<div class="program-synopsis">${synopsis}</div>` : ''}
           `;
           programsContainer.appendChild(programElem);
@@ -354,18 +335,21 @@
           return;
         }
         const text = dayPrograms.map(p => {
-          const start = DateTime.fromISO(p.starttime || p.start, { zone: 'Europe/Rome' }).toFormat('HH:mm');
-          const end = DateTime.fromISO(p.endtime || p.end, { zone: 'Europe/Rome' }).toFormat('HH:mm');
+          const start = DateTime.fromISO(p.starttime || p.start || p.time, { zone: 'Europe/Rome' }).toFormat('HH:mm');
+          const end = p.endtime || p.end
+            ? DateTime.fromISO(p.endtime || p.end, { zone: 'Europe/Rome' }).toFormat('HH:mm')
+            : '';
           const title = p.eventTitle || p.title || '';
-          const synopsis = p.eventSynopsis || p.description || '';
-          return `${start} - ${end} ${title}\n    ${synopsis}`;
+          const synopsis = p.eventSynopsis || p.description || p.episode_title || '';
+          const episodeInfo = p.episode_info || '';
+          return `${start}${end ? ' - ' + end : ''} ${episodeInfo ? episodeInfo + ' - ' : ''}${title}\n    ${synopsis}`;
         }).join('\n\n');
 
-        const blob = new Blob([text], {type: 'text/plain'});
+        const blob = new Blob([text], { type: 'text/plain' });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = `${channelName.replace(/\s+/g,'_')}_${dayStr}.txt`;
+        a.download = `${channelName.replace(/\s+/g, '_')}_${dayStr}.txt`;
         document.body.appendChild(a);
         a.click();
         setTimeout(() => {
@@ -378,6 +362,14 @@
         const isDark = document.body.classList.toggle('dark-mode');
         footer.textContent = 'Powered by 🐯 - Modalità Scura ' + (isDark ? 'ON' : 'OFF');
         localStorage.setItem('darkMode', isDark ? 'true' : 'false');
+      }
+
+      function showError(message) {
+        loadingElem.style.display = 'none';
+        errorElem.style.display = 'block';
+        errorElem.textContent = message;
+        controlsElem.style.display = 'none';
+        exportTxtBtn.style.display = 'none';
       }
 
       function loadChannelData() {
@@ -406,19 +398,10 @@
           });
       }
 
-      prevDayBtn.addEventListener('click', () => {
-        currentDate.setDate(currentDate.getDate() - 1);
-        updateView();
-      });
-      nextDayBtn.addEventListener('click', () => {
-        currentDate.setDate(currentDate.getDate() + 1);
-        updateView();
-      });
+      prevDayBtn.addEventListener('click', () => { currentDate.setDate(currentDate.getDate() - 1); updateView(); });
+      nextDayBtn.addEventListener('click', () => { currentDate.setDate(currentDate.getDate() + 1); updateView(); });
       searchInput.addEventListener('input', () => updateView());
-      currentDateElem.addEventListener('click', () => {
-        datePicker.style.display = 'block';
-        datePicker.focus();
-      });
+      currentDateElem.addEventListener('click', () => { datePicker.style.display = 'block'; datePicker.focus(); });
       datePicker.addEventListener('change', () => {
         if (datePicker.value) {
           currentDate = new Date(datePicker.value);
