@@ -25,6 +25,6 @@ jobs:
 
       - name: Run scraping script with proxy
         env:
-          HTTP_PROXY: http://104.18.112.148:80
-          HTTPS_PROXY: http://104.18.112.148:80
+          HTTP_PROXY: http://209.97.150.167:80
+          HTTPS_PROXY: http://209.97.150.167:80
         run: python bc.py
