@@ -1,172 +1,6 @@
 {
   "name": "Sky Sport",
   "events_by_date": {
-    "2025-06-30": [
-      {
-        "channel": {
-          "id": 11496,
-          "logo": "/logo/951wimbledon2_Light_Fit.png",
-          "logoPadding": "/logo/951wimbledon2_Light_Padding.png",
-          "logoDark": "/logo/951wimbledon2_Dark_Fit.png",
-          "logoDarkPadding": "/logo/951wimbledon2_Dark_Padding.png",
-          "logoLight": "/logo/951wimbledon2_Light_Padding.png",
-          "name": "Wimbledon 2",
-          "number": 252,
-          "servicekey": "951",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "ecd4e92d-3954-473a-b76f-b288efe1aa8d",
-          "contentTitle": "Studio Tennis (diretta)",
-          "episodeNumber": 122,
-          "seasonNumber": 2025,
-          "url": "/sport/studio-tennis/studio-tennis-diretta/ecd4e92d-3954-473a-b76f-b288efe1aa8d",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=6d3877ae7c59d8117c017023454ba1d8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6d3877ae7c59d8117c017023454ba1d8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6d3877ae7c59d8117c017023454ba1d8"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/background?territory=IT&md5ChecksumParam=30f498a58b21a82e8cabb338bdf75671"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/cover?territory=IT&md5ChecksumParam=6d3877ae7c59d8117c017023454ba1d8"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/16-9?territory=IT&md5ChecksumParam=41fbccfbc1886f7e2906befd2beb42b9"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=41fbccfbc1886f7e2906befd2beb42b9"
-              }
-            }
-          ]
-        },
-        "eventId": "149584244",
-        "starttime": "2025-06-30T09:45:00Z",
-        "endtime": "2025-06-30T10:00:00Z",
-        "eventTitle": "Studio Tennis (diretta)",
-        "eventSynopsis": "Anticipazioni e ultime notizie da Wimbledon per presentare la giornata del torneo di tennis piu' prestigioso.",
-        "epgEventTitle": "Studio Tennis ",
-        "programHighlights": "L",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11496,
-          "logo": "/logo/951wimbledon2_Light_Fit.png",
-          "logoPadding": "/logo/951wimbledon2_Light_Padding.png",
-          "logoDark": "/logo/951wimbledon2_Dark_Fit.png",
-          "logoDarkPadding": "/logo/951wimbledon2_Dark_Padding.png",
-          "logoLight": "/logo/951wimbledon2_Light_Padding.png",
-          "name": "Wimbledon 2",
-          "number": 252,
-          "servicekey": "951",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "73557d54-f269-4f41-bc04-331cb07b7cc8",
-          "contentTitle": "Tennis Grand Slam Wimbledon Championship - Stag. Tennis Grand Slam Wimbledon Champ. 2025 - Tennis Grand Slam Wimbledon Champ. 2025 1a Giornata (Ss 252) 30/06/2025",
-          "url": "/sport/tennis/tennis-grand-slam-wimbledon-championship-stag-tennis-grand-slam-wimbledon-champ-2025-tennis-grand-slam-wimbledon-champ-2025-1a-giornata-ss-252-30-06-2025/73557d54-f269-4f41-bc04-331cb07b7cc8",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/73557d54-f269-4f41-bc04-331cb07b7cc8/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=592a86491cb8aaf1e2c612deb9bb51cc"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/73557d54-f269-4f41-bc04-331cb07b7cc8/background?territory=IT&md5ChecksumParam=046af0ef62bb0cfda466963c4cd3bb7e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/73557d54-f269-4f41-bc04-331cb07b7cc8/cover?territory=IT&md5ChecksumParam=40c4fd22774f03fcc728e7ce3e35a6a8"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/73557d54-f269-4f41-bc04-331cb07b7cc8/16-9?territory=IT&md5ChecksumParam=0d4b41169c39d8710298f13adab9c15a"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/73557d54-f269-4f41-bc04-331cb07b7cc8/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=0d4b41169c39d8710298f13adab9c15a"
-              }
-            }
-          ]
-        },
-        "eventId": "149584243",
-        "starttime": "2025-06-30T10:00:00Z",
-        "endtime": "2025-06-30T20:00:00Z",
-        "eventTitle": "Wimbledon 2025",
-        "eventSynopsis": "Wimbledon, 1a giornata - Campo n.2: BONZI-MEDVEDEV, RUSE-KEYS (Botti-Arnaboldi); PAOLINI-SEVASTOVA, FRITZ-MP.PERRICARD (Massara-Reggi)",
-        "epgEventTitle": "Wimbledon 2025",
-        "programHighlights": "L",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
     "2025-07-01": [
       {
         "channel": {
@@ -548,9 +382,9 @@
         "eventId": "149589676",
         "starttime": "2025-07-05T09:45:00Z",
         "endtime": "2025-07-05T10:00:00Z",
-        "eventTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 05/07/2025",
+        "eventTitle": "Studi Tennis - Ep. 127 - Studio Tennis Wimbledon 05/07/2025",
         "eventSynopsis": "Studio Tennis Wimbledon",
-        "epgEventTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 05/07/2025",
+        "epgEventTitle": "Studi Tennis - Ep. 127 - Studio Tennis Wimbledon 05/07/2025",
         "programHighlights": "L",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -981,6 +815,7 @@
     "2025-08-06": [],
     "2025-08-07": [],
     "2025-08-08": [],
-    "2025-08-09": []
+    "2025-08-09": [],
+    "2025-08-10": []
   }
 }

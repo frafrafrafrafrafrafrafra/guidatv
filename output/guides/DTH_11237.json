@@ -1,696 +1,6 @@
 {
   "name": "Sky Sport Tennis",
   "events_by_date": {
-    "2025-06-30": [
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "6933220f-13ed-459a-a665-1a5b2b5b04e9",
-          "contentTitle": "Pennetta incontra Paolini",
-          "episodeNumber": 0,
-          "url": "/programmi-tv/tennis/pennetta-incontra-paolini/6933220f-13ed-459a-a665-1a5b2b5b04e9",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/6933220f-13ed-459a-a665-1a5b2b5b04e9/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ee6e955475e2068697e5799461720867"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6933220f-13ed-459a-a665-1a5b2b5b04e9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=aae521c78e8d91b870278496e20fcf36"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6933220f-13ed-459a-a665-1a5b2b5b04e9/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ee6e955475e2068697e5799461720867"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/6933220f-13ed-459a-a665-1a5b2b5b04e9/background?territory=IT&md5ChecksumParam=c8fc7131c40ba4788b61e8bf81816295"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/6933220f-13ed-459a-a665-1a5b2b5b04e9/cover?territory=IT&md5ChecksumParam=aae521c78e8d91b870278496e20fcf36"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/6933220f-13ed-459a-a665-1a5b2b5b04e9/16-9?territory=IT&md5ChecksumParam=f4972528ed7c1436ae88505b241dacdd"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/6933220f-13ed-459a-a665-1a5b2b5b04e9/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=83263b535390b2974857221618653b65"
-              }
-            }
-          ]
-        },
-        "eventId": "411331997",
-        "starttime": "2025-06-30T01:45:00Z",
-        "endtime": "2025-06-30T02:15:00Z",
-        "eventTitle": "Pennetta incontra Paolini",
-        "eventSynopsis": "Pennetta incontra Paolini",
-        "epgEventTitle": "Pennetta incontra Paolini",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "14ab1da7-31f3-4ae4-a699-76fb224c570b",
-          "contentTitle": "Panatta & Bertolucci Tennis Heroes",
-          "episodeNumber": 3,
-          "seasonNumber": 1,
-          "url": "/sport/panatta-and-bertolucci-tennis-heroes/panatta-and-bertolucci-tennis-heroes/14ab1da7-31f3-4ae4-a699-76fb224c570b",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=39205ce4d20b38d196f06c18760f5142"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=1f6db7ec8256af5d7bbd771b157670aa"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=39205ce4d20b38d196f06c18760f5142"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/background?territory=IT&md5ChecksumParam=03fa97f8ea7a07d8379359af52648a10"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/cover?territory=IT&md5ChecksumParam=1f6db7ec8256af5d7bbd771b157670aa"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/16-9?territory=IT&md5ChecksumParam=5745c26103cb7fd69cff8399656c70ce"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=5745c26103cb7fd69cff8399656c70ce"
-              }
-            }
-          ]
-        },
-        "eventId": "411341995",
-        "starttime": "2025-06-30T04:15:00Z",
-        "endtime": "2025-06-30T04:55:00Z",
-        "eventTitle": "Panatta & Bertolucci Tennis Heroes",
-        "eventSynopsis": "Agassi Sampras - Panatta & Bertolucci Tennis Heroes",
-        "epgEventTitle": "Panatta & Bertolucci Tennis Heroes",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "486cd6cf-3f7a-4724-a0b2-c7a230b35b25",
-          "contentTitle": "Sinner - Alcaraz",
-          "episodeNumber": 28,
-          "seasonNumber": 2022,
-          "url": "/sport/wimbledon/sinner-alcaraz/486cd6cf-3f7a-4724-a0b2-c7a230b35b25",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/486cd6cf-3f7a-4724-a0b2-c7a230b35b25/background?territory=IT&md5ChecksumParam=b08150ba7e1739486467156efa084343"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/486cd6cf-3f7a-4724-a0b2-c7a230b35b25/cover?territory=IT&md5ChecksumParam=3f90f2f6da8ed51353d94852dc6ef49d"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/486cd6cf-3f7a-4724-a0b2-c7a230b35b25/16-9?territory=IT&md5ChecksumParam=6794f79259b2450f41249c47d8db261a"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411341996",
-        "starttime": "2025-06-30T04:55:00Z",
-        "endtime": "2025-06-30T08:30:00Z",
-        "eventTitle": "Sinner - Alcaraz",
-        "eventSynopsis": "Ottavi di finale - (TC: Pero-Bertolucci).",
-        "epgEventTitle": "Sinner - Alcaraz",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "dc4a7de6-68b9-49f8-9557-619372e647f6",
-          "contentTitle": "Wimbledon",
-          "episodeNumber": 6,
-          "seasonNumber": 2025,
-          "url": "/sport/tennis-history-remix/wimbledon/dc4a7de6-68b9-49f8-9557-619372e647f6",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/dc4a7de6-68b9-49f8-9557-619372e647f6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b5a3ecdec2ac508b0eeb7af76605e198"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/dc4a7de6-68b9-49f8-9557-619372e647f6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fc6c08822973bedbde110db98c4e4d9c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/dc4a7de6-68b9-49f8-9557-619372e647f6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fc6c08822973bedbde110db98c4e4d9c"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/dc4a7de6-68b9-49f8-9557-619372e647f6/background?territory=IT&md5ChecksumParam=a406d4bd084e9157775bd4e64f8200da"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/dc4a7de6-68b9-49f8-9557-619372e647f6/cover?territory=IT&md5ChecksumParam=b5a3ecdec2ac508b0eeb7af76605e198"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/dc4a7de6-68b9-49f8-9557-619372e647f6/16-9?territory=IT&md5ChecksumParam=227b71ad130eef2130dcefd5e381a31d"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/dc4a7de6-68b9-49f8-9557-619372e647f6/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=c11fde32076b6e2e987a9e0fe2f4f167"
-              }
-            }
-          ]
-        },
-        "eventId": "411341997",
-        "starttime": "2025-06-30T08:30:00Z",
-        "endtime": "2025-06-30T09:00:00Z",
-        "eventTitle": "Wimbledon",
-        "eventSynopsis": "Wimbledon - Riviviamo i migliori incontri di tennis.",
-        "epgEventTitle": "Wimbledon",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "14ab1da7-31f3-4ae4-a699-76fb224c570b",
-          "contentTitle": "Panatta & Bertolucci Tennis Heroes",
-          "episodeNumber": 3,
-          "seasonNumber": 1,
-          "url": "/sport/panatta-and-bertolucci-tennis-heroes/panatta-and-bertolucci-tennis-heroes/14ab1da7-31f3-4ae4-a699-76fb224c570b",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=39205ce4d20b38d196f06c18760f5142"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=1f6db7ec8256af5d7bbd771b157670aa"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=39205ce4d20b38d196f06c18760f5142"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/background?territory=IT&md5ChecksumParam=03fa97f8ea7a07d8379359af52648a10"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/cover?territory=IT&md5ChecksumParam=1f6db7ec8256af5d7bbd771b157670aa"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/16-9?territory=IT&md5ChecksumParam=5745c26103cb7fd69cff8399656c70ce"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=5745c26103cb7fd69cff8399656c70ce"
-              }
-            }
-          ]
-        },
-        "eventId": "411341998",
-        "starttime": "2025-06-30T09:00:00Z",
-        "endtime": "2025-06-30T09:45:00Z",
-        "eventTitle": "Panatta & Bertolucci Tennis Heroes",
-        "eventSynopsis": "Agassi Sampras - Panatta & Bertolucci Tennis Heroes",
-        "epgEventTitle": "Panatta & Bertolucci Tennis Heroes",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "ecd4e92d-3954-473a-b76f-b288efe1aa8d",
-          "contentTitle": "Studio Tennis (diretta)",
-          "episodeNumber": 122,
-          "seasonNumber": 2025,
-          "url": "/sport/studio-tennis/studio-tennis-diretta/ecd4e92d-3954-473a-b76f-b288efe1aa8d",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=6d3877ae7c59d8117c017023454ba1d8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6d3877ae7c59d8117c017023454ba1d8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6d3877ae7c59d8117c017023454ba1d8"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/background?territory=IT&md5ChecksumParam=30f498a58b21a82e8cabb338bdf75671"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/cover?territory=IT&md5ChecksumParam=6d3877ae7c59d8117c017023454ba1d8"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/16-9?territory=IT&md5ChecksumParam=41fbccfbc1886f7e2906befd2beb42b9"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/ecd4e92d-3954-473a-b76f-b288efe1aa8d/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=41fbccfbc1886f7e2906befd2beb42b9"
-              }
-            }
-          ]
-        },
-        "eventId": "411415034",
-        "starttime": "2025-06-30T09:45:00Z",
-        "endtime": "2025-06-30T10:00:00Z",
-        "eventTitle": "Studio Tennis (diretta)",
-        "eventSynopsis": "Studio Tennis (diretta) - Anticipazioni e ultime notizie da Wimbledon per presentare la giornata del torneo di tennis piu' prestigioso",
-        "epgEventTitle": "Studio Tennis ",
-        "programHighlights": "L",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "2c085149-c764-4441-9c53-e094e1e768ae",
-          "contentTitle": "Tennis Wimbledon The Insider 2025 Ep.1 30/06/2025",
-          "episodeNumber": 1,
-          "seasonNumber": 2025,
-          "url": "/sport/the-insider-wimbledon/tennis-wimbledon-the-insider-2025-ep1-30-06-2025/2c085149-c764-4441-9c53-e094e1e768ae",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/HERO_CLEAN_WIDE?territory=IT&version=01c6bee5-017f-3d49-adba-dfc96a03320d&w=1920&h=1080&md5ChecksumParam=316991dc0e9b4b84aaa0767b241d99e5"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/ASSET_CLEAN_WIDE?territory=IT&version=a09cb36f-5c51-3fb5-a0c3-78a4b41b7450&w=1920&h=1080&md5ChecksumParam=a3b70b9496f70d1eed2dcb543a76d61a"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_TITLE_WIDE?territory=IT&version=793a9bfe-d19b-3e56-bb83-c0b1f5141618&w=1920&h=1080&md5ChecksumParam=a3b70b9496f70d1eed2dcb543a76d61a"
-              }
-            }
-          ]
-        },
-        "eventId": "411342003",
-        "starttime": "2025-06-30T20:30:00Z",
-        "endtime": "2025-06-30T21:00:00Z",
-        "eventTitle": "Tennis Wimbledon The Insider 2025 Ep.1 30/06/2025",
-        "eventSynopsis": "Tennis Wimbledon The Insider 2025 Ep.1 30/06/2025 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider\".",
-        "epgEventTitle": "Tennis Wimbledon The Insider 2025 Ep.1 30/06/2025",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "2c085149-c764-4441-9c53-e094e1e768ae",
-          "contentTitle": "Tennis Wimbledon The Insider 2025 Ep.1 30/06/2025",
-          "episodeNumber": 1,
-          "seasonNumber": 2025,
-          "url": "/sport/the-insider-wimbledon/tennis-wimbledon-the-insider-2025-ep1-30-06-2025/2c085149-c764-4441-9c53-e094e1e768ae",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/HERO_CLEAN_WIDE?territory=IT&version=01c6bee5-017f-3d49-adba-dfc96a03320d&w=1920&h=1080&md5ChecksumParam=316991dc0e9b4b84aaa0767b241d99e5"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/ASSET_CLEAN_WIDE?territory=IT&version=a09cb36f-5c51-3fb5-a0c3-78a4b41b7450&w=1920&h=1080&md5ChecksumParam=a3b70b9496f70d1eed2dcb543a76d61a"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_TITLE_WIDE?territory=IT&version=793a9bfe-d19b-3e56-bb83-c0b1f5141618&w=1920&h=1080&md5ChecksumParam=a3b70b9496f70d1eed2dcb543a76d61a"
-              }
-            }
-          ]
-        },
-        "eventId": "411415036",
-        "starttime": "2025-06-30T22:30:00Z",
-        "endtime": "2025-06-30T23:00:00Z",
-        "eventTitle": "Tennis Wimbledon The Insider 2025 Ep.1 30/06/2025",
-        "eventSynopsis": "Tennis Wimbledon The Insider 2025 Ep.1 30/06/2025 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider\".",
-        "epgEventTitle": "Tennis Wimbledon The Insider 2025 Ep.1 30/06/2025",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
     "2025-07-01": [
       {
         "channel": {
@@ -726,41 +36,41 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fa995d1411ba4df0512e07b6f5bb5f77"
               }
             },
             {
               "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=fa995d1411ba4df0512e07b6f5bb5f77"
               }
             },
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2e89760f47c2d5652429c467f4d1685f"
               }
             },
             {
               "key": "background",
               "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/HERO_CLEAN_WIDE?territory=IT&version=01c6bee5-017f-3d49-adba-dfc96a03320d&w=1920&h=1080&md5ChecksumParam=316991dc0e9b4b84aaa0767b241d99e5"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/background?territory=IT&md5ChecksumParam=bb1570465a74775d09d61b84162a2d07"
               }
             },
             {
               "key": "cover",
               "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/cover?territory=IT&md5ChecksumParam=2e89760f47c2d5652429c467f4d1685f"
               }
             },
             {
               "key": "scene",
               "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/ASSET_CLEAN_WIDE?territory=IT&version=a09cb36f-5c51-3fb5-a0c3-78a4b41b7450&w=1920&h=1080&md5ChecksumParam=a3b70b9496f70d1eed2dcb543a76d61a"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/16-9?territory=IT&md5ChecksumParam=9caa198ac78ede27228d5f4ee8279e4c"
               }
             },
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_TITLE_WIDE?territory=IT&version=793a9bfe-d19b-3e56-bb83-c0b1f5141618&w=1920&h=1080&md5ChecksumParam=a3b70b9496f70d1eed2dcb543a76d61a"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=018ab1d9ef2f987df022484001cb08f8"
               }
             }
           ]
@@ -769,7 +79,7 @@
         "starttime": "2025-07-01T03:00:00Z",
         "endtime": "2025-07-01T03:30:00Z",
         "eventTitle": "Tennis Wimbledon The Insider 2025 Ep.1 30/06/2025",
-        "eventSynopsis": "Tennis Wimbledon The Insider 2025 Ep.1 30/06/2025 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider\".",
+        "eventSynopsis": "Ep1 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider\".",
         "epgEventTitle": "Tennis Wimbledon The Insider 2025 Ep.1 30/06/2025",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -814,50 +124,50 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fa995d1411ba4df0512e07b6f5bb5f77"
               }
             },
             {
               "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=fa995d1411ba4df0512e07b6f5bb5f77"
               }
             },
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2e89760f47c2d5652429c467f4d1685f"
               }
             },
             {
               "key": "background",
               "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/HERO_CLEAN_WIDE?territory=IT&version=01c6bee5-017f-3d49-adba-dfc96a03320d&w=1920&h=1080&md5ChecksumParam=316991dc0e9b4b84aaa0767b241d99e5"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/background?territory=IT&md5ChecksumParam=bb1570465a74775d09d61b84162a2d07"
               }
             },
             {
               "key": "cover",
               "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/cover?territory=IT&md5ChecksumParam=2e89760f47c2d5652429c467f4d1685f"
               }
             },
             {
               "key": "scene",
               "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/ASSET_CLEAN_WIDE?territory=IT&version=a09cb36f-5c51-3fb5-a0c3-78a4b41b7450&w=1920&h=1080&md5ChecksumParam=a3b70b9496f70d1eed2dcb543a76d61a"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/16-9?territory=IT&md5ChecksumParam=9caa198ac78ede27228d5f4ee8279e4c"
               }
             },
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_TITLE_WIDE?territory=IT&version=793a9bfe-d19b-3e56-bb83-c0b1f5141618&w=1920&h=1080&md5ChecksumParam=a3b70b9496f70d1eed2dcb543a76d61a"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=018ab1d9ef2f987df022484001cb08f8"
               }
             }
           ]
         },
         "eventId": "411342011",
-        "starttime": "2025-07-01T06:00:00Z",
-        "endtime": "2025-07-01T06:30:00Z",
+        "starttime": "2025-07-01T05:55:00Z",
+        "endtime": "2025-07-01T06:15:00Z",
         "eventTitle": "Tennis Wimbledon The Insider 2025 Ep.1 30/06/2025",
-        "eventSynopsis": "Tennis Wimbledon The Insider 2025 Ep.1 30/06/2025 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider\".",
+        "eventSynopsis": "Ep. 1 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider\".",
         "epgEventTitle": "Tennis Wimbledon The Insider 2025 Ep.1 30/06/2025",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -902,50 +212,50 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fa995d1411ba4df0512e07b6f5bb5f77"
               }
             },
             {
               "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=fa995d1411ba4df0512e07b6f5bb5f77"
               }
             },
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2e89760f47c2d5652429c467f4d1685f"
               }
             },
             {
               "key": "background",
               "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/HERO_CLEAN_WIDE?territory=IT&version=01c6bee5-017f-3d49-adba-dfc96a03320d&w=1920&h=1080&md5ChecksumParam=316991dc0e9b4b84aaa0767b241d99e5"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/background?territory=IT&md5ChecksumParam=bb1570465a74775d09d61b84162a2d07"
               }
             },
             {
               "key": "cover",
               "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/cover?territory=IT&md5ChecksumParam=2e89760f47c2d5652429c467f4d1685f"
               }
             },
             {
               "key": "scene",
               "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/ASSET_CLEAN_WIDE?territory=IT&version=a09cb36f-5c51-3fb5-a0c3-78a4b41b7450&w=1920&h=1080&md5ChecksumParam=a3b70b9496f70d1eed2dcb543a76d61a"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/16-9?territory=IT&md5ChecksumParam=9caa198ac78ede27228d5f4ee8279e4c"
               }
             },
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_TITLE_WIDE?territory=IT&version=793a9bfe-d19b-3e56-bb83-c0b1f5141618&w=1920&h=1080&md5ChecksumParam=a3b70b9496f70d1eed2dcb543a76d61a"
+                "url": "/uuid/2c085149-c764-4441-9c53-e094e1e768ae/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=018ab1d9ef2f987df022484001cb08f8"
               }
             }
           ]
         },
         "eventId": "411342014",
         "starttime": "2025-07-01T08:45:00Z",
-        "endtime": "2025-07-01T09:15:00Z",
+        "endtime": "2025-07-01T09:00:00Z",
         "eventTitle": "Tennis Wimbledon The Insider 2025 Ep.1 30/06/2025",
-        "eventSynopsis": "Tennis Wimbledon The Insider 2025 Ep.1 30/06/2025 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider\".",
+        "eventSynopsis": "Ep. 1 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider\".",
         "epgEventTitle": "Tennis Wimbledon The Insider 2025 Ep.1 30/06/2025",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -1022,7 +332,7 @@
         "starttime": "2025-07-01T09:45:00Z",
         "endtime": "2025-07-01T10:00:00Z",
         "eventTitle": "Studi Tennis - Ep. 123 - Studio Tennis Wimbledon 01/07/2025",
-        "eventSynopsis": "Wimbledon - Studio Tennis",
+        "eventSynopsis": "Wimbledon - Anticipazioni e ultime notizie da Wimbledon per presentare la giornata del torneo di tennis piu' prestigioso",
         "epgEventTitle": "Studi Tennis - Ep. 123 - Studio Tennis Wimbledon 01/07/2025",
         "programHighlights": "L",
         "primeVision": false,
@@ -1068,12 +378,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
               }
             },
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
@@ -1111,7 +421,7 @@
         "starttime": "2025-07-01T20:30:00Z",
         "endtime": "2025-07-01T21:00:00Z",
         "eventTitle": "Tennis Wimbledon The Insider 2025 Ep.2 01/07/2025",
-        "eventSynopsis": "Ep2 - La giornata sportiva dai campi di Wimbledon, con notizie sugli eventi e sugli atleti in gara, per scoprire i possibili vincitori, le partite piu' interessanti e i momenti imperdibili.",
+        "eventSynopsis": "Ep. 2 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider\".",
         "epgEventTitle": "Tennis Wimbledon The Insider 2025 Ep.2 01/07/2025",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -1156,17 +466,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/569ce511-73e4-4407-b417-25ac820eb3d8/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=8f3e915ed87b62af1abe7ed4a2adb290"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/569ce511-73e4-4407-b417-25ac820eb3d8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=712dce22e78f806765848a13da3c492b"
               }
             },
             {
               "img": {
                 "url": "/uuid/569ce511-73e4-4407-b417-25ac820eb3d8/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8f3e915ed87b62af1abe7ed4a2adb290"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/569ce511-73e4-4407-b417-25ac820eb3d8/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=8f3e915ed87b62af1abe7ed4a2adb290"
               }
             },
             {
@@ -1197,9 +507,9 @@
         },
         "eventId": "411342021",
         "starttime": "2025-07-01T21:00:00Z",
-        "endtime": "2025-07-01T22:00:00Z",
+        "endtime": "2025-07-01T21:55:00Z",
         "eventTitle": "2a giornata",
-        "eventSynopsis": "2a giornata - Assistiamo alle spettacolari sfide del torneo piu' prestigioso del circuito tennistico, vincere sull'erba di Wimbledon vuol dire entrare nella storia!",
+        "eventSynopsis": "2a giornata - DE MINAUR-CARBALLES BAENA (Botti); SINNER-NARDI (Pero-Pescosolido); KVITOVA-NAVARRO, DRAPER- BAEZ (Bisti-Garrone)",
         "epgEventTitle": "2a giornata",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -1244,12 +554,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
               }
             },
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
@@ -1287,7 +597,7 @@
         "starttime": "2025-07-01T22:30:00Z",
         "endtime": "2025-07-01T23:00:00Z",
         "eventTitle": "Tennis Wimbledon The Insider 2025 Ep.2 01/07/2025",
-        "eventSynopsis": "Ep2 - La giornata sportiva dai campi di Wimbledon, con notizie sugli eventi e sugli atleti in gara, per scoprire i possibili vincitori, le partite piu' interessanti e i momenti imperdibili.",
+        "eventSynopsis": "Ep. 2 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider\".",
         "epgEventTitle": "Tennis Wimbledon The Insider 2025 Ep.2 01/07/2025",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -1332,17 +642,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/569ce511-73e4-4407-b417-25ac820eb3d8/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=8f3e915ed87b62af1abe7ed4a2adb290"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/569ce511-73e4-4407-b417-25ac820eb3d8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=712dce22e78f806765848a13da3c492b"
               }
             },
             {
               "img": {
                 "url": "/uuid/569ce511-73e4-4407-b417-25ac820eb3d8/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8f3e915ed87b62af1abe7ed4a2adb290"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/569ce511-73e4-4407-b417-25ac820eb3d8/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=8f3e915ed87b62af1abe7ed4a2adb290"
               }
             },
             {
@@ -1375,7 +685,7 @@
         "starttime": "2025-07-01T23:00:00Z",
         "endtime": "2025-07-02T03:00:00Z",
         "eventTitle": "2a giornata",
-        "eventSynopsis": "2a giornata - Assistiamo alle spettacolari sfide del torneo piu' prestigioso del circuito tennistico, vincere sull'erba di Wimbledon vuol dire entrare nella storia!",
+        "eventSynopsis": "2a giornata - DE MINAUR-CARBALLES BAENA (Botti); SINNER-NARDI (Pero-Pescosolido); KVITOVA-NAVARRO, DRAPER- BAEZ (Bisti-Garrone)",
         "epgEventTitle": "2a giornata",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -1422,12 +732,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
               }
             },
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
@@ -1465,7 +775,7 @@
         "starttime": "2025-07-02T03:00:00Z",
         "endtime": "2025-07-02T03:30:00Z",
         "eventTitle": "Tennis Wimbledon The Insider 2025 Ep.2 01/07/2025",
-        "eventSynopsis": "Ep2 - La giornata sportiva dai campi di Wimbledon, con notizie sugli eventi e sugli atleti in gara, per scoprire i possibili vincitori, le partite piu' interessanti e i momenti imperdibili.",
+        "eventSynopsis": "Ep. 2 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider\".",
         "epgEventTitle": "Tennis Wimbledon The Insider 2025 Ep.2 01/07/2025",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -1510,17 +820,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/569ce511-73e4-4407-b417-25ac820eb3d8/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=8f3e915ed87b62af1abe7ed4a2adb290"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/569ce511-73e4-4407-b417-25ac820eb3d8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=712dce22e78f806765848a13da3c492b"
               }
             },
             {
               "img": {
                 "url": "/uuid/569ce511-73e4-4407-b417-25ac820eb3d8/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8f3e915ed87b62af1abe7ed4a2adb290"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/569ce511-73e4-4407-b417-25ac820eb3d8/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=8f3e915ed87b62af1abe7ed4a2adb290"
               }
             },
             {
@@ -1553,7 +863,7 @@
         "starttime": "2025-07-02T04:00:00Z",
         "endtime": "2025-07-02T06:00:00Z",
         "eventTitle": "2a giornata",
-        "eventSynopsis": "2a giornata - Dall'All England Lawn Tennis and Croquet Club di Wimbledon, Inghilterra.",
+        "eventSynopsis": "2a giornata - DE MINAUR-CARBALLES BAENA (Botti); SINNER-NARDI (Pero-Pescosolido); KVITOVA-NAVARRO, DRAPER- BAEZ (Bisti-Garrone)",
         "epgEventTitle": "2a giornata",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -1598,12 +908,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
               }
             },
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
@@ -1641,7 +951,7 @@
         "starttime": "2025-07-02T06:00:00Z",
         "endtime": "2025-07-02T06:30:00Z",
         "eventTitle": "Tennis Wimbledon The Insider 2025 Ep.2 01/07/2025",
-        "eventSynopsis": "Ep2 - La giornata sportiva dai campi di Wimbledon, con notizie sugli eventi e sugli atleti in gara, per scoprire i possibili vincitori, le partite piu' interessanti e i momenti imperdibili.",
+        "eventSynopsis": "Ep. 2 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider\".",
         "epgEventTitle": "Tennis Wimbledon The Insider 2025 Ep.2 01/07/2025",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -1686,17 +996,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/569ce511-73e4-4407-b417-25ac820eb3d8/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=8f3e915ed87b62af1abe7ed4a2adb290"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/569ce511-73e4-4407-b417-25ac820eb3d8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=712dce22e78f806765848a13da3c492b"
               }
             },
             {
               "img": {
                 "url": "/uuid/569ce511-73e4-4407-b417-25ac820eb3d8/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8f3e915ed87b62af1abe7ed4a2adb290"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/569ce511-73e4-4407-b417-25ac820eb3d8/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=8f3e915ed87b62af1abe7ed4a2adb290"
               }
             },
             {
@@ -1729,7 +1039,7 @@
         "starttime": "2025-07-02T07:00:00Z",
         "endtime": "2025-07-02T08:45:00Z",
         "eventTitle": "2a giornata",
-        "eventSynopsis": "2a giornata - Dall'All England Lawn Tennis and Croquet Club di Wimbledon, Inghilterra.",
+        "eventSynopsis": "2a giornata - DE MINAUR-CARBALLES BAENA (Botti); SINNER-NARDI (Pero-Pescosolido); KVITOVA-NAVARRO, DRAPER- BAEZ (Bisti-Garrone)",
         "epgEventTitle": "2a giornata",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -1774,12 +1084,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
               }
             },
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/fd3ba80c-0206-4a25-89d8-93c08bb3255e/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
@@ -1817,7 +1127,7 @@
         "starttime": "2025-07-02T08:45:00Z",
         "endtime": "2025-07-02T09:15:00Z",
         "eventTitle": "Tennis Wimbledon The Insider 2025 Ep.2 01/07/2025",
-        "eventSynopsis": "Ep2 - La giornata sportiva dai campi di Wimbledon, con notizie sugli eventi e sugli atleti in gara, per scoprire i possibili vincitori, le partite piu' interessanti e i momenti imperdibili.",
+        "eventSynopsis": "Ep. 2 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider\".",
         "epgEventTitle": "Tennis Wimbledon The Insider 2025 Ep.2 01/07/2025",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -1983,7 +1293,7 @@
         "starttime": "2025-07-02T20:30:00Z",
         "endtime": "2025-07-02T21:00:00Z",
         "eventTitle": "Tennis Wimbledon The Insider 2025 Ep.3 02/07/2025",
-        "eventSynopsis": "Ep3 - La giornata sportiva dai campi di Wimbledon, con notizie sugli eventi e sugli atleti in gara, per scoprire i possibili vincitori, le partite piu' interessanti e i momenti imperdibili.",
+        "eventSynopsis": "Tennis Wimbledon The Insider 2025 Ep.3 02/07/2025 - La giornata sportiva dai campi di Wimbledon, con notizie sugli eventi e sugli atleti in gara, per scoprire i possibili vincitori, le partite piu' interessanti e i momenti imperdibili.",
         "epgEventTitle": "Tennis Wimbledon The Insider 2025 Ep.3 02/07/2025",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -2071,7 +1381,7 @@
         "starttime": "2025-07-02T22:30:00Z",
         "endtime": "2025-07-02T23:00:00Z",
         "eventTitle": "Tennis Wimbledon The Insider 2025 Ep.3 02/07/2025",
-        "eventSynopsis": "Ep3 - La giornata sportiva dai campi di Wimbledon, con notizie sugli eventi e sugli atleti in gara, per scoprire i possibili vincitori, le partite piu' interessanti e i momenti imperdibili.",
+        "eventSynopsis": "Tennis Wimbledon The Insider 2025 Ep.3 02/07/2025 - La giornata sportiva dai campi di Wimbledon, con notizie sugli eventi e sugli atleti in gara, per scoprire i possibili vincitori, le partite piu' interessanti e i momenti imperdibili.",
         "epgEventTitle": "Tennis Wimbledon The Insider 2025 Ep.3 02/07/2025",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -2161,7 +1471,7 @@
         "starttime": "2025-07-03T03:00:00Z",
         "endtime": "2025-07-03T03:30:00Z",
         "eventTitle": "Tennis Wimbledon The Insider 2025 Ep.3 02/07/2025",
-        "eventSynopsis": "Ep3 - La giornata sportiva dai campi di Wimbledon, con notizie sugli eventi e sugli atleti in gara, per scoprire i possibili vincitori, le partite piu' interessanti e i momenti imperdibili.",
+        "eventSynopsis": "Tennis Wimbledon The Insider 2025 Ep.3 02/07/2025 - La giornata sportiva dai campi di Wimbledon, con notizie sugli eventi e sugli atleti in gara, per scoprire i possibili vincitori, le partite piu' interessanti e i momenti imperdibili.",
         "epgEventTitle": "Tennis Wimbledon The Insider 2025 Ep.3 02/07/2025",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -2249,7 +1559,7 @@
         "starttime": "2025-07-03T06:00:00Z",
         "endtime": "2025-07-03T06:30:00Z",
         "eventTitle": "Tennis Wimbledon The Insider 2025 Ep.3 02/07/2025",
-        "eventSynopsis": "Ep3 - La giornata sportiva dai campi di Wimbledon, con notizie sugli eventi e sugli atleti in gara, per scoprire i possibili vincitori, le partite piu' interessanti e i momenti imperdibili.",
+        "eventSynopsis": "Tennis Wimbledon The Insider 2025 Ep.3 02/07/2025 - La giornata sportiva dai campi di Wimbledon, con notizie sugli eventi e sugli atleti in gara, per scoprire i possibili vincitori, le partite piu' interessanti e i momenti imperdibili.",
         "epgEventTitle": "Tennis Wimbledon The Insider 2025 Ep.3 02/07/2025",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -2337,7 +1647,7 @@
         "starttime": "2025-07-03T08:45:00Z",
         "endtime": "2025-07-03T09:15:00Z",
         "eventTitle": "Tennis Wimbledon The Insider 2025 Ep.3 02/07/2025",
-        "eventSynopsis": "Ep3 - La giornata sportiva dai campi di Wimbledon, con notizie sugli eventi e sugli atleti in gara, per scoprire i possibili vincitori, le partite piu' interessanti e i momenti imperdibili.",
+        "eventSynopsis": "Tennis Wimbledon The Insider 2025 Ep.3 02/07/2025 - La giornata sportiva dai campi di Wimbledon, con notizie sugli eventi e sugli atleti in gara, per scoprire i possibili vincitori, le partite piu' interessanti e i momenti imperdibili.",
         "epgEventTitle": "Tennis Wimbledon The Insider 2025 Ep.3 02/07/2025",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -2460,12 +1770,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
               "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
               }
             },
             {
@@ -2548,12 +1858,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
               "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
               }
             },
             {
@@ -2638,12 +1948,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
               "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
               }
             },
             {
@@ -2726,12 +2036,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
               "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
               }
             },
             {
@@ -2814,12 +2124,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
               "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/COVER_TITLE_TALL?territory=IT&version=43d875b0-5521-39e3-8eb0-972149c28e06&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
+                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
               }
             },
             {
@@ -3453,9 +2763,9 @@
         "eventId": "411431292",
         "starttime": "2025-07-05T09:45:00Z",
         "endtime": "2025-07-05T10:00:00Z",
-        "eventTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 05/07/2025",
+        "eventTitle": "Studi Tennis - Ep. 127 - Studio Tennis Wimbledon 05/07/2025",
         "eventSynopsis": "05/07/2025 - Studio Tennis",
-        "epgEventTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 05/07/2025",
+        "epgEventTitle": "Studi Tennis - Ep. 127 - Studio Tennis Wimbledon 05/07/2025",
         "programHighlights": "L",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -3500,7 +2810,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/COVER_CLEAN_TALL?territory=IT&version=ef826656-f782-39b8-b613-b90148bc06ca&w=600&h=800&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
@@ -3510,7 +2820,7 @@
             },
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/COVER_CLEAN_TALL?territory=IT&version=ef826656-f782-39b8-b613-b90148bc06ca&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
@@ -3528,7 +2838,7 @@
             {
               "key": "scene",
               "img": {
-                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/ASSET_CLEAN_WIDE?territory=IT&version=a09cb36f-5c51-3fb5-a0c3-78a4b41b7450&w=1920&h=1080&md5ChecksumParam=a3b70b9496f70d1eed2dcb543a76d61a"
+                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/ASSET_CLEAN_WIDE?territory=IT&version=89a337cd-3401-3065-9010-8b0a9cac339e&w=1920&h=1080&md5ChecksumParam=e7e1c2d45c7121a5cbdbcc6a847547fa"
               }
             },
             {
@@ -3588,7 +2898,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/COVER_CLEAN_TALL?territory=IT&version=ef826656-f782-39b8-b613-b90148bc06ca&w=600&h=800&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
@@ -3598,7 +2908,7 @@
             },
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/COVER_CLEAN_TALL?territory=IT&version=ef826656-f782-39b8-b613-b90148bc06ca&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
@@ -3616,7 +2926,7 @@
             {
               "key": "scene",
               "img": {
-                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/ASSET_CLEAN_WIDE?territory=IT&version=a09cb36f-5c51-3fb5-a0c3-78a4b41b7450&w=1920&h=1080&md5ChecksumParam=a3b70b9496f70d1eed2dcb543a76d61a"
+                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/ASSET_CLEAN_WIDE?territory=IT&version=89a337cd-3401-3065-9010-8b0a9cac339e&w=1920&h=1080&md5ChecksumParam=e7e1c2d45c7121a5cbdbcc6a847547fa"
               }
             },
             {
@@ -3678,7 +2988,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/COVER_CLEAN_TALL?territory=IT&version=ef826656-f782-39b8-b613-b90148bc06ca&w=600&h=800&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
@@ -3688,7 +2998,7 @@
             },
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/COVER_CLEAN_TALL?territory=IT&version=ef826656-f782-39b8-b613-b90148bc06ca&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
@@ -3706,7 +3016,7 @@
             {
               "key": "scene",
               "img": {
-                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/ASSET_CLEAN_WIDE?territory=IT&version=a09cb36f-5c51-3fb5-a0c3-78a4b41b7450&w=1920&h=1080&md5ChecksumParam=a3b70b9496f70d1eed2dcb543a76d61a"
+                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/ASSET_CLEAN_WIDE?territory=IT&version=89a337cd-3401-3065-9010-8b0a9cac339e&w=1920&h=1080&md5ChecksumParam=e7e1c2d45c7121a5cbdbcc6a847547fa"
               }
             },
             {
@@ -3766,7 +3076,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/COVER_CLEAN_TALL?territory=IT&version=ef826656-f782-39b8-b613-b90148bc06ca&w=600&h=800&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
@@ -3776,7 +3086,7 @@
             },
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/COVER_CLEAN_TALL?territory=IT&version=ef826656-f782-39b8-b613-b90148bc06ca&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
@@ -3794,7 +3104,7 @@
             {
               "key": "scene",
               "img": {
-                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/ASSET_CLEAN_WIDE?territory=IT&version=a09cb36f-5c51-3fb5-a0c3-78a4b41b7450&w=1920&h=1080&md5ChecksumParam=a3b70b9496f70d1eed2dcb543a76d61a"
+                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/ASSET_CLEAN_WIDE?territory=IT&version=89a337cd-3401-3065-9010-8b0a9cac339e&w=1920&h=1080&md5ChecksumParam=e7e1c2d45c7121a5cbdbcc6a847547fa"
               }
             },
             {
@@ -3854,7 +3164,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/COVER_CLEAN_TALL?territory=IT&version=ef826656-f782-39b8-b613-b90148bc06ca&w=600&h=800&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
@@ -3864,7 +3174,7 @@
             },
             {
               "img": {
-                "url": "/uuid/91895283-d342-4374-91be-ce9a210c0e08/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=621d3acbe5b441ac674845d448dc850e"
+                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/COVER_CLEAN_TALL?territory=IT&version=ef826656-f782-39b8-b613-b90148bc06ca&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=efb29934d4aee261053e1f6e662f43e7"
               }
             },
             {
@@ -3882,7 +3192,7 @@
             {
               "key": "scene",
               "img": {
-                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/ASSET_CLEAN_WIDE?territory=IT&version=a09cb36f-5c51-3fb5-a0c3-78a4b41b7450&w=1920&h=1080&md5ChecksumParam=a3b70b9496f70d1eed2dcb543a76d61a"
+                "url": "/uuid/c9772828-5531-4390-abdf-63872c1510b7/ASSET_CLEAN_WIDE?territory=IT&version=89a337cd-3401-3065-9010-8b0a9cac339e&w=1920&h=1080&md5ChecksumParam=e7e1c2d45c7121a5cbdbcc6a847547fa"
               }
             },
             {
@@ -4195,6 +3505,7 @@
     "2025-08-06": [],
     "2025-08-07": [],
     "2025-08-08": [],
-    "2025-08-09": []
+    "2025-08-09": [],
+    "2025-08-10": []
   }
 }
