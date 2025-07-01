@@ -230,7 +230,6 @@
     </div>
   </div>
   <footer title="Clicca per attivare/disattivare la modalità scura">Powered by 🐯 - Modalità Scura OFF</footer>
-
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const { DateTime } = luxon;
@@ -258,23 +257,6 @@
       }
       function formatReadableDate(d) {
         return d.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-      }
-
-      function parseEventTitle(eventTitle) {
-        if (!eventTitle) return { series: '', episodeInfo: '', episodeTitle: '' };
-        const parts = eventTitle.split(' - ');
-        if (parts.length >= 3) {
-          return {
-            series: parts[0].trim(),
-            episodeInfo: parts[1].trim(),
-            episodeTitle: parts.slice(2).join(' - ').trim()
-          };
-        }
-        return {
-          series: '',
-          episodeInfo: '',
-          episodeTitle: eventTitle
-        };
       }
 
       function showPrograms(searchTerm = '') {
@@ -306,23 +288,26 @@
             ? DateTime.fromFormat(next.time, 'HH:mm', { zone: 'Europe/Rome' })
             : DateTime.fromISO(program.endtime || program.end, { zone: 'Europe/Rome' });
 
-          // Mostra ora in onda solo se è il giorno corrente
           const isNow = isToday && now >= start && (!end || now < end);
 
-          // Parsing titolo per JSON complessi
           let series = '', episodeInfo = '', episodeTitle = '';
-          if (program.eventTitle) {
-            const parsed = parseEventTitle(program.eventTitle);
-            series = parsed.series;
-            episodeInfo = parsed.episodeInfo;
-            episodeTitle = parsed.episodeTitle;
+          if (program.epgEventTitle && program.eventTitle) {
+            const parts = program.epgEventTitle.split(' - ');
+            if (parts.length >= 2) {
+              episodeInfo = parts[0].trim();
+              series = parts.slice(1).join(' - ').trim();
+            } else {
+              series = program.epgEventTitle.trim();
+            }
+            episodeTitle = program.eventTitle.trim();
+          } else if (program.title || program.episode_info) {
+            episodeTitle = program.title || '';
+            episodeInfo = program.episode_info || '';
           } else {
             episodeTitle = program.eventTitle || program.title || '';
-            episodeInfo = program.episode_info || '';
           }
 
           const isPrimeVision = program.primeVision || false;
-
           let finalTitle = '';
           if (isSimplified) {
             finalTitle = `${episodeTitle}${episodeInfo ? ' - ' + episodeInfo : ''}`;
@@ -341,13 +326,11 @@
           else if (isPrimeVision) statusText = `<span class="prime-vision">• Prima TV</span>`;
 
           const timeStr = program.time || (start.isValid && end.isValid ? `${start.toFormat('HH:mm')} - ${end.toFormat('HH:mm')}` : 'Orario sconosciuto');
-
           programElem.innerHTML = `
             <div class="program-time">${timeStr} ${statusText}</div>
             <div class="program-title">${finalTitle}</div>
             ${program.eventSynopsis || program.description ? `<div class="program-synopsis">${program.eventSynopsis || program.description}</div>` : ''}
           `;
-
           programsContainer.appendChild(programElem);
         });
       }
@@ -433,7 +416,6 @@
         footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
       }
       footer.addEventListener('click', toggleDarkMode);
-
       loadChannelData();
     });
   </script>
