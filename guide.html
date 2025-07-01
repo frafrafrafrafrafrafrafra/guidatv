@@ -5,25 +5,179 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Guida TV - Caricamento...</title>
   <style>
-    body { font-family: Arial, sans-serif; margin:0; padding:20px; background:#f5f5f5; color:#333; display:flex; flex-direction:column; min-height:100vh; }
-    .container { max-width:800px; margin:0 auto; background:white; padding:20px; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.1); flex-grow:1; display:flex; flex-direction:column; }
-    header { text-align:center; margin-bottom:20px; padding-bottom:20px; border-bottom:1px solid #eee; }
-    h1 { color:#2c3e50; margin:0; }
-    .loading, .error { text-align:center; padding:40px; font-size:18px; }
-    .error { color:#e74c3c; background:#fdecea; border-radius:4px; margin:20px 0; }
-    .program { padding:15px; margin:10px 0; background:#f9f9f9; border-radius:4px; border-left:4px solid #3498db; }
-    .program-time { font-weight:bold; color:#2c3e50; }
-    .now-on-air { color:#e74c3c; font-weight:bold; margin-left:10px; }
-    .prime-vision { color:#1a4b8c; font-weight:bold; margin-left:10px; }
-    .search-container { margin:20px 0; display:flex; justify-content:center; }
-    #search-input { width:100%; max-width:500px; padding:10px 15px; border:1px solid #ddd; border-radius:4px; font-size:16px; }
-    .date-navigation { display:flex; justify-content:center; align-items:center; margin:20px 0; gap:10px; flex-wrap:wrap; }
-    .date-navigation button { background:transparent; color:black; border:none; padding:8px 12px; font-size:24px; cursor:pointer; user-select:none; }
-    .current-date { font-weight:bold; min-width:200px; text-align:center; cursor:pointer; user-select:none; border-bottom:1px dashed #999; }
-    #date-picker { font-size:16px; padding:5px 8px; border-radius:4px; border:1px solid #ddd; display:none; margin-top:6px; width:100%; max-width:200px; }
-    #export-txt-btn { margin:10px auto 0 auto; padding:8px 16px; font-size:16px; cursor:pointer; border:1px solid #3498db; background:#3498db; color:white; border-radius:4px; display:none; }
-    #export-txt-btn:hover { background:#217dbb; }
-    footer { text-align:center; font-size:0.9em; color:#666; padding:10px 0; margin-top:20px; max-width:800px; margin-left:auto; margin-right:auto; user-select:none; cursor:pointer; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f5f5f5;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      transition: background-color 0.3s;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #eee;
+    }
+    h1 {
+      color: #2c3e50;
+      margin: 0;
+      transition: color 0.3s;
+    }
+    .loading, .error {
+      text-align: center;
+      padding: 40px;
+      font-size: 18px;
+    }
+    .error {
+      color: #e74c3c;
+      background: #fdecea;
+      border-radius: 4px;
+      margin: 20px 0;
+    }
+    .program {
+      padding: 15px;
+      margin: 10px 0;
+      background: #f9f9f9;
+      border-radius: 4px;
+      border-left: 4px solid #3498db;
+      transition: background-color 0.3s;
+    }
+    .program-time {
+      font-weight: bold;
+      color: #2c3e50;
+      transition: color 0.3s;
+    }
+    .now-on-air {
+      color: #e74c3c;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+    .prime-vision {
+      color: #1a4b8c;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+    .search-container {
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+    }
+    #search-input {
+      width: 100%;
+      max-width: 500px;
+      padding: 10px 15px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 16px;
+      transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    }
+    .date-navigation {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .date-navigation button {
+      background: transparent;
+      color: black;
+      border: none;
+      padding: 8px 12px;
+      font-size: 24px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .current-date {
+      font-weight: bold;
+      min-width: 200px;
+      text-align: center;
+      cursor: pointer;
+      user-select: none;
+      border-bottom: 1px dashed #999;
+      transition: border-color 0.3s;
+    }
+    #date-picker {
+      font-size: 16px;
+      padding: 5px 8px;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+      display: none;
+      margin-top: 6px;
+      width: 100%;
+      max-width: 200px;
+    }
+    #export-txt-btn {
+      margin: 10px auto 0 auto;
+      padding: 8px 16px;
+      font-size: 16px;
+      cursor: pointer;
+      border: 1px solid #3498db;
+      background: #3498db;
+      color: white;
+      border-radius: 4px;
+      display: none;
+    }
+    #export-txt-btn:hover {
+      background: #217dbb;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+      padding: 10px 0;
+      margin-top: 20px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      user-select: none;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+    /* Modalità scura identica a index.html */
+    .dark-mode {
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+    .dark-mode .container {
+      background-color: #1e1e1e;
+    }
+    .dark-mode header h1 {
+      color: #bbdefb;
+    }
+    .dark-mode .program {
+      background-color: #2c2c2c;
+    }
+    .dark-mode .program-time {
+      color: #e0e0e0;
+    }
+    .dark-mode #search-input {
+      background-color: #333;
+      border: 1px solid #555;
+      color: #eee;
+    }
+    .dark-mode footer {
+      color: #ccc;
+    }
+    .dark-mode .current-date {
+      border-bottom: 1px dashed #aaa;
+    }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
 </head>
@@ -48,7 +202,7 @@
     </div>
   </div>
 </div>
-<footer title="Clicca per attivare/disattivare la modalità scura">Powered by 🐯</footer>
+<footer title="Clicca per attivare/disattivare la modalità scura">Powered by 🐯 - Modalità Scura OFF</footer>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   const { DateTime } = luxon;
@@ -66,6 +220,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const currentDateElem = document.getElementById('current-date');
   const datePicker = document.getElementById('date-picker');
   const exportTxtBtn = document.getElementById('export-txt-btn');
+  const footer = document.querySelector('footer');
   let allPrograms = {};
   let currentDate = new Date();
 
@@ -75,11 +230,9 @@ document.addEventListener('DOMContentLoaded', function () {
   function formatReadableDate(d) {
     return d.toLocaleDateString('it-IT', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
   }
-
   function isSimplifiedChannel(firstProgram) {
     return !firstProgram.hasOwnProperty('content') && !firstProgram.hasOwnProperty('channel');
   }
-
   function showPrograms(searchTerm = '') {
     const dayStr = formatDate(currentDate);
     const dayPrograms = allPrograms[dayStr] || [];
@@ -108,7 +261,6 @@ document.addEventListener('DOMContentLoaded', function () {
         ? DateTime.fromFormat(next.time, 'HH:mm', { zone: 'Europe/Rome' })
         : DateTime.fromISO(program.endtime || program.end, { zone: 'Europe/Rome' });
       const isNow = isToday && start.isValid && now >= start && (!end || now < end);
-
       let finalTitle = '';
       if (simplified) {
         finalTitle = program.title || '';
@@ -117,13 +269,11 @@ document.addEventListener('DOMContentLoaded', function () {
         finalTitle = program.epgEventTitle || program.eventTitle || program.title || 'Titolo sconosciuto';
       }
       const description = program.eventSynopsis || program.description || '';
-
       const isPrimeVision = program.primeVision || false;
       let statusText = '';
       if (isNow && isPrimeVision) statusText = `<span class="now-on-air">• Ora in onda</span> <span class="prime-vision">• Prima TV</span>`;
       else if (isNow) statusText = `<span class="now-on-air">• Ora in onda</span>`;
       else if (isPrimeVision) statusText = `<span class="prime-vision">• Prima TV</span>`;
-
       const timeStr = program.time || (start.isValid && end.isValid ? `${start.toFormat('HH:mm')} - ${end.toFormat('HH:mm')}` : 'Orario sconosciuto');
       const programElem = document.createElement('div');
       programElem.className = 'program';
@@ -137,14 +287,12 @@ document.addEventListener('DOMContentLoaded', function () {
       programsContainer.appendChild(programElem);
     });
   }
-
   function updateView() {
     currentDateElem.textContent = formatReadableDate(currentDate);
     document.title = `${channelName} - ${formatReadableDate(currentDate)}`;
     showPrograms(searchInput.value);
     datePicker.value = formatDate(currentDate);
   }
-
   function loadChannelData() {
     if (!siteId) {
       loadingElem.style.display = 'none';
@@ -170,18 +318,35 @@ document.addEventListener('DOMContentLoaded', function () {
         errorElem.textContent = `Errore caricamento guida TV: ${err.message || err.statusText}`;
       });
   }
-
   prevDayBtn.addEventListener('click', () => { currentDate.setDate(currentDate.getDate() - 1); updateView(); });
   nextDayBtn.addEventListener('click', () => { currentDate.setDate(currentDate.getDate() + 1); updateView(); });
   searchInput.addEventListener('input', () => updateView());
   currentDateElem.addEventListener('click', () => { datePicker.style.display = 'block'; datePicker.focus(); });
-  datePicker.addEventListener('change', () => {
-    if (datePicker.value) currentDate = new Date(datePicker.value);
-    updateView();
-    datePicker.style.display = 'none';
-  });
+  datePicker.addEventListener('change', () => { if (datePicker.value) currentDate = new Date(datePicker.value); updateView(); datePicker.style.display = 'none'; });
   datePicker.addEventListener('blur', () => datePicker.style.display = 'none');
   exportTxtBtn.addEventListener('click', () => alert('Esporta implementabile'));
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowLeft') {
+      currentDate.setDate(currentDate.getDate() - 1);
+      updateView();
+    } else if (e.key === 'ArrowRight') {
+      currentDate.setDate(currentDate.getDate() + 1);
+      updateView();
+    }
+  });
+  // Modalità scura
+  function toggleDarkMode() {
+    const isDark = document.body.classList.toggle('dark-mode');
+    footer.textContent = 'Powered by 🐯 - Modalità Scura ' + (isDark ? 'ON' : 'OFF');
+    footer.title = 'Clicca per attivare/disattivare la modalità scura';
+    localStorage.setItem('darkMode', isDark ? 'true' : 'false');
+  }
+  const darkModeStored = localStorage.getItem('darkMode');
+  if (darkModeStored === 'true') {
+    document.body.classList.add('dark-mode');
+    footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
+  }
+  footer.addEventListener('click', toggleDarkMode);
   loadChannelData();
 });
 </script>
