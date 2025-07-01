@@ -1,357 +1,433 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Guida TV</title>
-  <style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Guida TV</title>
+<style>
+  /* Reset e base */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f9f9f9;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #2c3e50;
+    transition: color 0.3s;
+    font-size: 1.8rem;
+  }
+  h2 {
+    text-align: center;
+    font-weight: normal;
+    color: #555;
+    margin-top: 0;
+    margin-bottom: 20px;
+    transition: color 0.3s;
+    font-size: 1.2rem;
+  }
+  .search-container {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    padding: 0 10px;
+    width: 100%;
+  }
+  #search-input {
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    outline-offset: 2px;
+  }
+  #search-input:focus {
+    border-color: #0077cc;
+    background-color: #fff;
+    color: #000;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  li {
+    background: white;
+    margin: 8px 0;
+    padding: 14px 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+    user-select: none;
+  }
+  a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    flex-grow: 1;
+    transition: color 0.3s;
+    word-break: break-word;
+  }
+  a:hover,
+  a:focus {
+    color: #0077cc;
+    outline: none;
+  }
+  .favorite {
+    color: #ccc;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 12px;
+    transition: color 0.2s;
+    flex-shrink: 0;
+    user-select: none;
+    line-height: 1;
+  }
+  .favorite.active {
+    color: gold;
+  }
+  footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 14px 0;
+    color: #777;
+    font-size: 14px;
+    user-select: none;
+    cursor: pointer;
+    transition: color 0.3s;
+    background: #eee;
+    border-radius: 12px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+  }
+  footer:active {
+    color: #0077cc;
+  }
+
+  /* Modalità scura */
+  .dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  .dark-mode h1 {
+    color: #bbdefb;
+  }
+  .dark-mode h2 {
+    color: #aaa;
+  }
+  .dark-mode li {
+    background-color: #2c2c2c;
+  }
+  .dark-mode a {
+    color: #e0e0e0;
+  }
+  .dark-mode a:hover,
+  .dark-mode a:focus {
+    color: #8ab4f8;
+  }
+  .dark-mode #search-input {
+    background-color: #333;
+    border: 1px solid #555;
+    color: #eee;
+  }
+  .dark-mode footer {
+    background: #222;
+    color: #ccc;
+    box-shadow: none;
+  }
+
+  /* Responsive */
+  @media (max-width: 480px) {
     body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      background: #f9f9f9;
-      color: #333;
-      transition: background-color 0.3s, color 0.3s;
+      margin: 12px 10px 20px;
     }
     h1 {
-      text-align: center;
-      margin-bottom: 5px;
-      color: #2c3e50;
-      transition: color 0.3s;
+      font-size: 1.5rem;
     }
     h2 {
-      text-align: center;
-      font-weight: normal;
-      color: #555;
-      margin-top: 0;
-      margin-bottom: 20px;
-      transition: color 0.3s;
-    }
-    .search-container {
-      max-width: 90vw;
-      margin: 0 auto 20px auto;
-      display: flex;
-      justify-content: center;
-      padding: 0 10px;
-      box-sizing: border-box;
+      font-size: 1rem;
     }
     #search-input {
-      width: 100%;
-      padding: 10px;
       font-size: 16px;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-      box-sizing: border-box;
-      max-width: none;
-      transition: background-color 0.3s, border-color 0.3s, color 0.3s;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-      max-width: 90vw;
-      margin: 0 auto;
-      flex-grow: 1;
-      box-sizing: border-box;
-      padding: 0 10px;
+      padding: 12px 14px;
+      border-radius: 6px;
     }
     li {
-      background: white;
-      margin: 8px 0;
-      padding: 12px;
-      border-radius: 5px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      transition: background-color 0.3s;
-    }
-    a {
-      text-decoration: none;
-      color: #333;
-      font-weight: bold;
-      display: block;
-      flex-grow: 1;
-      transition: color 0.3s;
-    }
-    a:hover {
-      color: #0077cc;
+      padding: 12px 14px;
+      font-size: 0.95rem;
     }
     .favorite {
-      color: #ccc;
-      cursor: pointer;
-      font-size: 20px;
-      user-select: none;
-      margin-left: 10px;
-      transition: color 0.2s;
-    }
-    .favorite.active {
-      color: gold;
+      font-size: 22px;
+      margin-left: 8px;
     }
     footer {
-      text-align: center;
-      margin-top: 40px;
-      color: #777;
-      font-size: 14px;
-      user-select: none;
-      cursor: pointer;
-      transition: color 0.3s;
+      font-size: 13px;
+      padding: 12px 8px;
+      border-radius: 10px;
     }
-
-    /* Modalità scura */
-    .dark-mode {
-      background-color: #121212;
-      color: #e0e0e0;
-    }
-    .dark-mode h1 {
-      color: #bbdefb;
-    }
-    .dark-mode h2 {
-      color: #aaa;
-    }
-    .dark-mode li {
-      background-color: #2c2c2c;
-    }
-    .dark-mode a {
-      color: #e0e0e0;
-    }
-    .dark-mode a:hover {
-      color: #8ab4f8;
-    }
-    .dark-mode #search-input {
-      background-color: #333;
-      border: 1px solid #555;
-      color: #eee;
-    }
-    .dark-mode footer {
-      color: #ccc;
-    }
-  </style>
+  }
+</style>
 </head>
 <body>
   <h1>Guida TV</h1>
   <h2>Seleziona un canale</h2>
   <div class="search-container">
-    <input type="text" id="search-input" placeholder="Cerca un canale..." />
+    <input type="search" id="search-input" placeholder="Cerca un canale..." aria-label="Cerca un canale" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
   </div>
-  <ul id="channel-list"></ul>
+  <ul id="channel-list" role="list"></ul>
+  <footer role="button" tabindex="0" title="Clicca per attivare/disattivare la modalità scura" aria-pressed="false">
+    Powered by 🐯 - Modalità Scura OFF
+  </footer>
 
-  <footer title="Clicca per attivare/disattivare la modalità scura">Powered by 🐯 - Modalità Scura OFF</footer>
+<script>
+  const CHANNELS = [
+    {"name":"20Mediaset HD","site_id":"DTH_10458"},
+    {"name":"27Twentyseven HD","site_id":"DTH_11342"},
+    {"name":"Boing","site_id":"DTH_6628"},
+    {"name":"Boomerang","site_id":"DTH_472"},
+    {"name":"Boomerang +1","site_id":"DTH_479"},
+    {"name":"CACCIA e Pesca","site_id":"DTH_520"},
+    {"name":"Canale 5 HD","site_id":"DTH_10354"},
+    {"name":"Cartoon Network HD","site_id":"DTH_9693"},
+    {"name":"Cartoon +1","site_id":"DTH_476"},
+    {"name":"CARTOONITO DTT","site_id":"DTH_8132"},
+    {"name":"Classica HD","site_id":"DTH_11437"},
+    {"name":"Comedy Central","site_id":"DTH_318"},
+    {"name":"DMAX HD","site_id":"DTH_8933"},
+    {"name":"DeAJunior","site_id":"DTH_7427"},
+    {"name":"DeAKids","site_id":"DTH_460"},
+    {"name":"Deejay TV","site_id":"DTH_462"},
+    {"name":"Discovery HD","site_id":"DTH_9059"},
+    {"name":"Euronews","site_id":"DTH_801"},
+    {"name":"Eurosport HD","site_id":"DTH_9057"},
+    {"name":"Eurosport 2 HD","site_id":"DTH_9060"},
+    {"name":"Explorer HD Channel","site_id":"DTH_11262"},
+    {"name":"Focus HD","site_id":"DTH_10470"},
+    {"name":"Food Network HD","site_id":"DTH_10534"},
+    {"name":"Gambero Rosso HD","site_id":"DTH_9099"},
+    {"name":"GIALLO HD","site_id":"DTH_8131"},
+    {"name":"HGTV HD","site_id":"DTH_11154"},
+    {"name":"Heroes Collection","site_id":"DTH_9047"},
+    {"name":"History HD","site_id":"DTH_9101"},
+    {"name":"Inter TV","site_id":"DTH_9893"},
+    {"name":"Iris HD","site_id":"DTH_10467"},
+    {"name":"Italia 1 HD","site_id":"DTH_10454"},
+    {"name":"K2","site_id":"DTH_6240"},
+    {"name":"LA7 HD","site_id":"DTH_319"},
+    {"name":"LA7D","site_id":"DTH_6624"},
+    {"name":"La 5 HD","site_id":"DTH_10466"},
+    {"name":"MTV HD","site_id":"DTH_9195"},
+    {"name":"MTV Music","site_id":"DTH_528"},
+    {"name":"Mediaset Extra HD","site_id":"DTH_10465"},
+    {"name":"Mediaset Italia2 HD","site_id":"DTH_10469"},
+    {"name":"Milan TV","site_id":"DTH_9513"},
+    {"name":"Motor Trend HD","site_id":"DTH_8130"},
+    {"name":"Nick Jr","site_id":"DTH_461"},
+    {"name":"Nickelodeon","site_id":"DTH_320"},
+    {"name":"NOVE HD","site_id":"DTH_9753"},
+    {"name":"Caccia e PESCA","site_id":"DTH_6220"},
+    {"name":"RADIOFRECCIA HD","site_id":"DTH_10616"},
+    {"name":"RADIONORBA TV","site_id":"DTH_8213"},
+    {"name":"RTL 102.5 HD","site_id":"DTH_6885"},
+    {"name":"Radio Italia TV HD","site_id":"DTH_9833"},
+    {"name":"Radio Italia Trend Tv HD","site_id":"DTH_10033"},
+    {"name":"Radio Monte Carlo","site_id":"DTH_10993"},
+    {"name":"Rai 1 HD","site_id":"DTH_899"},
+    {"name":"Rai 2 HD","site_id":"DTH_898"},
+    {"name":"Rai 3 HD","site_id":"DTH_897"},
+    {"name":"Rai 4","site_id":"DTH_6622"},
+    {"name":"Rai 5","site_id":"DTH_6607"},
+    {"name":"Rai Gulp","site_id":"DTH_6629"},
+    {"name":"Rai Movie","site_id":"DTH_6608"},
+    {"name":"Rai News 24","site_id":"DTH_895"},
+    {"name":"Rai Premium","site_id":"DTH_6623"},
+    {"name":"RAI Sport","site_id":"DTH_807"},
+    {"name":"Rai Storia","site_id":"DTH_6630"},
+    {"name":"Rai Yoyo","site_id":"DTH_6609"},
+    {"name":"Real Time HD","site_id":"DTH_8173"},
+    {"name":"Rete 4 HD","site_id":"DTH_10464"},
+    {"name":"San Marino RTV","site_id":"DTH_6861"},
+    {"name":"Sky Arte","site_id":"DTH_7767"},
+    {"name":"Sky Atlantic","site_id":"DTH_9095"},
+    {"name":"Sky Cinema Action","site_id":"DTH_9050"},
+    {"name":"Sky Cinema Comedy","site_id":"DTH_9039"},
+    {"name":"Sky Cinema Drama","site_id":"DTH_10518"},
+    {"name":"Sky Cinema Due","site_id":"DTH_9034"},
+    {"name":"Sky Cinema Family","site_id":"DTH_9042"},
+    {"name":"Sky Cinema Romance","site_id":"DTH_9055"},
+    {"name":"Sky Cinema Suspense","site_id":"DTH_10515"},
+    {"name":"Sky Cinema Uno","site_id":"DTH_9044"},
+    {"name":"Sky Crime","site_id":"DTH_8336"},
+    {"name":"Sky Documentaries","site_id":"DTH_11241"},
+    {"name":"Sky Investigation","site_id":"DTH_11246"},
+    {"name":"Sky Meteo24","site_id":"DTH_321"},
+    {"name":"Sky Nature","site_id":"DTH_11242"},
+    {"name":"Sky Serie","site_id":"DTH_11244"},
+    {"name":"Sky Sport","site_id":"DTH_11490"},
+    {"name":"Sky Sport","site_id":"DTH_11491"},
+    {"name":"Sky Sport","site_id":"DTH_11492"},
+    {"name":"Sky Sport","site_id":"DTH_11494"},
+    {"name":"Sky Sport","site_id":"DTH_11496"},
+    {"name":"Sky Sport","site_id":"DTH_11497"},
+    {"name":"Sky Sport","site_id":"DTH_617"},
+    {"name":"Sky Sport","site_id":"DTH_8613"},
+    {"name":"Sky Sport","site_id":"DTH_9046"},
+    {"name":"Sky Sport","site_id":"DTH_615"},
+    {"name":"Sky Sport 4K","site_id":"DTH_10013"},
+    {"name":"Sky Sport24","site_id":"DTH_929"},
+    {"name":"Sky Sport Arena","site_id":"DTH_7507"},
+    {"name":"Sky Sport Calcio","site_id":"DTH_9113"},
+    {"name":"Sky Sport F1","site_id":"DTH_9096"},
+    {"name":"Sky Sport Golf","site_id":"DTH_10254"},
+    {"name":"Sky Sport Max","site_id":"DTH_9103"},
+    {"name":"Sky Sport MotoGP","site_id":"DTH_8434"},
+    {"name":"Sky Sport NBA","site_id":"DTH_8753"},
+    {"name":"Sky Sport Tennis","site_id":"DTH_11237"},
+    {"name":"Sky Sport Uno","site_id":"DTH_8714"},
+    {"name":"Sky TG24","site_id":"DTH_9117"},
+    {"name":"Sky Uno","site_id":"DTH_9115"},
+    {"name":"Super!","site_id":"DTH_6460"},
+    {"name":"SuperTennis HD","site_id":"DTH_6000"},
+    {"name":"TG NORBA 24","site_id":"DTH_6481"},
+    {"name":"TgCom24 HD","site_id":"DTH_10473"},
+    {"name":"TOPcrime HD","site_id":"DTH_10468"},
+    {"name":"TV2000 HD","site_id":"DTH_7588"},
+    {"name":"TV8 HD","site_id":"DTH_8195"},
+    {"name":"Virgin Radio","site_id":"DTH_11344"},
+    {"name":"ZONA DAZN","site_id":"DTH_11402"},
+    {"name":"cielo","site_id":"DTH_8133"},
+    {"name":"-frisbee-","site_id":"DTH_6610"}
+  ];
 
-  <script>
-    const CHANNELS = [
-      {"name":"20Mediaset HD","site_id":"DTH_10458"},
-      {"name":"27Twentyseven HD","site_id":"DTH_11342"},
-      {"name":"Boing","site_id":"DTH_6628"},
-      {"name":"Boomerang","site_id":"DTH_472"},
-      {"name":"Boomerang +1","site_id":"DTH_479"},
-      {"name":"CACCIA e Pesca","site_id":"DTH_520"},
-      {"name":"Canale 5 HD","site_id":"DTH_10354"},
-      {"name":"Cartoon Network HD","site_id":"DTH_9693"},
-      {"name":"Cartoon +1","site_id":"DTH_476"},
-      {"name":"CARTOONITO DTT","site_id":"DTH_8132"},
-      {"name":"Classica HD","site_id":"DTH_11437"},
-      {"name":"Comedy Central","site_id":"DTH_318"},
-      {"name":"DMAX HD","site_id":"DTH_8933"},
-      {"name":"DeAJunior","site_id":"DTH_7427"},
-      {"name":"DeAKids","site_id":"DTH_460"},
-      {"name":"Deejay TV","site_id":"DTH_462"},
-      {"name":"Discovery HD","site_id":"DTH_9059"},
-      {"name":"Euronews","site_id":"DTH_801"},
-      {"name":"Eurosport HD","site_id":"DTH_9057"},
-      {"name":"Eurosport 2 HD","site_id":"DTH_9060"},
-      {"name":"Explorer HD Channel","site_id":"DTH_11262"},
-      {"name":"Focus HD","site_id":"DTH_10470"},
-      {"name":"Food Network HD","site_id":"DTH_10534"},
-      {"name":"Gambero Rosso HD","site_id":"DTH_9099"},
-      {"name":"GIALLO HD","site_id":"DTH_8131"},
-      {"name":"HGTV HD","site_id":"DTH_11154"},
-      {"name":"Heroes Collection","site_id":"DTH_9047"},
-      {"name":"History HD","site_id":"DTH_9101"},
-      {"name":"Inter TV","site_id":"DTH_9893"},
-      {"name":"Iris HD","site_id":"DTH_10467"},
-      {"name":"Italia 1 HD","site_id":"DTH_10454"},
-      {"name":"K2","site_id":"DTH_6240"},
-      {"name":"LA7 HD","site_id":"DTH_319"},
-      {"name":"LA7D","site_id":"DTH_6624"},
-      {"name":"La 5 HD","site_id":"DTH_10466"},
-      {"name":"MTV HD","site_id":"DTH_9195"},
-      {"name":"MTV Music","site_id":"DTH_528"},
-      {"name":"Mediaset Extra HD","site_id":"DTH_10465"},
-      {"name":"Mediaset Italia2 HD","site_id":"DTH_10469"},
-      {"name":"Milan TV","site_id":"DTH_9513"},
-      {"name":"Motor Trend HD","site_id":"DTH_8130"},
-      {"name":"Nick Jr","site_id":"DTH_461"},
-      {"name":"Nickelodeon","site_id":"DTH_320"},
-      {"name":"NOVE HD","site_id":"DTH_9753"},
-      {"name":"Caccia e PESCA","site_id":"DTH_6220"},
-      {"name":"RADIOFRECCIA HD","site_id":"DTH_10616"},
-      {"name":"RADIONORBA TV","site_id":"DTH_8213"},
-      {"name":"RTL 102.5 HD","site_id":"DTH_6885"},
-      {"name":"Radio Italia TV HD","site_id":"DTH_9833"},
-      {"name":"Radio Italia Trend Tv HD","site_id":"DTH_10033"},
-      {"name":"Radio Monte Carlo","site_id":"DTH_10993"},
-      {"name":"Rai 1 HD","site_id":"DTH_899"},
-      {"name":"Rai 2 HD","site_id":"DTH_898"},
-      {"name":"Rai 3 HD","site_id":"DTH_897"},
-      {"name":"Rai 4","site_id":"DTH_6622"},
-      {"name":"Rai 5","site_id":"DTH_6607"},
-      {"name":"Rai Gulp","site_id":"DTH_6629"},
-      {"name":"Rai Movie","site_id":"DTH_6608"},
-      {"name":"Rai News 24","site_id":"DTH_895"},
-      {"name":"Rai Premium","site_id":"DTH_6623"},
-      {"name":"RAI Sport","site_id":"DTH_807"},
-      {"name":"Rai Storia","site_id":"DTH_6630"},
-      {"name":"Rai Yoyo","site_id":"DTH_6609"},
-      {"name":"Real Time HD","site_id":"DTH_8173"},
-      {"name":"Rete 4 HD","site_id":"DTH_10464"},
-      {"name":"San Marino RTV","site_id":"DTH_6861"},
-      {"name":"Sky Arte","site_id":"DTH_7767"},
-      {"name":"Sky Atlantic","site_id":"DTH_9095"},
-      {"name":"Sky Cinema Action","site_id":"DTH_9050"},
-      {"name":"Sky Cinema Comedy","site_id":"DTH_9039"},
-      {"name":"Sky Cinema Drama","site_id":"DTH_10518"},
-      {"name":"Sky Cinema Due","site_id":"DTH_9034"},
-      {"name":"Sky Cinema Family","site_id":"DTH_9042"},
-      {"name":"Sky Cinema Romance","site_id":"DTH_9055"},
-      {"name":"Sky Cinema Suspense","site_id":"DTH_10515"},
-      {"name":"Sky Cinema Uno","site_id":"DTH_9044"},
-      {"name":"Sky Crime","site_id":"DTH_8336"},
-      {"name":"Sky Documentaries","site_id":"DTH_11241"},
-      {"name":"Sky Investigation","site_id":"DTH_11246"},
-      {"name":"Sky Meteo24","site_id":"DTH_321"},
-      {"name":"Sky Nature","site_id":"DTH_11242"},
-      {"name":"Sky Serie","site_id":"DTH_11244"},
-      {"name":"Sky Sport","site_id":"DTH_11490"},
-      {"name":"Sky Sport","site_id":"DTH_11491"},
-      {"name":"Sky Sport","site_id":"DTH_11492"},
-      {"name":"Sky Sport","site_id":"DTH_11494"},
-      {"name":"Sky Sport","site_id":"DTH_11496"},
-      {"name":"Sky Sport","site_id":"DTH_11497"},
-      {"name":"Sky Sport","site_id":"DTH_617"},
-      {"name":"Sky Sport","site_id":"DTH_8613"},
-      {"name":"Sky Sport","site_id":"DTH_9046"},
-      {"name":"Sky Sport","site_id":"DTH_615"},
-      {"name":"Sky Sport 4K","site_id":"DTH_10013"},
-      {"name":"Sky Sport24","site_id":"DTH_929"},
-      {"name":"Sky Sport Arena","site_id":"DTH_7507"},
-      {"name":"Sky Sport Calcio","site_id":"DTH_9113"},
-      {"name":"Sky Sport F1","site_id":"DTH_9096"},
-      {"name":"Sky Sport Golf","site_id":"DTH_10254"},
-      {"name":"Sky Sport Max","site_id":"DTH_9103"},
-      {"name":"Sky Sport MotoGP","site_id":"DTH_8434"},
-      {"name":"Sky Sport NBA","site_id":"DTH_8753"},
-      {"name":"Sky Sport Tennis","site_id":"DTH_11237"},
-      {"name":"Sky Sport Uno","site_id":"DTH_8714"},
-      {"name":"Sky TG24","site_id":"DTH_9117"},
-      {"name":"Sky Uno","site_id":"DTH_9115"},
-      {"name":"Super!","site_id":"DTH_6460"},
-      {"name":"SuperTennis HD","site_id":"DTH_6000"},
-      {"name":"TG NORBA 24","site_id":"DTH_6481"},
-      {"name":"TgCom24 HD","site_id":"DTH_10473"},
-      {"name":"TOPcrime HD","site_id":"DTH_10468"},
-      {"name":"TV2000 HD","site_id":"DTH_7588"},
-      {"name":"TV8 HD","site_id":"DTH_8195"},
-      {"name":"Virgin Radio","site_id":"DTH_11344"},
-      {"name":"ZONA DAZN","site_id":"DTH_11402"},
-      {"name":"cielo","site_id":"DTH_8133"},
-      {"name":"-frisbee-","site_id":"DTH_6610"}
-    ];
+  const list = document.getElementById('channel-list');
+  const footer = document.querySelector('footer');
+  let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
 
-    const list = document.getElementById('channel-list');
-    const footer = document.querySelector('footer');
-    let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+  function toggleDarkMode() {
+    const isDark = document.body.classList.toggle('dark-mode');
+    footer.textContent = 'Powered by 🐯 - Modalità Scura ' + (isDark ? 'ON' : 'OFF');
+    footer.title = 'Clicca per attivare/disattivare la modalità scura';
+    footer.setAttribute('aria-pressed', isDark);
+    localStorage.setItem('darkMode', isDark ? 'true' : 'false');
+  }
 
-    function toggleDarkMode() {
-      const isDark = document.body.classList.toggle('dark-mode');
-      footer.textContent = 'Powered by 🐯 - Modalità Scura ' + (isDark ? 'ON' : 'OFF');
-      footer.title = 'Clicca per attivare/disattivare la modalità scura';
-      localStorage.setItem('darkMode', isDark ? 'true' : 'false');
+  function toggleFavorite(channelId) {
+    const index = favorites.indexOf(channelId);
+    if (index === -1) {
+      favorites.push(channelId);
+    } else {
+      favorites.splice(index, 1);
     }
+    localStorage.setItem('favorites', JSON.stringify(favorites));
+    updateFavoriteIcons();
+  }
 
-    function toggleFavorite(channelId) {
-      const index = favorites.indexOf(channelId);
-      if (index === -1) {
-        favorites.push(channelId);
-      } else {
-        favorites.splice(index, 1);
-      }
-      localStorage.setItem('favorites', JSON.stringify(favorites));
-      updateFavoriteIcons();
-    }
+  function updateFavoriteIcons() {
+    document.querySelectorAll('.favorite').forEach(star => {
+      const channelId = star.dataset.channelId;
+      star.classList.toggle('active', favorites.includes(channelId));
+      star.setAttribute('aria-pressed', favorites.includes(channelId));
+      star.setAttribute('title', favorites.includes(channelId) ? 'Rimuovi dai preferiti' : 'Aggiungi ai preferiti');
+      star.setAttribute('role', 'button');
+      star.setAttribute('tabindex', 0);
+    });
+  }
 
-    function updateFavoriteIcons() {
-      document.querySelectorAll('.favorite').forEach(star => {
-        const channelId = star.dataset.channelId;
-        star.classList.toggle('active', favorites.includes(channelId));
-      });
-    }
+  function buildChannelList() {
+    list.innerHTML = ''; // pulisce lista
+    // Ordina alfabeticamente
+    CHANNELS.sort((a, b) => a.name.localeCompare(b.name));
 
-    function buildChannelList() {
-      // Ordina i canali alfabeticamente
-      CHANNELS.sort((a, b) => a.name.localeCompare(b.name));
-      
-      // Prima mostra i preferiti
-      favorites.forEach(favId => {
-        const ch = CHANNELS.find(c => c.site_id === favId);
-        if (ch) {
-          addChannelToList(ch);
-        }
-      });
-      
-      // Poi mostra tutti gli altri canali
-      CHANNELS.forEach(ch => {
-        if (!favorites.includes(ch.site_id)) {
-          addChannelToList(ch);
-        }
-      });
-    }
-
-    function addChannelToList(ch) {
-      const li = document.createElement('li');
-      const a = document.createElement('a');
-      a.href = `guide.html?site_id=${encodeURIComponent(ch.site_id)}&name=${encodeURIComponent(ch.name)}`;
-      a.textContent = ch.name;
-      li.appendChild(a);
-      
-      const star = document.createElement('span');
-      star.className = 'favorite';
-      star.dataset.channelId = ch.site_id;
-      star.innerHTML = '★';
-      star.addEventListener('click', (e) => {
-        e.preventDefault();
-        toggleFavorite(ch.site_id);
-      });
-      li.appendChild(star);
-      
-      list.appendChild(li);
-      ch.element = li; // per filtro
-    }
-
-    function filterChannels(query) {
-      const q = query.trim().toLowerCase();
-      CHANNELS.forEach(item => {
-        if (item.name.toLowerCase().includes(q)) {
-          item.element.style.display = '';
-        } else {
-          item.element.style.display = 'none';
-        }
-      });
-    }
-
-    document.getElementById('search-input').addEventListener('input', e => {
-      filterChannels(e.target.value);
+    // Prima i preferiti
+    favorites.forEach(favId => {
+      const ch = CHANNELS.find(c => c.site_id === favId);
+      if (ch) addChannelToList(ch);
     });
 
-    // Carica la modalità scura da localStorage e aggiorna testo footer
-    const darkModeStored = localStorage.getItem('darkMode');
-    if (darkModeStored === 'true') {
-      document.body.classList.add('dark-mode');
-      footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
+    // Poi tutti gli altri
+    CHANNELS.forEach(ch => {
+      if (!favorites.includes(ch.site_id)) addChannelToList(ch);
+    });
+  }
+
+  function addChannelToList(ch) {
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = `guide.html?site_id=${encodeURIComponent(ch.site_id)}&name=${encodeURIComponent(ch.name)}`;
+    a.textContent = ch.name;
+    a.setAttribute('tabindex', 0);
+    li.appendChild(a);
+
+    const star = document.createElement('span');
+    star.className = 'favorite';
+    star.dataset.channelId = ch.site_id;
+    star.innerHTML = '★';
+    star.addEventListener('click', e => {
+      e.preventDefault();
+      toggleFavorite(ch.site_id);
+    });
+    star.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        toggleFavorite(ch.site_id);
+      }
+    });
+    li.appendChild(star);
+
+    list.appendChild(li);
+    ch.element = li; // per filtro
+  }
+
+  function filterChannels(query) {
+    const q = query.trim().toLowerCase();
+    CHANNELS.forEach(item => {
+      if (item.name.toLowerCase().includes(q)) {
+        item.element.style.display = '';
+      } else {
+        item.element.style.display = 'none';
+      }
+    });
+  }
+
+  document.getElementById('search-input').addEventListener('input', e => {
+    filterChannels(e.target.value);
+  });
+
+  // Modalità scura da localStorage
+  const darkModeStored = localStorage.getItem('darkMode');
+  if (darkModeStored === 'true') {
+    document.body.classList.add('dark-mode');
+    footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
+    footer.setAttribute('aria-pressed', 'true');
+  }
+
+  footer.addEventListener('click', toggleDarkMode);
+  footer.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      toggleDarkMode();
     }
+  });
 
-    // Toggle modalità scura e salva localStorage
-    footer.addEventListener('click', toggleDarkMode);
-
-    buildChannelList();
-    updateFavoriteIcons();
-  </script>
+  buildChannelList();
+  updateFavoriteIcons();
+</script>
 </body>
 </html>
