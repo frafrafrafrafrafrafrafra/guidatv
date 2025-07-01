@@ -269,7 +269,7 @@
         }
         const filtered = searchTerm
           ? dayPrograms.filter(p => {
-              const title = p.eventTitle || p.title || '';
+              const title = p.eventTitle || p.epgEventTitle || p.title || '';
               const synopsis = p.eventSynopsis || p.description || p.episode_title || '';
               return title.toLowerCase().includes(searchTerm.toLowerCase()) ||
                      synopsis.toLowerCase().includes(searchTerm.toLowerCase());
@@ -288,44 +288,34 @@
             ? DateTime.fromFormat(next.time, 'HH:mm', { zone: 'Europe/Rome' })
             : DateTime.fromISO(program.endtime || program.end, { zone: 'Europe/Rome' });
 
-          const isNow = isToday && now >= start && (!end || now < end);
+          const isNow = isToday && start.isValid && now >= start && (!end || now < end);
 
-          let series = '', episodeInfo = '', episodeTitle = '';
-          if (program.epgEventTitle && program.eventTitle) {
-            const parts = program.epgEventTitle.split(' - ');
-            if (parts.length >= 2) {
-              episodeInfo = parts[0].trim();
-              series = parts.slice(1).join(' - ').trim();
-            } else {
-              series = program.epgEventTitle.trim();
-            }
-            episodeTitle = program.eventTitle.trim();
-          } else if (program.title || program.episode_info) {
-            episodeTitle = program.title || '';
-            episodeInfo = program.episode_info || '';
+          let finalTitle = '';
+          if (isSimplified) {
+            finalTitle = program.title || '';
+            if (program.episode_info) finalTitle += ' - ' + program.episode_info;
+          } else if (program.epgEventTitle) {
+            finalTitle = program.epgEventTitle;
+          } else if (program.eventTitle) {
+            finalTitle = program.eventTitle;
+          } else if (program.title) {
+            finalTitle = program.title;
           } else {
-            episodeTitle = program.eventTitle || program.title || '';
+            finalTitle = 'Titolo sconosciuto';
           }
 
           const isPrimeVision = program.primeVision || false;
-          let finalTitle = '';
-          if (isSimplified) {
-            finalTitle = `${episodeTitle}${episodeInfo ? ' - ' + episodeInfo : ''}`;
-          } else {
-            finalTitle = `${series ? series + ' - ' : ''}${episodeInfo ? episodeInfo + ' - ' : ''}${episodeTitle}`;
-          }
-
-          const programElem = document.createElement('div');
-          programElem.className = 'program';
-          if (isNow) programElem.style.borderLeft = '4px solid #e74c3c';
-          else if (isPrimeVision) programElem.style.borderLeft = '4px solid #1a4b8c';
-
           let statusText = '';
           if (isNow && isPrimeVision) statusText = `<span class="now-on-air">• Ora in onda</span> <span class="prime-vision">• Prima TV</span>`;
           else if (isNow) statusText = `<span class="now-on-air">• Ora in onda</span>`;
           else if (isPrimeVision) statusText = `<span class="prime-vision">• Prima TV</span>`;
 
           const timeStr = program.time || (start.isValid && end.isValid ? `${start.toFormat('HH:mm')} - ${end.toFormat('HH:mm')}` : 'Orario sconosciuto');
+          const programElem = document.createElement('div');
+          programElem.className = 'program';
+          if (isNow) programElem.style.borderLeft = '4px solid #e74c3c';
+          else if (isPrimeVision) programElem.style.borderLeft = '4px solid #1a4b8c';
+
           programElem.innerHTML = `
             <div class="program-time">${timeStr} ${statusText}</div>
             <div class="program-title">${finalTitle}</div>
@@ -351,10 +341,9 @@
         }
         const text = dayPrograms.map(p => {
           const time = p.time || '';
-          const title = p.eventTitle || p.title || '';
-          const episodeInfo = p.episode_info || '';
-          const desc = p.eventSynopsis || p.description || p.episode_title || '';
-          return `${time} ${episodeInfo ? episodeInfo + ' - ' : ''}${title}\n    ${desc}`;
+          const title = p.eventTitle || p.epgEventTitle || p.title || 'Titolo sconosciuto';
+          const desc = p.eventSynopsis || p.description || '';
+          return `${time} ${title}\n    ${desc}`;
         }).join('\n\n');
         const blob = new Blob([text], { type: 'text/plain' });
         const url = URL.createObjectURL(blob);
@@ -411,10 +400,12 @@
       });
       datePicker.addEventListener('blur', () => datePicker.style.display = 'none');
       exportTxtBtn.addEventListener('click', exportToTxt);
+
       if (localStorage.getItem('darkMode') === 'true') {
         document.body.classList.add('dark-mode');
         footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
       }
+
       footer.addEventListener('click', toggleDarkMode);
       loadChannelData();
     });
