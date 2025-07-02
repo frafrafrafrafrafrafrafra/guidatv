@@ -5,6 +5,7 @@ import pytz
 import os
 import time
 import sys
+from xml.etree import ElementTree as ET
 
 ROME_TZ = pytz.timezone("Europe/Rome")
 
@@ -125,16 +126,26 @@ CHANNELS = [
     {"name":"frisbee","site_id":"DTH#6610"}
 ]
 
+EPG_GUIDE_CHANNELS = {
+    "K2": "K2",
+    "Motor Trend": "Motor Trend",
+    "GIALLO": "Giallo",
+    "frisbee": "Frisbee",
+    "Food Network": "Food Network",
+    "HGTV": "HGTV",
+    "DMAX": "DMAX",
+    "NOVE": "NOVE",
+    "Real Time": "Real Time"
+}
+
 def fetch_sky_guide(env, channel_id, now_rome, num_days):
     results = []
-
     for day_offset in range(num_days + 1):
         date = now_rome + timedelta(days=day_offset)
         date_str = date.strftime("%Y-%m-%d")
         from_str = date.strftime("%Y-%m-%dT00:00:00Z")
         to_str = (date + timedelta(days=1)).strftime("%Y-%m-%dT00:00:00Z")
         url = f"https://apid.sky.it/gtv/v1/events?from={from_str}&to={to_str}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
-
         try:
             response = requests.get(url, timeout=15)
             response.raise_for_status()
@@ -149,7 +160,38 @@ def fetch_sky_guide(env, channel_id, now_rome, num_days):
         except Exception as e:
             print(f"  ✗ Errore per {date_str}: {e}")
             continue
+    return results
 
+def parse_epg_guide(channel_name_map):
+    results = {name: {} for name in channel_name_map}
+    try:
+        resp = requests.get("http://epg-guide.com/dttsat.xml", timeout=30)
+        resp.raise_for_status()
+        xml_root = ET.fromstring(resp.content)
+    except Exception as e:
+        print(f"✗ Errore nel download/parsing XML: {e}")
+        return results
+
+    for prog in xml_root.findall(".//programme"):
+        cid = prog.attrib.get("channel", "").strip()
+        title_el = prog.find("title")
+        start_raw = prog.attrib.get("start", "")
+        stop_raw = prog.attrib.get("stop", "")
+        if not (cid and title_el and start_raw and stop_raw):
+            continue
+
+        # Match solo i canali richiesti
+        for name, target_id in channel_name_map.items():
+            if cid.lower() == target_id.lower():
+                dt_start = datetime.strptime(start_raw, "%Y%m%d%H%M%S %z").astimezone(ROME_TZ)
+                dt_end = datetime.strptime(stop_raw, "%Y%m%d%H%M%S %z").astimezone(ROME_TZ)
+                day = dt_start.strftime("%Y-%m-%d")
+                event = {
+                    "title": title_el.text,
+                    "start": dt_start.isoformat(),
+                    "end": dt_end.isoformat()
+                }
+                results[name].setdefault(day, []).append(event)
     return results
 
 def main():
@@ -162,16 +204,34 @@ def main():
 
     now_rome = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
 
+    # SKY
     print("==> Inizio elaborazione canali Sky")
     for ch in CHANNELS:
-        print(f"• Elaboro {ch['name']} ({ch['site_id']})...")
+        if ch["name"].strip() in EPG_GUIDE_CHANNELS:
+            continue
         env_part, channel_id = ch["site_id"].split("#")
+        print(f"• Elaboro {ch['name']} ({ch['site_id']})...")
         guide = fetch_sky_guide(env_part, channel_id, now_rome, num_days)
         out_path = f"output/guides/{ch['site_id'].replace('#','_')}.json"
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump({
                 "name": ch["name"],
                 "events_by_date": {g["date"]: g["events"] for g in guide}
+            }, f, indent=2, ensure_ascii=False)
+        print(f"  ↳ Salvato {out_path}")
+
+    # EPG-GUIDE.COM
+    print("==> Inizio scraping epg-guide.com")
+    parsed = parse_epg_guide(EPG_GUIDE_CHANNELS)
+    for name, events_by_date in parsed.items():
+        site_id = next((c["site_id"] for c in CHANNELS if c["name"] == name), None)
+        if not site_id:
+            continue
+        out_path = f"output/guides/{site_id.replace('#','_')}.json"
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump({
+                "name": name,
+                "events_by_date": events_by_date
             }, f, indent=2, ensure_ascii=False)
         print(f"  ↳ Salvato {out_path}")
 
