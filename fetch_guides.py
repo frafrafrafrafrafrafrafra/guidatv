@@ -127,15 +127,15 @@ CHANNELS = [
 ]
 
 EPG_GUIDE_CHANNELS = {
-    "K2": "K2",
-    "Motor Trend": "Motor Trend",
-    "GIALLO": "Giallo",
-    "frisbee": "Frisbee",
-    "Food Network": "Food Network",
-    "HGTV": "HGTV",
-    "DMAX": "DMAX",
-    "NOVE": "NOVE",
-    "Real Time": "Real Time"
+    "K2": "K2.it",
+    "Motor Trend HD": "MotorTrend.it",
+    "GIALLO HD": "Giallo.it",
+    "frisbee": "Frisbee.it",
+    "Food Network HD": "FoodNetwork.it",
+    "HGTV HD": "HGTV.it",
+    "DMAX HD": "DMAX.it",
+    "NOVE HD": "NOVE.it",
+    "Real Time HD": "RealTime.it"
 }
 
 def fetch_sky_guide(env, channel_id, now_rome, num_days):
@@ -162,25 +162,15 @@ def fetch_sky_guide(env, channel_id, now_rome, num_days):
             continue
     return results
 
-def parse_epg_guide(channel_name_map):
+def parse_epg_guide(channel_name_map, xml_root):
     results = {name: {} for name in channel_name_map}
-    try:
-        resp = requests.get("http://epg-guide.com/dttsat.xml", timeout=30)
-        resp.raise_for_status()
-        xml_root = ET.fromstring(resp.content)
-    except Exception as e:
-        print(f"✗ Errore nel download/parsing XML: {e}")
-        return results
-
     for prog in xml_root.findall(".//programme"):
         cid = prog.attrib.get("channel", "").strip()
         title_el = prog.find("title")
         start_raw = prog.attrib.get("start", "")
         stop_raw = prog.attrib.get("stop", "")
-        if not (cid and title_el and start_raw and stop_raw):
+        if not (cid and title_el is not None and start_raw and stop_raw):
             continue
-
-        # Match solo i canali richiesti
         for name, target_id in channel_name_map.items():
             if cid.lower() == target_id.lower():
                 dt_start = datetime.strptime(start_raw, "%Y%m%d%H%M%S %z").astimezone(ROME_TZ)
@@ -199,12 +189,9 @@ def main():
         num_days = int(sys.argv[1])
     except (IndexError, ValueError):
         num_days = 40
-
     os.makedirs("output/guides", exist_ok=True)
-
     now_rome = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
 
-    # SKY
     print("==> Inizio elaborazione canali Sky")
     for ch in CHANNELS:
         if ch["name"].strip() in EPG_GUIDE_CHANNELS:
@@ -220,12 +207,21 @@ def main():
             }, f, indent=2, ensure_ascii=False)
         print(f"  ↳ Salvato {out_path}")
 
-    # EPG-GUIDE.COM
     print("==> Inizio scraping epg-guide.com")
-    parsed = parse_epg_guide(EPG_GUIDE_CHANNELS)
+    try:
+        resp = requests.get("http://epg-guide.com/dttsat.xml", timeout=30)
+        resp.raise_for_status()
+        xml_root = ET.fromstring(resp.content)
+        print("Scaricamento e parsing XML completati.\n")
+    except Exception as e:
+        print(f"✗ Errore nel download/parsing XML: {e}")
+        return
+
+    parsed = parse_epg_guide(EPG_GUIDE_CHANNELS, xml_root)
     for name, events_by_date in parsed.items():
         site_id = next((c["site_id"] for c in CHANNELS if c["name"] == name), None)
         if not site_id:
+            print(f"⚠️ Attenzione: site_id non trovato per {name}, salto salvataggio")
             continue
         out_path = f"output/guides/{site_id.replace('#','_')}.json"
         with open(out_path, "w", encoding="utf-8") as f:
@@ -233,7 +229,8 @@ def main():
                 "name": name,
                 "events_by_date": events_by_date
             }, f, indent=2, ensure_ascii=False)
-        print(f"  ↳ Salvato {out_path}")
+        total_events = sum(len(ev) for ev in events_by_date.values())
+        print(f"  ↳ Salvato {out_path} ({total_events} eventi)")
 
 if __name__ == "__main__":
     main()
