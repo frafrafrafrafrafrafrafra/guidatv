@@ -389,17 +389,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/a4b31b98-5e57-4b57-a7dd-003cc1b62efd/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f28adedcceed78c743b0ed19ecc52198"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/a4b31b98-5e57-4b57-a7dd-003cc1b62efd/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=f28adedcceed78c743b0ed19ecc52198"
               }
             },
             {
               "img": {
                 "url": "/uuid/ae93e2ae-c22d-4d72-9f63-88bbf6104857/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=27c3d80d93724671e627c4acf652fb0d"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/a4b31b98-5e57-4b57-a7dd-003cc1b62efd/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f28adedcceed78c743b0ed19ecc52198"
               }
             },
             {
@@ -757,17 +757,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/a4b31b98-5e57-4b57-a7dd-003cc1b62efd/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f28adedcceed78c743b0ed19ecc52198"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/a4b31b98-5e57-4b57-a7dd-003cc1b62efd/COVER_CLEAN_WIDE-SERIES?territory=IT&md5ChecksumParam=f28adedcceed78c743b0ed19ecc52198"
               }
             },
             {
               "img": {
                 "url": "/uuid/ae93e2ae-c22d-4d72-9f63-88bbf6104857/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=27c3d80d93724671e627c4acf652fb0d"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/a4b31b98-5e57-4b57-a7dd-003cc1b62efd/COVER_CLEAN_WIDE-SERIES?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f28adedcceed78c743b0ed19ecc52198"
               }
             },
             {
@@ -2417,7 +2417,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/03b825a5-8343-4d76-ae62-36f4cf3ca2d3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f7a658311d7f46c69543cff14759fc07"
+                "url": "/uuid/03b825a5-8343-4d76-ae62-36f4cf3ca2d3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f7a658311d7f46c69543cff14759fc07"
               }
             },
             {
@@ -2427,7 +2427,7 @@
             },
             {
               "img": {
-                "url": "/uuid/03b825a5-8343-4d76-ae62-36f4cf3ca2d3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f7a658311d7f46c69543cff14759fc07"
+                "url": "/uuid/03b825a5-8343-4d76-ae62-36f4cf3ca2d3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f7a658311d7f46c69543cff14759fc07"
               }
             },
             {
@@ -5793,9 +5793,9 @@
         "eventId": "411416441",
         "starttime": "2025-07-05T07:40:00Z",
         "endtime": "2025-07-05T07:43:00Z",
-        "eventTitle": "Appuntamento al cinema",
+        "eventTitle": "Stag. 2025 - Appuntamento al cinema",
         "eventSynopsis": "Rubrica per la promozione della cultura cinematografica in Italia.. - 2025 ITA",
-        "epgEventTitle": "Appuntamento al cinema",
+        "epgEventTitle": "Stag. 2025 - Appuntamento al cinema",
         "primeVision": false,
         "resolutions": [
           {
@@ -7851,9 +7851,79 @@
         "eventId": "411416388",
         "starttime": "2025-07-06T07:55:00Z",
         "endtime": "2025-07-06T10:05:00Z",
-        "eventTitle": "Il Trovatore (Teatro alla Scala, 2014)",
+        "eventTitle": "Il Trovatore (1966)",
         "eventSynopsis": "Storica registrazione del 1966 del Trovatore di Giuseppe Verdi con Antonietta Stella, Carlo Bergonzi, Adriana Lazzarini e Piero Cappuccilli. Direzione di Arturo Basile, regia di margherita Wallmann",
-        "epgEventTitle": "Il Trovatore (Teatro alla Scala, 2014)",
+        "epgEventTitle": "Il Trovatore (1966)",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "9dbb0b66-4583-45d9-9bc3-d68a33784163",
+          "contentTitle": "Vedo sento parlo",
+          "url": "/programmi-tv/intrattenimento/vedo-sento-parlo/9dbb0b66-4583-45d9-9bc3-d68a33784163",
+          "genre": {
+            "id": 1,
+            "name": "Intrattenimento"
+          },
+          "subgenre": {
+            "id": 2,
+            "name": "Intrattenimento"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411420147",
+        "starttime": "2025-07-06T10:05:00Z",
+        "endtime": "2025-07-06T10:34:00Z",
+        "eventTitle": "Vedo sento parlo",
+        "eventSynopsis": "Vedo, sento, parlo\", rubrica di vita musicale del 1977, parla dell'uso della voce nella musica contemporanea, con interviste ed esibizioni in studio di Cathy Berberian, mezzosoprano, e del cantant...",
+        "epgEventTitle": "Vedo sento parlo",
         "primeVision": false,
         "resolutions": [
           {
@@ -8091,6 +8161,216 @@
           }
         },
         "content": {
+          "uuid": "53744fce-4e06-418c-a4cb-74c881d16d66",
+          "contentTitle": "Evolution Puntata 192 Prima Visione RAI",
+          "url": "/programmi-tv/intrattenimento/evolution-puntata-192-prima-visione-rai/53744fce-4e06-418c-a4cb-74c881d16d66",
+          "genre": {
+            "id": 1,
+            "name": "Intrattenimento"
+          },
+          "subgenre": {
+            "id": 2,
+            "name": "Intrattenimento"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411455187",
+        "starttime": "2025-07-06T11:42:00Z",
+        "endtime": "2025-07-06T13:36:00Z",
+        "eventTitle": "Evolution Puntata 192 Prima Visione RAI",
+        "eventSynopsis": "RUBRICA - Quinta edizione di Evolution, il programma di Rai5 dedicato alla natura nelle sue varie forme. In onda tutti i giorni tranne il mercoledi', sara' un viaggio tra le meraviglie ambientali d...",
+        "epgEventTitle": "Evolution Puntata 192 Prima Visione RAI",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "3d91be13-3e5f-4ef4-b7f2-4d4b3a46a985",
+          "contentTitle": "Sei personaggi in cerca d'autore",
+          "url": "/programmi-tv/teatro/sei-personaggi-in-cerca-dautore/3d91be13-3e5f-4ef4-b7f2-4d4b3a46a985",
+          "genre": {
+            "id": 1,
+            "name": "Intrattenimento"
+          },
+          "subgenre": {
+            "id": 105,
+            "name": "Teatro"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411416394",
+        "starttime": "2025-07-06T13:36:00Z",
+        "endtime": "2025-07-06T15:29:00Z",
+        "eventTitle": "Sei personaggi in cerca d'autore",
+        "eventSynopsis": "A ormai cent'anni dalla prima messa in scena dei \"Sei personaggi\" al Teatro Valle di Roma, il 9 maggio 1921, il capolavoro pirandelliano torna a vivere negli spazi del leggendario teatro capitolino...",
+        "epgEventTitle": "Sei personaggi in cerca d'autore",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "effdfc28-a228-45bf-a1c6-313d3700fd91",
+          "contentTitle": "Salines (Teatro)",
+          "url": "/programmi-tv/teatro/salines-teatro/effdfc28-a228-45bf-a1c6-313d3700fd91",
+          "genre": {
+            "id": 1,
+            "name": "Intrattenimento"
+          },
+          "subgenre": {
+            "id": 105,
+            "name": "Teatro"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411416395",
+        "starttime": "2025-07-06T15:29:00Z",
+        "endtime": "2025-07-06T16:08:00Z",
+        "eventTitle": "Salines (Teatro)",
+        "eventSynopsis": "Un omaggio ad Antonio Salines, un grande artista italiano che partito dalla Spezia giovanissimo e' riuscito a diventare uno dei protagonisti principali del teatro italiano del '900, con incursioni...",
+        "epgEventTitle": "Salines (Teatro)",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
           "uuid": "baf35db0-fce0-340f-b2eb-7b84d55d1d2c",
           "contentTitle": "Rai5 Classic 2023 - Stag. 2023 Ep. 59 - Puntata 59",
           "episodeNumber": 59,
@@ -8162,6 +8442,76 @@
           }
         },
         "content": {
+          "uuid": "f71647dc-416d-4166-a870-8731cb48ef88",
+          "contentTitle": "Stag. 2025 - RaiNews",
+          "url": "/programmi-tv/notiziario/stag-2025-rainews/f71647dc-416d-4166-a870-8731cb48ef88",
+          "genre": {
+            "id": 5,
+            "name": "Informazione"
+          },
+          "subgenre": {
+            "id": 13,
+            "name": "Notiziario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411416398",
+        "starttime": "2025-07-06T16:23:00Z",
+        "endtime": "2025-07-06T16:25:00Z",
+        "eventTitle": "Stag. 2025 - RaiNews",
+        "eventSynopsis": "NOTIZIARIO - Cronaca, politica, economia, cultura, spettacolo e sport dall'Italia e dal mondo. I fatti del giorno in tre minuti a cura di Rai News, il canale all news della Rai.. - 2025 ITA",
+        "epgEventTitle": "Stag. 2025 - RaiNews",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
           "uuid": "1ca7791d-86af-4297-94a1-767da383e8e8",
           "contentTitle": "Ennio",
           "url": "/programmi-tv/documentario/ennio/1ca7791d-86af-4297-94a1-767da383e8e8",
@@ -8206,6 +8556,76 @@
         "eventTitle": "Ennio",
         "eventSynopsis": "Giuseppe Tornatore rende omaggio a uno storico amico e collaboratore, il grande compositore Ennio Morricone, ripercorrendone vita e opere: dall'esordio con Sergio Leone fino al Premio Oscar per \"Th...",
         "epgEventTitle": "Ennio",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "235c4930-b62a-4b2b-af62-4f5af261f3cf",
+          "contentTitle": "Novecento, Il Duello",
+          "url": "/programmi-tv/teatro/novecento-il-duello/235c4930-b62a-4b2b-af62-4f5af261f3cf",
+          "genre": {
+            "id": 1,
+            "name": "Intrattenimento"
+          },
+          "subgenre": {
+            "id": 105,
+            "name": "Teatro"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411455188",
+        "starttime": "2025-07-06T18:55:00Z",
+        "endtime": "2025-07-06T20:25:00Z",
+        "eventTitle": "Novecento, Il Duello",
+        "eventSynopsis": "FESTIVAL - Dal Duomo di Spoleto per il Festival dei Due Mondi 2025, Novecento, il Duello. Il famosissimo testo di Alessandro Baricco, nato come libro e poi diventato film, e' raccontato dal suo aut...",
+        "epgEventTitle": "Novecento, Il Duello",
         "primeVision": false,
         "resolutions": [
           {
@@ -8346,6 +8766,76 @@
         "eventTitle": "Punto Nave - Mappe per l'immaginario - Stag. 2023 - Mappe per l'immaginario Spoleto Festival dei Due Mondi 2024",
         "eventSynopsis": "St2023 Mappe per l'immaginario Spoleto Festival dei Due Mondi 2024 - Punto Nave Mappe per l'immaginario dedica una puntata alla 67esima edizione del Festival dei due - Mondi di Spoleto diretta da Monique Veaute che quest'anno tocca il tema del mito in tutte le sue d...",
         "epgEventTitle": "Punto Nave - Mappe per l'immaginario - Stag. 2023 - Mappe per l'immaginario Spoleto Festival dei Due Mondi 2024",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "f62445a1-b595-47ab-88d1-f3336c9fed8b",
+          "contentTitle": "Stag. 2025 - RaiNews",
+          "url": "/programmi-tv/notiziario/stag-2025-rainews/f62445a1-b595-47ab-88d1-f3336c9fed8b",
+          "genre": {
+            "id": 5,
+            "name": "Informazione"
+          },
+          "subgenre": {
+            "id": 13,
+            "name": "Notiziario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411420315",
+        "starttime": "2025-07-06T22:26:00Z",
+        "endtime": "2025-07-06T22:28:00Z",
+        "eventTitle": "Stag. 2025 - RaiNews",
+        "eventSynopsis": "Cronaca, politica, economia, cultura, spettacolo e sport dall'Italia e dal mondo. I fatti del giorno in tre minuti a cura di Rai News, il canale all news della Rai.. - con   2025 ITA",
+        "epgEventTitle": "Stag. 2025 - RaiNews",
         "primeVision": false,
         "resolutions": [
           {
@@ -8585,6 +9075,76 @@
           }
         },
         "content": {
+          "uuid": "53744fce-4e06-418c-a4cb-74c881d16d66",
+          "contentTitle": "Evolution Puntata 192 Prima Visione RAI",
+          "url": "/programmi-tv/intrattenimento/evolution-puntata-192-prima-visione-rai/53744fce-4e06-418c-a4cb-74c881d16d66",
+          "genre": {
+            "id": 1,
+            "name": "Intrattenimento"
+          },
+          "subgenre": {
+            "id": 2,
+            "name": "Intrattenimento"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411455194",
+        "starttime": "2025-07-07T01:13:00Z",
+        "endtime": "2025-07-07T03:06:00Z",
+        "eventTitle": "Evolution Puntata 192 Prima Visione RAI",
+        "eventSynopsis": "RUBRICA - Quinta edizione di Evolution, il programma di Rai5 dedicato alla natura nelle sue varie forme. In onda tutti i giorni tranne il mercoledi', sara' un viaggio tra le meraviglie ambientali d...",
+        "epgEventTitle": "Evolution Puntata 192 Prima Visione RAI",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
           "uuid": "5a8c6166-2e56-4f3f-9783-25d358a67aa7",
           "contentTitle": "Ecuador, paradiso di biodiversita' - Stag. 1 Ep. 2 - Dalle Ande alle Galapagos",
           "episodeNumber": 2,
@@ -8630,6 +9190,76 @@
         "eventTitle": "Ecuador, paradiso di biodiversita' - Stag. 1 Ep. 2 - Dalle Ande alle Galapagos",
         "eventSynopsis": "St1 Ep2  Dalle Ande alle Galapagos - Il secondo episodio scende attraverso le foreste nuvolose occidentali verso la costa del Pacifico nell'arcipelago delle Galapagos.  Questo viaggio ci porta a incontrare le specie animali piu' emble...",
         "epgEventTitle": "Ecuador, paradiso di biodiversita' - Stag. 1 Ep. 2 - Dalle Ande alle Galapagos",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "0b65e81a-f98b-49f3-852d-06d2c96a1361",
+          "contentTitle": "Rivoluzione",
+          "url": "/programmi-tv/intrattenimento/rivoluzione/0b65e81a-f98b-49f3-852d-06d2c96a1361",
+          "genre": {
+            "id": 1,
+            "name": "Intrattenimento"
+          },
+          "subgenre": {
+            "id": 2,
+            "name": "Intrattenimento"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411420328",
+        "starttime": "2025-07-07T04:27:00Z",
+        "endtime": "2025-07-07T05:20:00Z",
+        "eventTitle": "Rivoluzione",
+        "eventSynopsis": "Da Cimabue a Giotto: la rivoluzione del corpo - DOC. CULTURA - Nella Basilica di San Francesco d'Assisi, sulle volte, nelle cappelle, sul soffitto, ovunque, su scala grandiosa, affreschi ovunque. Q...",
+        "epgEventTitle": "Rivoluzione",
         "primeVision": false,
         "resolutions": [
           {
@@ -9118,9 +9748,9 @@
         "eventId": "411420344",
         "starttime": "2025-07-07T13:02:00Z",
         "endtime": "2025-07-07T13:50:00Z",
-        "eventTitle": "Stormborn - I figli della tempesta",
+        "eventTitle": "Stormborn - I figli della tempesta - Stag. 1 Ep. 1 - Il risveglio del Nord",
         "eventSynopsis": "St1 Ep1 Il risveglio del Nord - Un racconto sulla vita degli animali nelle coste fredde e tempestose dell'Atlantico del Nord. Volpi artiche, foche, lontre e renne lottano per difendere il loro territorio, trovare cibo e allevare ...",
-        "epgEventTitle": "Stormborn - I figli della tempesta",
+        "epgEventTitle": "Stormborn - I figli della tempesta - Stag. 1 Ep. 1 - Il risveglio del Nord",
         "primeVision": false,
         "resolutions": [
           {
@@ -9287,6 +9917,146 @@
           }
         },
         "content": {
+          "uuid": "025287b4-c899-48a1-bfbd-e18bf67a3461",
+          "contentTitle": "Concerto OSN: Fabio Luisi, Beatrice R...",
+          "url": "/programmi-tv/intrattenimento/concerto-osn-fabio-luisi-beatrice-r/025287b4-c899-48a1-bfbd-e18bf67a3461",
+          "genre": {
+            "id": 1,
+            "name": "Intrattenimento"
+          },
+          "subgenre": {
+            "id": 2,
+            "name": "Intrattenimento"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411420349",
+        "starttime": "2025-07-07T15:30:00Z",
+        "endtime": "2025-07-07T17:18:00Z",
+        "eventTitle": "Concerto OSN: Fabio Luisi, Beatrice R...",
+        "eventSynopsis": "In diretta dall'Auditorium Rai \"Arturo Toscanini\" di Torino, Fabio Luisi dirige l'Orchestra Sinfonica Nazionale della Rai con Beatrice Rana (pianoforte) e Ekaterina Bakanova (soprano) nel Concerto ...",
+        "epgEventTitle": "Concerto OSN: Fabio Luisi, Beatrice R...",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "91c507d2-a89a-4fe2-8085-48208000b515",
+          "contentTitle": "Stag. 2025 - RaiNews",
+          "url": "/programmi-tv/notiziario/stag-2025-rainews/91c507d2-a89a-4fe2-8085-48208000b515",
+          "genre": {
+            "id": 5,
+            "name": "Informazione"
+          },
+          "subgenre": {
+            "id": 13,
+            "name": "Notiziario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411420351",
+        "starttime": "2025-07-07T17:18:00Z",
+        "endtime": "2025-07-07T17:19:00Z",
+        "eventTitle": "Stag. 2025 - RaiNews",
+        "eventSynopsis": "NOTIZIARIO - Cronaca, politica, economia, cultura, spettacolo e sport dall'Italia e dal mondo. I fatti del giorno in tre minuti a cura di Rai News, il canale all news della Rai.. - 2025 ITA",
+        "epgEventTitle": "Stag. 2025 - RaiNews",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
           "uuid": "5bb82fde-ac13-4bf3-b608-53fc2368412e",
           "contentTitle": "Il pianeta di ghiaccio",
           "url": "/programmi-tv/documentario/il-pianeta-di-ghiaccio/5bb82fde-ac13-4bf3-b608-53fc2368412e",
@@ -9331,6 +10101,76 @@
         "eventTitle": "Il pianeta di ghiaccio",
         "eventSynopsis": "I confini della Terra - Le regioni polari sono i territori piu' estesi e meno conosciuti del globo.",
         "epgEventTitle": "Il pianeta di ghiaccio",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "af936685-e4c5-4941-a003-9fd568197655",
+          "contentTitle": "Stag. 2025 - Overland",
+          "url": "/programmi-tv/arte-e-cultura/stag-2025-overland/af936685-e4c5-4941-a003-9fd568197655",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 19,
+            "name": "Arte e Cultura"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411420355",
+        "starttime": "2025-07-07T18:08:00Z",
+        "endtime": "2025-07-07T19:00:00Z",
+        "eventTitle": "Overland",
+        "eventSynopsis": "Il mondo con gli occhi di Overland 22 Afghanistan: terra di meraviglie sconosciute - puntata 2 - DOC. CULTURA - Il viaggio di Overland tra meravigliosi paesaggi incontaminati. In ogni angolo del pi...",
+        "epgEventTitle": "Overland",
         "primeVision": false,
         "resolutions": [
           {
@@ -9567,9 +10407,9 @@
           }
         },
         "content": {
-          "uuid": "f75bf1fa-aa3c-496f-8736-bb37df70732a",
-          "contentTitle": "RaiNews",
-          "url": "/programmi-tv/notiziario/rainews/f75bf1fa-aa3c-496f-8736-bb37df70732a",
+          "uuid": "a0ca07e5-6c03-4325-90a9-03cddfb718d3",
+          "contentTitle": "Stag. 2025 - RaiNews",
+          "url": "/programmi-tv/notiziario/stag-2025-rainews/a0ca07e5-6c03-4325-90a9-03cddfb718d3",
           "genre": {
             "id": 5,
             "name": "Informazione"
@@ -9606,8 +10446,8 @@
           ]
         },
         "eventId": "411430153",
-        "starttime": "2025-07-07T23:28:00Z",
-        "endtime": "2025-07-07T23:32:00Z",
+        "starttime": "2025-07-07T23:14:00Z",
+        "endtime": "2025-07-07T23:15:00Z",
         "eventTitle": "RaiNews",
         "eventSynopsis": "NOTIZIARIO - Cronaca, politica, economia, cultura, spettacolo e sport dall'Italia e dal mondo. I fatti del giorno in tre minuti a cura di Rai News, il canale all news della Rai.. - 2025 ITA",
         "epgEventTitle": "RaiNews",
@@ -9637,9 +10477,9 @@
           }
         },
         "content": {
-          "uuid": "beef9190-a161-43c0-a471-36ea2dc25037",
-          "contentTitle": "Overland",
-          "url": "/programmi-tv/arte-e-cultura/overland/beef9190-a161-43c0-a471-36ea2dc25037",
+          "uuid": "af936685-e4c5-4941-a003-9fd568197655",
+          "contentTitle": "Stag. 2025 - Overland",
+          "url": "/programmi-tv/arte-e-cultura/stag-2025-overland/af936685-e4c5-4941-a003-9fd568197655",
           "genre": {
             "id": 4,
             "name": "Mondo e Tendenze"
@@ -9676,8 +10516,8 @@
           ]
         },
         "eventId": "411430154",
-        "starttime": "2025-07-07T23:32:00Z",
-        "endtime": "2025-07-08T00:24:00Z",
+        "starttime": "2025-07-07T23:15:00Z",
+        "endtime": "2025-07-08T00:07:00Z",
         "eventTitle": "Overland",
         "eventSynopsis": "Il mondo con gli occhi di Overland 22 Afghanistan: terra di meraviglie sconosciute - puntata 2 - DOC. CULTURA - Il viaggio di Overland tra meravigliosi paesaggi incontaminati. In ogni angolo del pi...",
         "epgEventTitle": "Overland",
@@ -9709,9 +10549,9 @@
           }
         },
         "content": {
-          "uuid": "91234adb-418f-45cb-8099-62b548b2fc5c",
+          "uuid": "757822d2-17ac-4036-8f97-6f2bf11132ed",
           "contentTitle": "C'era una volta una casa",
-          "url": "/programmi-tv/documentario/cera-una-volta-una-casa/91234adb-418f-45cb-8099-62b548b2fc5c",
+          "url": "/programmi-tv/documentario/cera-una-volta-una-casa/757822d2-17ac-4036-8f97-6f2bf11132ed",
           "genre": {
             "id": 4,
             "name": "Mondo e Tendenze"
@@ -9748,10 +10588,10 @@
           ]
         },
         "eventId": "411430155",
-        "starttime": "2025-07-08T00:24:00Z",
-        "endtime": "2025-07-08T01:18:00Z",
+        "starttime": "2025-07-08T00:07:00Z",
+        "endtime": "2025-07-08T01:05:00Z",
         "eventTitle": "C'era una volta una casa",
-        "eventSynopsis": "C'era una volta una casa Toscana: la nobile Firenze Ep. 5 - DOC. CULTURA - Firenze e' protagonista della quinta puntata di \"C'era una volta una casa\". Da Palazzo Gondi progettato da Giuliano da San...",
+        "eventSynopsis": "DOC. CULTURA - Firenze e' la protagonista  della quinta puntata di C'era una volta una casa. Da Palazzo Gondi progettato da Giuliano da Sangallo a uno dei giardini privati piu' grandi d'Europa a Pa...",
         "epgEventTitle": "C'era una volta una casa",
         "primeVision": false,
         "resolutions": [
@@ -9779,16 +10619,16 @@
           }
         },
         "content": {
-          "uuid": "513fe518-bd23-4c2a-89fa-bff3273a11fe",
+          "uuid": "c68b0626-9b09-4c6e-bc0f-38895f77afe6",
           "contentTitle": "Uganda, lo sguardo di uno scimpanze'",
-          "url": "/programmi-tv/intrattenimento/uganda-lo-sguardo-di-uno-scimpanze/513fe518-bd23-4c2a-89fa-bff3273a11fe",
+          "url": "/programmi-tv/natura/uganda-lo-sguardo-di-uno-scimpanze/c68b0626-9b09-4c6e-bc0f-38895f77afe6",
           "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
+            "id": 4,
+            "name": "Mondo e Tendenze"
           },
           "subgenre": {
-            "id": 2,
-            "name": "Intrattenimento"
+            "id": 12,
+            "name": "Natura"
           },
           "imagesMap": [
             {
@@ -9818,10 +10658,10 @@
           ]
         },
         "eventId": "411430156",
-        "starttime": "2025-07-08T01:18:00Z",
-        "endtime": "2025-07-08T02:12:00Z",
+        "starttime": "2025-07-08T01:05:00Z",
+        "endtime": "2025-07-08T01:54:00Z",
         "eventTitle": "Uganda, lo sguardo di uno scimpanze'",
-        "eventSynopsis": "DOC. CULTURA - Nelle profondita' di una foresta vive uno scimpanze' maschio alfa particolarmente accattivante, Toti. Si aggira sul suo territorio per tenere unita la sua comunita' e prevenire le in...",
+        "eventSynopsis": "Nelle profondita' di una foresta vive Toti, uno scimpanze' maschio alfa particolarmente accattivante. Si aggira sul suo territorio per tenere unita la sua comunita' e prevenire le intrusioni nemiche.",
         "epgEventTitle": "Uganda, lo sguardo di uno scimpanze'",
         "primeVision": false,
         "resolutions": [
@@ -9849,9 +10689,9 @@
           }
         },
         "content": {
-          "uuid": "0f8825b2-a4f9-4ce0-9721-22c807bcfa88",
+          "uuid": "cde7040a-5aa2-41db-93e7-4aa62ec8582f",
           "contentTitle": "Stormborn - I figli della tempesta",
-          "url": "/programmi-tv/documentario/stormborn-i-figli-della-tempesta/0f8825b2-a4f9-4ce0-9721-22c807bcfa88",
+          "url": "/programmi-tv/documentario/stormborn-i-figli-della-tempesta/cde7040a-5aa2-41db-93e7-4aa62ec8582f",
           "genre": {
             "id": 4,
             "name": "Mondo e Tendenze"
@@ -9888,11 +10728,11 @@
           ]
         },
         "eventId": "411430157",
-        "starttime": "2025-07-08T02:12:00Z",
-        "endtime": "2025-07-08T03:06:00Z",
-        "eventTitle": "Stormborn - I figli della tempesta",
-        "eventSynopsis": "Stormborn. I figli della tempesta Fuori dalle tenebre Ep 1 - DOC. NATURA - La primavera arriva nelle terre del Nord, e mentre il tempo inizia a cambiare, anche i movimenti degli animali che abitano...",
-        "epgEventTitle": "Stormborn - I figli della tempesta",
+        "starttime": "2025-07-08T01:54:00Z",
+        "endtime": "2025-07-08T02:42:00Z",
+        "eventTitle": "Stormborn - I figli della tempesta - Stag. 1 Ep. 1 - Il risveglio del Nord",
+        "eventSynopsis": "St1 Ep1 Il risveglio del Nord - Un racconto sulla vita degli animali nelle coste fredde e tempestose dell'Atlantico del Nord. Volpi artiche, foche, lontre e renne lottano per difendere il loro territorio, trovare cibo e allevare ...",
+        "epgEventTitle": "Stormborn - I figli della tempesta - Stag. 1 Ep. 1 - Il risveglio del Nord",
         "primeVision": false,
         "resolutions": [
           {
@@ -9919,16 +10759,16 @@
           }
         },
         "content": {
-          "uuid": "513fe518-bd23-4c2a-89fa-bff3273a11fe",
+          "uuid": "c68b0626-9b09-4c6e-bc0f-38895f77afe6",
           "contentTitle": "Uganda, lo sguardo di uno scimpanze'",
-          "url": "/programmi-tv/intrattenimento/uganda-lo-sguardo-di-uno-scimpanze/513fe518-bd23-4c2a-89fa-bff3273a11fe",
+          "url": "/programmi-tv/natura/uganda-lo-sguardo-di-uno-scimpanze/c68b0626-9b09-4c6e-bc0f-38895f77afe6",
           "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
+            "id": 4,
+            "name": "Mondo e Tendenze"
           },
           "subgenre": {
-            "id": 2,
-            "name": "Intrattenimento"
+            "id": 12,
+            "name": "Natura"
           },
           "imagesMap": [
             {
@@ -9958,10 +10798,10 @@
           ]
         },
         "eventId": "411430158",
-        "starttime": "2025-07-08T03:06:00Z",
+        "starttime": "2025-07-08T02:42:00Z",
         "endtime": "2025-07-08T04:00:00Z",
         "eventTitle": "Uganda, lo sguardo di uno scimpanze'",
-        "eventSynopsis": "DOC. CULTURA - Nelle profondita' di una foresta vive uno scimpanze' maschio alfa particolarmente accattivante, Toti. Si aggira sul suo territorio per tenere unita la sua comunita' e prevenire le in...",
+        "eventSynopsis": "Nelle profondita' di una foresta vive Toti, uno scimpanze' maschio alfa particolarmente accattivante. Si aggira sul suo territorio per tenere unita la sua comunita' e prevenire le intrusioni nemiche.",
         "epgEventTitle": "Uganda, lo sguardo di uno scimpanze'",
         "primeVision": false,
         "resolutions": [
@@ -10733,76 +11573,6 @@
         "eventTitle": "Appuntamento al cinema",
         "eventSynopsis": "RUBRICA - Rubrica per la promozione della cultura cinematografica in Italia.. - 2025 ITA",
         "epgEventTitle": "Appuntamento al cinema",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 6607,
-          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
-          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
-          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
-          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
-          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
-          "name": "Rai 5",
-          "description": "Canale Sky Glass 134.",
-          "number": 5023,
-          "servicekey": "9019",
-          "category": {
-            "id": 9,
-            "name": "Altri Digitale Terrestre"
-          }
-        },
-        "content": {
-          "uuid": "22be0c65-4a6e-4d96-9ee5-4b62854f46ae",
-          "contentTitle": "Sulle orme del K2",
-          "url": "/programmi-tv/documentario/sulle-orme-del-k2/22be0c65-4a6e-4d96-9ee5-4b62854f46ae",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 40,
-            "name": "Documentario"
-          },
-          "imagesMap": [
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411444694",
-        "starttime": "2025-07-08T13:48:00Z",
-        "endtime": "2025-07-08T15:20:00Z",
-        "eventTitle": "Sulle orme del K2",
-        "eventSynopsis": "DOCUMENTARIO - Otto donne, 8611 metri da scalare. Un'impresa che entrera' nella storia. A 70 anni dalla prima scalata del K2, una spedizione straordinaria tutta al femminile, composta da alpiniste...",
-        "epgEventTitle": "Sulle orme del K2",
         "primeVision": false,
         "resolutions": [
           {
@@ -11711,7 +12481,7 @@
         },
         "eventId": "411444673",
         "starttime": "2025-07-09T02:43:00Z",
-        "endtime": "2025-07-09T22:00:00Z",
+        "endtime": "2025-07-09T04:00:00Z",
         "eventTitle": "Il vulcano sommerso",
         "eventSynopsis": "DOC. NATURA - Sotto la superficie degli oceani, migliaia di vulcani devono ancora essere scoperti o esplorati. Il Monte La Pe'rouse e' uno di questi giganti addormentati, al largo della costa dell...",
         "epgEventTitle": "Il vulcano sommerso",
@@ -11722,9 +12492,3440 @@
             "value": false
           }
         ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "c4127d5e-d90d-4ecb-b3ba-282d0966e36e",
+          "contentTitle": "Quante storie",
+          "url": "/programmi-tv/intrattenimento/quante-storie/c4127d5e-d90d-4ecb-b3ba-282d0966e36e",
+          "genre": {
+            "id": 1,
+            "name": "Intrattenimento"
+          },
+          "subgenre": {
+            "id": 2,
+            "name": "Intrattenimento"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454807",
+        "starttime": "2025-07-09T04:00:00Z",
+        "endtime": "2025-07-09T04:30:00Z",
+        "eventTitle": "Quante storie",
+        "eventSynopsis": "DOC. CULTURA - Interpretare la realta' che ci circonda attraverso i libri: e' questo uno dei principali obiettivi che si pone da sempre Quante Storie, il quotidiano di Rai 3 in onda dal lunedi' al...",
+        "epgEventTitle": "Quante storie",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "5c496743-86ad-476a-9e75-7b5816d125a4",
+          "contentTitle": "Quattro secoli di arte al femminile",
+          "url": "/programmi-tv/documentario/quattro-secoli-di-arte-al-femminile/5c496743-86ad-476a-9e75-7b5816d125a4",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454809",
+        "starttime": "2025-07-09T04:30:00Z",
+        "endtime": "2025-07-09T05:25:00Z",
+        "eventTitle": "Quattro secoli di arte al femminile",
+        "eventSynopsis": "DOC. CULTURA - Artemisia Gentileschi, Rosa Bonheur, Berthe Morisot, Sofonisba Anguissola o Elisabeth Vige'e Lebrun sono nomi che solo pochi esperti sanno collocare nella giusta corrente artistica o...",
+        "epgEventTitle": "Quattro secoli di arte al femminile",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "02a1d407-b793-42b1-8308-6c5ac77792eb",
+          "contentTitle": "Bellezza in bicicletta",
+          "url": "/programmi-tv/documentario/bellezza-in-bicicletta/02a1d407-b793-42b1-8308-6c5ac77792eb",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454812",
+        "starttime": "2025-07-09T05:25:00Z",
+        "endtime": "2025-07-09T06:20:00Z",
+        "eventTitle": "Bellezza in bicicletta",
+        "eventSynopsis": "Italian Beauty, Bellezza in bicicletta Dai Campi Flegrei alla Costiera amalfitana - DOC. CULTURA - 50 km di costa in bicicletta: dai millenari Campi Flegrei, nel golfo di Pozzuoli, alla magia della...",
+        "epgEventTitle": "Bellezza in bicicletta",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "beef9190-a161-43c0-a471-36ea2dc25037",
+          "contentTitle": "Overland",
+          "url": "/programmi-tv/arte-e-cultura/overland/beef9190-a161-43c0-a471-36ea2dc25037",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 19,
+            "name": "Arte e Cultura"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454814",
+        "starttime": "2025-07-09T06:20:00Z",
+        "endtime": "2025-07-09T07:10:00Z",
+        "eventTitle": "Overland",
+        "eventSynopsis": "Il mondo con gli occhi di Overland 22 Kazakistan: i mille volti di una terra sconosciuta - puntata 3 - DOC. CULTURA - Il viaggio di Overland tra meravigliosi paesaggi incontaminati. In ogni angolo ...",
+        "epgEventTitle": "Overland",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "0f8825b2-a4f9-4ce0-9721-22c807bcfa88",
+          "contentTitle": "Stormborn - I figli della tempesta",
+          "url": "/programmi-tv/documentario/stormborn-i-figli-della-tempesta/0f8825b2-a4f9-4ce0-9721-22c807bcfa88",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454817",
+        "starttime": "2025-07-09T07:10:00Z",
+        "endtime": "2025-07-09T08:00:00Z",
+        "eventTitle": "Stormborn - I figli della tempesta",
+        "eventSynopsis": "Stormborn. I figli della tempesta Il ritorno della luce Ep. 2 - DOC. NATURA - Nel secondo episodio della famosa serie 'Stormborn', narrata da Ewan McGregor, le terre del nord fioriscono grazie all'...",
+        "epgEventTitle": "Stormborn - I figli della tempesta",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "277e8fd2-29ab-4855-865b-2d586ab88faf",
+          "contentTitle": "Appuntamento al cinema",
+          "url": "/programmi-tv/magazine-cinema/appuntamento-al-cinema/277e8fd2-29ab-4855-865b-2d586ab88faf",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 113,
+            "name": "Magazine Cinema"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454819",
+        "starttime": "2025-07-09T08:00:00Z",
+        "endtime": "2025-07-09T08:03:00Z",
+        "eventTitle": "Appuntamento al cinema",
+        "eventSynopsis": "RUBRICA - Rubrica per la promozione della cultura cinematografica in Italia.. - 2025 ITA",
+        "epgEventTitle": "Appuntamento al cinema",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "5c01ddd2-c6b3-496e-9773-764c74fa5843",
+          "contentTitle": "Il pianeta di ghiaccio",
+          "url": "/programmi-tv/documentario/il-pianeta-di-ghiaccio/5c01ddd2-c6b3-496e-9773-764c74fa5843",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454821",
+        "starttime": "2025-07-09T08:03:00Z",
+        "endtime": "2025-07-09T08:52:00Z",
+        "eventTitle": "Il pianeta di ghiaccio",
+        "eventSynopsis": "Il Pianeta di Ghiaccio I confini della Terra - DOC. CULTURA - La puntata di oggi e' dedicata alla pura esplorazione, per orientarci e comprendere l'orografia e la geografia di questi territori. Il...",
+        "epgEventTitle": "Il pianeta di ghiaccio",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "f0ab4915-e7f3-4341-b4ff-3e8ee10f75f1",
+          "contentTitle": "Geo Magazine Prima Visione RAI",
+          "url": "/programmi-tv/intrattenimento/geo-magazine-prima-visione-rai/f0ab4915-e7f3-4341-b4ff-3e8ee10f75f1",
+          "genre": {
+            "id": 1,
+            "name": "Intrattenimento"
+          },
+          "subgenre": {
+            "id": 2,
+            "name": "Intrattenimento"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454824",
+        "starttime": "2025-07-09T08:52:00Z",
+        "endtime": "2025-07-09T11:11:00Z",
+        "eventTitle": "Geo Magazine Prima Visione RAI",
+        "eventSynopsis": "DOC. CULTURA - Dalla cineteca di 'Geo', una ragionata selezione dei migliori documentari prodotti e acquistati, quelli che ci piace rivedere o quelli che ci siamo persi, girati in Italia e nel mond...",
+        "epgEventTitle": "Geo Magazine Prima Visione RAI",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "beef9190-a161-43c0-a471-36ea2dc25037",
+          "contentTitle": "Overland",
+          "url": "/programmi-tv/arte-e-cultura/overland/beef9190-a161-43c0-a471-36ea2dc25037",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 19,
+            "name": "Arte e Cultura"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454826",
+        "starttime": "2025-07-09T11:11:00Z",
+        "endtime": "2025-07-09T12:01:00Z",
+        "eventTitle": "Overland",
+        "eventSynopsis": "Il mondo con gli occhi di Overland 22 Kazakistan: i mille volti di una terra sconosciuta - puntata 3 - DOC. CULTURA - Il viaggio di Overland tra meravigliosi paesaggi incontaminati. In ogni angolo ...",
+        "epgEventTitle": "Overland",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "5306fb78-ab1a-4343-9941-bddc2873bdf7",
+          "contentTitle": "La rete sotterranea vegetale",
+          "url": "/programmi-tv/documentario/la-rete-sotterranea-vegetale/5306fb78-ab1a-4343-9941-bddc2873bdf7",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454828",
+        "starttime": "2025-07-09T12:01:00Z",
+        "endtime": "2025-07-09T12:51:00Z",
+        "eventTitle": "La rete sotterranea vegetale",
+        "eventSynopsis": "DOC. NATURA - Le foreste rendono vivibili la terra e il nostro clima e migliorano la biodiversita'. Ma l'uomo moderno ne continua ad abbattere milioni di ettari ogni anno, causando una crisi ecolog...",
+        "epgEventTitle": "La rete sotterranea vegetale",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "0f8825b2-a4f9-4ce0-9721-22c807bcfa88",
+          "contentTitle": "Stormborn - I figli della tempesta",
+          "url": "/programmi-tv/documentario/stormborn-i-figli-della-tempesta/0f8825b2-a4f9-4ce0-9721-22c807bcfa88",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454829",
+        "starttime": "2025-07-09T12:51:00Z",
+        "endtime": "2025-07-09T13:41:00Z",
+        "eventTitle": "Stormborn - I figli della tempesta",
+        "eventSynopsis": "Stormborn. I figli della tempesta Figli della tempesta Ep. 3 - DOC. NATURA - Ultimo episodio dell'avvincente serie 'Stormborn' dove vedremo un maschio di volpe artica correre attraverso le montagne...",
+        "epgEventTitle": "Stormborn - I figli della tempesta",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "98cba3da-dafa-3b3e-9264-6e06612221be",
+          "contentTitle": "Transumanza. Il ritorno a casa",
+          "url": "/programmi-tv/documentario/transumanza-il-ritorno-a-casa/98cba3da-dafa-3b3e-9264-6e06612221be",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454831",
+        "starttime": "2025-07-09T14:35:00Z",
+        "endtime": "2025-07-09T15:27:00Z",
+        "eventTitle": "Transumanza. Il ritorno a casa",
+        "eventSynopsis": "In Piemonte, dove viene allevata la pregiata razza bovina fassona, esiste una tradizione antica di transumanza. Il documentario segue le vite di un nucleo familiare di allevatori e dell'intera comu...",
+        "epgEventTitle": "Transumanza. Il ritorno a casa",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "6bed2904-785b-46cf-b4d8-31dfe8c3cf30",
+          "contentTitle": "Rai5 Classic",
+          "url": "/programmi-tv/classica/rai5-classic/6bed2904-785b-46cf-b4d8-31dfe8c3cf30",
+          "genre": {
+            "id": 6,
+            "name": "Ragazzi e Musica"
+          },
+          "subgenre": {
+            "id": 118,
+            "name": "Classica"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454832",
+        "starttime": "2025-07-09T15:27:00Z",
+        "endtime": "2025-07-09T15:56:00Z",
+        "eventTitle": "Rai5 Classic",
+        "eventSynopsis": "MUSICA - Dal grande gala \"... a riveder le stelle\", che ha inaugurato la stagione lirica del Teatro alla Scala il 7 dicembre 2020 in piena pandemia, celebri arie da Guglielmo Tell di Rossini, Carme...",
+        "epgEventTitle": "Rai5 Classic",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "82f1f53d-3789-4e82-a974-4f2567f3963d",
+          "contentTitle": "Opera - Cavalleria rusticana",
+          "url": "/programmi-tv/intrattenimento/opera-cavalleria-rusticana/82f1f53d-3789-4e82-a974-4f2567f3963d",
+          "genre": {
+            "id": 1,
+            "name": "Intrattenimento"
+          },
+          "subgenre": {
+            "id": 2,
+            "name": "Intrattenimento"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454833",
+        "starttime": "2025-07-09T15:56:00Z",
+        "endtime": "2025-07-09T17:15:00Z",
+        "eventTitle": "Opera - Cavalleria rusticana",
+        "eventSynopsis": "MUSICA LIRICA - Dalla suggestiva location delle Terme Romane di Baia Cavalleria rusticana di Mascagni con la regia di Maurizio Scaparro e la direzione musicale di Zhang Jiemin. Nel cast vocale Ildi...",
+        "epgEventTitle": "Opera - Cavalleria rusticana",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "f75bf1fa-aa3c-496f-8736-bb37df70732a",
+          "contentTitle": "RaiNews",
+          "url": "/programmi-tv/notiziario/rainews/f75bf1fa-aa3c-496f-8736-bb37df70732a",
+          "genre": {
+            "id": 5,
+            "name": "Informazione"
+          },
+          "subgenre": {
+            "id": 13,
+            "name": "Notiziario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454834",
+        "starttime": "2025-07-09T17:15:00Z",
+        "endtime": "2025-07-09T17:19:00Z",
+        "eventTitle": "RaiNews",
+        "eventSynopsis": "NOTIZIARIO - Cronaca, politica, economia, cultura, spettacolo e sport dall'Italia e dal mondo. I fatti del giorno in tre minuti a cura di Rai News, il canale all news della Rai.. - 2025 ITA",
+        "epgEventTitle": "RaiNews",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "feecfead-8ad6-4c17-b29d-15397701b689",
+          "contentTitle": "Genius",
+          "url": "/programmi-tv/intrattenimento/genius/feecfead-8ad6-4c17-b29d-15397701b689",
+          "genre": {
+            "id": 1,
+            "name": "Intrattenimento"
+          },
+          "subgenre": {
+            "id": 2,
+            "name": "Intrattenimento"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454835",
+        "starttime": "2025-07-09T17:19:00Z",
+        "endtime": "2025-07-09T18:08:00Z",
+        "eventTitle": "Genius",
+        "eventSynopsis": "American Genius Oppenheimer VS Heisenberg - Bomba atomica - DOC. CULTURA - La bomba atomica, l'arma piu' devastante di tutte: chi mettera' per primo le mani sulla tecnologia nucleare avra' la possi...",
+        "epgEventTitle": "Genius",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "beef9190-a161-43c0-a471-36ea2dc25037",
+          "contentTitle": "Overland",
+          "url": "/programmi-tv/arte-e-cultura/overland/beef9190-a161-43c0-a471-36ea2dc25037",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 19,
+            "name": "Arte e Cultura"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454836",
+        "starttime": "2025-07-09T18:08:00Z",
+        "endtime": "2025-07-09T18:58:00Z",
+        "eventTitle": "Overland",
+        "eventSynopsis": "Il mondo con gli occhi di Overland 22 Kazakistan: animo nomade - puntata 4 - DOC. CULTURA - Il viaggio di Overland tra meravigliosi paesaggi incontaminati. In ogni angolo del pianeta le storie, i p...",
+        "epgEventTitle": "Overland",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "32314e7f-e662-47d6-84ce-84d015070ffe",
+          "contentTitle": "Visioni",
+          "url": "/programmi-tv/documentario/visioni/32314e7f-e662-47d6-84ce-84d015070ffe",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454837",
+        "starttime": "2025-07-09T18:58:00Z",
+        "endtime": "2025-07-09T19:57:00Z",
+        "eventTitle": "Visioni",
+        "eventSynopsis": "Visioni Architettura rurale - I segni del tempo Prima Visione RAI - RUBRICA - Visioni presenta un approfondimento sull'architettura rurale e su cio' che ne rimane. Dal Piemonte alla Valle d'Aosta...",
+        "epgEventTitle": "Visioni",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "33ccdb29-1197-414e-bffb-0d649fa33586",
+          "contentTitle": "James Cameron - Viaggio nella fantasc...",
+          "url": "/programmi-tv/documentario/james-cameron-viaggio-nella-fantasc/33ccdb29-1197-414e-bffb-0d649fa33586",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454838",
+        "starttime": "2025-07-09T19:57:00Z",
+        "endtime": "2025-07-09T20:39:00Z",
+        "eventTitle": "James Cameron - Viaggio nella fantascienza",
+        "eventSynopsis": "James Cameron, Viaggio nella fantascienza Ep.6 Ritorni al futuro - DOC. CULTURA - Si puo' viaggiare nel tempo? E' possibile cambiare il nostro destino? O siamo burattini di una linea temporale invi...",
+        "epgEventTitle": "James Cameron - Viaggio nella fantascienza",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "e7c5f2dc-0918-4fa5-98c8-ef5c892048ca",
+          "contentTitle": "Damon Albarn, una storia Pop",
+          "url": "/programmi-tv/documentario/damon-albarn-una-storia-pop/e7c5f2dc-0918-4fa5-98c8-ef5c892048ca",
+          "genre": {
+            "id": 6,
+            "name": "Ragazzi e Musica"
+          },
+          "subgenre": {
+            "id": 70,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454839",
+        "starttime": "2025-07-09T20:39:00Z",
+        "endtime": "2025-07-09T21:30:00Z",
+        "eventTitle": "Damon Albarn, una storia Pop",
+        "eventSynopsis": "DOC. MUSICA - Ritratto di Damon Albarn, uno dei personaggi piu' intriganti venuti fuori dalla British Invasion degli anni Novanta. Nato artisticamente quasi in contemporanea con il grunge, ma in la...",
+        "epgEventTitle": "Damon Albarn, una storia Pop",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "49fb7297-4bac-4719-9374-fafcfde6dc23",
+          "contentTitle": "Soundtrack for a Revolution",
+          "url": "/film/cinema/soundtrack-for-a-revolution/49fb7297-4bac-4719-9374-fafcfde6dc23",
+          "genre": {
+            "id": 3,
+            "name": "Film"
+          },
+          "subgenre": {
+            "id": 4,
+            "name": "Cinema"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454840",
+        "starttime": "2025-07-09T21:30:00Z",
+        "endtime": "2025-07-09T22:23:00Z",
+        "eventTitle": "Soundtrack for a Revolution",
+        "eventSynopsis": "DOC. MUSICA - Tra i grandi protagonisti del rinnovamento del rock britannico a cavallo tra i Novanta e il Duemila, al primo posto ci sono senz'altro i Radiohead. Partendo dalle tradizioni pop d'olt...",
+        "epgEventTitle": "Soundtrack for a Revolution",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "6bed2904-785b-46cf-b4d8-31dfe8c3cf30",
+          "contentTitle": "Rai5 Classic",
+          "url": "/programmi-tv/classica/rai5-classic/6bed2904-785b-46cf-b4d8-31dfe8c3cf30",
+          "genre": {
+            "id": 6,
+            "name": "Ragazzi e Musica"
+          },
+          "subgenre": {
+            "id": 118,
+            "name": "Classica"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454298",
+        "starttime": "2025-07-09T22:23:00Z",
+        "endtime": "2025-07-09T22:42:00Z",
+        "eventTitle": "Rai5 Classic",
+        "eventSynopsis": "MUSICA LIRICA - Dal grande gala \"... a riveder le stelle\", che ha inaugurato la stagione lirica del Teatro alla Scala il 7 dicembre 2020 in piena pandemia, celebri arie di Verdi, Bizet e Rossini. R...",
+        "epgEventTitle": "Rai5 Classic",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "f75bf1fa-aa3c-496f-8736-bb37df70732a",
+          "contentTitle": "RaiNews",
+          "url": "/programmi-tv/notiziario/rainews/f75bf1fa-aa3c-496f-8736-bb37df70732a",
+          "genre": {
+            "id": 5,
+            "name": "Informazione"
+          },
+          "subgenre": {
+            "id": 13,
+            "name": "Notiziario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454300",
+        "starttime": "2025-07-09T22:42:00Z",
+        "endtime": "2025-07-09T22:46:00Z",
+        "eventTitle": "RaiNews",
+        "eventSynopsis": "NOTIZIARIO - Cronaca, politica, economia, cultura, spettacolo e sport dall'Italia e dal mondo. I fatti del giorno in tre minuti a cura di Rai News, il canale all news della Rai.. - 2025 ITA",
+        "epgEventTitle": "RaiNews",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "beef9190-a161-43c0-a471-36ea2dc25037",
+          "contentTitle": "Overland",
+          "url": "/programmi-tv/arte-e-cultura/overland/beef9190-a161-43c0-a471-36ea2dc25037",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 19,
+            "name": "Arte e Cultura"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454301",
+        "starttime": "2025-07-09T22:46:00Z",
+        "endtime": "2025-07-09T23:36:00Z",
+        "eventTitle": "Overland",
+        "eventSynopsis": "Il mondo con gli occhi di Overland 22 Kazakistan: animo nomade - puntata 4 - DOC. CULTURA - Il viaggio di Overland tra meravigliosi paesaggi incontaminati. In ogni angolo del pianeta le storie, i p...",
+        "epgEventTitle": "Overland",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "02a1d407-b793-42b1-8308-6c5ac77792eb",
+          "contentTitle": "Bellezza in bicicletta",
+          "url": "/programmi-tv/documentario/bellezza-in-bicicletta/02a1d407-b793-42b1-8308-6c5ac77792eb",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454302",
+        "starttime": "2025-07-09T23:36:00Z",
+        "endtime": "2025-07-10T00:30:00Z",
+        "eventTitle": "Bellezza in bicicletta",
+        "eventSynopsis": "Italian Beauty, Bellezza in bicicletta Dai Campi Flegrei alla Costiera amalfitana - DOC. CULTURA - 50 km di costa in bicicletta: dai millenari Campi Flegrei, nel golfo di Pozzuoli, alla magia della...",
+        "epgEventTitle": "Bellezza in bicicletta",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
       }
     ],
-    "2025-07-10": [],
+    "2025-07-10": [
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "5306fb78-ab1a-4343-9941-bddc2873bdf7",
+          "contentTitle": "La rete sotterranea vegetale",
+          "url": "/programmi-tv/documentario/la-rete-sotterranea-vegetale/5306fb78-ab1a-4343-9941-bddc2873bdf7",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454304",
+        "starttime": "2025-07-10T00:30:00Z",
+        "endtime": "2025-07-10T01:21:00Z",
+        "eventTitle": "La rete sotterranea vegetale",
+        "eventSynopsis": "DOC. NATURA - Le foreste rendono vivibili la terra e il nostro clima e migliorano la biodiversita'. Ma l'uomo moderno ne continua ad abbattere milioni di ettari ogni anno, causando una crisi ecolog...",
+        "epgEventTitle": "La rete sotterranea vegetale",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "0f8825b2-a4f9-4ce0-9721-22c807bcfa88",
+          "contentTitle": "Stormborn - I figli della tempesta",
+          "url": "/programmi-tv/documentario/stormborn-i-figli-della-tempesta/0f8825b2-a4f9-4ce0-9721-22c807bcfa88",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454305",
+        "starttime": "2025-07-10T01:21:00Z",
+        "endtime": "2025-07-10T02:11:00Z",
+        "eventTitle": "Stormborn - I figli della tempesta",
+        "eventSynopsis": "Stormborn. I figli della tempesta Figli della tempesta Ep. 3 - DOC. NATURA - Ultimo episodio dellavvincente serie 'Stormborn' dove vedremo un maschio di volpe artica correre attraverso le montagne...",
+        "epgEventTitle": "Stormborn - I figli della tempesta",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "5306fb78-ab1a-4343-9941-bddc2873bdf7",
+          "contentTitle": "La rete sotterranea vegetale",
+          "url": "/programmi-tv/documentario/la-rete-sotterranea-vegetale/5306fb78-ab1a-4343-9941-bddc2873bdf7",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454307",
+        "starttime": "2025-07-10T02:11:00Z",
+        "endtime": "2025-07-10T04:00:00Z",
+        "eventTitle": "La rete sotterranea vegetale",
+        "eventSynopsis": "DOC. CULTURA - Le foreste rendono vivibili la terra e il nostro clima e migliorano la biodiversita'. Ma l'uomo moderno ne continua ad abbattere milioni di ettari ogni anno, causando una crisi ecolo...",
+        "epgEventTitle": "La rete sotterranea vegetale",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "c4127d5e-d90d-4ecb-b3ba-282d0966e36e",
+          "contentTitle": "Quante storie",
+          "url": "/programmi-tv/intrattenimento/quante-storie/c4127d5e-d90d-4ecb-b3ba-282d0966e36e",
+          "genre": {
+            "id": 1,
+            "name": "Intrattenimento"
+          },
+          "subgenre": {
+            "id": 2,
+            "name": "Intrattenimento"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454308",
+        "starttime": "2025-07-10T04:00:00Z",
+        "endtime": "2025-07-10T04:30:00Z",
+        "eventTitle": "Quante storie",
+        "eventSynopsis": "DOC. CULTURA - Interpretare la realta' che ci circonda attraverso i libri: e' questo uno dei principali obiettivi che si pone da sempre Quante Storie, il quotidiano di Rai 3 in onda dal lunedi' al...",
+        "epgEventTitle": "Quante storie",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "9894e530-abb1-4595-abfa-a414e1c3a9d8",
+          "contentTitle": "Rembrandt ritrovato",
+          "url": "/programmi-tv/documentario/rembrandt-ritrovato/9894e530-abb1-4595-abfa-a414e1c3a9d8",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454309",
+        "starttime": "2025-07-10T04:30:00Z",
+        "endtime": "2025-07-10T05:22:00Z",
+        "eventTitle": "Rembrandt ritrovato",
+        "eventSynopsis": "DOC. CULTURA - Un furto. Una restauratrice. Un quadro. E' un quadro bellissimo, un'Adorazione di Magi in cui una luce di taglio illumina i volti della Sacra Famiglia immersa nell'oscurita'. Rembran...",
+        "epgEventTitle": "Rembrandt ritrovato",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "02a1d407-b793-42b1-8308-6c5ac77792eb",
+          "contentTitle": "Bellezza in bicicletta",
+          "url": "/programmi-tv/documentario/bellezza-in-bicicletta/02a1d407-b793-42b1-8308-6c5ac77792eb",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454311",
+        "starttime": "2025-07-10T05:22:00Z",
+        "endtime": "2025-07-10T06:16:00Z",
+        "eventTitle": "Bellezza in bicicletta",
+        "eventSynopsis": "Italian Beauty, Bellezza in bicicletta Dal Monte Bianco alle Cinque Terre - DOC. CULTURA - Questa puntata di Italian Beauty inizia con una avventurosa spedizione alla ricerca della bellezza: in alt...",
+        "epgEventTitle": "Bellezza in bicicletta",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "beef9190-a161-43c0-a471-36ea2dc25037",
+          "contentTitle": "Overland",
+          "url": "/programmi-tv/arte-e-cultura/overland/beef9190-a161-43c0-a471-36ea2dc25037",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 19,
+            "name": "Arte e Cultura"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454313",
+        "starttime": "2025-07-10T06:16:00Z",
+        "endtime": "2025-07-10T07:06:00Z",
+        "eventTitle": "Overland",
+        "eventSynopsis": "Il mondo con gli occhi di Overland 22 Kazakistan: animo nomade - puntata 4 - DOC. CULTURA - Il viaggio di Overland tra meravigliosi paesaggi incontaminati. In ogni angolo del pianeta le storie, i p...",
+        "epgEventTitle": "Overland",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "0f8825b2-a4f9-4ce0-9721-22c807bcfa88",
+          "contentTitle": "Stormborn - I figli della tempesta",
+          "url": "/programmi-tv/documentario/stormborn-i-figli-della-tempesta/0f8825b2-a4f9-4ce0-9721-22c807bcfa88",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454314",
+        "starttime": "2025-07-10T07:06:00Z",
+        "endtime": "2025-07-10T07:56:00Z",
+        "eventTitle": "Stormborn - I figli della tempesta",
+        "eventSynopsis": "Stormborn. I figli della tempesta Figli della tempesta Ep. 3 - DOC. NATURA - Ultimo episodio dell'avvincente serie 'Stormborn' dove vedremo un maschio di volpe artica correre attraverso le montagne...",
+        "epgEventTitle": "Stormborn - I figli della tempesta",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "277e8fd2-29ab-4855-865b-2d586ab88faf",
+          "contentTitle": "Appuntamento al cinema",
+          "url": "/programmi-tv/magazine-cinema/appuntamento-al-cinema/277e8fd2-29ab-4855-865b-2d586ab88faf",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 113,
+            "name": "Magazine Cinema"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454315",
+        "starttime": "2025-07-10T07:56:00Z",
+        "endtime": "2025-07-10T07:59:00Z",
+        "eventTitle": "Appuntamento al cinema",
+        "eventSynopsis": "RUBRICA - Rubrica per la promozione della cultura cinematografica in Italia.. - 2025 ITA",
+        "epgEventTitle": "Appuntamento al cinema",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "e05d60c7-856e-4a75-b839-a98b06fbeeeb",
+          "contentTitle": "1783 - Il primo volo dell'uomo",
+          "url": "/programmi-tv/documentario/1783-il-primo-volo-delluomo/e05d60c7-856e-4a75-b839-a98b06fbeeeb",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454316",
+        "starttime": "2025-07-10T07:59:00Z",
+        "endtime": "2025-07-10T08:48:00Z",
+        "eventTitle": "1783 - Il primo volo dell'uomo",
+        "eventSynopsis": "DOC. CULTURA - Il 21 novembre 1783 a Parigi, un pallone progettato dai fratelli Montgolfier con a bordo Piltre de Rozier e il marchese d'Arlandes si levo' in aria davanti a una folla di spettatori ...",
+        "epgEventTitle": "1783 - Il primo volo dell'uomo",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "f0ab4915-e7f3-4341-b4ff-3e8ee10f75f1",
+          "contentTitle": "Geo Magazine Prima Visione RAI",
+          "url": "/programmi-tv/intrattenimento/geo-magazine-prima-visione-rai/f0ab4915-e7f3-4341-b4ff-3e8ee10f75f1",
+          "genre": {
+            "id": 1,
+            "name": "Intrattenimento"
+          },
+          "subgenre": {
+            "id": 2,
+            "name": "Intrattenimento"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454318",
+        "starttime": "2025-07-10T08:48:00Z",
+        "endtime": "2025-07-10T11:07:00Z",
+        "eventTitle": "Geo Magazine Prima Visione RAI",
+        "eventSynopsis": "DOC. NATURA - Dalla cineteca di 'Geo', una ragionata selezione dei migliori documentari prodotti e acquistati, quelli che ci piace rivedere o quelli che ci siamo persi, girati in Italia e nel mondo...",
+        "epgEventTitle": "Geo Magazine Prima Visione RAI",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "beef9190-a161-43c0-a471-36ea2dc25037",
+          "contentTitle": "Overland",
+          "url": "/programmi-tv/arte-e-cultura/overland/beef9190-a161-43c0-a471-36ea2dc25037",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 19,
+            "name": "Arte e Cultura"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454320",
+        "starttime": "2025-07-10T11:07:00Z",
+        "endtime": "2025-07-10T11:57:00Z",
+        "eventTitle": "Overland",
+        "eventSynopsis": "Il mondo con gli occhi di Overland 22 Kazakistan: animo nomade - puntata 4 - DOC. NATURA - Il viaggio di Overland tra meravigliosi paesaggi incontaminati. In ogni angolo del pianeta le storie, i po...",
+        "epgEventTitle": "Overland",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "bcd9eb8c-af5b-4c13-b0ab-834dc75fc24d",
+          "contentTitle": "Antartide, viaggio alla fine della terra",
+          "url": "/programmi-tv/documentario/antartide-viaggio-alla-fine-della-terra/bcd9eb8c-af5b-4c13-b0ab-834dc75fc24d",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454322",
+        "starttime": "2025-07-10T11:57:00Z",
+        "endtime": "2025-07-10T12:49:00Z",
+        "eventTitle": "Antartide, viaggio alla fine della terra",
+        "eventSynopsis": "DOC. CULTURA - Antartide: terra meridionale sconosciuta. Il posto piu' duro e piu' freddo del pianeta. Non ci sono citta' animate o foreste verdi qui, ne' grandi fiumi. Solo infiniti nevai, circond...",
+        "epgEventTitle": "Antartide, viaggio alla fine della terra",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "16006fd2-57b8-48b3-92ee-72608082ef85",
+          "contentTitle": "Messico selvaggio",
+          "url": "/programmi-tv/documentario/messico-selvaggio/16006fd2-57b8-48b3-92ee-72608082ef85",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454324",
+        "starttime": "2025-07-10T12:49:00Z",
+        "endtime": "2025-07-10T13:33:00Z",
+        "eventTitle": "Messico selvaggio",
+        "eventSynopsis": "DOC. NATURA - Dall'Oceano Pacifico al Mar dei Caraibi, Il Messico rappresenta uno dei luoghi piu' ricchi da un punto di vista paesaggistico ed ambientale. Attira `viaggiatorii selvaggi che da lonta...",
+        "epgEventTitle": "Messico selvaggio",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "7bdbc5b4-ab27-4e17-bcc2-1616e7808c13",
+          "contentTitle": "Api Regine",
+          "url": "/programmi-tv/documentario/api-regine/7bdbc5b4-ab27-4e17-bcc2-1616e7808c13",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454325",
+        "starttime": "2025-07-10T13:33:00Z",
+        "endtime": "2025-07-10T14:27:00Z",
+        "eventTitle": "Api Regine",
+        "eventSynopsis": "In Sardegna le api sono da sempre annodate all'universo femminile. Il documentario \"Api Regine. Abis Maistas\" racconta la storia di questo legame ineluttabile attraverso le testimonianze di sei api...",
+        "epgEventTitle": "Api Regine",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "fb082f8a-bea1-4e1a-b364-8577cc9d30e5",
+          "contentTitle": "L'oro d'Italia",
+          "url": "/programmi-tv/documentario/loro-ditalia/fb082f8a-bea1-4e1a-b364-8577cc9d30e5",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454327",
+        "starttime": "2025-07-10T14:27:00Z",
+        "endtime": "2025-07-10T15:16:00Z",
+        "eventTitle": "L'oro d'Italia",
+        "eventSynopsis": "La pasta e' arte, ingegno, creativita', identita' italiana, ma anche custode di tradizioni familiari e territoriali che hanno contribuito alla creazione del made in Italy. Ogni singolo pastificio...",
+        "epgEventTitle": "L'oro d'Italia",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "6bed2904-785b-46cf-b4d8-31dfe8c3cf30",
+          "contentTitle": "Rai5 Classic",
+          "url": "/programmi-tv/classica/rai5-classic/6bed2904-785b-46cf-b4d8-31dfe8c3cf30",
+          "genre": {
+            "id": 6,
+            "name": "Ragazzi e Musica"
+          },
+          "subgenre": {
+            "id": 118,
+            "name": "Classica"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454329",
+        "starttime": "2025-07-10T15:16:00Z",
+        "endtime": "2025-07-10T15:30:00Z",
+        "eventTitle": "Rai5 Classic",
+        "eventSynopsis": "MUSICA LIRICA - Dal 60 Festival Puccini, presso il Gran Teatro all'aperto Giacomo Puccini di Torre del Lago, estratti dal I atto de La bohe'me con Daniela Dessi' e Fabio Armiliato. Sul podio il M V...",
+        "epgEventTitle": "Rai5 Classic",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "a2c9c781-f785-4b6b-8dbc-8f88d3dd837f",
+          "contentTitle": "Pappano e l'Accademia di Santa Cecil...",
+          "url": "/programmi-tv/classica/pappano-e-laccademia-di-santa-cecil/a2c9c781-f785-4b6b-8dbc-8f88d3dd837f",
+          "genre": {
+            "id": 6,
+            "name": "Ragazzi e Musica"
+          },
+          "subgenre": {
+            "id": 118,
+            "name": "Classica"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454331",
+        "starttime": "2025-07-10T15:30:00Z",
+        "endtime": "2025-07-10T16:59:00Z",
+        "eventTitle": "Pappano e l'Accademia di Santa Cecilia: Sinfonia n.9 di Mahler",
+        "eventSynopsis": "MUSICA SINFONICA - Dall'Auditorium Parco della Musica di Roma, il Maestro Antonio Pappano dirige l'Orchestra dell'Accademia Nazionale di Santa Cecilia nella Sinfonia n. 9 in Re maggiore di Gustav M...",
+        "epgEventTitle": "Pappano e l'Accademia di Santa Cecilia: Sinfonia n.9 di Mahler",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "f75bf1fa-aa3c-496f-8736-bb37df70732a",
+          "contentTitle": "RaiNews",
+          "url": "/programmi-tv/notiziario/rainews/f75bf1fa-aa3c-496f-8736-bb37df70732a",
+          "genre": {
+            "id": 5,
+            "name": "Informazione"
+          },
+          "subgenre": {
+            "id": 13,
+            "name": "Notiziario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454333",
+        "starttime": "2025-07-10T16:59:00Z",
+        "endtime": "2025-07-10T17:03:00Z",
+        "eventTitle": "RaiNews",
+        "eventSynopsis": "NOTIZIARIO - Cronaca, politica, economia, cultura, spettacolo e sport dall'Italia e dal mondo. I fatti del giorno in tre minuti a cura di Rai News, il canale all news della Rai.. - 2025 ITA",
+        "epgEventTitle": "RaiNews",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "56431edc-98bb-4d0c-a746-b0398875b64a",
+          "contentTitle": "Lascaux IV, una sfida tecnologica",
+          "url": "/programmi-tv/documentario/lascaux-iv-una-sfida-tecnologica/56431edc-98bb-4d0c-a746-b0398875b64a",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454335",
+        "starttime": "2025-07-10T17:03:00Z",
+        "endtime": "2025-07-10T17:57:00Z",
+        "eventTitle": "Lascaux IV, una sfida tecnologica",
+        "eventSynopsis": "DOC. CULTURA - Per un anno le telecamere hanno seguito una incredibile avventura, in cui decine di tecnici hanno collaborato per realizzare un clone digitale della famosa grotte di Lascaux e dei su...",
+        "epgEventTitle": "Lascaux IV, una sfida tecnologica",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "beef9190-a161-43c0-a471-36ea2dc25037",
+          "contentTitle": "Overland",
+          "url": "/programmi-tv/arte-e-cultura/overland/beef9190-a161-43c0-a471-36ea2dc25037",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 19,
+            "name": "Arte e Cultura"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454337",
+        "starttime": "2025-07-10T17:57:00Z",
+        "endtime": "2025-07-10T18:52:00Z",
+        "eventTitle": "Overland",
+        "eventSynopsis": "Il mondo con gli occhi di Overland 23 Iraq: tra Storia e rinascita - puntata 1 - DOC. CULTURA - Il viaggio di Overland tra meravigliosi paesaggi incontaminati. In ogni angolo del pianeta le storie,...",
+        "epgEventTitle": "Overland",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "06bf769d-2a12-493b-8908-6377a4ddb053",
+          "contentTitle": "Documentari d'autore",
+          "url": "/programmi-tv/documentario/documentari-dautore/06bf769d-2a12-493b-8908-6377a4ddb053",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454339",
+        "starttime": "2025-07-10T18:52:00Z",
+        "endtime": "2025-07-10T20:21:00Z",
+        "eventTitle": "Documentari d'autore",
+        "eventSynopsis": "Documentario - Edoardo Bennato. Sono solo canzonette - DOCUMENTARIO - Un documentario dedicato a un personaggio iconico della musica italiana: Edoardo Bennato. Un artista a tutto tondo, a volte con...",
+        "epgEventTitle": "Documentari d'autore",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "32df76db-4d49-45fd-bc30-441967218cbc",
+          "contentTitle": "OSN - Capolavori per i \"Balletti russi",
+          "url": "/programmi-tv/teatro/osn-capolavori-per-i-balletti-russi/32df76db-4d49-45fd-bc30-441967218cbc",
+          "genre": {
+            "id": 1,
+            "name": "Intrattenimento"
+          },
+          "subgenre": {
+            "id": 105,
+            "name": "Teatro"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454340",
+        "starttime": "2025-07-10T20:21:00Z",
+        "endtime": "2025-07-10T21:38:00Z",
+        "eventTitle": "OSN - Capolavori per i \"Balletti russi",
+        "eventSynopsis": "Dall'Auditorium Toscanini di Torino, l'Orchestra Sinfonica Nazionale della Rai diretta da Andre's Orozco-Estrada esegue Prelude a' L'apres - midi d'un faune di Debussy, La boutique fantasque, P120...",
+        "epgEventTitle": "OSN - Capolavori per i \"Balletti russi",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6607,
+          "logo": "/logo/9019rai5_Light_Fit.png?checksum=50ad2f3fa2824c6892a9034b74fdf481",
+          "logoPadding": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "logoDark": "/logo/9019rai5_Dark_Fit.png?checksum=e44a0f01f202cb78f4af4261c8c262e4",
+          "logoDarkPadding": "/logo/9019rai5_Dark_Padding.png?checksum=d123cd22522f789a4583c7ce94ee73b6",
+          "logoLight": "/logo/9019rai5_Light_Padding.png?checksum=469702ea138bfb1e3dc20110a4a3e885",
+          "name": "Rai 5",
+          "description": "Canale Sky Glass 134.",
+          "number": 5023,
+          "servicekey": "9019",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "52657ae5-0946-41ac-b02a-b9fe74d9e768",
+          "contentTitle": "Bono: in attesa di un salvatore",
+          "url": "/programmi-tv/documentario/bono-in-attesa-di-un-salvatore/52657ae5-0946-41ac-b02a-b9fe74d9e768",
+          "genre": {
+            "id": 6,
+            "name": "Ragazzi e Musica"
+          },
+          "subgenre": {
+            "id": 70,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411454342",
+        "starttime": "2025-07-10T21:38:00Z",
+        "endtime": "2025-07-10T22:00:00Z",
+        "eventTitle": "Bono: in attesa di un salvatore",
+        "eventSynopsis": "DOC. MUSICA - Bono Vox e' il leader della celebre band irlandese U2, uno dei gruppi piu' importanti al mondo della musica rock, in vetta da oltre 40 anni. Bono e' considerato dagli inglesi una dell...",
+        "epgEventTitle": "Bono: in attesa di un salvatore",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      }
+    ],
     "2025-07-11": [],
     "2025-07-12": [],
     "2025-07-13": [],
