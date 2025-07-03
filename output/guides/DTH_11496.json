@@ -1,85 +1,6 @@
 {
   "name": "Sky Sport",
   "events_by_date": {
-    "2025-07-02": [
-      {
-        "channel": {
-          "id": 11496,
-          "logo": "/logo/951wimbledon2_Light_Fit.png",
-          "logoPadding": "/logo/951wimbledon2_Light_Padding.png",
-          "logoDark": "/logo/951wimbledon2_Dark_Fit.png",
-          "logoDarkPadding": "/logo/951wimbledon2_Dark_Padding.png",
-          "logoLight": "/logo/951wimbledon2_Light_Padding.png",
-          "name": "Wimbledon 2",
-          "number": 252,
-          "servicekey": "951",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "0b8c8920-e1c6-4e44-a08c-a7168c98bdc8",
-          "contentTitle": "Studi Tennis - Ep. 124 - Studio Tennis 02/07/2025",
-          "episodeNumber": 124,
-          "url": "/programmi-tv/tennis/studi-tennis-ep-124-studio-tennis-02-07-2025/0b8c8920-e1c6-4e44-a08c-a7168c98bdc8",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/0b8c8920-e1c6-4e44-a08c-a7168c98bdc8/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=7af99f50ff486760b558aeec4d646527"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/0b8c8920-e1c6-4e44-a08c-a7168c98bdc8/background?territory=IT&md5ChecksumParam=30f498a58b21a82e8cabb338bdf75671"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/0b8c8920-e1c6-4e44-a08c-a7168c98bdc8/cover?territory=IT&md5ChecksumParam=7af99f50ff486760b558aeec4d646527"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/0b8c8920-e1c6-4e44-a08c-a7168c98bdc8/16-9?territory=IT&md5ChecksumParam=a902aa5b48f28b700d0f4ae3de9de3d8"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/0b8c8920-e1c6-4e44-a08c-a7168c98bdc8/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=a902aa5b48f28b700d0f4ae3de9de3d8"
-              }
-            }
-          ]
-        },
-        "eventId": "149589664",
-        "starttime": "2025-07-02T09:45:00Z",
-        "endtime": "2025-07-02T10:00:00Z",
-        "eventTitle": "Studio tennis",
-        "eventSynopsis": "Anticipazioni e ultime notizie da Wimbledon per presentare la giornata del torneo di tennis piu' prestigioso.",
-        "epgEventTitle": "Studio tennis",
-        "programHighlights": "L",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
     "2025-07-03": [
       {
         "channel": {
@@ -178,9 +99,10 @@
         },
         "content": {
           "uuid": "cdd99012-3205-4540-ac89-e7a03f66edb0",
-          "contentTitle": "Studi Tennis - Ep. 126 - Studio Tennis Wimbledon 04/07/2025",
+          "contentTitle": "Studio Tennis",
           "episodeNumber": 126,
-          "url": "/programmi-tv/tennis/studi-tennis-ep-126-studio-tennis-wimbledon-04-07-2025/cdd99012-3205-4540-ac89-e7a03f66edb0",
+          "seasonNumber": 2025,
+          "url": "/sport/studio-tennis/studio-tennis/cdd99012-3205-4540-ac89-e7a03f66edb0",
           "genre": {
             "id": 2,
             "name": "Sport"
@@ -193,6 +115,16 @@
             {
               "img": {
                 "url": "/uuid/cdd99012-3205-4540-ac89-e7a03f66edb0/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=8c583b20cc98becc36de86c838ccf48e"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/cdd99012-3205-4540-ac89-e7a03f66edb0/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=8c583b20cc98becc36de86c838ccf48e"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/cdd99012-3205-4540-ac89-e7a03f66edb0/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8c583b20cc98becc36de86c838ccf48e"
               }
             },
             {
@@ -303,9 +235,9 @@
         "eventId": "149589676",
         "starttime": "2025-07-05T09:45:00Z",
         "endtime": "2025-07-05T10:00:00Z",
-        "eventTitle": "Stag. 2025 - Studio Tennis",
+        "eventTitle": "Studi Tennis - Ep. 127 - Studio Tennis Wimbledon 05/07/2025",
         "eventSynopsis": "Anticipazioni e ultime notizie da Wimbledon per presentare la giornata del torneo di tennis piu' prestigioso.",
-        "epgEventTitle": "Stag. 2025 - Studio Tennis",
+        "epgEventTitle": "Studi Tennis - Ep. 127 - Studio Tennis Wimbledon 05/07/2025",
         "programHighlights": "L",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -537,9 +469,9 @@
         "eventId": "149589688",
         "starttime": "2025-07-08T09:45:00Z",
         "endtime": "2025-07-08T10:00:00Z",
-        "eventTitle": "Stag. 2025 - Studio Tennis",
+        "eventTitle": "Ep. 130",
         "eventSynopsis": "Anticipazioni e ultime notizie da Wimbledon per presentare la giornata del torneo di tennis piu' prestigioso.",
-        "epgEventTitle": "Stag. 2025 - Studio Tennis",
+        "epgEventTitle": "Ep. 130",
         "programHighlights": "L",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -738,6 +670,7 @@
     "2025-08-08": [],
     "2025-08-09": [],
     "2025-08-10": [],
-    "2025-08-11": []
+    "2025-08-11": [],
+    "2025-08-12": []
   }
 }

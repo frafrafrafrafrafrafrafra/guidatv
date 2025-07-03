@@ -1,10 +1,97 @@
 {
   "name": "Sky Sport",
   "events_by_date": {
-    "2025-07-02": [],
     "2025-07-03": [],
     "2025-07-04": [],
-    "2025-07-05": [],
+    "2025-07-05": [
+      {
+        "channel": {
+          "id": 9046,
+          "logo": "/logo/772skysport_Light_Fit.png?checksum=2dcefdce-9dd4-4d94-a022-49c50240adaa",
+          "logoPadding": "/logo/772skysport_Light_Padding.png?checksum=e71363fa-0856-48ec-8c3e-31ddc84e52ee",
+          "logoDark": "/logo/772skysport_Dark_Fit.png?checksum=fdc087f3-db1e-4ad6-b4b0-06ebe0967f7f",
+          "logoDarkPadding": "/logo/772skysport_Dark_Padding.png?checksum=265a53b8-0edd-4ad2-9d56-38c90335de8e",
+          "logoLight": "/logo/772skysport_Light_Padding.png?checksum=e71363fa-0856-48ec-8c3e-31ddc84e52ee",
+          "name": "Sky Sport",
+          "number": 258,
+          "servicekey": "772",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
+          "uuid": "48d4d6c7-a4b0-4bd2-a132-36ba4b3a1063",
+          "contentTitle": "Argentina - Inghilterra",
+          "episodeNumber": 4,
+          "seasonNumber": 2025,
+          "url": "/sport/rugby-test-match/argentina-inghilterra/48d4d6c7-a4b0-4bd2-a132-36ba4b3a1063",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
+          },
+          "subgenre": {
+            "id": 51,
+            "name": "Rugby"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/48d4d6c7-a4b0-4bd2-a132-36ba4b3a1063/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f3834d347940d0d5a71194362561075e"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/48d4d6c7-a4b0-4bd2-a132-36ba4b3a1063/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=f3834d347940d0d5a71194362561075e"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/48d4d6c7-a4b0-4bd2-a132-36ba4b3a1063/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=57c2b167f06e545bed9253e0d738cc24"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/48d4d6c7-a4b0-4bd2-a132-36ba4b3a1063/background?territory=IT&md5ChecksumParam=48691378671eca3f542187beaca251a9"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/48d4d6c7-a4b0-4bd2-a132-36ba4b3a1063/cover?territory=IT&md5ChecksumParam=57c2b167f06e545bed9253e0d738cc24"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/48d4d6c7-a4b0-4bd2-a132-36ba4b3a1063/16-9?territory=IT&md5ChecksumParam=450d79513b9d111ea9c023975f967bff"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/48d4d6c7-a4b0-4bd2-a132-36ba4b3a1063/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=450d79513b9d111ea9c023975f967bff"
+              }
+            }
+          ]
+        },
+        "eventId": "149570223",
+        "starttime": "2025-07-05T19:30:00Z",
+        "endtime": "2025-07-05T22:30:00Z",
+        "eventTitle": "Rugby Test Match - Ep. 4 - Rugby Test Match 2025 Argentina/ Inghilterra 05/07/2025",
+        "eventSynopsis": "Rugby Test Match 2025. Dalle roe 21:40",
+        "epgEventTitle": "Rugby Test Match - Ep. 4 - Rugby Test Match 2025 Argentina/ Inghilterra 05/07/2025",
+        "programHighlights": "L",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      }
+    ],
     "2025-07-06": [],
     "2025-07-07": [],
     "2025-07-08": [],
@@ -41,6 +128,7 @@
     "2025-08-08": [],
     "2025-08-09": [],
     "2025-08-10": [],
-    "2025-08-11": []
+    "2025-08-11": [],
+    "2025-08-12": []
   }
 }
