@@ -260,13 +260,9 @@ document.addEventListener('DOMContentLoaded', function () {
         ? DateTime.fromFormat(next.time, 'HH:mm', { zone: 'Europe/Rome' })
         : DateTime.fromISO(program.endtime || program.end, { zone: 'Europe/Rome' });
       const isNow = isToday && start.isValid && now >= start && (!end || now < end);
-      let finalTitle = '';
-      if (simplified) {
-        finalTitle = program.title || '';
-        if (program.episode_info) finalTitle += ' - ' + program.episode_info;
-      } else {
-        finalTitle = program.epgEventTitle || program.eventTitle || program.title || 'Titolo sconosciuto';
-      }
+      let finalTitle = simplified
+        ? (program.title || '') + (program.episode_info ? ' - ' + program.episode_info : '')
+        : (program.epgEventTitle || program.eventTitle || program.title || 'Titolo sconosciuto');
       const description = program.eventSynopsis || program.description || '';
       const isPrimeVision = program.primeVision || false;
       let statusText = '';
@@ -327,7 +323,46 @@ document.addEventListener('DOMContentLoaded', function () {
     datePicker.style.display = 'none';
   });
   datePicker.addEventListener('blur', () => datePicker.style.display = 'none');
-  exportTxtBtn.addEventListener('click', () => alert('Esporta implementabile'));
+  exportTxtBtn.addEventListener('click', () => {
+    const dayStr = formatDate(currentDate);
+    const dayPrograms = allPrograms[dayStr] || [];
+    if (dayPrograms.length === 0) {
+      alert('Nessun programma disponibile per questa data.');
+      return;
+    }
+    const simplified = isSimplifiedChannel(dayPrograms[0]);
+    let lines = [`Guida TV - ${channelName}`, `Data: ${formatReadableDate(currentDate)}`, ''];
+    dayPrograms.forEach((program, idx) => {
+      const start = program.time
+        ? DateTime.fromFormat(program.time, 'HH:mm', { zone: 'Europe/Rome' })
+        : DateTime.fromISO(program.starttime || program.start, { zone: 'Europe/Rome' });
+      const next = dayPrograms[idx + 1];
+      const end = next?.time
+        ? DateTime.fromFormat(next.time, 'HH:mm', { zone: 'Europe/Rome' })
+        : DateTime.fromISO(program.endtime || program.end, { zone: 'Europe/Rome' });
+      const timeStr = program.time || (start.isValid && end.isValid ? `${start.toFormat('HH:mm')} - ${end.toFormat('HH:mm')}` : 'Orario sconosciuto');
+      let finalTitle = simplified
+        ? (program.title || '') + (program.episode_info ? ' - ' + program.episode_info : '')
+        : (program.epgEventTitle || program.eventTitle || program.title || 'Titolo sconosciuto');
+      const description = program.eventSynopsis || program.description || '';
+      lines.push(`- ${timeStr}`);
+      lines.push(`  Titolo: ${finalTitle}`);
+      if (description) lines.push(`  Descrizione: ${description}`);
+      lines.push('');
+    });
+    const txtContent = lines.join('\n');
+    const blob = new Blob([txtContent], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    const safeChannelName = channelName.replace(/[^a-z0-9]/gi, '_').toLowerCase();
+    const safeDate = formatDate(currentDate);
+    a.href = url;
+    a.download = `${safeChannelName}_${safeDate}.txt`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  });
   document.addEventListener('keydown', e => {
     if (e.key === 'ArrowLeft') { currentDate = currentDate.minus({ days: 1 }); updateView(); }
     else if (e.key === 'ArrowRight') { currentDate = currentDate.plus({ days: 1 }); updateView(); }
