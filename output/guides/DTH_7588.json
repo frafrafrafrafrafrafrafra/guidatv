@@ -3142,10 +3142,80 @@
         },
         "eventId": "411305374",
         "starttime": "2025-07-05T03:00:00Z",
-        "endtime": "2025-07-05T03:35:00Z",
+        "endtime": "2025-07-05T03:25:00Z",
         "eventTitle": "SANTO ROSARIO LOURDES",
         "eventSynopsis": "Santo Rosario - Santo Rosario da Lourdes",
         "epgEventTitle": "SANTO ROSARIO LOURDES",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "cf97047c-0a10-4a5a-b993-cfd9610eeeec",
+          "contentTitle": "Firmato da te",
+          "url": "/programmi-tv/documentario/firmato-da-te/cf97047c-0a10-4a5a-b993-cfd9610eeeec",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411479040",
+        "starttime": "2025-07-05T03:25:00Z",
+        "endtime": "2025-07-05T03:40:00Z",
+        "eventTitle": "FIRMATO DA TE 2023",
+        "eventSynopsis": "Firmato da te - Racconto breve, attraverso la voce dei protagonisti, nelle diverse citta' d'Italia, su come viene concretamente utilizzato l'8xmille destinato alla Chiesa Cattolica.",
+        "epgEventTitle": "FIRMATO DA TE 2023",
         "primeVision": false,
         "resolutions": [
           {
@@ -3211,8 +3281,8 @@
           ]
         },
         "eventId": "411305375",
-        "starttime": "2025-07-05T03:35:00Z",
-        "endtime": "2025-07-05T04:15:00Z",
+        "starttime": "2025-07-05T03:40:00Z",
+        "endtime": "2025-07-05T04:25:00Z",
         "eventTitle": "QUEL CHE BOLLE IN PENTOLA",
         "eventSynopsis": "Quel che bolle in pentola - Beatrice Fazi e lo chef Cinelli cucinano con gli ospiti, sotto l'occhio attento degli assaggiatori. Francesca Ceci visita cucine d'Italia.",
         "epgEventTitle": "QUEL CHE BOLLE IN PENTOLA",
@@ -3281,8 +3351,8 @@
           ]
         },
         "eventId": "411305376",
-        "starttime": "2025-07-05T04:15:00Z",
-        "endtime": "2025-07-05T04:25:00Z",
+        "starttime": "2025-07-05T04:25:00Z",
+        "endtime": "2025-07-05T04:35:00Z",
         "eventTitle": "La preghiera del mattino",
         "eventSynopsis": "La preghiera del mattino - La preghiera del mattino",
         "epgEventTitle": "La preghiera del mattino",
@@ -3351,8 +3421,8 @@
           ]
         },
         "eventId": "411305377",
-        "starttime": "2025-07-05T04:25:00Z",
-        "endtime": "2025-07-05T05:00:00Z",
+        "starttime": "2025-07-05T04:35:00Z",
+        "endtime": "2025-07-05T05:05:00Z",
         "eventTitle": "Effetto notte",
         "eventSynopsis": "Effetto notte - Un viaggio dentro il cinema, il suo cuore, le sue passioni, i protagonisti. A cura di Fabio Falzone.",
         "epgEventTitle": "Effetto notte",
@@ -3421,7 +3491,7 @@
           ]
         },
         "eventId": "411305379",
-        "starttime": "2025-07-05T05:00:00Z",
+        "starttime": "2025-07-05T05:05:00Z",
         "endtime": "2025-07-05T05:35:00Z",
         "eventTitle": "SANTO ROSARIO DA CASCIA",
         "eventSynopsis": "Santo Rosario - Santo Rosario dal Santuario di Santa Rita da Cascia",
@@ -3632,7 +3702,7 @@
         },
         "eventId": "411305384",
         "starttime": "2025-07-05T06:25:00Z",
-        "endtime": "2025-07-05T06:29:00Z",
+        "endtime": "2025-07-05T06:30:00Z",
         "eventTitle": "TG 2000 Flash",
         "eventSynopsis": "TG 2000 Flash - Telegiornale",
         "epgEventTitle": "TG 2000 Flash",
@@ -3701,8 +3771,8 @@
           ]
         },
         "eventId": "411305386",
-        "starttime": "2025-07-05T06:29:00Z",
-        "endtime": "2025-07-05T07:05:00Z",
+        "starttime": "2025-07-05T06:30:00Z",
+        "endtime": "2025-07-05T07:10:00Z",
         "eventTitle": "Santa Messa",
         "eventSynopsis": "Santa Messa - Santa Messa celebrata dalla Grotta delle Apparizioni di Lourdes",
         "epgEventTitle": "Santa Messa",
@@ -3771,7 +3841,7 @@
           ]
         },
         "eventId": "411305388",
-        "starttime": "2025-07-05T07:05:00Z",
+        "starttime": "2025-07-05T07:10:00Z",
         "endtime": "2025-07-05T08:15:00Z",
         "eventTitle": "Di Buon Mattino",
         "eventSynopsis": "Di Buon Mattino - Il contenitore di attualita' che apre la mattina di TV 2000, tra notizie e curiosita', politica e costume",
@@ -3912,80 +3982,10 @@
         },
         "eventId": "411305390",
         "starttime": "2025-07-05T08:55:00Z",
-        "endtime": "2025-07-05T09:50:00Z",
+        "endtime": "2025-07-05T10:00:00Z",
         "eventTitle": "QUEL CHE BOLLE IN PENTOLA",
         "eventSynopsis": "Quel che bolle in pentola - Beatrice Fazi e lo chef Cinelli cucinano con gli ospiti, sotto l'occhio attento degli assaggiatori. Francesca Ceci visita cucine d'Italia.",
         "epgEventTitle": "QUEL CHE BOLLE IN PENTOLA",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 7588,
-          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
-          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
-          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
-          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
-          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
-          "name": "TV2000 HD",
-          "description": "Disponibile anche sul canale 5028.",
-          "number": 157,
-          "servicekey": "180",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "86585452-00f9-44a5-80df-3484ab2d7a4d",
-          "contentTitle": "Angelus da Loreto",
-          "url": "/programmi-tv/religione/angelus-da-loreto/86585452-00f9-44a5-80df-3484ab2d7a4d",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 125,
-            "name": "Religione"
-          },
-          "imagesMap": [
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411305392",
-        "starttime": "2025-07-05T09:50:00Z",
-        "endtime": "2025-07-05T09:55:00Z",
-        "eventTitle": "ANGELUS DA LORETO 2025",
-        "eventSynopsis": "Angelus da Loreto - Angelus recitato dal Santuario della Santa Casa di Loreto",
-        "epgEventTitle": "ANGELUS DA LORETO 2025",
         "primeVision": false,
         "resolutions": [
           {
@@ -4051,8 +4051,8 @@
           ]
         },
         "eventId": "411305395",
-        "starttime": "2025-07-05T09:55:00Z",
-        "endtime": "2025-07-05T10:15:00Z",
+        "starttime": "2025-07-05T10:00:00Z",
+        "endtime": "2025-07-05T10:20:00Z",
         "eventTitle": "Tg2000",
         "eventSynopsis": "Tg2000 - Notiziario",
         "epgEventTitle": "Tg2000",
@@ -4121,8 +4121,8 @@
           ]
         },
         "eventId": "411305397",
-        "starttime": "2025-07-05T10:15:00Z",
-        "endtime": "2025-07-05T10:50:00Z",
+        "starttime": "2025-07-05T10:20:00Z",
+        "endtime": "2025-07-05T10:55:00Z",
         "eventTitle": "BORGHI D'ITALIA",
         "eventSynopsis": "Borghi d'Italia - Un itinerario nella storia, nell'arte e nelle tradizioni del Bel Paese. In ogni puntata il protagonista e il borgo",
         "epgEventTitle": "BORGHI D'ITALIA",
@@ -4191,8 +4191,8 @@
           ]
         },
         "eventId": "411305399",
-        "starttime": "2025-07-05T10:50:00Z",
-        "endtime": "2025-07-05T12:30:00Z",
+        "starttime": "2025-07-05T10:55:00Z",
+        "endtime": "2025-07-05T12:35:00Z",
         "eventTitle": "Grecia",
         "eventSynopsis": "Grecia - Con Grecia Colmenares e Gustavo Bermudez. Grecia assiste alla morte di suo padre, e traumatizzata fortemente perde la memoria.Va a vivere in un collegio di suore. Diventata adulta, va a vivere a",
         "epgEventTitle": "Grecia",
@@ -4261,7 +4261,7 @@
           ]
         },
         "eventId": "411305401",
-        "starttime": "2025-07-05T12:30:00Z",
+        "starttime": "2025-07-05T12:35:00Z",
         "endtime": "2025-07-05T13:00:00Z",
         "eventTitle": "SULLA STRADA IL VANGELO DELLA DOMENICA",
         "eventSynopsis": "Sulla strada - Il commento al Vangelo della domenica",
@@ -4332,7 +4332,7 @@
         },
         "eventId": "411305403",
         "starttime": "2025-07-05T13:00:00Z",
-        "endtime": "2025-07-05T13:15:00Z",
+        "endtime": "2025-07-05T13:20:00Z",
         "eventTitle": "CORONCINA ALLA DIVINA MISERICORDIA GELA 2022",
         "eventSynopsis": "Coroncina alla Divina Misericordia - La preghiera con le promesse trasmesse da Gesu' a Santa Faustina Kowalska",
         "epgEventTitle": "CORONCINA ALLA DIVINA MISERICORDIA GELA 2022",
@@ -4401,8 +4401,8 @@
           ]
         },
         "eventId": "411305405",
-        "starttime": "2025-07-05T13:15:00Z",
-        "endtime": "2025-07-05T14:00:00Z",
+        "starttime": "2025-07-05T13:20:00Z",
+        "endtime": "2025-07-05T14:10:00Z",
         "eventTitle": "NEL MEZZO DEL CAMMIN",
         "eventSynopsis": "Nel Mezzo del Cammin - Franco Nembrini, esperto divulgatore di Dante Alighieri,  rilegge la Divina Commedia, approfondisce i contenuti, riflette sul desiderio perenne di verita', liberta' e giustizia che i",
         "epgEventTitle": "NEL MEZZO DEL CAMMIN",
@@ -4471,8 +4471,8 @@
           ]
         },
         "eventId": "411305407",
-        "starttime": "2025-07-05T14:00:00Z",
-        "endtime": "2025-07-05T15:30:00Z",
+        "starttime": "2025-07-05T14:10:00Z",
+        "endtime": "2025-07-05T15:25:00Z",
         "eventTitle": "Grecia",
         "eventSynopsis": "Grecia - Con Grecia Colmenares e Gustavo Bermudez. Grecia assiste alla morte di suo padre, e traumatizzata fortemente perde la memoria.Va a vivere in un collegio di suore. Diventata adulta, va a vivere a",
         "epgEventTitle": "Grecia",
@@ -4541,7 +4541,7 @@
           ]
         },
         "eventId": "411305409",
-        "starttime": "2025-07-05T15:30:00Z",
+        "starttime": "2025-07-05T15:25:00Z",
         "endtime": "2025-07-05T16:00:00Z",
         "eventTitle": "AGRINET4WOMEN",
         "eventSynopsis": "Agrinet4women - Regia di E. Guidi (2025). Storie di imprenditrici virtuose nel mondo dell'agro-alimentare sostenibile.",
@@ -4752,7 +4752,7 @@
         },
         "eventId": "411305415",
         "starttime": "2025-07-05T17:00:00Z",
-        "endtime": "2025-07-05T18:00:00Z",
+        "endtime": "2025-07-05T18:05:00Z",
         "eventTitle": "Santa Messa",
         "eventSynopsis": "Santa Messa - SANTA MESSA DALLA CHIESA DI SANTA MARIA IN TRASPONTINA",
         "epgEventTitle": "Santa Messa",
@@ -4821,7 +4821,7 @@
           ]
         },
         "eventId": "411305417",
-        "starttime": "2025-07-05T18:00:00Z",
+        "starttime": "2025-07-05T18:05:00Z",
         "endtime": "2025-07-05T18:45:00Z",
         "eventTitle": "SANTO ROSARIO DA CASCIA LUNGO",
         "eventSynopsis": "Santo Rosario da Cascia - Santo Rosario da Cascia",
@@ -4962,7 +4962,7 @@
         },
         "eventId": "411305421",
         "starttime": "2025-07-05T19:05:00Z",
-        "endtime": "2025-07-05T20:40:00Z",
+        "endtime": "2025-07-05T20:45:00Z",
         "eventTitle": "Il mio amico Nanuk",
         "eventSynopsis": "Il mio amico Nanuk - Regia di R. Spottiswoode, B. Quilici (2014). Circolo Polare Artico, Luke, un ragazzo di tredici anni, tenta di riportare il cucciolo di orso Nanuk alla madre...",
         "epgEventTitle": "Il mio amico Nanuk",
@@ -5031,7 +5031,7 @@
           ]
         },
         "eventId": "411305423",
-        "starttime": "2025-07-05T20:40:00Z",
+        "starttime": "2025-07-05T20:45:00Z",
         "endtime": "2025-07-05T22:20:00Z",
         "eventTitle": "L'apostolo Pietro e l'ultima cena",
         "eventSynopsis": "L'apostolo Pietro e l'ultima cena - Regia di G. Sabloff (2012). Roma, 67 d.C., i giorni in carcere dell'apostolo Pietro, che porta la testimonianza di Gesu' al carceriere Martiniano...",
@@ -5172,7 +5172,7 @@
         },
         "eventId": "411305427",
         "starttime": "2025-07-05T22:40:00Z",
-        "endtime": "2025-07-05T23:10:00Z",
+        "endtime": "2025-07-05T23:05:00Z",
         "eventTitle": "SANTO ROSARIO DALLA BASILICA PAPALE DI SANTA MARIA MAGGIORE IN ROMA",
         "eventSynopsis": "Santo Rosario - Santo rosario recitato dalla basilica di Santa Maria Maggiore in Roma",
         "epgEventTitle": "SANTO ROSARIO DALLA BASILICA PAPALE DI SANTA MARIA MAGGIORE IN ROMA",
@@ -5241,8 +5241,8 @@
           ]
         },
         "eventId": "411305429",
-        "starttime": "2025-07-05T23:10:00Z",
-        "endtime": "2025-07-05T23:35:00Z",
+        "starttime": "2025-07-05T23:05:00Z",
+        "endtime": "2025-07-05T23:30:00Z",
         "eventTitle": "SULLA STRADA IL VANGELO DELLA DOMENICA",
         "eventSynopsis": "Sulla strada - Il commento al Vangelo della domenica",
         "epgEventTitle": "SULLA STRADA IL VANGELO DELLA DOMENICA",
@@ -5311,8 +5311,8 @@
           ]
         },
         "eventId": "411305431",
-        "starttime": "2025-07-05T23:35:00Z",
-        "endtime": "2025-07-06T00:05:00Z",
+        "starttime": "2025-07-05T23:30:00Z",
+        "endtime": "2025-07-06T00:00:00Z",
         "eventTitle": "I SANTI",
         "eventSynopsis": "I Santi - Un documentario dedicato a Santa Teresina Del Bambin Gesu' di Lisieux",
         "epgEventTitle": "I SANTI",
@@ -5383,8 +5383,8 @@
           ]
         },
         "eventId": "411305433",
-        "starttime": "2025-07-06T00:05:00Z",
-        "endtime": "2025-07-06T01:00:00Z",
+        "starttime": "2025-07-06T00:00:00Z",
+        "endtime": "2025-07-06T00:55:00Z",
         "eventTitle": "Erasmo Stefano da Narni",
         "eventSynopsis": "Erasmo Stefano da Narni - Erasmo Stefano Da Narni detto il Gattamelata nasce a narni intorno al 1390 fu un condottiero",
         "epgEventTitle": "Erasmo Stefano da Narni",
@@ -5453,11 +5453,81 @@
           ]
         },
         "eventId": "411305435",
-        "starttime": "2025-07-06T01:00:00Z",
+        "starttime": "2025-07-06T00:55:00Z",
         "endtime": "2025-07-06T01:55:00Z",
         "eventTitle": "Missione",
         "eventSynopsis": "Missione - Documentario di Pasquale Scimeca sulla Missione di Speranza e Carita' nata nel 1991 sotto i portici della stazione centrale di Palermo ad opera di fratel Biagio Conte, Missionario laico.",
         "epgEventTitle": "Missione",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "ed73655a-2c68-4c90-8a6f-10d59d4386f5",
+          "contentTitle": "TRACCE DEL GIUBILEO",
+          "url": "/programmi-tv/storia/tracce-del-giubileo/ed73655a-2c68-4c90-8a6f-10d59d4386f5",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 59,
+            "name": "Storia"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411479041",
+        "starttime": "2025-07-06T01:55:00Z",
+        "endtime": "2025-07-06T02:00:00Z",
+        "eventTitle": "TRACCE DEL GIUBILEO",
+        "eventSynopsis": "TRACCE DEL GIUBILEO - Tracce del Giubileo\" raccoglie documenti storici e immagini dei Giubilei passati: un viaggio tra memoria, fede e societa'.",
+        "epgEventTitle": "TRACCE DEL GIUBILEO",
         "primeVision": false,
         "resolutions": [
           {
@@ -5523,7 +5593,7 @@
           ]
         },
         "eventId": "411305437",
-        "starttime": "2025-07-06T01:55:00Z",
+        "starttime": "2025-07-06T02:00:00Z",
         "endtime": "2025-07-06T02:50:00Z",
         "eventTitle": "QUEL CHE BOLLE IN PENTOLA",
         "eventSynopsis": "Quel che bolle in pentola - Beatrice Fazi e lo chef Cinelli cucinano con gli ospiti, sotto l'occhio attento degli assaggiatori. Francesca Ceci visita cucine d'Italia.",
@@ -5664,10 +5734,80 @@
         },
         "eventId": "411306878",
         "starttime": "2025-07-06T03:00:00Z",
-        "endtime": "2025-07-06T03:55:00Z",
+        "endtime": "2025-07-06T03:25:00Z",
         "eventTitle": "SANTO ROSARIO LOURDES",
         "eventSynopsis": "Santo Rosario - Santo Rosario da Lourdes",
         "epgEventTitle": "SANTO ROSARIO LOURDES",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "3f21aabe-0ba2-4a12-9ed8-83707c5b6528",
+          "contentTitle": "I Santi",
+          "url": "/programmi-tv/documentario/i-santi/3f21aabe-0ba2-4a12-9ed8-83707c5b6528",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411479083",
+        "starttime": "2025-07-06T03:25:00Z",
+        "endtime": "2025-07-06T04:00:00Z",
+        "eventTitle": "I SANTI",
+        "eventSynopsis": "I Santi - Un documentario dedicato a San Giovanni Bosco",
+        "epgEventTitle": "I SANTI",
         "primeVision": false,
         "resolutions": [
           {
@@ -5733,7 +5873,7 @@
           ]
         },
         "eventId": "411306884",
-        "starttime": "2025-07-06T03:55:00Z",
+        "starttime": "2025-07-06T04:00:00Z",
         "endtime": "2025-07-06T04:05:00Z",
         "eventTitle": "La preghiera del mattino",
         "eventSynopsis": "La preghiera del mattino - La preghiera del mattino",
@@ -5804,7 +5944,7 @@
         },
         "eventId": "411306887",
         "starttime": "2025-07-06T04:05:00Z",
-        "endtime": "2025-07-06T04:25:00Z",
+        "endtime": "2025-07-06T04:30:00Z",
         "eventTitle": "TERRA SANTA NEWS",
         "eventSynopsis": "Terra Santa News - Rotocalco di informazione dalla Terra Santa",
         "epgEventTitle": "TERRA SANTA NEWS",
@@ -5873,8 +6013,8 @@
           ]
         },
         "eventId": "411306892",
-        "starttime": "2025-07-06T04:25:00Z",
-        "endtime": "2025-07-06T05:00:00Z",
+        "starttime": "2025-07-06T04:30:00Z",
+        "endtime": "2025-07-06T05:05:00Z",
         "eventTitle": "BORGHI D'ITALIA",
         "eventSynopsis": "Borghi d'Italia - Un itinerario nella storia, nell'arte e nelle tradizioni del Bel Paese. In ogni puntata il protagonista e il borgo",
         "epgEventTitle": "BORGHI D'ITALIA",
@@ -5943,7 +6083,7 @@
           ]
         },
         "eventId": "411306897",
-        "starttime": "2025-07-06T05:00:00Z",
+        "starttime": "2025-07-06T05:05:00Z",
         "endtime": "2025-07-06T05:35:00Z",
         "eventTitle": "SANTO ROSARIO DA CASCIA",
         "eventSynopsis": "Santo Rosario - Santo Rosario dal Santuario di Santa Rita da Cascia",
@@ -6154,9 +6294,9 @@
         },
         "eventId": "411306909",
         "starttime": "2025-07-06T06:30:00Z",
-        "endtime": "2025-07-06T07:20:00Z",
+        "endtime": "2025-07-06T07:25:00Z",
         "eventTitle": "Santa Messa",
-        "eventSynopsis": "Santa Messa - Santa Messa",
+        "eventSynopsis": "Santa Messa - SANTA MESSA DALLA CHIESA PONTIFICIA DI CASTEL GANDOLFO",
         "epgEventTitle": "Santa Messa",
         "primeVision": false,
         "resolutions": [
@@ -6223,11 +6363,81 @@
           ]
         },
         "eventId": "411306912",
-        "starttime": "2025-07-06T07:20:00Z",
-        "endtime": "2025-07-06T09:55:00Z",
+        "starttime": "2025-07-06T07:25:00Z",
+        "endtime": "2025-07-06T09:20:00Z",
         "eventTitle": "Samson, la vera storia di Sansone",
         "eventSynopsis": "Samson, la vera storia di Sansone - (2018) di B. Macdonald e G. Sabloff con T. James, J. Rathbone. Storia dell'eroe biblico Sansone, al quale Dio ha concesso il dono di una forza straordinaria.",
         "epgEventTitle": "Samson, la vera storia di Sansone",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "9fe01136-a875-4ae3-a684-4f4618c0ce01",
+          "contentTitle": "MABADILIKO STORIE DI CAMBIAMENTO",
+          "url": "/programmi-tv/documentario/mabadiliko-storie-di-cambiamento/9fe01136-a875-4ae3-a684-4f4618c0ce01",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411479084",
+        "starttime": "2025-07-06T09:20:00Z",
+        "endtime": "2025-07-06T10:00:00Z",
+        "eventTitle": "MABADILIKO STORIE DI CAMBIAMENTO",
+        "eventSynopsis": "MABADILIKO STORIE DI CAMBIAMENTO - MABADILIKO STORIE DI CAMBIAMENTO E INNOVAZIONE",
+        "epgEventTitle": "MABADILIKO STORIE DI CAMBIAMENTO",
         "primeVision": false,
         "resolutions": [
           {
@@ -6293,8 +6503,8 @@
           ]
         },
         "eventId": "411306916",
-        "starttime": "2025-07-06T09:55:00Z",
-        "endtime": "2025-07-06T10:15:00Z",
+        "starttime": "2025-07-06T10:00:00Z",
+        "endtime": "2025-07-06T10:20:00Z",
         "eventTitle": "Angelus da San Pietro",
         "eventSynopsis": "Angelus da San Pietro - Angelus recitato da Papa Leone XIV",
         "epgEventTitle": "Angelus da San Pietro",
@@ -6363,7 +6573,7 @@
           ]
         },
         "eventId": "411306920",
-        "starttime": "2025-07-06T10:15:00Z",
+        "starttime": "2025-07-06T10:20:00Z",
         "endtime": "2025-07-06T10:50:00Z",
         "eventTitle": "BORGHI D'ITALIA",
         "eventSynopsis": "Borghi d'Italia - Un itinerario nella storia, nell'arte e nelle tradizioni del Bel Paese. In ogni puntata il protagonista e il borgo",
@@ -6434,10 +6644,80 @@
         },
         "eventId": "411306923",
         "starttime": "2025-07-06T10:50:00Z",
-        "endtime": "2025-07-06T13:00:00Z",
+        "endtime": "2025-07-06T12:20:00Z",
         "eventTitle": "Il mio amico Nanuk",
         "eventSynopsis": "Il mio amico Nanuk - Regia di R. Spottiswoode, B. Quilici (2014). Circolo Polare Artico, Luke, un ragazzo di tredici anni, tenta di riportare il cucciolo di orso Nanuk alla madre...",
         "epgEventTitle": "Il mio amico Nanuk",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "7a618479-64e5-4067-986f-b99397724197",
+          "contentTitle": "Camminanti",
+          "url": "/programmi-tv/documentario/camminanti/7a618479-64e5-4067-986f-b99397724197",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411479085",
+        "starttime": "2025-07-06T12:20:00Z",
+        "endtime": "2025-07-06T13:00:00Z",
+        "eventTitle": "Camminanti",
+        "eventSynopsis": "Camminanti - Regia di D. Cavalleri (2024). L'esperienza del cammino raccontata dai pellegrini nello spirito francescano.",
+        "epgEventTitle": "Camminanti",
         "primeVision": false,
         "resolutions": [
           {
@@ -6504,7 +6784,7 @@
         },
         "eventId": "411306927",
         "starttime": "2025-07-06T13:00:00Z",
-        "endtime": "2025-07-06T13:15:00Z",
+        "endtime": "2025-07-06T13:20:00Z",
         "eventTitle": "CORONCINA ALLA DIVINA MISERICORDIA GELA 2022",
         "eventSynopsis": "Coroncina alla Divina Misericordia - La preghiera con le promesse trasmesse da Gesu' a Santa Faustina Kowalska",
         "epgEventTitle": "CORONCINA ALLA DIVINA MISERICORDIA GELA 2022",
@@ -6573,7 +6853,7 @@
           ]
         },
         "eventId": "411306931",
-        "starttime": "2025-07-06T13:15:00Z",
+        "starttime": "2025-07-06T13:20:00Z",
         "endtime": "2025-07-06T16:00:00Z",
         "eventTitle": "Frankie Drake mysteries",
         "eventSynopsis": "Frankie Drake mysteries - Idea di C. Hay, M. Ricci, regia di R. Nadda (2017). Nella Toronto degli anni Venti, la detective Frankie Drake indaga sui crimini irrisolti in citta'",
@@ -6784,7 +7064,7 @@
         },
         "eventId": "411306943",
         "starttime": "2025-07-06T17:00:00Z",
-        "endtime": "2025-07-06T18:00:00Z",
+        "endtime": "2025-07-06T18:05:00Z",
         "eventTitle": "Santa Messa",
         "eventSynopsis": "Santa Messa - SANTA MESSA DALLA CHIESA DI SANTA MARIA IN TRASPONTINA",
         "epgEventTitle": "Santa Messa",
@@ -6853,7 +7133,7 @@
           ]
         },
         "eventId": "411306950",
-        "starttime": "2025-07-06T18:00:00Z",
+        "starttime": "2025-07-06T18:05:00Z",
         "endtime": "2025-07-06T18:45:00Z",
         "eventTitle": "SANTO ROSARIO DA CASCIA LUNGO",
         "eventSynopsis": "Santo Rosario da Cascia - Santo Rosario da Cascia",
@@ -6954,76 +7234,6 @@
           }
         },
         "content": {
-          "uuid": "adb88469-6c81-4683-8041-ace663f7e342",
-          "contentTitle": "Soul",
-          "url": "/programmi-tv/attualita/soul/adb88469-6c81-4683-8041-ace663f7e342",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 117,
-            "name": "Attualita"
-          },
-          "imagesMap": [
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411306957",
-        "starttime": "2025-07-06T19:05:00Z",
-        "endtime": "2025-07-06T19:35:00Z",
-        "eventTitle": "SOUL",
-        "eventSynopsis": "Soul - Incontrare ?no in fondo all'anima uomini e donne che interessano, che incuriosiscono per il loro spessore culturale e umano. A cura di Monica Mondo",
-        "epgEventTitle": "SOUL",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 7588,
-          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
-          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
-          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
-          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
-          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
-          "name": "TV2000 HD",
-          "description": "Disponibile anche sul canale 5028.",
-          "number": 157,
-          "servicekey": "180",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
           "uuid": "2858f339-4249-45d8-a3f6-8f253f0434cb",
           "contentTitle": "Il dono",
           "url": "/film/drammatico/il-dono/2858f339-4249-45d8-a3f6-8f253f0434cb",
@@ -7062,9 +7272,9 @@
             }
           ]
         },
-        "eventId": "411306960",
-        "starttime": "2025-07-06T19:35:00Z",
-        "endtime": "2025-07-06T21:15:00Z",
+        "eventId": "411479086",
+        "starttime": "2025-07-06T19:05:00Z",
+        "endtime": "2025-07-06T20:50:00Z",
         "eventTitle": "Il dono",
         "eventSynopsis": "Il dono - Regia Thomas Carter con Cuba Gooding Jr., Ele Bardha (2010) Un ragazzo con problemi di apprendimento, supera tanti ostacoli, diventando un rinomato neurochirurgo.",
         "epgEventTitle": "Il dono",
@@ -7132,9 +7342,9 @@
             }
           ]
         },
-        "eventId": "411306962",
-        "starttime": "2025-07-06T21:15:00Z",
-        "endtime": "2025-07-06T21:30:00Z",
+        "eventId": "411479087",
+        "starttime": "2025-07-06T20:50:00Z",
+        "endtime": "2025-07-06T21:00:00Z",
         "eventTitle": "Angelus",
         "eventSynopsis": "Angelus - Angelus recitato in differita",
         "epgEventTitle": "Angelus",
@@ -7202,9 +7412,9 @@
             }
           ]
         },
-        "eventId": "411306964",
-        "starttime": "2025-07-06T21:30:00Z",
-        "endtime": "2025-07-06T23:15:00Z",
+        "eventId": "411479088",
+        "starttime": "2025-07-06T21:00:00Z",
+        "endtime": "2025-07-06T22:50:00Z",
         "eventTitle": "Il padre della sposa",
         "eventSynopsis": "Il padre della sposa - Regia di C. Shyer (1991). Annie comunica ai genitori che intende sposarsi con Brian, ragazzo di famiglia agiata, ma per il padre non sara' una lieta notizia",
         "epgEventTitle": "Il padre della sposa",
@@ -7272,9 +7482,9 @@
             }
           ]
         },
-        "eventId": "411306966",
-        "starttime": "2025-07-06T23:10:00Z",
-        "endtime": "2025-07-06T23:45:00Z",
+        "eventId": "411479089",
+        "starttime": "2025-07-06T22:50:00Z",
+        "endtime": "2025-07-06T23:15:00Z",
         "eventTitle": "Effetto notte",
         "eventSynopsis": "Effetto notte - Un viaggio dentro il cinema, il suo cuore, le sue passioni, i protagonisti. A cura di Fabio Falzone.",
         "epgEventTitle": "Effetto notte",
@@ -7342,9 +7552,9 @@
             }
           ]
         },
-        "eventId": "411306968",
-        "starttime": "2025-07-06T23:45:00Z",
-        "endtime": "2025-07-07T00:05:00Z",
+        "eventId": "411479090",
+        "starttime": "2025-07-06T23:15:00Z",
+        "endtime": "2025-07-06T23:30:00Z",
         "eventTitle": "LA COMPIETA PREGHIERA DELLA SERA 2023",
         "eventSynopsis": "La Compieta - Compieta",
         "epgEventTitle": "LA COMPIETA PREGHIERA DELLA SERA 2023",
@@ -7355,9 +7565,7 @@
             "value": false
           }
         ]
-      }
-    ],
-    "2025-07-07": [
+      },
       {
         "channel": {
           "id": 7588,
@@ -7414,9 +7622,9 @@
             }
           ]
         },
-        "eventId": "411306970",
-        "starttime": "2025-07-07T00:05:00Z",
-        "endtime": "2025-07-07T00:35:00Z",
+        "eventId": "411479091",
+        "starttime": "2025-07-06T23:30:00Z",
+        "endtime": "2025-07-07T00:05:00Z",
         "eventTitle": "SANTO ROSARIO DALLA BASILICA PAPALE DI SANTA MARIA MAGGIORE IN ROMA",
         "eventSynopsis": "Santo Rosario - Santo rosario recitato dalla basilica di Santa Maria Maggiore in Roma",
         "epgEventTitle": "SANTO ROSARIO DALLA BASILICA PAPALE DI SANTA MARIA MAGGIORE IN ROMA",
@@ -7427,7 +7635,9 @@
             "value": false
           }
         ]
-      },
+      }
+    ],
+    "2025-07-07": [
       {
         "channel": {
           "id": 7588,
@@ -7484,12 +7694,82 @@
             }
           ]
         },
-        "eventId": "411306972",
-        "starttime": "2025-07-07T00:35:00Z",
-        "endtime": "2025-07-07T01:15:00Z",
+        "eventId": "411479092",
+        "starttime": "2025-07-07T00:05:00Z",
+        "endtime": "2025-07-07T00:45:00Z",
         "eventTitle": "I SANTI",
         "eventSynopsis": "I Santi - Un documentario dedicato a San Giovanni Paolo II",
         "epgEventTitle": "I SANTI",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "3df74e5f-c2cb-4470-affc-73c78c9a19b0",
+          "contentTitle": "Luca Signorelli",
+          "url": "/programmi-tv/documentario/luca-signorelli/3df74e5f-c2cb-4470-affc-73c78c9a19b0",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411479093",
+        "starttime": "2025-07-07T00:45:00Z",
+        "endtime": "2025-07-07T01:15:00Z",
+        "eventTitle": "Luca Signorelli",
+        "eventSynopsis": "Luca Signorelli - Il Video ripercorre il cammino artistico di Luca Signorelli. Nato a Cortona nel 1450 e ivi morto nel 1523. Artista ricco di fantasia, e stato uno dei maggiori esponenti del primo Rinasc",
+        "epgEventTitle": "Luca Signorelli",
         "primeVision": false,
         "resolutions": [
           {
@@ -7796,6 +8076,76 @@
           }
         },
         "content": {
+          "uuid": "4b9485c5-4aa1-48a6-bbfa-32a39b76dcdc",
+          "contentTitle": "TRACCE DEL GIUBILEO",
+          "url": "/programmi-tv/storia/tracce-del-giubileo/4b9485c5-4aa1-48a6-bbfa-32a39b76dcdc",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 59,
+            "name": "Storia"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411479042",
+        "starttime": "2025-07-07T03:25:00Z",
+        "endtime": "2025-07-07T03:30:00Z",
+        "eventTitle": "TRACCE DEL GIUBILEO",
+        "eventSynopsis": "TRACCE DEL GIUBILEO - Tracce del Giubileo\" raccoglie documenti storici e immagini dei Giubilei passati: un viaggio tra memoria, fede e societa'.",
+        "epgEventTitle": "TRACCE DEL GIUBILEO",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
           "uuid": "8256d8bb-4389-4243-a961-1188ec84a52c",
           "contentTitle": "La preghiera del mattino",
           "url": "/programmi-tv/religione/la-preghiera-del-mattino/8256d8bb-4389-4243-a961-1188ec84a52c",
@@ -7835,7 +8185,7 @@
           ]
         },
         "eventId": "411307493",
-        "starttime": "2025-07-07T03:25:00Z",
+        "starttime": "2025-07-07T03:30:00Z",
         "endtime": "2025-07-07T03:40:00Z",
         "eventTitle": "La preghiera del mattino",
         "eventSynopsis": "La preghiera del mattino - La preghiera del mattino",
@@ -8046,7 +8396,7 @@
         },
         "eventId": "411307500",
         "starttime": "2025-07-07T05:00:00Z",
-        "endtime": "2025-07-07T05:35:00Z",
+        "endtime": "2025-07-07T05:30:00Z",
         "eventTitle": "SANTO ROSARIO DA CASCIA",
         "eventSynopsis": "Santo Rosario - Santo Rosario dal Santuario di Santa Rita da Cascia",
         "epgEventTitle": "SANTO ROSARIO DA CASCIA",
@@ -8115,7 +8465,7 @@
           ]
         },
         "eventId": "411307501",
-        "starttime": "2025-07-07T05:35:00Z",
+        "starttime": "2025-07-07T05:30:00Z",
         "endtime": "2025-07-07T06:25:00Z",
         "eventTitle": "Di Buon Mattino",
         "eventSynopsis": "Di Buon Mattino - Il contenitore di attualita' che apre la mattina di TV 2000, tra notizie e curiosita', politica e costume",
@@ -8258,7 +8608,7 @@
         "starttime": "2025-07-07T06:30:00Z",
         "endtime": "2025-07-07T07:10:00Z",
         "eventTitle": "Santa Messa",
-        "eventSynopsis": "Santa Messa - Santa Messa",
+        "eventSynopsis": "Santa Messa - SANTA MESSA DALLA CHIESA PONTIFICIA DI CASTEL GANDOLFO",
         "epgEventTitle": "Santa Messa",
         "primeVision": false,
         "resolutions": [
@@ -8326,7 +8676,7 @@
         },
         "eventId": "411307508",
         "starttime": "2025-07-07T07:10:00Z",
-        "endtime": "2025-07-07T07:45:00Z",
+        "endtime": "2025-07-07T07:50:00Z",
         "eventTitle": "Di Buon Mattino",
         "eventSynopsis": "Di Buon Mattino - Il contenitore di attualita' che apre la mattina di TV 2000, tra notizie e curiosita', politica e costume",
         "epgEventTitle": "Di Buon Mattino",
@@ -8395,8 +8745,8 @@
           ]
         },
         "eventId": "411307510",
-        "starttime": "2025-07-07T07:45:00Z",
-        "endtime": "2025-07-07T08:30:00Z",
+        "starttime": "2025-07-07T07:50:00Z",
+        "endtime": "2025-07-07T08:35:00Z",
         "eventTitle": "Il mio medico",
         "eventSynopsis": "Il mio medico - Programma di informazione medica a servizio dei cittadini pensato per diffondere, con linguaggio semplice, una cultura della salute basata sulla prevenzione",
         "epgEventTitle": "Il mio medico",
@@ -8465,8 +8815,8 @@
           ]
         },
         "eventId": "411307512",
-        "starttime": "2025-07-07T08:30:00Z",
-        "endtime": "2025-07-07T09:00:00Z",
+        "starttime": "2025-07-07T08:35:00Z",
+        "endtime": "2025-07-07T08:55:00Z",
         "eventTitle": "VEDIAMOCI CHIARO ESTATE",
         "eventSynopsis": "Vediamoci Chiaro - Vediamoci chiaro si propone di supportare e tutelare i cittadini e suggerire soluzioni ai piccoli e ai grandi problemi delle famiglie.",
         "epgEventTitle": "VEDIAMOCI CHIARO ESTATE",
@@ -8535,81 +8885,11 @@
           ]
         },
         "eventId": "411307515",
-        "starttime": "2025-07-07T09:00:00Z",
-        "endtime": "2025-07-07T09:55:00Z",
+        "starttime": "2025-07-07T08:55:00Z",
+        "endtime": "2025-07-07T10:00:00Z",
         "eventTitle": "QUEL CHE BOLLE IN PENTOLA",
         "eventSynopsis": "Quel che bolle in pentola - Beatrice Fazi e lo chef Cinelli cucinano con gli ospiti, sotto l'occhio attento degli assaggiatori. Francesca Ceci visita cucine d'Italia.",
         "epgEventTitle": "QUEL CHE BOLLE IN PENTOLA",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 7588,
-          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
-          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
-          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
-          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
-          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
-          "name": "TV2000 HD",
-          "description": "Disponibile anche sul canale 5028.",
-          "number": 157,
-          "servicekey": "180",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "f4e7c3f0-47a8-4ebd-bcfc-7edaf9cde04b",
-          "contentTitle": "Angelus da Loreto",
-          "url": "/programmi-tv/religione/angelus-da-loreto/f4e7c3f0-47a8-4ebd-bcfc-7edaf9cde04b",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 125,
-            "name": "Religione"
-          },
-          "imagesMap": [
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411307523",
-        "starttime": "2025-07-07T09:55:00Z",
-        "endtime": "2025-07-07T10:00:00Z",
-        "eventTitle": "ANGELUS DA LORETO 2025",
-        "eventSynopsis": "Angelus da Loreto - Angelus recitato dal Santuario della Santa Casa di Loreto",
-        "epgEventTitle": "ANGELUS DA LORETO 2025",
         "primeVision": false,
         "resolutions": [
           {
@@ -8746,7 +9026,7 @@
         },
         "eventId": "411307527",
         "starttime": "2025-07-07T10:20:00Z",
-        "endtime": "2025-07-07T11:20:00Z",
+        "endtime": "2025-07-07T11:15:00Z",
         "eventTitle": "L'ora solare",
         "eventSynopsis": "L'ora solare - Paola Saluzzi racconta l'angolo luminoso della vita quotidiana. Storie di uomini e donne che non si sono arresi davanti alle difficolta' e hanno creduto nel futuro",
         "epgEventTitle": "L'ora solare",
@@ -8815,7 +9095,7 @@
           ]
         },
         "eventId": "411307529",
-        "starttime": "2025-07-07T11:20:00Z",
+        "starttime": "2025-07-07T11:15:00Z",
         "endtime": "2025-07-07T13:00:00Z",
         "eventTitle": "Grecia",
         "eventSynopsis": "Grecia - Con Grecia Colmenares e Gustavo Bermudez. Grecia assiste alla morte di suo padre, e traumatizzata fortemente perde la memoria.Va a vivere in un collegio di suore. Diventata adulta, va a vivere a",
@@ -9026,7 +9306,7 @@
         },
         "eventId": "411307536",
         "starttime": "2025-07-07T14:00:00Z",
-        "endtime": "2025-07-07T15:30:00Z",
+        "endtime": "2025-07-07T15:25:00Z",
         "eventTitle": "Grecia",
         "eventSynopsis": "Grecia - Con Grecia Colmenares e Gustavo Bermudez. Grecia assiste alla morte di suo padre, e traumatizzata fortemente perde la memoria.Va a vivere in un collegio di suore. Diventata adulta, va a vivere a",
         "epgEventTitle": "Grecia",
@@ -9095,8 +9375,8 @@
           ]
         },
         "eventId": "411307538",
-        "starttime": "2025-07-07T15:30:00Z",
-        "endtime": "2025-07-07T15:55:00Z",
+        "starttime": "2025-07-07T15:25:00Z",
+        "endtime": "2025-07-07T16:00:00Z",
         "eventTitle": "CHIESA VIVA",
         "eventSynopsis": "Chiesa Viva - Il programma che racconta ogni giorno le storie e le riflessioni di una comunita' universale in dialogo con la realta'",
         "epgEventTitle": "CHIESA VIVA",
@@ -9165,8 +9445,8 @@
           ]
         },
         "eventId": "411307540",
-        "starttime": "2025-07-07T15:55:00Z",
-        "endtime": "2025-07-07T16:25:00Z",
+        "starttime": "2025-07-07T16:00:00Z",
+        "endtime": "2025-07-07T16:30:00Z",
         "eventTitle": "Rosario In Diretta Da Lourdes",
         "eventSynopsis": "Rosario In Diretta Da Lourdes - Rosario in diretta da Lourdes",
         "epgEventTitle": "Rosario In Diretta Da Lourdes",
@@ -9235,7 +9515,7 @@
           ]
         },
         "eventId": "411307542",
-        "starttime": "2025-07-07T16:25:00Z",
+        "starttime": "2025-07-07T16:30:00Z",
         "endtime": "2025-07-07T17:00:00Z",
         "eventTitle": "Tg2000",
         "eventSynopsis": "Tg2000 - Notiziario",
@@ -9306,9 +9586,9 @@
         },
         "eventId": "411307545",
         "starttime": "2025-07-07T17:00:00Z",
-        "endtime": "2025-07-07T17:30:00Z",
+        "endtime": "2025-07-07T17:45:00Z",
         "eventTitle": "Santa Messa",
-        "eventSynopsis": "Santa Messa - Santa Messa",
+        "eventSynopsis": "Santa Messa - SANTA MESSA DALLA CHIESA DI SANTA MARIA IN TRASPONTINA",
         "epgEventTitle": "Santa Messa",
         "primeVision": false,
         "resolutions": [
@@ -9336,9 +9616,9 @@
           }
         },
         "content": {
-          "uuid": "12ed24de-35b9-4fae-8668-f1a62d9a5c80",
-          "contentTitle": "In Cammino",
-          "url": "/programmi-tv/religione/in-cammino/12ed24de-35b9-4fae-8668-f1a62d9a5c80",
+          "uuid": "d71d57a1-9200-45af-9e70-392d16c320f3",
+          "contentTitle": "Meditazione",
+          "url": "/programmi-tv/religione/meditazione/d71d57a1-9200-45af-9e70-392d16c320f3",
           "genre": {
             "id": 4,
             "name": "Mondo e Tendenze"
@@ -9374,12 +9654,12 @@
             }
           ]
         },
-        "eventId": "411307547",
-        "starttime": "2025-07-07T17:30:00Z",
-        "endtime": "2025-07-07T18:00:00Z",
-        "eventTitle": "In Cammino",
-        "eventSynopsis": "In Cammino - Un appuntamento quotidiano che, attraverso temi e ospiti ogni giorno diversi, racconta il cammino della Chiesa verso il Sinodo.",
-        "epgEventTitle": "In Cammino",
+        "eventId": "411479043",
+        "starttime": "2025-07-07T17:45:00Z",
+        "endtime": "2025-07-07T18:05:00Z",
+        "eventTitle": "Meditazione",
+        "eventSynopsis": "Meditazione - Itinerario di meditazione dell' iconografia carmelitana della Traspontina.",
+        "epgEventTitle": "Meditazione",
         "primeVision": false,
         "resolutions": [
           {
@@ -9445,7 +9725,7 @@
           ]
         },
         "eventId": "411307550",
-        "starttime": "2025-07-07T18:00:00Z",
+        "starttime": "2025-07-07T18:05:00Z",
         "endtime": "2025-07-07T18:45:00Z",
         "eventTitle": "SANTO ROSARIO DA CASCIA LUNGO",
         "eventSynopsis": "Santo Rosario da Cascia - Santo Rosario da Cascia",
@@ -9586,7 +9866,7 @@
         },
         "eventId": "411307552",
         "starttime": "2025-07-07T19:05:00Z",
-        "endtime": "2025-07-07T20:55:00Z",
+        "endtime": "2025-07-07T21:00:00Z",
         "eventTitle": "Maria Goretti",
         "eventSynopsis": "Maria Goretti - Regia di G. Base con M. Pinto, C. Koll, F. Insinna (2003). La storia di Maria Goretti, che appena dodicenne fronteggio' con le sue forze un'aggressione sessuale.",
         "epgEventTitle": "Maria Goretti",
@@ -9655,8 +9935,8 @@
           ]
         },
         "eventId": "411307553",
-        "starttime": "2025-07-07T20:55:00Z",
-        "endtime": "2025-07-07T21:20:00Z",
+        "starttime": "2025-07-07T21:00:00Z",
+        "endtime": "2025-07-07T21:25:00Z",
         "eventTitle": "INDAGINE AI CONFINI DEL SACRO",
         "eventSynopsis": "Indagine ai confini del sacro - Il programma racconta di apparizioni, veggenti, lacrimazioni, gruppi pseudoreligiosi, eventi mistici con inchieste e reportage, provando a separare il vero dal falso.",
         "epgEventTitle": "INDAGINE AI CONFINI DEL SACRO",
@@ -9725,7 +10005,7 @@
           ]
         },
         "eventId": "411307554",
-        "starttime": "2025-07-07T21:20:00Z",
+        "starttime": "2025-07-07T21:25:00Z",
         "endtime": "2025-07-07T21:45:00Z",
         "eventTitle": "LA COMPIETA PREGHIERA DELLA SERA 2023",
         "eventSynopsis": "La Compieta - Compieta",
@@ -9796,7 +10076,7 @@
         },
         "eventId": "411307555",
         "starttime": "2025-07-07T21:45:00Z",
-        "endtime": "2025-07-07T22:15:00Z",
+        "endtime": "2025-07-07T22:20:00Z",
         "eventTitle": "SANTO ROSARIO DALLA BASILICA PAPALE DI SANTA MARIA MAGGIORE IN ROMA",
         "eventSynopsis": "Santo Rosario - Santo rosario recitato dalla basilica di Santa Maria Maggiore in Roma",
         "epgEventTitle": "SANTO ROSARIO DALLA BASILICA PAPALE DI SANTA MARIA MAGGIORE IN ROMA",
@@ -9865,8 +10145,8 @@
           ]
         },
         "eventId": "411307556",
-        "starttime": "2025-07-07T22:15:00Z",
-        "endtime": "2025-07-07T23:15:00Z",
+        "starttime": "2025-07-07T22:20:00Z",
+        "endtime": "2025-07-07T23:10:00Z",
         "eventTitle": "L'ora solare",
         "eventSynopsis": "L'ora solare - Paola Saluzzi racconta l'angolo luminoso della vita quotidiana. Storie di uomini e donne che non si sono arresi davanti alle difficolta' e hanno creduto nel futuro",
         "epgEventTitle": "L'ora solare",
@@ -9935,7 +10215,7 @@
           ]
         },
         "eventId": "411307557",
-        "starttime": "2025-07-07T23:15:00Z",
+        "starttime": "2025-07-07T23:10:00Z",
         "endtime": "2025-07-07T23:50:00Z",
         "eventTitle": "Siamo noi",
         "eventSynopsis": "Siamo noi - Raccontare l'attualita', sfidando il pessimismo e accendendo i riflettori sulle buone pratiche di un'Italia che ogni giorno costruisce bene comune.",
@@ -10078,7 +10358,7 @@
         },
         "eventId": "411307559",
         "starttime": "2025-07-08T00:10:00Z",
-        "endtime": "2025-07-08T02:25:00Z",
+        "endtime": "2025-07-08T02:30:00Z",
         "eventTitle": "Il mio medico",
         "eventSynopsis": "Il mio medico - Programma di informazione medica a servizio dei cittadini pensato per diffondere, con linguaggio semplice, una cultura della salute basata sulla prevenzione",
         "epgEventTitle": "Il mio medico",
@@ -10147,8 +10427,8 @@
           ]
         },
         "eventId": "411307560",
-        "starttime": "2025-07-08T02:25:00Z",
-        "endtime": "2025-07-08T02:50:00Z",
+        "starttime": "2025-07-08T02:30:00Z",
+        "endtime": "2025-07-08T02:55:00Z",
         "eventTitle": "VEDIAMOCI CHIARO ESTATE",
         "eventSynopsis": "Vediamoci Chiaro - Vediamoci chiaro si propone di supportare e tutelare i cittadini e suggerire soluzioni ai piccoli e ai grandi problemi delle famiglie.",
         "epgEventTitle": "VEDIAMOCI CHIARO ESTATE",
@@ -10217,7 +10497,7 @@
           ]
         },
         "eventId": "411307561",
-        "starttime": "2025-07-08T02:50:00Z",
+        "starttime": "2025-07-08T02:55:00Z",
         "endtime": "2025-07-08T03:00:00Z",
         "eventTitle": "Clip Borghi d'Italia",
         "eventSynopsis": "Clip Borghi d'Italia - Clip Borghi d'Italia",
@@ -10288,10 +10568,80 @@
         },
         "eventId": "411305247",
         "starttime": "2025-07-08T03:00:00Z",
-        "endtime": "2025-07-08T03:25:00Z",
+        "endtime": "2025-07-08T03:30:00Z",
         "eventTitle": "SANTO ROSARIO LOURDES",
         "eventSynopsis": "Santo Rosario - Santo Rosario da Lourdes",
         "epgEventTitle": "SANTO ROSARIO LOURDES",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "b764141e-8f6f-448e-889f-bde9f7f2a023",
+          "contentTitle": "Borghi d'Italia",
+          "url": "/programmi-tv/viaggi/borghi-ditalia/b764141e-8f6f-448e-889f-bde9f7f2a023",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 33,
+            "name": "Viaggi"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411479046",
+        "starttime": "2025-07-08T03:30:00Z",
+        "endtime": "2025-07-08T03:40:00Z",
+        "eventTitle": "CLIP BORGHI D' ITALIA",
+        "eventSynopsis": "Borghi d'Italia - Un itinerario nella storia, nell'arte e nelle tradizioni del Bel Paese. In ogni puntata il protagonista e il borgo",
+        "epgEventTitle": "CLIP BORGHI D' ITALIA",
         "primeVision": false,
         "resolutions": [
           {
@@ -10357,8 +10707,8 @@
           ]
         },
         "eventId": "411305250",
-        "starttime": "2025-07-08T03:25:00Z",
-        "endtime": "2025-07-08T03:40:00Z",
+        "starttime": "2025-07-08T03:40:00Z",
+        "endtime": "2025-07-08T03:45:00Z",
         "eventTitle": "La preghiera del mattino",
         "eventSynopsis": "La preghiera del mattino - La preghiera del mattino",
         "epgEventTitle": "La preghiera del mattino",
@@ -10427,8 +10777,8 @@
           ]
         },
         "eventId": "411305253",
-        "starttime": "2025-07-08T03:40:00Z",
-        "endtime": "2025-07-08T04:00:00Z",
+        "starttime": "2025-07-08T03:45:00Z",
+        "endtime": "2025-07-08T04:05:00Z",
         "eventTitle": "In Cammino",
         "eventSynopsis": "In Cammino - Un appuntamento quotidiano che, attraverso temi e ospiti ogni giorno diversi, racconta il cammino della Chiesa verso il Sinodo.",
         "epgEventTitle": "In Cammino",
@@ -10497,7 +10847,7 @@
           ]
         },
         "eventId": "411305256",
-        "starttime": "2025-07-08T04:00:00Z",
+        "starttime": "2025-07-08T04:05:00Z",
         "endtime": "2025-07-08T05:00:00Z",
         "eventTitle": "L'ora solare",
         "eventSynopsis": "L'ora solare - Paola Saluzzi racconta l'angolo luminoso della vita quotidiana. Storie di uomini e donne che non si sono arresi davanti alle difficolta' e hanno creduto nel futuro",
@@ -10568,7 +10918,7 @@
         },
         "eventId": "411305259",
         "starttime": "2025-07-08T05:00:00Z",
-        "endtime": "2025-07-08T05:35:00Z",
+        "endtime": "2025-07-08T05:30:00Z",
         "eventTitle": "SANTO ROSARIO DA CASCIA",
         "eventSynopsis": "Santo Rosario - Santo Rosario dal Santuario di Santa Rita da Cascia",
         "epgEventTitle": "SANTO ROSARIO DA CASCIA",
@@ -10637,7 +10987,7 @@
           ]
         },
         "eventId": "411305262",
-        "starttime": "2025-07-08T05:35:00Z",
+        "starttime": "2025-07-08T05:30:00Z",
         "endtime": "2025-07-08T06:25:00Z",
         "eventTitle": "Di Buon Mattino",
         "eventSynopsis": "Di Buon Mattino - Il contenitore di attualita' che apre la mattina di TV 2000, tra notizie e curiosita', politica e costume",
@@ -10780,7 +11130,7 @@
         "starttime": "2025-07-08T06:30:00Z",
         "endtime": "2025-07-08T07:10:00Z",
         "eventTitle": "Santa Messa",
-        "eventSynopsis": "Santa Messa - Santa Messa",
+        "eventSynopsis": "Santa Messa - SANTA MESSA DALLA CHIESA PONTIFICIA DI CASTEL GANDOLFO",
         "epgEventTitle": "Santa Messa",
         "primeVision": false,
         "resolutions": [
@@ -10918,7 +11268,7 @@
         },
         "eventId": "411305274",
         "starttime": "2025-07-08T07:45:00Z",
-        "endtime": "2025-07-08T08:30:00Z",
+        "endtime": "2025-07-08T08:35:00Z",
         "eventTitle": "Il mio medico",
         "eventSynopsis": "Il mio medico - Programma di informazione medica a servizio dei cittadini pensato per diffondere, con linguaggio semplice, una cultura della salute basata sulla prevenzione",
         "epgEventTitle": "Il mio medico",
@@ -10987,8 +11337,8 @@
           ]
         },
         "eventId": "411305277",
-        "starttime": "2025-07-08T08:30:00Z",
-        "endtime": "2025-07-08T09:00:00Z",
+        "starttime": "2025-07-08T08:35:00Z",
+        "endtime": "2025-07-08T08:55:00Z",
         "eventTitle": "VEDIAMOCI CHIARO ESTATE",
         "eventSynopsis": "Vediamoci Chiaro - Vediamoci chiaro si propone di supportare e tutelare i cittadini e suggerire soluzioni ai piccoli e ai grandi problemi delle famiglie.",
         "epgEventTitle": "VEDIAMOCI CHIARO ESTATE",
@@ -11057,7 +11407,7 @@
           ]
         },
         "eventId": "411305280",
-        "starttime": "2025-07-08T09:00:00Z",
+        "starttime": "2025-07-08T08:55:00Z",
         "endtime": "2025-07-08T09:55:00Z",
         "eventTitle": "QUEL CHE BOLLE IN PENTOLA",
         "eventSynopsis": "Quel che bolle in pentola - Beatrice Fazi e lo chef Cinelli cucinano con gli ospiti, sotto l'occhio attento degli assaggiatori. Francesca Ceci visita cucine d'Italia.",
@@ -11548,7 +11898,7 @@
         },
         "eventId": "411305300",
         "starttime": "2025-07-08T14:00:00Z",
-        "endtime": "2025-07-08T15:30:00Z",
+        "endtime": "2025-07-08T15:25:00Z",
         "eventTitle": "Grecia",
         "eventSynopsis": "Grecia - Con Grecia Colmenares e Gustavo Bermudez. Grecia assiste alla morte di suo padre, e traumatizzata fortemente perde la memoria.Va a vivere in un collegio di suore. Diventata adulta, va a vivere a",
         "epgEventTitle": "Grecia",
@@ -11617,8 +11967,8 @@
           ]
         },
         "eventId": "411305303",
-        "starttime": "2025-07-08T15:30:00Z",
-        "endtime": "2025-07-08T15:55:00Z",
+        "starttime": "2025-07-08T15:25:00Z",
+        "endtime": "2025-07-08T16:00:00Z",
         "eventTitle": "CHIESA VIVA",
         "eventSynopsis": "Chiesa Viva - Il programma che racconta ogni giorno le storie e le riflessioni di una comunita' universale in dialogo con la realta'",
         "epgEventTitle": "CHIESA VIVA",
@@ -11687,8 +12037,8 @@
           ]
         },
         "eventId": "411305306",
-        "starttime": "2025-07-08T15:55:00Z",
-        "endtime": "2025-07-08T16:25:00Z",
+        "starttime": "2025-07-08T16:00:00Z",
+        "endtime": "2025-07-08T16:30:00Z",
         "eventTitle": "Rosario In Diretta Da Lourdes",
         "eventSynopsis": "Rosario In Diretta Da Lourdes - Rosario in diretta da Lourdes",
         "epgEventTitle": "Rosario In Diretta Da Lourdes",
@@ -11757,7 +12107,7 @@
           ]
         },
         "eventId": "411305310",
-        "starttime": "2025-07-08T16:25:00Z",
+        "starttime": "2025-07-08T16:30:00Z",
         "endtime": "2025-07-08T17:00:00Z",
         "eventTitle": "Tg2000",
         "eventSynopsis": "Tg2000 - Notiziario",
@@ -11828,9 +12178,9 @@
         },
         "eventId": "411305314",
         "starttime": "2025-07-08T17:00:00Z",
-        "endtime": "2025-07-08T17:30:00Z",
+        "endtime": "2025-07-08T17:45:00Z",
         "eventTitle": "Santa Messa",
-        "eventSynopsis": "Santa Messa - Santa Messa",
+        "eventSynopsis": "Santa Messa - SANTA MESSA DALLA CHIESA DI SANTA MARIA IN TRASPONTINA",
         "epgEventTitle": "Santa Messa",
         "primeVision": false,
         "resolutions": [
@@ -11858,9 +12208,9 @@
           }
         },
         "content": {
-          "uuid": "12ed24de-35b9-4fae-8668-f1a62d9a5c80",
-          "contentTitle": "In Cammino",
-          "url": "/programmi-tv/religione/in-cammino/12ed24de-35b9-4fae-8668-f1a62d9a5c80",
+          "uuid": "d71d57a1-9200-45af-9e70-392d16c320f3",
+          "contentTitle": "Meditazione",
+          "url": "/programmi-tv/religione/meditazione/d71d57a1-9200-45af-9e70-392d16c320f3",
           "genre": {
             "id": 4,
             "name": "Mondo e Tendenze"
@@ -11896,12 +12246,12 @@
             }
           ]
         },
-        "eventId": "411305317",
-        "starttime": "2025-07-08T17:30:00Z",
-        "endtime": "2025-07-08T18:00:00Z",
-        "eventTitle": "In Cammino",
-        "eventSynopsis": "In Cammino - Un appuntamento quotidiano che, attraverso temi e ospiti ogni giorno diversi, racconta il cammino della Chiesa verso il Sinodo.",
-        "epgEventTitle": "In Cammino",
+        "eventId": "411479049",
+        "starttime": "2025-07-08T17:45:00Z",
+        "endtime": "2025-07-08T18:05:00Z",
+        "eventTitle": "Meditazione",
+        "eventSynopsis": "Meditazione - Itinerario di meditazione dell' iconografia carmelitana della Traspontina.",
+        "epgEventTitle": "Meditazione",
         "primeVision": false,
         "resolutions": [
           {
@@ -11967,7 +12317,7 @@
           ]
         },
         "eventId": "411305320",
-        "starttime": "2025-07-08T18:00:00Z",
+        "starttime": "2025-07-08T18:05:00Z",
         "endtime": "2025-07-08T18:45:00Z",
         "eventTitle": "SANTO ROSARIO DA CASCIA LUNGO",
         "eventSynopsis": "Santo Rosario da Cascia - Santo Rosario da Cascia",
@@ -12038,7 +12388,7 @@
         },
         "eventId": "411305324",
         "starttime": "2025-07-08T18:45:00Z",
-        "endtime": "2025-07-08T19:05:00Z",
+        "endtime": "2025-07-08T19:10:00Z",
         "eventTitle": "Tg2000",
         "eventSynopsis": "Tg2000 - Notiziario",
         "epgEventTitle": "Tg2000",
@@ -12107,7 +12457,7 @@
           ]
         },
         "eventId": "411305326",
-        "starttime": "2025-07-08T19:05:00Z",
+        "starttime": "2025-07-08T19:10:00Z",
         "endtime": "2025-07-08T21:00:00Z",
         "eventTitle": "Il padre della sposa 2",
         "eventSynopsis": "Il padre della sposa 2 - Regia di C. Shyer (1995). La figlia di George annuncia che e in dolce attesa, ma le sorprese non sono finite...",
@@ -12248,7 +12598,7 @@
         },
         "eventId": "411354353",
         "starttime": "2025-07-08T22:35:00Z",
-        "endtime": "2025-07-08T22:55:00Z",
+        "endtime": "2025-07-08T22:50:00Z",
         "eventTitle": "LA COMPIETA PREGHIERA DELLA SERA 2023",
         "eventSynopsis": "La Compieta - Compieta",
         "epgEventTitle": "LA COMPIETA PREGHIERA DELLA SERA 2023",
@@ -12317,8 +12667,8 @@
           ]
         },
         "eventId": "411354357",
-        "starttime": "2025-07-08T22:55:00Z",
-        "endtime": "2025-07-08T23:35:00Z",
+        "starttime": "2025-07-08T22:50:00Z",
+        "endtime": "2025-07-08T23:25:00Z",
         "eventTitle": "SANTO ROSARIO DALLA BASILICA PAPALE DI SANTA MARIA MAGGIORE IN ROMA",
         "eventSynopsis": "Santo Rosario - Santo rosario recitato dalla basilica di Santa Maria Maggiore in Roma",
         "epgEventTitle": "SANTO ROSARIO DALLA BASILICA PAPALE DI SANTA MARIA MAGGIORE IN ROMA",
@@ -12330,148 +12680,6 @@
           }
         ]
       },
-      {
-        "channel": {
-          "id": 7588,
-          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
-          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
-          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
-          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
-          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
-          "name": "TV2000 HD",
-          "description": "Disponibile anche sul canale 5028.",
-          "number": 157,
-          "servicekey": "180",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "d4cb25c8-a173-4d9b-97cd-c34c2b171a8d",
-          "contentTitle": "La Compieta",
-          "url": "/programmi-tv/religione/la-compieta/d4cb25c8-a173-4d9b-97cd-c34c2b171a8d",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 125,
-            "name": "Religione"
-          },
-          "imagesMap": [
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411305331",
-        "starttime": "2025-07-08T23:15:00Z",
-        "endtime": "2025-07-08T23:35:00Z",
-        "eventTitle": "LA COMPIETA PREGHIERA DELLA SERA 2023",
-        "eventSynopsis": "La Compieta - Compieta",
-        "epgEventTitle": "LA COMPIETA PREGHIERA DELLA SERA 2023",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 7588,
-          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
-          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
-          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
-          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
-          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
-          "name": "TV2000 HD",
-          "description": "Disponibile anche sul canale 5028.",
-          "number": 157,
-          "servicekey": "180",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "2204c522-e0e1-471b-93e2-12cb119c09a2",
-          "contentTitle": "Santo Rosario",
-          "url": "/programmi-tv/religione/santo-rosario/2204c522-e0e1-471b-93e2-12cb119c09a2",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 125,
-            "name": "Religione"
-          },
-          "imagesMap": [
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411305333",
-        "starttime": "2025-07-08T23:35:00Z",
-        "endtime": "2025-07-09T00:10:00Z",
-        "eventTitle": "SANTO ROSARIO DALLA BASILICA PAPALE DI SANTA MARIA MAGGIORE IN ROMA",
-        "eventSynopsis": "Santo Rosario - Santo rosario recitato dalla basilica di Santa Maria Maggiore in Roma",
-        "epgEventTitle": "SANTO ROSARIO DALLA BASILICA PAPALE DI SANTA MARIA MAGGIORE IN ROMA",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
-    "2025-07-09": [
       {
         "channel": {
           "id": 7588,
@@ -12528,9 +12736,9 @@
             }
           ]
         },
-        "eventId": "411305334",
-        "starttime": "2025-07-09T00:10:00Z",
-        "endtime": "2025-07-09T00:55:00Z",
+        "eventId": "411354358",
+        "starttime": "2025-07-08T23:25:00Z",
+        "endtime": "2025-07-09T00:15:00Z",
         "eventTitle": "L'ora solare",
         "eventSynopsis": "L'ora solare - Paola Saluzzi racconta l'angolo luminoso della vita quotidiana. Storie di uomini e donne che non si sono arresi davanti alle difficolta' e hanno creduto nel futuro",
         "epgEventTitle": "L'ora solare",
@@ -12541,7 +12749,9 @@
             "value": false
           }
         ]
-      },
+      }
+    ],
+    "2025-07-09": [
       {
         "channel": {
           "id": 7588,
@@ -12598,9 +12808,9 @@
             }
           ]
         },
-        "eventId": "411305336",
-        "starttime": "2025-07-09T00:55:00Z",
-        "endtime": "2025-07-09T01:35:00Z",
+        "eventId": "411354362",
+        "starttime": "2025-07-09T00:15:00Z",
+        "endtime": "2025-07-09T00:55:00Z",
         "eventTitle": "Siamo noi",
         "eventSynopsis": "Siamo noi - Raccontare l'attualita', sfidando il pessimismo e accendendo i riflettori sulle buone pratiche di un'Italia che ogni giorno costruisce bene comune.",
         "epgEventTitle": "Siamo noi",
@@ -12668,12 +12878,152 @@
             }
           ]
         },
-        "eventId": "411305338",
-        "starttime": "2025-07-09T01:35:00Z",
-        "endtime": "2025-07-09T01:55:00Z",
+        "eventId": "411354363",
+        "starttime": "2025-07-09T00:55:00Z",
+        "endtime": "2025-07-09T01:15:00Z",
         "eventTitle": "In Cammino",
         "eventSynopsis": "In Cammino - Un appuntamento quotidiano che, attraverso temi e ospiti ogni giorno diversi, racconta il cammino della Chiesa verso il Sinodo.",
         "epgEventTitle": "In Cammino",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "753d1227-c631-4d5a-aad2-fd8515f8fc3e",
+          "contentTitle": "I Santi",
+          "url": "/programmi-tv/documentario/i-santi/753d1227-c631-4d5a-aad2-fd8515f8fc3e",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411479052",
+        "starttime": "2025-07-09T01:15:00Z",
+        "endtime": "2025-07-09T01:40:00Z",
+        "eventTitle": "I SANTI",
+        "eventSynopsis": "I Santi - Un documentario dedicato a San Filippo Neri",
+        "epgEventTitle": "I SANTI",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "ed73655a-2c68-4c90-8a6f-10d59d4386f5",
+          "contentTitle": "TRACCE DEL GIUBILEO",
+          "url": "/programmi-tv/storia/tracce-del-giubileo/ed73655a-2c68-4c90-8a6f-10d59d4386f5",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 59,
+            "name": "Storia"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411479055",
+        "starttime": "2025-07-09T01:40:00Z",
+        "endtime": "2025-07-09T01:50:00Z",
+        "eventTitle": "TRACCE DEL GIUBILEO",
+        "eventSynopsis": "TRACCE DEL GIUBILEO - Tracce del Giubileo\" raccoglie documenti storici e immagini dei Giubilei passati: un viaggio tra memoria, fede e societa'.",
+        "epgEventTitle": "TRACCE DEL GIUBILEO",
         "primeVision": false,
         "resolutions": [
           {
@@ -12738,8 +13088,8 @@
             }
           ]
         },
-        "eventId": "411305339",
-        "starttime": "2025-07-09T01:55:00Z",
+        "eventId": "411479057",
+        "starttime": "2025-07-09T01:50:00Z",
         "endtime": "2025-07-09T02:30:00Z",
         "eventTitle": "Il mio medico",
         "eventSynopsis": "Il mio medico - Programma di informazione medica a servizio dei cittadini pensato per diffondere, con linguaggio semplice, una cultura della salute basata sulla prevenzione",
@@ -12808,9 +13158,9 @@
             }
           ]
         },
-        "eventId": "411305341",
+        "eventId": "411479058",
         "starttime": "2025-07-09T02:30:00Z",
-        "endtime": "2025-07-09T02:55:00Z",
+        "endtime": "2025-07-09T02:50:00Z",
         "eventTitle": "VEDIAMOCI CHIARO ESTATE",
         "eventSynopsis": "Vediamoci Chiaro - Vediamoci chiaro si propone di supportare e tutelare i cittadini e suggerire soluzioni ai piccoli e ai grandi problemi delle famiglie.",
         "epgEventTitle": "VEDIAMOCI CHIARO ESTATE",
@@ -12878,8 +13228,8 @@
             }
           ]
         },
-        "eventId": "411305343",
-        "starttime": "2025-07-09T02:55:00Z",
+        "eventId": "411479059",
+        "starttime": "2025-07-09T02:50:00Z",
         "endtime": "2025-07-09T03:00:00Z",
         "eventTitle": "Clip Borghi d'Italia",
         "eventSynopsis": "Clip Borghi d'Italia - Clip Borghi d'Italia",
@@ -12980,6 +13330,76 @@
           }
         },
         "content": {
+          "uuid": "ed73655a-2c68-4c90-8a6f-10d59d4386f5",
+          "contentTitle": "TRACCE DEL GIUBILEO",
+          "url": "/programmi-tv/storia/tracce-del-giubileo/ed73655a-2c68-4c90-8a6f-10d59d4386f5",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 59,
+            "name": "Storia"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411479065",
+        "starttime": "2025-07-09T03:25:00Z",
+        "endtime": "2025-07-09T03:35:00Z",
+        "eventTitle": "TRACCE DEL GIUBILEO",
+        "eventSynopsis": "TRACCE DEL GIUBILEO - Tracce del Giubileo\" raccoglie documenti storici e immagini dei Giubilei passati: un viaggio tra memoria, fede e societa'.",
+        "epgEventTitle": "TRACCE DEL GIUBILEO",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
           "uuid": "8256d8bb-4389-4243-a961-1188ec84a52c",
           "contentTitle": "La preghiera del mattino",
           "url": "/programmi-tv/religione/la-preghiera-del-mattino/8256d8bb-4389-4243-a961-1188ec84a52c",
@@ -13019,7 +13439,7 @@
           ]
         },
         "eventId": "411306795",
-        "starttime": "2025-07-09T03:25:00Z",
+        "starttime": "2025-07-09T03:35:00Z",
         "endtime": "2025-07-09T03:40:00Z",
         "eventTitle": "La preghiera del mattino",
         "eventSynopsis": "La preghiera del mattino - La preghiera del mattino",
@@ -13230,7 +13650,7 @@
         },
         "eventId": "411306805",
         "starttime": "2025-07-09T05:00:00Z",
-        "endtime": "2025-07-09T05:35:00Z",
+        "endtime": "2025-07-09T05:25:00Z",
         "eventTitle": "SANTO ROSARIO DA CASCIA",
         "eventSynopsis": "Santo Rosario - Santo Rosario dal Santuario di Santa Rita da Cascia",
         "epgEventTitle": "SANTO ROSARIO DA CASCIA",
@@ -13299,7 +13719,7 @@
           ]
         },
         "eventId": "411306808",
-        "starttime": "2025-07-09T05:35:00Z",
+        "starttime": "2025-07-09T05:25:00Z",
         "endtime": "2025-07-09T06:25:00Z",
         "eventTitle": "Di Buon Mattino",
         "eventSynopsis": "Di Buon Mattino - Il contenitore di attualita' che apre la mattina di TV 2000, tra notizie e curiosita', politica e costume",
@@ -13442,7 +13862,7 @@
         "starttime": "2025-07-09T06:30:00Z",
         "endtime": "2025-07-09T07:10:00Z",
         "eventTitle": "Santa Messa",
-        "eventSynopsis": "Santa Messa - Santa Messa",
+        "eventSynopsis": "Santa Messa - SANTA MESSA DALLA CHIESA PONTIFICIA DI CASTEL GANDOLFO",
         "epgEventTitle": "Santa Messa",
         "primeVision": false,
         "resolutions": [
@@ -13510,7 +13930,7 @@
         },
         "eventId": "411306823",
         "starttime": "2025-07-09T07:10:00Z",
-        "endtime": "2025-07-09T07:35:00Z",
+        "endtime": "2025-07-09T07:45:00Z",
         "eventTitle": "Di Buon Mattino",
         "eventSynopsis": "Di Buon Mattino - Il contenitore di attualita' che apre la mattina di TV 2000, tra notizie e curiosita', politica e costume",
         "epgEventTitle": "Di Buon Mattino",
@@ -13579,8 +13999,8 @@
           ]
         },
         "eventId": "411306827",
-        "starttime": "2025-07-09T07:35:00Z",
-        "endtime": "2025-07-09T08:20:00Z",
+        "starttime": "2025-07-09T07:45:00Z",
+        "endtime": "2025-07-09T08:30:00Z",
         "eventTitle": "Il mio medico",
         "eventSynopsis": "Il mio medico - Programma di informazione medica a servizio dei cittadini pensato per diffondere, con linguaggio semplice, una cultura della salute basata sulla prevenzione",
         "epgEventTitle": "Il mio medico",
@@ -13649,8 +14069,8 @@
           ]
         },
         "eventId": "411306832",
-        "starttime": "2025-07-09T08:20:00Z",
-        "endtime": "2025-07-09T09:00:00Z",
+        "starttime": "2025-07-09T08:30:00Z",
+        "endtime": "2025-07-09T08:55:00Z",
         "eventTitle": "VEDIAMOCI CHIARO ESTATE",
         "eventSynopsis": "Vediamoci Chiaro - Vediamoci chiaro si propone di supportare e tutelare i cittadini e suggerire soluzioni ai piccoli e ai grandi problemi delle famiglie.",
         "epgEventTitle": "VEDIAMOCI CHIARO ESTATE",
@@ -13719,7 +14139,7 @@
           ]
         },
         "eventId": "411306837",
-        "starttime": "2025-07-09T09:00:00Z",
+        "starttime": "2025-07-09T08:55:00Z",
         "endtime": "2025-07-09T09:55:00Z",
         "eventTitle": "QUEL CHE BOLLE IN PENTOLA",
         "eventSynopsis": "Quel che bolle in pentola - Beatrice Fazi e lo chef Cinelli cucinano con gli ospiti, sotto l'occhio attento degli assaggiatori. Francesca Ceci visita cucine d'Italia.",
@@ -13930,7 +14350,7 @@
         },
         "eventId": "411306854",
         "starttime": "2025-07-09T10:20:00Z",
-        "endtime": "2025-07-09T11:20:00Z",
+        "endtime": "2025-07-09T11:15:00Z",
         "eventTitle": "L'ora solare",
         "eventSynopsis": "L'ora solare - Paola Saluzzi racconta l'angolo luminoso della vita quotidiana. Storie di uomini e donne che non si sono arresi davanti alle difficolta' e hanno creduto nel futuro",
         "epgEventTitle": "L'ora solare",
@@ -13999,7 +14419,7 @@
           ]
         },
         "eventId": "411306858",
-        "starttime": "2025-07-09T11:20:00Z",
+        "starttime": "2025-07-09T11:15:00Z",
         "endtime": "2025-07-09T13:00:00Z",
         "eventTitle": "Grecia",
         "eventSynopsis": "Grecia - Con Grecia Colmenares e Gustavo Bermudez. Grecia assiste alla morte di suo padre, e traumatizzata fortemente perde la memoria.Va a vivere in un collegio di suore. Diventata adulta, va a vivere a",
@@ -14070,7 +14490,7 @@
         },
         "eventId": "411306864",
         "starttime": "2025-07-09T13:00:00Z",
-        "endtime": "2025-07-09T13:15:00Z",
+        "endtime": "2025-07-09T13:10:00Z",
         "eventTitle": "CORONCINA ALLA DIVINA MISERICORDIA GELA 2022",
         "eventSynopsis": "Coroncina alla Divina Misericordia - La preghiera con le promesse trasmesse da Gesu' a Santa Faustina Kowalska",
         "epgEventTitle": "CORONCINA ALLA DIVINA MISERICORDIA GELA 2022",
@@ -14139,8 +14559,8 @@
           ]
         },
         "eventId": "411306869",
-        "starttime": "2025-07-09T13:15:00Z",
-        "endtime": "2025-07-09T14:00:00Z",
+        "starttime": "2025-07-09T13:10:00Z",
+        "endtime": "2025-07-09T13:55:00Z",
         "eventTitle": "Siamo noi",
         "eventSynopsis": "Siamo noi - Raccontare l'attualita', sfidando il pessimismo e accendendo i riflettori sulle buone pratiche di un'Italia che ogni giorno costruisce bene comune.",
         "epgEventTitle": "Siamo noi",
@@ -14209,7 +14629,7 @@
           ]
         },
         "eventId": "411306873",
-        "starttime": "2025-07-09T14:00:00Z",
+        "starttime": "2025-07-09T13:55:00Z",
         "endtime": "2025-07-09T15:30:00Z",
         "eventTitle": "Grecia",
         "eventSynopsis": "Grecia - Con Grecia Colmenares e Gustavo Bermudez. Grecia assiste alla morte di suo padre, e traumatizzata fortemente perde la memoria.Va a vivere in un collegio di suore. Diventata adulta, va a vivere a",
@@ -14280,7 +14700,7 @@
         },
         "eventId": "411306880",
         "starttime": "2025-07-09T15:30:00Z",
-        "endtime": "2025-07-09T15:55:00Z",
+        "endtime": "2025-07-09T16:00:00Z",
         "eventTitle": "CHIESA VIVA",
         "eventSynopsis": "Chiesa Viva - Il programma che racconta ogni giorno le storie e le riflessioni di una comunita' universale in dialogo con la realta'",
         "epgEventTitle": "CHIESA VIVA",
@@ -14349,8 +14769,8 @@
           ]
         },
         "eventId": "411306885",
-        "starttime": "2025-07-09T15:55:00Z",
-        "endtime": "2025-07-09T16:25:00Z",
+        "starttime": "2025-07-09T16:00:00Z",
+        "endtime": "2025-07-09T16:30:00Z",
         "eventTitle": "Rosario In Diretta Da Lourdes",
         "eventSynopsis": "Rosario In Diretta Da Lourdes - Rosario in diretta da Lourdes",
         "epgEventTitle": "Rosario In Diretta Da Lourdes",
@@ -14419,7 +14839,7 @@
           ]
         },
         "eventId": "411306889",
-        "starttime": "2025-07-09T16:25:00Z",
+        "starttime": "2025-07-09T16:30:00Z",
         "endtime": "2025-07-09T17:00:00Z",
         "eventTitle": "Tg2000",
         "eventSynopsis": "Tg2000 - Notiziario",
@@ -14490,9 +14910,9 @@
         },
         "eventId": "411306893",
         "starttime": "2025-07-09T17:00:00Z",
-        "endtime": "2025-07-09T17:30:00Z",
+        "endtime": "2025-07-09T17:45:00Z",
         "eventTitle": "Santa Messa",
-        "eventSynopsis": "Santa Messa - Santa Messa",
+        "eventSynopsis": "Santa Messa - SANTA MESSA DALLA CHIESA DI SANTA MARIA IN TRASPONTINA",
         "epgEventTitle": "Santa Messa",
         "primeVision": false,
         "resolutions": [
@@ -14520,9 +14940,9 @@
           }
         },
         "content": {
-          "uuid": "12ed24de-35b9-4fae-8668-f1a62d9a5c80",
-          "contentTitle": "In Cammino",
-          "url": "/programmi-tv/religione/in-cammino/12ed24de-35b9-4fae-8668-f1a62d9a5c80",
+          "uuid": "d71d57a1-9200-45af-9e70-392d16c320f3",
+          "contentTitle": "Meditazione",
+          "url": "/programmi-tv/religione/meditazione/d71d57a1-9200-45af-9e70-392d16c320f3",
           "genre": {
             "id": 4,
             "name": "Mondo e Tendenze"
@@ -14558,12 +14978,12 @@
             }
           ]
         },
-        "eventId": "411306898",
-        "starttime": "2025-07-09T17:30:00Z",
-        "endtime": "2025-07-09T18:00:00Z",
-        "eventTitle": "In Cammino",
-        "eventSynopsis": "In Cammino - Un appuntamento quotidiano che, attraverso temi e ospiti ogni giorno diversi, racconta il cammino della Chiesa verso il Sinodo.",
-        "epgEventTitle": "In Cammino",
+        "eventId": "411479066",
+        "starttime": "2025-07-09T17:45:00Z",
+        "endtime": "2025-07-09T18:05:00Z",
+        "eventTitle": "Meditazione",
+        "eventSynopsis": "Meditazione - Itinerario di meditazione dell' iconografia carmelitana della Traspontina.",
+        "epgEventTitle": "Meditazione",
         "primeVision": false,
         "resolutions": [
           {
@@ -14629,7 +15049,7 @@
           ]
         },
         "eventId": "411306902",
-        "starttime": "2025-07-09T18:00:00Z",
+        "starttime": "2025-07-09T18:05:00Z",
         "endtime": "2025-07-09T18:45:00Z",
         "eventTitle": "SANTO ROSARIO DA CASCIA LUNGO",
         "eventSynopsis": "Santo Rosario da Cascia - Santo Rosario da Cascia",
@@ -14700,7 +15120,7 @@
         },
         "eventId": "411306907",
         "starttime": "2025-07-09T18:45:00Z",
-        "endtime": "2025-07-09T19:10:00Z",
+        "endtime": "2025-07-09T19:05:00Z",
         "eventTitle": "Tg2000",
         "eventSynopsis": "Tg2000 - Notiziario",
         "epgEventTitle": "Tg2000",
@@ -14769,7 +15189,7 @@
           ]
         },
         "eventId": "411306911",
-        "starttime": "2025-07-09T19:10:00Z",
+        "starttime": "2025-07-09T19:05:00Z",
         "endtime": "2025-07-09T20:45:00Z",
         "eventTitle": "Il sogno di Valentina",
         "eventSynopsis": "Il sogno di Valentina - Regia di Menhaj Huda (2019). Valentina lotta per salvare l'azienda di famiglia reinventando la storica produzione artigianale di calzature da sposa",
@@ -14910,7 +15330,7 @@
         },
         "eventId": "411306919",
         "starttime": "2025-07-09T22:30:00Z",
-        "endtime": "2025-07-09T22:55:00Z",
+        "endtime": "2025-07-09T22:50:00Z",
         "eventTitle": "LA COMPIETA PREGHIERA DELLA SERA 2023",
         "eventSynopsis": "La Compieta - Compieta",
         "epgEventTitle": "LA COMPIETA PREGHIERA DELLA SERA 2023",
@@ -14979,8 +15399,8 @@
           ]
         },
         "eventId": "411306924",
-        "starttime": "2025-07-09T22:55:00Z",
-        "endtime": "2025-07-09T23:25:00Z",
+        "starttime": "2025-07-09T22:50:00Z",
+        "endtime": "2025-07-09T23:20:00Z",
         "eventTitle": "SANTO ROSARIO DALLA BASILICA PAPALE DI SANTA MARIA MAGGIORE IN ROMA",
         "eventSynopsis": "Santo Rosario - Santo rosario recitato dalla basilica di Santa Maria Maggiore in Roma",
         "epgEventTitle": "SANTO ROSARIO DALLA BASILICA PAPALE DI SANTA MARIA MAGGIORE IN ROMA",
@@ -15049,8 +15469,8 @@
           ]
         },
         "eventId": "411306928",
-        "starttime": "2025-07-09T23:25:00Z",
-        "endtime": "2025-07-10T00:15:00Z",
+        "starttime": "2025-07-09T23:20:00Z",
+        "endtime": "2025-07-10T00:10:00Z",
         "eventTitle": "L'ora solare",
         "eventSynopsis": "L'ora solare - Paola Saluzzi racconta l'angolo luminoso della vita quotidiana. Storie di uomini e donne che non si sono arresi davanti alle difficolta' e hanno creduto nel futuro",
         "epgEventTitle": "L'ora solare",
@@ -15121,8 +15541,8 @@
           ]
         },
         "eventId": "411306932",
-        "starttime": "2025-07-10T00:15:00Z",
-        "endtime": "2025-07-10T00:50:00Z",
+        "starttime": "2025-07-10T00:10:00Z",
+        "endtime": "2025-07-10T00:45:00Z",
         "eventTitle": "Siamo noi",
         "eventSynopsis": "Siamo noi - Raccontare l'attualita', sfidando il pessimismo e accendendo i riflettori sulle buone pratiche di un'Italia che ogni giorno costruisce bene comune.",
         "epgEventTitle": "Siamo noi",
@@ -15191,11 +15611,81 @@
           ]
         },
         "eventId": "411306936",
-        "starttime": "2025-07-10T00:50:00Z",
-        "endtime": "2025-07-10T01:10:00Z",
+        "starttime": "2025-07-10T00:45:00Z",
+        "endtime": "2025-07-10T01:05:00Z",
         "eventTitle": "In Cammino",
         "eventSynopsis": "In Cammino - Un appuntamento quotidiano che, attraverso temi e ospiti ogni giorno diversi, racconta il cammino della Chiesa verso il Sinodo.",
         "epgEventTitle": "In Cammino",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "971f7522-9067-4edc-b7b7-bb2893d5f353",
+          "contentTitle": "Borghi d'Italia",
+          "url": "/programmi-tv/viaggi/borghi-ditalia/971f7522-9067-4edc-b7b7-bb2893d5f353",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 33,
+            "name": "Viaggi"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411479067",
+        "starttime": "2025-07-10T01:05:00Z",
+        "endtime": "2025-07-10T01:10:00Z",
+        "eventTitle": "CLIP BORGHI D' ITALIA",
+        "eventSynopsis": "Borghi d'Italia - Un itinerario nella storia, nell'arte e nelle tradizioni del Bel Paese. In ogni puntata il protagonista e il borgo",
+        "epgEventTitle": "CLIP BORGHI D' ITALIA",
         "primeVision": false,
         "resolutions": [
           {
@@ -15402,7 +15892,7 @@
         },
         "eventId": "411306947",
         "starttime": "2025-07-10T02:05:00Z",
-        "endtime": "2025-07-10T02:50:00Z",
+        "endtime": "2025-07-10T02:55:00Z",
         "eventTitle": "QUEL CHE BOLLE IN PENTOLA",
         "eventSynopsis": "Quel che bolle in pentola - Beatrice Fazi e lo chef Cinelli cucinano con gli ospiti, sotto l'occhio attento degli assaggiatori. Francesca Ceci visita cucine d'Italia.",
         "epgEventTitle": "QUEL CHE BOLLE IN PENTOLA",
@@ -15471,7 +15961,7 @@
           ]
         },
         "eventId": "411306951",
-        "starttime": "2025-07-10T02:50:00Z",
+        "starttime": "2025-07-10T02:55:00Z",
         "endtime": "2025-07-10T03:00:00Z",
         "eventTitle": "Clip Borghi d'Italia",
         "eventSynopsis": "Clip Borghi d'Italia - Clip Borghi d'Italia",
@@ -16034,7 +16524,7 @@
         "starttime": "2025-07-10T06:30:00Z",
         "endtime": "2025-07-10T07:10:00Z",
         "eventTitle": "Santa Messa",
-        "eventSynopsis": "Santa Messa - Santa Messa",
+        "eventSynopsis": "Santa Messa - SANTA MESSA DALLA CHIESA PONTIFICIA DI CASTEL GANDOLFO",
         "epgEventTitle": "Santa Messa",
         "primeVision": false,
         "resolutions": [
@@ -16872,7 +17362,7 @@
         },
         "eventId": "411305524",
         "starttime": "2025-07-10T15:30:00Z",
-        "endtime": "2025-07-10T15:55:00Z",
+        "endtime": "2025-07-10T16:00:00Z",
         "eventTitle": "CHIESA VIVA",
         "eventSynopsis": "Chiesa Viva - Il programma che racconta ogni giorno le storie e le riflessioni di una comunita' universale in dialogo con la realta'",
         "epgEventTitle": "CHIESA VIVA",
@@ -16941,8 +17431,8 @@
           ]
         },
         "eventId": "411305529",
-        "starttime": "2025-07-10T15:55:00Z",
-        "endtime": "2025-07-10T16:25:00Z",
+        "starttime": "2025-07-10T16:00:00Z",
+        "endtime": "2025-07-10T16:30:00Z",
         "eventTitle": "Rosario In Diretta Da Lourdes",
         "eventSynopsis": "Rosario In Diretta Da Lourdes - Rosario in diretta da Lourdes",
         "epgEventTitle": "Rosario In Diretta Da Lourdes",
@@ -17011,7 +17501,7 @@
           ]
         },
         "eventId": "411305532",
-        "starttime": "2025-07-10T16:25:00Z",
+        "starttime": "2025-07-10T16:30:00Z",
         "endtime": "2025-07-10T17:00:00Z",
         "eventTitle": "Tg2000",
         "eventSynopsis": "Tg2000 - Notiziario",
@@ -17082,9 +17572,9 @@
         },
         "eventId": "411305536",
         "starttime": "2025-07-10T17:00:00Z",
-        "endtime": "2025-07-10T17:30:00Z",
+        "endtime": "2025-07-10T17:40:00Z",
         "eventTitle": "Santa Messa",
-        "eventSynopsis": "Santa Messa - Santa Messa",
+        "eventSynopsis": "Santa Messa - SANTA MESSA DALLA CHIESA DI SANTA MARIA IN TRASPONTINA",
         "epgEventTitle": "Santa Messa",
         "primeVision": false,
         "resolutions": [
@@ -17112,9 +17602,9 @@
           }
         },
         "content": {
-          "uuid": "12ed24de-35b9-4fae-8668-f1a62d9a5c80",
-          "contentTitle": "In Cammino",
-          "url": "/programmi-tv/religione/in-cammino/12ed24de-35b9-4fae-8668-f1a62d9a5c80",
+          "uuid": "d71d57a1-9200-45af-9e70-392d16c320f3",
+          "contentTitle": "Meditazione",
+          "url": "/programmi-tv/religione/meditazione/d71d57a1-9200-45af-9e70-392d16c320f3",
           "genre": {
             "id": 4,
             "name": "Mondo e Tendenze"
@@ -17150,12 +17640,12 @@
             }
           ]
         },
-        "eventId": "411305540",
-        "starttime": "2025-07-10T17:30:00Z",
+        "eventId": "411479070",
+        "starttime": "2025-07-10T17:40:00Z",
         "endtime": "2025-07-10T18:00:00Z",
-        "eventTitle": "In Cammino",
-        "eventSynopsis": "In Cammino - Un appuntamento quotidiano che, attraverso temi e ospiti ogni giorno diversi, racconta il cammino della Chiesa verso il Sinodo.",
-        "epgEventTitle": "In Cammino",
+        "eventTitle": "Meditazione",
+        "eventSynopsis": "Meditazione - Itinerario di meditazione dell' iconografia carmelitana della Traspontina.",
+        "epgEventTitle": "Meditazione",
         "primeVision": false,
         "resolutions": [
           {
@@ -17572,7 +18062,7 @@
         },
         "eventId": "411305559",
         "starttime": "2025-07-10T22:55:00Z",
-        "endtime": "2025-07-10T23:30:00Z",
+        "endtime": "2025-07-10T23:25:00Z",
         "eventTitle": "SANTO ROSARIO DALLA BASILICA PAPALE DI SANTA MARIA MAGGIORE IN ROMA",
         "eventSynopsis": "Santo Rosario - Santo rosario recitato dalla basilica di Santa Maria Maggiore in Roma",
         "epgEventTitle": "SANTO ROSARIO DALLA BASILICA PAPALE DI SANTA MARIA MAGGIORE IN ROMA",
@@ -17641,8 +18131,8 @@
           ]
         },
         "eventId": "411305563",
-        "starttime": "2025-07-10T23:40:00Z",
-        "endtime": "2025-07-11T00:25:00Z",
+        "starttime": "2025-07-10T23:25:00Z",
+        "endtime": "2025-07-11T00:20:00Z",
         "eventTitle": "L'ora solare",
         "eventSynopsis": "L'ora solare - Paola Saluzzi racconta l'angolo luminoso della vita quotidiana. Storie di uomini e donne che non si sono arresi davanti alle difficolta' e hanno creduto nel futuro",
         "epgEventTitle": "L'ora solare",
@@ -17713,8 +18203,8 @@
           ]
         },
         "eventId": "411305566",
-        "starttime": "2025-07-11T00:25:00Z",
-        "endtime": "2025-07-11T01:00:00Z",
+        "starttime": "2025-07-11T00:20:00Z",
+        "endtime": "2025-07-11T00:55:00Z",
         "eventTitle": "Siamo noi",
         "eventSynopsis": "Siamo noi - Raccontare l'attualita', sfidando il pessimismo e accendendo i riflettori sulle buone pratiche di un'Italia che ogni giorno costruisce bene comune.",
         "epgEventTitle": "Siamo noi",
@@ -17783,8 +18273,8 @@
           ]
         },
         "eventId": "411305570",
-        "starttime": "2025-07-11T01:00:00Z",
-        "endtime": "2025-07-11T01:25:00Z",
+        "starttime": "2025-07-11T00:55:00Z",
+        "endtime": "2025-07-11T01:15:00Z",
         "eventTitle": "In Cammino",
         "eventSynopsis": "In Cammino - Un appuntamento quotidiano che, attraverso temi e ospiti ogni giorno diversi, racconta il cammino della Chiesa verso il Sinodo.",
         "epgEventTitle": "In Cammino",
@@ -17853,8 +18343,8 @@
           ]
         },
         "eventId": "411305573",
-        "starttime": "2025-07-11T01:25:00Z",
-        "endtime": "2025-07-11T01:40:00Z",
+        "starttime": "2025-07-11T01:15:00Z",
+        "endtime": "2025-07-11T01:35:00Z",
         "eventTitle": "Matteo Da Gualdo",
         "eventSynopsis": "Matteo Da Gualdo - Matteo da Guado si ispiro' principalmente a Bartolomeo di Tommaso  e a Girolamo di Giovanni; presentando somiglianze anche con i seguaci di Benozzo Gozzoli.  Conservo' comunque caratteri",
         "epgEventTitle": "Matteo Da Gualdo",
@@ -17923,8 +18413,8 @@
           ]
         },
         "eventId": "411305577",
-        "starttime": "2025-07-11T01:40:00Z",
-        "endtime": "2025-07-11T02:25:00Z",
+        "starttime": "2025-07-11T01:35:00Z",
+        "endtime": "2025-07-11T02:15:00Z",
         "eventTitle": "Il mio medico",
         "eventSynopsis": "Il mio medico - Programma di informazione medica a servizio dei cittadini pensato per diffondere, con linguaggio semplice, una cultura della salute basata sulla prevenzione",
         "epgEventTitle": "Il mio medico",
@@ -17993,8 +18483,8 @@
           ]
         },
         "eventId": "411305582",
-        "starttime": "2025-07-11T02:25:00Z",
-        "endtime": "2025-07-11T02:50:00Z",
+        "starttime": "2025-07-11T02:15:00Z",
+        "endtime": "2025-07-11T02:40:00Z",
         "eventTitle": "VEDIAMOCI CHIARO ESTATE",
         "eventSynopsis": "Vediamoci Chiaro - Vediamoci chiaro si propone di supportare e tutelare i cittadini e suggerire soluzioni ai piccoli e ai grandi problemi delle famiglie.",
         "epgEventTitle": "VEDIAMOCI CHIARO ESTATE",
@@ -18063,7 +18553,7 @@
           ]
         },
         "eventId": "411305585",
-        "starttime": "2025-07-11T02:50:00Z",
+        "starttime": "2025-07-11T02:40:00Z",
         "endtime": "2025-07-11T03:00:00Z",
         "eventTitle": "Clip Borghi d'Italia",
         "eventSynopsis": "Clip Borghi d'Italia - Clip Borghi d'Italia",
@@ -18626,7 +19116,7 @@
         "starttime": "2025-07-11T06:30:00Z",
         "endtime": "2025-07-11T07:10:00Z",
         "eventTitle": "Santa Messa",
-        "eventSynopsis": "Santa Messa - Santa Messa",
+        "eventSynopsis": "Santa Messa - SANTA MESSA DALLA CHIESA PONTIFICIA DI CASTEL GANDOLFO",
         "epgEventTitle": "Santa Messa",
         "primeVision": false,
         "resolutions": [
@@ -19464,7 +19954,7 @@
         },
         "eventId": "411307675",
         "starttime": "2025-07-11T15:30:00Z",
-        "endtime": "2025-07-11T15:55:00Z",
+        "endtime": "2025-07-11T16:00:00Z",
         "eventTitle": "CHIESA VIVA",
         "eventSynopsis": "Chiesa Viva - Il programma che racconta ogni giorno le storie e le riflessioni di una comunita' universale in dialogo con la realta'",
         "epgEventTitle": "CHIESA VIVA",
@@ -19533,8 +20023,8 @@
           ]
         },
         "eventId": "411307677",
-        "starttime": "2025-07-11T15:55:00Z",
-        "endtime": "2025-07-11T16:25:00Z",
+        "starttime": "2025-07-11T16:00:00Z",
+        "endtime": "2025-07-11T16:30:00Z",
         "eventTitle": "Rosario In Diretta Da Lourdes",
         "eventSynopsis": "Rosario In Diretta Da Lourdes - Rosario in diretta da Lourdes",
         "epgEventTitle": "Rosario In Diretta Da Lourdes",
@@ -19603,7 +20093,7 @@
           ]
         },
         "eventId": "411307679",
-        "starttime": "2025-07-11T16:25:00Z",
+        "starttime": "2025-07-11T16:30:00Z",
         "endtime": "2025-07-11T17:00:00Z",
         "eventTitle": "Tg2000",
         "eventSynopsis": "Tg2000 - Notiziario",
@@ -19674,9 +20164,9 @@
         },
         "eventId": "411307681",
         "starttime": "2025-07-11T17:00:00Z",
-        "endtime": "2025-07-11T17:30:00Z",
+        "endtime": "2025-07-11T17:40:00Z",
         "eventTitle": "Santa Messa",
-        "eventSynopsis": "Santa Messa - Santa Messa",
+        "eventSynopsis": "Santa Messa - SANTA MESSA DALLA CHIESA DI SANTA MARIA IN TRASPONTINA",
         "epgEventTitle": "Santa Messa",
         "primeVision": false,
         "resolutions": [
@@ -19704,9 +20194,9 @@
           }
         },
         "content": {
-          "uuid": "12ed24de-35b9-4fae-8668-f1a62d9a5c80",
-          "contentTitle": "In Cammino",
-          "url": "/programmi-tv/religione/in-cammino/12ed24de-35b9-4fae-8668-f1a62d9a5c80",
+          "uuid": "d71d57a1-9200-45af-9e70-392d16c320f3",
+          "contentTitle": "Meditazione",
+          "url": "/programmi-tv/religione/meditazione/d71d57a1-9200-45af-9e70-392d16c320f3",
           "genre": {
             "id": 4,
             "name": "Mondo e Tendenze"
@@ -19742,12 +20232,12 @@
             }
           ]
         },
-        "eventId": "411307682",
-        "starttime": "2025-07-11T17:30:00Z",
+        "eventId": "411479060",
+        "starttime": "2025-07-11T17:40:00Z",
         "endtime": "2025-07-11T18:00:00Z",
-        "eventTitle": "In Cammino",
-        "eventSynopsis": "In Cammino - Un appuntamento quotidiano che, attraverso temi e ospiti ogni giorno diversi, racconta il cammino della Chiesa verso il Sinodo.",
-        "epgEventTitle": "In Cammino",
+        "eventTitle": "Meditazione",
+        "eventSynopsis": "Meditazione - Itinerario di meditazione dell' iconografia carmelitana della Traspontina.",
+        "epgEventTitle": "Meditazione",
         "primeVision": false,
         "resolutions": [
           {
@@ -20245,9 +20735,499 @@
             "value": false
           }
         ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "5859e6dd-18e7-40b4-80d9-b065ac613383",
+          "contentTitle": "Siamo noi",
+          "url": "/programmi-tv/attualita/siamo-noi/5859e6dd-18e7-40b4-80d9-b065ac613383",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 117,
+            "name": "Attualita"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411307699",
+        "starttime": "2025-07-11T23:20:00Z",
+        "endtime": "2025-07-12T00:00:00Z",
+        "eventTitle": "Siamo noi",
+        "eventSynopsis": "Siamo noi - Raccontare l'attualita', sfidando il pessimismo e accendendo i riflettori sulle buone pratiche di un'Italia che ogni giorno costruisce bene comune.",
+        "epgEventTitle": "Siamo noi",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
       }
     ],
     "2025-07-12": [
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "12ed24de-35b9-4fae-8668-f1a62d9a5c80",
+          "contentTitle": "In Cammino",
+          "url": "/programmi-tv/religione/in-cammino/12ed24de-35b9-4fae-8668-f1a62d9a5c80",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 125,
+            "name": "Religione"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411307700",
+        "starttime": "2025-07-12T00:00:00Z",
+        "endtime": "2025-07-12T00:20:00Z",
+        "eventTitle": "In Cammino",
+        "eventSynopsis": "In Cammino - Un appuntamento quotidiano che, attraverso temi e ospiti ogni giorno diversi, racconta il cammino della Chiesa verso il Sinodo.",
+        "epgEventTitle": "In Cammino",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "24a05735-6324-4f4c-a4d6-ea519a8ba396",
+          "contentTitle": "Il canto gregoriano",
+          "url": "/programmi-tv/documentario/il-canto-gregoriano/24a05735-6324-4f4c-a4d6-ea519a8ba396",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411307701",
+        "starttime": "2025-07-12T00:20:00Z",
+        "endtime": "2025-07-12T01:15:00Z",
+        "eventTitle": "Il canto gregoriano",
+        "eventSynopsis": "Il canto gregoriano - Un documentario per scoprire come nascono i canti gregoriani",
+        "epgEventTitle": "Il canto gregoriano",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "442c486d-7fec-41ef-9896-41a78ed042dc",
+          "contentTitle": "La produzione dell'olio d'oliva",
+          "url": "/programmi-tv/documentario/la-produzione-dellolio-doliva/442c486d-7fec-41ef-9896-41a78ed042dc",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411307702",
+        "starttime": "2025-07-12T01:15:00Z",
+        "endtime": "2025-07-12T01:40:00Z",
+        "eventTitle": "La produzione dell'olio d'oliva",
+        "eventSynopsis": "La produzione dell'olio d'oliva - Aspetto' sette giorni, poi fece uscire di nuovo dall'Arca la colomba, la quale torno' da Noe verso sera; ed ecco essa aveva nel becco una foglia fresca d'ulivo\". Genesi 8-",
+        "epgEventTitle": "La produzione dell'olio d'oliva",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "87434336-be6e-4b91-9a91-200a2270e307",
+          "contentTitle": "Il mio medico",
+          "url": "/programmi-tv/attualita/il-mio-medico/87434336-be6e-4b91-9a91-200a2270e307",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 117,
+            "name": "Attualita"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411307703",
+        "starttime": "2025-07-12T01:40:00Z",
+        "endtime": "2025-07-12T02:25:00Z",
+        "eventTitle": "Il mio medico",
+        "eventSynopsis": "Il mio medico - Programma di informazione medica a servizio dei cittadini pensato per diffondere, con linguaggio semplice, una cultura della salute basata sulla prevenzione",
+        "epgEventTitle": "Il mio medico",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "a9ff5d36-8890-41c9-9776-bd02bf8ff5b4",
+          "contentTitle": "Vediamoci Chiaro",
+          "url": "/programmi-tv/attualita/vediamoci-chiaro/a9ff5d36-8890-41c9-9776-bd02bf8ff5b4",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 117,
+            "name": "Attualita"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411307704",
+        "starttime": "2025-07-12T02:25:00Z",
+        "endtime": "2025-07-12T02:50:00Z",
+        "eventTitle": "VEDIAMOCI CHIARO ESTATE",
+        "eventSynopsis": "Vediamoci Chiaro - Vediamoci chiaro si propone di supportare e tutelare i cittadini e suggerire soluzioni ai piccoli e ai grandi problemi delle famiglie.",
+        "epgEventTitle": "VEDIAMOCI CHIARO ESTATE",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "1a6421b1-69e8-4801-a12e-ba787b4be3eb",
+          "contentTitle": "Clip Borghi d'Italia",
+          "url": "/programmi-tv/viaggi/clip-borghi-ditalia/1a6421b1-69e8-4801-a12e-ba787b4be3eb",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 33,
+            "name": "Viaggi"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411307705",
+        "starttime": "2025-07-12T02:50:00Z",
+        "endtime": "2025-07-12T03:00:00Z",
+        "eventTitle": "Clip Borghi d'Italia",
+        "eventSynopsis": "Clip Borghi d'Italia - Clip Borghi d'Italia",
+        "epgEventTitle": "Clip Borghi d'Italia",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
       {
         "channel": {
           "id": 7588,
@@ -20726,7 +21706,7 @@
         },
         "eventId": "411305258",
         "starttime": "2025-07-12T06:00:00Z",
-        "endtime": "2025-07-12T06:20:00Z",
+        "endtime": "2025-07-12T06:25:00Z",
         "eventTitle": "INDAGINE AI CONFINI DEL SACRO",
         "eventSynopsis": "Indagine ai confini del sacro - Il programma racconta di apparizioni, veggenti, lacrimazioni, gruppi pseudoreligiosi, eventi mistici con inchieste e reportage, provando a separare il vero dal falso.",
         "epgEventTitle": "INDAGINE AI CONFINI DEL SACRO",
@@ -20795,8 +21775,8 @@
           ]
         },
         "eventId": "411305261",
-        "starttime": "2025-07-12T06:20:00Z",
-        "endtime": "2025-07-12T06:25:00Z",
+        "starttime": "2025-07-12T06:25:00Z",
+        "endtime": "2025-07-12T06:30:00Z",
         "eventTitle": "TG 2000 Flash",
         "eventSynopsis": "TG 2000 Flash - Telegiornale",
         "epgEventTitle": "TG 2000 Flash",
@@ -20865,10 +21845,10 @@
           ]
         },
         "eventId": "411305263",
-        "starttime": "2025-07-12T06:25:00Z",
-        "endtime": "2025-07-12T07:05:00Z",
+        "starttime": "2025-07-12T06:30:00Z",
+        "endtime": "2025-07-12T07:10:00Z",
         "eventTitle": "Santa Messa",
-        "eventSynopsis": "Santa Messa - Santa Messa",
+        "eventSynopsis": "Santa Messa - SANTA MESSA DALLA CHIESA PONTIFICIA DI CASTEL GANDOLFO",
         "epgEventTitle": "Santa Messa",
         "primeVision": false,
         "resolutions": [
@@ -20935,7 +21915,7 @@
           ]
         },
         "eventId": "411305266",
-        "starttime": "2025-07-12T07:05:00Z",
+        "starttime": "2025-07-12T07:10:00Z",
         "endtime": "2025-07-12T08:15:00Z",
         "eventTitle": "Di Buon Mattino",
         "eventSynopsis": "Di Buon Mattino - Il contenitore di attualita' che apre la mattina di TV 2000, tra notizie e curiosita', politica e costume",
@@ -21006,7 +21986,7 @@
         },
         "eventId": "411305269",
         "starttime": "2025-07-12T08:15:00Z",
-        "endtime": "2025-07-12T08:55:00Z",
+        "endtime": "2025-07-12T09:00:00Z",
         "eventTitle": "CARO GESU'",
         "eventSynopsis": "Caro Gesu' - Appuntamento settimanale che si rivolge ai bambini, per stare vicini a loro, con fiabe, giochi e il Vangelo della domenica.",
         "epgEventTitle": "CARO GESU'",
@@ -21075,8 +22055,8 @@
           ]
         },
         "eventId": "411305272",
-        "starttime": "2025-07-12T08:55:00Z",
-        "endtime": "2025-07-12T09:50:00Z",
+        "starttime": "2025-07-12T09:00:00Z",
+        "endtime": "2025-07-12T09:55:00Z",
         "eventTitle": "QUEL CHE BOLLE IN PENTOLA",
         "eventSynopsis": "Quel che bolle in pentola - Beatrice Fazi e lo chef Cinelli cucinano con gli ospiti, sotto l'occhio attento degli assaggiatori. Francesca Ceci visita cucine d'Italia.",
         "epgEventTitle": "QUEL CHE BOLLE IN PENTOLA",
@@ -21145,8 +22125,8 @@
           ]
         },
         "eventId": "411305275",
-        "starttime": "2025-07-12T09:50:00Z",
-        "endtime": "2025-07-12T09:55:00Z",
+        "starttime": "2025-07-12T09:55:00Z",
+        "endtime": "2025-07-12T10:00:00Z",
         "eventTitle": "ANGELUS DA LORETO 2025",
         "eventSynopsis": "Angelus da Loreto - Angelus recitato dal Santuario della Santa Casa di Loreto",
         "epgEventTitle": "ANGELUS DA LORETO 2025",
@@ -21215,11 +22195,81 @@
           ]
         },
         "eventId": "411305278",
-        "starttime": "2025-07-12T09:55:00Z",
-        "endtime": "2025-07-12T10:50:00Z",
+        "starttime": "2025-07-12T10:00:00Z",
+        "endtime": "2025-07-12T10:20:00Z",
         "eventTitle": "Tg2000",
         "eventSynopsis": "Tg2000 - Notiziario",
         "epgEventTitle": "Tg2000",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "305a0546-811d-4b43-9208-0573b7434dae",
+          "contentTitle": "Borghi d'Italia",
+          "url": "/programmi-tv/viaggi/borghi-ditalia/305a0546-811d-4b43-9208-0573b7434dae",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 33,
+            "name": "Viaggi"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411479069",
+        "starttime": "2025-07-12T10:20:00Z",
+        "endtime": "2025-07-12T10:50:00Z",
+        "eventTitle": "BORGHI D'ITALIA",
+        "eventSynopsis": "Borghi d'Italia - Un itinerario nella storia, nell'arte e nelle tradizioni del Bel Paese. In ogni puntata il protagonista e il borgo",
+        "epgEventTitle": "BORGHI D'ITALIA",
         "primeVision": false,
         "resolutions": [
           {
@@ -21426,7 +22476,7 @@
         },
         "eventId": "411305287",
         "starttime": "2025-07-12T13:00:00Z",
-        "endtime": "2025-07-12T13:15:00Z",
+        "endtime": "2025-07-12T13:20:00Z",
         "eventTitle": "CORONCINA ALLA DIVINA MISERICORDIA GELA 2022",
         "eventSynopsis": "Coroncina alla Divina Misericordia - La preghiera con le promesse trasmesse da Gesu' a Santa Faustina Kowalska",
         "epgEventTitle": "CORONCINA ALLA DIVINA MISERICORDIA GELA 2022",
@@ -21495,7 +22545,7 @@
           ]
         },
         "eventId": "411305290",
-        "starttime": "2025-07-12T13:15:00Z",
+        "starttime": "2025-07-12T13:20:00Z",
         "endtime": "2025-07-12T14:00:00Z",
         "eventTitle": "NEL MEZZO DEL CAMMIN",
         "eventSynopsis": "Nel Mezzo del Cammin - Franco Nembrini, esperto divulgatore di Dante Alighieri, rilegge la Divina Commedia, approfondisce i contenuti, riflette sul desiderio perenne di verita', liberta' e giustizia che i",
@@ -21636,7 +22686,7 @@
         },
         "eventId": "411305296",
         "starttime": "2025-07-12T15:30:00Z",
-        "endtime": "2025-07-12T15:55:00Z",
+        "endtime": "2025-07-12T16:00:00Z",
         "eventTitle": "AGRINET4EDUCATION: IL FUTURO IN CAMPO 2024",
         "eventSynopsis": "Agrinet - Programma di approfondimento sui temi della sostenibilita' agro-alimentare.",
         "epgEventTitle": "AGRINET4EDUCATION: IL FUTURO IN CAMPO 2024",
@@ -21705,8 +22755,8 @@
           ]
         },
         "eventId": "411305299",
-        "starttime": "2025-07-12T15:55:00Z",
-        "endtime": "2025-07-12T16:25:00Z",
+        "starttime": "2025-07-12T16:00:00Z",
+        "endtime": "2025-07-12T16:30:00Z",
         "eventTitle": "Rosario In Diretta Da Lourdes",
         "eventSynopsis": "Rosario In Diretta Da Lourdes - Rosario in diretta da Lourdes",
         "epgEventTitle": "Rosario In Diretta Da Lourdes",
@@ -21775,7 +22825,7 @@
           ]
         },
         "eventId": "411305302",
-        "starttime": "2025-07-12T16:25:00Z",
+        "starttime": "2025-07-12T16:30:00Z",
         "endtime": "2025-07-12T17:00:00Z",
         "eventTitle": "Tg2000",
         "eventSynopsis": "Tg2000 - Notiziario",
@@ -21848,7 +22898,7 @@
         "starttime": "2025-07-12T17:00:00Z",
         "endtime": "2025-07-12T18:00:00Z",
         "eventTitle": "Santa Messa",
-        "eventSynopsis": "Santa Messa - Santa Messa",
+        "eventSynopsis": "Santa Messa - SANTA MESSA DALLA CHIESA DI SANTA MARIA IN TRASPONTINA",
         "epgEventTitle": "Santa Messa",
         "primeVision": false,
         "resolutions": [
@@ -22828,10 +23878,80 @@
         },
         "eventId": "411311739",
         "starttime": "2025-07-13T04:05:00Z",
-        "endtime": "2025-07-13T05:00:00Z",
+        "endtime": "2025-07-13T04:25:00Z",
         "eventTitle": "TERRA SANTA NEWS",
         "eventSynopsis": "Terra Santa News - Rotocalco di informazione dalla Terra Santa",
         "epgEventTitle": "TERRA SANTA NEWS",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "305a0546-811d-4b43-9208-0573b7434dae",
+          "contentTitle": "Borghi d'Italia",
+          "url": "/programmi-tv/viaggi/borghi-ditalia/305a0546-811d-4b43-9208-0573b7434dae",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 33,
+            "name": "Viaggi"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411479327",
+        "starttime": "2025-07-13T04:25:00Z",
+        "endtime": "2025-07-13T05:00:00Z",
+        "eventTitle": "BORGHI D'ITALIA",
+        "eventSynopsis": "Borghi d'Italia - Un itinerario nella storia, nell'arte e nelle tradizioni del Bel Paese. In ogni puntata il protagonista e il borgo",
+        "epgEventTitle": "BORGHI D'ITALIA",
         "primeVision": false,
         "resolutions": [
           {
@@ -23108,9 +24228,9 @@
         },
         "eventId": "411311743",
         "starttime": "2025-07-13T06:30:00Z",
-        "endtime": "2025-07-13T07:55:00Z",
+        "endtime": "2025-07-13T08:00:00Z",
         "eventTitle": "Santa Messa",
-        "eventSynopsis": "Santa Messa - Santa Messa",
+        "eventSynopsis": "Santa Messa - SANTA MESSA DALLA CHIESA PONTIFICIA DI CASTEL GANDOLFO",
         "epgEventTitle": "Santa Messa",
         "primeVision": false,
         "resolutions": [
@@ -23177,7 +24297,7 @@
           ]
         },
         "eventId": "411354379",
-        "starttime": "2025-07-13T07:55:00Z",
+        "starttime": "2025-07-13T08:00:00Z",
         "endtime": "2025-07-13T10:00:00Z",
         "eventTitle": "Santa Messa",
         "eventSynopsis": "Santa Messa - SANTA MESSA CELEBRATA DA PAPA LEONE XIV dall Parrocchia Pontificia di San Tommaso da Villanova in Castel Gandolfo",
@@ -23528,7 +24648,7 @@
         },
         "eventId": "411311749",
         "starttime": "2025-07-13T14:15:00Z",
-        "endtime": "2025-07-13T15:55:00Z",
+        "endtime": "2025-07-13T16:00:00Z",
         "eventTitle": "SERIE LOST LETTER'S MYSTERIES",
         "eventSynopsis": "Il mistero delle lettere perdute - Idea di M. Williamson (2013). Oliver e a capo dell'ufficio lettere perdute dei servizi postali di Denver e con il suo team investiga sui pacchi da reindirizzare...",
         "epgEventTitle": "SERIE LOST LETTER'S MYSTERIES",
@@ -23597,8 +24717,8 @@
           ]
         },
         "eventId": "411311750",
-        "starttime": "2025-07-13T15:55:00Z",
-        "endtime": "2025-07-13T16:25:00Z",
+        "starttime": "2025-07-13T16:00:00Z",
+        "endtime": "2025-07-13T16:30:00Z",
         "eventTitle": "Rosario In Diretta Da Lourdes",
         "eventSynopsis": "Rosario In Diretta Da Lourdes - Rosario in diretta da Lourdes",
         "epgEventTitle": "Rosario In Diretta Da Lourdes",
@@ -23667,7 +24787,7 @@
           ]
         },
         "eventId": "411311751",
-        "starttime": "2025-07-13T16:25:00Z",
+        "starttime": "2025-07-13T16:30:00Z",
         "endtime": "2025-07-13T17:00:00Z",
         "eventTitle": "Tg2000",
         "eventSynopsis": "Tg2000 - Notiziario",
@@ -23740,7 +24860,7 @@
         "starttime": "2025-07-13T17:00:00Z",
         "endtime": "2025-07-13T18:00:00Z",
         "eventTitle": "Santa Messa",
-        "eventSynopsis": "Santa Messa - Santa Messa",
+        "eventSynopsis": "Santa Messa - SANTA MESSA DALLA CHIESA DI SANTA MARIA IN TRASPONTINA",
         "epgEventTitle": "Santa Messa",
         "primeVision": false,
         "resolutions": [
@@ -23908,76 +25028,6 @@
           }
         },
         "content": {
-          "uuid": "adb88469-6c81-4683-8041-ace663f7e342",
-          "contentTitle": "Soul",
-          "url": "/programmi-tv/attualita/soul/adb88469-6c81-4683-8041-ace663f7e342",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 117,
-            "name": "Attualita"
-          },
-          "imagesMap": [
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411311756",
-        "starttime": "2025-07-13T19:05:00Z",
-        "endtime": "2025-07-13T19:35:00Z",
-        "eventTitle": "SOUL",
-        "eventSynopsis": "Soul - Incontrare ?no in fondo all'anima uomini e donne che interessano, che incuriosiscono per il loro spessore culturale e umano. A cura di Monica Mondo",
-        "epgEventTitle": "SOUL",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 7588,
-          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
-          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
-          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
-          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
-          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
-          "name": "TV2000 HD",
-          "description": "Disponibile anche sul canale 5028.",
-          "number": 157,
-          "servicekey": "180",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
           "uuid": "febb820e-3d7d-47e0-ba88-e83697ba3d6c",
           "contentTitle": "Un amore splendido",
           "url": "/film/commedia/un-amore-splendido/febb820e-3d7d-47e0-ba88-e83697ba3d6c",
@@ -24016,12 +25066,152 @@
             }
           ]
         },
-        "eventId": "411311758",
-        "starttime": "2025-07-13T19:35:00Z",
-        "endtime": "2025-07-13T21:40:00Z",
+        "eventId": "411479328",
+        "starttime": "2025-07-13T19:05:00Z",
+        "endtime": "2025-07-13T21:15:00Z",
         "eventTitle": "Un amore splendido",
         "eventSynopsis": "Un amore splendido - Un film di Leo McCarey. Con Deborah Kerr, Richard Denning, Cary Grant (1957) Una cantante di night club incontra durante un viaggio un playboy e se ne innamora.",
         "epgEventTitle": "Un amore splendido",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "eec6202f-8631-4dea-af89-9a1fb8ac38d0",
+          "contentTitle": "Angelus",
+          "url": "/programmi-tv/religione/angelus/eec6202f-8631-4dea-af89-9a1fb8ac38d0",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 125,
+            "name": "Religione"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411479329",
+        "starttime": "2025-07-13T21:15:00Z",
+        "endtime": "2025-07-13T21:25:00Z",
+        "eventTitle": "Angelus",
+        "eventSynopsis": "Angelus - Angelus recitato in differita",
+        "epgEventTitle": "Angelus",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 7588,
+          "logo": "/logo/180tv2000hd_Light_Fit.png?checksum=9bdf9273720c1d48994b6993c594f295",
+          "logoPadding": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "logoDark": "/logo/180tv2000hd_Dark_Fit.png?checksum=b66f763c9cac44437487cbbd7c4a7e0a",
+          "logoDarkPadding": "/logo/180tv2000hd_Dark_Padding.png?checksum=f126beda7d1f1ebe0ac9f240d2ad312e",
+          "logoLight": "/logo/180tv2000hd_Light_Padding.png?checksum=f6a60a992071b7c1e3f3305af9575de9",
+          "name": "TV2000 HD",
+          "description": "Disponibile anche sul canale 5028.",
+          "number": 157,
+          "servicekey": "180",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "fac9c2b5-93d9-4327-8e60-5edd5493132a",
+          "contentTitle": "Il padre della sposa 2",
+          "url": "/film/commedia/il-padre-della-sposa-2/fac9c2b5-93d9-4327-8e60-5edd5493132a",
+          "genre": {
+            "id": 3,
+            "name": "Film"
+          },
+          "subgenre": {
+            "id": 18,
+            "name": "Commedia"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411479331",
+        "starttime": "2025-07-13T21:25:00Z",
+        "endtime": "2025-07-13T23:15:00Z",
+        "eventTitle": "Il padre della sposa 2",
+        "eventSynopsis": "Il padre della sposa 2 - Regia di C. Shyer (1995). La figlia di George annuncia che e in dolce attesa, ma le sorprese non sono finite...",
+        "epgEventTitle": "Il padre della sposa 2",
         "primeVision": false,
         "resolutions": [
           {
@@ -69006,19 +70196,6 @@
           }
         ]
       }
-    ],
-    "2025-08-01": [],
-    "2025-08-02": [],
-    "2025-08-03": [],
-    "2025-08-04": [],
-    "2025-08-05": [],
-    "2025-08-06": [],
-    "2025-08-07": [],
-    "2025-08-08": [],
-    "2025-08-09": [],
-    "2025-08-10": [],
-    "2025-08-11": [],
-    "2025-08-12": [],
-    "2025-08-13": []
+    ]
   }
 }

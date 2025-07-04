@@ -3028,78 +3028,6 @@
           }
         },
         "content": {
-          "uuid": "3c430759-8ee0-4be8-89fb-37012a3da26c",
-          "contentTitle": "Albrecht Mayer - ritratto",
-          "url": "/programmi-tv/documentario/albrecht-mayer-ritratto/3c430759-8ee0-4be8-89fb-37012a3da26c",
-          "genre": {
-            "id": 6,
-            "name": "Ragazzi e Musica"
-          },
-          "subgenre": {
-            "id": 70,
-            "name": "Documentario"
-          },
-          "imagesMap": [
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411369065",
-        "starttime": "2025-07-05T23:00:00Z",
-        "endtime": "2025-07-06T00:00:00Z",
-        "eventTitle": "Albrecht Mayer - ritratto",
-        "eventSynopsis": "Documentario sul celebre oboista Albrecht Mayer, primo oboe dei Berliner Philharmoniker, che ne racconta la carriera attraverso le esibizioni con prestigiose orchestre e celebri direttori - C.K.Weisz, reg. (2006)",
-        "epgEventTitle": "Albrecht Mayer - ritratto",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
-    "2025-07-06": [
-      {
-        "channel": {
-          "id": 11437,
-          "logo": "/logo/170skyclassica_Light_Fit.png",
-          "logoPadding": "/logo/170skyclassica_Light_Padding.png",
-          "logoDark": "/logo/170skyclassica_Dark_Fit.png",
-          "logoDarkPadding": "/logo/170170_Dark_Padding.png?checksum=0cf6d772-d6e9-4f65-97c6-71591136a227",
-          "logoLight": "/logo/170skyclassica_Light_Padding.png",
-          "name": "Sky Classica",
-          "description": "Il canale tv dedicato alla musica classica.",
-          "number": 124,
-          "servicekey": "170",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
           "uuid": "cd05f86f-e4e6-4a31-b454-8fcb96bb1037",
           "contentTitle": "Almanacco di Bellezza",
           "url": "/programmi-tv/musica/almanacco-di-bellezza/cd05f86f-e4e6-4a31-b454-8fcb96bb1037",
@@ -3139,11 +3067,83 @@
           ]
         },
         "eventId": "411369067",
-        "starttime": "2025-07-06T00:00:00Z",
-        "endtime": "2025-07-06T01:00:00Z",
+        "starttime": "2025-07-05T23:25:00Z",
+        "endtime": "2025-07-06T00:00:00Z",
         "eventTitle": "Almanacco di Bellezza",
         "eventSynopsis": "Piero Maranghi, direttore di Classica HD, passa in rassegna, anniversari e ricorrenze legati la mondo dell'arte, della cultura, della storia e dello sport. In studio con lui, il collezionista ed esperto d'arte Leonardo Piccinini",
         "epgEventTitle": "Almanacco di Bellezza",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      }
+    ],
+    "2025-07-06": [
+      {
+        "channel": {
+          "id": 11437,
+          "logo": "/logo/170skyclassica_Light_Fit.png",
+          "logoPadding": "/logo/170skyclassica_Light_Padding.png",
+          "logoDark": "/logo/170skyclassica_Dark_Fit.png",
+          "logoDarkPadding": "/logo/170170_Dark_Padding.png?checksum=0cf6d772-d6e9-4f65-97c6-71591136a227",
+          "logoLight": "/logo/170skyclassica_Light_Padding.png",
+          "name": "Sky Classica",
+          "description": "Il canale tv dedicato alla musica classica.",
+          "number": 124,
+          "servicekey": "170",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "3c430759-8ee0-4be8-89fb-37012a3da26c",
+          "contentTitle": "Albrecht Mayer - ritratto",
+          "url": "/programmi-tv/documentario/albrecht-mayer-ritratto/3c430759-8ee0-4be8-89fb-37012a3da26c",
+          "genre": {
+            "id": 6,
+            "name": "Ragazzi e Musica"
+          },
+          "subgenre": {
+            "id": 70,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411369065",
+        "starttime": "2025-07-06T00:00:00Z",
+        "endtime": "2025-07-06T01:05:00Z",
+        "eventTitle": "Albrecht Mayer - ritratto",
+        "eventSynopsis": "Documentario sul celebre oboista Albrecht Mayer, primo oboe dei Berliner Philharmoniker, che ne racconta la carriera attraverso le esibizioni con prestigiose orchestre e celebri direttori - C.K.Weisz, reg. (2006)",
+        "epgEventTitle": "Albrecht Mayer - ritratto",
         "primeVision": false,
         "resolutions": [
           {
@@ -3209,7 +3209,7 @@
           ]
         },
         "eventId": "411369069",
-        "starttime": "2025-07-06T01:00:00Z",
+        "starttime": "2025-07-06T01:05:00Z",
         "endtime": "2025-07-06T01:30:00Z",
         "eventTitle": "Recital al Museo Poldi Pezzoli",
         "eventSynopsis": "Recital pianistico ispirato alla mostra Piero della Francesca, il Polittico Agostiniano riunito - musiche di Liszt, Bach/Busoni, Galuppi, Beethoven, Ligeti - Giovanni Bertolazzi, pf. (Milano, Museo Poldi Pezzoli - 2024)",
@@ -3310,9 +3310,9 @@
           }
         },
         "content": {
-          "uuid": "3f0bb954-b183-4866-9536-c820911ee492",
-          "contentTitle": "Lorin Maazel",
-          "url": "/programmi-tv/musica/lorin-maazel/3f0bb954-b183-4866-9536-c820911ee492",
+          "uuid": "004ab090-0ebf-46c6-9cb6-255e5cc3544d",
+          "contentTitle": "D'Albert - Tiefland",
+          "url": "/programmi-tv/musica/dalbert-tiefland/004ab090-0ebf-46c6-9cb6-255e5cc3544d",
           "genre": {
             "id": 6,
             "name": "Ragazzi e Musica"
@@ -3320,75 +3320,6 @@
           "subgenre": {
             "id": 35,
             "name": "Musica"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/3f0bb954-b183-4866-9536-c820911ee492/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=746940960bac612817fc3b3726a4b3a0"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/3f0bb954-b183-4866-9536-c820911ee492/background?territory=IT&md5ChecksumParam=648c0243168397d0101a92b0816adf88"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/3f0bb954-b183-4866-9536-c820911ee492/cover?territory=IT&md5ChecksumParam=746940960bac612817fc3b3726a4b3a0"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/3f0bb954-b183-4866-9536-c820911ee492/16-9?territory=IT&md5ChecksumParam=8508e0695e7613e213786c7d1a6fad8c"
-              }
-            }
-          ]
-        },
-        "eventId": "411369074",
-        "starttime": "2025-07-06T02:00:00Z",
-        "endtime": "2025-07-06T03:00:00Z",
-        "eventTitle": "Lorin Maazel",
-        "eventSynopsis": "Il maestro statunitense dirige l'esuberante Petrouchka di Igor Stravinsky per pianoforte solo e orchestra e il vibrante La valse di Maurice Ravel - Muenchner Philharmoniker - Alice Sara Ott, pf. - L.Maazel, dir. (2013)",
-        "epgEventTitle": "Lorin Maazel",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11437,
-          "logo": "/logo/170skyclassica_Light_Fit.png",
-          "logoPadding": "/logo/170skyclassica_Light_Padding.png",
-          "logoDark": "/logo/170skyclassica_Dark_Fit.png",
-          "logoDarkPadding": "/logo/170170_Dark_Padding.png?checksum=0cf6d772-d6e9-4f65-97c6-71591136a227",
-          "logoLight": "/logo/170skyclassica_Light_Padding.png",
-          "name": "Sky Classica",
-          "description": "Il canale tv dedicato alla musica classica.",
-          "number": 124,
-          "servicekey": "170",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "bf0765cc-ecd7-47bc-9ba4-9f10b5845dc0",
-          "contentTitle": "Stromgren - Ritratto di famiglia",
-          "url": "/programmi-tv/danza/stromgren-ritratto-di-famiglia/bf0765cc-ecd7-47bc-9ba4-9f10b5845dc0",
-          "genre": {
-            "id": 6,
-            "name": "Ragazzi e Musica"
-          },
-          "subgenre": {
-            "id": 112,
-            "name": "Danza"
           },
           "imagesMap": [
             {
@@ -3417,12 +3348,12 @@
             }
           ]
         },
-        "eventId": "411369076",
-        "starttime": "2025-07-06T03:00:00Z",
-        "endtime": "2025-07-06T03:30:00Z",
-        "eventTitle": "Accident: A family portrait",
-        "eventSynopsis": "Film-balletto diretto dal coreografo e regista norvegese Jo Stromgren con musiche di Ysaye. Al violino Vilde Frang - con F.Amante, N.Novotna, M.D.Stromgren, L.Tormoen, V.Konvalinka, V.Kunes, J.Stromgren, R.Novak (2021)",
-        "epgEventTitle": "Accident: A family portrait",
+        "eventId": "411474215",
+        "starttime": "2025-07-06T02:00:00Z",
+        "endtime": "2025-07-06T04:30:00Z",
+        "eventTitle": "D'Albert - Tiefland",
+        "eventSynopsis": "Opera in un prologo e due atti (1902) su libretto di R.Lothar - con M.Goerne, P.Seiffert, P.M.Schnitzer, L.Polgar - Orchestra e Coro dell'Opera di Zurigo - Franz Welser-Most, dir. - Matthias Hartmann, reg. (Zurigo, 2006)",
+        "epgEventTitle": "D'Albert - Tiefland",
         "primeVision": false,
         "resolutions": [
           {
@@ -3488,8 +3419,8 @@
           ]
         },
         "eventId": "411369078",
-        "starttime": "2025-07-06T03:30:00Z",
-        "endtime": "2025-07-06T04:30:00Z",
+        "starttime": "2025-07-06T04:30:00Z",
+        "endtime": "2025-07-06T05:40:00Z",
         "eventTitle": "Tre stelle a Vienna - parte 2",
         "eventSynopsis": "Tre stelle della lirica Anna Netrebko, Rolando Villazon e Placido Domingo in un viaggio nel bel canto - Orchestra Sinfonica della Radio di Vienna - Bertrand De Billy, dir. (Vienna - Castello di Schoenbrunn, 2008)",
         "epgEventTitle": "Tre stelle a Vienna - parte 2",
@@ -3557,9 +3488,9 @@
             }
           ]
         },
-        "eventId": "411369080",
-        "starttime": "2025-07-06T04:30:00Z",
-        "endtime": "2025-07-06T07:00:00Z",
+        "eventId": "411474216",
+        "starttime": "2025-07-06T05:40:00Z",
+        "endtime": "2025-07-06T06:35:00Z",
         "eventTitle": "Talenti all'opera! - ep.5",
         "eventSynopsis": "In questa nuova puntata di Talenti all'opera, l'Accademia del Teatro alla Scala vola fuori dall'Europa per una speciale tour negli Emirati Arabi - N.Malaspina (2015)",
         "epgEventTitle": "Talenti all'opera! - ep.5",
@@ -3589,9 +3520,9 @@
           }
         },
         "content": {
-          "uuid": "3433298f-4c92-4446-85b5-ad9156f80ccf",
-          "contentTitle": "Mestiere Teatro",
-          "url": "/programmi-tv/musica/mestiere-teatro/3433298f-4c92-4446-85b5-ad9156f80ccf",
+          "uuid": "8fd6f88b-d8bc-4ac1-8def-003ddb1fa709",
+          "contentTitle": "Martin Grubinger e Manfred Honeck",
+          "url": "/programmi-tv/musica/martin-grubinger-e-manfred-honeck/8fd6f88b-d8bc-4ac1-8def-003ddb1fa709",
           "genre": {
             "id": 6,
             "name": "Ragazzi e Musica"
@@ -3627,12 +3558,12 @@
             }
           ]
         },
-        "eventId": "411368999",
-        "starttime": "2025-07-06T07:00:00Z",
+        "eventId": "411489370",
+        "starttime": "2025-07-06T06:35:00Z",
         "endtime": "2025-07-06T07:30:00Z",
-        "eventTitle": "Mestiere Teatro",
-        "eventSynopsis": "Un viaggio alla scoperta di quanti nei teatri, lontano dalla ribalta, in ufficio, nei laboratori, dietro le quinte, nella buca, lavorano per la riuscita e il successo di uno spettacolo. A cura di Paolo Gavazzeni",
-        "epgEventTitle": "Mestiere Teatro",
+        "eventTitle": "Martin Grubinger e Manfred Honeck",
+        "eventSynopsis": "Dal cuore di Odeonsplatz, un concerto dedicato alla musica contemporanea, con brani di Tan Dun, John Corigliano e Bruno Hartl - Orchestra Sinf. Radio Bavarese - M.Grubinger, perc. M.Honeck, dir. (Monaco di Baviera, 2017)",
+        "epgEventTitle": "Martin Grubinger e Manfred Honeck",
         "primeVision": false,
         "resolutions": [
           {
@@ -3699,7 +3630,7 @@
         },
         "eventId": "411449464",
         "starttime": "2025-07-06T07:30:00Z",
-        "endtime": "2025-07-06T08:00:00Z",
+        "endtime": "2025-07-06T08:10:00Z",
         "eventTitle": "La Classica domanda - Davide Tortorella",
         "eventSynopsis": "Tornano le interviste musicali condotte da Anton Giulio Onofri a personalita' del mondo della cultura e dello spettacolo. Ospite della Classica domanda di oggi e' l'autore televisivo e paroliere Davide Tortorella (2016)",
         "epgEventTitle": "La Classica domanda - Davide Tortorella",
@@ -3768,8 +3699,8 @@
           ]
         },
         "eventId": "411369000",
-        "starttime": "2025-07-06T08:00:00Z",
-        "endtime": "2025-07-06T09:00:00Z",
+        "starttime": "2025-07-06T08:10:00Z",
+        "endtime": "2025-07-06T09:40:00Z",
         "eventTitle": "The Mozart Requiem Project",
         "eventSynopsis": "Il Requiem di Mozart (1791) rivive in una versione unica arricchita da brani vocali - Ensemble Pygmalion - con Y.Fang, B.Taylor, L.Kilsby, N.diPierro, C.Lazreq - Raphael Pichon, dir. (Palau de la Musica Catalana - 2023)",
         "epgEventTitle": "The Mozart Requiem Project",
@@ -3838,8 +3769,8 @@
           ]
         },
         "eventId": "411449466",
-        "starttime": "2025-07-06T09:00:00Z",
-        "endtime": "2025-07-06T10:00:00Z",
+        "starttime": "2025-07-06T09:40:00Z",
+        "endtime": "2025-07-06T10:35:00Z",
         "eventTitle": "Daniel Barenboim a Milano",
         "eventSynopsis": "Il grande direttore Daniel Barenboim ripercorre gli anni della sua direzione al Teatro alla Scala. Un connubio nato quasi per caso che ha segnato una stagione memorabile per il teatro milanese - regia di A.Daveri (2019)",
         "epgEventTitle": "Daniel Barenboim a Milano",
@@ -3907,7 +3838,7 @@
           ]
         },
         "eventId": "411449468",
-        "starttime": "2025-07-06T10:00:00Z",
+        "starttime": "2025-07-06T10:35:00Z",
         "endtime": "2025-07-06T11:00:00Z",
         "eventTitle": "Barenboim: Le sonate di Schubert - 2",
         "eventSynopsis": "Sonata per pianoforte in la maggiore, op.120, D.664, in tre movimenti, composta da Franz Schubert nell'estate 1819 e pubblicata postuma nel 1829 - Daniel Baremboim, pianoforte (Berlino, Pierre Boulez Saal - 2017)",
@@ -3978,7 +3909,7 @@
         },
         "eventId": "411369002",
         "starttime": "2025-07-06T11:00:00Z",
-        "endtime": "2025-07-06T12:00:00Z",
+        "endtime": "2025-07-06T11:45:00Z",
         "eventTitle": "Almanacco di Bellezza",
         "eventSynopsis": "Piero Maranghi, direttore di Classica HD, passa in rassegna, anniversari e ricorrenze legati la mondo dell'arte, della cultura, della storia e dello sport. In studio con lui, il collezionista ed esperto d'arte Leonardo Piccinini",
         "epgEventTitle": "Almanacco di Bellezza",
@@ -4047,8 +3978,8 @@
           ]
         },
         "eventId": "411369003",
-        "starttime": "2025-07-06T12:00:00Z",
-        "endtime": "2025-07-06T14:00:00Z",
+        "starttime": "2025-07-06T11:45:00Z",
+        "endtime": "2025-07-06T13:55:00Z",
         "eventTitle": "Verdi - Rigoletto",
         "eventSynopsis": "Film-opera diretta da J.P.Ponnelle - su libretto di F.M.Piave - con I.Wixell, E.Gruberova, L.Pavarotti, F.Furlanetto, V.Vergara - Wiener Philharmoniker - R.Chailly, dir. (1981)",
         "epgEventTitle": "Verdi - Rigoletto",
@@ -4117,11 +4048,151 @@
           ]
         },
         "eventId": "411369004",
-        "starttime": "2025-07-06T14:00:00Z",
-        "endtime": "2025-07-06T15:00:00Z",
+        "starttime": "2025-07-06T13:55:00Z",
+        "endtime": "2025-07-06T14:50:00Z",
         "eventTitle": "Talenti all'opera! - ep.5",
         "eventSynopsis": "In questa nuova puntata di Talenti all'opera, l'Accademia del Teatro alla Scala vola fuori dall'Europa per una speciale tour negli Emirati Arabi - N.Malaspina (2015)",
         "epgEventTitle": "Talenti all'opera! - ep.5",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 11437,
+          "logo": "/logo/170skyclassica_Light_Fit.png",
+          "logoPadding": "/logo/170skyclassica_Light_Padding.png",
+          "logoDark": "/logo/170skyclassica_Dark_Fit.png",
+          "logoDarkPadding": "/logo/170170_Dark_Padding.png?checksum=0cf6d772-d6e9-4f65-97c6-71591136a227",
+          "logoLight": "/logo/170skyclassica_Light_Padding.png",
+          "name": "Sky Classica",
+          "description": "Il canale tv dedicato alla musica classica.",
+          "number": 124,
+          "servicekey": "170",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "3433298f-4c92-4446-85b5-ad9156f80ccf",
+          "contentTitle": "Mestiere Teatro",
+          "url": "/programmi-tv/musica/mestiere-teatro/3433298f-4c92-4446-85b5-ad9156f80ccf",
+          "genre": {
+            "id": 6,
+            "name": "Ragazzi e Musica"
+          },
+          "subgenre": {
+            "id": 35,
+            "name": "Musica"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411489371",
+        "starttime": "2025-07-06T14:50:00Z",
+        "endtime": "2025-07-06T15:20:00Z",
+        "eventTitle": "Mestiere Teatro",
+        "eventSynopsis": "Un viaggio alla scoperta di quanti nei teatri, lontano dalla ribalta, in ufficio, nei laboratori, dietro le quinte, nella buca, lavorano per la riuscita e il successo di uno spettacolo. A cura di Paolo Gavazzeni",
+        "epgEventTitle": "Mestiere Teatro",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 11437,
+          "logo": "/logo/170skyclassica_Light_Fit.png",
+          "logoPadding": "/logo/170skyclassica_Light_Padding.png",
+          "logoDark": "/logo/170skyclassica_Dark_Fit.png",
+          "logoDarkPadding": "/logo/170170_Dark_Padding.png?checksum=0cf6d772-d6e9-4f65-97c6-71591136a227",
+          "logoLight": "/logo/170skyclassica_Light_Padding.png",
+          "name": "Sky Classica",
+          "description": "Il canale tv dedicato alla musica classica.",
+          "number": 124,
+          "servicekey": "170",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "22d00b9b-32d9-4d27-8866-358e03610220",
+          "contentTitle": "Leonard Bernstein",
+          "url": "/programmi-tv/musica/leonard-bernstein/22d00b9b-32d9-4d27-8866-358e03610220",
+          "genre": {
+            "id": 6,
+            "name": "Ragazzi e Musica"
+          },
+          "subgenre": {
+            "id": 35,
+            "name": "Musica"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411489372",
+        "starttime": "2025-07-06T15:20:00Z",
+        "endtime": "2025-07-06T16:10:00Z",
+        "eventTitle": "Leonard Bernstein",
+        "eventSynopsis": "Il compositore e direttore d'orchestra statunitense esegue la Sinfonia n.2 in re maggiore op.73 composta da Johannes Brahms nel 1877 - Boston Symphony Orchestra - L.Bernstein, dir. (Tanglewood Music Center, 1972)",
+        "epgEventTitle": "Leonard Bernstein",
         "primeVision": false,
         "resolutions": [
           {
@@ -4186,9 +4257,9 @@
             }
           ]
         },
-        "eventId": "411369005",
-        "starttime": "2025-07-06T15:00:00Z",
-        "endtime": "2025-07-06T16:00:00Z",
+        "eventId": "411489373",
+        "starttime": "2025-07-06T16:10:00Z",
+        "endtime": "2025-07-06T17:35:00Z",
         "eventTitle": "Tre stelle a Vienna - parte 2",
         "eventSynopsis": "Tre stelle della lirica Anna Netrebko, Rolando Villazon e Placido Domingo in un viaggio nel bel canto - Orchestra Sinfonica della Radio di Vienna - Bertrand De Billy, dir. (Vienna - Castello di Schoenbrunn, 2008)",
         "epgEventTitle": "Tre stelle a Vienna - parte 2",
@@ -4256,81 +4327,12 @@
             }
           ]
         },
-        "eventId": "411369006",
-        "starttime": "2025-07-06T16:00:00Z",
-        "endtime": "2025-07-06T17:00:00Z",
+        "eventId": "411489374",
+        "starttime": "2025-07-06T17:35:00Z",
+        "endtime": "2025-07-06T18:30:00Z",
         "eventTitle": "Martin Grubinger e Manfred Honeck",
         "eventSynopsis": "Dal cuore di Odeonsplatz, un concerto dedicato alla musica contemporanea, con brani di Tan Dun, John Corigliano e Bruno Hartl - Orchestra Sinf. Radio Bavarese - M.Grubinger, perc. M.Honeck, dir. (Monaco di Baviera, 2017)",
         "epgEventTitle": "Martin Grubinger e Manfred Honeck",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11437,
-          "logo": "/logo/170skyclassica_Light_Fit.png",
-          "logoPadding": "/logo/170skyclassica_Light_Padding.png",
-          "logoDark": "/logo/170skyclassica_Dark_Fit.png",
-          "logoDarkPadding": "/logo/170170_Dark_Padding.png?checksum=0cf6d772-d6e9-4f65-97c6-71591136a227",
-          "logoLight": "/logo/170skyclassica_Light_Padding.png",
-          "name": "Sky Classica",
-          "description": "Il canale tv dedicato alla musica classica.",
-          "number": 124,
-          "servicekey": "170",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "ddda4bf9-c294-4fcc-909b-40a0e2a36064",
-          "contentTitle": "The Best of the Bolshoi Ballet",
-          "url": "/programmi-tv/musica/the-best-of-the-bolshoi-ballet/ddda4bf9-c294-4fcc-909b-40a0e2a36064",
-          "genre": {
-            "id": 6,
-            "name": "Ragazzi e Musica"
-          },
-          "subgenre": {
-            "id": 35,
-            "name": "Musica"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/ddda4bf9-c294-4fcc-909b-40a0e2a36064/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=329d2207c4ff35fc3a86621207187da9"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/ddda4bf9-c294-4fcc-909b-40a0e2a36064/background?territory=IT&md5ChecksumParam=b26b15e19dca7faece9a5d1b46a108d0"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/ddda4bf9-c294-4fcc-909b-40a0e2a36064/cover?territory=IT&md5ChecksumParam=329d2207c4ff35fc3a86621207187da9"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/ddda4bf9-c294-4fcc-909b-40a0e2a36064/16-9?territory=IT&md5ChecksumParam=d918748b432b14a4a52b77052c8c073a"
-              }
-            }
-          ]
-        },
-        "eventId": "411369007",
-        "starttime": "2025-07-06T17:00:00Z",
-        "endtime": "2025-07-06T18:30:00Z",
-        "eventTitle": "The Best of the Bolshoi Ballet",
-        "eventSynopsis": "Spettacolo del Corpo di Ballo del Teatro Bolshoi di Mosca - con G.Ulanova, R.Struchkova, N.Fadeyechev - Royal Opera House e Bournemouth Symphony Orchestra - Yuri Faier, dir. - Paul Czinner, reg. (Londra, 1956)",
-        "epgEventTitle": "The Best of the Bolshoi Ballet",
         "primeVision": false,
         "resolutions": [
           {
@@ -4467,7 +4469,7 @@
         },
         "eventId": "411369009",
         "starttime": "2025-07-06T19:15:00Z",
-        "endtime": "2025-07-06T20:30:00Z",
+        "endtime": "2025-07-06T20:25:00Z",
         "eventTitle": "Chailly dirige Schumann",
         "eventSynopsis": "Riccardo Chailly dirige alcune delle piu' belle pagine di Schumann: \"Studi Sinfonici\" op.13, vers. orchestrale di Cajkovskij, \"Carnaval\" op.9, orchestrazione di Ravel e \"Sinfonia n.4\" - Gewandhausorchester (Lipsia, 2006)",
         "epgEventTitle": "Chailly dirige Schumann",
@@ -4536,8 +4538,8 @@
           ]
         },
         "eventId": "411449470",
-        "starttime": "2025-07-06T20:30:00Z",
-        "endtime": "2025-07-06T22:30:00Z",
+        "starttime": "2025-07-06T20:25:00Z",
+        "endtime": "2025-07-06T22:55:00Z",
         "eventTitle": "D'Albert - Tiefland",
         "eventSynopsis": "Opera in un prologo e due atti (1902) su libretto di R.Lothar - con M.Goerne, P.Seiffert, P.M.Schnitzer, L.Polgar - Orchestra e Coro dell'Opera di Zurigo - Franz Welser-Most, dir. - Matthias Hartmann, reg. (Zurigo, 2006)",
         "epgEventTitle": "D'Albert - Tiefland",
@@ -4606,7 +4608,7 @@
           ]
         },
         "eventId": "411369011",
-        "starttime": "2025-07-06T22:30:00Z",
+        "starttime": "2025-07-06T22:55:00Z",
         "endtime": "2025-07-06T23:30:00Z",
         "eventTitle": "Almanacco di Bellezza",
         "eventSynopsis": "Piero Maranghi, direttore di Classica HD, passa in rassegna, anniversari e ricorrenze legati la mondo dell'arte, della cultura, della storia e dello sport. In studio con lui, il collezionista ed esperto d'arte Leonardo Piccinini",
@@ -4637,9 +4639,9 @@
           }
         },
         "content": {
-          "uuid": "22d00b9b-32d9-4d27-8866-358e03610220",
-          "contentTitle": "Leonard Bernstein",
-          "url": "/programmi-tv/musica/leonard-bernstein/22d00b9b-32d9-4d27-8866-358e03610220",
+          "uuid": "ddda4bf9-c294-4fcc-909b-40a0e2a36064",
+          "contentTitle": "The Best of the Bolshoi Ballet",
+          "url": "/programmi-tv/musica/the-best-of-the-bolshoi-ballet/ddda4bf9-c294-4fcc-909b-40a0e2a36064",
           "genre": {
             "id": 6,
             "name": "Ragazzi e Musica"
@@ -4650,37 +4652,36 @@
           },
           "imagesMap": [
             {
-              "key": "cover",
               "img": {
-                "url": "/uuid/Intrattenimento_Cover_aS6G29F8N9.png"
+                "url": "/uuid/ddda4bf9-c294-4fcc-909b-40a0e2a36064/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=329d2207c4ff35fc3a86621207187da9"
               }
             },
             {
               "key": "background",
               "img": {
-                "url": "/uuid/Intrattenimento_Background_fnMBEtXKi.png"
+                "url": "/uuid/ddda4bf9-c294-4fcc-909b-40a0e2a36064/background?territory=IT&md5ChecksumParam=b26b15e19dca7faece9a5d1b46a108d0"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/ddda4bf9-c294-4fcc-909b-40a0e2a36064/cover?territory=IT&md5ChecksumParam=329d2207c4ff35fc3a86621207187da9"
               }
             },
             {
               "key": "scene",
               "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+                "url": "/uuid/ddda4bf9-c294-4fcc-909b-40a0e2a36064/16-9?territory=IT&md5ChecksumParam=d918748b432b14a4a52b77052c8c073a"
               }
             }
           ]
         },
-        "eventId": "411369012",
+        "eventId": "411489375",
         "starttime": "2025-07-06T23:30:00Z",
-        "endtime": "2025-07-07T00:30:00Z",
-        "eventTitle": "Leonard Bernstein",
-        "eventSynopsis": "Il compositore e direttore d'orchestra statunitense esegue la Sinfonia n.2 in re maggiore op.73 composta da Johannes Brahms nel 1877 - Boston Symphony Orchestra - L.Bernstein, dir. (Tanglewood Music Center, 1972)",
-        "epgEventTitle": "Leonard Bernstein",
+        "endtime": "2025-07-07T01:10:00Z",
+        "eventTitle": "The Best of the Bolshoi Ballet",
+        "eventSynopsis": "Spettacolo del Corpo di Ballo del Teatro Bolshoi di Mosca - con G.Ulanova, R.Struchkova, N.Fadeyechev - Royal Opera House e Bournemouth Symphony Orchestra - Yuri Faier, dir. - Paul Czinner, reg. (Londra, 1956)",
+        "epgEventTitle": "The Best of the Bolshoi Ballet",
         "primeVision": false,
         "resolutions": [
           {
@@ -4748,8 +4749,8 @@
           ]
         },
         "eventId": "411449473",
-        "starttime": "2025-07-07T00:30:00Z",
-        "endtime": "2025-07-07T01:00:00Z",
+        "starttime": "2025-07-07T01:10:00Z",
+        "endtime": "2025-07-07T01:40:00Z",
         "eventTitle": "Maurice Ravel 150 - ep.1",
         "eventSynopsis": "A 150 anni dalla nascita di Maurice Ravel (1875-1937), un ciclo dedicato alle sue raffinate composizioni - Le tombeau de Couperin (1920) versione orchestrale - Berliner Philharmoniker - P.Boulez, dir. (Lisbona, 2003)",
         "epgEventTitle": "Maurice Ravel 150 - ep.1",
@@ -4818,8 +4819,8 @@
           ]
         },
         "eventId": "411449474",
-        "starttime": "2025-07-07T01:00:00Z",
-        "endtime": "2025-07-07T01:30:00Z",
+        "starttime": "2025-07-07T01:40:00Z",
+        "endtime": "2025-07-07T02:00:00Z",
         "eventTitle": "Maurice Ravel 150 - ep.2",
         "eventSynopsis": "A 150 anni dalla nascita di Maurice Ravel (1875-1937), un ciclo dedicato alle sue raffinate composizioni - Valses nobles et sentimentales (1911) - Wiener Philharmoniker - P.Boulez, dir. (Festival di Salisburgo, 2008)",
         "epgEventTitle": "Maurice Ravel 150 - ep.2",
@@ -4888,81 +4889,11 @@
           ]
         },
         "eventId": "411369015",
-        "starttime": "2025-07-07T01:30:00Z",
-        "endtime": "2025-07-07T03:00:00Z",
+        "starttime": "2025-07-07T02:00:00Z",
+        "endtime": "2025-07-07T03:25:00Z",
         "eventTitle": "The Mozart Requiem Project",
         "eventSynopsis": "Il Requiem di Mozart (1791) rivive in una versione unica arricchita da brani vocali - Ensemble Pygmalion - con Y.Fang, B.Taylor, L.Kilsby, N.diPierro, C.Lazreq - Raphael Pichon, dir. (Palau de la Musica Catalana - 2023)",
         "epgEventTitle": "The Mozart Requiem Project",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11437,
-          "logo": "/logo/170skyclassica_Light_Fit.png",
-          "logoPadding": "/logo/170skyclassica_Light_Padding.png",
-          "logoDark": "/logo/170skyclassica_Dark_Fit.png",
-          "logoDarkPadding": "/logo/170170_Dark_Padding.png?checksum=0cf6d772-d6e9-4f65-97c6-71591136a227",
-          "logoLight": "/logo/170skyclassica_Light_Padding.png",
-          "name": "Sky Classica",
-          "description": "Il canale tv dedicato alla musica classica.",
-          "number": 124,
-          "servicekey": "170",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "ff3a4db2-43d5-4791-af63-9694bec13211",
-          "contentTitle": "Daniel Barenboim a Milano",
-          "episodeNumber": 0,
-          "url": "/programmi-tv/musica/daniel-barenboim-a-milano/ff3a4db2-43d5-4791-af63-9694bec13211",
-          "genre": {
-            "id": 6,
-            "name": "Ragazzi e Musica"
-          },
-          "subgenre": {
-            "id": 35,
-            "name": "Musica"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/ff3a4db2-43d5-4791-af63-9694bec13211/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=a728c2bf6ac7fe25fa78be5bf9335c0e"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/ff3a4db2-43d5-4791-af63-9694bec13211/background?territory=IT&md5ChecksumParam=b6447705551d15e5bcba21de97f1e54c"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/ff3a4db2-43d5-4791-af63-9694bec13211/cover?territory=IT&md5ChecksumParam=a728c2bf6ac7fe25fa78be5bf9335c0e"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/ff3a4db2-43d5-4791-af63-9694bec13211/16-9?territory=IT&md5ChecksumParam=4abca66ecd600fa94c2a9a520c4a96b8"
-              }
-            }
-          ]
-        },
-        "eventId": "411449475",
-        "starttime": "2025-07-07T03:00:00Z",
-        "endtime": "2025-07-07T04:00:00Z",
-        "eventTitle": "Daniel Barenboim a Milano",
-        "eventSynopsis": "Il grande direttore Daniel Barenboim ripercorre gli anni della sua direzione al Teatro alla Scala. Un connubio nato quasi per caso che ha segnato una stagione memorabile per il teatro milanese - regia di A.Daveri (2019)",
-        "epgEventTitle": "Daniel Barenboim a Milano",
         "primeVision": false,
         "resolutions": [
           {
@@ -5028,8 +4959,8 @@
           ]
         },
         "eventId": "411369017",
-        "starttime": "2025-07-07T04:00:00Z",
-        "endtime": "2025-07-07T05:00:00Z",
+        "starttime": "2025-07-07T03:25:00Z",
+        "endtime": "2025-07-07T04:15:00Z",
         "eventTitle": "Talenti all'opera! - ep.5",
         "eventSynopsis": "In questa nuova puntata di Talenti all'opera, l'Accademia del Teatro alla Scala vola fuori dall'Europa per una speciale tour negli Emirati Arabi - N.Malaspina (2015)",
         "epgEventTitle": "Talenti all'opera! - ep.5",
@@ -5059,9 +4990,9 @@
           }
         },
         "content": {
-          "uuid": "05b35e8d-3a82-41a4-8a72-042f5198fc81",
-          "contentTitle": "Tre stelle a Vienna - parte 2",
-          "url": "/programmi-tv/musica/tre-stelle-a-vienna-parte-2/05b35e8d-3a82-41a4-8a72-042f5198fc81",
+          "uuid": "a78262a2-283c-441c-902b-70a31f222697",
+          "contentTitle": "La Classica domanda - Davide Tortorella",
+          "url": "/programmi-tv/musica/la-classica-domanda-davide-tortorella/a78262a2-283c-441c-902b-70a31f222697",
           "genre": {
             "id": 6,
             "name": "Ragazzi e Musica"
@@ -5097,12 +5028,12 @@
             }
           ]
         },
-        "eventId": "411369018",
-        "starttime": "2025-07-07T05:00:00Z",
-        "endtime": "2025-07-07T06:00:00Z",
-        "eventTitle": "Tre stelle a Vienna - parte 2",
-        "eventSynopsis": "Tre stelle della lirica Anna Netrebko, Rolando Villazon e Placido Domingo in un viaggio nel bel canto - Orchestra Sinfonica della Radio di Vienna - Bertrand De Billy, dir. (Vienna - Castello di Schoenbrunn, 2008)",
-        "epgEventTitle": "Tre stelle a Vienna - parte 2",
+        "eventId": "411489376",
+        "starttime": "2025-07-07T04:15:00Z",
+        "endtime": "2025-07-07T04:55:00Z",
+        "eventTitle": "La Classica domanda - Davide Tortorella",
+        "eventSynopsis": "Tornano le interviste musicali condotte da Anton Giulio Onofri a personalita' del mondo della cultura e dello spettacolo. Ospite della Classica domanda di oggi e' l'autore televisivo e paroliere Davide Tortorella (2016)",
+        "epgEventTitle": "La Classica domanda - Davide Tortorella",
         "primeVision": false,
         "resolutions": [
           {
@@ -5167,9 +5098,9 @@
             }
           ]
         },
-        "eventId": "411369086",
-        "starttime": "2025-07-07T06:00:00Z",
-        "endtime": "2025-07-07T10:00:00Z",
+        "eventId": "411489377",
+        "starttime": "2025-07-07T04:55:00Z",
+        "endtime": "2025-07-07T09:10:00Z",
         "eventTitle": "Verdi - Don Carlo",
         "eventSynopsis": "Opera in cinque atti (1867) su libretto in francese di J.Mery e C.du Locle - con M.Salminen, J.Kaufmann, A.Harteros, T.Hampson - Wiener Staatsopernchor/Philharmoniker - A.Pappano, dir. - P.Stein, reg. (Salisburgo, 2013)",
         "epgEventTitle": "Verdi - Don Carlo",
@@ -5199,10 +5130,10 @@
           }
         },
         "content": {
-          "uuid": "5db5c2a8-f68d-4971-b9f0-202abee46d70",
-          "contentTitle": "C.Wheeldon - Il racconto d'inverno",
+          "uuid": "fc6a2e04-274d-48ab-98a8-73adf8de2caf",
+          "contentTitle": "Sol Gabetta e Simon Rattle a Baden-Baden",
           "episodeNumber": 0,
-          "url": "/programmi-tv/musica/cwheeldon-il-racconto-dinverno/5db5c2a8-f68d-4971-b9f0-202abee46d70",
+          "url": "/programmi-tv/musica/sol-gabetta-e-simon-rattle-a-baden-baden/fc6a2e04-274d-48ab-98a8-73adf8de2caf",
           "genre": {
             "id": 6,
             "name": "Ragazzi e Musica"
@@ -5214,35 +5145,104 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/5db5c2a8-f68d-4971-b9f0-202abee46d70/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f5d632bf4faf77b818c594fd4e1de210"
+                "url": "/uuid/fc6a2e04-274d-48ab-98a8-73adf8de2caf/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7516727bdc93cf002ea85a2678f2d43e"
               }
             },
             {
               "key": "background",
               "img": {
-                "url": "/uuid/5db5c2a8-f68d-4971-b9f0-202abee46d70/background?territory=IT&md5ChecksumParam=b26b15e19dca7faece9a5d1b46a108d0"
+                "url": "/uuid/fc6a2e04-274d-48ab-98a8-73adf8de2caf/background?territory=IT&md5ChecksumParam=11325bf2bb7a3a15795eb2958034abc7"
               }
             },
             {
               "key": "cover",
               "img": {
-                "url": "/uuid/5db5c2a8-f68d-4971-b9f0-202abee46d70/cover?territory=IT&md5ChecksumParam=f5d632bf4faf77b818c594fd4e1de210"
+                "url": "/uuid/fc6a2e04-274d-48ab-98a8-73adf8de2caf/cover?territory=IT&md5ChecksumParam=7516727bdc93cf002ea85a2678f2d43e"
               }
             },
             {
               "key": "scene",
               "img": {
-                "url": "/uuid/5db5c2a8-f68d-4971-b9f0-202abee46d70/16-9?territory=IT&md5ChecksumParam=d918748b432b14a4a52b77052c8c073a"
+                "url": "/uuid/fc6a2e04-274d-48ab-98a8-73adf8de2caf/16-9?territory=IT&md5ChecksumParam=1fe0b7dbfe2b64ea08d8cf89a9a8658f"
               }
             }
           ]
         },
-        "eventId": "411369087",
-        "starttime": "2025-07-07T10:00:00Z",
+        "eventId": "411489378",
+        "starttime": "2025-07-07T09:10:00Z",
+        "endtime": "2025-07-07T10:10:00Z",
+        "eventTitle": "Sol Gabetta e Simon Rattle a Baden-Baden",
+        "eventSynopsis": "Concerto su musiche di Ligeti, Atmospheres, dal Lohengrin di Wagner e Concerto per violoncello in mi min. di Elgar - Sol Gabetta, cello - Berliner Philharmoniker - Simon Rattle, dir. (Baden-Baden Festspielhaus, 2014)",
+        "epgEventTitle": "Sol Gabetta e Simon Rattle a Baden-Baden",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 11437,
+          "logo": "/logo/170skyclassica_Light_Fit.png",
+          "logoPadding": "/logo/170skyclassica_Light_Padding.png",
+          "logoDark": "/logo/170skyclassica_Dark_Fit.png",
+          "logoDarkPadding": "/logo/170170_Dark_Padding.png?checksum=0cf6d772-d6e9-4f65-97c6-71591136a227",
+          "logoLight": "/logo/170skyclassica_Light_Padding.png",
+          "name": "Sky Classica",
+          "description": "Il canale tv dedicato alla musica classica.",
+          "number": 124,
+          "servicekey": "170",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "237db28c-90e5-4073-854a-61f4f6798b40",
+          "contentTitle": "Lorin Maazel",
+          "url": "/programmi-tv/musica/lorin-maazel/237db28c-90e5-4073-854a-61f4f6798b40",
+          "genre": {
+            "id": 6,
+            "name": "Ragazzi e Musica"
+          },
+          "subgenre": {
+            "id": 35,
+            "name": "Musica"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/237db28c-90e5-4073-854a-61f4f6798b40/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=d6628302be3dce954560c26297feaa5c"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/237db28c-90e5-4073-854a-61f4f6798b40/background?territory=IT&md5ChecksumParam=648c0243168397d0101a92b0816adf88"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/237db28c-90e5-4073-854a-61f4f6798b40/cover?territory=IT&md5ChecksumParam=d6628302be3dce954560c26297feaa5c"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/237db28c-90e5-4073-854a-61f4f6798b40/16-9?territory=IT&md5ChecksumParam=8508e0695e7613e213786c7d1a6fad8c"
+              }
+            }
+          ]
+        },
+        "eventId": "411489379",
+        "starttime": "2025-07-07T10:10:00Z",
         "endtime": "2025-07-07T11:00:00Z",
-        "eventTitle": "C.Wheeldon - Il racconto d'inverno",
-        "eventSynopsis": "Balletto in tre atti (2014) su musiche di Joby Talbot - con Ryoichi Hirano, Lauren Cuthbertson, Sarah Lamb, Vadim Muntagirov, Laura Morera - Orch. Royal Opera House, C.Wheeldon, cor. (Londra, Royal Opera House - 2018)",
-        "epgEventTitle": "C.Wheeldon - Il racconto d'inverno",
+        "eventTitle": "Lorin Maazel",
+        "eventSynopsis": "Il maestro statunitense dirige la suite orchestrale Pelleas et Melisande, op.80 di Faure' e La valse, nella versione per orchestra di Ravel - Muenchner Philharmoniker - Alice Sara Ott, pf. (Monaco di Baviera, 2013)",
+        "epgEventTitle": "Lorin Maazel",
         "primeVision": false,
         "resolutions": [
           {
@@ -5339,9 +5339,10 @@
           }
         },
         "content": {
-          "uuid": "237db28c-90e5-4073-854a-61f4f6798b40",
-          "contentTitle": "Lorin Maazel",
-          "url": "/programmi-tv/musica/lorin-maazel/237db28c-90e5-4073-854a-61f4f6798b40",
+          "uuid": "5db5c2a8-f68d-4971-b9f0-202abee46d70",
+          "contentTitle": "C.Wheeldon - Il racconto d'inverno",
+          "episodeNumber": 0,
+          "url": "/programmi-tv/musica/cwheeldon-il-racconto-dinverno/5db5c2a8-f68d-4971-b9f0-202abee46d70",
           "genre": {
             "id": 6,
             "name": "Ragazzi e Musica"
@@ -5353,35 +5354,35 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/237db28c-90e5-4073-854a-61f4f6798b40/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=d6628302be3dce954560c26297feaa5c"
+                "url": "/uuid/5db5c2a8-f68d-4971-b9f0-202abee46d70/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f5d632bf4faf77b818c594fd4e1de210"
               }
             },
             {
               "key": "background",
               "img": {
-                "url": "/uuid/237db28c-90e5-4073-854a-61f4f6798b40/background?territory=IT&md5ChecksumParam=648c0243168397d0101a92b0816adf88"
+                "url": "/uuid/5db5c2a8-f68d-4971-b9f0-202abee46d70/background?territory=IT&md5ChecksumParam=b26b15e19dca7faece9a5d1b46a108d0"
               }
             },
             {
               "key": "cover",
               "img": {
-                "url": "/uuid/237db28c-90e5-4073-854a-61f4f6798b40/cover?territory=IT&md5ChecksumParam=d6628302be3dce954560c26297feaa5c"
+                "url": "/uuid/5db5c2a8-f68d-4971-b9f0-202abee46d70/cover?territory=IT&md5ChecksumParam=f5d632bf4faf77b818c594fd4e1de210"
               }
             },
             {
               "key": "scene",
               "img": {
-                "url": "/uuid/237db28c-90e5-4073-854a-61f4f6798b40/16-9?territory=IT&md5ChecksumParam=8508e0695e7613e213786c7d1a6fad8c"
+                "url": "/uuid/5db5c2a8-f68d-4971-b9f0-202abee46d70/16-9?territory=IT&md5ChecksumParam=d918748b432b14a4a52b77052c8c073a"
               }
             }
           ]
         },
-        "eventId": "411369089",
+        "eventId": "411489380",
         "starttime": "2025-07-07T11:45:00Z",
-        "endtime": "2025-07-07T12:30:00Z",
-        "eventTitle": "Lorin Maazel",
-        "eventSynopsis": "Il maestro statunitense dirige la suite orchestrale Pelleas et Melisande, op.80 di Faure' e La valse, nella versione per orchestra di Ravel - Muenchner Philharmoniker - Alice Sara Ott, pf. (Monaco di Baviera, 2013)",
-        "epgEventTitle": "Lorin Maazel",
+        "endtime": "2025-07-07T13:45:00Z",
+        "eventTitle": "C.Wheeldon - Il racconto d'inverno",
+        "eventSynopsis": "Balletto in tre atti (2014) su musiche di Joby Talbot - con Ryoichi Hirano, Lauren Cuthbertson, Sarah Lamb, Vadim Muntagirov, Laura Morera - Orch. Royal Opera House, C.Wheeldon, cor. (Londra, Royal Opera House - 2018)",
+        "epgEventTitle": "C.Wheeldon - Il racconto d'inverno",
         "primeVision": false,
         "resolutions": [
           {
@@ -5446,9 +5447,9 @@
             }
           ]
         },
-        "eventId": "411449654",
-        "starttime": "2025-07-07T12:30:00Z",
-        "endtime": "2025-07-07T13:00:00Z",
+        "eventId": "411489381",
+        "starttime": "2025-07-07T13:45:00Z",
+        "endtime": "2025-07-07T14:25:00Z",
         "eventTitle": "Maurice Ravel 150 - ep.1",
         "eventSynopsis": "A 150 anni dalla nascita di Maurice Ravel (1875-1937), un ciclo dedicato alle sue raffinate composizioni - Le tombeau de Couperin (1920) versione orchestrale - Berliner Philharmoniker - P.Boulez, dir. (Lisbona, 2003)",
         "epgEventTitle": "Maurice Ravel 150 - ep.1",
@@ -5516,9 +5517,9 @@
             }
           ]
         },
-        "eventId": "411449655",
-        "starttime": "2025-07-07T13:00:00Z",
-        "endtime": "2025-07-07T13:30:00Z",
+        "eventId": "411489382",
+        "starttime": "2025-07-07T14:25:00Z",
+        "endtime": "2025-07-07T14:45:00Z",
         "eventTitle": "Maurice Ravel 150 - ep.2",
         "eventSynopsis": "A 150 anni dalla nascita di Maurice Ravel (1875-1937), un ciclo dedicato alle sue raffinate composizioni - Valses nobles et sentimentales (1911) - Wiener Philharmoniker - P.Boulez, dir. (Festival di Salisburgo, 2008)",
         "epgEventTitle": "Maurice Ravel 150 - ep.2",
@@ -5586,9 +5587,9 @@
             }
           ]
         },
-        "eventId": "411369092",
-        "starttime": "2025-07-07T13:30:00Z",
-        "endtime": "2025-07-07T15:00:00Z",
+        "eventId": "411489383",
+        "starttime": "2025-07-07T14:45:00Z",
+        "endtime": "2025-07-07T16:15:00Z",
         "eventTitle": "The Mozart Requiem Project",
         "eventSynopsis": "Il Requiem di Mozart (1791) rivive in una versione unica arricchita da brani vocali - Ensemble Pygmalion - con Y.Fang, B.Taylor, L.Kilsby, N.diPierro, C.Lazreq - Raphael Pichon, dir. (Palau de la Musica Catalana - 2023)",
         "epgEventTitle": "The Mozart Requiem Project",
@@ -5657,82 +5658,12 @@
             }
           ]
         },
-        "eventId": "411369093",
-        "starttime": "2025-07-07T15:00:00Z",
-        "endtime": "2025-07-07T15:30:00Z",
+        "eventId": "411489384",
+        "starttime": "2025-07-07T16:15:00Z",
+        "endtime": "2025-07-07T16:55:00Z",
         "eventTitle": "La Classica domanda - Enrico Regazzoni",
         "eventSynopsis": "Tornano le interviste musicali condotte da Anton Giulio Onofri a personalita' del mondo della cultura e dello spettacolo. Ospite della Classica domanda di oggi e' il giornalista e scrittore Enrico Regazzoni (2016)",
         "epgEventTitle": "La Classica domanda - Enrico Regazzoni",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11437,
-          "logo": "/logo/170skyclassica_Light_Fit.png",
-          "logoPadding": "/logo/170skyclassica_Light_Padding.png",
-          "logoDark": "/logo/170skyclassica_Dark_Fit.png",
-          "logoDarkPadding": "/logo/170170_Dark_Padding.png?checksum=0cf6d772-d6e9-4f65-97c6-71591136a227",
-          "logoLight": "/logo/170skyclassica_Light_Padding.png",
-          "name": "Sky Classica",
-          "description": "Il canale tv dedicato alla musica classica.",
-          "number": 124,
-          "servicekey": "170",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "fc6a2e04-274d-48ab-98a8-73adf8de2caf",
-          "contentTitle": "Sol Gabetta e Simon Rattle a Baden-Baden",
-          "episodeNumber": 0,
-          "url": "/programmi-tv/musica/sol-gabetta-e-simon-rattle-a-baden-baden/fc6a2e04-274d-48ab-98a8-73adf8de2caf",
-          "genre": {
-            "id": 6,
-            "name": "Ragazzi e Musica"
-          },
-          "subgenre": {
-            "id": 35,
-            "name": "Musica"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/fc6a2e04-274d-48ab-98a8-73adf8de2caf/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7516727bdc93cf002ea85a2678f2d43e"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/fc6a2e04-274d-48ab-98a8-73adf8de2caf/background?territory=IT&md5ChecksumParam=11325bf2bb7a3a15795eb2958034abc7"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/fc6a2e04-274d-48ab-98a8-73adf8de2caf/cover?territory=IT&md5ChecksumParam=7516727bdc93cf002ea85a2678f2d43e"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/fc6a2e04-274d-48ab-98a8-73adf8de2caf/16-9?territory=IT&md5ChecksumParam=1fe0b7dbfe2b64ea08d8cf89a9a8658f"
-              }
-            }
-          ]
-        },
-        "eventId": "411369094",
-        "starttime": "2025-07-07T15:30:00Z",
-        "endtime": "2025-07-07T17:00:00Z",
-        "eventTitle": "Sol Gabetta e Simon Rattle a Baden-Baden",
-        "eventSynopsis": "Concerto su musiche di Ligeti, Atmospheres, dal Lohengrin di Wagner e Concerto per violoncello in mi min. di Elgar - Sol Gabetta, cello - Berliner Philharmoniker - Simon Rattle, dir. (Baden-Baden Festspielhaus, 2014)",
-        "epgEventTitle": "Sol Gabetta e Simon Rattle a Baden-Baden",
         "primeVision": false,
         "resolutions": [
           {
@@ -5798,7 +5729,7 @@
           ]
         },
         "eventId": "411369095",
-        "starttime": "2025-07-07T17:00:00Z",
+        "starttime": "2025-07-07T16:55:00Z",
         "endtime": "2025-07-07T18:00:00Z",
         "eventTitle": "Corelli alla Scala",
         "eventSynopsis": "Documentario dedicato a Franco Corelli, uno dei piu' celebri e acclamati tenori del XX secolo, interprete del Teatro alla Scala, che lo consacro' come tenore romantico per eccellenza - Sergej Grguric, reg. (2014)",
@@ -6009,7 +5940,7 @@
         },
         "eventId": "411369098",
         "starttime": "2025-07-07T19:15:00Z",
-        "endtime": "2025-07-07T19:45:00Z",
+        "endtime": "2025-07-07T19:55:00Z",
         "eventTitle": "Mestiere Teatro",
         "eventSynopsis": "Un viaggio alla scoperta di quanti nei teatri, lontano dalla ribalta, in ufficio, nei laboratori, dietro le quinte, nella buca, lavorano per la riuscita e il successo di uno spettacolo. A cura di Paolo Gavazzeni",
         "epgEventTitle": "Mestiere Teatro",
@@ -6078,8 +6009,8 @@
           ]
         },
         "eventId": "411369099",
-        "starttime": "2025-07-07T19:45:00Z",
-        "endtime": "2025-07-07T20:00:00Z",
+        "starttime": "2025-07-07T19:55:00Z",
+        "endtime": "2025-07-07T20:40:00Z",
         "eventTitle": "Gala da San Pietroburgo",
         "eventSynopsis": "Yurij Temirkanov dirige la Filarmonica di San Pietroburgo e le due star Anna Netrebko e l'indimenticabile Dmitri Hvorostovsky, in un gala lirico sulle note di Donizetti, Puccini, Verdi e Cajkovskij (S.Pietroburgo, 2003)",
         "epgEventTitle": "Gala da San Pietroburgo",
@@ -6148,8 +6079,8 @@
           ]
         },
         "eventId": "411449656",
-        "starttime": "2025-07-07T20:00:00Z",
-        "endtime": "2025-07-07T22:00:00Z",
+        "starttime": "2025-07-07T20:40:00Z",
+        "endtime": "2025-07-07T23:10:00Z",
         "eventTitle": "D'Albert - Tiefland",
         "eventSynopsis": "Opera in un prologo e due atti (1902) su libretto di R.Lothar - con M.Goerne, P.Seiffert, P.M.Schnitzer, L.Polgar - Orchestra e Coro dell'Opera di Zurigo - Franz Welser-Most, dir. - Matthias Hartmann, reg. (Zurigo, 2006)",
         "epgEventTitle": "D'Albert - Tiefland",
@@ -42919,19 +42850,6 @@
           }
         ]
       }
-    ],
-    "2025-08-01": [],
-    "2025-08-02": [],
-    "2025-08-03": [],
-    "2025-08-04": [],
-    "2025-08-05": [],
-    "2025-08-06": [],
-    "2025-08-07": [],
-    "2025-08-08": [],
-    "2025-08-09": [],
-    "2025-08-10": [],
-    "2025-08-11": [],
-    "2025-08-12": [],
-    "2025-08-13": []
+    ]
   }
 }
