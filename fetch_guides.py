@@ -126,6 +126,7 @@ CHANNELS = [
     {"name":"frisbee","site_id":"DTH#6610"}
 ]
 
+
 EPG_GUIDE_CHANNELS = {
     "K2": "K2.it",
     "Motor Trend HD": "MotorTrend.it",
@@ -138,9 +139,9 @@ EPG_GUIDE_CHANNELS = {
     "Real Time HD": "RealTime.it"
 }
 
-def fetch_sky_guide(env, channel_id, now_rome, num_days):
+def fetch_sky_guide_until_exhausted(env, channel_id, now_rome, max_days=60):
     results = []
-    for day_offset in range(num_days + 1):
+    for day_offset in range(max_days):
         date = now_rome + timedelta(days=day_offset)
         date_str = date.strftime("%Y-%m-%d")
         from_str = date.strftime("%Y-%m-%dT00:00:00Z")
@@ -152,14 +153,13 @@ def fetch_sky_guide(env, channel_id, now_rome, num_days):
             data = response.json()
             events = data.get("events", [])
             print(f"  ✓ {date_str}: {len(events)} eventi trovati")
-            results.append({
-                "date": date_str,
-                "events": events
-            })
+            if not events:
+                break  # Fine guida per questo canale
+            results.append({"date": date_str, "events": events})
             time.sleep(0.3)
         except Exception as e:
             print(f"  ✗ Errore per {date_str}: {e}")
-            continue
+            break
     return results
 
 def parse_epg_guide(channel_name_map, xml_root):
@@ -185,10 +185,6 @@ def parse_epg_guide(channel_name_map, xml_root):
     return results
 
 def main():
-    try:
-        num_days = int(sys.argv[1])
-    except (IndexError, ValueError):
-        num_days = 40
     os.makedirs("output/guides", exist_ok=True)
     now_rome = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
 
@@ -198,7 +194,10 @@ def main():
             continue
         env_part, channel_id = ch["site_id"].split("#")
         print(f"• Elaboro {ch['name']} ({ch['site_id']})...")
-        guide = fetch_sky_guide(env_part, channel_id, now_rome, num_days)
+        guide = fetch_sky_guide_until_exhausted(env_part, channel_id, now_rome)
+        if not guide:
+            print(f"  ⚠ Nessun evento trovato per {ch['name']}, salto salvataggio")
+            continue
         out_path = f"output/guides/{ch['site_id'].replace('#','_')}.json"
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump({
