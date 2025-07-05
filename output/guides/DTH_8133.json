@@ -1,1968 +1,6 @@
 {
   "name": "cielo",
   "events_by_date": {
-    "2025-07-04": [
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "cef9cf39-c4c9-4c86-88f6-57ea1a91a399",
-          "contentTitle": "The Sex Police",
-          "episodeNumber": 0,
-          "url": "/programmi-tv/reportage/the-sex-police/cef9cf39-c4c9-4c86-88f6-57ea1a91a399",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 99,
-            "name": "Reportage"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/cef9cf39-c4c9-4c86-88f6-57ea1a91a399/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=140fc28dff871cf73d2664876a8e9a4a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/cef9cf39-c4c9-4c86-88f6-57ea1a91a399/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4b8a42e6adbd31f646e9905753d121aa"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/cef9cf39-c4c9-4c86-88f6-57ea1a91a399/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=140fc28dff871cf73d2664876a8e9a4a"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/cef9cf39-c4c9-4c86-88f6-57ea1a91a399/background?territory=IT&md5ChecksumParam=f17aa009ab371b36924923de6454757e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/cef9cf39-c4c9-4c86-88f6-57ea1a91a399/cover?territory=IT&md5ChecksumParam=4b8a42e6adbd31f646e9905753d121aa"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/cef9cf39-c4c9-4c86-88f6-57ea1a91a399/16-9?territory=IT&md5ChecksumParam=975718503526e4f3c73f574460ecf794"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/cef9cf39-c4c9-4c86-88f6-57ea1a91a399/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=caabe86f4662bff646c25134e9a4442f"
-              }
-            }
-          ]
-        },
-        "eventId": "411282520",
-        "starttime": "2025-07-04T00:15:00Z",
-        "endtime": "2025-07-04T01:20:00Z",
-        "eventTitle": "The Sex Police",
-        "eventSynopsis": "Nei Paesi Bassi, seguiamo una squadra speciale di polizia durante le visite nei quartieri a luci rosse, per contrastare il fenomeno della prostituzione non volontaria.",
-        "epgEventTitle": "The Sex Police",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "87665c21-deda-40e7-9de5-16627cbff779",
-          "contentTitle": "Compratori di sesso",
-          "episodeNumber": 0,
-          "url": "/programmi-tv/societa/love-for-sale-con-rupert-everett/stagione-1/episodio-1/87665c21-deda-40e7-9de5-16627cbff779",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 47,
-            "name": "Societa"
-          },
-          "imagesMap": [
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/87665c21-deda-40e7-9de5-16627cbff779/background?territory=IT&md5ChecksumParam=2cbf36e5bc21e1f575aca262156114aa"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/87665c21-deda-40e7-9de5-16627cbff779/cover?territory=IT&md5ChecksumParam=03328bbf1d0bed1613e7ff2b2122758f"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/87665c21-deda-40e7-9de5-16627cbff779/16-9?territory=IT&md5ChecksumParam=4e112d34873feeca1b24241096b5ec0b"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411282522",
-        "starttime": "2025-07-04T01:20:00Z",
-        "endtime": "2025-07-04T02:20:00Z",
-        "eventTitle": "Compratori di sesso",
-        "eventSynopsis": "Ep2 Compratori di sesso - Il 10% dei britannici ammette di aver fatto sesso con le prostitute. Rupert Everett indaga sulle motivazioni che spingono gli uomini a compiere una tale scelta e quali sono i desideri reali di un uomo.",
-        "epgEventTitle": "Compratori di sesso",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "aef2921d-3b9a-4c8b-a17d-51a59b989b33",
-          "contentTitle": "Ep. 2",
-          "episodeNumber": 2,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/show/sex-pod-quanto-ne-sai-sul-sesso/stagione-1/episodio-2/aef2921d-3b9a-4c8b-a17d-51a59b989b33",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 23,
-            "name": "Show"
-          },
-          "imagesMap": [
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/aef2921d-3b9a-4c8b-a17d-51a59b989b33/background?territory=IT&md5ChecksumParam=754b327f0782bb6588bd60a08ba83552"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/aef2921d-3b9a-4c8b-a17d-51a59b989b33/cover?territory=IT&md5ChecksumParam=7b5552fea9a715ab34d85f9d53aecf68"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/aef2921d-3b9a-4c8b-a17d-51a59b989b33/16-9?territory=IT&md5ChecksumParam=754b327f0782bb6588bd60a08ba83552"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411282524",
-        "starttime": "2025-07-04T02:20:00Z",
-        "endtime": "2025-07-04T03:00:00Z",
-        "eventTitle": "Ep. 2",
-        "eventSynopsis": "S1 Ep2 - Numerosi giovani avranno la possibilita' di sentirsi finalmente liberi di porre domande su qualsiasi aspetto del sesso. Grazie all'aiuto di video dimostrativi, alcuni esperti risponderanno ai loro quesiti.",
-        "epgEventTitle": "S1 Ep2 - Sex Pod - Quanto ne sai sul sesso?",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "76eefaae-fec5-4802-95da-e3fec84cb8c6",
-          "contentTitle": "Katia - Alessandro",
-          "episodeNumber": 3,
-          "seasonNumber": 2,
-          "url": "/programmi-tv/reality-show/sex-therapy/stagione-2/episodio-3/76eefaae-fec5-4802-95da-e3fec84cb8c6",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 71,
-            "name": "Reality Show"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/76eefaae-fec5-4802-95da-e3fec84cb8c6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=779244dcb86a708aa9a8054fe96e2d26"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/76eefaae-fec5-4802-95da-e3fec84cb8c6/background?territory=IT&md5ChecksumParam=db91556f452b3ad6741752c72d24ec9d"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/76eefaae-fec5-4802-95da-e3fec84cb8c6/cover?territory=IT&md5ChecksumParam=779244dcb86a708aa9a8054fe96e2d26"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/76eefaae-fec5-4802-95da-e3fec84cb8c6/16-9?territory=IT&md5ChecksumParam=083dec8bc74726293b195675dd1b21a1"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/b5509436-740e-4143-86e3-5bb8b4afa710/COVER_TITLE_WIDE-SERIES?territory=IT&md5ChecksumParam=fcefc860abe93db7ee285928a28bf1af"
-              }
-            }
-          ]
-        },
-        "eventId": "411282525",
-        "starttime": "2025-07-04T03:00:00Z",
-        "endtime": "2025-07-04T04:00:00Z",
-        "eventTitle": "Katia - Alessandro",
-        "eventSynopsis": "S2 Ep3 Katia - Alessandro - Seconda stagione per Barbara Gubellini ed il suo team di esperti sessuologi e psicoterapeuti che ci faranno conoscere una serie di coppie desiderosi di risolvere i loro problemi sessuali.",
-        "epgEventTitle": "S2 Ep3 - Sex Therapy",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "f931cf17-7135-4dce-a3e8-ce21b9697d83",
-          "contentTitle": "TG24 mezz'ora",
-          "episodeNumber": 0,
-          "url": "/programmi-tv/notiziario/tg24-mezzora/f931cf17-7135-4dce-a3e8-ce21b9697d83",
-          "genre": {
-            "id": 5,
-            "name": "Informazione"
-          },
-          "subgenre": {
-            "id": 13,
-            "name": "Notiziario"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/f931cf17-7135-4dce-a3e8-ce21b9697d83/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=656e826866e29e46ed4c98da56262573"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/f931cf17-7135-4dce-a3e8-ce21b9697d83/background?territory=IT&md5ChecksumParam=3357101197a0db5b8ec0638112a326ae"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/f931cf17-7135-4dce-a3e8-ce21b9697d83/cover?territory=IT&md5ChecksumParam=656e826866e29e46ed4c98da56262573"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/f931cf17-7135-4dce-a3e8-ce21b9697d83/16-9?territory=IT&md5ChecksumParam=ed7797f11652ff65a0fac6a62b1561e7"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/f931cf17-7135-4dce-a3e8-ce21b9697d83/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=45fec62a07c0832b0a34e1249fd04ed1"
-              }
-            }
-          ]
-        },
-        "eventId": "411281875",
-        "starttime": "2025-07-04T04:00:00Z",
-        "endtime": "2025-07-04T04:30:00Z",
-        "eventTitle": "TG24 mezz'ora",
-        "eventSynopsis": "Telegiornale in diretta. I giornali di oggi, lo Sport, il Meteo.",
-        "epgEventTitle": "TG24 mezz'ora",
-        "programHighlights": "L",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "69e1d32e-4a4b-47d8-8bfd-d088ce76918a",
-          "contentTitle": "TG24 Rassegna",
-          "episodeNumber": 0,
-          "url": "/programmi-tv/notiziario/tg24-rassegna/69e1d32e-4a4b-47d8-8bfd-d088ce76918a",
-          "genre": {
-            "id": 5,
-            "name": "Informazione"
-          },
-          "subgenre": {
-            "id": 13,
-            "name": "Notiziario"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/69e1d32e-4a4b-47d8-8bfd-d088ce76918a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3d210d4a8ed634bf4447748b2377d2f7"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/69e1d32e-4a4b-47d8-8bfd-d088ce76918a/background?territory=IT&md5ChecksumParam=ba7d73d2ea8173ded571c495e3a72ad7"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/69e1d32e-4a4b-47d8-8bfd-d088ce76918a/cover?territory=IT&md5ChecksumParam=3d210d4a8ed634bf4447748b2377d2f7"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/69e1d32e-4a4b-47d8-8bfd-d088ce76918a/16-9?territory=IT&md5ChecksumParam=d8ae783d86a488ab19391024268ea7a1"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/69e1d32e-4a4b-47d8-8bfd-d088ce76918a/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=d8ae783d86a488ab19391024268ea7a1"
-              }
-            }
-          ]
-        },
-        "eventId": "411281880",
-        "starttime": "2025-07-04T04:30:00Z",
-        "endtime": "2025-07-04T05:00:00Z",
-        "eventTitle": "TG24 Rassegna",
-        "eventSynopsis": "Telegiornale in diretta. Tutti gli aggiornamenti minuto per minuto. Una nuova rassegna stampa multimediale con giornali, siti web, social network. Il Meteo.",
-        "epgEventTitle": "TG24 Rassegna",
-        "programHighlights": "L",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "b80d8bda-6a6a-49f2-9394-8e4bd7e0e26c",
-          "contentTitle": "La stanza degli hobby",
-          "episodeNumber": 20,
-          "seasonNumber": 4,
-          "url": "/programmi-tv/reality-show/love-it-or-list-it-prendere-o-lasciare/stagione-4/episodio-20/b80d8bda-6a6a-49f2-9394-8e4bd7e0e26c",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 71,
-            "name": "Reality Show"
-          },
-          "imagesMap": [
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/b80d8bda-6a6a-49f2-9394-8e4bd7e0e26c/background?territory=IT&md5ChecksumParam=2c0cc70cb58d02d40439ca3f98eb52c9"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/b80d8bda-6a6a-49f2-9394-8e4bd7e0e26c/cover?territory=IT&md5ChecksumParam=e4e405494147186486fad8e81052f6d8"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/b80d8bda-6a6a-49f2-9394-8e4bd7e0e26c/16-9?territory=IT&md5ChecksumParam=2b48f6daf1ffa21f7dfff400a9b5e60f"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/d56a14b4-9051-4151-afba-4ecedfefe15f/COVER_TITLE_WIDE-SERIES?territory=IT&md5ChecksumParam=b6113bce9952733f634f615965ac960e"
-              }
-            }
-          ]
-        },
-        "eventId": "411281884",
-        "starttime": "2025-07-04T05:00:00Z",
-        "endtime": "2025-07-04T06:00:00Z",
-        "eventTitle": "La stanza degli hobby",
-        "eventSynopsis": "S4 Ep20 La stanza degli hobby - Sarena e Flare ne hanno abbastanza del loro appartamento. Hilary tenta di 'riaccendere' l'amore per l'abitazione, mentre David propone una nuova soluzione. Chi vincera'?",
-        "epgEventTitle": "S4 Ep20 - Love it or List it - Prendere o lasciare",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "1bbf0c50-2ffa-4c93-b6ac-c6665e710247",
-          "contentTitle": "Uno spazio per l'hockey",
-          "episodeNumber": 8,
-          "seasonNumber": 4,
-          "url": "/programmi-tv/reality-show/love-it-or-list-it-prendere-o-lasciare/stagione-4/episodio-8/1bbf0c50-2ffa-4c93-b6ac-c6665e710247",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 71,
-            "name": "Reality Show"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/1bbf0c50-2ffa-4c93-b6ac-c6665e710247/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e4e405494147186486fad8e81052f6d8"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/1bbf0c50-2ffa-4c93-b6ac-c6665e710247/background?territory=IT&md5ChecksumParam=2c0cc70cb58d02d40439ca3f98eb52c9"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/1bbf0c50-2ffa-4c93-b6ac-c6665e710247/cover?territory=IT&md5ChecksumParam=e4e405494147186486fad8e81052f6d8"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/1bbf0c50-2ffa-4c93-b6ac-c6665e710247/16-9?territory=IT&md5ChecksumParam=2b48f6daf1ffa21f7dfff400a9b5e60f"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/1bbf0c50-2ffa-4c93-b6ac-c6665e710247/COVER_TITLE_WIDE?territory=IT&version=0c26ee47-c345-302a-b557-bc8c6136b0c3&w=1920&h=1080&md5ChecksumParam=2cee6a6cee2dad7015c0476f219d45eb"
-              }
-            }
-          ]
-        },
-        "eventId": "411281887",
-        "starttime": "2025-07-04T06:00:00Z",
-        "endtime": "2025-07-04T07:00:00Z",
-        "eventTitle": "Uno spazio per l'hockey",
-        "eventSynopsis": "S4 Ep8 Uno spazio per l'hockey - Una famiglia vuole piu' spazio in casa per giocare a hockey. Riuscira' Hilary a creare un'area per i bambini, oppure David convincera' la famiglia ad optare per una nuova abitazione?",
-        "epgEventTitle": "S4 Ep8 - Love it or List it: Prendere o lasciare",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "5eca54db-277c-4e25-9a33-948ced9b5cd7",
-          "contentTitle": "Ep. 4",
-          "episodeNumber": 4,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/reality-show/brother-vs-brother/stagione-1/episodio-4/5eca54db-277c-4e25-9a33-948ced9b5cd7",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 71,
-            "name": "Reality Show"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/5eca54db-277c-4e25-9a33-948ced9b5cd7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16a10d6e6be30e3e35d696019146897e"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/5eca54db-277c-4e25-9a33-948ced9b5cd7/background?territory=IT&md5ChecksumParam=5ffbcab0706e4ad28b2c160a2cedd099"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/5eca54db-277c-4e25-9a33-948ced9b5cd7/cover?territory=IT&md5ChecksumParam=16a10d6e6be30e3e35d696019146897e"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/5eca54db-277c-4e25-9a33-948ced9b5cd7/16-9?territory=IT&md5ChecksumParam=7f897bf3deb1c7673a2859bfa75cf311"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/5eca54db-277c-4e25-9a33-948ced9b5cd7/COVER_TITLE_WIDE?territory=IT&version=0bab4688-ba83-37a7-a38b-993919992ff1&w=1920&h=1080&md5ChecksumParam=79e4d3ec1f0ed9de19e10e7085dc9177"
-              }
-            }
-          ]
-        },
-        "eventId": "411281892",
-        "starttime": "2025-07-04T07:00:00Z",
-        "endtime": "2025-07-04T08:00:00Z",
-        "eventTitle": "Ep. 4",
-        "eventSynopsis": "S1 Ep4 - Dieci concorrenti, guidati dai fratelli Jonathan e Drew tenteranno di diventare i nuovi esperti di design. Chi vincera' la competizione?",
-        "epgEventTitle": "S1 Ep4 - Brother vs. Brother",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "ed268d65-0636-4a0f-bf0a-c4e892e15446",
-          "contentTitle": "Tg News SkyTG24",
-          "episodeNumber": 0,
-          "url": "/programmi-tv/notiziario/tg-news-skytg24/ed268d65-0636-4a0f-bf0a-c4e892e15446",
-          "genre": {
-            "id": 5,
-            "name": "Informazione"
-          },
-          "subgenre": {
-            "id": 13,
-            "name": "Notiziario"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=656e826866e29e46ed4c98da56262573"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/background?territory=IT&md5ChecksumParam=3357101197a0db5b8ec0638112a326ae"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/cover?territory=IT&md5ChecksumParam=656e826866e29e46ed4c98da56262573"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/16-9?territory=IT&md5ChecksumParam=ed7797f11652ff65a0fac6a62b1561e7"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=45fec62a07c0832b0a34e1249fd04ed1"
-              }
-            }
-          ]
-        },
-        "eventId": "411281895",
-        "starttime": "2025-07-04T08:00:00Z",
-        "endtime": "2025-07-04T08:05:00Z",
-        "eventTitle": "Tg News SkyTG24",
-        "eventSynopsis": "Il telegiornale con le notizie piu' importanti del giorno.",
-        "epgEventTitle": "Tg News SkyTG24",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "9dc4fa07-465c-44c7-be3e-7420140f23c4",
-          "contentTitle": "Ep. 5",
-          "episodeNumber": 5,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/reality-show/brother-vs-brother/stagione-1/episodio-5/9dc4fa07-465c-44c7-be3e-7420140f23c4",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 71,
-            "name": "Reality Show"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/9dc4fa07-465c-44c7-be3e-7420140f23c4/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16a10d6e6be30e3e35d696019146897e"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/9dc4fa07-465c-44c7-be3e-7420140f23c4/background?territory=IT&md5ChecksumParam=5ffbcab0706e4ad28b2c160a2cedd099"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/9dc4fa07-465c-44c7-be3e-7420140f23c4/cover?territory=IT&md5ChecksumParam=16a10d6e6be30e3e35d696019146897e"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/9dc4fa07-465c-44c7-be3e-7420140f23c4/16-9?territory=IT&md5ChecksumParam=7f897bf3deb1c7673a2859bfa75cf311"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/9dc4fa07-465c-44c7-be3e-7420140f23c4/COVER_TITLE_WIDE?territory=IT&version=0bab4688-ba83-37a7-a38b-993919992ff1&w=1920&h=1080&md5ChecksumParam=79e4d3ec1f0ed9de19e10e7085dc9177"
-              }
-            }
-          ]
-        },
-        "eventId": "411281903",
-        "starttime": "2025-07-04T08:05:00Z",
-        "endtime": "2025-07-04T08:55:00Z",
-        "eventTitle": "Ep. 5",
-        "eventSynopsis": "S1 Ep5 - Dieci concorrenti, guidati dai fratelli Jonathan e Drew tenteranno di diventare i nuovi esperti di design. Chi vincera' la competizione?",
-        "epgEventTitle": "S1 Ep5 - Brother vs. Brother",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "6f552489-1379-468c-a5dc-f01902b1add9",
-          "contentTitle": "Casa contro casa – Anteprima",
-          "episodeNumber": 0,
-          "url": "/programmi-tv/show/casa-contro-casa-anteprima/6f552489-1379-468c-a5dc-f01902b1add9",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 23,
-            "name": "Show"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/6f552489-1379-468c-a5dc-f01902b1add9/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7a8377ec3d17d071dcbb8a57bc94bc78"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/6f552489-1379-468c-a5dc-f01902b1add9/background?territory=IT&md5ChecksumParam=f0748abc166562366763d0f5168147f0"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/6f552489-1379-468c-a5dc-f01902b1add9/cover?territory=IT&md5ChecksumParam=5d58c19d7e8a02a34caa1683afca05ef"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/6f552489-1379-468c-a5dc-f01902b1add9/16-9?territory=IT&md5ChecksumParam=bacaacb76f5f8b1b8f51158cbb4cb295"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/6f552489-1379-468c-a5dc-f01902b1add9/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=449317a9534a8972418d69d354716821"
-              }
-            }
-          ]
-        },
-        "eventId": "411344773",
-        "starttime": "2025-07-04T08:55:00Z",
-        "endtime": "2025-07-04T09:00:00Z",
-        "eventTitle": "Casa contro casa – Anteprima",
-        "eventSynopsis": "Fabrizio Zampetti, il Re dell'immobiliare, aiuta i suoi clienti a trovare la casa perfetta. Due duelli, una sola casa vincitrice: voleranno mattoni e scintille!",
-        "epgEventTitle": "Casa contro casa – Anteprima",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "b41d2d56-00f1-45e5-8da2-fc8cfca1b2ee",
-          "contentTitle": "Ep. 5",
-          "episodeNumber": 5,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/show/casa-contro-casa/stagione-1/episodio-5/b41d2d56-00f1-45e5-8da2-fc8cfca1b2ee",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 23,
-            "name": "Show"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/b41d2d56-00f1-45e5-8da2-fc8cfca1b2ee/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7a8377ec3d17d071dcbb8a57bc94bc78"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/b41d2d56-00f1-45e5-8da2-fc8cfca1b2ee/background?territory=IT&md5ChecksumParam=f0748abc166562366763d0f5168147f0"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/b41d2d56-00f1-45e5-8da2-fc8cfca1b2ee/cover?territory=IT&md5ChecksumParam=5d58c19d7e8a02a34caa1683afca05ef"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/b41d2d56-00f1-45e5-8da2-fc8cfca1b2ee/16-9?territory=IT&md5ChecksumParam=bacaacb76f5f8b1b8f51158cbb4cb295"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/b41d2d56-00f1-45e5-8da2-fc8cfca1b2ee/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=449317a9534a8972418d69d354716821"
-              }
-            }
-          ]
-        },
-        "eventId": "411281906",
-        "starttime": "2025-07-04T09:00:00Z",
-        "endtime": "2025-07-04T10:10:00Z",
-        "eventTitle": "Ep. 5",
-        "eventSynopsis": "S1 Ep5 - Fabrizio Zampetti, il Re dell'immobiliare, aiuta i suoi clienti a trovare la casa perfetta. Due duelli, una sola casa vincitrice: voleranno mattoni e scintille!",
-        "epgEventTitle": "S1 Ep5 - Casa contro casa",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "9ef6b966-22c5-4bd1-9fec-d325a10357f2",
-          "contentTitle": "Ep. 5",
-          "episodeNumber": 5,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/show/celebrity-masterchef-italia/stagione-1/episodio-5/9ef6b966-22c5-4bd1-9fec-d325a10357f2",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 23,
-            "name": "Show"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/9ef6b966-22c5-4bd1-9fec-d325a10357f2/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=792df4853f133047f0842f6ec31f3052"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/9ef6b966-22c5-4bd1-9fec-d325a10357f2/background?territory=IT&md5ChecksumParam=821466fbc3003bc2786d7ab7cbebd1da"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/9ef6b966-22c5-4bd1-9fec-d325a10357f2/cover?territory=IT&md5ChecksumParam=792df4853f133047f0842f6ec31f3052"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/9ef6b966-22c5-4bd1-9fec-d325a10357f2/16-9?territory=IT&md5ChecksumParam=95bd6ae9a6ee0a2543dbabd52fe9ef3b"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/9ef6b966-22c5-4bd1-9fec-d325a10357f2/COVER_TITLE_WIDE?territory=IT&version=faac8a99-5574-326e-b445-b4f45355b1c7&w=1920&h=1080&md5ChecksumParam=4516a0b43c26d143084d21cff265a914"
-              }
-            }
-          ]
-        },
-        "eventId": "411281911",
-        "starttime": "2025-07-04T10:10:00Z",
-        "endtime": "2025-07-04T11:30:00Z",
-        "eventTitle": "Ep. 5",
-        "eventSynopsis": "S1 Ep5 - I sette concorrenti rimasti devono confrontarsi con una nuova Mystery Box: cucinare un piatto basato sull'ingrediente piu' odiato, portato da un familiare o da un amico, con cui dovranno cucinare in staffetta. Solo il vincitore otterra' un vantaggio che potra' sfruttare nell'esotico Invention Test.",
-        "epgEventTitle": "S1 Ep5 - Celebrity MasterChef Italia",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "65aebeef-4ce4-4b19-9cf8-98ae423bf582",
-          "contentTitle": "Ep. 15",
-          "episodeNumber": 15,
-          "seasonNumber": 13,
-          "url": "/programmi-tv/reality-show/masterchef-italia/stagione-13/episodio-15/65aebeef-4ce4-4b19-9cf8-98ae423bf582",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 71,
-            "name": "Reality Show"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/65aebeef-4ce4-4b19-9cf8-98ae423bf582/COVER_CLEAN_TALL?territory=IT&version=ba294ffe-2e8f-3329-994f-12041208c1e3&w=600&h=800&md5ChecksumParam=221de1481503054e1c4907970832c3df"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/65aebeef-4ce4-4b19-9cf8-98ae423bf582/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=116881f9da1d544a332b41ff07677565"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/65aebeef-4ce4-4b19-9cf8-98ae423bf582/COVER_CLEAN_TALL?territory=IT&version=ba294ffe-2e8f-3329-994f-12041208c1e3&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=221de1481503054e1c4907970832c3df"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/65aebeef-4ce4-4b19-9cf8-98ae423bf582/background?territory=IT&md5ChecksumParam=e6c2c28131fa7225ab4a50ad35410275"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/65aebeef-4ce4-4b19-9cf8-98ae423bf582/cover?territory=IT&md5ChecksumParam=116881f9da1d544a332b41ff07677565"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/65aebeef-4ce4-4b19-9cf8-98ae423bf582/16-9?territory=IT&md5ChecksumParam=71c83bf07b3032113d98fbf17b4ef2f4"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/65aebeef-4ce4-4b19-9cf8-98ae423bf582/COVER_TITLE_WIDE?territory=IT&version=df4a4849-e794-37dc-8c52-4605589ba806&w=1920&h=1080&md5ChecksumParam=9732a4859af578e6afa6bdfc4e6a0b80"
-              }
-            }
-          ]
-        },
-        "eventId": "411281916",
-        "starttime": "2025-07-04T11:30:00Z",
-        "endtime": "2025-07-04T13:00:00Z",
-        "eventTitle": "Ep. 15",
-        "eventSynopsis": "S13 Ep15 - La Mystery Box di oggi consegna l'ultima Golden Pin dell'edizione. L'Invention Test mette alla prova gli aspiranti chef, pronti a una nottata insonne per un impasto speciale.",
-        "epgEventTitle": "S13 Ep15 - MasterChef Italia",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "6112131b-9e4e-45a8-9f12-53c2483c58a7",
-          "contentTitle": "Ep. 16",
-          "episodeNumber": 16,
-          "seasonNumber": 13,
-          "url": "/programmi-tv/reality-show/masterchef-italia/stagione-13/episodio-16/6112131b-9e4e-45a8-9f12-53c2483c58a7",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 71,
-            "name": "Reality Show"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/6112131b-9e4e-45a8-9f12-53c2483c58a7/COVER_CLEAN_TALL?territory=IT&version=ba294ffe-2e8f-3329-994f-12041208c1e3&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=221de1481503054e1c4907970832c3df"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6112131b-9e4e-45a8-9f12-53c2483c58a7/COVER_CLEAN_TALL?territory=IT&version=ba294ffe-2e8f-3329-994f-12041208c1e3&w=600&h=800&md5ChecksumParam=221de1481503054e1c4907970832c3df"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6112131b-9e4e-45a8-9f12-53c2483c58a7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=116881f9da1d544a332b41ff07677565"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/6112131b-9e4e-45a8-9f12-53c2483c58a7/background?territory=IT&md5ChecksumParam=e6c2c28131fa7225ab4a50ad35410275"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/6112131b-9e4e-45a8-9f12-53c2483c58a7/cover?territory=IT&md5ChecksumParam=116881f9da1d544a332b41ff07677565"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/6112131b-9e4e-45a8-9f12-53c2483c58a7/16-9?territory=IT&md5ChecksumParam=7ef7bd335f989d63893ea2cff016c7dc"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/6112131b-9e4e-45a8-9f12-53c2483c58a7/COVER_TITLE_WIDE?territory=IT&version=df4a4849-e794-37dc-8c52-4605589ba806&w=1920&h=1080&md5ChecksumParam=9732a4859af578e6afa6bdfc4e6a0b80"
-              }
-            }
-          ]
-        },
-        "eventId": "411281919",
-        "starttime": "2025-07-04T13:00:00Z",
-        "endtime": "2025-07-04T14:30:00Z",
-        "eventTitle": "Ep. 16",
-        "eventSynopsis": "S13 Ep16 - In Val di Chiana gli aspiranti chef affrontano una prova in Esterna mai vista nella storia di MasterChef: protagonista e' la brace. Quale brigata andra' al Pressure Test?",
-        "epgEventTitle": "S13 Ep16 - MasterChef Italia",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "eb7850f6-ccd3-4af4-87dd-ac06d2298ab7",
-          "contentTitle": "Il Porticciolo",
-          "episodeNumber": 7,
-          "seasonNumber": 9,
-          "url": "/programmi-tv/reality-show/cucine-da-incubo/stagione-9/episodio-7/eb7850f6-ccd3-4af4-87dd-ac06d2298ab7",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 71,
-            "name": "Reality Show"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/eb7850f6-ccd3-4af4-87dd-ac06d2298ab7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c7572041b4e0591cb27cd220cc1f7930"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/86214126-c475-4665-b337-2cea6db4e9fb/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=f93db0ff54ea24467ef868a33160f91a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/86214126-c475-4665-b337-2cea6db4e9fb/COVER_CLEAN_WIDE-SEASON?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f93db0ff54ea24467ef868a33160f91a"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/eb7850f6-ccd3-4af4-87dd-ac06d2298ab7/background?territory=IT&md5ChecksumParam=07de76e3485678f56d83621569c5bd36"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/eb7850f6-ccd3-4af4-87dd-ac06d2298ab7/cover?territory=IT&md5ChecksumParam=c7572041b4e0591cb27cd220cc1f7930"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/eb7850f6-ccd3-4af4-87dd-ac06d2298ab7/16-9?territory=IT&md5ChecksumParam=601e6d0e72352f5e0321e672c54f9375"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/86214126-c475-4665-b337-2cea6db4e9fb/COVER_TITLE_WIDE-SEASON?territory=IT&md5ChecksumParam=803d6e33a2372cf193e996e931214a80"
-              }
-            }
-          ]
-        },
-        "eventId": "411281925",
-        "starttime": "2025-07-04T14:30:00Z",
-        "endtime": "2025-07-04T15:45:00Z",
-        "eventTitle": "Il Porticciolo",
-        "eventSynopsis": "S9 Ep7 Il Porticciolo - A Porto Cesareo, in Puglia, Carmelina gestisce il Porticciolo, ma ha un pessimo rapporto con la cuoca. Antonino dovra' sistemare un menu' composto da piatti improbabili.",
-        "epgEventTitle": "S9 Ep7 - Cucine da incubo",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "32e75e53-e8b9-4985-a5c1-beac1d12b813",
-          "contentTitle": " Celebrity Chef - Anteprima ",
-          "episodeNumber": 0,
-          "url": "/programmi-tv/reality-show/celebrity-chef-anteprima/32e75e53-e8b9-4985-a5c1-beac1d12b813",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 71,
-            "name": "Reality Show"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/32e75e53-e8b9-4985-a5c1-beac1d12b813/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=d0cb4776b440f2d11426d2bc10451813"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/32e75e53-e8b9-4985-a5c1-beac1d12b813/background?territory=IT&md5ChecksumParam=052258e6ad14a123e40cbcb3dcd68847"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/32e75e53-e8b9-4985-a5c1-beac1d12b813/cover?territory=IT&md5ChecksumParam=d0cb4776b440f2d11426d2bc10451813"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/32e75e53-e8b9-4985-a5c1-beac1d12b813/16-9?territory=IT&md5ChecksumParam=e15bab157f13d01cf7ca5d83dcf4ee55"
-              }
-            }
-          ]
-        },
-        "eventId": "411281928",
-        "starttime": "2025-07-04T15:45:00Z",
-        "endtime": "2025-07-04T15:50:00Z",
-        "eventTitle": " Celebrity Chef - Anteprima ",
-        "eventSynopsis": "Alessandro Borghese apre le porte dei suoi ristoranti, milanese e veneziano, a due celebrities che con l'aiuto della brigata si sfideranno ai fornelli.",
-        "epgEventTitle": " Celebrity Chef - Anteprima ",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "83a21654-d9b1-4e79-8113-8b7967ddcf0b",
-          "contentTitle": "Ep. 53",
-          "episodeNumber": 53,
-          "seasonNumber": 2,
-          "url": "/programmi-tv/show/alessandro-borghese-celebrity-chef/stagione-2/episodio-53/83a21654-d9b1-4e79-8113-8b7967ddcf0b",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 23,
-            "name": "Show"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/83a21654-d9b1-4e79-8113-8b7967ddcf0b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3665b53f828e40fb298cae6456533b71"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/83a21654-d9b1-4e79-8113-8b7967ddcf0b/background?territory=IT&md5ChecksumParam=f871cf48574f432ae29ff99e0cf1525f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/83a21654-d9b1-4e79-8113-8b7967ddcf0b/cover?territory=IT&md5ChecksumParam=3665b53f828e40fb298cae6456533b71"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/83a21654-d9b1-4e79-8113-8b7967ddcf0b/16-9?territory=IT&md5ChecksumParam=878e71be27096c7fc1351fde0e60c1a5"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/eef27542-3ebc-465e-b881-af6e778a8c9b/COVER_TITLE_WIDE-SEASON?territory=IT&md5ChecksumParam=282d56dba26ac581fda6fa8052b183f5"
-              }
-            }
-          ]
-        },
-        "eventId": "411281933",
-        "starttime": "2025-07-04T15:50:00Z",
-        "endtime": "2025-07-04T17:00:00Z",
-        "eventTitle": "Ep. 53",
-        "eventSynopsis": "S2 Ep53 - Alessandro Borghese oggi apre le porte del suo ristorante milanese a Giulia De Lellis e Aldo Montano che con l'aiuto della brigata si sfideranno ai fornelli.",
-        "epgEventTitle": "S2 Ep53 - Alessandro Borghese - Celebrity Chef",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "4ba95508-0b78-483f-b997-cd9f8912ee91",
-          "contentTitle": "Vecchia Stazione",
-          "episodeNumber": 6,
-          "seasonNumber": 3,
-          "url": "/programmi-tv/reality-show/cucine-da-incubo/stagione-3/episodio-6/4ba95508-0b78-483f-b997-cd9f8912ee91",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 71,
-            "name": "Reality Show"
-          },
-          "imagesMap": [
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/4ba95508-0b78-483f-b997-cd9f8912ee91/background?territory=IT&md5ChecksumParam=d4516c9a808c72234c74ae1827319517"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/4ba95508-0b78-483f-b997-cd9f8912ee91/cover?territory=IT&md5ChecksumParam=3f127826961b2decac5d6f4dcd26f3e1"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/4ba95508-0b78-483f-b997-cd9f8912ee91/16-9?territory=IT&md5ChecksumParam=f6713e9829003481ec279a27eb7e1328"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/14da7321-7596-468c-8dee-7267fc2a7061/COVER_TITLE_WIDE-SEASON?territory=IT&md5ChecksumParam=3d4fb461177e000d099371820d74695b"
-              }
-            }
-          ]
-        },
-        "eventId": "411281938",
-        "starttime": "2025-07-04T17:00:00Z",
-        "endtime": "2025-07-04T18:00:00Z",
-        "eventTitle": "Vecchia Stazione",
-        "eventSynopsis": "S3 Ep6 Vecchia Stazione - Il ristorante La Vecchia Stazione attraversa da qualche anno un grave calo di popolarita'. Lo Chef Antonino Cannavacciuolo deve riportare l'entusiasmo dove ora regnano solo rassegnazione e tristezza.",
-        "epgEventTitle": "S3 Ep6 - Cucine da incubo",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "6b564503-b5b2-4cde-9b08-0f05eaf89140",
-          "contentTitle": "Tour de Chance",
-          "episodeNumber": 25,
-          "seasonNumber": 10,
-          "url": "/programmi-tv/reality-show/affari-al-buio/stagione-10/episodio-25/6b564503-b5b2-4cde-9b08-0f05eaf89140",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 71,
-            "name": "Reality Show"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/6b564503-b5b2-4cde-9b08-0f05eaf89140/COVER_CLEAN_TALL?territory=IT&version=dbdbf689-38f3-318b-8cb8-5d1a91e184ec&w=600&h=800&md5ChecksumParam=1914edc8fb9237563d0db8dbd5fe3033"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6b564503-b5b2-4cde-9b08-0f05eaf89140/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ba017c245a73f90b4ea55bf10ca873e1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6b564503-b5b2-4cde-9b08-0f05eaf89140/COVER_CLEAN_TALL?territory=IT&version=dbdbf689-38f3-318b-8cb8-5d1a91e184ec&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=1914edc8fb9237563d0db8dbd5fe3033"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/6b564503-b5b2-4cde-9b08-0f05eaf89140/background?territory=IT&md5ChecksumParam=65e64ef2568389a26342b2521f65823d"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/6b564503-b5b2-4cde-9b08-0f05eaf89140/cover?territory=IT&md5ChecksumParam=ba017c245a73f90b4ea55bf10ca873e1"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/6b564503-b5b2-4cde-9b08-0f05eaf89140/16-9?territory=IT&md5ChecksumParam=8bf089f6f58422a6c0df89d9493c91ed"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/6b564503-b5b2-4cde-9b08-0f05eaf89140/COVER_TITLE_WIDE?territory=IT&version=04ad8247-7760-34c6-920f-70f4c004aabc&w=1920&h=1080&md5ChecksumParam=ecc2287f61e574ab6f0d81b93b74d893"
-              }
-            }
-          ]
-        },
-        "eventId": "411281940",
-        "starttime": "2025-07-04T18:00:00Z",
-        "endtime": "2025-07-04T18:25:00Z",
-        "eventTitle": "Ep.25",
-        "eventSynopsis": "S10 Ep25 Tour de Chance - Alcuni compratori professionisti si recano nei magazzini e attendono di scoprire cosa si nasconde dietro la saracinesca. In pochi minuti dovranno decidere.",
-        "epgEventTitle": "S10 Ep25 - Affari al buio",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "cd7f9ff1-b92d-464b-bf19-03df8e39849e",
-          "contentTitle": "La Lincoln Roadster",
-          "episodeNumber": 16,
-          "seasonNumber": 6,
-          "url": "/programmi-tv/lifestyle/affari-di-famiglia/stagione-6/episodio-16/cd7f9ff1-b92d-464b-bf19-03df8e39849e",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 26,
-            "name": "Lifestyle"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/cd7f9ff1-b92d-464b-bf19-03df8e39849e/COVER_CLEAN_TALL?territory=IT&version=8ab1aee4-27b7-34a1-b26a-9279580c24f3&w=600&h=800&md5ChecksumParam=8d7970cc752260ea21463c655bed4b2f"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/cd7f9ff1-b92d-464b-bf19-03df8e39849e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0ae3a1194cf6d188f0d70ed2ffcebbe5"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/cd7f9ff1-b92d-464b-bf19-03df8e39849e/COVER_CLEAN_TALL?territory=IT&version=8ab1aee4-27b7-34a1-b26a-9279580c24f3&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=8d7970cc752260ea21463c655bed4b2f"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/cd7f9ff1-b92d-464b-bf19-03df8e39849e/background?territory=IT&md5ChecksumParam=de43dc5b7053dccc714d3195ea91186d"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/cd7f9ff1-b92d-464b-bf19-03df8e39849e/cover?territory=IT&md5ChecksumParam=0ae3a1194cf6d188f0d70ed2ffcebbe5"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/cd7f9ff1-b92d-464b-bf19-03df8e39849e/16-9?territory=IT&md5ChecksumParam=60cc4f17532a9cfaf25955ca692467cf"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/cd7f9ff1-b92d-464b-bf19-03df8e39849e/COVER_TITLE_WIDE?territory=IT&version=4288ab2b-338f-3f58-bfb5-88f58d5aeaa0&w=1920&h=1080&md5ChecksumParam=5c2236ef246379bfaa9f793c008e5668"
-              }
-            }
-          ]
-        },
-        "eventId": "411281941",
-        "starttime": "2025-07-04T18:25:00Z",
-        "endtime": "2025-07-04T18:50:00Z",
-        "eventTitle": "La Lincoln Roadster",
-        "eventSynopsis": "S6 Ep16 La Lincoln Roadster - I proprietari del negozio esaminano una Lincoln Roadster del 1932. Mantenuta in maniera eccellente, quanto sborseranno i ragazzi per assicurarsela?",
-        "epgEventTitle": "S6 Ep16 - Affari di famiglia",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "a147b1b8-2749-45e7-97c0-f6b72bc7c071",
-          "contentTitle": "Magnum P.I.",
-          "episodeNumber": 24,
-          "seasonNumber": 6,
-          "url": "/programmi-tv/lifestyle/affari-di-famiglia/stagione-6/episodio-24/a147b1b8-2749-45e7-97c0-f6b72bc7c071",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 26,
-            "name": "Lifestyle"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/a147b1b8-2749-45e7-97c0-f6b72bc7c071/COVER_CLEAN_TALL?territory=IT&version=8ab1aee4-27b7-34a1-b26a-9279580c24f3&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=8d7970cc752260ea21463c655bed4b2f"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/a147b1b8-2749-45e7-97c0-f6b72bc7c071/COVER_CLEAN_TALL?territory=IT&version=8ab1aee4-27b7-34a1-b26a-9279580c24f3&w=600&h=800&md5ChecksumParam=8d7970cc752260ea21463c655bed4b2f"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/a147b1b8-2749-45e7-97c0-f6b72bc7c071/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0ae3a1194cf6d188f0d70ed2ffcebbe5"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/a147b1b8-2749-45e7-97c0-f6b72bc7c071/background?territory=IT&md5ChecksumParam=de43dc5b7053dccc714d3195ea91186d"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/a147b1b8-2749-45e7-97c0-f6b72bc7c071/cover?territory=IT&md5ChecksumParam=0ae3a1194cf6d188f0d70ed2ffcebbe5"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/a147b1b8-2749-45e7-97c0-f6b72bc7c071/16-9?territory=IT&md5ChecksumParam=60cc4f17532a9cfaf25955ca692467cf"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/a147b1b8-2749-45e7-97c0-f6b72bc7c071/COVER_TITLE_WIDE?territory=IT&version=4288ab2b-338f-3f58-bfb5-88f58d5aeaa0&w=1920&h=1080&md5ChecksumParam=5c2236ef246379bfaa9f793c008e5668"
-              }
-            }
-          ]
-        },
-        "eventId": "411281942",
-        "starttime": "2025-07-04T18:50:00Z",
-        "endtime": "2025-07-04T19:20:00Z",
-        "eventTitle": "Magnum P.I.",
-        "eventSynopsis": "S6 Ep24 Magnum P.I. - I proprietari esaminano uno strumento usato durante le riprese di Magnum P.I. In seguito, al negozio arrivano alcune foto di un test sulla bomba atomica.",
-        "epgEventTitle": "S6 Ep24 - Affari di famiglia",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "07d62578-9546-4c7c-b5c9-8dc58c12087b",
-          "contentTitle": "La vita di Adele",
-          "url": "/film/drammatico/la-vita-di-adele/07d62578-9546-4c7c-b5c9-8dc58c12087b",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/07d62578-9546-4c7c-b5c9-8dc58c12087b/background?territory=IT&md5ChecksumParam=c312288b170a45131594eb52edc77a1f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/07d62578-9546-4c7c-b5c9-8dc58c12087b/cover?territory=IT&md5ChecksumParam=6761d18e179c16518b355335c7562859"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/07d62578-9546-4c7c-b5c9-8dc58c12087b/16-9?territory=IT&md5ChecksumParam=a5b3665ad33137ea1673cb4d470f6504"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/07d62578-9546-4c7c-b5c9-8dc58c12087b/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=794c20e45b61f3001ba31c242e5f769a"
-              }
-            }
-          ]
-        },
-        "eventId": "411281943",
-        "starttime": "2025-07-04T19:20:00Z",
-        "endtime": "2025-07-04T22:40:00Z",
-        "eventTitle": "La vita di Adele",
-        "eventSynopsis": "Palma d'oro a Cannes all'intensa pellicola con Lea Seydoux. Una liceale vive una focosa passione con Emma, intrigante coetanea dai capelli blu.",
-        "epgEventTitle": "La vita di Adele",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 8133,
-          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
-          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
-          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
-          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
-          "name": "cielo",
-          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
-          "number": 156,
-          "servicekey": "120",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "cb78ca82-b2eb-4972-93c2-87a317d4ef74",
-          "contentTitle": "Bliss - Attimi di piacere",
-          "url": "/film/drammatico/bliss-attimi-di-piacere/cb78ca82-b2eb-4972-93c2-87a317d4ef74",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/cb78ca82-b2eb-4972-93c2-87a317d4ef74/background?territory=IT&md5ChecksumParam=18e308a9de72e4d7baa0de0763f51c4e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/cb78ca82-b2eb-4972-93c2-87a317d4ef74/cover?territory=IT&md5ChecksumParam=c3d34eec275b7e4e35c4f13fe5d1f8f7"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/cb78ca82-b2eb-4972-93c2-87a317d4ef74/16-9?territory=IT&md5ChecksumParam=8fead0f7bc2eaebcb2594242e69151ed"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/cb78ca82-b2eb-4972-93c2-87a317d4ef74/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=cb11e580fafb573b3115b3d371ffd60d"
-              }
-            }
-          ]
-        },
-        "eventId": "411281944",
-        "starttime": "2025-07-04T22:40:00Z",
-        "endtime": "2025-07-05T00:25:00Z",
-        "eventTitle": "Bliss - Attimi di piacere",
-        "eventSynopsis": "Dopo essersi incontrate a Berlino, due prostitute si innamorano l'una dell'altra. Il loro amore pero' e' minacciato da paure e idee diverse.",
-        "epgEventTitle": "Bliss - Attimi di piacere",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
     "2025-07-05": [
       {
         "channel": {
@@ -2397,7 +435,7 @@
         },
         "eventId": "411281399",
         "starttime": "2025-07-05T04:30:00Z",
-        "endtime": "2025-07-05T05:00:00Z",
+        "endtime": "2025-07-05T04:55:00Z",
         "eventTitle": "TG24 mezz'ora",
         "eventSynopsis": "Telegiornale in diretta. I giornali di oggi, lo Sport, il Meteo.",
         "epgEventTitle": "TG24 mezz'ora",
@@ -2474,8 +512,8 @@
           ]
         },
         "eventId": "411476909",
-        "starttime": "2025-07-05T05:00:00Z",
-        "endtime": "2025-07-05T05:30:00Z",
+        "starttime": "2025-07-05T04:55:00Z",
+        "endtime": "2025-07-05T05:25:00Z",
         "eventTitle": "Ep. 13",
         "eventSynopsis": "... in grande. S3 Ep13 - Alcune persone vanno alla ricerca del loro 'mini-spazio' perfetto. Troveranno la mini-casa adatta al loro stile di vita?",
         "epgEventTitle": "S3 Ep16 - Tiny House - Piccole case per vivere...",
@@ -2546,7 +584,7 @@
           ]
         },
         "eventId": "411281401",
-        "starttime": "2025-07-05T05:30:00Z",
+        "starttime": "2025-07-05T05:25:00Z",
         "endtime": "2025-07-05T06:25:00Z",
         "eventTitle": "Un albergo da brividi",
         "eventSynopsis": "S4 Ep18 Un albergo da brividi - Hilary e David trovano pane per i loro denti quando incontrano l'agente immobiliare John e la moglie. I due sono divisi sulla scelta di una casa sulla spiaggia.",
@@ -2619,7 +657,7 @@
         },
         "eventId": "411281402",
         "starttime": "2025-07-05T06:25:00Z",
-        "endtime": "2025-07-05T07:20:00Z",
+        "endtime": "2025-07-05T07:25:00Z",
         "eventTitle": "Andiamo a vivere in città!",
         "eventSynopsis": "S4 Ep17 Andiamo a vivere in citta'! - Helen e i 4 figli lavorano a casa. Due figli vorrebbero trasferirsi mentre gli altri due preferirebbero rimanere. Hilary e David terranno la famiglia unita?",
         "epgEventTitle": "S4 Ep17 - Love it or List it - Prendere o lasciare",
@@ -2690,8 +728,8 @@
           ]
         },
         "eventId": "411281403",
-        "starttime": "2025-07-05T07:20:00Z",
-        "endtime": "2025-07-05T08:15:00Z",
+        "starttime": "2025-07-05T07:25:00Z",
+        "endtime": "2025-07-05T08:25:00Z",
         "eventTitle": "Una fidanzata in affitto",
         "eventSynopsis": "S4 Ep16 Una fidanzata in affitto - Dan e Rich trovano che i costi di mantenimento di una casa siano troppo alti per due persone. Hilary e David tenteranno di trovare la casa ideale per la coppia.",
         "epgEventTitle": "S4 Ep16 - Love it or List it - Prendere o lasciare",
@@ -2736,17 +774,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
               "img": {
                 "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=656e826866e29e46ed4c98da56262573"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -2776,8 +814,8 @@
           ]
         },
         "eventId": "411281404",
-        "starttime": "2025-07-05T08:15:00Z",
-        "endtime": "2025-07-05T08:20:00Z",
+        "starttime": "2025-07-05T08:25:00Z",
+        "endtime": "2025-07-05T08:30:00Z",
         "eventTitle": "Tg News SkyTG24",
         "eventSynopsis": "Il telegiornale con le notizie piu' importanti del giorno.",
         "epgEventTitle": "Tg News SkyTG24",
@@ -2852,8 +890,8 @@
           ]
         },
         "eventId": "411344784",
-        "starttime": "2025-07-05T08:20:00Z",
-        "endtime": "2025-07-05T08:25:00Z",
+        "starttime": "2025-07-05T08:30:00Z",
+        "endtime": "2025-07-05T08:35:00Z",
         "eventTitle": "Casa contro casa – Anteprima",
         "eventSynopsis": "Fabrizio Zampetti, il Re dell'immobiliare, aiuta i suoi clienti a trovare la casa perfetta. Due duelli, una sola casa vincitrice: voleranno mattoni e scintille!",
         "epgEventTitle": "Casa contro casa – Anteprima",
@@ -2939,7 +977,7 @@
           ]
         },
         "eventId": "411281405",
-        "starttime": "2025-07-05T08:25:00Z",
+        "starttime": "2025-07-05T08:35:00Z",
         "endtime": "2025-07-05T09:40:00Z",
         "eventTitle": "Casa Contro Casa - Stag. Casa Contro Casa S.1 - Casa Contro Casa S.1 Ep.01",
         "eventSynopsis": "S1 Ep1 - Fabrizio Zampetti, il Re dell'immobiliare, aiuta i suoi clienti a trovare la casa perfetta. Due duelli, una sola casa vincitrice: voleranno mattoni e scintille!",
@@ -3012,7 +1050,7 @@
         },
         "eventId": "411281406",
         "starttime": "2025-07-05T09:40:00Z",
-        "endtime": "2025-07-05T10:45:00Z",
+        "endtime": "2025-07-05T10:40:00Z",
         "eventTitle": "Vecchia Stazione",
         "eventSynopsis": "S3 Ep6 Vecchia Stazione - Il ristorante La Vecchia Stazione attraversa da qualche anno un grave calo di popolarita'. Lo Chef Antonino Cannavacciuolo deve riportare l'entusiasmo dove ora regnano solo rassegnazione e tristezza.",
         "epgEventTitle": "S3 Ep6 - Cucine da incubo",
@@ -3098,7 +1136,7 @@
           ]
         },
         "eventId": "411281407",
-        "starttime": "2025-07-05T10:45:00Z",
+        "starttime": "2025-07-05T10:40:00Z",
         "endtime": "2025-07-05T12:00:00Z",
         "eventTitle": "Al Veliero",
         "eventSynopsis": "S9 Ep3 Al Veliero - A Misilmeri, alle porte di Palermo, Simone e sua moglie Grazia gestiscono un ristorante. Antonino dovra' trasformare l'approccio negativo di Grazia in un pensiero costruttivo.",
@@ -3186,7 +1224,7 @@
         },
         "eventId": "411281408",
         "starttime": "2025-07-05T12:00:00Z",
-        "endtime": "2025-07-05T14:00:00Z",
+        "endtime": "2025-07-05T13:50:00Z",
         "eventTitle": "Ep. 6",
         "eventSynopsis": "S1 Ep6 - La Compagnia delle Tentazioni e' giunta alla fine dell'esperimento sociale: chi di loro avra' la possibilita' di dividersi il montepremi finale?",
         "epgEventTitle": "S1 Ep6 - Money Road: Ogni tentazione ha un prezzo",
@@ -3257,8 +1295,8 @@
           ]
         },
         "eventId": "411476910",
-        "starttime": "2025-07-05T14:00:00Z",
-        "endtime": "2025-07-05T14:55:00Z",
+        "starttime": "2025-07-05T13:50:00Z",
+        "endtime": "2025-07-05T14:30:00Z",
         "eventTitle": "La Foggia",
         "eventSynopsis": "S3 Ep5 La Foggia - Fratello chef e sorella caposala sono divisi da liti e incomprensioni. Lo Chef Antonino Cannavacciuolo deve farli calare l'uno nei panni dell'altra e rilanciare un ristorante ormai fuori controllo.",
         "epgEventTitle": "S3 Ep5 - Cucine da incubo",
@@ -3329,8 +1367,8 @@
           ]
         },
         "eventId": "411281409",
-        "starttime": "2025-07-05T14:55:00Z",
-        "endtime": "2025-07-05T15:50:00Z",
+        "starttime": "2025-07-05T14:30:00Z",
+        "endtime": "2025-07-05T15:30:00Z",
         "eventTitle": "L'Antica Toscana",
         "eventSynopsis": "S3 Ep4 L'Antica Toscana - Un padre despota che semina panico nello staff. Un giovane titolare molto volenteroso, ma privo di esperienza e del carattere per imporsi. Lo Chef Antonino Cannavacciuolo deve riportare serenita' e fiducia.",
         "epgEventTitle": "S3 Ep4 - Cucine da incubo",
@@ -3401,8 +1439,8 @@
           ]
         },
         "eventId": "411281410",
-        "starttime": "2025-07-05T15:50:00Z",
-        "endtime": "2025-07-05T16:45:00Z",
+        "starttime": "2025-07-05T15:30:00Z",
+        "endtime": "2025-07-05T16:25:00Z",
         "eventTitle": "La Fontanina",
         "eventSynopsis": "S3 Ep3 La Fontanina - Due giovani fratelli alla guida di un ristorante nel quartiere Centocelle di Roma. Lo Chef Antonino Cannavacciuolo deve correggere una strategia di marketing che riempie il locale, ma svuota la cassa.",
         "epgEventTitle": "S3 Ep3 - Cucine da incubo",
@@ -3473,8 +1511,8 @@
           ]
         },
         "eventId": "411281411",
-        "starttime": "2025-07-05T16:45:00Z",
-        "endtime": "2025-07-05T17:40:00Z",
+        "starttime": "2025-07-05T16:25:00Z",
+        "endtime": "2025-07-05T17:20:00Z",
         "eventTitle": "A Lanterna",
         "eventSynopsis": "S3 Ep2 A Lanterna - 'A Lanterna' di Genova e' il ristorante gestito dalla Comunita' di San Benedetto al Porto di Genova, fondata da Don Andrea Gallo. Lo Chef Antonino Cannavacciuolo deve reindirizzarli sulla retta via.",
         "epgEventTitle": "S3 Ep2 - Cucine da incubo",
@@ -3545,8 +1583,8 @@
           ]
         },
         "eventId": "411281412",
-        "starttime": "2025-07-05T17:40:00Z",
-        "endtime": "2025-07-05T18:05:00Z",
+        "starttime": "2025-07-05T17:20:00Z",
+        "endtime": "2025-07-05T17:50:00Z",
         "eventTitle": "Ep.21",
         "eventSynopsis": "S10 Ep21 - Alcuni compratori professionisti si recano nei magazzini e attendono di scoprire cosa si nasconde dietro la saracinesca. In pochi minuti dovranno decidere.",
         "epgEventTitle": "S10 Ep21 - Ep.21",
@@ -3592,17 +1630,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/371c4804-4a58-4318-80ff-dfdb40e5496d/COVER_CLEAN_TALL?territory=IT&version=dbdbf689-38f3-318b-8cb8-5d1a91e184ec&w=600&h=800&md5ChecksumParam=1914edc8fb9237563d0db8dbd5fe3033"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/371c4804-4a58-4318-80ff-dfdb40e5496d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ba017c245a73f90b4ea55bf10ca873e1"
               }
             },
             {
               "img": {
                 "url": "/uuid/371c4804-4a58-4318-80ff-dfdb40e5496d/COVER_CLEAN_TALL?territory=IT&version=dbdbf689-38f3-318b-8cb8-5d1a91e184ec&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=1914edc8fb9237563d0db8dbd5fe3033"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/371c4804-4a58-4318-80ff-dfdb40e5496d/COVER_CLEAN_TALL?territory=IT&version=dbdbf689-38f3-318b-8cb8-5d1a91e184ec&w=600&h=800&md5ChecksumParam=1914edc8fb9237563d0db8dbd5fe3033"
               }
             },
             {
@@ -3632,8 +1670,8 @@
           ]
         },
         "eventId": "411281413",
-        "starttime": "2025-07-05T18:05:00Z",
-        "endtime": "2025-07-05T18:30:00Z",
+        "starttime": "2025-07-05T17:50:00Z",
+        "endtime": "2025-07-05T18:20:00Z",
         "eventTitle": "Ep.22",
         "eventSynopsis": "S10 Ep22 La teoria del proiettile magico - Alcuni compratori professionisti si recano nei magazzini e attendono di scoprire cosa si nasconde dietro la saracinesca. In pochi minuti dovranno decidere.",
         "epgEventTitle": "S10 Ep22 - Affari al buio",
@@ -3704,8 +1742,8 @@
           ]
         },
         "eventId": "411281414",
-        "starttime": "2025-07-05T18:30:00Z",
-        "endtime": "2025-07-05T18:55:00Z",
+        "starttime": "2025-07-05T18:20:00Z",
+        "endtime": "2025-07-05T18:50:00Z",
         "eventTitle": "Offerta sexy",
         "eventSynopsis": "S6 Ep4 Offerta sexy - Un uomo arriva al negozio sperando di vendere un uniforme originale di coniglietta di Playboy degli anni '60. I ragazzi saranno pronti per un'offerta 'sexy'?",
         "epgEventTitle": "S6 Ep11 - Affari di famiglia",
@@ -3776,7 +1814,7 @@
           ]
         },
         "eventId": "411281415",
-        "starttime": "2025-07-05T18:55:00Z",
+        "starttime": "2025-07-05T18:50:00Z",
         "endtime": "2025-07-05T19:20:00Z",
         "eventTitle": "I referti di Elvis",
         "eventSynopsis": "S6 Ep11 I referti di Elvis - I proprietari tentano di acquistare una Colt.45 del 1890. In seguito un uomo porta alcuni referti medici di una leggenda del Rock&Roll: Elvis Presley.",
@@ -3862,7 +1900,7 @@
         },
         "eventId": "411281416",
         "starttime": "2025-07-05T19:20:00Z",
-        "endtime": "2025-07-05T21:15:00Z",
+        "endtime": "2025-07-05T21:05:00Z",
         "eventTitle": "Manhattan Gigolo'",
         "eventSynopsis": "Due aspiranti attori, in cerca di lavoro a New York, incontrano una modella con la quale intraprendono una promiscua relazione.",
         "epgEventTitle": "Manhattan Gigolo'",
@@ -3907,17 +1945,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/cb03de24-f837-4c87-a2c9-f17cead20285/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9aa01e3772bcbca6a66c9bcb684b60bf"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/cb03de24-f837-4c87-a2c9-f17cead20285/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f79e5461c2e60d42b22ed37966521f66"
               }
             },
             {
               "img": {
                 "url": "/uuid/cb03de24-f837-4c87-a2c9-f17cead20285/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=9aa01e3772bcbca6a66c9bcb684b60bf"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/cb03de24-f837-4c87-a2c9-f17cead20285/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9aa01e3772bcbca6a66c9bcb684b60bf"
               }
             },
             {
@@ -3947,8 +1985,8 @@
           ]
         },
         "eventId": "411281417",
-        "starttime": "2025-07-05T21:15:00Z",
-        "endtime": "2025-07-05T22:10:00Z",
+        "starttime": "2025-07-05T21:05:00Z",
+        "endtime": "2025-07-05T22:05:00Z",
         "eventTitle": "Paradise Club: il mega bordello",
         "eventSynopsis": "Un'indagine sui 'mega bordelli', in cui centinaia di ragazze esercitano la loro professione. Quali sono le sfide legate alla legalizzazione di un tema considerato ancora tabu' da molti Paesi?",
         "epgEventTitle": "Paradise Club: il mega bordello",
@@ -4017,8 +2055,8 @@
           ]
         },
         "eventId": "411281418",
-        "starttime": "2025-07-05T22:10:00Z",
-        "endtime": "2025-07-06T00:00:00Z",
+        "starttime": "2025-07-05T22:05:00Z",
+        "endtime": "2025-07-05T23:40:00Z",
         "eventTitle": "I Sarno - Una vita nel porno",
         "eventSynopsis": "Seguiamo la rocambolesca carriera di Joe Sarno, misconosciuto regista pioniere dei film \"soft core\" che, prima dell'avvento del porno, riempivano i cinemini newyorkesi sulla 42esima strada negli anni '60.",
         "epgEventTitle": "I Sarno - Una vita nel porno",
@@ -4029,9 +2067,7 @@
             "value": false
           }
         ]
-      }
-    ],
-    "2025-07-06": [
+      },
       {
         "channel": {
           "id": 8133,
@@ -4096,8 +2132,8 @@
           ]
         },
         "eventId": "411281419",
-        "starttime": "2025-07-06T00:00:00Z",
-        "endtime": "2025-07-06T01:00:00Z",
+        "starttime": "2025-07-05T23:40:00Z",
+        "endtime": "2025-07-06T00:40:00Z",
         "eventTitle": "Oltre la monogamia",
         "eventSynopsis": "S1 Ep5 Oltre la monogamia - E' tempo di andare oltre il concetto di monogamia. Cara fa un test del DNA e una scansione cerebrale per svelare la scienza segreta dell'amore.",
         "epgEventTitle": "S1 Ep5 - Planet Sex con Cara Delevingne",
@@ -4108,7 +2144,9 @@
             "value": false
           }
         ]
-      },
+      }
+    ],
+    "2025-07-06": [
       {
         "channel": {
           "id": 8133,
@@ -4147,12 +2185,12 @@
             },
             {
               "img": {
-                "url": "/uuid/cef9cf39-c4c9-4c86-88f6-57ea1a91a399/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4b8a42e6adbd31f646e9905753d121aa"
+                "url": "/uuid/cef9cf39-c4c9-4c86-88f6-57ea1a91a399/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=140fc28dff871cf73d2664876a8e9a4a"
               }
             },
             {
               "img": {
-                "url": "/uuid/cef9cf39-c4c9-4c86-88f6-57ea1a91a399/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=140fc28dff871cf73d2664876a8e9a4a"
+                "url": "/uuid/cef9cf39-c4c9-4c86-88f6-57ea1a91a399/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4b8a42e6adbd31f646e9905753d121aa"
               }
             },
             {
@@ -4182,8 +2220,8 @@
           ]
         },
         "eventId": "411281420",
-        "starttime": "2025-07-06T01:00:00Z",
-        "endtime": "2025-07-06T02:00:00Z",
+        "starttime": "2025-07-06T00:40:00Z",
+        "endtime": "2025-07-06T01:55:00Z",
         "eventTitle": "The Sex Police",
         "eventSynopsis": "Nei Paesi Bassi, seguiamo una squadra speciale di polizia durante le visite nei quartieri a luci rosse, per contrastare il fenomeno della prostituzione non volontaria.",
         "epgEventTitle": "The Sex Police",
@@ -4254,11 +2292,83 @@
           ]
         },
         "eventId": "411281421",
-        "starttime": "2025-07-06T02:00:00Z",
-        "endtime": "2025-07-06T03:00:00Z",
+        "starttime": "2025-07-06T01:55:00Z",
+        "endtime": "2025-07-06T02:35:00Z",
         "eventTitle": "Ep. 2",
         "eventSynopsis": "S1 Ep2 - Numerosi giovani avranno la possibilita' di sentirsi finalmente liberi di porre domande su qualsiasi aspetto del sesso. Grazie all'aiuto di video dimostrativi, alcuni esperti risponderanno ai loro quesiti.",
         "epgEventTitle": "S1 Ep2 - Sex Pod - Quanto ne sai sul sesso?",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 8133,
+          "logo": "/logo/120cielo_Light_Fit.png?checksum=0e2ccaf0-752f-44f6-b273-9aad1e4edadf",
+          "logoPadding": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
+          "logoDark": "/logo/120cielo_Dark_Fit.png?checksum=1241357c-62c0-4c0a-b81e-c7506691a9b6",
+          "logoDarkPadding": "/logo/120cielo_Dark_Padding.png?checksum=0420d7c9-752e-4fc5-837c-0f856aa250f9",
+          "logoLight": "/logo/120cielo_Light_Padding.png?checksum=88b96893-01ee-40b2-b801-94505f71614d",
+          "name": "cielo",
+          "description": "Il canale tv dedicato a film, documentari, sport, show e tanto altro. Canale Sky Glass 136.",
+          "number": 156,
+          "servicekey": "120",
+          "category": {
+            "id": 3,
+            "name": "Intrattenimento"
+          }
+        },
+        "content": {
+          "uuid": "8ff4c963-f970-4f36-bf76-44da0c4fbf1f",
+          "contentTitle": "Ep. 1",
+          "episodeNumber": 1,
+          "seasonNumber": 2,
+          "url": "/programmi-tv/documentario/sexplora/stagione-2/episodio-1/8ff4c963-f970-4f36-bf76-44da0c4fbf1f",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 40,
+            "name": "Documentario"
+          },
+          "imagesMap": [
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/8ff4c963-f970-4f36-bf76-44da0c4fbf1f/background?territory=IT&md5ChecksumParam=edb521cfe16f8f024b45ed0b31ee01af"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/8ff4c963-f970-4f36-bf76-44da0c4fbf1f/cover?territory=IT&md5ChecksumParam=2777b80a2c8478c3a056dfe8c003b78a"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/8ff4c963-f970-4f36-bf76-44da0c4fbf1f/16-9?territory=IT&md5ChecksumParam=01c31905c5fb6335a19f7d19058a86f3"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411476911",
+        "starttime": "2025-07-06T02:35:00Z",
+        "endtime": "2025-07-06T03:00:00Z",
+        "eventTitle": "Ep. 1",
+        "eventSynopsis": "S2 Ep1 - Analizziamo le diverse sfaccettature del sesso e di come viene percepito e vissuto nelle varie culture con l'aiuto della scienza e di aneddoti curiosi.",
+        "epgEventTitle": "S2 Ep1 - Sexplora",
         "primeVision": false,
         "resolutions": [
           {
@@ -4485,7 +2595,7 @@
         },
         "eventId": "411281613",
         "starttime": "2025-07-06T04:30:00Z",
-        "endtime": "2025-07-06T05:00:00Z",
+        "endtime": "2025-07-06T04:55:00Z",
         "eventTitle": "TG24 mezz'ora",
         "eventSynopsis": "Telegiornale in diretta. I giornali di oggi, lo Sport, il Meteo.",
         "epgEventTitle": "TG24 mezz'ora",
@@ -4532,17 +2642,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/6b564503-b5b2-4cde-9b08-0f05eaf89140/COVER_CLEAN_TALL?territory=IT&version=dbdbf689-38f3-318b-8cb8-5d1a91e184ec&w=600&h=800&md5ChecksumParam=1914edc8fb9237563d0db8dbd5fe3033"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/6b564503-b5b2-4cde-9b08-0f05eaf89140/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ba017c245a73f90b4ea55bf10ca873e1"
               }
             },
             {
               "img": {
                 "url": "/uuid/6b564503-b5b2-4cde-9b08-0f05eaf89140/COVER_CLEAN_TALL?territory=IT&version=dbdbf689-38f3-318b-8cb8-5d1a91e184ec&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=1914edc8fb9237563d0db8dbd5fe3033"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6b564503-b5b2-4cde-9b08-0f05eaf89140/COVER_CLEAN_TALL?territory=IT&version=dbdbf689-38f3-318b-8cb8-5d1a91e184ec&w=600&h=800&md5ChecksumParam=1914edc8fb9237563d0db8dbd5fe3033"
               }
             },
             {
@@ -4572,8 +2682,8 @@
           ]
         },
         "eventId": "411281614",
-        "starttime": "2025-07-06T05:00:00Z",
-        "endtime": "2025-07-06T05:30:00Z",
+        "starttime": "2025-07-06T04:55:00Z",
+        "endtime": "2025-07-06T05:25:00Z",
         "eventTitle": "Ep.25",
         "eventSynopsis": "S10 Ep25 Tour de Chance - Alcuni compratori professionisti si recano nei magazzini e attendono di scoprire cosa si nasconde dietro la saracinesca. In pochi minuti dovranno decidere.",
         "epgEventTitle": "S10 Ep25 - Affari al buio",
@@ -4644,7 +2754,7 @@
           ]
         },
         "eventId": "411281615",
-        "starttime": "2025-07-06T05:30:00Z",
+        "starttime": "2025-07-06T05:25:00Z",
         "endtime": "2025-07-06T06:30:00Z",
         "eventTitle": "Ep.3",
         "eventSynopsis": "S1 Ep3 - Si raccontano storie straordinarie di persone comuni sopravvissute a situazioni ostili. Analizziamo le difficolta' che hanno affrontato e gli sforzi fisici che hanno dovuto compiere per lottare e rimanere in vita.",
@@ -4722,7 +2832,7 @@
         },
         "eventId": "411281617",
         "starttime": "2025-07-06T06:30:00Z",
-        "endtime": "2025-07-06T07:10:00Z",
+        "endtime": "2025-07-06T07:05:00Z",
         "eventTitle": "Ep.47",
         "eventSynopsis": "Ep.47 - Avventure, sfide, imprese e curiosita' dal mondo degli sport outdoor: da 18 anni Icarus Ultra racconta storie straordinarie di donne e uomini ordinari.",
         "epgEventTitle": "Ep.47",
@@ -4793,8 +2903,8 @@
           ]
         },
         "eventId": "411281619",
-        "starttime": "2025-07-06T07:10:00Z",
-        "endtime": "2025-07-06T08:10:00Z",
+        "starttime": "2025-07-06T07:05:00Z",
+        "endtime": "2025-07-06T08:05:00Z",
         "eventTitle": "Ep. 17",
         "eventSynopsis": "S5 Ep17 - Le nuove classifiche delle clip piu' straordinarie mai viste in televisione. Incidenti, salvataggi, esplosioni, situazioni incredibili e tanta adrenalina.",
         "epgEventTitle": "S5 Ep17 - House of Gag",
@@ -4839,17 +2949,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
               "img": {
                 "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=656e826866e29e46ed4c98da56262573"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -4879,7 +2989,7 @@
           ]
         },
         "eventId": "411281621",
-        "starttime": "2025-07-06T08:10:00Z",
+        "starttime": "2025-07-06T08:05:00Z",
         "endtime": "2025-07-06T08:15:00Z",
         "eventTitle": "Tg News SkyTG24",
         "eventSynopsis": "Il telegiornale con le notizie piu' importanti del giorno.",
@@ -5029,7 +3139,7 @@
         },
         "eventId": "411281625",
         "starttime": "2025-07-06T09:15:00Z",
-        "endtime": "2025-07-06T10:10:00Z",
+        "endtime": "2025-07-06T10:15:00Z",
         "eventTitle": "Ep. 2",
         "eventSynopsis": "S1 Ep2 - Il gioco a premi vede otto concorrenti utilizzare il proprio corpo per colpire il centro di un bersaglio, posizionato sulla terraferma, nel mare o in aria.",
         "epgEventTitle": "S1 Ep2 - Bullseye",
@@ -5105,8 +3215,8 @@
           ]
         },
         "eventId": "411281627",
-        "starttime": "2025-07-06T10:10:00Z",
-        "endtime": "2025-07-06T11:05:00Z",
+        "starttime": "2025-07-06T10:15:00Z",
+        "endtime": "2025-07-06T11:10:00Z",
         "eventTitle": "Ep. 4",
         "eventSynopsis": "S4 Ep4 - Un gruppo di diversi concorrenti, formato da uomini e donne, si cimenta in difficili sfide fisiche. Presenta Steve Austin.",
         "epgEventTitle": "S4 Ep4 - Steve Austin - Sfida implacabile",
@@ -5182,8 +3292,8 @@
           ]
         },
         "eventId": "411281628",
-        "starttime": "2025-07-06T11:05:00Z",
-        "endtime": "2025-07-06T12:00:00Z",
+        "starttime": "2025-07-06T11:10:00Z",
+        "endtime": "2025-07-06T12:05:00Z",
         "eventTitle": "Ep. 5",
         "eventSynopsis": "S4 Ep5 - Un gruppo di diversi concorrenti, formato da uomini e donne, si cimenta in difficili sfide fisiche. Presenta Steve Austin.",
         "epgEventTitle": "S4 Ep5 - Steve Austin - Sfida implacabile",
@@ -5227,17 +3337,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/7e969124-8e6e-4e38-a446-70e545330e88/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1723aa14dffdbd2ed3d5686c98a91a73"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/7e969124-8e6e-4e38-a446-70e545330e88/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f0d300aa9157a782d176a2863d618d44"
               }
             },
             {
               "img": {
                 "url": "/uuid/7e969124-8e6e-4e38-a446-70e545330e88/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1723aa14dffdbd2ed3d5686c98a91a73"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/7e969124-8e6e-4e38-a446-70e545330e88/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1723aa14dffdbd2ed3d5686c98a91a73"
               }
             },
             {
@@ -5267,8 +3377,8 @@
           ]
         },
         "eventId": "411281631",
-        "starttime": "2025-07-06T12:00:00Z",
-        "endtime": "2025-07-06T13:55:00Z",
+        "starttime": "2025-07-06T12:05:00Z",
+        "endtime": "2025-07-06T13:50:00Z",
         "eventTitle": "Attrition",
         "eventSynopsis": "Steven Seagal in un action ambientato in Thailandia. Una ragazza dotata di poteri speciali viene rapita. Un ex soldato esperto di arti marziali riceve l'incarico di ritrovarla.",
         "epgEventTitle": "Attrition",
@@ -5337,8 +3447,8 @@
           ]
         },
         "eventId": "411281633",
-        "starttime": "2025-07-06T13:55:00Z",
-        "endtime": "2025-07-06T15:50:00Z",
+        "starttime": "2025-07-06T13:50:00Z",
+        "endtime": "2025-07-06T15:25:00Z",
         "eventTitle": "Fuoco mortale",
         "eventSynopsis": "Una cuoca ex agente del KGB usa le sue abilita' letali per salvare il suo ristorante, che e' preso di mira dalla mafia. Quest'ultima minaccia con l'intenzione di riscuote un debito del marito.",
         "epgEventTitle": "Fuoco mortale",
@@ -5422,8 +3532,8 @@
           ]
         },
         "eventId": "411281635",
-        "starttime": "2025-07-06T15:50:00Z",
-        "endtime": "2025-07-06T17:40:00Z",
+        "starttime": "2025-07-06T15:25:00Z",
+        "endtime": "2025-07-06T17:15:00Z",
         "eventTitle": "Solar Attack",
         "eventSynopsis": "Il premio Oscar Louis Gossett Jr. in un fantathriller catastrofico dal regista di \"Stonehenge Apocalypse\". L'esplosione di un satellite durante una controversa missione spaziale svela l'inquietante metamorfosi della superficie solare. L'intero genere umano rischia l'estinzione.",
         "epgEventTitle": "Solar Attack",
@@ -5494,8 +3604,8 @@
           ]
         },
         "eventId": "411281637",
-        "starttime": "2025-07-06T17:40:00Z",
-        "endtime": "2025-07-06T18:05:00Z",
+        "starttime": "2025-07-06T17:15:00Z",
+        "endtime": "2025-07-06T17:45:00Z",
         "eventTitle": "Ep.23",
         "eventSynopsis": "S10 Ep23 Io, me e Ivy - Gli acquirenti sono pronti per una nuova sfida. Darrell e' disposto a scendere a compromessi, mentre Ivy vede aumentare le sue possibilita'.",
         "epgEventTitle": "S10 Ep23 - Affari al buio",
@@ -5566,8 +3676,8 @@
           ]
         },
         "eventId": "411281639",
-        "starttime": "2025-07-06T18:05:00Z",
-        "endtime": "2025-07-06T18:30:00Z",
+        "starttime": "2025-07-06T17:45:00Z",
+        "endtime": "2025-07-06T18:15:00Z",
         "eventTitle": "Ep.24",
         "eventSynopsis": "S10 Ep24 - Alcuni compratori professionisti si recano nei magazzini e attendono di scoprire cosa si nasconde dietro la saracinesca. In pochi minuti dovranno decidere.",
         "epgEventTitle": "S10 Ep24 - Ep.24",
@@ -5613,12 +3723,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/245794a7-3d58-4c7a-8c37-0179d3f65af1/COVER_CLEAN_TALL?territory=IT&version=8ab1aee4-27b7-34a1-b26a-9279580c24f3&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=8d7970cc752260ea21463c655bed4b2f"
+                "url": "/uuid/245794a7-3d58-4c7a-8c37-0179d3f65af1/COVER_CLEAN_TALL?territory=IT&version=8ab1aee4-27b7-34a1-b26a-9279580c24f3&w=600&h=800&md5ChecksumParam=8d7970cc752260ea21463c655bed4b2f"
               }
             },
             {
               "img": {
-                "url": "/uuid/245794a7-3d58-4c7a-8c37-0179d3f65af1/COVER_CLEAN_TALL?territory=IT&version=8ab1aee4-27b7-34a1-b26a-9279580c24f3&w=600&h=800&md5ChecksumParam=8d7970cc752260ea21463c655bed4b2f"
+                "url": "/uuid/245794a7-3d58-4c7a-8c37-0179d3f65af1/COVER_CLEAN_TALL?territory=IT&version=8ab1aee4-27b7-34a1-b26a-9279580c24f3&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=8d7970cc752260ea21463c655bed4b2f"
               }
             },
             {
@@ -5653,8 +3763,8 @@
           ]
         },
         "eventId": "411281643",
-        "starttime": "2025-07-06T18:30:00Z",
-        "endtime": "2025-07-06T18:55:00Z",
+        "starttime": "2025-07-06T18:15:00Z",
+        "endtime": "2025-07-06T18:45:00Z",
         "eventTitle": "La festa del papà",
         "eventSynopsis": "S6 Ep11 La festa del papa' - Ai proprietari viene proposto l'acquisto di un documento firmato da John Hancock. Intanto Rick e' a caccia del regalo giusto per il vecchio Richard.",
         "epgEventTitle": "S6 Ep11 - Affari di famiglia",
@@ -5700,17 +3810,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/16a0ab98-15c7-4053-bc8a-78bc0d310795/COVER_CLEAN_TALL?territory=IT&version=8ab1aee4-27b7-34a1-b26a-9279580c24f3&w=600&h=800&md5ChecksumParam=8d7970cc752260ea21463c655bed4b2f"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/16a0ab98-15c7-4053-bc8a-78bc0d310795/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0ae3a1194cf6d188f0d70ed2ffcebbe5"
               }
             },
             {
               "img": {
                 "url": "/uuid/16a0ab98-15c7-4053-bc8a-78bc0d310795/COVER_CLEAN_TALL?territory=IT&version=8ab1aee4-27b7-34a1-b26a-9279580c24f3&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=8d7970cc752260ea21463c655bed4b2f"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/16a0ab98-15c7-4053-bc8a-78bc0d310795/COVER_CLEAN_TALL?territory=IT&version=8ab1aee4-27b7-34a1-b26a-9279580c24f3&w=600&h=800&md5ChecksumParam=8d7970cc752260ea21463c655bed4b2f"
               }
             },
             {
@@ -5740,8 +3850,8 @@
           ]
         },
         "eventId": "411281646",
-        "starttime": "2025-07-06T18:55:00Z",
-        "endtime": "2025-07-06T19:20:00Z",
+        "starttime": "2025-07-06T18:45:00Z",
+        "endtime": "2025-07-06T19:15:00Z",
         "eventTitle": "Notti a lavoro",
         "eventSynopsis": "S6 Ep15 Notti a lavoro - I proprietari valutano l'acquisto di un'antica giacca della Guerra Civile. In seguito, un impiegato e' malato e Chumlee e' costretto a lavorare il triplo.",
         "epgEventTitle": "S6 Ep15 - Affari di famiglia",
@@ -5785,7 +3895,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/053e5820-e70d-4a03-8e86-d7b0bcbbd5ff/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=5dfa6d107986465dfb7f53d3474c58e9"
+                "url": "/uuid/053e5820-e70d-4a03-8e86-d7b0bcbbd5ff/COVER_CLEAN_TALL?territory=IT&version=216be7d1-4694-340d-9d83-3ad2a13dbde3&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=a9de3d410a41cd87c9881d0b8f1a7061"
               }
             },
             {
@@ -5795,7 +3905,7 @@
             },
             {
               "img": {
-                "url": "/uuid/053e5820-e70d-4a03-8e86-d7b0bcbbd5ff/COVER_CLEAN_TALL?territory=IT&version=216be7d1-4694-340d-9d83-3ad2a13dbde3&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=a9de3d410a41cd87c9881d0b8f1a7061"
+                "url": "/uuid/053e5820-e70d-4a03-8e86-d7b0bcbbd5ff/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=5dfa6d107986465dfb7f53d3474c58e9"
               }
             },
             {
@@ -5819,8 +3929,8 @@
           ]
         },
         "eventId": "411281649",
-        "starttime": "2025-07-06T19:20:00Z",
-        "endtime": "2025-07-06T21:15:00Z",
+        "starttime": "2025-07-06T19:15:00Z",
+        "endtime": "2025-07-06T21:05:00Z",
         "eventTitle": "Isolation - Pericolo alle Bahamas",
         "eventSynopsis": "Thriller ispirato a fatti realmente accaduti che vi terra' col fiato sospeso con Dominic Purcell. Una coppia, in vacanza in un'isola paradisiaca delle Bahamas, viene perseguitata da un gruppo di moderni pirati.",
         "epgEventTitle": "Isolation - Pericolo alle Bahamas",
@@ -5906,8 +4016,8 @@
           ]
         },
         "eventId": "411281651",
-        "starttime": "2025-07-06T21:15:00Z",
-        "endtime": "2025-07-06T22:25:00Z",
+        "starttime": "2025-07-06T21:05:00Z",
+        "endtime": "2025-07-06T22:15:00Z",
         "eventTitle": "Nessuno si farà male",
         "eventSynopsis": "S2 Ep8 Nessuno si fara' male - Sentendosi alle strette, Vincent prova a chiedere consiglio a suo padre. Intanto Kiki cerca un socio per un accordo con Lori.",
         "epgEventTitle": "S2 Ep8 - The Deuce - La via del porno",
@@ -5977,8 +4087,8 @@
           ]
         },
         "eventId": "411281653",
-        "starttime": "2025-07-06T22:25:00Z",
-        "endtime": "2025-07-07T00:10:00Z",
+        "starttime": "2025-07-06T22:15:00Z",
+        "endtime": "2025-07-07T00:05:00Z",
         "eventTitle": "Ladies Of The Wood - Il Parco Del Sesso",
         "eventSynopsis": "Le storie di prostitute e transessuali che hanno fatto del Bois de Boulogne, parco nella periferia parigina, il loro luogo di lavoro.",
         "epgEventTitle": "Ladies Of The Wood - Il Parco Del Sesso",
@@ -6101,12 +4211,12 @@
             },
             {
               "img": {
-                "url": "/uuid/8b351386-0f02-47db-8ec7-4fd187980b03/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=031130dad6e7455ea7ee491f03542e0d"
+                "url": "/uuid/8b351386-0f02-47db-8ec7-4fd187980b03/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=031130dad6e7455ea7ee491f03542e0d"
               }
             },
             {
               "img": {
-                "url": "/uuid/8b351386-0f02-47db-8ec7-4fd187980b03/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=031130dad6e7455ea7ee491f03542e0d"
+                "url": "/uuid/8b351386-0f02-47db-8ec7-4fd187980b03/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=031130dad6e7455ea7ee491f03542e0d"
               }
             },
             {
@@ -6711,17 +4821,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
               "img": {
                 "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=656e826866e29e46ed4c98da56262573"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -7192,7 +5302,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/d564fa2c-a3df-4b9c-a258-21294d0c6e1d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=116881f9da1d544a332b41ff07677565"
+                "url": "/uuid/d564fa2c-a3df-4b9c-a258-21294d0c6e1d/COVER_CLEAN_TALL?territory=IT&version=ba294ffe-2e8f-3329-994f-12041208c1e3&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=221de1481503054e1c4907970832c3df"
               }
             },
             {
@@ -7202,7 +5312,7 @@
             },
             {
               "img": {
-                "url": "/uuid/d564fa2c-a3df-4b9c-a258-21294d0c6e1d/COVER_CLEAN_TALL?territory=IT&version=ba294ffe-2e8f-3329-994f-12041208c1e3&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=221de1481503054e1c4907970832c3df"
+                "url": "/uuid/d564fa2c-a3df-4b9c-a258-21294d0c6e1d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=116881f9da1d544a332b41ff07677565"
               }
             },
             {
@@ -7279,12 +5389,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/4b532872-8490-491b-aa9a-3586e599d3a3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c7572041b4e0591cb27cd220cc1f7930"
+                "url": "/uuid/86214126-c475-4665-b337-2cea6db4e9fb/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=f93db0ff54ea24467ef868a33160f91a"
               }
             },
             {
               "img": {
-                "url": "/uuid/86214126-c475-4665-b337-2cea6db4e9fb/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=f93db0ff54ea24467ef868a33160f91a"
+                "url": "/uuid/4b532872-8490-491b-aa9a-3586e599d3a3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c7572041b4e0591cb27cd220cc1f7930"
               }
             },
             {
@@ -7590,12 +5700,12 @@
             },
             {
               "img": {
-                "url": "/uuid/ef66d3d6-1800-437c-ba9d-bc97fcceb96b/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=edee6adb5f4e6b098aa52c1dc238035a"
+                "url": "/uuid/ef66d3d6-1800-437c-ba9d-bc97fcceb96b/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=edee6adb5f4e6b098aa52c1dc238035a"
               }
             },
             {
               "img": {
-                "url": "/uuid/ef66d3d6-1800-437c-ba9d-bc97fcceb96b/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=edee6adb5f4e6b098aa52c1dc238035a"
+                "url": "/uuid/ef66d3d6-1800-437c-ba9d-bc97fcceb96b/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=edee6adb5f4e6b098aa52c1dc238035a"
               }
             },
             {
@@ -7670,17 +5780,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/9cb6131f-626f-45ce-829c-4892be11bf9a/COVER_CLEAN_TALL?territory=IT&version=3980c61c-c1b1-3c36-b4f1-379a05cd424c&w=600&h=800&md5ChecksumParam=3a8235e4fc66952256ffd06a4c037b0d"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/9cb6131f-626f-45ce-829c-4892be11bf9a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4b002b32039b7c524a62f41886df4765"
               }
             },
             {
               "img": {
                 "url": "/uuid/9cb6131f-626f-45ce-829c-4892be11bf9a/COVER_CLEAN_TALL?territory=IT&version=3980c61c-c1b1-3c36-b4f1-379a05cd424c&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=3a8235e4fc66952256ffd06a4c037b0d"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/9cb6131f-626f-45ce-829c-4892be11bf9a/COVER_CLEAN_TALL?territory=IT&version=3980c61c-c1b1-3c36-b4f1-379a05cd424c&w=600&h=800&md5ChecksumParam=3a8235e4fc66952256ffd06a4c037b0d"
               }
             },
             {
@@ -8523,17 +6633,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
               "img": {
                 "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=656e826866e29e46ed4c98da56262573"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -8917,7 +7027,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/d564fa2c-a3df-4b9c-a258-21294d0c6e1d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=116881f9da1d544a332b41ff07677565"
+                "url": "/uuid/d564fa2c-a3df-4b9c-a258-21294d0c6e1d/COVER_CLEAN_TALL?territory=IT&version=ba294ffe-2e8f-3329-994f-12041208c1e3&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=221de1481503054e1c4907970832c3df"
               }
             },
             {
@@ -8927,7 +7037,7 @@
             },
             {
               "img": {
-                "url": "/uuid/d564fa2c-a3df-4b9c-a258-21294d0c6e1d/COVER_CLEAN_TALL?territory=IT&version=ba294ffe-2e8f-3329-994f-12041208c1e3&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=221de1481503054e1c4907970832c3df"
+                "url": "/uuid/d564fa2c-a3df-4b9c-a258-21294d0c6e1d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=116881f9da1d544a332b41ff07677565"
               }
             },
             {
@@ -9004,17 +7114,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/b61efc02-e442-49cf-90b1-921d69f3d46d/COVER_CLEAN_TALL?territory=IT&version=ba294ffe-2e8f-3329-994f-12041208c1e3&w=600&h=800&md5ChecksumParam=221de1481503054e1c4907970832c3df"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/b61efc02-e442-49cf-90b1-921d69f3d46d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=116881f9da1d544a332b41ff07677565"
               }
             },
             {
               "img": {
                 "url": "/uuid/b61efc02-e442-49cf-90b1-921d69f3d46d/COVER_CLEAN_TALL?territory=IT&version=ba294ffe-2e8f-3329-994f-12041208c1e3&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=221de1481503054e1c4907970832c3df"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/b61efc02-e442-49cf-90b1-921d69f3d46d/COVER_CLEAN_TALL?territory=IT&version=ba294ffe-2e8f-3329-994f-12041208c1e3&w=600&h=800&md5ChecksumParam=221de1481503054e1c4907970832c3df"
               }
             },
             {
@@ -9091,12 +7201,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/de5b94d7-5cf2-4471-a7ea-39e953aa1675/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c7572041b4e0591cb27cd220cc1f7930"
+                "url": "/uuid/86214126-c475-4665-b337-2cea6db4e9fb/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=f93db0ff54ea24467ef868a33160f91a"
               }
             },
             {
               "img": {
-                "url": "/uuid/86214126-c475-4665-b337-2cea6db4e9fb/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=f93db0ff54ea24467ef868a33160f91a"
+                "url": "/uuid/de5b94d7-5cf2-4471-a7ea-39e953aa1675/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c7572041b4e0591cb27cd220cc1f7930"
               }
             },
             {
@@ -9325,12 +7435,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/3c24550a-31ae-40f9-aef6-c1f3125b7ff7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=eae7cd5388a96d781f0bb407afeeefc0"
+                "url": "/uuid/3c24550a-31ae-40f9-aef6-c1f3125b7ff7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=bc407d5b1f149651c34faf9b61c07554"
               }
             },
             {
               "img": {
-                "url": "/uuid/3c24550a-31ae-40f9-aef6-c1f3125b7ff7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=bc407d5b1f149651c34faf9b61c07554"
+                "url": "/uuid/3c24550a-31ae-40f9-aef6-c1f3125b7ff7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=eae7cd5388a96d781f0bb407afeeefc0"
               }
             },
             {
@@ -9412,17 +7522,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/ff5937e0-f46d-49cc-b456-c3718a0356cd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=edee6adb5f4e6b098aa52c1dc238035a"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/ff5937e0-f46d-49cc-b456-c3718a0356cd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=edfe2eb89857cb47af89380b2929facd"
               }
             },
             {
               "img": {
                 "url": "/uuid/ff5937e0-f46d-49cc-b456-c3718a0356cd/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=edee6adb5f4e6b098aa52c1dc238035a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ff5937e0-f46d-49cc-b456-c3718a0356cd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=edee6adb5f4e6b098aa52c1dc238035a"
               }
             },
             {
@@ -10338,7 +8448,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -10348,7 +8458,7 @@
             },
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -10732,12 +8842,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/b61efc02-e442-49cf-90b1-921d69f3d46d/COVER_CLEAN_TALL?territory=IT&version=ba294ffe-2e8f-3329-994f-12041208c1e3&w=600&h=800&md5ChecksumParam=221de1481503054e1c4907970832c3df"
+                "url": "/uuid/b61efc02-e442-49cf-90b1-921d69f3d46d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=116881f9da1d544a332b41ff07677565"
               }
             },
             {
               "img": {
-                "url": "/uuid/b61efc02-e442-49cf-90b1-921d69f3d46d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=116881f9da1d544a332b41ff07677565"
+                "url": "/uuid/b61efc02-e442-49cf-90b1-921d69f3d46d/COVER_CLEAN_TALL?territory=IT&version=ba294ffe-2e8f-3329-994f-12041208c1e3&w=600&h=800&md5ChecksumParam=221de1481503054e1c4907970832c3df"
               }
             },
             {
@@ -10906,17 +9016,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/86214126-c475-4665-b337-2cea6db4e9fb/COVER_CLEAN_WIDE-SEASON?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f93db0ff54ea24467ef868a33160f91a"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/c5781172-05d4-45b6-a578-0f0f7e304f01/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c7572041b4e0591cb27cd220cc1f7930"
               }
             },
             {
               "img": {
                 "url": "/uuid/86214126-c475-4665-b337-2cea6db4e9fb/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=f93db0ff54ea24467ef868a33160f91a"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/86214126-c475-4665-b337-2cea6db4e9fb/COVER_CLEAN_WIDE-SEASON?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f93db0ff54ea24467ef868a33160f91a"
               }
             },
             {
@@ -11312,12 +9422,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/7d5ac045-89d3-4e77-986e-4ae31e41e27b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=06eddb98d0ef04563ba58ca9001e66d9"
+                "url": "?territory=IT&md5ChecksumParam=72f034f680f634edd0faeb261b26c50d"
               }
             },
             {
               "img": {
-                "url": "?territory=IT&md5ChecksumParam=72f034f680f634edd0faeb261b26c50d"
+                "url": "/uuid/7d5ac045-89d3-4e77-986e-4ae31e41e27b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=06eddb98d0ef04563ba58ca9001e66d9"
               }
             },
             {
@@ -11638,8 +9748,8 @@
         "content": {
           "uuid": "87665c21-deda-40e7-9de5-16627cbff779",
           "contentTitle": "Compratori di sesso",
-          "episodeNumber": 0,
-          "url": "/programmi-tv/societa/love-for-sale-con-rupert-everett/stagione-1/episodio-1/87665c21-deda-40e7-9de5-16627cbff779",
+          "episodeNumber": 2,
+          "url": "/programmi-tv/societa/love-for-sale-con-rupert-everett/stagione-1/episodio-2/87665c21-deda-40e7-9de5-16627cbff779",
           "genre": {
             "id": 4,
             "name": "Mondo e Tendenze"
@@ -11649,6 +9759,21 @@
             "name": "Societa"
           },
           "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/87665c21-deda-40e7-9de5-16627cbff779/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=03328bbf1d0bed1613e7ff2b2122758f"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/87665c21-deda-40e7-9de5-16627cbff779/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=34c8f49675b956cd8f857868e5a7243b"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/87665c21-deda-40e7-9de5-16627cbff779/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=34c8f49675b956cd8f857868e5a7243b"
+              }
+            },
             {
               "key": "background",
               "img": {
@@ -11670,7 +9795,7 @@
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
+                "url": "/uuid/87665c21-deda-40e7-9de5-16627cbff779/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=6918d132bfe91293c79609ec0d5accd0"
               }
             }
           ]
@@ -12256,7 +10381,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -12266,7 +10391,7 @@
             },
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -12572,6 +10697,11 @@
           },
           "imagesMap": [
             {
+              "img": {
+                "url": "/uuid/357baa4e-09a7-4ae5-a65c-3f6335c9ae8f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7709a39dcd1a2abea1862d6440e8d90d"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/357baa4e-09a7-4ae5-a65c-3f6335c9ae8f/background?territory=IT&md5ChecksumParam=914feb9c0f06dddb167fe88bebe831d4"
@@ -12587,12 +10717,6 @@
               "key": "scene",
               "img": {
                 "url": "/uuid/357baa4e-09a7-4ae5-a65c-3f6335c9ae8f/16-9?territory=IT&md5ChecksumParam=ec288410c21928f1e8550f65b4450fa9"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/Intrattenimento_Scene_7GZn0K86e.png"
               }
             }
           ]
@@ -12737,12 +10861,12 @@
             },
             {
               "img": {
-                "url": "/uuid/62e9aec5-c8e9-4561-ae74-750154aee364/COVER_CLEAN_TALL?territory=IT&version=ba294ffe-2e8f-3329-994f-12041208c1e3&w=600&h=800&md5ChecksumParam=221de1481503054e1c4907970832c3df"
+                "url": "/uuid/62e9aec5-c8e9-4561-ae74-750154aee364/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=116881f9da1d544a332b41ff07677565"
               }
             },
             {
               "img": {
-                "url": "/uuid/62e9aec5-c8e9-4561-ae74-750154aee364/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=116881f9da1d544a332b41ff07677565"
+                "url": "/uuid/62e9aec5-c8e9-4561-ae74-750154aee364/COVER_CLEAN_TALL?territory=IT&version=ba294ffe-2e8f-3329-994f-12041208c1e3&w=600&h=800&md5ChecksumParam=221de1481503054e1c4907970832c3df"
               }
             },
             {
@@ -12819,12 +10943,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/eb7850f6-ccd3-4af4-87dd-ac06d2298ab7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c7572041b4e0591cb27cd220cc1f7930"
+                "url": "/uuid/86214126-c475-4665-b337-2cea6db4e9fb/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=f93db0ff54ea24467ef868a33160f91a"
               }
             },
             {
               "img": {
-                "url": "/uuid/86214126-c475-4665-b337-2cea6db4e9fb/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=f93db0ff54ea24467ef868a33160f91a"
+                "url": "/uuid/eb7850f6-ccd3-4af4-87dd-ac06d2298ab7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c7572041b4e0591cb27cd220cc1f7930"
               }
             },
             {
@@ -14083,7 +12207,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -14093,7 +12217,7 @@
             },
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -14477,12 +12601,12 @@
             },
             {
               "img": {
-                "url": "/uuid/62e9aec5-c8e9-4561-ae74-750154aee364/COVER_CLEAN_TALL?territory=IT&version=ba294ffe-2e8f-3329-994f-12041208c1e3&w=600&h=800&md5ChecksumParam=221de1481503054e1c4907970832c3df"
+                "url": "/uuid/62e9aec5-c8e9-4561-ae74-750154aee364/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=116881f9da1d544a332b41ff07677565"
               }
             },
             {
               "img": {
-                "url": "/uuid/62e9aec5-c8e9-4561-ae74-750154aee364/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=116881f9da1d544a332b41ff07677565"
+                "url": "/uuid/62e9aec5-c8e9-4561-ae74-750154aee364/COVER_CLEAN_TALL?territory=IT&version=ba294ffe-2e8f-3329-994f-12041208c1e3&w=600&h=800&md5ChecksumParam=221de1481503054e1c4907970832c3df"
               }
             },
             {
@@ -15254,12 +13378,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/814f4d20-b28a-4fa1-b5bb-656c78215442/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=cba0b657e7afa31b1f8fd6d71cb8de36"
+                "url": "/uuid/814f4d20-b28a-4fa1-b5bb-656c78215442/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2510bef3555aef95b020e4a33465d89a"
               }
             },
             {
               "img": {
-                "url": "/uuid/814f4d20-b28a-4fa1-b5bb-656c78215442/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2510bef3555aef95b020e4a33465d89a"
+                "url": "/uuid/814f4d20-b28a-4fa1-b5bb-656c78215442/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=cba0b657e7afa31b1f8fd6d71cb8de36"
               }
             },
             {
@@ -15961,7 +14085,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -15971,7 +14095,7 @@
             },
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -17088,12 +15212,12 @@
             },
             {
               "img": {
-                "url": "/uuid/fbc2f7ff-b7ab-4f3c-87e4-781300d1b1f5/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=b56a593a9fd7045ce26b04b5167ecd06"
+                "url": "/uuid/fbc2f7ff-b7ab-4f3c-87e4-781300d1b1f5/COVER_CLEAN_WIDE-SEASON?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b56a593a9fd7045ce26b04b5167ecd06"
               }
             },
             {
               "img": {
-                "url": "/uuid/fbc2f7ff-b7ab-4f3c-87e4-781300d1b1f5/COVER_CLEAN_WIDE-SEASON?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b56a593a9fd7045ce26b04b5167ecd06"
+                "url": "/uuid/fbc2f7ff-b7ab-4f3c-87e4-781300d1b1f5/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=b56a593a9fd7045ce26b04b5167ecd06"
               }
             },
             {
@@ -17860,7 +15984,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -17870,7 +15994,7 @@
             },
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -19524,7 +17648,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -19534,7 +17658,7 @@
             },
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -20697,17 +18821,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/d722b5ba-748b-4064-aedd-89da725c8226/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2381bcf61757ab82df701ef2f3634817"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/d722b5ba-748b-4064-aedd-89da725c8226/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3caac88e65c46794cc1b7bf6b63816c0"
               }
             },
             {
               "img": {
                 "url": "/uuid/d722b5ba-748b-4064-aedd-89da725c8226/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2381bcf61757ab82df701ef2f3634817"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/d722b5ba-748b-4064-aedd-89da725c8226/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2381bcf61757ab82df701ef2f3634817"
               }
             },
             {
@@ -21372,7 +19496,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -21382,7 +19506,7 @@
             },
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -23235,7 +21359,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -23245,7 +21369,7 @@
             },
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -24977,7 +23101,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -24987,7 +23111,7 @@
             },
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -25140,12 +23264,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/48120ee1-25c0-4809-bc6f-44b92ee39ba8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7a8377ec3d17d071dcbb8a57bc94bc78"
+                "url": "/uuid/48120ee1-25c0-4809-bc6f-44b92ee39ba8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=5d58c19d7e8a02a34caa1683afca05ef"
               }
             },
             {
               "img": {
-                "url": "/uuid/48120ee1-25c0-4809-bc6f-44b92ee39ba8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=5d58c19d7e8a02a34caa1683afca05ef"
+                "url": "/uuid/48120ee1-25c0-4809-bc6f-44b92ee39ba8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7a8377ec3d17d071dcbb8a57bc94bc78"
               }
             },
             {
@@ -25759,12 +23883,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/fe2dea4d-c0cf-4eb6-9313-f44bc938e8ea/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ba190e29a0d73ba354d5db486cdbb5dc"
+                "url": "/uuid/fe2dea4d-c0cf-4eb6-9313-f44bc938e8ea/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=20fca096d96a3fc1be19a0c697ca0334"
               }
             },
             {
               "img": {
-                "url": "/uuid/fe2dea4d-c0cf-4eb6-9313-f44bc938e8ea/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=20fca096d96a3fc1be19a0c697ca0334"
+                "url": "/uuid/fe2dea4d-c0cf-4eb6-9313-f44bc938e8ea/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ba190e29a0d73ba354d5db486cdbb5dc"
               }
             },
             {
@@ -26602,7 +24726,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -26612,7 +24736,7 @@
             },
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -28369,7 +26493,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -28379,7 +26503,7 @@
             },
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -29024,12 +27148,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/fe2dea4d-c0cf-4eb6-9313-f44bc938e8ea/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ba190e29a0d73ba354d5db486cdbb5dc"
+                "url": "/uuid/fe2dea4d-c0cf-4eb6-9313-f44bc938e8ea/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=20fca096d96a3fc1be19a0c697ca0334"
               }
             },
             {
               "img": {
-                "url": "/uuid/fe2dea4d-c0cf-4eb6-9313-f44bc938e8ea/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=20fca096d96a3fc1be19a0c697ca0334"
+                "url": "/uuid/fe2dea4d-c0cf-4eb6-9313-f44bc938e8ea/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ba190e29a0d73ba354d5db486cdbb5dc"
               }
             },
             {
@@ -29560,17 +27684,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/d722b5ba-748b-4064-aedd-89da725c8226/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2381bcf61757ab82df701ef2f3634817"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/d722b5ba-748b-4064-aedd-89da725c8226/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3caac88e65c46794cc1b7bf6b63816c0"
               }
             },
             {
               "img": {
                 "url": "/uuid/d722b5ba-748b-4064-aedd-89da725c8226/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2381bcf61757ab82df701ef2f3634817"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/d722b5ba-748b-4064-aedd-89da725c8226/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2381bcf61757ab82df701ef2f3634817"
               }
             },
             {
@@ -30191,7 +28315,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {
@@ -30201,7 +28325,7 @@
             },
             {
               "img": {
-                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
+                "url": "/uuid/ed268d65-0636-4a0f-bf0a-c4e892e15446/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb040892fc7613604374c518925eae6a"
               }
             },
             {

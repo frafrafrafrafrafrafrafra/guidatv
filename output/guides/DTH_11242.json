@@ -1,2389 +1,6 @@
 {
   "name": "Sky Nature",
   "events_by_date": {
-    "2025-07-04": [
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "efa4f232-1846-4c39-9004-354cc7f23d60",
-          "contentTitle": "Diario di un picchio",
-          "url": "/programmi-tv/natura/diario-di-un-picchio/efa4f232-1846-4c39-9004-354cc7f23d60",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/efa4f232-1846-4c39-9004-354cc7f23d60/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4966546cf140e52cc0f2a490617eae2f"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/efa4f232-1846-4c39-9004-354cc7f23d60/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e5d8dd306c39860fcb844fdcfb4ac0d1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/efa4f232-1846-4c39-9004-354cc7f23d60/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e5d8dd306c39860fcb844fdcfb4ac0d1"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/efa4f232-1846-4c39-9004-354cc7f23d60/background?territory=IT&md5ChecksumParam=1d220339e81976839aba82a685d52faa"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/efa4f232-1846-4c39-9004-354cc7f23d60/cover?territory=IT&md5ChecksumParam=4966546cf140e52cc0f2a490617eae2f"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/efa4f232-1846-4c39-9004-354cc7f23d60/16-9?territory=IT&md5ChecksumParam=b93f74d2f8facd187df9f1a43bfaf931"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/efa4f232-1846-4c39-9004-354cc7f23d60/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=0faae6a8e5243954cc59eab917a091e4"
-              }
-            }
-          ]
-        },
-        "eventId": "411298531",
-        "starttime": "2025-07-04T00:50:00Z",
-        "endtime": "2025-07-04T01:45:00Z",
-        "eventTitle": "Diario di un picchio",
-        "eventSynopsis": "Seguiamo la storia di due famiglie di picchi, esaminando il loro percorso evolutivo unico, le loro abilita' e il ruolo che svolgono all'interno dell'ecosistema in cui vivono.",
-        "epgEventTitle": "Diario di un picchio",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "9a5f7762-2f89-4399-b052-0ff985abca0a",
-          "contentTitle": "Famiglie surrogate",
-          "episodeNumber": 1,
-          "seasonNumber": 2,
-          "url": "/programmi-tv/natura/cuccioli/stagione-2/episodio-1/9a5f7762-2f89-4399-b052-0ff985abca0a",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/9a5f7762-2f89-4399-b052-0ff985abca0a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae88e3ae79a555e3cf0d40e2e040ab12"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/9a5f7762-2f89-4399-b052-0ff985abca0a/background?territory=IT&md5ChecksumParam=e79f5d73ad9182e9d8a277f8d1e7298e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/9a5f7762-2f89-4399-b052-0ff985abca0a/cover?territory=IT&md5ChecksumParam=ae88e3ae79a555e3cf0d40e2e040ab12"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/9a5f7762-2f89-4399-b052-0ff985abca0a/16-9?territory=IT&md5ChecksumParam=ad4bed83ddf057fe186d23b7ea8395e3"
-              }
-            }
-          ]
-        },
-        "eventId": "411298533",
-        "starttime": "2025-07-04T01:45:00Z",
-        "endtime": "2025-07-04T02:10:00Z",
-        "eventTitle": "Famiglie surrogate",
-        "eventSynopsis": "S2 Ep1 Famiglie surrogate - In questo episodio di \"Cuccioli\" conosceremo quattro specie diverse allevate dagli umani e che vivono in famiglie surrogate.",
-        "epgEventTitle": "S2 Ep1 - Cuccioli",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "0c58afad-4de4-48db-8760-71d27591952d",
-          "contentTitle": "Ep. 3",
-          "episodeNumber": 3,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/borneo-da-salvare/stagione-1/episodio-3/0c58afad-4de4-48db-8760-71d27591952d",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/0c58afad-4de4-48db-8760-71d27591952d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f7e3c16706ff8fb4b926f29a226a4787"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/0c58afad-4de4-48db-8760-71d27591952d/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f46777dd11df707564bc4ccfd2fbc5e3"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/0c58afad-4de4-48db-8760-71d27591952d/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f46777dd11df707564bc4ccfd2fbc5e3"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/0c58afad-4de4-48db-8760-71d27591952d/background?territory=IT&md5ChecksumParam=52387b30a0fc04e4fd88aad6013650b5"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/0c58afad-4de4-48db-8760-71d27591952d/cover?territory=IT&md5ChecksumParam=f7e3c16706ff8fb4b926f29a226a4787"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/0c58afad-4de4-48db-8760-71d27591952d/16-9?territory=IT&md5ChecksumParam=c980bcafadd5ac9a78fc4b14177989a8"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/0c58afad-4de4-48db-8760-71d27591952d/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=1cb53d42180802786554d77958da81d8"
-              }
-            }
-          ]
-        },
-        "eventId": "411298535",
-        "starttime": "2025-07-04T02:10:00Z",
-        "endtime": "2025-07-04T02:20:00Z",
-        "eventTitle": "Ep. 3",
-        "eventSynopsis": "S1 Ep3 - Un ospite indesiderato e' sceso nella citta' del Borneo di Kota Kinabalu, un pitone gigante reticolato pericolosissimo.",
-        "epgEventTitle": "S1 Ep3 - Borneo da salvare",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "e671d935-92c7-4295-ac4a-e4d4b67cacd7",
-          "contentTitle": "Ep. 2",
-          "episodeNumber": 2,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/borneo-da-salvare/stagione-1/episodio-2/e671d935-92c7-4295-ac4a-e4d4b67cacd7",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/e671d935-92c7-4295-ac4a-e4d4b67cacd7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f7e3c16706ff8fb4b926f29a226a4787"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/e671d935-92c7-4295-ac4a-e4d4b67cacd7/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=cf4716192a65682580717b84564c147f"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/e671d935-92c7-4295-ac4a-e4d4b67cacd7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=cf4716192a65682580717b84564c147f"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/e671d935-92c7-4295-ac4a-e4d4b67cacd7/background?territory=IT&md5ChecksumParam=52387b30a0fc04e4fd88aad6013650b5"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/e671d935-92c7-4295-ac4a-e4d4b67cacd7/cover?territory=IT&md5ChecksumParam=f7e3c16706ff8fb4b926f29a226a4787"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/e671d935-92c7-4295-ac4a-e4d4b67cacd7/16-9?territory=IT&md5ChecksumParam=0ed44be28a34cccbe1e3de3d1d37a29d"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/e671d935-92c7-4295-ac4a-e4d4b67cacd7/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=149327b280da48a210d3e975fe7a51a2"
-              }
-            }
-          ]
-        },
-        "eventId": "411298536",
-        "starttime": "2025-07-04T02:20:00Z",
-        "endtime": "2025-07-04T02:25:00Z",
-        "eventTitle": "Ep. 2",
-        "eventSynopsis": "S1 Ep2 - Un quarto delle giungle del Borneo e' stato distrutto negli ultimi 4 decenni. Questo ha messo gli esseri umani e gli elefanti in rotta di collisione, con molti elefantini abbandonati.",
-        "epgEventTitle": "S1 Ep2 - Borneo da salvare",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "f10f1f26-4045-4561-9319-35f16de3f807",
-          "contentTitle": "Vredefort Dome: Cratere vivo",
-          "episodeNumber": 2,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/orizzonti-selvaggi-dafrica/stagione-1/episodio-2/f10f1f26-4045-4561-9319-35f16de3f807",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/f10f1f26-4045-4561-9319-35f16de3f807/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=61ab3d628144588ae2f497e966d55aed"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ab5a3a82-43e0-49d9-bc58-d0fa31d5a46f/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=ca175001661ec00457691407b128d37d"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ab5a3a82-43e0-49d9-bc58-d0fa31d5a46f/COVER_CLEAN_WIDE-SEASON?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ca175001661ec00457691407b128d37d"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/f10f1f26-4045-4561-9319-35f16de3f807/background?territory=IT&md5ChecksumParam=6ec0aea365b057493accc8cb49f46d7f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/f10f1f26-4045-4561-9319-35f16de3f807/cover?territory=IT&md5ChecksumParam=61ab3d628144588ae2f497e966d55aed"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/f10f1f26-4045-4561-9319-35f16de3f807/16-9?territory=IT&md5ChecksumParam=d07a6880b5edd6ab315b7319f13107d4"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/f10f1f26-4045-4561-9319-35f16de3f807/COVER_TITLE_WIDE?territory=IT&version=a5eb7475-7309-33ce-8418-64aebab77b91&w=1920&h=1080&md5ChecksumParam=25d1c0983f11a89103bdca45617c260f"
-              }
-            }
-          ]
-        },
-        "eventId": "411298538",
-        "starttime": "2025-07-04T02:25:00Z",
-        "endtime": "2025-07-04T03:10:00Z",
-        "eventTitle": "Vredefort Dome - Cratere vivo",
-        "eventSynopsis": "S1 Ep2 Vredefort Dome - Cratere vivo - Il Cratere Vredefort e la vita che ospita. Dalle formazioni rocciose ai pascoli, ogni habitat rappresenta un porto sicuro per numerose creature.",
-        "epgEventTitle": "S1 Ep2 - Orizzonti selvaggi d'Africa",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "bca9129a-b3df-44e5-822d-e967b217a56c",
-          "contentTitle": "I babbuini di Bambelela",
-          "episodeNumber": 4,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/la-terra-dei-primati/stagione-1/episodio-4/bca9129a-b3df-44e5-822d-e967b217a56c",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/bca9129a-b3df-44e5-822d-e967b217a56c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=143b79e80ddf4996eb99e469e1355b0f"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/bca9129a-b3df-44e5-822d-e967b217a56c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b7cf7b125433de903120913105a683e7"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/bca9129a-b3df-44e5-822d-e967b217a56c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b7cf7b125433de903120913105a683e7"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/bca9129a-b3df-44e5-822d-e967b217a56c/background?territory=IT&md5ChecksumParam=e6935700d69e162648b088a0ffab91d9"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/bca9129a-b3df-44e5-822d-e967b217a56c/cover?territory=IT&md5ChecksumParam=143b79e80ddf4996eb99e469e1355b0f"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/bca9129a-b3df-44e5-822d-e967b217a56c/16-9?territory=IT&md5ChecksumParam=2632fada0f82c8c9d4e432ca2f281afe"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/bca9129a-b3df-44e5-822d-e967b217a56c/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=cb318bf22ae285fb1d3b77fa2a828a24"
-              }
-            }
-          ]
-        },
-        "eventId": "411298540",
-        "starttime": "2025-07-04T03:10:00Z",
-        "endtime": "2025-07-04T04:00:00Z",
-        "eventTitle": "I babbuini di Bambelela",
-        "eventSynopsis": "S1 Ep4 I babbuini di Bambelela - I babbuini Bambelela sono una sottospecie gregaria dei babbuini Chacma e vivono in una valle incontaminata dei Monti Waterberg in Sudafrica.",
-        "epgEventTitle": "S1 Ep4 - La terra dei primati",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "05f803c8-7f25-4ca0-b369-54a9578a1c51",
-          "contentTitle": "I grandi felini d'Africa",
-          "episodeNumber": 1,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/icone-naturali/stagione-1/episodio-1/05f803c8-7f25-4ca0-b369-54a9578a1c51",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/05f803c8-7f25-4ca0-b369-54a9578a1c51/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=54cc6e77f30ac3eead1a9cdae80c9364"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/05f803c8-7f25-4ca0-b369-54a9578a1c51/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e9677b7056d3bb9651be7046f98b5017"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/05f803c8-7f25-4ca0-b369-54a9578a1c51/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e9677b7056d3bb9651be7046f98b5017"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/05f803c8-7f25-4ca0-b369-54a9578a1c51/background?territory=IT&md5ChecksumParam=7908bde7f7bd4073adc54c681fe3b142"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/05f803c8-7f25-4ca0-b369-54a9578a1c51/cover?territory=IT&md5ChecksumParam=54cc6e77f30ac3eead1a9cdae80c9364"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/05f803c8-7f25-4ca0-b369-54a9578a1c51/16-9?territory=IT&md5ChecksumParam=853f3790a37dd883fe69f4b46aa70cca"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/05f803c8-7f25-4ca0-b369-54a9578a1c51/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=64f688c6ecb26384e1b165041521b473"
-              }
-            }
-          ]
-        },
-        "eventId": "411298558",
-        "starttime": "2025-07-04T04:00:00Z",
-        "endtime": "2025-07-04T04:50:00Z",
-        "eventTitle": "I grandi felini d'Africa",
-        "eventSynopsis": "S1 Ep1 I grandi felini d'Africa - Il Parco Nazionale Kruger in Sudafrica e' una delle piu' grandi riserve di caccia del continente, con habitat variegati e centinaia di specie animali.",
-        "epgEventTitle": "S1 Ep1 - Icone naturali",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "947e5ee1-967c-43c5-a4bc-f7fac970fce6",
-          "contentTitle": "Spirito lemure",
-          "episodeNumber": 1,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/la-terra-dei-gremlin/stagione-1/episodio-1/947e5ee1-967c-43c5-a4bc-f7fac970fce6",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/947e5ee1-967c-43c5-a4bc-f7fac970fce6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=90d53232498c696097c3f411ebf4a8e1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/947e5ee1-967c-43c5-a4bc-f7fac970fce6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b0f71c8671d00d68e1fb0d3741f14825"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/947e5ee1-967c-43c5-a4bc-f7fac970fce6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b0f71c8671d00d68e1fb0d3741f14825"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/947e5ee1-967c-43c5-a4bc-f7fac970fce6/background?territory=IT&md5ChecksumParam=6bdbc998000394e7cccf4e5c10d02d1f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/947e5ee1-967c-43c5-a4bc-f7fac970fce6/cover?territory=IT&md5ChecksumParam=90d53232498c696097c3f411ebf4a8e1"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/947e5ee1-967c-43c5-a4bc-f7fac970fce6/16-9?territory=IT&md5ChecksumParam=ba6e2b8bf378f8bb6ed704626a75fead"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/947e5ee1-967c-43c5-a4bc-f7fac970fce6/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=8eb1f45eff248e87d3dc8dce0a5126ee"
-              }
-            }
-          ]
-        },
-        "eventId": "411298559",
-        "starttime": "2025-07-04T04:50:00Z",
-        "endtime": "2025-07-04T05:40:00Z",
-        "eventTitle": "Spirito lemure",
-        "eventSynopsis": "S1 Ep1 Spirito lemure - La tipica giornata di una famiglia Indri composta da madre, padre e i tre figli nella foresta pluviale del Parco Nazionale Mantadia in Madagascar.",
-        "epgEventTitle": "S1 Ep1 - La terra dei Gremlin",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "6ffe748a-7de3-4bf9-a3b9-f659c133b80b",
-          "contentTitle": "L'isola lontana",
-          "episodeNumber": 2,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/la-terra-dei-gremlin/stagione-1/episodio-2/6ffe748a-7de3-4bf9-a3b9-f659c133b80b",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/6ffe748a-7de3-4bf9-a3b9-f659c133b80b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=90d53232498c696097c3f411ebf4a8e1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6ffe748a-7de3-4bf9-a3b9-f659c133b80b/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d89ca97195c49803e7cce85713c199ee"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6ffe748a-7de3-4bf9-a3b9-f659c133b80b/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d89ca97195c49803e7cce85713c199ee"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/6ffe748a-7de3-4bf9-a3b9-f659c133b80b/background?territory=IT&md5ChecksumParam=6bdbc998000394e7cccf4e5c10d02d1f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/6ffe748a-7de3-4bf9-a3b9-f659c133b80b/cover?territory=IT&md5ChecksumParam=90d53232498c696097c3f411ebf4a8e1"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/6ffe748a-7de3-4bf9-a3b9-f659c133b80b/16-9?territory=IT&md5ChecksumParam=60f7af685674c6f45ae1e285138ee1aa"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/6ffe748a-7de3-4bf9-a3b9-f659c133b80b/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=c700ceee6f2041380b187a7f2da3b70d"
-              }
-            }
-          ]
-        },
-        "eventId": "411298560",
-        "starttime": "2025-07-04T05:40:00Z",
-        "endtime": "2025-07-04T06:30:00Z",
-        "eventTitle": "L'isola lontana",
-        "eventSynopsis": "S1 Ep2 L'isola lontana - Alla scoperta del Madagascar visitando i luoghi piu' incredibili e studiando l'evolversi nel tempo delle specie autoctone dell'isola.",
-        "epgEventTitle": "S1 Ep2 - La terra dei Gremlin",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "dc85b843-2432-42d9-85bc-98f0966cf80e",
-          "contentTitle": "Il Madagascar dal sangue freddo",
-          "episodeNumber": 3,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/la-terra-dei-gremlin/stagione-1/episodio-3/dc85b843-2432-42d9-85bc-98f0966cf80e",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/dc85b843-2432-42d9-85bc-98f0966cf80e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=90d53232498c696097c3f411ebf4a8e1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/dc85b843-2432-42d9-85bc-98f0966cf80e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1c890cc8f16779a641d1de23a7fffe92"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/dc85b843-2432-42d9-85bc-98f0966cf80e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1c890cc8f16779a641d1de23a7fffe92"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/dc85b843-2432-42d9-85bc-98f0966cf80e/background?territory=IT&md5ChecksumParam=6bdbc998000394e7cccf4e5c10d02d1f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/dc85b843-2432-42d9-85bc-98f0966cf80e/cover?territory=IT&md5ChecksumParam=90d53232498c696097c3f411ebf4a8e1"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/dc85b843-2432-42d9-85bc-98f0966cf80e/16-9?territory=IT&md5ChecksumParam=68c611cfb1aa1b6d8acb4fe9482dc8c4"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/dc85b843-2432-42d9-85bc-98f0966cf80e/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=8eb1f45eff248e87d3dc8dce0a5126ee"
-              }
-            }
-          ]
-        },
-        "eventId": "411298561",
-        "starttime": "2025-07-04T06:30:00Z",
-        "endtime": "2025-07-04T07:20:00Z",
-        "eventTitle": "Il Madagascar dal sangue freddo",
-        "eventSynopsis": "S1 Ep3 Il Madagascar dal sangue freddo - In Madagascar, gli animali a sangue freddo come i camaleonti, le rane, le lucertole e i serpenti si sono adattati per sopravvivere su quest'isola.",
-        "epgEventTitle": "S1 Ep3 - La terra dei Gremlin",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "f614fa46-ecec-410e-9d80-f5c7e92e6dbb",
-          "contentTitle": "Rana, regina della giungla",
-          "episodeNumber": 5,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/india-selvaggia/stagione-1/episodio-5/f614fa46-ecec-410e-9d80-f5c7e92e6dbb",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/f614fa46-ecec-410e-9d80-f5c7e92e6dbb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3a8d82fb94bee0ee85a1db052f7d8165"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f614fa46-ecec-410e-9d80-f5c7e92e6dbb/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c5d176388adae34c84e73c5f95192c57"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f614fa46-ecec-410e-9d80-f5c7e92e6dbb/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c5d176388adae34c84e73c5f95192c57"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/f614fa46-ecec-410e-9d80-f5c7e92e6dbb/background?territory=IT&md5ChecksumParam=0b7916b918cb21aab19f3c397c2508be"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/f614fa46-ecec-410e-9d80-f5c7e92e6dbb/cover?territory=IT&md5ChecksumParam=3a8d82fb94bee0ee85a1db052f7d8165"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/f614fa46-ecec-410e-9d80-f5c7e92e6dbb/16-9?territory=IT&md5ChecksumParam=cb7e1f30b96c24fcdbb52379bd144761"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/f614fa46-ecec-410e-9d80-f5c7e92e6dbb/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=54309040b0a61e5fa75d0eb13a135ae1"
-              }
-            }
-          ]
-        },
-        "eventId": "411298562",
-        "starttime": "2025-07-04T07:20:00Z",
-        "endtime": "2025-07-04T08:15:00Z",
-        "eventTitle": "Rana, regina della giungla",
-        "eventSynopsis": "S1 Ep5 Rana, regina della giungla - Uno degli animali piu' iconici della Terra si aggira tra le giungle dell'India, la tigre del Bengala. Nel corso di un solo giorno, le telecamere seguono le sorti di una madre e dei suoi tre piccoli cuccioli.",
-        "epgEventTitle": "S1 Ep5 - INTO THE WILD: INDIA",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "ba84a1c3-ff15-41fe-bcc6-0bf0e1b7ec3e",
-          "contentTitle": "I giovani del deserto",
-          "episodeNumber": 6,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/india-selvaggia/stagione-1/episodio-6/ba84a1c3-ff15-41fe-bcc6-0bf0e1b7ec3e",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/ba84a1c3-ff15-41fe-bcc6-0bf0e1b7ec3e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3a8d82fb94bee0ee85a1db052f7d8165"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ba84a1c3-ff15-41fe-bcc6-0bf0e1b7ec3e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c5d176388adae34c84e73c5f95192c57"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ba84a1c3-ff15-41fe-bcc6-0bf0e1b7ec3e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c5d176388adae34c84e73c5f95192c57"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/ba84a1c3-ff15-41fe-bcc6-0bf0e1b7ec3e/background?territory=IT&md5ChecksumParam=0b7916b918cb21aab19f3c397c2508be"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/ba84a1c3-ff15-41fe-bcc6-0bf0e1b7ec3e/cover?territory=IT&md5ChecksumParam=3a8d82fb94bee0ee85a1db052f7d8165"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/ba84a1c3-ff15-41fe-bcc6-0bf0e1b7ec3e/16-9?territory=IT&md5ChecksumParam=c4edf59da088a55afffa485eb601392c"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/ba84a1c3-ff15-41fe-bcc6-0bf0e1b7ec3e/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=54309040b0a61e5fa75d0eb13a135ae1"
-              }
-            }
-          ]
-        },
-        "eventId": "411298563",
-        "starttime": "2025-07-04T08:15:00Z",
-        "endtime": "2025-07-04T09:10:00Z",
-        "eventTitle": "I giovani del deserto",
-        "eventSynopsis": "S1 Ep6 I giovani del deserto - Un giovane cucciolo di leone deve sopravvivere mentre la sua famiglia viene fatta a pezzi. Due leopardi adolescenti devono cavarsela da soli dopo essere stati abbandonati e un cervo adulto rischia la vita.",
-        "epgEventTitle": "S1 Ep6 - INTO THE WILD: INDIA",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "4bafb7ed-d712-415b-9825-6c55b1246e07",
-          "contentTitle": "La storia di due pinguini",
-          "episodeNumber": 1,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/nuova-zelanda-selvaggia/stagione-1/episodio-1/4bafb7ed-d712-415b-9825-6c55b1246e07",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/4bafb7ed-d712-415b-9825-6c55b1246e07/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=327bf28059c7b51d9162b9c231922e7e"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/4bafb7ed-d712-415b-9825-6c55b1246e07/background?territory=IT&md5ChecksumParam=770359fc37e0dcf6183be2be855a6690"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/4bafb7ed-d712-415b-9825-6c55b1246e07/cover?territory=IT&md5ChecksumParam=327bf28059c7b51d9162b9c231922e7e"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/4bafb7ed-d712-415b-9825-6c55b1246e07/16-9?territory=IT&md5ChecksumParam=5eb73470c12a1e57a197dc1e5b463245"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/5f7ae989-1acf-4eb5-b6de-69f8a6e437ab/COVER_TITLE_WIDE-SEASON?territory=IT&md5ChecksumParam=e4cebe4b7d3342e60e4b556a6994e1cd"
-              }
-            }
-          ]
-        },
-        "eventId": "411298564",
-        "starttime": "2025-07-04T09:10:00Z",
-        "endtime": "2025-07-04T10:05:00Z",
-        "eventTitle": "La storia di due pinguini",
-        "eventSynopsis": "S1 Ep1 La storia di due pinguini - In Nuova Zelanda i tramonti segnano il ritorno a casa del pinguino piu' piccolo del mondo.",
-        "epgEventTitle": "S1 Ep1 - Nuova Zelanda selvaggia",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "37f3ed7f-d99a-4acf-9790-3d677c5e9086",
-          "contentTitle": "Il selvaggio Ovest",
-          "episodeNumber": 2,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/nuova-zelanda-selvaggia/stagione-1/episodio-2/37f3ed7f-d99a-4acf-9790-3d677c5e9086",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/37f3ed7f-d99a-4acf-9790-3d677c5e9086/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=327bf28059c7b51d9162b9c231922e7e"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/37f3ed7f-d99a-4acf-9790-3d677c5e9086/background?territory=IT&md5ChecksumParam=770359fc37e0dcf6183be2be855a6690"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/37f3ed7f-d99a-4acf-9790-3d677c5e9086/cover?territory=IT&md5ChecksumParam=327bf28059c7b51d9162b9c231922e7e"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/37f3ed7f-d99a-4acf-9790-3d677c5e9086/16-9?territory=IT&md5ChecksumParam=6e81ca4f816faa186099602a42a7ad8e"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/5f7ae989-1acf-4eb5-b6de-69f8a6e437ab/COVER_TITLE_WIDE-SEASON?territory=IT&md5ChecksumParam=e4cebe4b7d3342e60e4b556a6994e1cd"
-              }
-            }
-          ]
-        },
-        "eventId": "411298565",
-        "starttime": "2025-07-04T10:05:00Z",
-        "endtime": "2025-07-04T11:05:00Z",
-        "eventTitle": "Il selvaggio Ovest",
-        "eventSynopsis": "S1 Ep2 Il selvaggio Ovest - Per sopravvivere alle condizioni costiere, la natura si adatta in modi astuti e ingegnosi.",
-        "epgEventTitle": "S1 Ep2 - Nuova Zelanda selvaggia",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "6d6a5efa-3d93-480a-8d08-bf733f5bc205",
-          "contentTitle": "Vancouver",
-          "episodeNumber": 1,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/isole-selvagge/stagione-1/episodio-1/6d6a5efa-3d93-480a-8d08-bf733f5bc205",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/6d6a5efa-3d93-480a-8d08-bf733f5bc205/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=08cc417732a61d26c3d53f7b03d06ce4"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6d6a5efa-3d93-480a-8d08-bf733f5bc205/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=011b779e6f808316bcd2d6c1cff8ed2e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6d6a5efa-3d93-480a-8d08-bf733f5bc205/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=011b779e6f808316bcd2d6c1cff8ed2e"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/6d6a5efa-3d93-480a-8d08-bf733f5bc205/background?territory=IT&md5ChecksumParam=5c14872b160ea1af5f154925534d44c1"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/6d6a5efa-3d93-480a-8d08-bf733f5bc205/cover?territory=IT&md5ChecksumParam=08cc417732a61d26c3d53f7b03d06ce4"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/6d6a5efa-3d93-480a-8d08-bf733f5bc205/16-9?territory=IT&md5ChecksumParam=dea3db6b516f91004dafbef4aca8fd26"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/6d6a5efa-3d93-480a-8d08-bf733f5bc205/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=fa5c7ac116755afed1d42a86195a233f"
-              }
-            }
-          ]
-        },
-        "eventId": "411298566",
-        "starttime": "2025-07-04T11:05:00Z",
-        "endtime": "2025-07-04T12:00:00Z",
-        "eventTitle": "Vancouver",
-        "eventSynopsis": "S1 Ep1 Vancouver - Scopriamo lupi costieri, girini di rospi boreali, marmotte in pericolo e altri abitanti di quest'isola straordinaria.",
-        "epgEventTitle": "S1 Ep1 - Isole selvagge",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "8c2ca9a9-bae3-4457-b066-f9955fdfa50c",
-          "contentTitle": "K'gari",
-          "episodeNumber": 2,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/isole-selvagge/stagione-1/episodio-2/8c2ca9a9-bae3-4457-b066-f9955fdfa50c",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/8c2ca9a9-bae3-4457-b066-f9955fdfa50c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=08cc417732a61d26c3d53f7b03d06ce4"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8c2ca9a9-bae3-4457-b066-f9955fdfa50c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=011b779e6f808316bcd2d6c1cff8ed2e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8c2ca9a9-bae3-4457-b066-f9955fdfa50c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=011b779e6f808316bcd2d6c1cff8ed2e"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/8c2ca9a9-bae3-4457-b066-f9955fdfa50c/background?territory=IT&md5ChecksumParam=5c14872b160ea1af5f154925534d44c1"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/8c2ca9a9-bae3-4457-b066-f9955fdfa50c/cover?territory=IT&md5ChecksumParam=08cc417732a61d26c3d53f7b03d06ce4"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/8c2ca9a9-bae3-4457-b066-f9955fdfa50c/16-9?territory=IT&md5ChecksumParam=95413266637380a355b66b2a22a051d9"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/8c2ca9a9-bae3-4457-b066-f9955fdfa50c/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=fa5c7ac116755afed1d42a86195a233f"
-              }
-            }
-          ]
-        },
-        "eventId": "411298567",
-        "starttime": "2025-07-04T12:00:00Z",
-        "endtime": "2025-07-04T12:55:00Z",
-        "eventTitle": "K'gari",
-        "eventSynopsis": "S1 Ep2 K'gari - Sull'isola sabbiosa piu' grande del mondo, vediamo delle razze che cacciano i granchi soldato sfidando le maree e delle rane che scappano dai predatori.",
-        "epgEventTitle": "S1 Ep2 - Isole selvagge",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "e1de9dfd-2ec4-473a-822c-40958e453c5a",
-          "contentTitle": "Il Lago Superiore",
-          "episodeNumber": 7,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/panorami-nascosti/stagione-1/episodio-7/e1de9dfd-2ec4-473a-822c-40958e453c5a",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/e1de9dfd-2ec4-473a-822c-40958e453c5a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=859e41e4580e68e4158f8477d921b7cb"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/e1de9dfd-2ec4-473a-822c-40958e453c5a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=948e7382076a8afc64ef5c711dfa05e4"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/e1de9dfd-2ec4-473a-822c-40958e453c5a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=948e7382076a8afc64ef5c711dfa05e4"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/e1de9dfd-2ec4-473a-822c-40958e453c5a/background?territory=IT&md5ChecksumParam=f4932313327aa1104d055ea192737c48"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/e1de9dfd-2ec4-473a-822c-40958e453c5a/cover?territory=IT&md5ChecksumParam=859e41e4580e68e4158f8477d921b7cb"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/e1de9dfd-2ec4-473a-822c-40958e453c5a/16-9?territory=IT&md5ChecksumParam=cf8166fc48cbe3517cc8cd255db2dacf"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/e1de9dfd-2ec4-473a-822c-40958e453c5a/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=b207dac7a0b44ac07a8ee11ad74484d6"
-              }
-            }
-          ]
-        },
-        "eventId": "411298568",
-        "starttime": "2025-07-04T12:55:00Z",
-        "endtime": "2025-07-04T13:50:00Z",
-        "eventTitle": "Il Lago Superiore",
-        "eventSynopsis": "S1 Ep7 Il Lago Superiore - A nord del piu' grande lago d'acqua dolce del mondo vi e' una terra estremamenre brutale che comprende il brullo e antico Scudo Canadese.",
-        "epgEventTitle": "S1 Ep7 - Panorami nascosti",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "d66a223f-42c2-4418-bbd1-18ccd04454d5",
-          "contentTitle": "Il Niagara",
-          "episodeNumber": 8,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/panorami-nascosti/stagione-1/episodio-8/d66a223f-42c2-4418-bbd1-18ccd04454d5",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/d66a223f-42c2-4418-bbd1-18ccd04454d5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=859e41e4580e68e4158f8477d921b7cb"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d66a223f-42c2-4418-bbd1-18ccd04454d5/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=948e7382076a8afc64ef5c711dfa05e4"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d66a223f-42c2-4418-bbd1-18ccd04454d5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=948e7382076a8afc64ef5c711dfa05e4"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/d66a223f-42c2-4418-bbd1-18ccd04454d5/background?territory=IT&md5ChecksumParam=f4932313327aa1104d055ea192737c48"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/d66a223f-42c2-4418-bbd1-18ccd04454d5/cover?territory=IT&md5ChecksumParam=859e41e4580e68e4158f8477d921b7cb"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/d66a223f-42c2-4418-bbd1-18ccd04454d5/16-9?territory=IT&md5ChecksumParam=3ce5ef5d198ebd693dff3f79ccdffe28"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/d66a223f-42c2-4418-bbd1-18ccd04454d5/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=b207dac7a0b44ac07a8ee11ad74484d6"
-              }
-            }
-          ]
-        },
-        "eventId": "411298569",
-        "starttime": "2025-07-04T13:50:00Z",
-        "endtime": "2025-07-04T14:40:00Z",
-        "eventTitle": "Il Niagara",
-        "eventSynopsis": "S1 Ep8 Il Niagara - Con un'estensione di oltre 700 km nelle terre selvagge dell'Ontario, la Riserva di Biosfera del Niagara inizia dalle sue suggestive e potenti cascate.",
-        "epgEventTitle": "S1 Ep8 - Panorami nascosti",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "34c334f3-dca5-4e46-a9ee-442abc141093",
-          "contentTitle": "Utah",
-          "episodeNumber": 4,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/panorami-nascosti/stagione-1/episodio-4/34c334f3-dca5-4e46-a9ee-442abc141093",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/34c334f3-dca5-4e46-a9ee-442abc141093/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=948e7382076a8afc64ef5c711dfa05e4"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/34c334f3-dca5-4e46-a9ee-442abc141093/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=948e7382076a8afc64ef5c711dfa05e4"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/34c334f3-dca5-4e46-a9ee-442abc141093/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=859e41e4580e68e4158f8477d921b7cb"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/34c334f3-dca5-4e46-a9ee-442abc141093/background?territory=IT&md5ChecksumParam=f4932313327aa1104d055ea192737c48"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/34c334f3-dca5-4e46-a9ee-442abc141093/cover?territory=IT&md5ChecksumParam=859e41e4580e68e4158f8477d921b7cb"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/34c334f3-dca5-4e46-a9ee-442abc141093/16-9?territory=IT&md5ChecksumParam=3c9411880b16d18eefc0248e1c35cdef"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/34c334f3-dca5-4e46-a9ee-442abc141093/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=b207dac7a0b44ac07a8ee11ad74484d6"
-              }
-            }
-          ]
-        },
-        "eventId": "411298570",
-        "starttime": "2025-07-04T14:40:00Z",
-        "endtime": "2025-07-04T15:30:00Z",
-        "eventTitle": "Ep. 4",
-        "eventSynopsis": "S1 Ep4 Utah - Un itinerario alternativo tra i remoti e sorprendenti canyon dello Utah Meridionale vi mostrera' pareti enorme, pianure rigogliose e gole mozzafiato.",
-        "epgEventTitle": "S1 Ep4 - Panorami nascosti",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "5be15cf7-c39d-48d1-95cd-a7e48ef139d0",
-          "contentTitle": "Arizona",
-          "episodeNumber": 5,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/panorami-nascosti/stagione-1/episodio-5/5be15cf7-c39d-48d1-95cd-a7e48ef139d0",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/5be15cf7-c39d-48d1-95cd-a7e48ef139d0/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=948e7382076a8afc64ef5c711dfa05e4"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/5be15cf7-c39d-48d1-95cd-a7e48ef139d0/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=948e7382076a8afc64ef5c711dfa05e4"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/5be15cf7-c39d-48d1-95cd-a7e48ef139d0/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=859e41e4580e68e4158f8477d921b7cb"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/5be15cf7-c39d-48d1-95cd-a7e48ef139d0/background?territory=IT&md5ChecksumParam=f4932313327aa1104d055ea192737c48"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/5be15cf7-c39d-48d1-95cd-a7e48ef139d0/cover?territory=IT&md5ChecksumParam=859e41e4580e68e4158f8477d921b7cb"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/5be15cf7-c39d-48d1-95cd-a7e48ef139d0/16-9?territory=IT&md5ChecksumParam=0f72d4639c6281f3b2cdec5134bc0458"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/5be15cf7-c39d-48d1-95cd-a7e48ef139d0/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=b207dac7a0b44ac07a8ee11ad74484d6"
-              }
-            }
-          ]
-        },
-        "eventId": "411298571",
-        "starttime": "2025-07-04T15:30:00Z",
-        "endtime": "2025-07-04T16:25:00Z",
-        "eventTitle": "Arizona",
-        "eventSynopsis": "S1 Ep5 Arizona - Con canyon serpeggianti, maestose pareti e dune fossilizzate in mezzo al rosso del deserto, il Paria Plateau e' una meraviglia geologica.",
-        "epgEventTitle": "S1 Ep5 - Panorami nascosti",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "53f224c5-13ed-40a6-b3ed-e96ecafea184",
-          "contentTitle": "Texas Selvaggio",
-          "episodeNumber": 0,
-          "url": "/programmi-tv/natura/texas-selvaggio/53f224c5-13ed-40a6-b3ed-e96ecafea184",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/53f224c5-13ed-40a6-b3ed-e96ecafea184/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7d9af3e6556a4b51e9af2676e4432239"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/53f224c5-13ed-40a6-b3ed-e96ecafea184/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7d9af3e6556a4b51e9af2676e4432239"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/53f224c5-13ed-40a6-b3ed-e96ecafea184/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e797d39f16f3eb653c46a7f7f8ff1f9a"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/53f224c5-13ed-40a6-b3ed-e96ecafea184/background?territory=IT&md5ChecksumParam=d8f27789bfaf8757e5e5a28e2215cb06"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/53f224c5-13ed-40a6-b3ed-e96ecafea184/cover?territory=IT&md5ChecksumParam=e797d39f16f3eb653c46a7f7f8ff1f9a"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/53f224c5-13ed-40a6-b3ed-e96ecafea184/16-9?territory=IT&md5ChecksumParam=cb95071f81225a3a80cf29f17c707ba8"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/53f224c5-13ed-40a6-b3ed-e96ecafea184/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=1e215d150a2d52b659460b3446f36ebe"
-              }
-            }
-          ]
-        },
-        "eventId": "411298572",
-        "starttime": "2025-07-04T16:25:00Z",
-        "endtime": "2025-07-04T17:25:00Z",
-        "eventTitle": "Texas Selvaggio",
-        "eventSynopsis": "Alla scoperta di cio' che rende il Texas un luogo unico al mondo: attraverso gli occhi delle specie autoctone, il documentario segue la relazione dell'essere umano con la natura.",
-        "epgEventTitle": "Texas Selvaggio",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "c0531b10-d207-4770-8f19-661d8b2afc3e",
-          "contentTitle": "Il sentiero dei relitti delle Florida Keys",
-          "episodeNumber": 2,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/i-relitti-delle-barriere-coralline/stagione-1/episodio-2/c0531b10-d207-4770-8f19-661d8b2afc3e",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/c0531b10-d207-4770-8f19-661d8b2afc3e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=dfee4ae0653361cb3808425224802ed1"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/c0531b10-d207-4770-8f19-661d8b2afc3e/background?territory=IT&md5ChecksumParam=032decfc3564c245ded32b295f1d83e3"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/c0531b10-d207-4770-8f19-661d8b2afc3e/cover?territory=IT&md5ChecksumParam=dfee4ae0653361cb3808425224802ed1"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/c0531b10-d207-4770-8f19-661d8b2afc3e/16-9?territory=IT&md5ChecksumParam=9020265fcefa691376d5a4e889870e5b"
-              }
-            }
-          ]
-        },
-        "eventId": "411298573",
-        "starttime": "2025-07-04T17:25:00Z",
-        "endtime": "2025-07-04T18:20:00Z",
-        "eventTitle": "Il sentiero dei relitti delle Florida Keys",
-        "eventSynopsis": "S1 Ep2 Il sentiero dei relitti delle Florida Keys - Presso le Florida Keys vi sono 1.000 relitti! Il \"Sentiero dei Relitti\", una schiera di barriere artificiali, e' un perfetto rifugio per animali.",
-        "epgEventTitle": "S1 Ep2 - I relitti delle barriere coralline",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "69981d5b-f711-4a11-b51a-5d2dd51ce294",
-          "contentTitle": "Le Bahamas",
-          "episodeNumber": 6,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/panorami-nascosti/stagione-1/episodio-6/69981d5b-f711-4a11-b51a-5d2dd51ce294",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/69981d5b-f711-4a11-b51a-5d2dd51ce294/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=859e41e4580e68e4158f8477d921b7cb"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/69981d5b-f711-4a11-b51a-5d2dd51ce294/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=948e7382076a8afc64ef5c711dfa05e4"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/69981d5b-f711-4a11-b51a-5d2dd51ce294/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=948e7382076a8afc64ef5c711dfa05e4"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/69981d5b-f711-4a11-b51a-5d2dd51ce294/background?territory=IT&md5ChecksumParam=f4932313327aa1104d055ea192737c48"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/69981d5b-f711-4a11-b51a-5d2dd51ce294/cover?territory=IT&md5ChecksumParam=859e41e4580e68e4158f8477d921b7cb"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/69981d5b-f711-4a11-b51a-5d2dd51ce294/16-9?territory=IT&md5ChecksumParam=7a0c2f89f5b1ad46c42e711f7c85358a"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/69981d5b-f711-4a11-b51a-5d2dd51ce294/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=b207dac7a0b44ac07a8ee11ad74484d6"
-              }
-            }
-          ]
-        },
-        "eventId": "411298575",
-        "starttime": "2025-07-04T18:20:00Z",
-        "endtime": "2025-07-04T19:15:00Z",
-        "eventTitle": "Le Bahamas",
-        "eventSynopsis": "S1 Ep6 Le Bahamas - Con oltre 405 mila ettari di Parchi Nazionali, le Bahamas sono un paradiso per uccelli migratori, tartarughe verdi e iguana delle rocce.",
-        "epgEventTitle": "S1 Ep6 - Panorami nascosti",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "9bb3b8ab-2d93-4ec5-81fa-fd7dc5b63871",
-          "contentTitle": "Africa",
-          "episodeNumber": 3,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/sotto-i-cieli-selvaggi-della-terra/stagione-1/episodio-3/9bb3b8ab-2d93-4ec5-81fa-fd7dc5b63871",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/9bb3b8ab-2d93-4ec5-81fa-fd7dc5b63871/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b33fe878d415fce24477f1909b5dbcda"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/9bb3b8ab-2d93-4ec5-81fa-fd7dc5b63871/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b33fe878d415fce24477f1909b5dbcda"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/9bb3b8ab-2d93-4ec5-81fa-fd7dc5b63871/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b7d0d7824cdb3202251c968a2d948549"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/9bb3b8ab-2d93-4ec5-81fa-fd7dc5b63871/background?territory=IT&md5ChecksumParam=c1acc3fa88efa49e2151a1291aeb6488"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/9bb3b8ab-2d93-4ec5-81fa-fd7dc5b63871/cover?territory=IT&md5ChecksumParam=b7d0d7824cdb3202251c968a2d948549"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/9bb3b8ab-2d93-4ec5-81fa-fd7dc5b63871/16-9?territory=IT&md5ChecksumParam=abbbbedc6af9961635cd5eadc404d96c"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/9bb3b8ab-2d93-4ec5-81fa-fd7dc5b63871/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=cdd874245ddf3f0a737a3e2a780c907d"
-              }
-            }
-          ]
-        },
-        "eventId": "411298577",
-        "starttime": "2025-07-04T19:15:00Z",
-        "endtime": "2025-07-04T20:15:00Z",
-        "eventTitle": "Africa",
-        "eventSynopsis": "S1 Ep3 Africa - Seguiamo gli animali all'eterna ricerca dell'acqua in questo vasto continente.",
-        "epgEventTitle": "S1 Ep3 - Sotto i cieli selvaggi della Terra",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "04115da0-fd76-4ecc-89bb-aec3086beede",
-          "contentTitle": "America Del Sud",
-          "episodeNumber": 4,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/sotto-i-cieli-selvaggi-della-terra/stagione-1/episodio-4/04115da0-fd76-4ecc-89bb-aec3086beede",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/04115da0-fd76-4ecc-89bb-aec3086beede/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b7d0d7824cdb3202251c968a2d948549"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/04115da0-fd76-4ecc-89bb-aec3086beede/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b33fe878d415fce24477f1909b5dbcda"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/04115da0-fd76-4ecc-89bb-aec3086beede/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b33fe878d415fce24477f1909b5dbcda"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/04115da0-fd76-4ecc-89bb-aec3086beede/background?territory=IT&md5ChecksumParam=c1acc3fa88efa49e2151a1291aeb6488"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/04115da0-fd76-4ecc-89bb-aec3086beede/cover?territory=IT&md5ChecksumParam=b7d0d7824cdb3202251c968a2d948549"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/04115da0-fd76-4ecc-89bb-aec3086beede/16-9?territory=IT&md5ChecksumParam=aa81dae639c16ef6fbd05c32aa8d396c"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/04115da0-fd76-4ecc-89bb-aec3086beede/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=cdd874245ddf3f0a737a3e2a780c907d"
-              }
-            }
-          ]
-        },
-        "eventId": "411298579",
-        "starttime": "2025-07-04T20:15:00Z",
-        "endtime": "2025-07-04T21:15:00Z",
-        "eventTitle": "America Del Sud",
-        "eventSynopsis": "S1 Ep4 America Del Sud - Scopriamo in che modo i cambiamenti metereologici alimentano la biodiversita' del Sud America.",
-        "epgEventTitle": "S1 Ep4 - Sotto i cieli selvaggi della Terra",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "4c59820d-8140-4f18-abdc-fb9b9bab0819",
-          "contentTitle": "L'orango",
-          "episodeNumber": 3,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/arena-selvaggia/stagione-1/episodio-3/4c59820d-8140-4f18-abdc-fb9b9bab0819",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/4c59820d-8140-4f18-abdc-fb9b9bab0819/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4c59820d-8140-4f18-abdc-fb9b9bab0819/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4c59820d-8140-4f18-abdc-fb9b9bab0819/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/4c59820d-8140-4f18-abdc-fb9b9bab0819/background?territory=IT&md5ChecksumParam=5973867636814ac096deaaff6cd8c74f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/4c59820d-8140-4f18-abdc-fb9b9bab0819/cover?territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/4c59820d-8140-4f18-abdc-fb9b9bab0819/16-9?territory=IT&md5ChecksumParam=76315b51e9947f3402d1a89abf936c68"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/4c59820d-8140-4f18-abdc-fb9b9bab0819/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=a04ec9c2ef0013477faca5f98d02f77f"
-              }
-            }
-          ]
-        },
-        "eventId": "411298582",
-        "starttime": "2025-07-04T21:15:00Z",
-        "endtime": "2025-07-04T22:15:00Z",
-        "eventTitle": "L'orango",
-        "eventSynopsis": "S1 Ep3 L'orango - Impariamo l'arte della costruzione di nidi con l'orangotango, il maestro costruttore della giungla.",
-        "epgEventTitle": "S1 Ep3 - Arena Selvaggia",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "d8a18a8a-0ffc-4af2-9d90-cb3844da7b8b",
-          "contentTitle": "Gli scimpanzè",
-          "episodeNumber": 4,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/arena-selvaggia/stagione-1/episodio-4/d8a18a8a-0ffc-4af2-9d90-cb3844da7b8b",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/d8a18a8a-0ffc-4af2-9d90-cb3844da7b8b/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d8a18a8a-0ffc-4af2-9d90-cb3844da7b8b/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d8a18a8a-0ffc-4af2-9d90-cb3844da7b8b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/d8a18a8a-0ffc-4af2-9d90-cb3844da7b8b/background?territory=IT&md5ChecksumParam=5973867636814ac096deaaff6cd8c74f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/d8a18a8a-0ffc-4af2-9d90-cb3844da7b8b/cover?territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/d8a18a8a-0ffc-4af2-9d90-cb3844da7b8b/16-9?territory=IT&md5ChecksumParam=4bd22d7e22f89fad00e67d46aad0403a"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/d8a18a8a-0ffc-4af2-9d90-cb3844da7b8b/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=a04ec9c2ef0013477faca5f98d02f77f"
-              }
-            }
-          ]
-        },
-        "eventId": "411298587",
-        "starttime": "2025-07-04T22:15:00Z",
-        "endtime": "2025-07-04T23:15:00Z",
-        "eventTitle": "Gli scimpanzè",
-        "eventSynopsis": "S1 Ep4 Gli scimpanze' - Seguiamo le tracce degli scimpanze' nella foresta ruandese e scopriamo come si nutrono nella giungla.",
-        "epgEventTitle": "S1 Ep4 - Arena Selvaggia",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11242,
-          "logo": "/logo/695skynature_Light_Fit.png?checksum=6a2c90be-bac2-4622-af95-39ec6b75e3b4",
-          "logoPadding": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "logoDark": "/logo/695skynature_Dark_Fit.png?checksum=4a550e90-0d76-4287-8bed-0b7e085d6682",
-          "logoDarkPadding": "/logo/695skynature_Dark_Padding.png?checksum=68d653d3-49f0-4421-813b-76c978162e5b",
-          "logoLight": "/logo/695skynature_Light_Padding.png?checksum=b00d7f47-e5f8-40b8-a7cf-2503277afefc",
-          "name": "Sky Nature",
-          "description": "Il canale tv dedicato all'ambiente, ai documentari naturalistici. Canale Sky Glass 117.",
-          "number": 122,
-          "servicekey": "695",
-          "category": {
-            "id": 3,
-            "name": "Intrattenimento"
-          }
-        },
-        "content": {
-          "uuid": "d0783118-5659-43bc-b8b7-6bf69c0d8e76",
-          "contentTitle": "Il più piccolo dei cuccioli",
-          "episodeNumber": 1,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/natura/vita-da-cuccioli/stagione-1/episodio-1/d0783118-5659-43bc-b8b7-6bf69c0d8e76",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 12,
-            "name": "Natura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/d0783118-5659-43bc-b8b7-6bf69c0d8e76/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7b43ac03a9cc5688233842716ce26473"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d0783118-5659-43bc-b8b7-6bf69c0d8e76/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4cfb2e342980c37bc9737a4b22e7c91c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d0783118-5659-43bc-b8b7-6bf69c0d8e76/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4cfb2e342980c37bc9737a4b22e7c91c"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/d0783118-5659-43bc-b8b7-6bf69c0d8e76/background?territory=IT&md5ChecksumParam=5967cb1a467956cbdb16857b75fd42d5"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/d0783118-5659-43bc-b8b7-6bf69c0d8e76/cover?territory=IT&md5ChecksumParam=7b43ac03a9cc5688233842716ce26473"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/d0783118-5659-43bc-b8b7-6bf69c0d8e76/16-9?territory=IT&md5ChecksumParam=8888564d551dc5d66b5008b91a70301e"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/d0783118-5659-43bc-b8b7-6bf69c0d8e76/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=81cad6e4404e6d305bcb374e12d1c9eb"
-              }
-            }
-          ]
-        },
-        "eventId": "411298589",
-        "starttime": "2025-07-04T23:15:00Z",
-        "endtime": "2025-07-05T00:10:00Z",
-        "eventTitle": "Il Più Piccolo Dei Cuccioli",
-        "eventSynopsis": "S1 Ep1 Il piu' piccolo dei cuccioli - Il piccolo Winston ama troppo gli esseri umani e ci insegna una preziosa lezione sull'autonomia.",
-        "epgEventTitle": "S1 Ep1 - Vita da cuccioli",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
     "2025-07-05": [
       {
         "channel": {
@@ -2679,12 +296,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/99d9079d-ccb7-4177-a3df-f4ca8fb2a06b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=61ab3d628144588ae2f497e966d55aed"
+                "url": "/uuid/ab5a3a82-43e0-49d9-bc58-d0fa31d5a46f/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=ca175001661ec00457691407b128d37d"
               }
             },
             {
               "img": {
-                "url": "/uuid/ab5a3a82-43e0-49d9-bc58-d0fa31d5a46f/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=ca175001661ec00457691407b128d37d"
+                "url": "/uuid/99d9079d-ccb7-4177-a3df-f4ca8fb2a06b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=61ab3d628144588ae2f497e966d55aed"
               }
             },
             {
@@ -3836,12 +1453,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/e0175db4-473a-4395-afb6-b466991e81e5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5b3ab3527dae75a90d0799b7b604b924"
+                "url": "/uuid/e0175db4-473a-4395-afb6-b466991e81e5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b1134f4556d7a2e06d183298087d5c01"
               }
             },
             {
               "img": {
-                "url": "/uuid/e0175db4-473a-4395-afb6-b466991e81e5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b1134f4556d7a2e06d183298087d5c01"
+                "url": "/uuid/e0175db4-473a-4395-afb6-b466991e81e5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5b3ab3527dae75a90d0799b7b604b924"
               }
             },
             {
@@ -5148,12 +2765,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/2dc24877-9a1f-4481-a3ab-0eca32785dc5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=39bff83df894e8b61abd8e8a854eda5c"
+                "url": "/uuid/2dc24877-9a1f-4481-a3ab-0eca32785dc5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f138f4af5557600b397c2f0f06e71500"
               }
             },
             {
               "img": {
-                "url": "/uuid/2dc24877-9a1f-4481-a3ab-0eca32785dc5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f138f4af5557600b397c2f0f06e71500"
+                "url": "/uuid/2dc24877-9a1f-4481-a3ab-0eca32785dc5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=39bff83df894e8b61abd8e8a854eda5c"
               }
             },
             {
@@ -5306,12 +2923,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/c37b8adb-c637-4308-8da8-32a62b44144d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=abf12acce9e10a68b8d39a9d7589c0ca"
+                "url": "/uuid/c37b8adb-c637-4308-8da8-32a62b44144d/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c70ac35af64e9212dde6f2a416327bd1"
               }
             },
             {
               "img": {
-                "url": "/uuid/c37b8adb-c637-4308-8da8-32a62b44144d/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c70ac35af64e9212dde6f2a416327bd1"
+                "url": "/uuid/c37b8adb-c637-4308-8da8-32a62b44144d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=abf12acce9e10a68b8d39a9d7589c0ca"
               }
             },
             {
@@ -5347,7 +2964,7 @@
         },
         "eventId": "411298679",
         "starttime": "2025-07-06T05:50:00Z",
-        "endtime": "2025-07-06T06:40:00Z",
+        "endtime": "2025-07-06T06:45:00Z",
         "eventTitle": "Storie di elefanti",
         "eventSynopsis": "S2 Ep3 Storie di elefanti - Un tempo abbondanti nel continente, negli ultimi 200 anni le comunita' di elefanti si sono drasticamente ridotte per le loro zanne e per la loro carne.",
         "epgEventTitle": "S2 Ep3 - Icone naturali",
@@ -5433,8 +3050,8 @@
           ]
         },
         "eventId": "411298682",
-        "starttime": "2025-07-06T06:40:00Z",
-        "endtime": "2025-07-06T07:30:00Z",
+        "starttime": "2025-07-06T06:45:00Z",
+        "endtime": "2025-07-06T07:45:00Z",
         "eventTitle": "L'orango",
         "eventSynopsis": "S1 Ep3 L'orango - Impariamo l'arte della costruzione di nidi con l'orangotango, il maestro costruttore della giungla.",
         "epgEventTitle": "S1 Ep3 - Arena Selvaggia",
@@ -5520,8 +3137,8 @@
           ]
         },
         "eventId": "411298685",
-        "starttime": "2025-07-06T07:30:00Z",
-        "endtime": "2025-07-06T08:30:00Z",
+        "starttime": "2025-07-06T07:45:00Z",
+        "endtime": "2025-07-06T08:45:00Z",
         "eventTitle": "Gli scimpanzè",
         "eventSynopsis": "S1 Ep4 Gli scimpanze' - Seguiamo le tracce degli scimpanze' nella foresta ruandese e scopriamo come si nutrono nella giungla.",
         "epgEventTitle": "S1 Ep4 - Arena Selvaggia",
@@ -5607,8 +3224,8 @@
           ]
         },
         "eventId": "411298688",
-        "starttime": "2025-07-06T08:30:00Z",
-        "endtime": "2025-07-06T09:30:00Z",
+        "starttime": "2025-07-06T08:45:00Z",
+        "endtime": "2025-07-06T09:40:00Z",
         "eventTitle": "Indonesia: isole di fuoco",
         "eventSynopsis": "S2 Ep1 Indonesia: isole di fuoco - Il vulcanologo Tom Pfeiffer conduce una spedizione alla scoperta di alcuni dei vulcani piu' remoti e raramente visitati dell'Indonesia.",
         "epgEventTitle": "S2 Ep1 - Odissee vulcaniche",
@@ -5694,8 +3311,8 @@
           ]
         },
         "eventId": "411298690",
-        "starttime": "2025-07-06T09:30:00Z",
-        "endtime": "2025-07-06T10:25:00Z",
+        "starttime": "2025-07-06T09:40:00Z",
+        "endtime": "2025-07-06T10:35:00Z",
         "eventTitle": "Giganti inquieti",
         "eventSynopsis": "S2 Ep4 Giganti inquieti - Dopo il devastante tsunami del 2011, il Giappone ha subito una forte crisi sismica. Studieremo accuratamente due dei suoi vulcani piu' pericolosi.",
         "epgEventTitle": "S2 Ep4 - Odissee vulcaniche",
@@ -5781,8 +3398,8 @@
           ]
         },
         "eventId": "411298693",
-        "starttime": "2025-07-06T10:25:00Z",
-        "endtime": "2025-07-06T11:25:00Z",
+        "starttime": "2025-07-06T10:35:00Z",
+        "endtime": "2025-07-06T11:30:00Z",
         "eventTitle": "Cenere e lava",
         "eventSynopsis": "S1 Ep1 Cenere e lava - Riprese aeree e notturne del Monte Etna, il vulcano attivo piu' alto d'Europa, raccontano il suo speciale ecosistema.",
         "epgEventTitle": "S1 Ep1 - Italia selvaggia - Vivere tra i vulcani",
@@ -5868,8 +3485,8 @@
           ]
         },
         "eventId": "411298695",
-        "starttime": "2025-07-06T11:25:00Z",
-        "endtime": "2025-07-06T12:25:00Z",
+        "starttime": "2025-07-06T11:30:00Z",
+        "endtime": "2025-07-06T12:30:00Z",
         "eventTitle": "Isole vulcaniche",
         "eventSynopsis": "S1 Ep2 Isole vulcaniche - Dal mare piu' profondo alla terra piu' arida, una notevole varieta' di creature popola le Isole Eolie nonostante le peculiari condizioni ambientali.",
         "epgEventTitle": "S1 Ep2 - Italia selvaggia - Vivere tra i vulcani",
@@ -5955,8 +3572,8 @@
           ]
         },
         "eventId": "411298698",
-        "starttime": "2025-07-06T12:25:00Z",
-        "endtime": "2025-07-06T13:25:00Z",
+        "starttime": "2025-07-06T12:30:00Z",
+        "endtime": "2025-07-06T13:30:00Z",
         "eventTitle": "Acque vulcaniche",
         "eventSynopsis": "S1 Ep3 Acque vulcaniche - Scopriamo le piante e gli animali che popolano le acque vulcaniche che dai geyser della Caldera di Manziana arrivano al Lago di Bracciano.",
         "epgEventTitle": "S1 Ep3 - Italia selvaggia - Vivere tra i vulcani",
@@ -6026,8 +3643,8 @@
           ]
         },
         "eventId": "411298700",
-        "starttime": "2025-07-06T13:25:00Z",
-        "endtime": "2025-07-06T14:20:00Z",
+        "starttime": "2025-07-06T13:30:00Z",
+        "endtime": "2025-07-06T14:25:00Z",
         "eventTitle": "Islanda: fuoco",
         "eventSynopsis": "S2 Ep1 Islanda: fuoco - L'Islanda e' l'isola vulcanica piu' grande del mondo. In questo luogo isolato e aspro si forma ogni giorno terra nuova.",
         "epgEventTitle": "S2 Ep1 - Panorami nascosti",
@@ -6097,7 +3714,7 @@
           ]
         },
         "eventId": "411298703",
-        "starttime": "2025-07-06T14:20:00Z",
+        "starttime": "2025-07-06T14:25:00Z",
         "endtime": "2025-07-06T15:20:00Z",
         "eventTitle": "Vie d'acqua",
         "eventSynopsis": "S1 Ep3 Vie d'acqua - Alcuni potenti fiumi del Nordamerica provengono dalle cime delle Montagne Rocciose, cambiando piu' volte ambienti lungo il viaggio verso l'oceano.",
@@ -6169,7 +3786,7 @@
         },
         "eventId": "411298705",
         "starttime": "2025-07-06T15:20:00Z",
-        "endtime": "2025-07-06T16:15:00Z",
+        "endtime": "2025-07-06T16:20:00Z",
         "eventTitle": "Tra le cime",
         "eventSynopsis": "S1 Ep2 Tra le cime - La capra delle nevi, la pecora delle Montagne Rocciose e l'orso nero riescono ad affrettare il passo tra le cime con facilita', sfidando la gravita'.",
         "epgEventTitle": "S1 Ep2 - Monti selvaggi",
@@ -6239,8 +3856,8 @@
           ]
         },
         "eventId": "411298708",
-        "starttime": "2025-07-06T16:15:00Z",
-        "endtime": "2025-07-06T17:15:00Z",
+        "starttime": "2025-07-06T16:20:00Z",
+        "endtime": "2025-07-06T17:20:00Z",
         "eventTitle": "Vie d'acqua",
         "eventSynopsis": "S1 Ep3 Vie d'acqua - Alcuni potenti fiumi del Nordamerica provengono dalle cime delle Montagne Rocciose, cambiando piu' volte ambienti lungo il viaggio verso l'oceano.",
         "epgEventTitle": "S1 Ep3 - Monti selvaggi",
@@ -6316,7 +3933,7 @@
           ]
         },
         "eventId": "411298710",
-        "starttime": "2025-07-06T17:15:00Z",
+        "starttime": "2025-07-06T17:20:00Z",
         "endtime": "2025-07-06T18:15:00Z",
         "eventTitle": "Equilibrare la foresta",
         "eventSynopsis": "S1 Ep4 Equilibrare la foresta - Sopravvivere nella foresta significa mantenere un delicato equilibrio tra crescita, distruzione, morte e rinascita.",
@@ -6578,7 +4195,7 @@
         },
         "eventId": "411298714",
         "starttime": "2025-07-06T20:15:00Z",
-        "endtime": "2025-07-06T21:15:00Z",
+        "endtime": "2025-07-06T21:10:00Z",
         "eventTitle": "Gli scimpanzè",
         "eventSynopsis": "S1 Ep4 Gli scimpanze' - Seguiamo le tracce degli scimpanze' nella foresta ruandese e scopriamo come si nutrono nella giungla.",
         "epgEventTitle": "S1 Ep4 - Arena Selvaggia",
@@ -6663,8 +4280,8 @@
           ]
         },
         "eventId": "411298715",
-        "starttime": "2025-07-06T21:15:00Z",
-        "endtime": "2025-07-06T22:50:00Z",
+        "starttime": "2025-07-06T21:10:00Z",
+        "endtime": "2025-07-06T22:45:00Z",
         "eventTitle": "Le Linci Selvagge",
         "eventSynopsis": "Nel Giuria vive una famiglia di linci boreali. Seguendo la loro vita, scopriamo il ruolo essenziale di questi schivi e feroci predatori nel ristabilire l'equilibrio dell'ambiente.",
         "epgEventTitle": "Le Linci Selvagge",
@@ -6742,7 +4359,7 @@
           ]
         },
         "eventId": "411298716",
-        "starttime": "2025-07-06T22:50:00Z",
+        "starttime": "2025-07-06T22:45:00Z",
         "endtime": "2025-07-06T23:45:00Z",
         "eventTitle": "Tasmania selvaggia",
         "eventSynopsis": "Questo lembo di terra incontaminata tra Australia e Antartide regala paesaggi mozzafiato e una fauna sorprendente.",
@@ -7209,7 +4826,7 @@
         },
         "eventId": "411298722",
         "starttime": "2025-07-07T02:20:00Z",
-        "endtime": "2025-07-07T03:10:00Z",
+        "endtime": "2025-07-07T03:05:00Z",
         "eventTitle": "Il Kalahari",
         "eventSynopsis": "S1 Ep5 Il Kalahari - Un'immensa terra arida domina il sudovest dell'Africa. Qui, la sabbia copre la terra con dune increspate e la pioggia si asciuga non appena cade.",
         "epgEventTitle": "S1 Ep5 - Orizzonti selvaggi d'Africa",
@@ -7295,7 +4912,7 @@
           ]
         },
         "eventId": "411298723",
-        "starttime": "2025-07-07T03:10:00Z",
+        "starttime": "2025-07-07T03:05:00Z",
         "endtime": "2025-07-07T04:00:00Z",
         "eventTitle": "Babbuini d'Africa",
         "eventSynopsis": "S1 Ep7 Babbuini d'Africa - In Africa, gli umani avanzano e i babbuini si devono adattare. Viaggeremo attraverso il continente per vederli formare legami sociali infrangibili.",
@@ -7454,7 +5071,7 @@
         },
         "eventId": "411378706",
         "starttime": "2025-07-07T04:55:00Z",
-        "endtime": "2025-07-07T05:55:00Z",
+        "endtime": "2025-07-07T05:50:00Z",
         "eventTitle": "Vie d'acqua",
         "eventSynopsis": "S1 Ep3 Vie d'acqua - Alcuni potenti fiumi del Nordamerica provengono dalle cime delle Montagne Rocciose, cambiando piu' volte ambienti lungo il viaggio verso l'oceano.",
         "epgEventTitle": "S1 Ep3 - Monti selvaggi",
@@ -7524,7 +5141,7 @@
           ]
         },
         "eventId": "411378708",
-        "starttime": "2025-07-07T05:55:00Z",
+        "starttime": "2025-07-07T05:50:00Z",
         "endtime": "2025-07-07T06:50:00Z",
         "eventTitle": "Tra le cime",
         "eventSynopsis": "S1 Ep2 Tra le cime - La capra delle nevi, la pecora delle Montagne Rocciose e l'orso nero riescono ad affrettare il passo tra le cime con facilita', sfidando la gravita'.",
@@ -7596,7 +5213,7 @@
         },
         "eventId": "411378710",
         "starttime": "2025-07-07T06:50:00Z",
-        "endtime": "2025-07-07T07:50:00Z",
+        "endtime": "2025-07-07T07:45:00Z",
         "eventTitle": "Vie d'acqua",
         "eventSynopsis": "S1 Ep3 Vie d'acqua - Alcuni potenti fiumi del Nordamerica provengono dalle cime delle Montagne Rocciose, cambiando piu' volte ambienti lungo il viaggio verso l'oceano.",
         "epgEventTitle": "S1 Ep3 - Monti selvaggi",
@@ -7672,8 +5289,8 @@
           ]
         },
         "eventId": "411378711",
-        "starttime": "2025-07-07T07:50:00Z",
-        "endtime": "2025-07-07T08:50:00Z",
+        "starttime": "2025-07-07T07:45:00Z",
+        "endtime": "2025-07-07T08:40:00Z",
         "eventTitle": "Equilibrare la foresta",
         "eventSynopsis": "S1 Ep4 Equilibrare la foresta - Sopravvivere nella foresta significa mantenere un delicato equilibrio tra crescita, distruzione, morte e rinascita.",
         "epgEventTitle": "S1 Ep2 - Monti selvaggi",
@@ -7759,8 +5376,8 @@
           ]
         },
         "eventId": "411378713",
-        "starttime": "2025-07-07T08:50:00Z",
-        "endtime": "2025-07-07T09:45:00Z",
+        "starttime": "2025-07-07T08:40:00Z",
+        "endtime": "2025-07-07T09:40:00Z",
         "eventTitle": "Sopravvivenza di gruppo",
         "eventSynopsis": "S1 Ep5 Sopravvivenza di gruppo - Benche' la vita sociale sia essenziale per numerose specie delle Montagne Rocciose, nessuna di loro si organizza allo stesso modo.",
         "epgEventTitle": "S1 Ep5 - Monti selvaggi",
@@ -7838,7 +5455,7 @@
           ]
         },
         "eventId": "411378715",
-        "starttime": "2025-07-07T09:45:00Z",
+        "starttime": "2025-07-07T09:40:00Z",
         "endtime": "2025-07-07T10:40:00Z",
         "eventTitle": "Tasmania selvaggia",
         "eventSynopsis": "Questo lembo di terra incontaminata tra Australia e Antartide regala paesaggi mozzafiato e una fauna sorprendente.",
@@ -7925,7 +5542,7 @@
         },
         "eventId": "411378717",
         "starttime": "2025-07-07T10:40:00Z",
-        "endtime": "2025-07-07T12:15:00Z",
+        "endtime": "2025-07-07T12:10:00Z",
         "eventTitle": "Le Linci Selvagge",
         "eventSynopsis": "Nel Giuria vive una famiglia di linci boreali. Seguendo la loro vita, scopriamo il ruolo essenziale di questi schivi e feroci predatori nel ristabilire l'equilibrio dell'ambiente.",
         "epgEventTitle": "Le Linci Selvagge",
@@ -8011,7 +5628,7 @@
           ]
         },
         "eventId": "411378719",
-        "starttime": "2025-07-07T12:15:00Z",
+        "starttime": "2025-07-07T12:10:00Z",
         "endtime": "2025-07-07T13:15:00Z",
         "eventTitle": "L'orango",
         "eventSynopsis": "S1 Ep3 L'orango - Impariamo l'arte della costruzione di nidi con l'orangotango, il maestro costruttore della giungla.",
@@ -8319,12 +5936,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/0600d0f5-9e19-4187-a2c6-09a943db9183/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=311b2abee6db55bc6953147a1756606d"
+                "url": "/uuid/0600d0f5-9e19-4187-a2c6-09a943db9183/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3af05d54742163cbc377b58d4d23a978"
               }
             },
             {
               "img": {
-                "url": "/uuid/0600d0f5-9e19-4187-a2c6-09a943db9183/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3af05d54742163cbc377b58d4d23a978"
+                "url": "/uuid/0600d0f5-9e19-4187-a2c6-09a943db9183/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=311b2abee6db55bc6953147a1756606d"
               }
             },
             {
@@ -8693,7 +6310,7 @@
         },
         "eventId": "411378734",
         "starttime": "2025-07-07T20:05:00Z",
-        "endtime": "2025-07-07T21:00:00Z",
+        "endtime": "2025-07-07T20:55:00Z",
         "eventTitle": "L'estremo sud",
         "eventSynopsis": "S1 Ep4 L'estremo sud - Avventuriamoci nel sud della Patagonia, l'ultimo lembo di terra prima dell'Artico, dove la sopravvivenza e' messa a dura prova.",
         "epgEventTitle": "S1 Ep4 - Patagonia - La vita ai confini del mondo",
@@ -8779,8 +6396,8 @@
           ]
         },
         "eventId": "411378736",
-        "starttime": "2025-07-07T21:00:00Z",
-        "endtime": "2025-07-07T22:00:00Z",
+        "starttime": "2025-07-07T20:55:00Z",
+        "endtime": "2025-07-07T21:55:00Z",
         "eventTitle": "Echi del passato",
         "eventSynopsis": "S1 Ep3 Echi del passato - Incontrerete le rondini di mare durante i loro lunghi spostamenti, osserverete da vicino le balene e farete visita a un'enorme colonia di foche.",
         "epgEventTitle": "S1 Ep3 - Isole selvagge d'Irlanda",
@@ -8866,9 +6483,9 @@
           ]
         },
         "eventId": "411378738",
-        "starttime": "2025-07-07T22:00:00Z",
+        "starttime": "2025-07-07T21:55:00Z",
         "endtime": "2025-07-07T23:00:00Z",
-        "eventTitle": "Isole selvagge d'Irlanda",
+        "eventTitle": "Animali selvatici d'inverno",
         "eventSynopsis": "S1 Ep4 Animali selvatici d'inverno - Navighiamo nell'Atlantico alla scoperta della straordinaria magia selvaggia delle isole occidentali dell'Irlanda!",
         "epgEventTitle": "S1 Ep4 - Isole selvagge d'Irlanda",
         "primeVision": false,
@@ -9041,7 +6658,7 @@
         },
         "eventId": "411378742",
         "starttime": "2025-07-07T23:55:00Z",
-        "endtime": "2025-07-08T00:50:00Z",
+        "endtime": "2025-07-08T00:45:00Z",
         "eventTitle": "I salvatori",
         "eventSynopsis": "S1 Ep1 I salvatori - Cani eroici salvano dei sopravvissuti ai disastri e aiutano a impedire il bracconaggio.",
         "epgEventTitle": "S1 Ep1 - Cani dai lavori straordinari",
@@ -9113,8 +6730,8 @@
           ]
         },
         "eventId": "411378744",
-        "starttime": "2025-07-08T00:50:00Z",
-        "endtime": "2025-07-08T01:15:00Z",
+        "starttime": "2025-07-08T00:45:00Z",
+        "endtime": "2025-07-08T01:10:00Z",
         "eventTitle": "Tatto",
         "eventSynopsis": "S1 Ep2 Tatto - Il tatto percepisce forze fisiche come morsi, cambi di temperatura, ecc. La minima vibrazione permette di ricevere numerose informazioni sull'habitat.",
         "epgEventTitle": "S1 Ep2 - Sensi animali",
@@ -9190,8 +6807,8 @@
           ]
         },
         "eventId": "411378746",
-        "starttime": "2025-07-08T01:15:00Z",
-        "endtime": "2025-07-08T01:40:00Z",
+        "starttime": "2025-07-08T01:10:00Z",
+        "endtime": "2025-07-08T01:35:00Z",
         "eventTitle": "Socievoli",
         "eventSynopsis": "S2 Ep3 Socievoli - Osserviamo predatori dall'indole socievole, la cui sopravvivenza dipende anche dall'aiuto dei propri amici e alleati.",
         "epgEventTitle": "S2 Ep3 - La battaglia dei predatori",
@@ -9261,8 +6878,8 @@
           ]
         },
         "eventId": "411378748",
-        "starttime": "2025-07-08T01:40:00Z",
-        "endtime": "2025-07-08T02:05:00Z",
+        "starttime": "2025-07-08T01:35:00Z",
+        "endtime": "2025-07-08T02:00:00Z",
         "eventTitle": "Brutti ma carini",
         "eventSynopsis": "S2 Ep5 Brutti ma carini - Non tutti i cuccioli sono carini come quelli di cane e di gatto. Alcuni sono piuttosto bruttini. Ma questo non significa che non siano preziosi.",
         "epgEventTitle": "S2 Ep5 - Cuccioli",
@@ -9348,7 +6965,7 @@
           ]
         },
         "eventId": "411378749",
-        "starttime": "2025-07-08T02:05:00Z",
+        "starttime": "2025-07-08T02:00:00Z",
         "endtime": "2025-07-08T02:10:00Z",
         "eventTitle": "Ep. 1",
         "eventSynopsis": "S1 Ep1 - I pangolini sono gli unici mammiferi con squame al mondo. Il fotoreporter ambientale Aaron Gekoski documenta operazione di salvataggio di 20 pangolini di contrabbando.",
@@ -9523,7 +7140,7 @@
         },
         "eventId": "411378753",
         "starttime": "2025-07-08T02:20:00Z",
-        "endtime": "2025-07-08T03:10:00Z",
+        "endtime": "2025-07-08T03:05:00Z",
         "eventTitle": "Il cratere Ngorongoro - Paradiso maledetto",
         "eventSynopsis": "S1 Ep6 Il cratere Ngorongoro: Paradiso maledetto - Scoprirete cosa si nasconde all'interno delle pareti del Cratere Ngorongoro e in che modo le terre circostanti favoriscano lo sviluppo di queste vite.",
         "epgEventTitle": "S1 Ep6 - Orizzonti selvaggi d'Africa",
@@ -9609,7 +7226,7 @@
           ]
         },
         "eventId": "411378755",
-        "starttime": "2025-07-08T03:10:00Z",
+        "starttime": "2025-07-08T03:05:00Z",
         "endtime": "2025-07-08T04:00:00Z",
         "eventTitle": "Il colobo rosso di Zanzibar",
         "eventSynopsis": "S1 Ep8 Il colobo rosso di Zanzibar - Al largo della Tanzania, il cucciolo Kima vive con la sua famiglia di colobi rossi. Ma che succede se perde l'orientamento?",
@@ -9962,12 +7579,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/0600d0f5-9e19-4187-a2c6-09a943db9183/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=311b2abee6db55bc6953147a1756606d"
+                "url": "/uuid/0600d0f5-9e19-4187-a2c6-09a943db9183/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3af05d54742163cbc377b58d4d23a978"
               }
             },
             {
               "img": {
-                "url": "/uuid/0600d0f5-9e19-4187-a2c6-09a943db9183/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3af05d54742163cbc377b58d4d23a978"
+                "url": "/uuid/0600d0f5-9e19-4187-a2c6-09a943db9183/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=311b2abee6db55bc6953147a1756606d"
               }
             },
             {
@@ -10424,7 +8041,7 @@
         "eventId": "411388511",
         "starttime": "2025-07-08T11:30:00Z",
         "endtime": "2025-07-08T12:30:00Z",
-        "eventTitle": "Isole selvagge d'Irlanda",
+        "eventTitle": "Animali selvatici d'inverno",
         "eventSynopsis": "S1 Ep4 Animali selvatici d'inverno - Navighiamo nell'Atlantico alla scoperta della straordinaria magia selvaggia delle isole occidentali dell'Irlanda!",
         "epgEventTitle": "S1 Ep4 - Isole selvagge d'Irlanda",
         "primeVision": false,
@@ -11300,12 +8917,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/8fa27787-e514-432f-8042-9c552945758d/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=172f760a5cafaa34d610477fad6034cf"
+                "url": "/uuid/4c0b04f3-eb2d-4f78-a5d7-4546e6af3ab7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=1a269f35d8f0fb7729db3a4de0956bf6"
               }
             },
             {
               "img": {
-                "url": "/uuid/4c0b04f3-eb2d-4f78-a5d7-4546e6af3ab7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=1a269f35d8f0fb7729db3a4de0956bf6"
+                "url": "/uuid/8fa27787-e514-432f-8042-9c552945758d/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=172f760a5cafaa34d610477fad6034cf"
               }
             },
             {
@@ -11476,12 +9093,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/2216e27a-d2af-4e5e-9a5a-42b53c8bfc19/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=eecbd728cfee2717bcbe24f748973c0c"
+                "url": "/uuid/11f28484-c516-4156-9a8f-b1cdb0236a6d/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=95708f69647da9e658829b43904a4629"
               }
             },
             {
               "img": {
-                "url": "/uuid/11f28484-c516-4156-9a8f-b1cdb0236a6d/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=95708f69647da9e658829b43904a4629"
+                "url": "/uuid/2216e27a-d2af-4e5e-9a5a-42b53c8bfc19/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=eecbd728cfee2717bcbe24f748973c0c"
               }
             },
             {
@@ -11962,12 +9579,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
               }
             },
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
               }
             },
             {
@@ -12811,12 +10428,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/8fa27787-e514-432f-8042-9c552945758d/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=172f760a5cafaa34d610477fad6034cf"
+                "url": "/uuid/4c0b04f3-eb2d-4f78-a5d7-4546e6af3ab7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=1a269f35d8f0fb7729db3a4de0956bf6"
               }
             },
             {
               "img": {
-                "url": "/uuid/4c0b04f3-eb2d-4f78-a5d7-4546e6af3ab7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=1a269f35d8f0fb7729db3a4de0956bf6"
+                "url": "/uuid/8fa27787-e514-432f-8042-9c552945758d/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=172f760a5cafaa34d610477fad6034cf"
               }
             },
             {
@@ -13465,12 +11082,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
               }
             },
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
               }
             },
             {
@@ -13641,12 +11258,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
               }
             },
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
               }
             },
             {
@@ -14517,12 +12134,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/e0175db4-473a-4395-afb6-b466991e81e5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5b3ab3527dae75a90d0799b7b604b924"
+                "url": "/uuid/e0175db4-473a-4395-afb6-b466991e81e5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b1134f4556d7a2e06d183298087d5c01"
               }
             },
             {
               "img": {
-                "url": "/uuid/e0175db4-473a-4395-afb6-b466991e81e5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b1134f4556d7a2e06d183298087d5c01"
+                "url": "/uuid/e0175db4-473a-4395-afb6-b466991e81e5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5b3ab3527dae75a90d0799b7b604b924"
               }
             },
             {
@@ -15274,12 +12891,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
               }
             },
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
               }
             },
             {
@@ -15530,17 +13147,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/72cfdbb6-a6ee-4e8a-a5ef-e3b5dbd44ad7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=88d3de46140b2516bdf2433d5e411aa9"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/72cfdbb6-a6ee-4e8a-a5ef-e3b5dbd44ad7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b791c15d7067328990a1aea80058c2b4"
               }
             },
             {
               "img": {
                 "url": "/uuid/72cfdbb6-a6ee-4e8a-a5ef-e3b5dbd44ad7/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=88d3de46140b2516bdf2433d5e411aa9"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/72cfdbb6-a6ee-4e8a-a5ef-e3b5dbd44ad7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=88d3de46140b2516bdf2433d5e411aa9"
               }
             },
             {
@@ -16284,12 +13901,12 @@
             },
             {
               "img": {
-                "url": "/uuid/11f28484-c516-4156-9a8f-b1cdb0236a6d/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=95708f69647da9e658829b43904a4629"
+                "url": "/uuid/e4f87fc3-c8d4-498e-983a-4935e187ad80/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=eecbd728cfee2717bcbe24f748973c0c"
               }
             },
             {
               "img": {
-                "url": "/uuid/e4f87fc3-c8d4-498e-983a-4935e187ad80/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=eecbd728cfee2717bcbe24f748973c0c"
+                "url": "/uuid/11f28484-c516-4156-9a8f-b1cdb0236a6d/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=95708f69647da9e658829b43904a4629"
               }
             },
             {
@@ -16672,12 +14289,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/5027d088-289b-4af0-a7da-61717cdd48ab/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6de1ed25e3bbb74b4eeadf4bbed2eaf6"
+                "url": "/uuid/5027d088-289b-4af0-a7da-61717cdd48ab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=da0fba163241871e13bd7f71597fc3cf"
               }
             },
             {
               "img": {
-                "url": "/uuid/5027d088-289b-4af0-a7da-61717cdd48ab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=da0fba163241871e13bd7f71597fc3cf"
+                "url": "/uuid/5027d088-289b-4af0-a7da-61717cdd48ab/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6de1ed25e3bbb74b4eeadf4bbed2eaf6"
               }
             },
             {
@@ -18139,12 +15756,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/e0175db4-473a-4395-afb6-b466991e81e5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5b3ab3527dae75a90d0799b7b604b924"
+                "url": "/uuid/e0175db4-473a-4395-afb6-b466991e81e5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b1134f4556d7a2e06d183298087d5c01"
               }
             },
             {
               "img": {
-                "url": "/uuid/e0175db4-473a-4395-afb6-b466991e81e5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b1134f4556d7a2e06d183298087d5c01"
+                "url": "/uuid/e0175db4-473a-4395-afb6-b466991e81e5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5b3ab3527dae75a90d0799b7b604b924"
               }
             },
             {
@@ -18400,12 +16017,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
               }
             },
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
               }
             },
             {
@@ -19662,12 +17279,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/e0175db4-473a-4395-afb6-b466991e81e5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5b3ab3527dae75a90d0799b7b604b924"
+                "url": "/uuid/e0175db4-473a-4395-afb6-b466991e81e5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b1134f4556d7a2e06d183298087d5c01"
               }
             },
             {
               "img": {
-                "url": "/uuid/e0175db4-473a-4395-afb6-b466991e81e5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b1134f4556d7a2e06d183298087d5c01"
+                "url": "/uuid/e0175db4-473a-4395-afb6-b466991e81e5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5b3ab3527dae75a90d0799b7b604b924"
               }
             },
             {
@@ -19749,12 +17366,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
               }
             },
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
               }
             },
             {
@@ -20189,12 +17806,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c92b8615-1059-4574-9138-6de64ae07554/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1897a1e15a5861bdfe73c3ca0096dca5"
+                "url": "/uuid/c92b8615-1059-4574-9138-6de64ae07554/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=70c9e787bba1df300d78c13da9eed9ba"
               }
             },
             {
               "img": {
-                "url": "/uuid/c92b8615-1059-4574-9138-6de64ae07554/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=70c9e787bba1df300d78c13da9eed9ba"
+                "url": "/uuid/c92b8615-1059-4574-9138-6de64ae07554/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1897a1e15a5861bdfe73c3ca0096dca5"
               }
             },
             {
@@ -20445,12 +18062,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/9dbfc82f-5ab9-451f-b8e3-c0b569e07db9/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1897a1e15a5861bdfe73c3ca0096dca5"
+                "url": "/uuid/9dbfc82f-5ab9-451f-b8e3-c0b569e07db9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=70c9e787bba1df300d78c13da9eed9ba"
               }
             },
             {
               "img": {
-                "url": "/uuid/9dbfc82f-5ab9-451f-b8e3-c0b569e07db9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=70c9e787bba1df300d78c13da9eed9ba"
+                "url": "/uuid/9dbfc82f-5ab9-451f-b8e3-c0b569e07db9/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1897a1e15a5861bdfe73c3ca0096dca5"
               }
             },
             {
@@ -21285,12 +18902,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/c5d5e95f-7773-4db5-bf9a-21c0cf1556cf/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=71cffe751407c00ab1e2915b4bfacb0f"
+                "url": "/uuid/c5d5e95f-7773-4db5-bf9a-21c0cf1556cf/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=49ee06d9690032f8d6c2ae462af3b3db"
               }
             },
             {
               "img": {
-                "url": "/uuid/c5d5e95f-7773-4db5-bf9a-21c0cf1556cf/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=49ee06d9690032f8d6c2ae462af3b3db"
+                "url": "/uuid/c5d5e95f-7773-4db5-bf9a-21c0cf1556cf/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=71cffe751407c00ab1e2915b4bfacb0f"
               }
             },
             {
@@ -22492,12 +20109,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/6017fa45-d754-4ec4-b2bc-512f911ba6df/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=69601cb0d5a300d94a40b0112eafb695"
+                "url": "/uuid/c3a974f9-202c-41a7-9362-3a8eda4c92bb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c8e44bbd017acbed3363a91297d507cc"
               }
             },
             {
               "img": {
-                "url": "/uuid/c3a974f9-202c-41a7-9362-3a8eda4c92bb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c8e44bbd017acbed3363a91297d507cc"
+                "url": "/uuid/6017fa45-d754-4ec4-b2bc-512f911ba6df/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=69601cb0d5a300d94a40b0112eafb695"
               }
             },
             {
@@ -22579,12 +20196,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/753e9bf0-5e67-49cd-ae4d-b28bed17c0e8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c8e44bbd017acbed3363a91297d507cc"
+                "url": "/uuid/753e9bf0-5e67-49cd-ae4d-b28bed17c0e8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=69601cb0d5a300d94a40b0112eafb695"
               }
             },
             {
               "img": {
-                "url": "/uuid/753e9bf0-5e67-49cd-ae4d-b28bed17c0e8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=69601cb0d5a300d94a40b0112eafb695"
+                "url": "/uuid/753e9bf0-5e67-49cd-ae4d-b28bed17c0e8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c8e44bbd017acbed3363a91297d507cc"
               }
             },
             {
@@ -23004,12 +20621,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
               }
             },
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
               }
             },
             {
@@ -23352,12 +20969,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
               }
             },
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
               }
             },
             {
@@ -24485,12 +22102,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
               }
             },
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
               }
             },
             {
@@ -25489,12 +23106,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/0e68c89e-941e-4005-9d18-fc71e1286729/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=661da45f6473b2ebe9e548717e5b15a6"
+                "url": "/uuid/917f5f32-ede9-449d-afe4-d8459b7abb1c/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=f7f67baf37b0e6fe4bad37f6d2989dff"
               }
             },
             {
               "img": {
-                "url": "/uuid/917f5f32-ede9-449d-afe4-d8459b7abb1c/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=f7f67baf37b0e6fe4bad37f6d2989dff"
+                "url": "/uuid/0e68c89e-941e-4005-9d18-fc71e1286729/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=661da45f6473b2ebe9e548717e5b15a6"
               }
             },
             {
@@ -27294,12 +24911,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/0e68c89e-941e-4005-9d18-fc71e1286729/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=661da45f6473b2ebe9e548717e5b15a6"
+                "url": "/uuid/917f5f32-ede9-449d-afe4-d8459b7abb1c/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=f7f67baf37b0e6fe4bad37f6d2989dff"
               }
             },
             {
               "img": {
-                "url": "/uuid/917f5f32-ede9-449d-afe4-d8459b7abb1c/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=f7f67baf37b0e6fe4bad37f6d2989dff"
+                "url": "/uuid/0e68c89e-941e-4005-9d18-fc71e1286729/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=661da45f6473b2ebe9e548717e5b15a6"
               }
             },
             {
@@ -27872,12 +25489,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/80ad9cb5-4c7b-4d2b-9863-3d84ac82173b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2e99e6befc90cb0f56a551b723b161aa"
+                "url": "/uuid/2128ae95-8db8-4ad2-a83c-606c4ee5bcd2/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=787cac2ec95e14966503bfc7707e1781"
               }
             },
             {
               "img": {
-                "url": "/uuid/2128ae95-8db8-4ad2-a83c-606c4ee5bcd2/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=787cac2ec95e14966503bfc7707e1781"
+                "url": "/uuid/80ad9cb5-4c7b-4d2b-9863-3d84ac82173b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2e99e6befc90cb0f56a551b723b161aa"
               }
             },
             {
@@ -29754,12 +27371,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/80ad9cb5-4c7b-4d2b-9863-3d84ac82173b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2e99e6befc90cb0f56a551b723b161aa"
+                "url": "/uuid/2128ae95-8db8-4ad2-a83c-606c4ee5bcd2/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=787cac2ec95e14966503bfc7707e1781"
               }
             },
             {
               "img": {
-                "url": "/uuid/2128ae95-8db8-4ad2-a83c-606c4ee5bcd2/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=787cac2ec95e14966503bfc7707e1781"
+                "url": "/uuid/80ad9cb5-4c7b-4d2b-9863-3d84ac82173b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2e99e6befc90cb0f56a551b723b161aa"
               }
             },
             {
@@ -30297,12 +27914,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/0aa86a60-061c-484b-89ee-0864de7239ac/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=472a66d9b5b1f46fd74c6abbe632fa86"
+                "url": "/uuid/0aa86a60-061c-484b-89ee-0864de7239ac/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2d5f525dd87161709c9753515079aec8"
               }
             },
             {
               "img": {
-                "url": "/uuid/0aa86a60-061c-484b-89ee-0864de7239ac/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2d5f525dd87161709c9753515079aec8"
+                "url": "/uuid/0aa86a60-061c-484b-89ee-0864de7239ac/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=472a66d9b5b1f46fd74c6abbe632fa86"
               }
             },
             {
@@ -31036,12 +28653,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/741f3da0-5d8f-4b15-9aa7-82f1db451431/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6288be5f086ddd87073803a39478681a"
+                "url": "/uuid/741f3da0-5d8f-4b15-9aa7-82f1db451431/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f7e3c16706ff8fb4b926f29a226a4787"
               }
             },
             {
               "img": {
-                "url": "/uuid/741f3da0-5d8f-4b15-9aa7-82f1db451431/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f7e3c16706ff8fb4b926f29a226a4787"
+                "url": "/uuid/741f3da0-5d8f-4b15-9aa7-82f1db451431/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6288be5f086ddd87073803a39478681a"
               }
             },
             {
@@ -31981,12 +29598,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/0aa86a60-061c-484b-89ee-0864de7239ac/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=472a66d9b5b1f46fd74c6abbe632fa86"
+                "url": "/uuid/0aa86a60-061c-484b-89ee-0864de7239ac/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2d5f525dd87161709c9753515079aec8"
               }
             },
             {
               "img": {
-                "url": "/uuid/0aa86a60-061c-484b-89ee-0864de7239ac/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2d5f525dd87161709c9753515079aec8"
+                "url": "/uuid/0aa86a60-061c-484b-89ee-0864de7239ac/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=472a66d9b5b1f46fd74c6abbe632fa86"
               }
             },
             {
@@ -32655,12 +30272,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/e94019d4-5ec0-4783-939f-8c790ad86079/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=011b779e6f808316bcd2d6c1cff8ed2e"
+                "url": "/uuid/e94019d4-5ec0-4783-939f-8c790ad86079/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=08cc417732a61d26c3d53f7b03d06ce4"
               }
             },
             {
               "img": {
-                "url": "/uuid/e94019d4-5ec0-4783-939f-8c790ad86079/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=08cc417732a61d26c3d53f7b03d06ce4"
+                "url": "/uuid/e94019d4-5ec0-4783-939f-8c790ad86079/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=011b779e6f808316bcd2d6c1cff8ed2e"
               }
             },
             {
@@ -33551,12 +31168,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/465830ee-0f64-491d-8d0d-acc85698fafb/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7934cc3987932d62d7219f98583cf9ad"
+                "url": "/uuid/465830ee-0f64-491d-8d0d-acc85698fafb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=806896b2bc0e11913be353b472a5488a"
               }
             },
             {
               "img": {
-                "url": "/uuid/465830ee-0f64-491d-8d0d-acc85698fafb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=806896b2bc0e11913be353b472a5488a"
+                "url": "/uuid/465830ee-0f64-491d-8d0d-acc85698fafb/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7934cc3987932d62d7219f98583cf9ad"
               }
             },
             {
@@ -34182,7 +31799,7 @@
         "starttime": "2025-07-18T09:30:00Z",
         "endtime": "2025-07-18T10:25:00Z",
         "eventTitle": "Nagaina, Regina dei Re",
-        "eventSynopsis": "S1 Ep9 Nagaina, Regina dei Re - Una femmina di cobra reale lotta per la sopravvivenza all'arrivo della stagione dei monsoni.",
+        "eventSynopsis": "S1 Ep9 Nagaina: Regina dei re - Una femmina di cobra reale lotta per la sopravvivenza all'arrivo della stagione dei monsoni.",
         "epgEventTitle": "S1 Ep9 - India selvaggia",
         "primeVision": false,
         "resolutions": [
@@ -34269,7 +31886,7 @@
         "starttime": "2025-07-18T10:25:00Z",
         "endtime": "2025-07-18T11:25:00Z",
         "eventTitle": "Le lezioni di una matriarca",
-        "eventSynopsis": "S1 Ep10 Le lezioni di una matriarca - Un'elefantessa asiatica dovra' insegnare al nipote come sopravvivere alla stagione secca.",
+        "eventSynopsis": "S1 Ep10 Il percorso della matriarca - Un'elefantessa asiatica dovra' insegnare al nipote come sopravvivere alla stagione secca.",
         "epgEventTitle": "S1 Ep10 - India selvaggia",
         "primeVision": false,
         "resolutions": [
@@ -34472,12 +32089,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/e94019d4-5ec0-4783-939f-8c790ad86079/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=011b779e6f808316bcd2d6c1cff8ed2e"
+                "url": "/uuid/e94019d4-5ec0-4783-939f-8c790ad86079/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=08cc417732a61d26c3d53f7b03d06ce4"
               }
             },
             {
               "img": {
-                "url": "/uuid/e94019d4-5ec0-4783-939f-8c790ad86079/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=08cc417732a61d26c3d53f7b03d06ce4"
+                "url": "/uuid/e94019d4-5ec0-4783-939f-8c790ad86079/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=011b779e6f808316bcd2d6c1cff8ed2e"
               }
             },
             {
@@ -34973,12 +32590,12 @@
             },
             {
               "img": {
-                "url": "/uuid/eb29716f-b6b2-4111-a823-1b62158196bf/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7b43ac03a9cc5688233842716ce26473"
+                "url": "/uuid/eb29716f-b6b2-4111-a823-1b62158196bf/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4cfb2e342980c37bc9737a4b22e7c91c"
               }
             },
             {
               "img": {
-                "url": "/uuid/eb29716f-b6b2-4111-a823-1b62158196bf/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4cfb2e342980c37bc9737a4b22e7c91c"
+                "url": "/uuid/eb29716f-b6b2-4111-a823-1b62158196bf/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7b43ac03a9cc5688233842716ce26473"
               }
             },
             {
@@ -35057,12 +32674,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/d571b9d9-f7bb-42de-8012-a801522760d1/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c89a7a3362c632c4aa20132ca02e0a44"
+                "url": "/uuid/d571b9d9-f7bb-42de-8012-a801522760d1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=9314e620f22658aeb0b46db93c43fc0a"
               }
             },
             {
               "img": {
-                "url": "/uuid/d571b9d9-f7bb-42de-8012-a801522760d1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=9314e620f22658aeb0b46db93c43fc0a"
+                "url": "/uuid/d571b9d9-f7bb-42de-8012-a801522760d1/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c89a7a3362c632c4aa20132ca02e0a44"
               }
             },
             {
@@ -35879,12 +33496,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
               }
             },
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
               }
             },
             {
@@ -36636,12 +34253,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
               }
             },
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
               }
             },
             {
@@ -36810,12 +34427,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/0600d0f5-9e19-4187-a2c6-09a943db9183/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=311b2abee6db55bc6953147a1756606d"
+                "url": "/uuid/0600d0f5-9e19-4187-a2c6-09a943db9183/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3af05d54742163cbc377b58d4d23a978"
               }
             },
             {
               "img": {
-                "url": "/uuid/0600d0f5-9e19-4187-a2c6-09a943db9183/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3af05d54742163cbc377b58d4d23a978"
+                "url": "/uuid/0600d0f5-9e19-4187-a2c6-09a943db9183/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=311b2abee6db55bc6953147a1756606d"
               }
             },
             {
@@ -38085,12 +35702,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/0600d0f5-9e19-4187-a2c6-09a943db9183/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=311b2abee6db55bc6953147a1756606d"
+                "url": "/uuid/0600d0f5-9e19-4187-a2c6-09a943db9183/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3af05d54742163cbc377b58d4d23a978"
               }
             },
             {
               "img": {
-                "url": "/uuid/0600d0f5-9e19-4187-a2c6-09a943db9183/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3af05d54742163cbc377b58d4d23a978"
+                "url": "/uuid/0600d0f5-9e19-4187-a2c6-09a943db9183/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=311b2abee6db55bc6953147a1756606d"
               }
             },
             {
@@ -38520,12 +36137,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
               }
             },
             {
               "img": {
-                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41ad92962245bfce13768eb801a9dafd"
+                "url": "/uuid/cab44eb5-052b-456c-b430-588a079c04d7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c1a9c339b21e013f9970c0e9899082e9"
               }
             },
             {

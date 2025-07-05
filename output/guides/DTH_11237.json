@@ -1,1242 +1,6 @@
 {
   "name": "Sky Sport Tennis",
   "events_by_date": {
-    "2025-07-04": [
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "5aab4c13-a7af-44fd-8aaa-a4adbd932d8c",
-          "contentTitle": "Ep.4",
-          "episodeNumber": 4,
-          "seasonNumber": 2025,
-          "url": "/sport/the-insider-wimbledon/ep4/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=299217dd8d1a014bf08109394ebc3369"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=78e69cab41ee1df9632cd53d7f69fe22"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=299217dd8d1a014bf08109394ebc3369"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/background?territory=IT&md5ChecksumParam=971fd08622f1f2bdde43340fd359587d"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/cover?territory=IT&md5ChecksumParam=78e69cab41ee1df9632cd53d7f69fe22"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/16-9?territory=IT&md5ChecksumParam=b5127b37d777d7c353ade9b52a3fec08"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=1ba517c32146a44c463115735096b75c"
-              }
-            }
-          ]
-        },
-        "eventId": "411371944",
-        "starttime": "2025-07-04T03:00:00Z",
-        "endtime": "2025-07-04T03:30:00Z",
-        "eventTitle": "Ep.4",
-        "eventSynopsis": "Ep4 - Da Wimbledon, gli aggiornamenti di Dalila Setti sul torneo di tennis con notizie e commenti sui principali temi sportivi della giornata",
-        "epgEventTitle": "Ep.4",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "c2b1931f-f983-4114-9198-6fc5f969aaec",
-          "contentTitle": "03/07/2025",
-          "episodeNumber": 17,
-          "seasonNumber": 2025,
-          "url": "/sport/sky-tennis-show/03-07-2025/c2b1931f-f983-4114-9198-6fc5f969aaec",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=88cf3bda81898c20b46b9fda03ba46e1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=88cf3bda81898c20b46b9fda03ba46e1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=88cf3bda81898c20b46b9fda03ba46e1"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/background?territory=IT&md5ChecksumParam=be57dc06f186269304b819304443db8b"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/cover?territory=IT&md5ChecksumParam=88cf3bda81898c20b46b9fda03ba46e1"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/16-9?territory=IT&md5ChecksumParam=31c3c64721db904431efd9dbf534e3cf"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=31c3c64721db904431efd9dbf534e3cf"
-              }
-            }
-          ]
-        },
-        "eventId": "411371945",
-        "starttime": "2025-07-04T03:30:00Z",
-        "endtime": "2025-07-04T04:00:00Z",
-        "eventTitle": "03/07/2025",
-        "eventSynopsis": "03/07/2025 - Lo show del torneo di Wimbledon commentato da giornalisti e talent di Sky Sport, con interviste, analisi e curiosita'. Conduce Eleonora Cottarelli",
-        "epgEventTitle": "03/07/2025",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "003469ad-90ca-4cea-b6a4-54b3f175bdb7",
-          "contentTitle": "4a giornata",
-          "episodeNumber": 4,
-          "seasonNumber": 2025,
-          "url": "/sport/wimbledon-2025/4a-giornata/003469ad-90ca-4cea-b6a4-54b3f175bdb7",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/003469ad-90ca-4cea-b6a4-54b3f175bdb7/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=a070f0a3e9fea42be3b92e97ce86e6e9"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/003469ad-90ca-4cea-b6a4-54b3f175bdb7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=56bb728ed28b3c637b96e0669d1f77e4"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/003469ad-90ca-4cea-b6a4-54b3f175bdb7/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=a070f0a3e9fea42be3b92e97ce86e6e9"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/003469ad-90ca-4cea-b6a4-54b3f175bdb7/background?territory=IT&md5ChecksumParam=046af0ef62bb0cfda466963c4cd3bb7e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/003469ad-90ca-4cea-b6a4-54b3f175bdb7/cover?territory=IT&md5ChecksumParam=56bb728ed28b3c637b96e0669d1f77e4"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/003469ad-90ca-4cea-b6a4-54b3f175bdb7/16-9?territory=IT&md5ChecksumParam=ba0f9634df3d1772b1ac07569bed4093"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/003469ad-90ca-4cea-b6a4-54b3f175bdb7/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=ba0f9634df3d1772b1ac07569bed4093"
-              }
-            }
-          ]
-        },
-        "eventId": "411371946",
-        "starttime": "2025-07-04T04:00:00Z",
-        "endtime": "2025-07-04T05:55:00Z",
-        "eventTitle": "4a giornata",
-        "eventSynopsis": "4a giornata - Dall'All England Lawn Tennis and Croquet Club di Wimbledon, Inghilterra.",
-        "epgEventTitle": "4a giornata",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "5aab4c13-a7af-44fd-8aaa-a4adbd932d8c",
-          "contentTitle": "Ep.4",
-          "episodeNumber": 4,
-          "seasonNumber": 2025,
-          "url": "/sport/the-insider-wimbledon/ep4/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=299217dd8d1a014bf08109394ebc3369"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=78e69cab41ee1df9632cd53d7f69fe22"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=299217dd8d1a014bf08109394ebc3369"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/background?territory=IT&md5ChecksumParam=971fd08622f1f2bdde43340fd359587d"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/cover?territory=IT&md5ChecksumParam=78e69cab41ee1df9632cd53d7f69fe22"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/16-9?territory=IT&md5ChecksumParam=b5127b37d777d7c353ade9b52a3fec08"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=1ba517c32146a44c463115735096b75c"
-              }
-            }
-          ]
-        },
-        "eventId": "411371947",
-        "starttime": "2025-07-04T05:55:00Z",
-        "endtime": "2025-07-04T06:25:00Z",
-        "eventTitle": "Ep.4",
-        "eventSynopsis": "Ep.4 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider\".",
-        "epgEventTitle": "Ep.4",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "c2b1931f-f983-4114-9198-6fc5f969aaec",
-          "contentTitle": "03/07/2025",
-          "episodeNumber": 17,
-          "seasonNumber": 2025,
-          "url": "/sport/sky-tennis-show/03-07-2025/c2b1931f-f983-4114-9198-6fc5f969aaec",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=88cf3bda81898c20b46b9fda03ba46e1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=88cf3bda81898c20b46b9fda03ba46e1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=88cf3bda81898c20b46b9fda03ba46e1"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/background?territory=IT&md5ChecksumParam=be57dc06f186269304b819304443db8b"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/cover?territory=IT&md5ChecksumParam=88cf3bda81898c20b46b9fda03ba46e1"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/16-9?territory=IT&md5ChecksumParam=31c3c64721db904431efd9dbf534e3cf"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=31c3c64721db904431efd9dbf534e3cf"
-              }
-            }
-          ]
-        },
-        "eventId": "411371948",
-        "starttime": "2025-07-04T06:25:00Z",
-        "endtime": "2025-07-04T06:50:00Z",
-        "eventTitle": "03/07/2025",
-        "eventSynopsis": "03/07/2025 - Lo show del torneo di Wimbledon commentato da giornalisti e talent di Sky Sport, con interviste, analisi e curiosita'. Conduce Eleonora Cottarelli",
-        "epgEventTitle": "03/07/2025",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "003469ad-90ca-4cea-b6a4-54b3f175bdb7",
-          "contentTitle": "4a giornata",
-          "episodeNumber": 4,
-          "seasonNumber": 2025,
-          "url": "/sport/wimbledon-2025/4a-giornata/003469ad-90ca-4cea-b6a4-54b3f175bdb7",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/003469ad-90ca-4cea-b6a4-54b3f175bdb7/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=a070f0a3e9fea42be3b92e97ce86e6e9"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/003469ad-90ca-4cea-b6a4-54b3f175bdb7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=56bb728ed28b3c637b96e0669d1f77e4"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/003469ad-90ca-4cea-b6a4-54b3f175bdb7/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=a070f0a3e9fea42be3b92e97ce86e6e9"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/003469ad-90ca-4cea-b6a4-54b3f175bdb7/background?territory=IT&md5ChecksumParam=046af0ef62bb0cfda466963c4cd3bb7e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/003469ad-90ca-4cea-b6a4-54b3f175bdb7/cover?territory=IT&md5ChecksumParam=56bb728ed28b3c637b96e0669d1f77e4"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/003469ad-90ca-4cea-b6a4-54b3f175bdb7/16-9?territory=IT&md5ChecksumParam=ba0f9634df3d1772b1ac07569bed4093"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/003469ad-90ca-4cea-b6a4-54b3f175bdb7/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=ba0f9634df3d1772b1ac07569bed4093"
-              }
-            }
-          ]
-        },
-        "eventId": "411371949",
-        "starttime": "2025-07-04T06:50:00Z",
-        "endtime": "2025-07-04T08:45:00Z",
-        "eventTitle": "4a giornata",
-        "eventSynopsis": "4a giornata - Assistiamo alle spettacolari sfide del torneo piu' prestigioso del circuito tennistico, vincere sull'erba di Wimbledon vuol dire entrare nella storia!",
-        "epgEventTitle": "4a giornata",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "5aab4c13-a7af-44fd-8aaa-a4adbd932d8c",
-          "contentTitle": "Ep.4",
-          "episodeNumber": 4,
-          "seasonNumber": 2025,
-          "url": "/sport/the-insider-wimbledon/ep4/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=299217dd8d1a014bf08109394ebc3369"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=78e69cab41ee1df9632cd53d7f69fe22"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=299217dd8d1a014bf08109394ebc3369"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/background?territory=IT&md5ChecksumParam=971fd08622f1f2bdde43340fd359587d"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/cover?territory=IT&md5ChecksumParam=78e69cab41ee1df9632cd53d7f69fe22"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/16-9?territory=IT&md5ChecksumParam=b5127b37d777d7c353ade9b52a3fec08"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/5aab4c13-a7af-44fd-8aaa-a4adbd932d8c/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=1ba517c32146a44c463115735096b75c"
-              }
-            }
-          ]
-        },
-        "eventId": "411371950",
-        "starttime": "2025-07-04T08:45:00Z",
-        "endtime": "2025-07-04T09:15:00Z",
-        "eventTitle": "Ep.4",
-        "eventSynopsis": "Ep.4 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider\".",
-        "epgEventTitle": "Ep.4",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "c2b1931f-f983-4114-9198-6fc5f969aaec",
-          "contentTitle": "03/07/2025",
-          "episodeNumber": 17,
-          "seasonNumber": 2025,
-          "url": "/sport/sky-tennis-show/03-07-2025/c2b1931f-f983-4114-9198-6fc5f969aaec",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=88cf3bda81898c20b46b9fda03ba46e1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=88cf3bda81898c20b46b9fda03ba46e1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=88cf3bda81898c20b46b9fda03ba46e1"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/background?territory=IT&md5ChecksumParam=be57dc06f186269304b819304443db8b"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/cover?territory=IT&md5ChecksumParam=88cf3bda81898c20b46b9fda03ba46e1"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/16-9?territory=IT&md5ChecksumParam=31c3c64721db904431efd9dbf534e3cf"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/c2b1931f-f983-4114-9198-6fc5f969aaec/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=31c3c64721db904431efd9dbf534e3cf"
-              }
-            }
-          ]
-        },
-        "eventId": "411371951",
-        "starttime": "2025-07-04T09:15:00Z",
-        "endtime": "2025-07-04T09:45:00Z",
-        "eventTitle": "03/07/2025",
-        "eventSynopsis": "03/07/2025 - Lo show del torneo di Wimbledon commentato da giornalisti e talent di Sky Sport, con interviste, analisi e curiosita'. Conduce Eleonora Cottarelli",
-        "epgEventTitle": "03/07/2025",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "cdd99012-3205-4540-ac89-e7a03f66edb0",
-          "contentTitle": "Ep. 126",
-          "episodeNumber": 126,
-          "seasonNumber": 2025,
-          "url": "/sport/studio-tennis/ep-126/cdd99012-3205-4540-ac89-e7a03f66edb0",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/cdd99012-3205-4540-ac89-e7a03f66edb0/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=8c583b20cc98becc36de86c838ccf48e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/cdd99012-3205-4540-ac89-e7a03f66edb0/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=8c583b20cc98becc36de86c838ccf48e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/cdd99012-3205-4540-ac89-e7a03f66edb0/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8c583b20cc98becc36de86c838ccf48e"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/cdd99012-3205-4540-ac89-e7a03f66edb0/background?territory=IT&md5ChecksumParam=30f498a58b21a82e8cabb338bdf75671"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/cdd99012-3205-4540-ac89-e7a03f66edb0/cover?territory=IT&md5ChecksumParam=8c583b20cc98becc36de86c838ccf48e"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/cdd99012-3205-4540-ac89-e7a03f66edb0/16-9?territory=IT&md5ChecksumParam=e38735a0e6c36274e9acff969a17af2a"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/cdd99012-3205-4540-ac89-e7a03f66edb0/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=e38735a0e6c36274e9acff969a17af2a"
-              }
-            }
-          ]
-        },
-        "eventId": "411431302",
-        "starttime": "2025-07-04T09:45:00Z",
-        "endtime": "2025-07-04T10:00:00Z",
-        "eventTitle": "Ep. 126",
-        "eventSynopsis": "04/07/2025 - Anticipazioni e ultime notizie da Wimbledon per presentare la giornata del torneo di tennis piu' prestigioso",
-        "epgEventTitle": "Ep. 126",
-        "programHighlights": "L",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "f96ad99b-a276-40a4-a3dd-acece3a3bfe3",
-          "contentTitle": "5a giornata",
-          "episodeNumber": 5,
-          "seasonNumber": 2025,
-          "url": "/sport/wimbledon-2025/5a-giornata/f96ad99b-a276-40a4-a3dd-acece3a3bfe3",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/f96ad99b-a276-40a4-a3dd-acece3a3bfe3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=5d343d2618a9b07966cc04ef1d79927c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f96ad99b-a276-40a4-a3dd-acece3a3bfe3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=08eff68f09cf2d0e2b7c8c7385dacaa6"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f96ad99b-a276-40a4-a3dd-acece3a3bfe3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=08eff68f09cf2d0e2b7c8c7385dacaa6"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/f96ad99b-a276-40a4-a3dd-acece3a3bfe3/background?territory=IT&md5ChecksumParam=046af0ef62bb0cfda466963c4cd3bb7e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/f96ad99b-a276-40a4-a3dd-acece3a3bfe3/cover?territory=IT&md5ChecksumParam=5d343d2618a9b07966cc04ef1d79927c"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/f96ad99b-a276-40a4-a3dd-acece3a3bfe3/16-9?territory=IT&md5ChecksumParam=73a38948dd74e1caff25e04598f665d2"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/f96ad99b-a276-40a4-a3dd-acece3a3bfe3/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=73a38948dd74e1caff25e04598f665d2"
-              }
-            }
-          ]
-        },
-        "eventId": "411371954",
-        "starttime": "2025-07-04T12:30:00Z",
-        "endtime": "2025-07-04T20:00:00Z",
-        "eventTitle": "5a giornata",
-        "eventSynopsis": "Wimbledon, 5a giornata - FRITZ-DAVIDOVICH F. (Boschetto-Furlan); STRUFF-ALCARAZ (Pero-Pescosolido); SABALENKA-RADUCANU (Pero-Pescosolido)",
-        "epgEventTitle": "5a giornata",
-        "programHighlights": "L",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "60c5aaf2-578b-4f4e-8eb4-392b7ec9f2ca",
-          "contentTitle": "Ep. 5",
-          "episodeNumber": 5,
-          "seasonNumber": 2025,
-          "url": "/sport/the-insider-wimbledon/ep-5/60c5aaf2-578b-4f4e-8eb4-392b7ec9f2ca",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/60c5aaf2-578b-4f4e-8eb4-392b7ec9f2ca/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=43c20f4e56f7bbfaf5846c150c007324"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/60c5aaf2-578b-4f4e-8eb4-392b7ec9f2ca/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=eddd5d481fa8a04473571e62e02ddc3e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/60c5aaf2-578b-4f4e-8eb4-392b7ec9f2ca/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=eddd5d481fa8a04473571e62e02ddc3e"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/60c5aaf2-578b-4f4e-8eb4-392b7ec9f2ca/background?territory=IT&md5ChecksumParam=971fd08622f1f2bdde43340fd359587d"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/60c5aaf2-578b-4f4e-8eb4-392b7ec9f2ca/cover?territory=IT&md5ChecksumParam=43c20f4e56f7bbfaf5846c150c007324"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/60c5aaf2-578b-4f4e-8eb4-392b7ec9f2ca/16-9?territory=IT&md5ChecksumParam=3a457c281cb9420668def67465fda69e"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/60c5aaf2-578b-4f4e-8eb4-392b7ec9f2ca/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=1515e9d06d6754debe7b8d628e971017"
-              }
-            }
-          ]
-        },
-        "eventId": "411371956",
-        "starttime": "2025-07-04T20:30:00Z",
-        "endtime": "2025-07-04T21:00:00Z",
-        "eventTitle": "Ep. 5",
-        "eventSynopsis": "Ep. 5 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider",
-        "epgEventTitle": "Ep. 5",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "6fda812e-7cf2-4407-82b1-75185a62741e",
-          "contentTitle": "5a giornata",
-          "episodeNumber": 5,
-          "seasonNumber": 2025,
-          "url": "/sport/wimbledon-2025/5a-giornata/6fda812e-7cf2-4407-82b1-75185a62741e",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/6fda812e-7cf2-4407-82b1-75185a62741e/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=08eff68f09cf2d0e2b7c8c7385dacaa6"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6fda812e-7cf2-4407-82b1-75185a62741e/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=08eff68f09cf2d0e2b7c8c7385dacaa6"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6fda812e-7cf2-4407-82b1-75185a62741e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=5d343d2618a9b07966cc04ef1d79927c"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/6fda812e-7cf2-4407-82b1-75185a62741e/background?territory=IT&md5ChecksumParam=046af0ef62bb0cfda466963c4cd3bb7e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/6fda812e-7cf2-4407-82b1-75185a62741e/cover?territory=IT&md5ChecksumParam=5d343d2618a9b07966cc04ef1d79927c"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/6fda812e-7cf2-4407-82b1-75185a62741e/16-9?territory=IT&md5ChecksumParam=73a38948dd74e1caff25e04598f665d2"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/6fda812e-7cf2-4407-82b1-75185a62741e/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=73a38948dd74e1caff25e04598f665d2"
-              }
-            }
-          ]
-        },
-        "eventId": "411371957",
-        "starttime": "2025-07-04T21:00:00Z",
-        "endtime": "2025-07-04T22:00:00Z",
-        "eventTitle": "5a giornata",
-        "eventSynopsis": "Wimbledon, 5a giornata - Assistiamo alle spettacolari sfide del torneo piu' prestigioso del circuito tennistico, vincere sull'erba di Wimbledon vuol dire entrare nella storia!",
-        "epgEventTitle": "5a giornata",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "60c5aaf2-578b-4f4e-8eb4-392b7ec9f2ca",
-          "contentTitle": "Ep. 5",
-          "episodeNumber": 5,
-          "seasonNumber": 2025,
-          "url": "/sport/the-insider-wimbledon/ep-5/60c5aaf2-578b-4f4e-8eb4-392b7ec9f2ca",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/60c5aaf2-578b-4f4e-8eb4-392b7ec9f2ca/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=43c20f4e56f7bbfaf5846c150c007324"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/60c5aaf2-578b-4f4e-8eb4-392b7ec9f2ca/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=eddd5d481fa8a04473571e62e02ddc3e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/60c5aaf2-578b-4f4e-8eb4-392b7ec9f2ca/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=eddd5d481fa8a04473571e62e02ddc3e"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/60c5aaf2-578b-4f4e-8eb4-392b7ec9f2ca/background?territory=IT&md5ChecksumParam=971fd08622f1f2bdde43340fd359587d"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/60c5aaf2-578b-4f4e-8eb4-392b7ec9f2ca/cover?territory=IT&md5ChecksumParam=43c20f4e56f7bbfaf5846c150c007324"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/60c5aaf2-578b-4f4e-8eb4-392b7ec9f2ca/16-9?territory=IT&md5ChecksumParam=3a457c281cb9420668def67465fda69e"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/60c5aaf2-578b-4f4e-8eb4-392b7ec9f2ca/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=1515e9d06d6754debe7b8d628e971017"
-              }
-            }
-          ]
-        },
-        "eventId": "411431304",
-        "starttime": "2025-07-04T22:30:00Z",
-        "endtime": "2025-07-04T23:00:00Z",
-        "eventTitle": "Ep. 5",
-        "eventSynopsis": "Ep. 5 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider",
-        "epgEventTitle": "Ep. 5",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 11237,
-          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
-          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
-          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
-          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
-          "name": "Sky Sport Tennis",
-          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
-          "number": 203,
-          "servicekey": "559",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "6fda812e-7cf2-4407-82b1-75185a62741e",
-          "contentTitle": "5a giornata",
-          "episodeNumber": 5,
-          "seasonNumber": 2025,
-          "url": "/sport/wimbledon-2025/5a-giornata/6fda812e-7cf2-4407-82b1-75185a62741e",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/6fda812e-7cf2-4407-82b1-75185a62741e/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=08eff68f09cf2d0e2b7c8c7385dacaa6"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6fda812e-7cf2-4407-82b1-75185a62741e/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=08eff68f09cf2d0e2b7c8c7385dacaa6"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6fda812e-7cf2-4407-82b1-75185a62741e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=5d343d2618a9b07966cc04ef1d79927c"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/6fda812e-7cf2-4407-82b1-75185a62741e/background?territory=IT&md5ChecksumParam=046af0ef62bb0cfda466963c4cd3bb7e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/6fda812e-7cf2-4407-82b1-75185a62741e/cover?territory=IT&md5ChecksumParam=5d343d2618a9b07966cc04ef1d79927c"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/6fda812e-7cf2-4407-82b1-75185a62741e/16-9?territory=IT&md5ChecksumParam=73a38948dd74e1caff25e04598f665d2"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/6fda812e-7cf2-4407-82b1-75185a62741e/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=73a38948dd74e1caff25e04598f665d2"
-              }
-            }
-          ]
-        },
-        "eventId": "411431305",
-        "starttime": "2025-07-04T23:00:00Z",
-        "endtime": "2025-07-05T03:00:00Z",
-        "eventTitle": "5a giornata",
-        "eventSynopsis": "5a giornata - Assistiamo alle spettacolari sfide del torneo piu' prestigioso del circuito tennistico, vincere sull'erba di Wimbledon vuol dire entrare nella storia!",
-        "epgEventTitle": "5a giornata",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
     "2025-07-05": [
       {
         "channel": {
@@ -1401,9 +165,9 @@
         },
         "eventId": "411371963",
         "starttime": "2025-07-05T04:00:00Z",
-        "endtime": "2025-07-05T06:00:00Z",
+        "endtime": "2025-07-05T05:55:00Z",
         "eventTitle": "5a giornata",
-        "eventSynopsis": "5a giornata - PAVLYUCHENKOVA-OSAKA (Paventi-Garrone); FUCSOVICS-MONFILS, CHAN/KREJCIKOVA-ERRANI/PAOLINI, DARDERI-THOMPSON (Ciarravano-Golarsa)",
+        "eventSynopsis": "5a giornata - Dall'All England Lawn Tennis and Croquet Club di Wimbledon, Inghilterra.",
         "epgEventTitle": "5a giornata",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -1488,10 +252,10 @@
           ]
         },
         "eventId": "411371964",
-        "starttime": "2025-07-05T06:00:00Z",
-        "endtime": "2025-07-05T06:30:00Z",
+        "starttime": "2025-07-05T05:55:00Z",
+        "endtime": "2025-07-05T06:25:00Z",
         "eventTitle": "Ep. 5",
-        "eventSynopsis": "Ep. 5 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider",
+        "eventSynopsis": "Ep. 5 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider\".",
         "epgEventTitle": "Ep. 5",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -1576,10 +340,10 @@
           ]
         },
         "eventId": "411371966",
-        "starttime": "2025-07-05T07:00:00Z",
+        "starttime": "2025-07-05T06:50:00Z",
         "endtime": "2025-07-05T08:45:00Z",
         "eventTitle": "5a giornata",
-        "eventSynopsis": "5a giornata - PAVLYUCHENKOVA-OSAKA (Paventi-Garrone); FUCSOVICS-MONFILS, CHAN/KREJCIKOVA-ERRANI/PAOLINI, DARDERI-THOMPSON (Ciarravano-Golarsa)",
+        "eventSynopsis": "5a giornata - Dall'All England Lawn Tennis and Croquet Club di Wimbledon, Inghilterra.",
         "epgEventTitle": "5a giornata",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -1667,7 +431,7 @@
         "starttime": "2025-07-05T08:45:00Z",
         "endtime": "2025-07-05T09:15:00Z",
         "eventTitle": "Ep. 5",
-        "eventSynopsis": "Ep. 5 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider",
+        "eventSynopsis": "Ep. 5 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider\".",
         "epgEventTitle": "Ep. 5",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -1844,7 +608,7 @@
         "starttime": "2025-07-05T20:30:00Z",
         "endtime": "2025-07-05T21:00:00Z",
         "eventTitle": "Ep. 6",
-        "eventSynopsis": "Ep. 6 - Da Wimbledon, gli aggiornamenti di Dalila Setti sul torneo di tennis con notizie e commenti sui principali temi sportivi della giornata",
+        "eventSynopsis": "Ep. 6 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider",
         "epgEventTitle": "Ep. 6",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -1932,7 +696,7 @@
         "starttime": "2025-07-05T21:00:00Z",
         "endtime": "2025-07-05T22:00:00Z",
         "eventTitle": "6a giornata",
-        "eventSynopsis": "6a giornata - Dall'All England Lawn Tennis and Croquet Club di Wimbledon, Inghilterra.",
+        "eventSynopsis": "6a giornata - BENCIC-COCCIARETTO (Ramella-Golarsa)",
         "epgEventTitle": "6a giornata",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -2017,10 +781,10 @@
           ]
         },
         "eventId": "411431296",
-        "starttime": "2025-07-05T22:30:00Z",
+        "starttime": "2025-07-05T22:25:00Z",
         "endtime": "2025-07-05T23:00:00Z",
         "eventTitle": "Ep. 6",
-        "eventSynopsis": "Ep. 6 - Da Wimbledon, gli aggiornamenti di Dalila Setti sul torneo di tennis con notizie e commenti sui principali temi sportivi della giornata",
+        "eventSynopsis": "Ep. 6 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider",
         "epgEventTitle": "Ep. 6",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -2108,7 +872,7 @@
         "starttime": "2025-07-05T23:00:00Z",
         "endtime": "2025-07-06T03:00:00Z",
         "eventTitle": "6a giornata",
-        "eventSynopsis": "6a giornata - Dall'All England Lawn Tennis and Croquet Club di Wimbledon, Inghilterra.",
+        "eventSynopsis": "6a giornata - BENCIC-COCCIARETTO (Ramella-Golarsa)",
         "epgEventTitle": "6a giornata",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -2198,7 +962,7 @@
         "starttime": "2025-07-06T03:00:00Z",
         "endtime": "2025-07-06T03:30:00Z",
         "eventTitle": "Ep. 6",
-        "eventSynopsis": "Ep. 6 - Da Wimbledon, gli aggiornamenti di Dalila Setti sul torneo di tennis con notizie e commenti sui principali temi sportivi della giornata",
+        "eventSynopsis": "Ep. 6 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider",
         "epgEventTitle": "Ep. 6",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -2284,9 +1048,9 @@
         },
         "eventId": "411371980",
         "starttime": "2025-07-06T04:00:00Z",
-        "endtime": "2025-07-06T06:00:00Z",
+        "endtime": "2025-07-06T05:55:00Z",
         "eventTitle": "6a giornata",
-        "eventSynopsis": "6a giornata - Dall'All England Lawn Tennis and Croquet Club di Wimbledon, Inghilterra.",
+        "eventSynopsis": "6a giornata - BENCIC-COCCIARETTO (Ramella-Golarsa)",
         "epgEventTitle": "6a giornata",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -2371,10 +1135,10 @@
           ]
         },
         "eventId": "411371981",
-        "starttime": "2025-07-06T06:00:00Z",
-        "endtime": "2025-07-06T06:30:00Z",
+        "starttime": "2025-07-06T05:55:00Z",
+        "endtime": "2025-07-06T06:25:00Z",
         "eventTitle": "Ep. 6",
-        "eventSynopsis": "Ep. 6 - Da Wimbledon, gli aggiornamenti di Dalila Setti sul torneo di tennis con notizie e commenti sui principali temi sportivi della giornata",
+        "eventSynopsis": "Ep. 6 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider",
         "epgEventTitle": "Ep. 6",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -2459,10 +1223,10 @@
           ]
         },
         "eventId": "411371983",
-        "starttime": "2025-07-06T07:00:00Z",
+        "starttime": "2025-07-06T06:55:00Z",
         "endtime": "2025-07-06T08:45:00Z",
         "eventTitle": "6a giornata",
-        "eventSynopsis": "6a giornata - Dall'All England Lawn Tennis and Croquet Club di Wimbledon, Inghilterra.",
+        "eventSynopsis": "6a giornata - BENCIC-COCCIARETTO (Ramella-Golarsa)",
         "epgEventTitle": "6a giornata",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -2550,7 +1314,7 @@
         "starttime": "2025-07-06T08:45:00Z",
         "endtime": "2025-07-06T09:15:00Z",
         "eventTitle": "Ep. 6",
-        "eventSynopsis": "Ep. 6 - Da Wimbledon, gli aggiornamenti di Dalila Setti sul torneo di tennis con notizie e commenti sui principali temi sportivi della giornata",
+        "eventSynopsis": "Ep. 6 - Racconti, immagini dietro le quinte e highlights dei match piu' importanti della giornata del torneo di Wimbledon, con Stefano Meloccaro nel ruolo di \"insider",
         "epgEventTitle": "Ep. 6",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -2715,7 +1479,7 @@
         "starttime": "2025-07-06T20:30:00Z",
         "endtime": "2025-07-06T21:00:00Z",
         "eventTitle": "Wimbledon Today 06/07/2025",
-        "eventSynopsis": "Wimbledon Today 06/07/2025 - Da Wimbledon, gli aggiornamenti di Dalila Setti sul torneo di tennis con notizie e commenti sui principali temi sportivi della giornata",
+        "eventSynopsis": "Ep 7 - Da Wimbledon, gli aggiornamenti di Dalila Setti sul torneo di tennis con notizie e commenti sui principali temi sportivi della giornata",
         "epgEventTitle": "Wimbledon Today 06/07/2025",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -2800,10 +1564,10 @@
           ]
         },
         "eventId": "411431300",
-        "starttime": "2025-07-06T22:30:00Z",
-        "endtime": "2025-07-06T23:00:00Z",
+        "starttime": "2025-07-06T22:25:00Z",
+        "endtime": "2025-07-06T22:55:00Z",
         "eventTitle": "Wimbledon Today 06/07/2025",
-        "eventSynopsis": "Wimbledon Today 06/07/2025 - Da Wimbledon, gli aggiornamenti di Dalila Setti sul torneo di tennis con notizie e commenti sui principali temi sportivi della giornata",
+        "eventSynopsis": "Ep 7 - Da Wimbledon, gli aggiornamenti di Dalila Setti sul torneo di tennis con notizie e commenti sui principali temi sportivi della giornata",
         "epgEventTitle": "Wimbledon Today 06/07/2025",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -2893,7 +1657,7 @@
         "starttime": "2025-07-07T03:00:00Z",
         "endtime": "2025-07-07T03:30:00Z",
         "eventTitle": "Wimbledon Today 06/07/2025",
-        "eventSynopsis": "Wimbledon Today 06/07/2025 - Da Wimbledon, gli aggiornamenti di Dalila Setti sul torneo di tennis con notizie e commenti sui principali temi sportivi della giornata",
+        "eventSynopsis": "Ep 7 - Da Wimbledon, gli aggiornamenti di Dalila Setti sul torneo di tennis con notizie e commenti sui principali temi sportivi della giornata",
         "epgEventTitle": "Wimbledon Today 06/07/2025",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -2978,10 +1742,10 @@
           ]
         },
         "eventId": "411447478",
-        "starttime": "2025-07-07T06:00:00Z",
-        "endtime": "2025-07-07T06:30:00Z",
+        "starttime": "2025-07-07T05:55:00Z",
+        "endtime": "2025-07-07T06:25:00Z",
         "eventTitle": "Wimbledon Today 06/07/2025",
-        "eventSynopsis": "Ep7 - Da Wimbledon, gli aggiornamenti di Dalila Setti sul torneo di tennis con notizie e commenti sui principali temi sportivi della giornata",
+        "eventSynopsis": "Ep 7 - Da Wimbledon, gli aggiornamenti di Dalila Setti sul torneo di tennis con notizie e commenti sui principali temi sportivi della giornata",
         "epgEventTitle": "Wimbledon Today 06/07/2025",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -3069,7 +1833,7 @@
         "starttime": "2025-07-07T09:15:00Z",
         "endtime": "2025-07-07T09:45:00Z",
         "eventTitle": "Wimbledon Today 06/07/2025",
-        "eventSynopsis": "Ep7 - Da Wimbledon, gli aggiornamenti di Dalila Setti sul torneo di tennis con notizie e commenti sui principali temi sportivi della giornata",
+        "eventSynopsis": "Ep 7 - Da Wimbledon, gli aggiornamenti di Dalila Setti sul torneo di tennis con notizie e commenti sui principali temi sportivi della giornata",
         "epgEventTitle": "Wimbledon Today 06/07/2025",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -3099,8 +1863,10 @@
         },
         "content": {
           "uuid": "39c112f0-1f3c-474b-b00a-af182ec1ec79",
-          "contentTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 07/07/2025",
-          "url": "/sport/tennis/studi-tennis-stag-studi-tennis-2025-2-2-studio-tennis-wimbledon-07-07-2025/39c112f0-1f3c-474b-b00a-af182ec1ec79",
+          "contentTitle": "Ep. 129",
+          "episodeNumber": 129,
+          "seasonNumber": 2025,
+          "url": "/sport/studio-tennis/ep-129/39c112f0-1f3c-474b-b00a-af182ec1ec79",
           "genre": {
             "id": 2,
             "name": "Sport"
@@ -3110,6 +1876,16 @@
             "name": "Tennis"
           },
           "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=57bd798c06853d6a070af321bfe25dff"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=57bd798c06853d6a070af321bfe25dff"
+              }
+            },
             {
               "img": {
                 "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=57bd798c06853d6a070af321bfe25dff"
@@ -3309,7 +2085,7 @@
         "resolutions": [
           {
             "resolutionType": "resolution4k",
-            "value": true
+            "value": false
           }
         ]
       },
@@ -3387,7 +2163,7 @@
         "resolutions": [
           {
             "resolutionType": "resolution4k",
-            "value": true
+            "value": false
           }
         ]
       },
@@ -3553,7 +2329,7 @@
           ]
         },
         "eventId": "411447492",
-        "starttime": "2025-07-07T22:00:00Z",
+        "starttime": "2025-07-07T21:55:00Z",
         "endtime": "2025-07-07T22:30:00Z",
         "eventTitle": "Tennis Wimbledon The Insider - Ep. 8 - Tennis Wimbledon The Insider 2025 Ep.8 07/07/2025",
         "eventSynopsis": "Ep.8 - La giornata sportiva dai campi di Wimbledon, con notizie sugli eventi e sugli atleti in gara, per scoprire i possibili vincitori, le partite piu' interessanti e i momenti imperdibili.",
@@ -4160,8 +2936,10 @@
         },
         "content": {
           "uuid": "78df8624-0403-495d-b4a6-7b94ad09dc7c",
-          "contentTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 08/07/2025",
-          "url": "/sport/tennis/studi-tennis-stag-studi-tennis-2025-2-2-studio-tennis-wimbledon-08-07-2025/78df8624-0403-495d-b4a6-7b94ad09dc7c",
+          "contentTitle": "Studio Tennis",
+          "episodeNumber": 130,
+          "seasonNumber": 2025,
+          "url": "/sport/studio-tennis/studio-tennis/78df8624-0403-495d-b4a6-7b94ad09dc7c",
           "genre": {
             "id": 2,
             "name": "Sport"
@@ -4171,6 +2949,16 @@
             "name": "Tennis"
           },
           "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/78df8624-0403-495d-b4a6-7b94ad09dc7c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=45f894ec40586f0fff3e245a2ea011be"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/78df8624-0403-495d-b4a6-7b94ad09dc7c/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=45f894ec40586f0fff3e245a2ea011be"
+              }
+            },
             {
               "img": {
                 "url": "/uuid/78df8624-0403-495d-b4a6-7b94ad09dc7c/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=45f894ec40586f0fff3e245a2ea011be"
@@ -4439,9 +3227,9 @@
         "eventId": "411447423",
         "starttime": "2025-07-08T12:30:00Z",
         "endtime": "2025-07-08T15:30:00Z",
-        "eventTitle": "Tennis: Wimbledon - Ep. 113",
+        "eventTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 113 - Tennis Grand Slam Wimbledon Champ. 2025 1^ Quarto Di Finale Maschile 08/07/2025",
         "eventSynopsis": "9a giornata - Assistiamo alle spettacolari sfide del torneo piu' prestigioso del circuito tennistico, vincere sull'erba di Wimbledon vuol dire entrare nella storia!",
-        "epgEventTitle": "Tennis: Wimbledon - Ep. 113",
+        "epgEventTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 113 - Tennis Grand Slam Wimbledon Champ. 2025 1^ Quarto Di Finale Maschile 08/07/2025",
         "programHighlights": "L",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -4517,9 +3305,9 @@
         "eventId": "411447424",
         "starttime": "2025-07-08T15:30:00Z",
         "endtime": "2025-07-08T17:30:00Z",
-        "eventTitle": "Tennis: Wimbledon - Ep. 112",
+        "eventTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 112 - Tennis Grand Slam Wimbledon Champ. 2025 2^ Quarto Di Finale Femminile 08/07/2025",
         "eventSynopsis": "2^ Quarto di Finale Femminile - Assistiamo alle spettacolari sfide del torneo piu' prestigioso del circuito tennistico, vincere sull'erba di Wimbledon vuol dire entrare nella storia!",
-        "epgEventTitle": "Tennis: Wimbledon - Ep. 112",
+        "epgEventTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 112 - Tennis Grand Slam Wimbledon Champ. 2025 2^ Quarto Di Finale Femminile 08/07/2025",
         "programHighlights": "L",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -5729,9 +4517,9 @@
         "eventId": "411447465",
         "starttime": "2025-07-09T14:30:00Z",
         "endtime": "2025-07-09T17:30:00Z",
-        "eventTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 128 - Tennis Grand Slam Wimbledon Champ. 2025 4^ Quarto Di Finale Maschile 09/07/2025",
+        "eventTitle": "Tennis: Wimbledon - Ep. 128",
         "eventSynopsis": "Tennis: Wimbledon - Ep. 128 - Dall'All England Lawn Tennis and Croquet Club di Wimbledon, Inghilterra.",
-        "epgEventTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 128 - Tennis Grand Slam Wimbledon Champ. 2025 4^ Quarto Di Finale Maschile 09/07/2025",
+        "epgEventTitle": "Tennis: Wimbledon - Ep. 128",
         "programHighlights": "L",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -7069,6 +5857,79 @@
           }
         },
         "content": {
+          "uuid": "31002a37-90ca-4aae-ad61-55cfead9700b",
+          "contentTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 139 - Tennis Grand Slam Wimbledon Champ. 2025 2a Semifinale Femminile 10/07/2025",
+          "episodeNumber": 139,
+          "url": "/programmi-tv/tennis/tennis-grand-slam-wimbledon-championship-ep-139-tennis-grand-slam-wimbledon-champ-2025-2a-semifinale-femminile-10-07-2025/31002a37-90ca-4aae-ad61-55cfead9700b",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
+          },
+          "subgenre": {
+            "id": 17,
+            "name": "Tennis"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/SportCalcio_Cover_JgZRMKTlp.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/SportCalcio_Background_u6JP1797W.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411471997",
+        "starttime": "2025-07-10T14:30:00Z",
+        "endtime": "2025-07-10T16:30:00Z",
+        "eventTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 139 - Tennis Grand Slam Wimbledon Champ. 2025 2a Semifinale Femminile 10/07/2025",
+        "eventSynopsis": "2a Semifinale Femminile - Assistiamo alle spettacolari sfide del torneo piu' prestigioso del circuito tennistico, vincere sull'erba di Wimbledon vuol dire entrare nella storia!",
+        "epgEventTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 139 - Tennis Grand Slam Wimbledon Champ. 2025 2a Semifinale Femminile 10/07/2025",
+        "programHighlights": "L",
+        "primeVision": false,
+        "ppvReferenceId": "921921",
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": true
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 11237,
+          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
+          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
+          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
+          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
+          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
+          "name": "Sky Sport Tennis",
+          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
+          "number": 203,
+          "servicekey": "559",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
           "uuid": "b614dbe8-c7df-4e3a-8e48-b2b06e1c4f17",
           "contentTitle": "Sky Tennis Show - Ep. 24 - 10/07/2025",
           "episodeNumber": 24,
@@ -7148,9 +6009,10 @@
         },
         "content": {
           "uuid": "c613e728-3039-4994-9274-9e1604c4c644",
-          "contentTitle": "Tennis Wimbledon The Insider - Ep. 11 - Tennis Wimbledon The Insider 2025 Ep.11 10/07/2025",
+          "contentTitle": "Ep11",
           "episodeNumber": 11,
-          "url": "/programmi-tv/tennis/tennis-wimbledon-the-insider-ep-11-tennis-wimbledon-the-insider-2025-ep11-10-07-2025/c613e728-3039-4994-9274-9e1604c4c644",
+          "seasonNumber": 2025,
+          "url": "/sport/the-insider-wimbledon/ep11/c613e728-3039-4994-9274-9e1604c4c644",
           "genre": {
             "id": 2,
             "name": "Sport"
@@ -7162,7 +6024,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3eafb31421f04c5cd82992af6229fd76"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=37d69c20582731c85d0ceff74433108c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=37d69c20582731c85d0ceff74433108c"
               }
             },
             {
@@ -7312,9 +6184,10 @@
         },
         "content": {
           "uuid": "c613e728-3039-4994-9274-9e1604c4c644",
-          "contentTitle": "Tennis Wimbledon The Insider - Ep. 11 - Tennis Wimbledon The Insider 2025 Ep.11 10/07/2025",
+          "contentTitle": "Ep11",
           "episodeNumber": 11,
-          "url": "/programmi-tv/tennis/tennis-wimbledon-the-insider-ep-11-tennis-wimbledon-the-insider-2025-ep11-10-07-2025/c613e728-3039-4994-9274-9e1604c4c644",
+          "seasonNumber": 2025,
+          "url": "/sport/the-insider-wimbledon/ep11/c613e728-3039-4994-9274-9e1604c4c644",
           "genre": {
             "id": 2,
             "name": "Sport"
@@ -7326,7 +6199,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3eafb31421f04c5cd82992af6229fd76"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=37d69c20582731c85d0ceff74433108c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=37d69c20582731c85d0ceff74433108c"
               }
             },
             {
@@ -7465,10 +6348,83 @@
           }
         },
         "content": {
+          "uuid": "31002a37-90ca-4aae-ad61-55cfead9700b",
+          "contentTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 139 - Tennis Grand Slam Wimbledon Champ. 2025 2a Semifinale Femminile 10/07/2025",
+          "episodeNumber": 139,
+          "url": "/programmi-tv/tennis/tennis-grand-slam-wimbledon-championship-ep-139-tennis-grand-slam-wimbledon-champ-2025-2a-semifinale-femminile-10-07-2025/31002a37-90ca-4aae-ad61-55cfead9700b",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
+          },
+          "subgenre": {
+            "id": 17,
+            "name": "Tennis"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/SportCalcio_Cover_JgZRMKTlp.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/SportCalcio_Background_u6JP1797W.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411472003",
+        "starttime": "2025-07-10T20:00:00Z",
+        "endtime": "2025-07-10T22:00:00Z",
+        "eventTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 139 - Tennis Grand Slam Wimbledon Champ. 2025 2a Semifinale Femminile 10/07/2025",
+        "eventSynopsis": "2a Semifinale Femminile - Assistiamo alle spettacolari sfide del torneo piu' prestigioso del circuito tennistico, vincere sull'erba di Wimbledon vuol dire entrare nella storia!",
+        "epgEventTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 139 - Tennis Grand Slam Wimbledon Champ. 2025 2a Semifinale Femminile 10/07/2025",
+        "primeVision": false,
+        "ppvReferenceId": "921921",
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 11237,
+          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
+          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
+          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
+          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
+          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
+          "name": "Sky Sport Tennis",
+          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
+          "number": 203,
+          "servicekey": "559",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
           "uuid": "c613e728-3039-4994-9274-9e1604c4c644",
-          "contentTitle": "Tennis Wimbledon The Insider - Ep. 11 - Tennis Wimbledon The Insider 2025 Ep.11 10/07/2025",
+          "contentTitle": "Ep11",
           "episodeNumber": 11,
-          "url": "/programmi-tv/tennis/tennis-wimbledon-the-insider-ep-11-tennis-wimbledon-the-insider-2025-ep11-10-07-2025/c613e728-3039-4994-9274-9e1604c4c644",
+          "seasonNumber": 2025,
+          "url": "/sport/the-insider-wimbledon/ep11/c613e728-3039-4994-9274-9e1604c4c644",
           "genre": {
             "id": 2,
             "name": "Sport"
@@ -7480,7 +6436,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3eafb31421f04c5cd82992af6229fd76"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=37d69c20582731c85d0ceff74433108c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=37d69c20582731c85d0ceff74433108c"
               }
             },
             {
@@ -7709,9 +6675,10 @@
         },
         "content": {
           "uuid": "c613e728-3039-4994-9274-9e1604c4c644",
-          "contentTitle": "Tennis Wimbledon The Insider - Ep. 11 - Tennis Wimbledon The Insider 2025 Ep.11 10/07/2025",
+          "contentTitle": "Ep11",
           "episodeNumber": 11,
-          "url": "/programmi-tv/tennis/tennis-wimbledon-the-insider-ep-11-tennis-wimbledon-the-insider-2025-ep11-10-07-2025/c613e728-3039-4994-9274-9e1604c4c644",
+          "seasonNumber": 2025,
+          "url": "/sport/the-insider-wimbledon/ep11/c613e728-3039-4994-9274-9e1604c4c644",
           "genre": {
             "id": 2,
             "name": "Sport"
@@ -7723,7 +6690,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3eafb31421f04c5cd82992af6229fd76"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=37d69c20582731c85d0ceff74433108c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=37d69c20582731c85d0ceff74433108c"
               }
             },
             {
@@ -7862,6 +6839,78 @@
           }
         },
         "content": {
+          "uuid": "31002a37-90ca-4aae-ad61-55cfead9700b",
+          "contentTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 139 - Tennis Grand Slam Wimbledon Champ. 2025 2a Semifinale Femminile 10/07/2025",
+          "episodeNumber": 139,
+          "url": "/programmi-tv/tennis/tennis-grand-slam-wimbledon-championship-ep-139-tennis-grand-slam-wimbledon-champ-2025-2a-semifinale-femminile-10-07-2025/31002a37-90ca-4aae-ad61-55cfead9700b",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
+          },
+          "subgenre": {
+            "id": 17,
+            "name": "Tennis"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/SportCalcio_Cover_JgZRMKTlp.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/SportCalcio_Background_u6JP1797W.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411472009",
+        "starttime": "2025-07-11T01:30:00Z",
+        "endtime": "2025-07-11T03:30:00Z",
+        "eventTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 139 - Tennis Grand Slam Wimbledon Champ. 2025 2a Semifinale Femminile 10/07/2025",
+        "eventSynopsis": "2a Semifinale Femminile - Assistiamo alle spettacolari sfide del torneo piu' prestigioso del circuito tennistico, vincere sull'erba di Wimbledon vuol dire entrare nella storia!",
+        "epgEventTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 139 - Tennis Grand Slam Wimbledon Champ. 2025 2a Semifinale Femminile 10/07/2025",
+        "primeVision": false,
+        "ppvReferenceId": "921921",
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 11237,
+          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
+          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
+          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
+          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
+          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
+          "name": "Sky Sport Tennis",
+          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
+          "number": 203,
+          "servicekey": "559",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
           "uuid": "b614dbe8-c7df-4e3a-8e48-b2b06e1c4f17",
           "contentTitle": "Sky Tennis Show - Ep. 24 - 10/07/2025",
           "episodeNumber": 24,
@@ -7939,10 +6988,83 @@
           }
         },
         "content": {
+          "uuid": "31002a37-90ca-4aae-ad61-55cfead9700b",
+          "contentTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 139 - Tennis Grand Slam Wimbledon Champ. 2025 2a Semifinale Femminile 10/07/2025",
+          "episodeNumber": 139,
+          "url": "/programmi-tv/tennis/tennis-grand-slam-wimbledon-championship-ep-139-tennis-grand-slam-wimbledon-champ-2025-2a-semifinale-femminile-10-07-2025/31002a37-90ca-4aae-ad61-55cfead9700b",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
+          },
+          "subgenre": {
+            "id": 17,
+            "name": "Tennis"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/SportCalcio_Cover_JgZRMKTlp.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/SportCalcio_Background_u6JP1797W.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411472011",
+        "starttime": "2025-07-11T04:00:00Z",
+        "endtime": "2025-07-11T06:00:00Z",
+        "eventTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 139 - Tennis Grand Slam Wimbledon Champ. 2025 2a Semifinale Femminile 10/07/2025",
+        "eventSynopsis": "2a Semifinale Femminile - Assistiamo alle spettacolari sfide del torneo piu' prestigioso del circuito tennistico, vincere sull'erba di Wimbledon vuol dire entrare nella storia!",
+        "epgEventTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 139 - Tennis Grand Slam Wimbledon Champ. 2025 2a Semifinale Femminile 10/07/2025",
+        "primeVision": false,
+        "ppvReferenceId": "921921",
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 11237,
+          "logo": "/logo/559skysporttennis_Light_Fit.png?checksum=63436110-b04f-4b52-ab5f-0ceacf8f10d5",
+          "logoPadding": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
+          "logoDark": "/logo/559skysporttennis_Dark_Fit.png?checksum=07f835b7-73c8-4e15-b738-d84b4b9c6c49",
+          "logoDarkPadding": "/logo/559skysporttennis_Dark_Padding.png?checksum=d8fe89d6-a1f7-4cb2-9370-5ac46b1fe709",
+          "logoLight": "/logo/559skysporttennis_Light_Padding.png?checksum=93c6c848-6f62-4f43-a3e2-9963418847ef",
+          "name": "Sky Sport Tennis",
+          "description": "Il canale tv dedicato al mondo del tennis. Canale Sky Glass 205.",
+          "number": 203,
+          "servicekey": "559",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
           "uuid": "c613e728-3039-4994-9274-9e1604c4c644",
-          "contentTitle": "Tennis Wimbledon The Insider - Ep. 11 - Tennis Wimbledon The Insider 2025 Ep.11 10/07/2025",
+          "contentTitle": "Ep11",
           "episodeNumber": 11,
-          "url": "/programmi-tv/tennis/tennis-wimbledon-the-insider-ep-11-tennis-wimbledon-the-insider-2025-ep11-10-07-2025/c613e728-3039-4994-9274-9e1604c4c644",
+          "seasonNumber": 2025,
+          "url": "/sport/the-insider-wimbledon/ep11/c613e728-3039-4994-9274-9e1604c4c644",
           "genre": {
             "id": 2,
             "name": "Sport"
@@ -7954,7 +7076,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3eafb31421f04c5cd82992af6229fd76"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=37d69c20582731c85d0ceff74433108c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=37d69c20582731c85d0ceff74433108c"
               }
             },
             {
@@ -8181,9 +7313,10 @@
         },
         "content": {
           "uuid": "c613e728-3039-4994-9274-9e1604c4c644",
-          "contentTitle": "Tennis Wimbledon The Insider - Ep. 11 - Tennis Wimbledon The Insider 2025 Ep.11 10/07/2025",
+          "contentTitle": "Ep11",
           "episodeNumber": 11,
-          "url": "/programmi-tv/tennis/tennis-wimbledon-the-insider-ep-11-tennis-wimbledon-the-insider-2025-ep11-10-07-2025/c613e728-3039-4994-9274-9e1604c4c644",
+          "seasonNumber": 2025,
+          "url": "/sport/the-insider-wimbledon/ep11/c613e728-3039-4994-9274-9e1604c4c644",
           "genre": {
             "id": 2,
             "name": "Sport"
@@ -8195,7 +7328,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3eafb31421f04c5cd82992af6229fd76"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=37d69c20582731c85d0ceff74433108c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=37d69c20582731c85d0ceff74433108c"
               }
             },
             {
@@ -8335,9 +7478,10 @@
         },
         "content": {
           "uuid": "c613e728-3039-4994-9274-9e1604c4c644",
-          "contentTitle": "Tennis Wimbledon The Insider - Ep. 11 - Tennis Wimbledon The Insider 2025 Ep.11 10/07/2025",
+          "contentTitle": "Ep11",
           "episodeNumber": 11,
-          "url": "/programmi-tv/tennis/tennis-wimbledon-the-insider-ep-11-tennis-wimbledon-the-insider-2025-ep11-10-07-2025/c613e728-3039-4994-9274-9e1604c4c644",
+          "seasonNumber": 2025,
+          "url": "/sport/the-insider-wimbledon/ep11/c613e728-3039-4994-9274-9e1604c4c644",
           "genre": {
             "id": 2,
             "name": "Sport"
@@ -8349,7 +7493,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3eafb31421f04c5cd82992af6229fd76"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=37d69c20582731c85d0ceff74433108c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/c613e728-3039-4994-9274-9e1604c4c644/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=37d69c20582731c85d0ceff74433108c"
               }
             },
             {
@@ -10085,9 +9239,9 @@
         "eventId": "411472072",
         "starttime": "2025-07-12T15:00:00Z",
         "endtime": "2025-07-12T17:45:00Z",
-        "eventTitle": "Tennis: Wimbledon - Ep. 154 - Finale Femminile",
+        "eventTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 154 - Tennis Grand Slam Wimbledon Champ. 2025 Finale Femminile 12/07/2025",
         "eventSynopsis": "Finale Femminile - Assistiamo alle spettacolari sfide del torneo piu' prestigioso del circuito tennistico, vincere sull'erba di Wimbledon vuol dire entrare nella storia!",
-        "epgEventTitle": "Tennis: Wimbledon - Ep. 154 - Finale Femminile",
+        "epgEventTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 154 - Tennis Grand Slam Wimbledon Champ. 2025 Finale Femminile 12/07/2025",
         "programHighlights": "L",
         "primeVision": false,
         "ppvReferenceId": "921921",
@@ -10241,9 +9395,9 @@
         "eventId": "411472074",
         "starttime": "2025-07-12T19:00:00Z",
         "endtime": "2025-07-12T21:00:00Z",
-        "eventTitle": "Tennis: Wimbledon - Ep. 154 - Finale Femminile",
+        "eventTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 154 - Tennis Grand Slam Wimbledon Champ. 2025 Finale Femminile 12/07/2025",
         "eventSynopsis": "Finale Femminile - Assistiamo alle spettacolari sfide del torneo piu' prestigioso del circuito tennistico, vincere sull'erba di Wimbledon vuol dire entrare nella storia!",
-        "epgEventTitle": "Tennis: Wimbledon - Ep. 154 - Finale Femminile",
+        "epgEventTitle": "Tennis Grand Slam Wimbledon Championship - Ep. 154 - Tennis Grand Slam Wimbledon Champ. 2025 Finale Femminile 12/07/2025",
         "primeVision": false,
         "ppvReferenceId": "921921",
         "resolutions": [
