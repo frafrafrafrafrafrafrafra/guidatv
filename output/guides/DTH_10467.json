@@ -1,774 +1,6 @@
 {
   "name": "Iris HD",
   "events_by_date": {
-    "2025-07-05": [
-      {
-        "channel": {
-          "id": 10467,
-          "logo": "/logo/5436irishd_Light_Fit.png",
-          "logoPadding": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "logoDark": "/logo/5436irishd_Dark_Fit.png?checksum=dd860730-a67a-4841-adf8-0ad22cf62054",
-          "logoDarkPadding": "/logo/5436irishd_Dark_Padding.png?checksum=6ab9f1e2-88a5-47fd-9840-69b656a29f2a",
-          "logoLight": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "name": "Iris HD",
-          "description": "Canale Sky Glass 311.",
-          "number": 325,
-          "servicekey": "5436",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "d8523f96-756a-461c-9038-3181ff0d8cce",
-          "contentTitle": "Verso l'Eden",
-          "url": "/film/drammatico/verso-leden/d8523f96-756a-461c-9038-3181ff0d8cce",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/d8523f96-756a-461c-9038-3181ff0d8cce/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=a34d27b67eadaafa708dac42eb2dee61"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/d8523f96-756a-461c-9038-3181ff0d8cce/background?territory=IT&md5ChecksumParam=285fd12aca8211a3c49f740370f1ff53"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/d8523f96-756a-461c-9038-3181ff0d8cce/cover?territory=IT&md5ChecksumParam=a34d27b67eadaafa708dac42eb2dee61"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/d8523f96-756a-461c-9038-3181ff0d8cce/16-9?territory=IT&md5ChecksumParam=3bf79711fdc0ec80ab2b0f8b985a1077"
-              }
-            }
-          ]
-        },
-        "eventId": "411362203",
-        "starttime": "2025-07-05T01:44:25Z",
-        "endtime": "2025-07-05T03:30:25Z",
-        "eventTitle": "Verso l'Eden",
-        "eventSynopsis": "Film drammatico con Riccardo Scamarcio. Un immigrato clandestino si tuffa in mare per sfuggire all'arresto della guardia costiera. Regia di Costa-Gavras; FRA 2009",
-        "epgEventTitle": "Verso l'Eden",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10467,
-          "logo": "/logo/5436irishd_Light_Fit.png",
-          "logoPadding": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "logoDark": "/logo/5436irishd_Dark_Fit.png?checksum=dd860730-a67a-4841-adf8-0ad22cf62054",
-          "logoDarkPadding": "/logo/5436irishd_Dark_Padding.png?checksum=6ab9f1e2-88a5-47fd-9840-69b656a29f2a",
-          "logoLight": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "name": "Iris HD",
-          "description": "Canale Sky Glass 311.",
-          "number": 325,
-          "servicekey": "5436",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "f1fcd0da-adf8-429a-aab8-04dad26d101d",
-          "contentTitle": "Ep. 2 - Si fa presto a dire rimorchiare",
-          "episodeNumber": 2,
-          "seasonNumber": 1,
-          "url": "/serie-tv/via-zanardi-33/stagione-1/episodio-2/f1fcd0da-adf8-429a-aab8-04dad26d101d",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 16,
-            "name": "Sit Com"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/f1fcd0da-adf8-429a-aab8-04dad26d101d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=de372af4ebb26ab99bdc550ed8c3c766"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/f1fcd0da-adf8-429a-aab8-04dad26d101d/background?territory=IT&md5ChecksumParam=1cb276ae9d02a64c6bd2e5484525e86c"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/f1fcd0da-adf8-429a-aab8-04dad26d101d/cover?territory=IT&md5ChecksumParam=de372af4ebb26ab99bdc550ed8c3c766"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/f1fcd0da-adf8-429a-aab8-04dad26d101d/16-9?territory=IT&md5ChecksumParam=5b60c449810cbbeb40ebae4298e1f9ef"
-              }
-            }
-          ]
-        },
-        "eventId": "411474496",
-        "starttime": "2025-07-05T03:30:55Z",
-        "endtime": "2025-07-05T04:00:55Z",
-        "eventTitle": "Ep. 2 - Si fa presto a dire rimorchiare",
-        "eventSynopsis": "S1 Ep2 Si fa presto a dire rimorchiare - I ragazzi tirano a sorte per chi deve pulire il water, intasato da tre mesi. Tocchera' a Stefano.",
-        "epgEventTitle": "S1 Ep2 - Via Zanardi, 33",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10467,
-          "logo": "/logo/5436irishd_Light_Fit.png",
-          "logoPadding": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "logoDark": "/logo/5436irishd_Dark_Fit.png?checksum=dd860730-a67a-4841-adf8-0ad22cf62054",
-          "logoDarkPadding": "/logo/5436irishd_Dark_Padding.png?checksum=6ab9f1e2-88a5-47fd-9840-69b656a29f2a",
-          "logoLight": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "name": "Iris HD",
-          "description": "Canale Sky Glass 311.",
-          "number": 325,
-          "servicekey": "5436",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "5c28b97c-22c5-4cfd-aadf-94a0327c3e72",
-          "contentTitle": "Delitto per gioco - i parte/delitto per gioco - ii parte",
-          "episodeNumber": 3,
-          "seasonNumber": 1,
-          "url": "/serie-tv/don-tonino/stagione-1/episodio-3/5c28b97c-22c5-4cfd-aadf-94a0327c3e72",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 9,
-            "name": "Fiction"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/5c28b97c-22c5-4cfd-aadf-94a0327c3e72/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=103f67513543012bc0819805d77656a4"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/5c28b97c-22c5-4cfd-aadf-94a0327c3e72/background?territory=IT&md5ChecksumParam=feb6531c4ae1c1de67e286d16160227c"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/5c28b97c-22c5-4cfd-aadf-94a0327c3e72/cover?territory=IT&md5ChecksumParam=103f67513543012bc0819805d77656a4"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/5c28b97c-22c5-4cfd-aadf-94a0327c3e72/16-9?territory=IT&md5ChecksumParam=e23b5204cffe0f794b152d56e0400d31"
-              }
-            }
-          ]
-        },
-        "eventId": "411448736",
-        "starttime": "2025-07-05T04:01:46Z",
-        "endtime": "2025-07-05T05:35:46Z",
-        "eventTitle": "Delitto per gioco - i parte/delitto per gioco - ii parte",
-        "eventSynopsis": "S1 Ep3 Delitto per gioco - I parte/delitto per gioco - II parte - Don Tonino investiga, con il suo amico commissario di polizia, su casi misteriosi.",
-        "epgEventTitle": "S1 Ep3 - Don Tonino",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10467,
-          "logo": "/logo/5436irishd_Light_Fit.png",
-          "logoPadding": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "logoDark": "/logo/5436irishd_Dark_Fit.png?checksum=dd860730-a67a-4841-adf8-0ad22cf62054",
-          "logoDarkPadding": "/logo/5436irishd_Dark_Padding.png?checksum=6ab9f1e2-88a5-47fd-9840-69b656a29f2a",
-          "logoLight": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "name": "Iris HD",
-          "description": "Canale Sky Glass 311.",
-          "number": 325,
-          "servicekey": "5436",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "adb866fd-a263-4abc-b3b8-5e3ce58e4220",
-          "contentTitle": "Ep. 15 - L'erba voglio",
-          "episodeNumber": 15,
-          "seasonNumber": 2,
-          "url": "/serie-tv/i-cesaroni/stagione-2/episodio-15/adb866fd-a263-4abc-b3b8-5e3ce58e4220",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 16,
-            "name": "Sit Com"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/adb866fd-a263-4abc-b3b8-5e3ce58e4220/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=d554e53b81da5ed8ca86f31e126d4b11"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/adb866fd-a263-4abc-b3b8-5e3ce58e4220/background?territory=IT&md5ChecksumParam=9f5585a274104b6bff3ccbf7530b8022"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/adb866fd-a263-4abc-b3b8-5e3ce58e4220/cover?territory=IT&md5ChecksumParam=d554e53b81da5ed8ca86f31e126d4b11"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/adb866fd-a263-4abc-b3b8-5e3ce58e4220/16-9?territory=IT&md5ChecksumParam=266801ced53d786f8a4e9981d6ad7aba"
-              }
-            }
-          ]
-        },
-        "eventId": "411361246",
-        "starttime": "2025-07-05T05:36:19Z",
-        "endtime": "2025-07-05T06:57:19Z",
-        "eventTitle": "Ep. 15 - L'erba voglio",
-        "eventSynopsis": "S2 Ep15 L'erba voglio - Giulio ed Ezio si convincono che Cesare faccia abuso di droghe, mentre il povero oste e' invece alle prese con un terribile mal di pancia.",
-        "epgEventTitle": "S2 Ep15 - I Cesaroni",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10467,
-          "logo": "/logo/5436irishd_Light_Fit.png",
-          "logoPadding": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "logoDark": "/logo/5436irishd_Dark_Fit.png?checksum=dd860730-a67a-4841-adf8-0ad22cf62054",
-          "logoDarkPadding": "/logo/5436irishd_Dark_Padding.png?checksum=6ab9f1e2-88a5-47fd-9840-69b656a29f2a",
-          "logoLight": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "name": "Iris HD",
-          "description": "Canale Sky Glass 311.",
-          "number": 325,
-          "servicekey": "5436",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "366c7a07-0623-455c-b940-381e0adfcd4b",
-          "contentTitle": "Animali notturni",
-          "url": "/film/thriller/animali-notturni/366c7a07-0623-455c-b940-381e0adfcd4b",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 88,
-            "name": "Thriller"
-          },
-          "imagesMap": [
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/366c7a07-0623-455c-b940-381e0adfcd4b/background?territory=IT&md5ChecksumParam=82984a58cf36b67b00dd7a273c1778ae"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/366c7a07-0623-455c-b940-381e0adfcd4b/cover?territory=IT&md5ChecksumParam=22d38acaf754d3fa406512c5b71bcd52"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/366c7a07-0623-455c-b940-381e0adfcd4b/16-9?territory=IT&md5ChecksumParam=5101bcf08d06989e699b7339e478feba"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/366c7a07-0623-455c-b940-381e0adfcd4b/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=e3c1afbc9120c717a2da88705faa43fd"
-              }
-            }
-          ]
-        },
-        "eventId": "411361249",
-        "starttime": "2025-07-05T06:57:22Z",
-        "endtime": "2025-07-05T09:20:22Z",
-        "eventTitle": "Animali notturni",
-        "eventSynopsis": "Pluripremiato film scritto e diretto da Tom Ford, con Jake Gyllenhaal ed Amy Adams. Una gallerista affermata e' costretta a confrontarsi con i fantasmi del passato. Regia di T. Ford; USA 2016",
-        "epgEventTitle": "Animali notturni",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10467,
-          "logo": "/logo/5436irishd_Light_Fit.png",
-          "logoPadding": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "logoDark": "/logo/5436irishd_Dark_Fit.png?checksum=dd860730-a67a-4841-adf8-0ad22cf62054",
-          "logoDarkPadding": "/logo/5436irishd_Dark_Padding.png?checksum=6ab9f1e2-88a5-47fd-9840-69b656a29f2a",
-          "logoLight": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "name": "Iris HD",
-          "description": "Canale Sky Glass 311.",
-          "number": 325,
-          "servicekey": "5436",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "cab24911-83cd-4a98-9350-9bf66c26d9f4",
-          "contentTitle": "Il tocco del male",
-          "url": "/film/thriller/il-tocco-del-male/cab24911-83cd-4a98-9350-9bf66c26d9f4",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 88,
-            "name": "Thriller"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/cab24911-83cd-4a98-9350-9bf66c26d9f4/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=d7693f12989e6ca875017c660e5e5121"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/cab24911-83cd-4a98-9350-9bf66c26d9f4/background?territory=IT&md5ChecksumParam=fdf3a9fe6a92c3d5d3d1063825be54a6"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/cab24911-83cd-4a98-9350-9bf66c26d9f4/cover?territory=IT&md5ChecksumParam=d7693f12989e6ca875017c660e5e5121"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/cab24911-83cd-4a98-9350-9bf66c26d9f4/16-9?territory=IT&md5ChecksumParam=9391965f7d2dcec98cec7cf83f4c17e6"
-              }
-            }
-          ]
-        },
-        "eventId": "411361252",
-        "starttime": "2025-07-05T09:21:19Z",
-        "endtime": "2025-07-05T12:10:19Z",
-        "eventTitle": "Il tocco del male",
-        "eventSynopsis": "Un serial killer viene giustiziato. Il demone che soggiornava in lui si impossessa di altri corpi e perseguita un detective. Con D. Washington. Regia di G. Hoblit; USA 1997",
-        "epgEventTitle": "Il tocco del male",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10467,
-          "logo": "/logo/5436irishd_Light_Fit.png",
-          "logoPadding": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "logoDark": "/logo/5436irishd_Dark_Fit.png?checksum=dd860730-a67a-4841-adf8-0ad22cf62054",
-          "logoDarkPadding": "/logo/5436irishd_Dark_Padding.png?checksum=6ab9f1e2-88a5-47fd-9840-69b656a29f2a",
-          "logoLight": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "name": "Iris HD",
-          "description": "Canale Sky Glass 311.",
-          "number": 325,
-          "servicekey": "5436",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "132e16ca-ad0c-4f43-8ee8-30e7b6c0feeb",
-          "contentTitle": "Fuoco assassino",
-          "url": "/film/azione/fuoco-assassino/132e16ca-ad0c-4f43-8ee8-30e7b6c0feeb",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 32,
-            "name": "Azione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/132e16ca-ad0c-4f43-8ee8-30e7b6c0feeb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=946f885c1d9816f6b5896783a50aa064"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/132e16ca-ad0c-4f43-8ee8-30e7b6c0feeb/background?territory=IT&md5ChecksumParam=ef1dba51bb37ceaaca8e948c597c98e2"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/132e16ca-ad0c-4f43-8ee8-30e7b6c0feeb/cover?territory=IT&md5ChecksumParam=946f885c1d9816f6b5896783a50aa064"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/132e16ca-ad0c-4f43-8ee8-30e7b6c0feeb/16-9?territory=IT&md5ChecksumParam=e55a0df3962d5ae72bc900e9de2da127"
-              }
-            }
-          ]
-        },
-        "eventId": "411361255",
-        "starttime": "2025-07-05T12:10:47Z",
-        "endtime": "2025-07-05T15:02:47Z",
-        "eventTitle": "Fuoco assassino",
-        "eventSynopsis": "Due fratelli sono pompieri, sulle orme del padre. Uno e' caposquadra, mentre l'altro non dimentica la morte del genitore in un incendio. Con R. De Niro, K. Russell Regia di R. Howard; USA 1991",
-        "epgEventTitle": "Fuoco assassino",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10467,
-          "logo": "/logo/5436irishd_Light_Fit.png",
-          "logoPadding": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "logoDark": "/logo/5436irishd_Dark_Fit.png?checksum=dd860730-a67a-4841-adf8-0ad22cf62054",
-          "logoDarkPadding": "/logo/5436irishd_Dark_Padding.png?checksum=6ab9f1e2-88a5-47fd-9840-69b656a29f2a",
-          "logoLight": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "name": "Iris HD",
-          "description": "Canale Sky Glass 311.",
-          "number": 325,
-          "servicekey": "5436",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "7ced3dda-eb1d-48aa-8baa-b4dfb14e4152",
-          "contentTitle": "90 minuti per salvarla",
-          "url": "/film/azione/90-minuti-per-salvarla/7ced3dda-eb1d-48aa-8baa-b4dfb14e4152",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 32,
-            "name": "Azione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/7ced3dda-eb1d-48aa-8baa-b4dfb14e4152/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2c1080b3cc8500c35809a3b439a411e0"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/7ced3dda-eb1d-48aa-8baa-b4dfb14e4152/background?territory=IT&md5ChecksumParam=782ff6d8a6971f6c8b3b786a1884022a"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/7ced3dda-eb1d-48aa-8baa-b4dfb14e4152/cover?territory=IT&md5ChecksumParam=2c1080b3cc8500c35809a3b439a411e0"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/7ced3dda-eb1d-48aa-8baa-b4dfb14e4152/16-9?territory=IT&md5ChecksumParam=de1d89967a4240f087331d2598e10482"
-              }
-            }
-          ]
-        },
-        "eventId": "411361258",
-        "starttime": "2025-07-05T15:02:47Z",
-        "endtime": "2025-07-05T16:54:47Z",
-        "eventTitle": "90 minuti per salvarla",
-        "eventSynopsis": "Tony e' costretto a una corsa contro il tempo per salvare la moglie rapita prima che venga uccisa. Col passare del tempo scopre cosa si cela dietro al rapimento. Regia di Kantz; USA 2009",
-        "epgEventTitle": "90 minuti per salvarla",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10467,
-          "logo": "/logo/5436irishd_Light_Fit.png",
-          "logoPadding": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "logoDark": "/logo/5436irishd_Dark_Fit.png?checksum=dd860730-a67a-4841-adf8-0ad22cf62054",
-          "logoDarkPadding": "/logo/5436irishd_Dark_Padding.png?checksum=6ab9f1e2-88a5-47fd-9840-69b656a29f2a",
-          "logoLight": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "name": "Iris HD",
-          "description": "Canale Sky Glass 311.",
-          "number": 325,
-          "servicekey": "5436",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "5fb36fe4-d802-465a-b520-a84fea11cb88",
-          "contentTitle": "Alaska",
-          "url": "/film/avventura/alaska/5fb36fe4-d802-465a-b520-a84fea11cb88",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 63,
-            "name": "Avventura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/5fb36fe4-d802-465a-b520-a84fea11cb88/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=58b44e0162ba0585b620ae56cbecadfe"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/5fb36fe4-d802-465a-b520-a84fea11cb88/background?territory=IT&md5ChecksumParam=baced6bc34350a6ce73a5c385105420c"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/5fb36fe4-d802-465a-b520-a84fea11cb88/cover?territory=IT&md5ChecksumParam=58b44e0162ba0585b620ae56cbecadfe"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/5fb36fe4-d802-465a-b520-a84fea11cb88/16-9?territory=IT&md5ChecksumParam=50e14c9f30bbf3ae74025d46fbe404c1"
-              }
-            }
-          ]
-        },
-        "eventId": "411361262",
-        "starttime": "2025-07-05T16:55:32Z",
-        "endtime": "2025-07-05T19:13:32Z",
-        "eventTitle": "Alaska",
-        "eventSynopsis": "Alla morte della moglie, Jake si trasferisce coi suoi due figli in Alaska. Un giorno, l'aereo con cui lavora, precipita, ed i figli vanno a cercarlo. Regia di F. Heston; USA 1996",
-        "epgEventTitle": "Alaska",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10467,
-          "logo": "/logo/5436irishd_Light_Fit.png",
-          "logoPadding": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "logoDark": "/logo/5436irishd_Dark_Fit.png?checksum=dd860730-a67a-4841-adf8-0ad22cf62054",
-          "logoDarkPadding": "/logo/5436irishd_Dark_Padding.png?checksum=6ab9f1e2-88a5-47fd-9840-69b656a29f2a",
-          "logoLight": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "name": "Iris HD",
-          "description": "Canale Sky Glass 311.",
-          "number": 325,
-          "servicekey": "5436",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "cc84aff5-e6dd-4dee-94f4-20687e0a91e6",
-          "contentTitle": "15 minuti - Follia omicida a New York",
-          "url": "/film/azione/15-minuti-follia-omicida-a-new-york/cc84aff5-e6dd-4dee-94f4-20687e0a91e6",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 32,
-            "name": "Azione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/cc84aff5-e6dd-4dee-94f4-20687e0a91e6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=5c2616083cf9eb978aa01e882789812c"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/cc84aff5-e6dd-4dee-94f4-20687e0a91e6/background?territory=IT&md5ChecksumParam=088f07b7031fd6c2374c7c41718bf989"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/cc84aff5-e6dd-4dee-94f4-20687e0a91e6/cover?territory=IT&md5ChecksumParam=5c2616083cf9eb978aa01e882789812c"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/cc84aff5-e6dd-4dee-94f4-20687e0a91e6/16-9?territory=IT&md5ChecksumParam=46194999c9d6e92bcf2bf5dbeead74ff"
-              }
-            }
-          ]
-        },
-        "eventId": "411436461",
-        "starttime": "2025-07-05T19:14:00Z",
-        "endtime": "2025-07-05T21:43:00Z",
-        "eventTitle": "15 minuti - Follia omicida a New York",
-        "eventSynopsis": "Thriller con Robert De Niro. Due poliziotti inseguono pericolosi criminali, che vogliono vendere le immagini delle loro \"imprese\" alla televisione. Regia di J. Herzfeld; USA 2001",
-        "epgEventTitle": "15 minuti - Follia omicida a New York",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10467,
-          "logo": "/logo/5436irishd_Light_Fit.png",
-          "logoPadding": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "logoDark": "/logo/5436irishd_Dark_Fit.png?checksum=dd860730-a67a-4841-adf8-0ad22cf62054",
-          "logoDarkPadding": "/logo/5436irishd_Dark_Padding.png?checksum=6ab9f1e2-88a5-47fd-9840-69b656a29f2a",
-          "logoLight": "/logo/5436irishd_Light_Padding.png?checksum=a6ecfb44-8093-4125-8dca-1df8a1315440",
-          "name": "Iris HD",
-          "description": "Canale Sky Glass 311.",
-          "number": 325,
-          "servicekey": "5436",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "7f69a7c1-a563-445d-ab38-dad49ee7dd48",
-          "contentTitle": "Rivelazioni - Sesso e' potere",
-          "url": "/film/drammatico/rivelazioni-sesso-e-potere/7f69a7c1-a563-445d-ab38-dad49ee7dd48",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/7f69a7c1-a563-445d-ab38-dad49ee7dd48/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=9f057379cece94b6957e5d1017536abc"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/7f69a7c1-a563-445d-ab38-dad49ee7dd48/background?territory=IT&md5ChecksumParam=a67168b39ef04c29a7e09ac18060eacf"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/7f69a7c1-a563-445d-ab38-dad49ee7dd48/cover?territory=IT&md5ChecksumParam=9f057379cece94b6957e5d1017536abc"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/7f69a7c1-a563-445d-ab38-dad49ee7dd48/16-9?territory=IT&md5ChecksumParam=b8a87e14ab7d60fc9a0d59468dfb232d"
-              }
-            }
-          ]
-        },
-        "eventId": "411361265",
-        "starttime": "2025-07-05T21:43:26Z",
-        "endtime": "2025-07-06T00:03:26Z",
-        "eventTitle": "Rivelazioni - Sesso e' potere",
-        "eventSynopsis": "Thriller intrigante, con Demi Moore e Michael Douglas, tratto dal romanzo di Michael Crichton. Una donna cerca di sedurre un collega, che pero' la respinge. Regia di B. Levinson; USA 1994",
-        "epgEventTitle": "Rivelazioni - Sesso e' potere",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
     "2025-07-06": [
       {
         "channel": {
@@ -1361,7 +593,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/04da6185-ba07-4358-9b9b-bc5ad253e7f1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=9a1680e1c7d074dc5aba0c0a9324edc9"
+                "url": "/uuid/04da6185-ba07-4358-9b9b-bc5ad253e7f1/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c34dfc085657b239852734761d959dcb"
               }
             },
             {
@@ -1371,7 +603,7 @@
             },
             {
               "img": {
-                "url": "/uuid/04da6185-ba07-4358-9b9b-bc5ad253e7f1/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c34dfc085657b239852734761d959dcb"
+                "url": "/uuid/04da6185-ba07-4358-9b9b-bc5ad253e7f1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=9a1680e1c7d074dc5aba0c0a9324edc9"
               }
             },
             {
@@ -1446,12 +678,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/aa0964a8-c309-46b7-b2ac-5f91dd96091f/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c8b148c52b31eabc7b91fcd1ce890aeb"
+                "url": "/uuid/aa0964a8-c309-46b7-b2ac-5f91dd96091f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7622afd27e06414e601af6a091d863d4"
               }
             },
             {
               "img": {
-                "url": "/uuid/aa0964a8-c309-46b7-b2ac-5f91dd96091f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7622afd27e06414e601af6a091d863d4"
+                "url": "/uuid/aa0964a8-c309-46b7-b2ac-5f91dd96091f/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c8b148c52b31eabc7b91fcd1ce890aeb"
               }
             },
             {
@@ -1600,12 +832,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/fb9adba7-5b8d-48f2-a5d2-2de549196425/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ae29d4b41fcbb55d439abec05576c6a3"
+                "url": "/uuid/fb9adba7-5b8d-48f2-a5d2-2de549196425/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=554919ec7ccc5043335d5b49a3f6af1d"
               }
             },
             {
               "img": {
-                "url": "/uuid/fb9adba7-5b8d-48f2-a5d2-2de549196425/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=554919ec7ccc5043335d5b49a3f6af1d"
+                "url": "/uuid/fb9adba7-5b8d-48f2-a5d2-2de549196425/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ae29d4b41fcbb55d439abec05576c6a3"
               }
             },
             {
@@ -1756,7 +988,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/04da6185-ba07-4358-9b9b-bc5ad253e7f1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=9a1680e1c7d074dc5aba0c0a9324edc9"
+                "url": "/uuid/04da6185-ba07-4358-9b9b-bc5ad253e7f1/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c34dfc085657b239852734761d959dcb"
               }
             },
             {
@@ -1766,7 +998,7 @@
             },
             {
               "img": {
-                "url": "/uuid/04da6185-ba07-4358-9b9b-bc5ad253e7f1/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c34dfc085657b239852734761d959dcb"
+                "url": "/uuid/04da6185-ba07-4358-9b9b-bc5ad253e7f1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=9a1680e1c7d074dc5aba0c0a9324edc9"
               }
             },
             {
@@ -3099,12 +2331,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/fb9adba7-5b8d-48f2-a5d2-2de549196425/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ae29d4b41fcbb55d439abec05576c6a3"
+                "url": "/uuid/fb9adba7-5b8d-48f2-a5d2-2de549196425/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=554919ec7ccc5043335d5b49a3f6af1d"
               }
             },
             {
               "img": {
-                "url": "/uuid/fb9adba7-5b8d-48f2-a5d2-2de549196425/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=554919ec7ccc5043335d5b49a3f6af1d"
+                "url": "/uuid/fb9adba7-5b8d-48f2-a5d2-2de549196425/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ae29d4b41fcbb55d439abec05576c6a3"
               }
             },
             {
@@ -6704,7 +5936,7 @@
         "eventId": "411425639",
         "starttime": "2025-07-12T04:25:15Z",
         "endtime": "2025-07-12T05:45:15Z",
-        "eventTitle": "Don Tonino 1",
+        "eventTitle": "Delitto per gioco",
         "eventSynopsis": "S1 Ep5 Delitto per gioco - Mezzanotte davanti ad un'edicola. Un uomo viene accoltellato sotto gli occhi dell'edicolante. Qualche giorno dopo Don Tonino (Andrea Sammarchi) nel bel mezzo di una...",
         "epgEventTitle": "S1 Ep5 - Don tonino",
         "primeVision": false,
@@ -6887,12 +6119,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/2b51112d-f870-49ee-934e-8adc00e5aa22/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=90ed4fc97fefc1807fc1bd6f13760b14"
+                "url": "/uuid/2b51112d-f870-49ee-934e-8adc00e5aa22/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7c3041bbe24d2c60dcbe6590f7630212"
               }
             },
             {
               "img": {
-                "url": "/uuid/2b51112d-f870-49ee-934e-8adc00e5aa22/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7c3041bbe24d2c60dcbe6590f7630212"
+                "url": "/uuid/2b51112d-f870-49ee-934e-8adc00e5aa22/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=90ed4fc97fefc1807fc1bd6f13760b14"
               }
             },
             {

@@ -1,1216 +1,6 @@
 {
   "name": "Sky Sport Max",
   "events_by_date": {
-    "2025-07-05": [
-      {
-        "channel": {
-          "id": 9103,
-          "logo": "/logo/248skysportmax_Light_Fit.png?checksum=d1c1207f-239f-423d-804a-002b858ab063",
-          "logoPadding": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "logoDark": "/logo/248skysportmax_Dark_Fit.png?checksum=98606d44-ce76-4220-84ba-d3b884e6dbb0",
-          "logoDarkPadding": "/logo/248skysportmax_Dark_Padding.png?checksum=52d443fb-2aa9-46c3-acf2-1aa963db3cb3",
-          "logoLight": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "name": "Sky Sport Max",
-          "description": "Il canale tv che trasmette l'eurolega, la MLB, la NHL e tanto altro. Canale Sky Glass 203.",
-          "number": 205,
-          "servicekey": "248",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "862fcd4d-18fa-44a8-a56f-232969cbe946",
-          "contentTitle": "Borussia Dortmund - Barcellona",
-          "episodeNumber": 111,
-          "seasonNumber": 2024,
-          "url": "/sport/uefa-champions-league/borussia-dortmund-barcellona/862fcd4d-18fa-44a8-a56f-232969cbe946",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 10,
-            "name": "Calcio"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/862fcd4d-18fa-44a8-a56f-232969cbe946/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3144ce938bf3cb7ac2f2309e8aff2a79"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/862fcd4d-18fa-44a8-a56f-232969cbe946/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3144ce938bf3cb7ac2f2309e8aff2a79"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/862fcd4d-18fa-44a8-a56f-232969cbe946/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3144ce938bf3cb7ac2f2309e8aff2a79"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/862fcd4d-18fa-44a8-a56f-232969cbe946/background?territory=IT&md5ChecksumParam=f121e3f72a8abb8621d52f8837759327"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/862fcd4d-18fa-44a8-a56f-232969cbe946/cover?territory=IT&md5ChecksumParam=3144ce938bf3cb7ac2f2309e8aff2a79"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/862fcd4d-18fa-44a8-a56f-232969cbe946/16-9?territory=IT&md5ChecksumParam=2d7f41a36d1d332fc667c8a30dd472c8"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/862fcd4d-18fa-44a8-a56f-232969cbe946/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=2d7f41a36d1d332fc667c8a30dd472c8"
-              }
-            }
-          ]
-        },
-        "eventId": "411393646",
-        "starttime": "2025-07-05T00:00:00Z",
-        "endtime": "2025-07-05T02:00:00Z",
-        "eventTitle": "Borussia Dortmund - Barcellona",
-        "eventSynopsis": "UEFA Champions League 6ga - Entrambe a quota 12 punti con 4 vittorie e una sola sconfitta: tedeschi contro il Real, Barcellona contro il Monaco. Blaugrana imbattuti nei 4 precedenti. TC: Compagnoni-Serena",
-        "epgEventTitle": "Borussia Dortmund - Barcellona",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9103,
-          "logo": "/logo/248skysportmax_Light_Fit.png?checksum=d1c1207f-239f-423d-804a-002b858ab063",
-          "logoPadding": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "logoDark": "/logo/248skysportmax_Dark_Fit.png?checksum=98606d44-ce76-4220-84ba-d3b884e6dbb0",
-          "logoDarkPadding": "/logo/248skysportmax_Dark_Padding.png?checksum=52d443fb-2aa9-46c3-acf2-1aa963db3cb3",
-          "logoLight": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "name": "Sky Sport Max",
-          "description": "Il canale tv che trasmette l'eurolega, la MLB, la NHL e tanto altro. Canale Sky Glass 203.",
-          "number": 205,
-          "servicekey": "248",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "26d69699-2fae-4693-ac74-cf4858652ccb",
-          "contentTitle": "Grecia: Stage 5",
-          "episodeNumber": 28,
-          "seasonNumber": 2025,
-          "url": "/sport/fia-world-rally-championship/grecia-stage-5/26d69699-2fae-4693-ac74-cf4858652ccb",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 24,
-            "name": "Motori"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/26d69699-2fae-4693-ac74-cf4858652ccb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=9d56afe3481c505c8dfc8db0b5a6c537"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/26d69699-2fae-4693-ac74-cf4858652ccb/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=7981f97770c68c44195c89d1b47f0dbc"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/26d69699-2fae-4693-ac74-cf4858652ccb/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7981f97770c68c44195c89d1b47f0dbc"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/26d69699-2fae-4693-ac74-cf4858652ccb/background?territory=IT&md5ChecksumParam=dfa5fb2af4ff3e87a44d59d124d66747"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/26d69699-2fae-4693-ac74-cf4858652ccb/cover?territory=IT&md5ChecksumParam=9d56afe3481c505c8dfc8db0b5a6c537"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/26d69699-2fae-4693-ac74-cf4858652ccb/16-9?territory=IT&md5ChecksumParam=b8b2d29685b4f20c598a5a4a4eb2aa06"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/26d69699-2fae-4693-ac74-cf4858652ccb/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=0f2d882fe83aee1364fd3d33fba9fc55"
-              }
-            }
-          ]
-        },
-        "eventId": "411393647",
-        "starttime": "2025-07-05T02:00:00Z",
-        "endtime": "2025-07-05T03:30:00Z",
-        "eventTitle": "Grecia: Stage 5",
-        "eventSynopsis": "Grecia: Stage 5 - Segui le gare del World Rally Championship.",
-        "epgEventTitle": "Grecia: Stage 5",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9103,
-          "logo": "/logo/248skysportmax_Light_Fit.png?checksum=d1c1207f-239f-423d-804a-002b858ab063",
-          "logoPadding": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "logoDark": "/logo/248skysportmax_Dark_Fit.png?checksum=98606d44-ce76-4220-84ba-d3b884e6dbb0",
-          "logoDarkPadding": "/logo/248skysportmax_Dark_Padding.png?checksum=52d443fb-2aa9-46c3-acf2-1aa963db3cb3",
-          "logoLight": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "name": "Sky Sport Max",
-          "description": "Il canale tv che trasmette l'eurolega, la MLB, la NHL e tanto altro. Canale Sky Glass 203.",
-          "number": 205,
-          "servicekey": "248",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "3ba0110a-958b-4839-bc01-bdeb95266737",
-          "contentTitle": "MotoGP Gara: GP Olanda",
-          "episodeNumber": 175,
-          "seasonNumber": 2025,
-          "url": "/sport/motogp/motogp-gara-gp-olanda/3ba0110a-958b-4839-bc01-bdeb95266737",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 24,
-            "name": "Motori"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/3ba0110a-958b-4839-bc01-bdeb95266737/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=48d6c917321336ba2170def880312059"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/3ba0110a-958b-4839-bc01-bdeb95266737/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=48d6c917321336ba2170def880312059"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/3ba0110a-958b-4839-bc01-bdeb95266737/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=1905a2d06f74c8970b0a89c33a6df215"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/3ba0110a-958b-4839-bc01-bdeb95266737/background?territory=IT&md5ChecksumParam=e366c9c5dc7f91e81973362be43d253f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/3ba0110a-958b-4839-bc01-bdeb95266737/cover?territory=IT&md5ChecksumParam=1905a2d06f74c8970b0a89c33a6df215"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/3ba0110a-958b-4839-bc01-bdeb95266737/16-9?territory=IT&md5ChecksumParam=bd4872caff2ffd9cd27cb544971698fe"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/3ba0110a-958b-4839-bc01-bdeb95266737/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=bd4872caff2ffd9cd27cb544971698fe"
-              }
-            }
-          ]
-        },
-        "eventId": "411431203",
-        "starttime": "2025-07-05T04:00:00Z",
-        "endtime": "2025-07-05T04:55:00Z",
-        "eventTitle": "MotoGP Gara: GP Olanda",
-        "eventSynopsis": "Decimo appuntamento del mondiale 2025: al circuito di Assen, in Olanda, si accendono i motori per la gara della MotoGP. Telecronaca di Guido Meda e Mauro Sanchini",
-        "epgEventTitle": "MotoGP Gara: GP Olanda",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9103,
-          "logo": "/logo/248skysportmax_Light_Fit.png?checksum=d1c1207f-239f-423d-804a-002b858ab063",
-          "logoPadding": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "logoDark": "/logo/248skysportmax_Dark_Fit.png?checksum=98606d44-ce76-4220-84ba-d3b884e6dbb0",
-          "logoDarkPadding": "/logo/248skysportmax_Dark_Padding.png?checksum=52d443fb-2aa9-46c3-acf2-1aa963db3cb3",
-          "logoLight": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "name": "Sky Sport Max",
-          "description": "Il canale tv che trasmette l'eurolega, la MLB, la NHL e tanto altro. Canale Sky Glass 203.",
-          "number": 205,
-          "servicekey": "248",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "f4ea430b-4a38-4f9f-ae18-7860bf94a00d",
-          "contentTitle": "Nuova Zelanda - Francia",
-          "episodeNumber": 2,
-          "seasonNumber": 2025,
-          "url": "/sport/rugby-test-match/nuova-zelanda-francia/f4ea430b-4a38-4f9f-ae18-7860bf94a00d",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 51,
-            "name": "Rugby"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/f4ea430b-4a38-4f9f-ae18-7860bf94a00d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=662a8949a0b0b0f386192eeed5f479ea"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f4ea430b-4a38-4f9f-ae18-7860bf94a00d/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=088a0b7cba4c4841ceb94f23dda2169a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f4ea430b-4a38-4f9f-ae18-7860bf94a00d/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=088a0b7cba4c4841ceb94f23dda2169a"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/f4ea430b-4a38-4f9f-ae18-7860bf94a00d/background?territory=IT&md5ChecksumParam=983a44b77422dbb1bc819d56a0a87e6f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/f4ea430b-4a38-4f9f-ae18-7860bf94a00d/cover?territory=IT&md5ChecksumParam=662a8949a0b0b0f386192eeed5f479ea"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/f4ea430b-4a38-4f9f-ae18-7860bf94a00d/16-9?territory=IT&md5ChecksumParam=1a3c07af614489ee1db811fa4ffc0607"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/f4ea430b-4a38-4f9f-ae18-7860bf94a00d/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=1a3c07af614489ee1db811fa4ffc0607"
-              }
-            }
-          ]
-        },
-        "eventId": "411431205",
-        "starttime": "2025-07-05T06:45:00Z",
-        "endtime": "2025-07-05T08:55:00Z",
-        "eventTitle": "Nuova Zelanda - Francia",
-        "eventSynopsis": "Nuova Zelanda - Francia - Il primo di 3 test match tra All Blacks e Francia. I neozelandesi hanno perso gli ultimi 3, tutti giocati a Parigi. Si gioca a Dunedin. Telecronaca Pierantozzi-De Rossi",
-        "epgEventTitle": "Nuova Zelanda - Francia",
-        "programHighlights": "L",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9103,
-          "logo": "/logo/248skysportmax_Light_Fit.png?checksum=d1c1207f-239f-423d-804a-002b858ab063",
-          "logoPadding": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "logoDark": "/logo/248skysportmax_Dark_Fit.png?checksum=98606d44-ce76-4220-84ba-d3b884e6dbb0",
-          "logoDarkPadding": "/logo/248skysportmax_Dark_Padding.png?checksum=52d443fb-2aa9-46c3-acf2-1aa963db3cb3",
-          "logoLight": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "name": "Sky Sport Max",
-          "description": "Il canale tv che trasmette l'eurolega, la MLB, la NHL e tanto altro. Canale Sky Glass 203.",
-          "number": 205,
-          "servicekey": "248",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "14ab1da7-31f3-4ae4-a699-76fb224c570b",
-          "contentTitle": "Agassi Sampras",
-          "episodeNumber": 3,
-          "seasonNumber": 1,
-          "url": "/sport/panatta-and-bertolucci-tennis-heroes/agassi-sampras/14ab1da7-31f3-4ae4-a699-76fb224c570b",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=1f6db7ec8256af5d7bbd771b157670aa"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=39205ce4d20b38d196f06c18760f5142"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=39205ce4d20b38d196f06c18760f5142"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/background?territory=IT&md5ChecksumParam=03fa97f8ea7a07d8379359af52648a10"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/cover?territory=IT&md5ChecksumParam=1f6db7ec8256af5d7bbd771b157670aa"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/16-9?territory=IT&md5ChecksumParam=5745c26103cb7fd69cff8399656c70ce"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/14ab1da7-31f3-4ae4-a699-76fb224c570b/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=5745c26103cb7fd69cff8399656c70ce"
-              }
-            }
-          ]
-        },
-        "eventId": "411431207",
-        "starttime": "2025-07-05T09:15:00Z",
-        "endtime": "2025-07-05T10:00:00Z",
-        "eventTitle": "Panatta & Bertolucci Tennis Heroes",
-        "eventSynopsis": "Agassi Sampras - Panatta & Bertolucci Tennis Heroes",
-        "epgEventTitle": "Panatta & Bertolucci Tennis Heroes",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9103,
-          "logo": "/logo/248skysportmax_Light_Fit.png?checksum=d1c1207f-239f-423d-804a-002b858ab063",
-          "logoPadding": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "logoDark": "/logo/248skysportmax_Dark_Fit.png?checksum=98606d44-ce76-4220-84ba-d3b884e6dbb0",
-          "logoDarkPadding": "/logo/248skysportmax_Dark_Padding.png?checksum=52d443fb-2aa9-46c3-acf2-1aa963db3cb3",
-          "logoLight": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "name": "Sky Sport Max",
-          "description": "Il canale tv che trasmette l'eurolega, la MLB, la NHL e tanto altro. Canale Sky Glass 203.",
-          "number": 205,
-          "servicekey": "248",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "1efcc05c-01cf-48c6-9580-d72b5ff0bce3",
-          "contentTitle": "Padel Premier Tour - Stag. Padel Premier Tour 2025 - Padel Premier Tour 2025 Bordeax P2 Semifinali Sess. Diurna 05/07/2025",
-          "url": "/sport/altri/padel-premier-tour-stag-padel-premier-tour-2025-padel-premier-tour-2025-bordeax-p2-semifinali-sess-diurna-05-07-2025/1efcc05c-01cf-48c6-9580-d72b5ff0bce3",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 31,
-            "name": "Altri"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/1efcc05c-01cf-48c6-9580-d72b5ff0bce3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=a6b41d748da83bf02b9c59cc00bb5b40"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/1efcc05c-01cf-48c6-9580-d72b5ff0bce3/background?territory=IT&md5ChecksumParam=b147eab3fd8cc34a28f68d386ef9da81"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/1efcc05c-01cf-48c6-9580-d72b5ff0bce3/cover?territory=IT&md5ChecksumParam=aa95e38753dd41c6dc44068a02180945"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/1efcc05c-01cf-48c6-9580-d72b5ff0bce3/16-9?territory=IT&md5ChecksumParam=9f3f65fd39bca6938ebfee0bd524e523"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/1efcc05c-01cf-48c6-9580-d72b5ff0bce3/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=9f3f65fd39bca6938ebfee0bd524e523"
-              }
-            }
-          ]
-        },
-        "eventId": "411431208",
-        "starttime": "2025-07-05T10:00:00Z",
-        "endtime": "2025-07-05T14:00:00Z",
-        "eventTitle": "Padel Premier Tour - Stag. Padel Premier Tour 2025 - Padel Premier Tour 2025 Bordeaux P2 Semifinali Sess. Diurna 05/07/2025",
-        "eventSynopsis": "Bordeax P2 Semifinali Sess. Diurna - Padel Premier Tour",
-        "epgEventTitle": "Padel Premier Tour - Stag. Padel Premier Tour 2025 - Padel Premier Tour 2025 Bordeaux P2 Semifinali Sess. Diurna 05/07/2025",
-        "programHighlights": "L",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9103,
-          "logo": "/logo/248skysportmax_Light_Fit.png?checksum=d1c1207f-239f-423d-804a-002b858ab063",
-          "logoPadding": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "logoDark": "/logo/248skysportmax_Dark_Fit.png?checksum=98606d44-ce76-4220-84ba-d3b884e6dbb0",
-          "logoDarkPadding": "/logo/248skysportmax_Dark_Padding.png?checksum=52d443fb-2aa9-46c3-acf2-1aa963db3cb3",
-          "logoLight": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "name": "Sky Sport Max",
-          "description": "Il canale tv che trasmette l'eurolega, la MLB, la NHL e tanto altro. Canale Sky Glass 203.",
-          "number": 205,
-          "servicekey": "248",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "4140bac0-4681-4c36-b7f1-fd8f7dc155f0",
-          "contentTitle": "Ep. 29",
-          "episodeNumber": 29,
-          "seasonNumber": 1,
-          "url": "/sport/this-is-padel/ep-29/4140bac0-4681-4c36-b7f1-fd8f7dc155f0",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 31,
-            "name": "Altri"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/4140bac0-4681-4c36-b7f1-fd8f7dc155f0/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2f11e04856fdabbb3187cb0fde911fe6"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4140bac0-4681-4c36-b7f1-fd8f7dc155f0/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=2f11e04856fdabbb3187cb0fde911fe6"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4140bac0-4681-4c36-b7f1-fd8f7dc155f0/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2f11e04856fdabbb3187cb0fde911fe6"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/4140bac0-4681-4c36-b7f1-fd8f7dc155f0/background?territory=IT&md5ChecksumParam=7542dce554a9327125424d0503a313c4"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/4140bac0-4681-4c36-b7f1-fd8f7dc155f0/cover?territory=IT&md5ChecksumParam=2f11e04856fdabbb3187cb0fde911fe6"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/4140bac0-4681-4c36-b7f1-fd8f7dc155f0/16-9?territory=IT&md5ChecksumParam=17340f04b11a7840089e071e3c8d55bb"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/4140bac0-4681-4c36-b7f1-fd8f7dc155f0/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=17340f04b11a7840089e071e3c8d55bb"
-              }
-            }
-          ]
-        },
-        "eventId": "411431209",
-        "starttime": "2025-07-05T14:00:00Z",
-        "endtime": "2025-07-05T14:30:00Z",
-        "eventTitle": "Ep. 29",
-        "eventSynopsis": "Ep. 29 - I protagonisti, le sfide e gli eventi nazionali e internazionali in collegamento con i circoli di tutta Italia. Gli eventi del padel dilettantistico e le analisi dei materiali tecnici all'avanguardia.",
-        "epgEventTitle": "Ep. 29",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9103,
-          "logo": "/logo/248skysportmax_Light_Fit.png?checksum=d1c1207f-239f-423d-804a-002b858ab063",
-          "logoPadding": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "logoDark": "/logo/248skysportmax_Dark_Fit.png?checksum=98606d44-ce76-4220-84ba-d3b884e6dbb0",
-          "logoDarkPadding": "/logo/248skysportmax_Dark_Padding.png?checksum=52d443fb-2aa9-46c3-acf2-1aa963db3cb3",
-          "logoLight": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "name": "Sky Sport Max",
-          "description": "Il canale tv che trasmette l'eurolega, la MLB, la NHL e tanto altro. Canale Sky Glass 203.",
-          "number": 205,
-          "servicekey": "248",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "f5123118-571a-4335-a736-92e383f2d6b0",
-          "contentTitle": "Ep. 14",
-          "episodeNumber": 14,
-          "seasonNumber": 2024,
-          "url": "/sport/adrenalinix/ep-14/f5123118-571a-4335-a736-92e383f2d6b0",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 31,
-            "name": "Altri"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/f5123118-571a-4335-a736-92e383f2d6b0/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=62c1f2fa1451ef757489e753929d0a1e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f5123118-571a-4335-a736-92e383f2d6b0/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=151a726349bef441ff93c92579c07a23"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f5123118-571a-4335-a736-92e383f2d6b0/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=151a726349bef441ff93c92579c07a23"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/f5123118-571a-4335-a736-92e383f2d6b0/background?territory=IT&md5ChecksumParam=d375df2266175757426060cdbacc147c"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/f5123118-571a-4335-a736-92e383f2d6b0/cover?territory=IT&md5ChecksumParam=62c1f2fa1451ef757489e753929d0a1e"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/f5123118-571a-4335-a736-92e383f2d6b0/16-9?territory=IT&md5ChecksumParam=afee9f885ba2cc6685c664c572076894"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/f5123118-571a-4335-a736-92e383f2d6b0/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=afee9f885ba2cc6685c664c572076894"
-              }
-            }
-          ]
-        },
-        "eventId": "411442492",
-        "starttime": "2025-07-05T14:30:00Z",
-        "endtime": "2025-07-05T14:45:00Z",
-        "eventTitle": "Adrenalinix New X-Generation - Ep. 14 - Adrenalinix 2024 Ep.14 24/06/2025",
-        "eventSynopsis": "Ep. 14 - Una rubrica dedicata agli sport estremi, per conoscere e vivere le discipline piu' adrenaliniche.",
-        "epgEventTitle": "Adrenalinix New X-Generation - Ep. 14 - Adrenalinix 2024 Ep.14 24/06/2025",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9103,
-          "logo": "/logo/248skysportmax_Light_Fit.png?checksum=d1c1207f-239f-423d-804a-002b858ab063",
-          "logoPadding": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "logoDark": "/logo/248skysportmax_Dark_Fit.png?checksum=98606d44-ce76-4220-84ba-d3b884e6dbb0",
-          "logoDarkPadding": "/logo/248skysportmax_Dark_Padding.png?checksum=52d443fb-2aa9-46c3-acf2-1aa963db3cb3",
-          "logoLight": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "name": "Sky Sport Max",
-          "description": "Il canale tv che trasmette l'eurolega, la MLB, la NHL e tanto altro. Canale Sky Glass 203.",
-          "number": 205,
-          "servicekey": "248",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "c59f933b-aa22-44ee-a07f-aaa6c109f1b3",
-          "contentTitle": "Sudafrica - Italia",
-          "episodeNumber": 3,
-          "seasonNumber": 2025,
-          "url": "/sport/rugby-test-match/sudafrica-italia/c59f933b-aa22-44ee-a07f-aaa6c109f1b3",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 51,
-            "name": "Rugby"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f651c5e95787924d5ea60c076e73869b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/background?territory=IT&md5ChecksumParam=b3f7db65c2754e2d0efee313a5817973"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/cover?territory=IT&md5ChecksumParam=f651c5e95787924d5ea60c076e73869b"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/16-9?territory=IT&md5ChecksumParam=b57d5f20b468296afac9c575e4eed187"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=b57d5f20b468296afac9c575e4eed187"
-              }
-            }
-          ]
-        },
-        "eventId": "411431211",
-        "starttime": "2025-07-05T15:00:00Z",
-        "endtime": "2025-07-05T17:10:00Z",
-        "eventTitle": "Sudafrica - Italia",
-        "eventSynopsis": "Sudafrica - Italia - Dopo il largo successo in Namibia per gli azzurri ecco i campioni del mondo del Sudafrica, primi nel ranking. Si gioca a Pretoria. Telecronaca Pierantozzi-Fusetti",
-        "epgEventTitle": "Sudafrica - Italia",
-        "programHighlights": "L",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9103,
-          "logo": "/logo/248skysportmax_Light_Fit.png?checksum=d1c1207f-239f-423d-804a-002b858ab063",
-          "logoPadding": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "logoDark": "/logo/248skysportmax_Dark_Fit.png?checksum=98606d44-ce76-4220-84ba-d3b884e6dbb0",
-          "logoDarkPadding": "/logo/248skysportmax_Dark_Padding.png?checksum=52d443fb-2aa9-46c3-acf2-1aa963db3cb3",
-          "logoLight": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "name": "Sky Sport Max",
-          "description": "Il canale tv che trasmette l'eurolega, la MLB, la NHL e tanto altro. Canale Sky Glass 203.",
-          "number": 205,
-          "servicekey": "248",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "f4ea430b-4a38-4f9f-ae18-7860bf94a00d",
-          "contentTitle": "Nuova Zelanda - Francia",
-          "episodeNumber": 2,
-          "seasonNumber": 2025,
-          "url": "/sport/rugby-test-match/nuova-zelanda-francia/f4ea430b-4a38-4f9f-ae18-7860bf94a00d",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 51,
-            "name": "Rugby"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/f4ea430b-4a38-4f9f-ae18-7860bf94a00d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=662a8949a0b0b0f386192eeed5f479ea"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f4ea430b-4a38-4f9f-ae18-7860bf94a00d/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=088a0b7cba4c4841ceb94f23dda2169a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f4ea430b-4a38-4f9f-ae18-7860bf94a00d/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=088a0b7cba4c4841ceb94f23dda2169a"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/f4ea430b-4a38-4f9f-ae18-7860bf94a00d/background?territory=IT&md5ChecksumParam=983a44b77422dbb1bc819d56a0a87e6f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/f4ea430b-4a38-4f9f-ae18-7860bf94a00d/cover?territory=IT&md5ChecksumParam=662a8949a0b0b0f386192eeed5f479ea"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/f4ea430b-4a38-4f9f-ae18-7860bf94a00d/16-9?territory=IT&md5ChecksumParam=1a3c07af614489ee1db811fa4ffc0607"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/f4ea430b-4a38-4f9f-ae18-7860bf94a00d/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=1a3c07af614489ee1db811fa4ffc0607"
-              }
-            }
-          ]
-        },
-        "eventId": "411431212",
-        "starttime": "2025-07-05T17:10:00Z",
-        "endtime": "2025-07-05T19:00:00Z",
-        "eventTitle": "Nuova Zelanda - Francia",
-        "eventSynopsis": "Nuova Zelanda - Francia - Il primo di 3 test match tra All Blacks e Francia. I neozelandesi hanno perso gli ultimi 3, tutti giocati a Parigi. Si gioca a Dunedin. Telecronaca Pierantozzi-De Rossi",
-        "epgEventTitle": "Nuova Zelanda - Francia",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9103,
-          "logo": "/logo/248skysportmax_Light_Fit.png?checksum=d1c1207f-239f-423d-804a-002b858ab063",
-          "logoPadding": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "logoDark": "/logo/248skysportmax_Dark_Fit.png?checksum=98606d44-ce76-4220-84ba-d3b884e6dbb0",
-          "logoDarkPadding": "/logo/248skysportmax_Dark_Padding.png?checksum=52d443fb-2aa9-46c3-acf2-1aa963db3cb3",
-          "logoLight": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "name": "Sky Sport Max",
-          "description": "Il canale tv che trasmette l'eurolega, la MLB, la NHL e tanto altro. Canale Sky Glass 203.",
-          "number": 205,
-          "servicekey": "248",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "4140bac0-4681-4c36-b7f1-fd8f7dc155f0",
-          "contentTitle": "Ep. 29",
-          "episodeNumber": 29,
-          "seasonNumber": 1,
-          "url": "/sport/this-is-padel/ep-29/4140bac0-4681-4c36-b7f1-fd8f7dc155f0",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 31,
-            "name": "Altri"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/4140bac0-4681-4c36-b7f1-fd8f7dc155f0/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2f11e04856fdabbb3187cb0fde911fe6"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4140bac0-4681-4c36-b7f1-fd8f7dc155f0/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=2f11e04856fdabbb3187cb0fde911fe6"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4140bac0-4681-4c36-b7f1-fd8f7dc155f0/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2f11e04856fdabbb3187cb0fde911fe6"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/4140bac0-4681-4c36-b7f1-fd8f7dc155f0/background?territory=IT&md5ChecksumParam=7542dce554a9327125424d0503a313c4"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/4140bac0-4681-4c36-b7f1-fd8f7dc155f0/cover?territory=IT&md5ChecksumParam=2f11e04856fdabbb3187cb0fde911fe6"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/4140bac0-4681-4c36-b7f1-fd8f7dc155f0/16-9?territory=IT&md5ChecksumParam=17340f04b11a7840089e071e3c8d55bb"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/4140bac0-4681-4c36-b7f1-fd8f7dc155f0/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=17340f04b11a7840089e071e3c8d55bb"
-              }
-            }
-          ]
-        },
-        "eventId": "411431213",
-        "starttime": "2025-07-05T19:15:00Z",
-        "endtime": "2025-07-05T19:45:00Z",
-        "eventTitle": "Ep. 29",
-        "eventSynopsis": "Ep. 29 - I protagonisti, le sfide e gli eventi nazionali e internazionali in collegamento con i circoli di tutta Italia. Gli eventi del padel dilettantistico e le analisi dei materiali tecnici all'avanguardia.",
-        "epgEventTitle": "Ep. 29",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9103,
-          "logo": "/logo/248skysportmax_Light_Fit.png?checksum=d1c1207f-239f-423d-804a-002b858ab063",
-          "logoPadding": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "logoDark": "/logo/248skysportmax_Dark_Fit.png?checksum=98606d44-ce76-4220-84ba-d3b884e6dbb0",
-          "logoDarkPadding": "/logo/248skysportmax_Dark_Padding.png?checksum=52d443fb-2aa9-46c3-acf2-1aa963db3cb3",
-          "logoLight": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "name": "Sky Sport Max",
-          "description": "Il canale tv che trasmette l'eurolega, la MLB, la NHL e tanto altro. Canale Sky Glass 203.",
-          "number": 205,
-          "servicekey": "248",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "3a214a16-0003-47d6-8b05-d6eae61ffe06",
-          "contentTitle": "La musica dei motori, dal palco alla..",
-          "url": "/sport/motori/la-musica-dei-motori-dal-palco-alla/3a214a16-0003-47d6-8b05-d6eae61ffe06",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 24,
-            "name": "Motori"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/3a214a16-0003-47d6-8b05-d6eae61ffe06/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=af37e6b9a78df034efae3d5ace871da4"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/3a214a16-0003-47d6-8b05-d6eae61ffe06/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c126f3d553f51a588d7a16780aacb0c6"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/3a214a16-0003-47d6-8b05-d6eae61ffe06/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=c126f3d553f51a588d7a16780aacb0c6"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/3a214a16-0003-47d6-8b05-d6eae61ffe06/background?territory=IT&md5ChecksumParam=1b68a585585184d9ed772fa4b52d8fbc"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/3a214a16-0003-47d6-8b05-d6eae61ffe06/cover?territory=IT&md5ChecksumParam=af37e6b9a78df034efae3d5ace871da4"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/3a214a16-0003-47d6-8b05-d6eae61ffe06/16-9?territory=IT&md5ChecksumParam=1b68a585585184d9ed772fa4b52d8fbc"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/3a214a16-0003-47d6-8b05-d6eae61ffe06/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=d6f9d6067feaf42479351b30f281b1e5"
-              }
-            }
-          ]
-        },
-        "eventId": "411431214",
-        "starttime": "2025-07-05T19:45:00Z",
-        "endtime": "2025-07-05T20:00:00Z",
-        "eventTitle": "La musica dei motori, dal palco alla..",
-        "eventSynopsis": "...pista - La musica dei motori, dal palco alla pista",
-        "epgEventTitle": "La musica dei motori, dal palco alla..",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9103,
-          "logo": "/logo/248skysportmax_Light_Fit.png?checksum=d1c1207f-239f-423d-804a-002b858ab063",
-          "logoPadding": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "logoDark": "/logo/248skysportmax_Dark_Fit.png?checksum=98606d44-ce76-4220-84ba-d3b884e6dbb0",
-          "logoDarkPadding": "/logo/248skysportmax_Dark_Padding.png?checksum=52d443fb-2aa9-46c3-acf2-1aa963db3cb3",
-          "logoLight": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "name": "Sky Sport Max",
-          "description": "Il canale tv che trasmette l'eurolega, la MLB, la NHL e tanto altro. Canale Sky Glass 203.",
-          "number": 205,
-          "servicekey": "248",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "cbe9643f-22ef-4270-b941-e68ec49a1232",
-          "contentTitle": "Eugene",
-          "episodeNumber": 9,
-          "seasonNumber": 2025,
-          "url": "/sport/iaaf-diamond-league/eugene/cbe9643f-22ef-4270-b941-e68ec49a1232",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 67,
-            "name": "Atletica"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/cbe9643f-22ef-4270-b941-e68ec49a1232/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4f144394e22980c4f0c43e22b1f5fe9a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/cbe9643f-22ef-4270-b941-e68ec49a1232/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4f144394e22980c4f0c43e22b1f5fe9a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/cbe9643f-22ef-4270-b941-e68ec49a1232/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=4f144394e22980c4f0c43e22b1f5fe9a"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/cbe9643f-22ef-4270-b941-e68ec49a1232/background?territory=IT&md5ChecksumParam=f0884a8e02f44ae486aa9acdfd3baac1"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/cbe9643f-22ef-4270-b941-e68ec49a1232/cover?territory=IT&md5ChecksumParam=4f144394e22980c4f0c43e22b1f5fe9a"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/cbe9643f-22ef-4270-b941-e68ec49a1232/16-9?territory=IT&md5ChecksumParam=78baa89999dac7ce4becf866048e7ed6"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/cbe9643f-22ef-4270-b941-e68ec49a1232/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=78baa89999dac7ce4becf866048e7ed6"
-              }
-            }
-          ]
-        },
-        "eventId": "411431215",
-        "starttime": "2025-07-05T20:00:00Z",
-        "endtime": "2025-07-05T22:00:00Z",
-        "eventTitle": "Eugene",
-        "eventSynopsis": "Eugene - Da Eugene, Stati Uniti.",
-        "epgEventTitle": "Eugene",
-        "programHighlights": "L",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9103,
-          "logo": "/logo/248skysportmax_Light_Fit.png?checksum=d1c1207f-239f-423d-804a-002b858ab063",
-          "logoPadding": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "logoDark": "/logo/248skysportmax_Dark_Fit.png?checksum=98606d44-ce76-4220-84ba-d3b884e6dbb0",
-          "logoDarkPadding": "/logo/248skysportmax_Dark_Padding.png?checksum=52d443fb-2aa9-46c3-acf2-1aa963db3cb3",
-          "logoLight": "/logo/248skysportmax_Light_Padding.png?checksum=c023cb9d-fb4f-4f85-88b3-2cfa659911c1",
-          "name": "Sky Sport Max",
-          "description": "Il canale tv che trasmette l'eurolega, la MLB, la NHL e tanto altro. Canale Sky Glass 203.",
-          "number": 205,
-          "servicekey": "248",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "c59f933b-aa22-44ee-a07f-aaa6c109f1b3",
-          "contentTitle": "Sudafrica - Italia",
-          "episodeNumber": 3,
-          "seasonNumber": 2025,
-          "url": "/sport/rugby-test-match/sudafrica-italia/c59f933b-aa22-44ee-a07f-aaa6c109f1b3",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 51,
-            "name": "Rugby"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f651c5e95787924d5ea60c076e73869b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/background?territory=IT&md5ChecksumParam=b3f7db65c2754e2d0efee313a5817973"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/cover?territory=IT&md5ChecksumParam=f651c5e95787924d5ea60c076e73869b"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/16-9?territory=IT&md5ChecksumParam=b57d5f20b468296afac9c575e4eed187"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=b57d5f20b468296afac9c575e4eed187"
-              }
-            }
-          ]
-        },
-        "eventId": "411431216",
-        "starttime": "2025-07-05T22:00:00Z",
-        "endtime": "2025-07-06T00:00:00Z",
-        "eventTitle": "Sudafrica - Italia",
-        "eventSynopsis": "Sudafrica - Italia - Dopo il largo successo in Namibia per gli azzurri ecco i campioni del mondo del Sudafrica, primi nel ranking. Si gioca a Pretoria. Telecronaca Pierantozzi-Fusetti",
-        "epgEventTitle": "Sudafrica - Italia",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
     "2025-07-06": [
       {
         "channel": {
@@ -1334,17 +124,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/7b43ddf8-7d31-448a-87b8-e389494d9358/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=a20d0c6057614bb895a650b1923440cb"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/7b43ddf8-7d31-448a-87b8-e389494d9358/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=a20d0c6057614bb895a650b1923440cb"
               }
             },
             {
               "img": {
                 "url": "/uuid/7b43ddf8-7d31-448a-87b8-e389494d9358/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=dbcf735c4929b862d180dabc2a249d11"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/7b43ddf8-7d31-448a-87b8-e389494d9358/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=a20d0c6057614bb895a650b1923440cb"
               }
             },
             {
@@ -1508,17 +298,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/361f212f-fe36-4a15-9ee7-c7bac241788e/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=c4d8886d4d59ef9dbee2b88ef282d763"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/361f212f-fe36-4a15-9ee7-c7bac241788e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2ad9c03be70ee0005fab075a814a41ac"
               }
             },
             {
               "img": {
                 "url": "/uuid/361f212f-fe36-4a15-9ee7-c7bac241788e/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c4d8886d4d59ef9dbee2b88ef282d763"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/361f212f-fe36-4a15-9ee7-c7bac241788e/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=c4d8886d4d59ef9dbee2b88ef282d763"
               }
             },
             {
@@ -2225,9 +1015,9 @@
         "eventId": "411438460",
         "starttime": "2025-07-06T12:00:00Z",
         "endtime": "2025-07-06T14:00:00Z",
-        "eventTitle": "Padel Premier Tour - Stag. Padel Premier Tour 2025 - Padel Premier Tour 2025 Bordeaux P2 Finale Femminile 06/07/2025",
-        "eventSynopsis": "Bordeax P2 Finale Femminile - Padel Premier Tour",
-        "epgEventTitle": "Padel Premier Tour - Stag. Padel Premier Tour 2025 - Padel Premier Tour 2025 Bordeaux P2 Finale Femminile 06/07/2025",
+        "eventTitle": "Bordeaux P2 Finale Femminile",
+        "eventSynopsis": "Bordeaux P2 Finale Femminile - Seguiamo le gare del Premier Padel Major.",
+        "epgEventTitle": "Bordeaux P2 Finale Femminile",
         "programHighlights": "L",
         "primeVision": false,
         "resolutions": [
@@ -2301,9 +1091,9 @@
         "eventId": "411438461",
         "starttime": "2025-07-06T14:00:00Z",
         "endtime": "2025-07-06T15:00:00Z",
-        "eventTitle": "Padel Premier Tour - Stag. Padel Premier Tour 2025 - Padel Premier Tour 2025 Bordeaux P2 Finale Maschile 06/07/2025",
-        "eventSynopsis": "Bordeax P2 Finale Maschile - Padel Premier Tour",
-        "epgEventTitle": "Padel Premier Tour - Stag. Padel Premier Tour 2025 - Padel Premier Tour 2025 Bordeaux P2 Finale Maschile 06/07/2025",
+        "eventTitle": "Bordeaux P2 Finale Maschile",
+        "eventSynopsis": "Bordeaux P2 Finale Maschile - Seguiamo le gare del Premier Padel Major.",
+        "epgEventTitle": "Bordeaux P2 Finale Maschile",
         "programHighlights": "L",
         "primeVision": false,
         "resolutions": [
@@ -2553,7 +1343,7 @@
         "starttime": "2025-07-06T17:30:00Z",
         "endtime": "2025-07-06T21:00:00Z",
         "eventTitle": "Baseball Mlb - Ep. 30 - Baseball Mlb 2025 Ny Mets/ Ny Yankees 06/07/2025",
-        "eventSynopsis": "Mlb - Baseball: Ny Mets - Ny Yankees",
+        "eventSynopsis": "Mlb - Il derby di New York arriva in un momento importante. Gli Yankees sono in crisi di risultati, i Mets sono piu' carichi. Tc Gatti-Freri",
         "epgEventTitle": "Baseball Mlb - Ep. 30 - Baseball Mlb 2025 Ny Mets/ Ny Yankees 06/07/2025",
         "programHighlights": "L",
         "primeVision": false,
@@ -2859,12 +1649,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/4547634b-4275-40e9-bf65-4dc84af68d4e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c8a37c2c7c5df6555fa81e79eacbb351"
+                "url": "/uuid/4547634b-4275-40e9-bf65-4dc84af68d4e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c8a37c2c7c5df6555fa81e79eacbb351"
               }
             },
             {
               "img": {
-                "url": "/uuid/4547634b-4275-40e9-bf65-4dc84af68d4e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c8a37c2c7c5df6555fa81e79eacbb351"
+                "url": "/uuid/4547634b-4275-40e9-bf65-4dc84af68d4e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c8a37c2c7c5df6555fa81e79eacbb351"
               }
             },
             {
@@ -3385,12 +2175,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
+                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
               }
             },
             {
               "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
+                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
               }
             },
             {
@@ -4403,17 +3193,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/1e6f7c5b-f011-4117-b247-df1530a9f4c7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4ccc34f1609c2afbbdc12a059b9e8685"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/1e6f7c5b-f011-4117-b247-df1530a9f4c7/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=0558ac729d0406dc95c0ea5adc31d43c"
               }
             },
             {
               "img": {
                 "url": "/uuid/1e6f7c5b-f011-4117-b247-df1530a9f4c7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=0558ac729d0406dc95c0ea5adc31d43c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/1e6f7c5b-f011-4117-b247-df1530a9f4c7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4ccc34f1609c2afbbdc12a059b9e8685"
               }
             },
             {
@@ -5130,7 +3920,7 @@
         "starttime": "2025-07-08T09:00:00Z",
         "endtime": "2025-07-08T11:00:00Z",
         "eventTitle": "Inghilterra - Sudafrica",
-        "eventSynopsis": "Inghilterra - Sudafrica - 2a giornata del mondiale per i nati dal 2005 in avanti. Siamo nella Pool A: Inghilterra e Sudafrica punti 5,  Scozia e Australia 0. Telecronaca Federico Fusetti-Pippo Frati",
+        "eventSynopsis": "Inghilterra - Sudafrica - Le partite del Campionato del Mondo U20 di rugby.",
         "epgEventTitle": "Inghilterra - Sudafrica",
         "primeVision": false,
         "resolutions": [
@@ -5602,12 +4392,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
+                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
               }
             },
             {
               "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
+                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
               }
             },
             {
@@ -5640,7 +4430,7 @@
         "starttime": "2025-07-08T16:30:00Z",
         "endtime": "2025-07-08T18:30:00Z",
         "eventTitle": "Sudafrica - Italia",
-        "eventSynopsis": "Sudafrica - Italia - Dopo il largo successo in Namibia per gli azzurri ecco i campioni del mondo del Sudafrica, primi nel ranking. Si gioca a Pretoria. Telecronaca Pierantozzi-Fusetti",
+        "eventSynopsis": "Sudafrica - Italia - Dallo Loftus Versfeld Stadium di Pretoria, Sudafrica.",
         "epgEventTitle": "Sudafrica - Italia",
         "primeVision": false,
         "resolutions": [
@@ -6984,7 +5774,7 @@
         "starttime": "2025-07-09T16:00:00Z",
         "endtime": "2025-07-09T18:00:00Z",
         "eventTitle": "World Rugby Championship - Ep. 8 - Rugby World Rugby U20 Championship Nuova Zelanda/ Irlanda 09/07/2025",
-        "eventSynopsis": "U20 Championship - World Rugby Championship",
+        "eventSynopsis": "Nuova Zelanda - Irlanda - Le partite del Campionato del Mondo U20 di rugby.",
         "epgEventTitle": "World Rugby Championship - Ep. 8 - Rugby World Rugby U20 Championship Nuova Zelanda/ Irlanda 09/07/2025",
         "programHighlights": "L",
         "primeVision": false,
@@ -7532,17 +6322,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/7b43ddf8-7d31-448a-87b8-e389494d9358/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=a20d0c6057614bb895a650b1923440cb"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/7b43ddf8-7d31-448a-87b8-e389494d9358/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=a20d0c6057614bb895a650b1923440cb"
               }
             },
             {
               "img": {
                 "url": "/uuid/7b43ddf8-7d31-448a-87b8-e389494d9358/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=dbcf735c4929b862d180dabc2a249d11"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/7b43ddf8-7d31-448a-87b8-e389494d9358/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=a20d0c6057614bb895a650b1923440cb"
               }
             },
             {
@@ -9384,17 +8174,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/8a0b2222-82dd-409f-85e9-cdba29ff7aa6/COVER_TITLE_TALL?territory=IT&version=0461791c-c023-33c0-9f87-424d6dcf33f9&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=1c121cecb1afa163f8e7c5296c11a748"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/8a0b2222-82dd-409f-85e9-cdba29ff7aa6/COVER_CLEAN_TALL?territory=IT&version=86ae9496-5578-3062-8c80-3180b84778f6&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=d9538fd5ebea274d0792486a40fb8d39"
               }
             },
             {
               "img": {
                 "url": "/uuid/8a0b2222-82dd-409f-85e9-cdba29ff7aa6/COVER_CLEAN_TALL?territory=IT&version=86ae9496-5578-3062-8c80-3180b84778f6&w=600&h=800&md5ChecksumParam=d9538fd5ebea274d0792486a40fb8d39"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/8a0b2222-82dd-409f-85e9-cdba29ff7aa6/COVER_TITLE_TALL?territory=IT&version=0461791c-c023-33c0-9f87-424d6dcf33f9&w=600&h=800&w=600&h=800&crop=534:800;33,0&md5ChecksumParam=1c121cecb1afa163f8e7c5296c11a748"
               }
             },
             {
@@ -9674,9 +8464,9 @@
         "eventId": "411490850",
         "starttime": "2025-07-11T09:15:00Z",
         "endtime": "2025-07-11T10:15:00Z",
-        "eventTitle": "Motori World Superbike",
+        "eventTitle": "Motori World Superbike - Ep. 67 - Motori World Superbike 2025 Round 7 Gran Bretagna - World Sbk Fp1 11/07/2025",
         "eventSynopsis": "Round 7 Gran Bretagna - Motori World Superbike",
-        "epgEventTitle": "Motori World Superbike",
+        "epgEventTitle": "Motori World Superbike - Ep. 67 - Motori World Superbike 2025 Round 7 Gran Bretagna - World Sbk Fp1 11/07/2025",
         "programHighlights": "L",
         "primeVision": false,
         "resolutions": [
@@ -10320,9 +9110,9 @@
         "eventId": "411490858",
         "starttime": "2025-07-11T14:55:00Z",
         "endtime": "2025-07-11T15:45:00Z",
-        "eventTitle": "Motori World Superbike",
+        "eventTitle": "Motori World Superbike - Ep. 69 - Motori World Superbike 2025 Round 7 Gran Bretagna - World Ssp Superpole 11/07/2025",
         "eventSynopsis": "Round 7 Gran Bretagna - Motori World Superbike",
-        "epgEventTitle": "Motori World Superbike",
+        "epgEventTitle": "Motori World Superbike - Ep. 69 - Motori World Superbike 2025 Round 7 Gran Bretagna - World Ssp Superpole 11/07/2025",
         "programHighlights": "L",
         "primeVision": false,
         "resolutions": [
@@ -10622,12 +9412,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
+                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
               }
             },
             {
               "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
+                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
               }
             },
             {
@@ -11042,17 +9832,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/2b0cfffe-7303-47b6-be1d-723a491e60eb/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7981f97770c68c44195c89d1b47f0dbc"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/2b0cfffe-7303-47b6-be1d-723a491e60eb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e4b6c73b42e88eef46d1c49a2837bd54"
               }
             },
             {
               "img": {
                 "url": "/uuid/2b0cfffe-7303-47b6-be1d-723a491e60eb/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=7981f97770c68c44195c89d1b47f0dbc"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/2b0cfffe-7303-47b6-be1d-723a491e60eb/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7981f97770c68c44195c89d1b47f0dbc"
               }
             },
             {
@@ -11134,12 +9924,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
+                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
               }
             },
             {
               "img": {
-                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
+                "url": "/uuid/c59f933b-aa22-44ee-a07f-aaa6c109f1b3/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=6f0892bb6a7caf04990f165e437a39f1"
               }
             },
             {
@@ -12099,8 +10889,10 @@
         },
         "content": {
           "uuid": "cb53496b-2689-4f48-8ef6-9ad17a496e8d",
-          "contentTitle": "Federico Buffa Talks - Stag. Federico Buffa Talks - Federico Buffa Talks - Federica Pellegrini 11/07/2025",
-          "url": "/sport/altri/federico-buffa-talks-stag-federico-buffa-talks-federico-buffa-talks-federica-pellegrini-11-07-2025/cb53496b-2689-4f48-8ef6-9ad17a496e8d",
+          "contentTitle": "Federica Pellegrini",
+          "episodeNumber": 27,
+          "seasonNumber": 1,
+          "url": "/sport/federico-buffa-talks/federica-pellegrini/cb53496b-2689-4f48-8ef6-9ad17a496e8d",
           "genre": {
             "id": 2,
             "name": "Sport"
@@ -12111,27 +10903,42 @@
           },
           "imagesMap": [
             {
-              "key": "cover",
               "img": {
-                "url": "/uuid/SportCalcio_Cover_JgZRMKTlp.png"
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=23baff345b1d763a43212d5e42b726d7"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ecc4c7b6244db16d27e43e97d895c493"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ecc4c7b6244db16d27e43e97d895c493"
               }
             },
             {
               "key": "background",
               "img": {
-                "url": "/uuid/SportCalcio_Background_u6JP1797W.png"
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/background?territory=IT&md5ChecksumParam=16ae41ca7325718647267345d3c51c3a"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/cover?territory=IT&md5ChecksumParam=23baff345b1d763a43212d5e42b726d7"
               }
             },
             {
               "key": "scene",
               "img": {
-                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/16-9?territory=IT&md5ChecksumParam=70f4d8265537ed433e07e34acb0bc4df"
               }
             },
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=5d985c215435c9f6158fb401f8bb3e16"
               }
             }
           ]
@@ -12755,8 +11562,10 @@
         },
         "content": {
           "uuid": "cb53496b-2689-4f48-8ef6-9ad17a496e8d",
-          "contentTitle": "Federico Buffa Talks - Stag. Federico Buffa Talks - Federico Buffa Talks - Federica Pellegrini 11/07/2025",
-          "url": "/sport/altri/federico-buffa-talks-stag-federico-buffa-talks-federico-buffa-talks-federica-pellegrini-11-07-2025/cb53496b-2689-4f48-8ef6-9ad17a496e8d",
+          "contentTitle": "Federica Pellegrini",
+          "episodeNumber": 27,
+          "seasonNumber": 1,
+          "url": "/sport/federico-buffa-talks/federica-pellegrini/cb53496b-2689-4f48-8ef6-9ad17a496e8d",
           "genre": {
             "id": 2,
             "name": "Sport"
@@ -12767,27 +11576,42 @@
           },
           "imagesMap": [
             {
-              "key": "cover",
               "img": {
-                "url": "/uuid/SportCalcio_Cover_JgZRMKTlp.png"
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=23baff345b1d763a43212d5e42b726d7"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ecc4c7b6244db16d27e43e97d895c493"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ecc4c7b6244db16d27e43e97d895c493"
               }
             },
             {
               "key": "background",
               "img": {
-                "url": "/uuid/SportCalcio_Background_u6JP1797W.png"
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/background?territory=IT&md5ChecksumParam=16ae41ca7325718647267345d3c51c3a"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/cover?territory=IT&md5ChecksumParam=23baff345b1d763a43212d5e42b726d7"
               }
             },
             {
               "key": "scene",
               "img": {
-                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/16-9?territory=IT&md5ChecksumParam=70f4d8265537ed433e07e34acb0bc4df"
               }
             },
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=5d985c215435c9f6158fb401f8bb3e16"
               }
             }
           ]
@@ -13709,8 +12533,10 @@
         },
         "content": {
           "uuid": "cb53496b-2689-4f48-8ef6-9ad17a496e8d",
-          "contentTitle": "Federico Buffa Talks - Stag. Federico Buffa Talks - Federico Buffa Talks - Federica Pellegrini 11/07/2025",
-          "url": "/sport/altri/federico-buffa-talks-stag-federico-buffa-talks-federico-buffa-talks-federica-pellegrini-11-07-2025/cb53496b-2689-4f48-8ef6-9ad17a496e8d",
+          "contentTitle": "Federica Pellegrini",
+          "episodeNumber": 27,
+          "seasonNumber": 1,
+          "url": "/sport/federico-buffa-talks/federica-pellegrini/cb53496b-2689-4f48-8ef6-9ad17a496e8d",
           "genre": {
             "id": 2,
             "name": "Sport"
@@ -13721,27 +12547,42 @@
           },
           "imagesMap": [
             {
-              "key": "cover",
               "img": {
-                "url": "/uuid/SportCalcio_Cover_JgZRMKTlp.png"
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=23baff345b1d763a43212d5e42b726d7"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ecc4c7b6244db16d27e43e97d895c493"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ecc4c7b6244db16d27e43e97d895c493"
               }
             },
             {
               "key": "background",
               "img": {
-                "url": "/uuid/SportCalcio_Background_u6JP1797W.png"
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/background?territory=IT&md5ChecksumParam=16ae41ca7325718647267345d3c51c3a"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/cover?territory=IT&md5ChecksumParam=23baff345b1d763a43212d5e42b726d7"
               }
             },
             {
               "key": "scene",
               "img": {
-                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/16-9?territory=IT&md5ChecksumParam=70f4d8265537ed433e07e34acb0bc4df"
               }
             },
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=5d985c215435c9f6158fb401f8bb3e16"
               }
             }
           ]
@@ -13854,8 +12695,10 @@
         },
         "content": {
           "uuid": "cb53496b-2689-4f48-8ef6-9ad17a496e8d",
-          "contentTitle": "Federico Buffa Talks - Stag. Federico Buffa Talks - Federico Buffa Talks - Federica Pellegrini 11/07/2025",
-          "url": "/sport/altri/federico-buffa-talks-stag-federico-buffa-talks-federico-buffa-talks-federica-pellegrini-11-07-2025/cb53496b-2689-4f48-8ef6-9ad17a496e8d",
+          "contentTitle": "Federica Pellegrini",
+          "episodeNumber": 27,
+          "seasonNumber": 1,
+          "url": "/sport/federico-buffa-talks/federica-pellegrini/cb53496b-2689-4f48-8ef6-9ad17a496e8d",
           "genre": {
             "id": 2,
             "name": "Sport"
@@ -13866,27 +12709,42 @@
           },
           "imagesMap": [
             {
-              "key": "cover",
               "img": {
-                "url": "/uuid/SportCalcio_Cover_JgZRMKTlp.png"
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=23baff345b1d763a43212d5e42b726d7"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ecc4c7b6244db16d27e43e97d895c493"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ecc4c7b6244db16d27e43e97d895c493"
               }
             },
             {
               "key": "background",
               "img": {
-                "url": "/uuid/SportCalcio_Background_u6JP1797W.png"
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/background?territory=IT&md5ChecksumParam=16ae41ca7325718647267345d3c51c3a"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/cover?territory=IT&md5ChecksumParam=23baff345b1d763a43212d5e42b726d7"
               }
             },
             {
               "key": "scene",
               "img": {
-                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/16-9?territory=IT&md5ChecksumParam=70f4d8265537ed433e07e34acb0bc4df"
               }
             },
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
+                "url": "/uuid/cb53496b-2689-4f48-8ef6-9ad17a496e8d/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=5d985c215435c9f6158fb401f8bb3e16"
               }
             }
           ]
@@ -13939,17 +12797,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/6ecaedb2-512b-4bbb-a3ee-114ecfdec24f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fd3d8a211c33346e026614a4a9e61a23"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/6ecaedb2-512b-4bbb-a3ee-114ecfdec24f/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fd3d8a211c33346e026614a4a9e61a23"
               }
             },
             {
               "img": {
                 "url": "/uuid/6ecaedb2-512b-4bbb-a3ee-114ecfdec24f/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=fd3d8a211c33346e026614a4a9e61a23"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6ecaedb2-512b-4bbb-a3ee-114ecfdec24f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fd3d8a211c33346e026614a4a9e61a23"
               }
             },
             {
