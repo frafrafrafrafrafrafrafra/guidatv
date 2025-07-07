@@ -1,1284 +1,6 @@
 {
   "name": "Sky Sport 4K",
   "events_by_date": {
-    "2025-07-06": [
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "4e902110-0918-4715-b05d-4d7f74a66a31",
-          "contentTitle": "GP Gran Bretagna: Qualifiche",
-          "episodeNumber": 59,
-          "seasonNumber": 2025,
-          "url": "/sport/f1/gp-gran-bretagna-qualifiche/4e902110-0918-4715-b05d-4d7f74a66a31",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 24,
-            "name": "Motori"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0d7132e0714f9fd6eff2a9b8576329ba"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=0d7132e0714f9fd6eff2a9b8576329ba"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=0d7132e0714f9fd6eff2a9b8576329ba"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/background?territory=IT&md5ChecksumParam=b081668d23dd93da45cbc9816d2fa38f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/cover?territory=IT&md5ChecksumParam=0d7132e0714f9fd6eff2a9b8576329ba"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/16-9?territory=IT&md5ChecksumParam=d14aa64001886c411cc394a7e406f20b"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=121551e353a3463e783582ccd43c956d"
-              }
-            }
-          ]
-        },
-        "eventId": "411337143",
-        "starttime": "2025-07-06T00:20:00Z",
-        "endtime": "2025-07-06T01:45:00Z",
-        "eventTitle": "GP Gran Bretagna: Qualifiche",
-        "eventSynopsis": "Dal Circuito di Silverstone, Towcester, Inghilterra.",
-        "epgEventTitle": "GP Gran Bretagna: Qualifiche",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "fc9d442b-0ba6-482b-b918-d7fb41e2ea8c",
-          "contentTitle": "Review Of The Season",
-          "episodeNumber": 38,
-          "seasonNumber": 2024,
-          "url": "/sport/uefa-champions-league-magazine/review-of-the-season/fc9d442b-0ba6-482b-b918-d7fb41e2ea8c",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 10,
-            "name": "Calcio"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/fc9d442b-0ba6-482b-b918-d7fb41e2ea8c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6dfa18506325a60c6147560e4679a547"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/fc9d442b-0ba6-482b-b918-d7fb41e2ea8c/background?territory=IT&md5ChecksumParam=468db6fa5b9250a1ea639ac8cc68f67f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/fc9d442b-0ba6-482b-b918-d7fb41e2ea8c/cover?territory=IT&md5ChecksumParam=c7cc369e8c46c8ccbb1bee370539a77d"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/fc9d442b-0ba6-482b-b918-d7fb41e2ea8c/16-9?territory=IT&md5ChecksumParam=a9a91c8c07dc83d6562ea4d76bdcd0fc"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/fc9d442b-0ba6-482b-b918-d7fb41e2ea8c/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=a9a91c8c07dc83d6562ea4d76bdcd0fc"
-              }
-            }
-          ]
-        },
-        "eventId": "411337144",
-        "starttime": "2025-07-06T01:45:00Z",
-        "endtime": "2025-07-06T02:40:00Z",
-        "eventTitle": "Review Of The Season",
-        "eventSynopsis": "Ep38 Review Of The Season - Le immagini dei grandi match con i gol e le interviste ai protagonisti del presente e del passato. E le piu' belle storie di questa prestigiosissima competizione continentale.",
-        "epgEventTitle": "Review Of The Season",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "0bdedfe9-0c7d-4b52-825c-d7668335d62c",
-          "contentTitle": "Venezia - Juventus (diretta)",
-          "episodeNumber": 121,
-          "seasonNumber": 2024,
-          "url": "/sport/serie-a/venezia-juventus-diretta/0bdedfe9-0c7d-4b52-825c-d7668335d62c",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 10,
-            "name": "Calcio"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/background?territory=IT&md5ChecksumParam=207d8d48ffc62a1728751fe44d2bb4d8"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/cover?territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/16-9?territory=IT&md5ChecksumParam=c8d8b87845af59eebeb5fd690ac87c41"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=c8d8b87845af59eebeb5fd690ac87c41"
-              }
-            }
-          ]
-        },
-        "eventId": "411337145",
-        "starttime": "2025-07-06T02:40:00Z",
-        "endtime": "2025-07-06T03:05:00Z",
-        "eventTitle": "Venezia - Juventus",
-        "eventSynopsis": "Serie A 38a giornata - Veneti sempre penultimi dopo il ko di Cagliari (3-0). Juve per difendere il quarto posto. Imbattuta a Venezia nelle ultime 6 sfide di A, 4 vittorie e 2 pari. TC: Zancan-Marocchi",
-        "epgEventTitle": "Venezia - Juventus",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "53116e67-4dcc-4cd1-a9a8-c95683168b5e",
-          "contentTitle": "Review of the Season",
-          "episodeNumber": 22,
-          "seasonNumber": 2024,
-          "url": "/sport/uefa-europa-e-conference-league-magazine/review-of-the-season/53116e67-4dcc-4cd1-a9a8-c95683168b5e",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 10,
-            "name": "Calcio"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/53116e67-4dcc-4cd1-a9a8-c95683168b5e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=341c6e9d71245e6fd806d386ca42660f"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/53116e67-4dcc-4cd1-a9a8-c95683168b5e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=341c6e9d71245e6fd806d386ca42660f"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/53116e67-4dcc-4cd1-a9a8-c95683168b5e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=341c6e9d71245e6fd806d386ca42660f"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/53116e67-4dcc-4cd1-a9a8-c95683168b5e/background?territory=IT&md5ChecksumParam=7ad5c7762f2fb871265da962963df5e3"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/53116e67-4dcc-4cd1-a9a8-c95683168b5e/cover?territory=IT&md5ChecksumParam=341c6e9d71245e6fd806d386ca42660f"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/53116e67-4dcc-4cd1-a9a8-c95683168b5e/16-9?territory=IT&md5ChecksumParam=85437219ad7c5f9952de4a61c21c4192"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/53116e67-4dcc-4cd1-a9a8-c95683168b5e/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=85437219ad7c5f9952de4a61c21c4192"
-              }
-            }
-          ]
-        },
-        "eventId": "411337146",
-        "starttime": "2025-07-06T03:05:00Z",
-        "endtime": "2025-07-06T04:00:00Z",
-        "eventTitle": "Ep. 22 Review of the Season",
-        "eventSynopsis": "Ep22 Review of the Season - Appuntamento con le Coppe Europee. Curiosita', immagini e anticipazioni.",
-        "epgEventTitle": "Ep. 22 Review of the Season",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "a2bc90c8-3601-46d3-9695-2d7f57a90f7e",
-          "contentTitle": "Borussia Dortmund - Real Madrid",
-          "episodeNumber": 136,
-          "seasonNumber": 2023,
-          "url": "/sport/uefa-champions-league/borussia-dortmund-real-madrid/a2bc90c8-3601-46d3-9695-2d7f57a90f7e",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 10,
-            "name": "Calcio"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/a2bc90c8-3601-46d3-9695-2d7f57a90f7e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7b3bb22dc2c4a68adb905194bc88aeb3"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/a2bc90c8-3601-46d3-9695-2d7f57a90f7e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c81a94eac67ff9d7e1ba682b806827f8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/a2bc90c8-3601-46d3-9695-2d7f57a90f7e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c81a94eac67ff9d7e1ba682b806827f8"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/a2bc90c8-3601-46d3-9695-2d7f57a90f7e/background?territory=IT&md5ChecksumParam=89330defe57f5e9a75b6e60d83ff3bde"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/a2bc90c8-3601-46d3-9695-2d7f57a90f7e/cover?territory=IT&md5ChecksumParam=7b3bb22dc2c4a68adb905194bc88aeb3"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/a2bc90c8-3601-46d3-9695-2d7f57a90f7e/16-9?territory=IT&md5ChecksumParam=842f6a6e3c093aa1eba31b5c499f355d"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/a2bc90c8-3601-46d3-9695-2d7f57a90f7e/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=842f6a6e3c093aa1eba31b5c499f355d"
-              }
-            }
-          ]
-        },
-        "eventId": "411337104",
-        "starttime": "2025-07-06T04:00:00Z",
-        "endtime": "2025-07-06T05:45:00Z",
-        "eventTitle": "Borussia Dortmund - Real Madrid",
-        "eventSynopsis": "UEFA Champions League, Finale - Tedeschi alla terza finale di UCL: una vinta nel 1997 e una persa nel 2013. Real alla sesta in 11 stagioni con 5 vittorie. Ha vinto gli ultimi 2 precedenti. TC: Zancan-Marchegiani.",
-        "epgEventTitle": "Borussia Dortmund - Real Madrid",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "4e902110-0918-4715-b05d-4d7f74a66a31",
-          "contentTitle": "GP Gran Bretagna: Qualifiche",
-          "episodeNumber": 59,
-          "seasonNumber": 2025,
-          "url": "/sport/f1/gp-gran-bretagna-qualifiche/4e902110-0918-4715-b05d-4d7f74a66a31",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 24,
-            "name": "Motori"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0d7132e0714f9fd6eff2a9b8576329ba"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=0d7132e0714f9fd6eff2a9b8576329ba"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=0d7132e0714f9fd6eff2a9b8576329ba"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/background?territory=IT&md5ChecksumParam=b081668d23dd93da45cbc9816d2fa38f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/cover?territory=IT&md5ChecksumParam=0d7132e0714f9fd6eff2a9b8576329ba"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/16-9?territory=IT&md5ChecksumParam=d14aa64001886c411cc394a7e406f20b"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=121551e353a3463e783582ccd43c956d"
-              }
-            }
-          ]
-        },
-        "eventId": "411337105",
-        "starttime": "2025-07-06T05:45:00Z",
-        "endtime": "2025-07-06T07:15:00Z",
-        "eventTitle": "GP Gran Bretagna: Qualifiche",
-        "eventSynopsis": "GP Gran Bretagna: Qualifiche - Dal Circuito di Silverstone, Towcester, Inghilterra.",
-        "epgEventTitle": "GP Gran Bretagna: Qualifiche",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "33b1c626-0d4e-49ce-9421-770eecddb7f3",
-          "contentTitle": "Milan - Inter (diretta)",
-          "episodeNumber": 227,
-          "seasonNumber": 2024,
-          "url": "/sport/serie-a/milan-inter-diretta/33b1c626-0d4e-49ce-9421-770eecddb7f3",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 10,
-            "name": "Calcio"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/33b1c626-0d4e-49ce-9421-770eecddb7f3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4f526c1df8726a3fd3ef65441973eb8c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/33b1c626-0d4e-49ce-9421-770eecddb7f3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4f526c1df8726a3fd3ef65441973eb8c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/33b1c626-0d4e-49ce-9421-770eecddb7f3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4f526c1df8726a3fd3ef65441973eb8c"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/33b1c626-0d4e-49ce-9421-770eecddb7f3/background?territory=IT&md5ChecksumParam=df8194b9387bc69ccd80c7d80f86ead0"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/33b1c626-0d4e-49ce-9421-770eecddb7f3/cover?territory=IT&md5ChecksumParam=4f526c1df8726a3fd3ef65441973eb8c"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/33b1c626-0d4e-49ce-9421-770eecddb7f3/16-9?territory=IT&md5ChecksumParam=a7e06ffb468170fa77e5b7ccf05407c5"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/33b1c626-0d4e-49ce-9421-770eecddb7f3/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=a7e06ffb468170fa77e5b7ccf05407c5"
-              }
-            }
-          ]
-        },
-        "eventId": "411337106",
-        "starttime": "2025-07-06T07:15:00Z",
-        "endtime": "2025-07-06T09:05:00Z",
-        "eventTitle": "Milan - Inter",
-        "eventSynopsis": "Milan - Inter (diretta) - Entrambe reduci da una vittoria con Parma e Lecce. Il Milan ha vinto entrambi i derby della stagione fra campionato e Supercoppa. Inter a -3 dal Napoli. TC: Compagnoni-Marchegiani",
-        "epgEventTitle": "Milan - Inter",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "b96b1645-a2cc-4e9e-8b21-17c5e2c1810c",
-          "contentTitle": "Inter - Barcellona (diretta)",
-          "episodeNumber": 176,
-          "seasonNumber": 2024,
-          "url": "/sport/uefa-champions-league/inter-barcellona-diretta/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 10,
-            "name": "Calcio"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb17b83f4863a0a5b0f6e2106f3b4194"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fb17b83f4863a0a5b0f6e2106f3b4194"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb17b83f4863a0a5b0f6e2106f3b4194"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c/background?territory=IT&md5ChecksumParam=770e91ee8fd03afe3c5cad67364e04f2"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c/cover?territory=IT&md5ChecksumParam=fb17b83f4863a0a5b0f6e2106f3b4194"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c/16-9?territory=IT&md5ChecksumParam=33810cf2d1c23ffa1c5b98251d4d7395"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=33810cf2d1c23ffa1c5b98251d4d7395"
-              }
-            }
-          ]
-        },
-        "eventId": "411337107",
-        "starttime": "2025-07-06T09:05:00Z",
-        "endtime": "2025-07-06T09:15:00Z",
-        "eventTitle": "Inter - Barcellona",
-        "eventSynopsis": "Inter - Barcellona (diretta) - Nerazzurri per centrare la finale dopo quella perso contro il City nel 2023 (1-0). Barca dopo quella vinta contro la Juve nel 2015 (1-3). All'andata fini' 3-3. TC: Caressa-Bergomi",
-        "epgEventTitle": "Inter - Barcellona",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "2b736877-02f4-4a60-bded-d03f505067e6",
-          "contentTitle": "Paris - Inter",
-          "episodeNumber": 177,
-          "seasonNumber": 2024,
-          "url": "/sport/uefa-champions-league/paris-inter/2b736877-02f4-4a60-bded-d03f505067e6",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 10,
-            "name": "Calcio"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/background?territory=IT&md5ChecksumParam=c78eb29494756f493c4d1767d58e5182"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/cover?territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/16-9?territory=IT&md5ChecksumParam=5dae8ecc90ab57d030469bbed147edeb"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=5dae8ecc90ab57d030469bbed147edeb"
-              }
-            }
-          ]
-        },
-        "eventId": "411337108",
-        "starttime": "2025-07-06T09:15:00Z",
-        "endtime": "2025-07-06T11:00:00Z",
-        "eventTitle": "Paris - Inter",
-        "eventSynopsis": "UEFA Champions League, Finale - Nerazzurri per la seconda Champions, dopo quella vinta nel 2010 (2-0 sul Bayern). Francesi per la prima, dopo il ko in finale contro il Bayern nel 2020 (0-1). TC: Caressa-Bergomi",
-        "epgEventTitle": "Paris - Inter",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "4e902110-0918-4715-b05d-4d7f74a66a31",
-          "contentTitle": "GP Gran Bretagna: Qualifiche",
-          "episodeNumber": 59,
-          "seasonNumber": 2025,
-          "url": "/sport/f1/gp-gran-bretagna-qualifiche/4e902110-0918-4715-b05d-4d7f74a66a31",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 24,
-            "name": "Motori"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0d7132e0714f9fd6eff2a9b8576329ba"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=0d7132e0714f9fd6eff2a9b8576329ba"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=0d7132e0714f9fd6eff2a9b8576329ba"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/background?territory=IT&md5ChecksumParam=b081668d23dd93da45cbc9816d2fa38f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/cover?territory=IT&md5ChecksumParam=0d7132e0714f9fd6eff2a9b8576329ba"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/16-9?territory=IT&md5ChecksumParam=d14aa64001886c411cc394a7e406f20b"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/4e902110-0918-4715-b05d-4d7f74a66a31/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=121551e353a3463e783582ccd43c956d"
-              }
-            }
-          ]
-        },
-        "eventId": "411337109",
-        "starttime": "2025-07-06T11:00:00Z",
-        "endtime": "2025-07-06T12:30:00Z",
-        "eventTitle": "GP Gran Bretagna: Qualifiche",
-        "eventSynopsis": "GP Gran Bretagna: Qualifiche - Dal Circuito di Silverstone, Towcester, Inghilterra.",
-        "epgEventTitle": "GP Gran Bretagna: Qualifiche",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "ed61f954-b333-43b4-a39e-5fdd1dd82abe",
-          "contentTitle": "F1 Paddock Live Pre Gara",
-          "episodeNumber": 0,
-          "url": "/programmi-tv/motori/f1-paddock-live-pre-gara/ed61f954-b333-43b4-a39e-5fdd1dd82abe",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 24,
-            "name": "Motori"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/ed61f954-b333-43b4-a39e-5fdd1dd82abe/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f5e76a14e57c6265f7cc1b691fb68ed3"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/ed61f954-b333-43b4-a39e-5fdd1dd82abe/background?territory=IT&md5ChecksumParam=90d5f7d92242626c383d73ca4122e5dd"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/ed61f954-b333-43b4-a39e-5fdd1dd82abe/cover?territory=IT&md5ChecksumParam=f5e76a14e57c6265f7cc1b691fb68ed3"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/ed61f954-b333-43b4-a39e-5fdd1dd82abe/16-9?territory=IT&md5ChecksumParam=b8ed7e5fee979cdf00f76abcf7573a54"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/ed61f954-b333-43b4-a39e-5fdd1dd82abe/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=b8ed7e5fee979cdf00f76abcf7573a54"
-              }
-            }
-          ]
-        },
-        "eventId": "411337110",
-        "starttime": "2025-07-06T12:30:00Z",
-        "endtime": "2025-07-06T13:55:00Z",
-        "eventTitle": "F1 Paddock Live Pre Gara",
-        "eventSynopsis": "L'avvicinamento al Gran Premio con l'analisi di quanto successo nel weekend, le interviste, i giri di riscaldamento delle monoposto e l'atmosfera unica della griglia di partenza prima del via.",
-        "epgEventTitle": "F1 Paddock Live Pre Gara",
-        "programHighlights": "L",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "c5878ae4-e720-41f6-91c0-3f146f4ec773",
-          "contentTitle": "GP Gran Bretagna: Gara",
-          "episodeNumber": 60,
-          "seasonNumber": 2025,
-          "url": "/sport/f1/gp-gran-bretagna-gara/c5878ae4-e720-41f6-91c0-3f146f4ec773",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 24,
-            "name": "Motori"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/background?territory=IT&md5ChecksumParam=f4fe0388b7a1c4f85c85be750d5b354c"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/cover?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/16-9?territory=IT&md5ChecksumParam=6a27238a87f79be0b29b120b60f64ce2"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=ad5cbca751b1f98f5fafacf42e0ab9f0"
-              }
-            }
-          ]
-        },
-        "eventId": "411337111",
-        "starttime": "2025-07-06T13:55:00Z",
-        "endtime": "2025-07-06T16:00:00Z",
-        "eventTitle": "GP Gran Bretagna: Gara",
-        "eventSynopsis": "Giro di boa del mondiale 2025, con la dodicesima gara della stagione sulla pista di Silverstone. Telecronaca di Carlo Vanzini, Marc Gene' e Roberto Chinchero.",
-        "epgEventTitle": "GP Gran Bretagna: Gara",
-        "programHighlights": "L",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "fc9d442b-0ba6-482b-b918-d7fb41e2ea8c",
-          "contentTitle": "Review Of The Season",
-          "episodeNumber": 38,
-          "seasonNumber": 2024,
-          "url": "/sport/uefa-champions-league-magazine/review-of-the-season/fc9d442b-0ba6-482b-b918-d7fb41e2ea8c",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 10,
-            "name": "Calcio"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/fc9d442b-0ba6-482b-b918-d7fb41e2ea8c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6dfa18506325a60c6147560e4679a547"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/fc9d442b-0ba6-482b-b918-d7fb41e2ea8c/background?territory=IT&md5ChecksumParam=468db6fa5b9250a1ea639ac8cc68f67f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/fc9d442b-0ba6-482b-b918-d7fb41e2ea8c/cover?territory=IT&md5ChecksumParam=c7cc369e8c46c8ccbb1bee370539a77d"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/fc9d442b-0ba6-482b-b918-d7fb41e2ea8c/16-9?territory=IT&md5ChecksumParam=a9a91c8c07dc83d6562ea4d76bdcd0fc"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/fc9d442b-0ba6-482b-b918-d7fb41e2ea8c/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=a9a91c8c07dc83d6562ea4d76bdcd0fc"
-              }
-            }
-          ]
-        },
-        "eventId": "411337114",
-        "starttime": "2025-07-06T20:30:00Z",
-        "endtime": "2025-07-06T21:25:00Z",
-        "eventTitle": "Review Of The Season",
-        "eventSynopsis": "Review Of The Season - Le immagini dei grandi match con i gol e le interviste ai protagonisti del presente e del passato. E le piu' belle storie di questa prestigiosissima competizione continentale.",
-        "epgEventTitle": "Review Of The Season",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "c5878ae4-e720-41f6-91c0-3f146f4ec773",
-          "contentTitle": "GP Gran Bretagna: Gara",
-          "episodeNumber": 60,
-          "seasonNumber": 2025,
-          "url": "/sport/f1/gp-gran-bretagna-gara/c5878ae4-e720-41f6-91c0-3f146f4ec773",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 24,
-            "name": "Motori"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/background?territory=IT&md5ChecksumParam=f4fe0388b7a1c4f85c85be750d5b354c"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/cover?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/16-9?territory=IT&md5ChecksumParam=6a27238a87f79be0b29b120b60f64ce2"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=ad5cbca751b1f98f5fafacf42e0ab9f0"
-              }
-            }
-          ]
-        },
-        "eventId": "411337115",
-        "starttime": "2025-07-06T21:25:00Z",
-        "endtime": "2025-07-06T23:30:00Z",
-        "eventTitle": "GP Gran Bretagna: Gara",
-        "eventSynopsis": "GP Gran Bretagna: Gara - Giro di boa del mondiale 2025, con la dodicesima gara della stagione sulla pista di Silverstone. Telecronaca di Carlo Vanzini, Marc Gene' e Roberto Chinchero.",
-        "epgEventTitle": "GP Gran Bretagna: Gara",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10013,
-          "logo": "/logo/628skysport4k_Light_Fit.png?checksum=488316de-b578-49b3-a224-ff4bb243f2ef",
-          "logoPadding": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "logoDark": "/logo/628skysport4k_Dark_Fit.png?checksum=47088c9c-ce26-4028-a1dd-b1f9f1cb727a",
-          "logoDarkPadding": "/logo/628skysport4k_Dark_Padding.png?checksum=fdb44b90-f0f5-4960-9280-aa749118e11a",
-          "logoLight": "/logo/628skysport4k_Light_Padding.png?checksum=2bd20555-4b17-4465-8fd4-0b9ec9678447",
-          "name": "Sky Sport 4K",
-          "description": "Il nuovo canale Sky interamente dedicato al calcio e sport in 4K HDR. Canale Sky Glass 213.",
-          "number": 213,
-          "servicekey": "628",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "2b736877-02f4-4a60-bded-d03f505067e6",
-          "contentTitle": "Paris - Inter",
-          "episodeNumber": 177,
-          "seasonNumber": 2024,
-          "url": "/sport/uefa-champions-league/paris-inter/2b736877-02f4-4a60-bded-d03f505067e6",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 10,
-            "name": "Calcio"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/background?territory=IT&md5ChecksumParam=c78eb29494756f493c4d1767d58e5182"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/cover?territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/16-9?territory=IT&md5ChecksumParam=5dae8ecc90ab57d030469bbed147edeb"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=5dae8ecc90ab57d030469bbed147edeb"
-              }
-            }
-          ]
-        },
-        "eventId": "411337116",
-        "starttime": "2025-07-06T23:30:00Z",
-        "endtime": "2025-07-07T01:30:00Z",
-        "eventTitle": "Paris - Inter",
-        "eventSynopsis": "UEFA Champions League, Finale - Nerazzurri per la seconda Champions, dopo quella vinta nel 2010 (2-0 sul Bayern). Francesi per la prima, dopo il ko in finale contro il Bayern nel 2020 (0-1). TC: Caressa-Bergomi",
-        "epgEventTitle": "Paris - Inter",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": true
-          }
-        ]
-      }
-    ],
     "2025-07-07": [
       {
         "channel": {
@@ -1319,12 +41,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
@@ -1355,9 +77,9 @@
         },
         "eventId": "411337117",
         "starttime": "2025-07-07T01:30:00Z",
-        "endtime": "2025-07-07T03:25:00Z",
+        "endtime": "2025-07-07T03:30:00Z",
         "eventTitle": "GP Gran Bretagna: Gara",
-        "eventSynopsis": "GP Gran Bretagna: Gara - Giro di boa del mondiale 2025, con la dodicesima gara della stagione sulla pista di Silverstone. Telecronaca di Carlo Vanzini, Marc Gene' e Roberto Chinchero.",
+        "eventSynopsis": "Giro di boa del mondiale 2025, con la dodicesima gara della stagione sulla pista di Silverstone. Telecronaca di Carlo Vanzini, Marc Gene' e Roberto Chinchero.",
         "epgEventTitle": "GP Gran Bretagna: Gara",
         "primeVision": false,
         "resolutions": [
@@ -1401,12 +123,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/0b15c0cb-6423-48e3-85e1-3fda29365aeb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41cfcbf12695ebdeb600a8fbefef489b"
+                "url": "/uuid/0b15c0cb-6423-48e3-85e1-3fda29365aeb/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=41cfcbf12695ebdeb600a8fbefef489b"
               }
             },
             {
               "img": {
-                "url": "/uuid/0b15c0cb-6423-48e3-85e1-3fda29365aeb/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=41cfcbf12695ebdeb600a8fbefef489b"
+                "url": "/uuid/0b15c0cb-6423-48e3-85e1-3fda29365aeb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41cfcbf12695ebdeb600a8fbefef489b"
               }
             },
             {
@@ -1441,10 +163,10 @@
           ]
         },
         "eventId": "411337118",
-        "starttime": "2025-07-07T03:25:00Z",
+        "starttime": "2025-07-07T03:30:00Z",
         "endtime": "2025-07-07T04:00:00Z",
         "eventTitle": "Aldo e Massimo",
-        "eventSynopsis": "Aldo e Massimo - Dalle ricette dell'ingegner Aldo Costa, dal passato vincente in Ferrari e Mercedes, a quelle dello chef Massimo Bottura, grande appassionato di F1. Con Carlo Vanzini e Roberto Chinchero.",
+        "eventSynopsis": "Ep6 Aldo e Massimo - Dalle ricette dell'ingegner Aldo Costa, dal passato vincente in Ferrari e Mercedes, a quelle dello chef Massimo Bottura, grande appassionato di F1. Con Carlo Vanzini e Roberto Chinchero.",
         "epgEventTitle": "Aldo e Massimo",
         "primeVision": false,
         "resolutions": [
@@ -1580,12 +302,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
@@ -1662,17 +384,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
               }
             },
             {
               "img": {
                 "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
               }
             },
             {
@@ -1703,7 +425,7 @@
         },
         "eventId": "411394954",
         "starttime": "2025-07-07T08:00:00Z",
-        "endtime": "2025-07-07T09:55:00Z",
+        "endtime": "2025-07-07T09:50:00Z",
         "eventTitle": "Paris - Inter",
         "eventSynopsis": "UEFA Champions League, Finale - Nerazzurri per la seconda Champions, dopo quella vinta nel 2010 (2-0 sul Bayern). Francesi per la prima, dopo il ko in finale contro il Bayern nel 2020 (0-1). TC: Caressa-Bergomi",
         "epgEventTitle": "Paris - Inter",
@@ -1754,12 +476,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
@@ -1789,7 +511,7 @@
           ]
         },
         "eventId": "411394955",
-        "starttime": "2025-07-07T09:55:00Z",
+        "starttime": "2025-07-07T09:50:00Z",
         "endtime": "2025-07-07T12:00:00Z",
         "eventTitle": "GP Gran Bretagna: Gara",
         "eventSynopsis": "GP Gran Bretagna: Gara - Giro di boa del mondiale 2025, con la dodicesima gara della stagione sulla pista di Silverstone. Telecronaca di Carlo Vanzini, Marc Gene' e Roberto Chinchero.",
@@ -2257,12 +979,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
@@ -2293,7 +1015,7 @@
         },
         "eventId": "411394964",
         "starttime": "2025-07-08T01:00:00Z",
-        "endtime": "2025-07-08T03:00:00Z",
+        "endtime": "2025-07-08T02:55:00Z",
         "eventTitle": "GP Gran Bretagna: Gara",
         "eventSynopsis": "GP Gran Bretagna: Gara - Giro di boa del mondiale 2025, con la dodicesima gara della stagione sulla pista di Silverstone. Telecronaca di Carlo Vanzini, Marc Gene' e Roberto Chinchero.",
         "epgEventTitle": "GP Gran Bretagna: Gara",
@@ -2339,17 +1061,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/80cd906c-82a9-4e91-bed9-af8a63df92a4/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=51ccf7f74d7eab95e2edcca4ccef2ee7"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/80cd906c-82a9-4e91-bed9-af8a63df92a4/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=51ccf7f74d7eab95e2edcca4ccef2ee7"
               }
             },
             {
               "img": {
                 "url": "/uuid/80cd906c-82a9-4e91-bed9-af8a63df92a4/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=51ccf7f74d7eab95e2edcca4ccef2ee7"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/80cd906c-82a9-4e91-bed9-af8a63df92a4/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=51ccf7f74d7eab95e2edcca4ccef2ee7"
               }
             },
             {
@@ -2379,7 +1101,7 @@
           ]
         },
         "eventId": "411394965",
-        "starttime": "2025-07-08T03:00:00Z",
+        "starttime": "2025-07-08T02:55:00Z",
         "endtime": "2025-07-08T04:00:00Z",
         "eventTitle": "Gara: GP Monaco",
         "eventSynopsis": "Il Gran Premio piu' iconico del mondiale quest'anno presenta un'incognita in piu': due soste ai box obbligatorie. Chi vincera' la roulette? Telecronaca di Carlo Vanzini, Marc Gene' e Roberto Chinchero.",
@@ -2426,12 +1148,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
+                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
               }
             },
             {
               "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
+                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
               }
             },
             {
@@ -2595,12 +1317,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
@@ -2677,17 +1399,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/c177ddaa-2d81-489d-81d0-9f8beec12fdc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4737ea4ba9a2c9330905b958d4fca4ee"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/c177ddaa-2d81-489d-81d0-9f8beec12fdc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4737ea4ba9a2c9330905b958d4fca4ee"
               }
             },
             {
               "img": {
                 "url": "/uuid/c177ddaa-2d81-489d-81d0-9f8beec12fdc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4737ea4ba9a2c9330905b958d4fca4ee"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c177ddaa-2d81-489d-81d0-9f8beec12fdc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4737ea4ba9a2c9330905b958d4fca4ee"
               }
             },
             {
@@ -3307,12 +2029,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
@@ -3389,17 +2111,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/059ddb48-e758-4ba1-8c31-b4795ea01aca/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7a5fe9a381d7f5677ca6e1f4bf9c2857"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/059ddb48-e758-4ba1-8c31-b4795ea01aca/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7a5fe9a381d7f5677ca6e1f4bf9c2857"
               }
             },
             {
               "img": {
                 "url": "/uuid/059ddb48-e758-4ba1-8c31-b4795ea01aca/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7a5fe9a381d7f5677ca6e1f4bf9c2857"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/059ddb48-e758-4ba1-8c31-b4795ea01aca/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7a5fe9a381d7f5677ca6e1f4bf9c2857"
               }
             },
             {
@@ -3478,17 +2200,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/a2bc90c8-3601-46d3-9695-2d7f57a90f7e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7b3bb22dc2c4a68adb905194bc88aeb3"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/a2bc90c8-3601-46d3-9695-2d7f57a90f7e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c81a94eac67ff9d7e1ba682b806827f8"
               }
             },
             {
               "img": {
                 "url": "/uuid/a2bc90c8-3601-46d3-9695-2d7f57a90f7e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c81a94eac67ff9d7e1ba682b806827f8"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/a2bc90c8-3601-46d3-9695-2d7f57a90f7e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7b3bb22dc2c4a68adb905194bc88aeb3"
               }
             },
             {
@@ -3565,17 +2287,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb17b83f4863a0a5b0f6e2106f3b4194"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fb17b83f4863a0a5b0f6e2106f3b4194"
               }
             },
             {
               "img": {
                 "url": "/uuid/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb17b83f4863a0a5b0f6e2106f3b4194"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb17b83f4863a0a5b0f6e2106f3b4194"
               }
             },
             {
@@ -3734,12 +2456,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
@@ -3816,17 +2538,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
               }
             },
             {
               "img": {
                 "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
               }
             },
             {
@@ -3903,12 +2625,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
+                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
               }
             },
             {
               "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
+                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
               }
             },
             {
@@ -3990,17 +2712,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/80cd906c-82a9-4e91-bed9-af8a63df92a4/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=51ccf7f74d7eab95e2edcca4ccef2ee7"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/80cd906c-82a9-4e91-bed9-af8a63df92a4/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=51ccf7f74d7eab95e2edcca4ccef2ee7"
               }
             },
             {
               "img": {
                 "url": "/uuid/80cd906c-82a9-4e91-bed9-af8a63df92a4/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=51ccf7f74d7eab95e2edcca4ccef2ee7"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/80cd906c-82a9-4e91-bed9-af8a63df92a4/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=51ccf7f74d7eab95e2edcca4ccef2ee7"
               }
             },
             {
@@ -4385,17 +3107,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/b3198dd5-7618-4d59-9c16-ef6469292f89/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=77c9441186d4bd6005e89748f55dc496"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/b3198dd5-7618-4d59-9c16-ef6469292f89/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=523c3c0b69478a4b516619ae5282ecfd"
               }
             },
             {
               "img": {
                 "url": "/uuid/b3198dd5-7618-4d59-9c16-ef6469292f89/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=77c9441186d4bd6005e89748f55dc496"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/b3198dd5-7618-4d59-9c16-ef6469292f89/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=77c9441186d4bd6005e89748f55dc496"
               }
             },
             {
@@ -4553,12 +3275,12 @@
             },
             {
               "img": {
-                "url": "/uuid/e95eac15-e40f-4e11-90ed-69d3f4937e3e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=91f6e7ed82856c857799aafead80ac56"
+                "url": "/uuid/e95eac15-e40f-4e11-90ed-69d3f4937e3e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=91f6e7ed82856c857799aafead80ac56"
               }
             },
             {
               "img": {
-                "url": "/uuid/e95eac15-e40f-4e11-90ed-69d3f4937e3e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=91f6e7ed82856c857799aafead80ac56"
+                "url": "/uuid/e95eac15-e40f-4e11-90ed-69d3f4937e3e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=91f6e7ed82856c857799aafead80ac56"
               }
             },
             {
@@ -4635,17 +3357,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/a2bc90c8-3601-46d3-9695-2d7f57a90f7e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7b3bb22dc2c4a68adb905194bc88aeb3"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/a2bc90c8-3601-46d3-9695-2d7f57a90f7e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c81a94eac67ff9d7e1ba682b806827f8"
               }
             },
             {
               "img": {
                 "url": "/uuid/a2bc90c8-3601-46d3-9695-2d7f57a90f7e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c81a94eac67ff9d7e1ba682b806827f8"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/a2bc90c8-3601-46d3-9695-2d7f57a90f7e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7b3bb22dc2c4a68adb905194bc88aeb3"
               }
             },
             {
@@ -4804,12 +3526,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
@@ -4975,17 +3697,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/1003f850-7594-4a8e-ac38-af7a5130041f/COVER_CLEAN_WIDE-SEASON?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8f66e9cc1c585d05392bbf7eb6b6712b"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/1003f850-7594-4a8e-ac38-af7a5130041f/COVER_CLEAN_WIDE-SEASON?territory=IT&md5ChecksumParam=8f66e9cc1c585d05392bbf7eb6b6712b"
               }
             },
             {
               "img": {
                 "url": "/uuid/d054b47b-3b84-4b92-aee0-e72af73a24a3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0369b7ef4cdd4f75cd9d28d5fd198ceb"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/1003f850-7594-4a8e-ac38-af7a5130041f/COVER_CLEAN_WIDE-SEASON?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8f66e9cc1c585d05392bbf7eb6b6712b"
               }
             },
             {
@@ -5062,17 +3784,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/c177ddaa-2d81-489d-81d0-9f8beec12fdc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4737ea4ba9a2c9330905b958d4fca4ee"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/c177ddaa-2d81-489d-81d0-9f8beec12fdc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4737ea4ba9a2c9330905b958d4fca4ee"
               }
             },
             {
               "img": {
                 "url": "/uuid/c177ddaa-2d81-489d-81d0-9f8beec12fdc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4737ea4ba9a2c9330905b958d4fca4ee"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c177ddaa-2d81-489d-81d0-9f8beec12fdc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4737ea4ba9a2c9330905b958d4fca4ee"
               }
             },
             {
@@ -5149,17 +3871,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/6ca8d1c4-8c20-4393-a126-70da8a277480/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2ca6193c81bb36a89d24118291f0cf0a"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/6ca8d1c4-8c20-4393-a126-70da8a277480/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2ca6193c81bb36a89d24118291f0cf0a"
               }
             },
             {
               "img": {
                 "url": "/uuid/6ca8d1c4-8c20-4393-a126-70da8a277480/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2ca6193c81bb36a89d24118291f0cf0a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6ca8d1c4-8c20-4393-a126-70da8a277480/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2ca6193c81bb36a89d24118291f0cf0a"
               }
             },
             {
@@ -5236,17 +3958,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/b154957c-ebaf-49ff-b8d8-d8fb59f04c0d/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=17a8ef6320d54873cdf8b53d59f9fd28"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/b154957c-ebaf-49ff-b8d8-d8fb59f04c0d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ca8fddb70baf2243f4246c2b194cf950"
               }
             },
             {
               "img": {
                 "url": "/uuid/b154957c-ebaf-49ff-b8d8-d8fb59f04c0d/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=17a8ef6320d54873cdf8b53d59f9fd28"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/b154957c-ebaf-49ff-b8d8-d8fb59f04c0d/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=17a8ef6320d54873cdf8b53d59f9fd28"
               }
             },
             {
@@ -5405,12 +4127,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
@@ -5605,9 +4327,9 @@
         "eventId": "411394972",
         "starttime": "2025-07-10T12:00:00Z",
         "endtime": "2025-07-10T12:30:00Z",
-        "eventTitle": "Sky Tennis Show - Ep. 24 - Sky Tennis Show 2025 10/07/2025",
+        "eventTitle": "Sky Tennis Show - Ep. 24 - 10/07/2025",
         "eventSynopsis": "10/07/2025 - Lo show del torneo di Wimbledon commentato da giornalisti e talent di Sky Sport, con interviste, analisi e curiosita'. Conduce Eleonora Cottarelli",
-        "epgEventTitle": "Sky Tennis Show - Ep. 24 - Sky Tennis Show 2025 10/07/2025",
+        "epgEventTitle": "Sky Tennis Show - Ep. 24 - 10/07/2025",
         "programHighlights": "L",
         "primeVision": false,
         "resolutions": [
@@ -5650,17 +4372,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/c58b5d05-59fc-49c9-8476-e84316635961/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=9f037afb8a2265ed190895846c61e9a0"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/c58b5d05-59fc-49c9-8476-e84316635961/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fd9fd0551da9b400c408c7803c8cbbc1"
               }
             },
             {
               "img": {
                 "url": "/uuid/c58b5d05-59fc-49c9-8476-e84316635961/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=9f037afb8a2265ed190895846c61e9a0"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/c58b5d05-59fc-49c9-8476-e84316635961/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=9f037afb8a2265ed190895846c61e9a0"
               }
             },
             {
@@ -5737,17 +4459,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/31002a37-90ca-4aae-ad61-55cfead9700b/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=d62157fa710a302bd3a456aaf23a05bb"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/31002a37-90ca-4aae-ad61-55cfead9700b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=50560681d24751d137ef38df3e9cbd84"
               }
             },
             {
               "img": {
                 "url": "/uuid/31002a37-90ca-4aae-ad61-55cfead9700b/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d62157fa710a302bd3a456aaf23a05bb"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/31002a37-90ca-4aae-ad61-55cfead9700b/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=d62157fa710a302bd3a456aaf23a05bb"
               }
             },
             {
@@ -5856,9 +4578,9 @@
         "eventId": "411394975",
         "starttime": "2025-07-10T16:30:00Z",
         "endtime": "2025-07-10T17:00:00Z",
-        "eventTitle": "Sky Tennis Show - Ep. 24 - Sky Tennis Show 2025 10/07/2025",
+        "eventTitle": "Sky Tennis Show - Ep. 24 - 10/07/2025",
         "eventSynopsis": "10/07/2025 - Lo show del torneo di Wimbledon commentato da giornalisti e talent di Sky Sport, con interviste, analisi e curiosita'. Conduce Eleonora Cottarelli",
-        "epgEventTitle": "Sky Tennis Show - Ep. 24 - Sky Tennis Show 2025 10/07/2025",
+        "epgEventTitle": "Sky Tennis Show - Ep. 24 - 10/07/2025",
         "programHighlights": "L",
         "primeVision": false,
         "resolutions": [
@@ -5984,12 +4706,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
@@ -6225,17 +4947,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/059ddb48-e758-4ba1-8c31-b4795ea01aca/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7a5fe9a381d7f5677ca6e1f4bf9c2857"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/059ddb48-e758-4ba1-8c31-b4795ea01aca/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7a5fe9a381d7f5677ca6e1f4bf9c2857"
               }
             },
             {
               "img": {
                 "url": "/uuid/059ddb48-e758-4ba1-8c31-b4795ea01aca/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7a5fe9a381d7f5677ca6e1f4bf9c2857"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/059ddb48-e758-4ba1-8c31-b4795ea01aca/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7a5fe9a381d7f5677ca6e1f4bf9c2857"
               }
             },
             {
@@ -6396,12 +5118,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
@@ -6478,17 +5200,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
               }
             },
             {
               "img": {
                 "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/2b736877-02f4-4a60-bded-d03f505067e6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=686cb244f0edcad879ce74fa05341edf"
               }
             },
             {
@@ -6570,12 +5292,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
@@ -7123,17 +5845,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/febc5818-4d31-41d0-887a-ac8abdb3fda1/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4abaf0458a9d873926da1af05679db0c"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/febc5818-4d31-41d0-887a-ac8abdb3fda1/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4abaf0458a9d873926da1af05679db0c"
               }
             },
             {
               "img": {
                 "url": "/uuid/febc5818-4d31-41d0-887a-ac8abdb3fda1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b9b92c0e121496ac9f37627cb2e18be6"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/febc5818-4d31-41d0-887a-ac8abdb3fda1/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4abaf0458a9d873926da1af05679db0c"
               }
             },
             {
@@ -7210,12 +5932,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/0b15c0cb-6423-48e3-85e1-3fda29365aeb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41cfcbf12695ebdeb600a8fbefef489b"
+                "url": "/uuid/0b15c0cb-6423-48e3-85e1-3fda29365aeb/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=41cfcbf12695ebdeb600a8fbefef489b"
               }
             },
             {
               "img": {
-                "url": "/uuid/0b15c0cb-6423-48e3-85e1-3fda29365aeb/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=41cfcbf12695ebdeb600a8fbefef489b"
+                "url": "/uuid/0b15c0cb-6423-48e3-85e1-3fda29365aeb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41cfcbf12695ebdeb600a8fbefef489b"
               }
             },
             {
@@ -7297,17 +6019,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/059ddb48-e758-4ba1-8c31-b4795ea01aca/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7a5fe9a381d7f5677ca6e1f4bf9c2857"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/059ddb48-e758-4ba1-8c31-b4795ea01aca/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7a5fe9a381d7f5677ca6e1f4bf9c2857"
               }
             },
             {
               "img": {
                 "url": "/uuid/059ddb48-e758-4ba1-8c31-b4795ea01aca/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7a5fe9a381d7f5677ca6e1f4bf9c2857"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/059ddb48-e758-4ba1-8c31-b4795ea01aca/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7a5fe9a381d7f5677ca6e1f4bf9c2857"
               }
             },
             {
@@ -7466,12 +6188,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
@@ -7550,12 +6272,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/e04b4e73-2bae-4f19-abb1-394162cdb92f/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c7a3404943bc4a7d00dc88c21a5ce6dc"
+                "url": "/uuid/e04b4e73-2bae-4f19-abb1-394162cdb92f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c7a3404943bc4a7d00dc88c21a5ce6dc"
               }
             },
             {
               "img": {
-                "url": "/uuid/e04b4e73-2bae-4f19-abb1-394162cdb92f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c7a3404943bc4a7d00dc88c21a5ce6dc"
+                "url": "/uuid/e04b4e73-2bae-4f19-abb1-394162cdb92f/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c7a3404943bc4a7d00dc88c21a5ce6dc"
               }
             },
             {
@@ -7709,17 +6431,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb17b83f4863a0a5b0f6e2106f3b4194"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fb17b83f4863a0a5b0f6e2106f3b4194"
               }
             },
             {
               "img": {
                 "url": "/uuid/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb17b83f4863a0a5b0f6e2106f3b4194"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb17b83f4863a0a5b0f6e2106f3b4194"
               }
             },
             {
@@ -7796,17 +6518,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/4ab420cf-3b12-42f6-a9e1-8b66c1b3ef3a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c6481fb32db0ba6ff224610da45decdd"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/4ab420cf-3b12-42f6-a9e1-8b66c1b3ef3a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c6481fb32db0ba6ff224610da45decdd"
               }
             },
             {
               "img": {
                 "url": "/uuid/4ab420cf-3b12-42f6-a9e1-8b66c1b3ef3a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c6481fb32db0ba6ff224610da45decdd"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/4ab420cf-3b12-42f6-a9e1-8b66c1b3ef3a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c6481fb32db0ba6ff224610da45decdd"
               }
             },
             {
@@ -7970,12 +6692,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
+                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
               }
             },
             {
               "img": {
-                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
+                "url": "/uuid/95a43ff7-c4c2-4bcf-ac26-fdcbd36f2ba3/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f0c21605a2be23c98a5a286fe191c48e"
               }
             },
             {
@@ -8437,17 +7159,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb17b83f4863a0a5b0f6e2106f3b4194"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fb17b83f4863a0a5b0f6e2106f3b4194"
               }
             },
             {
               "img": {
                 "url": "/uuid/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fb17b83f4863a0a5b0f6e2106f3b4194"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/b96b1645-a2cc-4e9e-8b21-17c5e2c1810c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fb17b83f4863a0a5b0f6e2106f3b4194"
               }
             },
             {
@@ -8529,12 +7251,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
@@ -8688,17 +7410,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/059ddb48-e758-4ba1-8c31-b4795ea01aca/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7a5fe9a381d7f5677ca6e1f4bf9c2857"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/059ddb48-e758-4ba1-8c31-b4795ea01aca/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7a5fe9a381d7f5677ca6e1f4bf9c2857"
               }
             },
             {
               "img": {
                 "url": "/uuid/059ddb48-e758-4ba1-8c31-b4795ea01aca/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7a5fe9a381d7f5677ca6e1f4bf9c2857"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/059ddb48-e758-4ba1-8c31-b4795ea01aca/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7a5fe9a381d7f5677ca6e1f4bf9c2857"
               }
             },
             {
@@ -8779,12 +7501,12 @@
             },
             {
               "img": {
-                "url": "/uuid/e95eac15-e40f-4e11-90ed-69d3f4937e3e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=91f6e7ed82856c857799aafead80ac56"
+                "url": "/uuid/e95eac15-e40f-4e11-90ed-69d3f4937e3e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=91f6e7ed82856c857799aafead80ac56"
               }
             },
             {
               "img": {
-                "url": "/uuid/e95eac15-e40f-4e11-90ed-69d3f4937e3e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=91f6e7ed82856c857799aafead80ac56"
+                "url": "/uuid/e95eac15-e40f-4e11-90ed-69d3f4937e3e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=91f6e7ed82856c857799aafead80ac56"
               }
             },
             {
@@ -8945,12 +7667,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
@@ -9027,17 +7749,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/c177ddaa-2d81-489d-81d0-9f8beec12fdc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4737ea4ba9a2c9330905b958d4fca4ee"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/c177ddaa-2d81-489d-81d0-9f8beec12fdc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4737ea4ba9a2c9330905b958d4fca4ee"
               }
             },
             {
               "img": {
                 "url": "/uuid/c177ddaa-2d81-489d-81d0-9f8beec12fdc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4737ea4ba9a2c9330905b958d4fca4ee"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c177ddaa-2d81-489d-81d0-9f8beec12fdc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4737ea4ba9a2c9330905b958d4fca4ee"
               }
             },
             {
@@ -9288,17 +8010,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/c177ddaa-2d81-489d-81d0-9f8beec12fdc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4737ea4ba9a2c9330905b958d4fca4ee"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/c177ddaa-2d81-489d-81d0-9f8beec12fdc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4737ea4ba9a2c9330905b958d4fca4ee"
               }
             },
             {
               "img": {
                 "url": "/uuid/c177ddaa-2d81-489d-81d0-9f8beec12fdc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4737ea4ba9a2c9330905b958d4fca4ee"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c177ddaa-2d81-489d-81d0-9f8beec12fdc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4737ea4ba9a2c9330905b958d4fca4ee"
               }
             },
             {
@@ -9375,17 +8097,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/6ca8d1c4-8c20-4393-a126-70da8a277480/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2ca6193c81bb36a89d24118291f0cf0a"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/6ca8d1c4-8c20-4393-a126-70da8a277480/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2ca6193c81bb36a89d24118291f0cf0a"
               }
             },
             {
               "img": {
                 "url": "/uuid/6ca8d1c4-8c20-4393-a126-70da8a277480/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2ca6193c81bb36a89d24118291f0cf0a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6ca8d1c4-8c20-4393-a126-70da8a277480/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2ca6193c81bb36a89d24118291f0cf0a"
               }
             },
             {
@@ -9467,12 +8189,12 @@
             },
             {
               "img": {
-                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
+                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
               }
             },
             {
               "img": {
-                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
+                "url": "/uuid/0bdedfe9-0c7d-4b52-825c-d7668335d62c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7a1005a09a0abd92b41f9a8c8014e7ac"
               }
             },
             {
@@ -9857,12 +8579,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/0b15c0cb-6423-48e3-85e1-3fda29365aeb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41cfcbf12695ebdeb600a8fbefef489b"
+                "url": "/uuid/0b15c0cb-6423-48e3-85e1-3fda29365aeb/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=41cfcbf12695ebdeb600a8fbefef489b"
               }
             },
             {
               "img": {
-                "url": "/uuid/0b15c0cb-6423-48e3-85e1-3fda29365aeb/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=41cfcbf12695ebdeb600a8fbefef489b"
+                "url": "/uuid/0b15c0cb-6423-48e3-85e1-3fda29365aeb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41cfcbf12695ebdeb600a8fbefef489b"
               }
             },
             {
@@ -9949,12 +8671,12 @@
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
               "img": {
-                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
+                "url": "/uuid/c5878ae4-e720-41f6-91c0-3f146f4ec773/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e862fb4ed92a824cd83c7184dac96137"
               }
             },
             {
