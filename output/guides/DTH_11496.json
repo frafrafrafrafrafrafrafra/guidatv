@@ -1,96 +1,6 @@
 {
   "name": "Sky Sport",
   "events_by_date": {
-    "2025-07-07": [
-      {
-        "channel": {
-          "id": 11496,
-          "logo": "/logo/951wimbledon2_Light_Fit.png",
-          "logoPadding": "/logo/951wimbledon2_Light_Padding.png",
-          "logoDark": "/logo/951wimbledon2_Dark_Fit.png",
-          "logoDarkPadding": "/logo/951wimbledon2_Dark_Padding.png",
-          "logoLight": "/logo/951wimbledon2_Light_Padding.png",
-          "name": "Wimbledon 2",
-          "number": 252,
-          "servicekey": "951",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "39c112f0-1f3c-474b-b00a-af182ec1ec79",
-          "contentTitle": "Ep. 129",
-          "episodeNumber": 129,
-          "seasonNumber": 2025,
-          "url": "/sport/studio-tennis/ep-129/39c112f0-1f3c-474b-b00a-af182ec1ec79",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 17,
-            "name": "Tennis"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=57bd798c06853d6a070af321bfe25dff"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=57bd798c06853d6a070af321bfe25dff"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=57bd798c06853d6a070af321bfe25dff"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/background?territory=IT&md5ChecksumParam=30f498a58b21a82e8cabb338bdf75671"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/cover?territory=IT&md5ChecksumParam=57bd798c06853d6a070af321bfe25dff"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/16-9?territory=IT&md5ChecksumParam=2d0f8553806303a2c3032c319e83ca7d"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/39c112f0-1f3c-474b-b00a-af182ec1ec79/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=2d0f8553806303a2c3032c319e83ca7d"
-              }
-            }
-          ]
-        },
-        "eventId": "149589684",
-        "starttime": "2025-07-07T09:45:00Z",
-        "endtime": "2025-07-07T10:00:00Z",
-        "eventTitle": "Ep. 129",
-        "eventSynopsis": "Anticipazioni e ultime notizie da Wimbledon per presentare la giornata del torneo di tennis piu' prestigioso.",
-        "epgEventTitle": "Ep. 129",
-        "programHighlights": "L",
-        "primeVision": false,
-        "ppvReferenceId": "921921",
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
     "2025-07-08": [
       {
         "channel": {
@@ -130,12 +40,12 @@
             },
             {
               "img": {
-                "url": "/uuid/78df8624-0403-495d-b4a6-7b94ad09dc7c/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=45f894ec40586f0fff3e245a2ea011be"
+                "url": "/uuid/78df8624-0403-495d-b4a6-7b94ad09dc7c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=45f894ec40586f0fff3e245a2ea011be"
               }
             },
             {
               "img": {
-                "url": "/uuid/78df8624-0403-495d-b4a6-7b94ad09dc7c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=45f894ec40586f0fff3e245a2ea011be"
+                "url": "/uuid/78df8624-0403-495d-b4a6-7b94ad09dc7c/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=45f894ec40586f0fff3e245a2ea011be"
               }
             },
             {
@@ -200,8 +110,10 @@
         },
         "content": {
           "uuid": "d8fb9b88-8361-42bf-ba69-685a62cbd2db",
-          "contentTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 09/07/2025",
-          "url": "/sport/tennis/studi-tennis-stag-studi-tennis-2025-2-2-studio-tennis-wimbledon-09-07-2025/d8fb9b88-8361-42bf-ba69-685a62cbd2db",
+          "contentTitle": "Studio Tennis",
+          "episodeNumber": 131,
+          "seasonNumber": 2025,
+          "url": "/sport/studio-tennis/studio-tennis/d8fb9b88-8361-42bf-ba69-685a62cbd2db",
           "genre": {
             "id": 2,
             "name": "Sport"
@@ -213,7 +125,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/d8fb9b88-8361-42bf-ba69-685a62cbd2db/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ad43ba355254d98a603868a99f48456a"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/d8fb9b88-8361-42bf-ba69-685a62cbd2db/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ad43ba355254d98a603868a99f48456a"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/d8fb9b88-8361-42bf-ba69-685a62cbd2db/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ad43ba355254d98a603868a99f48456a"
               }
             },
             {
@@ -278,8 +200,10 @@
         },
         "content": {
           "uuid": "46c3d9a3-1bb5-4928-b9f5-3b82be4617d7",
-          "contentTitle": "Studi Tennis - Stag. Studi Tennis 2025 2/2 - Studio Tennis Wimbledon 10/07/2025",
-          "url": "/sport/tennis/studi-tennis-stag-studi-tennis-2025-2-2-studio-tennis-wimbledon-10-07-2025/46c3d9a3-1bb5-4928-b9f5-3b82be4617d7",
+          "contentTitle": "Ep. 132",
+          "episodeNumber": 132,
+          "seasonNumber": 2025,
+          "url": "/sport/studio-tennis/ep-132/46c3d9a3-1bb5-4928-b9f5-3b82be4617d7",
           "genre": {
             "id": 2,
             "name": "Sport"
@@ -291,7 +215,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/46c3d9a3-1bb5-4928-b9f5-3b82be4617d7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4a440957fe0edd3d288460dda0600ce7"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/46c3d9a3-1bb5-4928-b9f5-3b82be4617d7/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=4a440957fe0edd3d288460dda0600ce7"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/46c3d9a3-1bb5-4928-b9f5-3b82be4617d7/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4a440957fe0edd3d288460dda0600ce7"
               }
             },
             {
