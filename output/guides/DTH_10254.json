@@ -1,1194 +1,6 @@
 {
   "name": "Sky Sport Golf",
   "events_by_date": {
-    "2025-07-09": [
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "139a4f6c-7d1c-4a76-a076-f5944b597c97",
-          "contentTitle": "Porsche Singapore Classic 3a g.",
-          "episodeNumber": 55,
-          "seasonNumber": 2025,
-          "url": "/sport/dp-world-tour/porsche-singapore-classic-3a-g/139a4f6c-7d1c-4a76-a076-f5944b597c97",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/139a4f6c-7d1c-4a76-a076-f5944b597c97/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=9d7bfc78ff1ee2b9119488b2e0f58f8b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/139a4f6c-7d1c-4a76-a076-f5944b597c97/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9d7bfc78ff1ee2b9119488b2e0f58f8b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/139a4f6c-7d1c-4a76-a076-f5944b597c97/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=9d7bfc78ff1ee2b9119488b2e0f58f8b"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/139a4f6c-7d1c-4a76-a076-f5944b597c97/background?territory=IT&md5ChecksumParam=f02b7a72ab266625b49f9ce6e4c2bd1f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/139a4f6c-7d1c-4a76-a076-f5944b597c97/cover?territory=IT&md5ChecksumParam=9d7bfc78ff1ee2b9119488b2e0f58f8b"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/139a4f6c-7d1c-4a76-a076-f5944b597c97/16-9?territory=IT&md5ChecksumParam=5b3746b68591a646f6256320dde8258b"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/139a4f6c-7d1c-4a76-a076-f5944b597c97/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=5b3746b68591a646f6256320dde8258b"
-              }
-            }
-          ]
-        },
-        "eventId": "411386789",
-        "starttime": "2025-07-09T00:55:00Z",
-        "endtime": "2025-07-09T04:00:00Z",
-        "eventTitle": "Porsche Singapore Classic 3a g.",
-        "eventSynopsis": "Porsche Singapore Classic: 3a giornata - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
-        "epgEventTitle": "Porsche Singapore Classic 3a g.",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "11e0a16a-3a82-456c-aea9-e1e690da8a31",
-          "contentTitle": "Hero Indian Open: 4a giornata",
-          "episodeNumber": 59,
-          "seasonNumber": 2025,
-          "url": "/sport/dp-world-tour/hero-indian-open-4a-giornata/11e0a16a-3a82-456c-aea9-e1e690da8a31",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/11e0a16a-3a82-456c-aea9-e1e690da8a31/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f4f9c3577814b93ff608afdb8df3347b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/11e0a16a-3a82-456c-aea9-e1e690da8a31/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f4f9c3577814b93ff608afdb8df3347b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/11e0a16a-3a82-456c-aea9-e1e690da8a31/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f4f9c3577814b93ff608afdb8df3347b"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/11e0a16a-3a82-456c-aea9-e1e690da8a31/background?territory=IT&md5ChecksumParam=f02b7a72ab266625b49f9ce6e4c2bd1f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/11e0a16a-3a82-456c-aea9-e1e690da8a31/cover?territory=IT&md5ChecksumParam=f4f9c3577814b93ff608afdb8df3347b"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/11e0a16a-3a82-456c-aea9-e1e690da8a31/16-9?territory=IT&md5ChecksumParam=1c4de6fed5d2b73b36ff244f340f126c"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/11e0a16a-3a82-456c-aea9-e1e690da8a31/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=1c4de6fed5d2b73b36ff244f340f126c"
-              }
-            }
-          ]
-        },
-        "eventId": "411386838",
-        "starttime": "2025-07-09T04:00:00Z",
-        "endtime": "2025-07-09T07:00:00Z",
-        "eventTitle": "Hero Indian Open 4a g.",
-        "eventSynopsis": "Hero Indian Open: 4a giornata - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
-        "epgEventTitle": "Hero Indian Open 4a g.",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "e2079dc5-f4bd-45db-ad77-d8091e4b3e89",
-          "contentTitle": "Challenge De Cadiz",
-          "episodeNumber": 11,
-          "seasonNumber": 2025,
-          "url": "/sport/challenge-series/challenge-de-cadiz/e2079dc5-f4bd-45db-ad77-d8091e4b3e89",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/e2079dc5-f4bd-45db-ad77-d8091e4b3e89/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=41e06ba1f77edf36394474988831a61b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/e2079dc5-f4bd-45db-ad77-d8091e4b3e89/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41e06ba1f77edf36394474988831a61b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/e2079dc5-f4bd-45db-ad77-d8091e4b3e89/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=41e06ba1f77edf36394474988831a61b"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/e2079dc5-f4bd-45db-ad77-d8091e4b3e89/background?territory=IT&md5ChecksumParam=80f9c4f97dd54c391aabdadb64bebd6e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/e2079dc5-f4bd-45db-ad77-d8091e4b3e89/cover?territory=IT&md5ChecksumParam=41e06ba1f77edf36394474988831a61b"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/e2079dc5-f4bd-45db-ad77-d8091e4b3e89/16-9?territory=IT&md5ChecksumParam=0894e0465d745cc352ba68ffa785340d"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/e2079dc5-f4bd-45db-ad77-d8091e4b3e89/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=0894e0465d745cc352ba68ffa785340d"
-              }
-            }
-          ]
-        },
-        "eventId": "411386839",
-        "starttime": "2025-07-09T07:00:00Z",
-        "endtime": "2025-07-09T07:30:00Z",
-        "eventTitle": "Challenge De Cadiz",
-        "eventSynopsis": "Challenge De Cadiz - Challenge Series",
-        "epgEventTitle": "Challenge De Cadiz",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "f36d3b27-afde-4357-a455-329ef2111781",
-          "contentTitle": "Danish Golf Challenge",
-          "episodeNumber": 10,
-          "seasonNumber": 2025,
-          "url": "/sport/challenge-series/danish-golf-challenge/f36d3b27-afde-4357-a455-329ef2111781",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/background?territory=IT&md5ChecksumParam=80f9c4f97dd54c391aabdadb64bebd6e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/cover?territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/16-9?territory=IT&md5ChecksumParam=0217cb748c6824b49080483e0c00c6b9"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=0217cb748c6824b49080483e0c00c6b9"
-              }
-            }
-          ]
-        },
-        "eventId": "411386840",
-        "starttime": "2025-07-09T07:30:00Z",
-        "endtime": "2025-07-09T08:00:00Z",
-        "eventTitle": "Danish Golf Challenge",
-        "eventSynopsis": "Danish Golf Challenge - Challenge Series",
-        "epgEventTitle": "Danish Golf Challenge",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "5fb98287-1d2b-46df-ad20-dea64b4810a8",
-          "contentTitle": "4a g.",
-          "episodeNumber": 4,
-          "seasonNumber": 2025,
-          "url": "/sport/us-open-championship/4a-g/5fb98287-1d2b-46df-ad20-dea64b4810a8",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/background?territory=IT&md5ChecksumParam=97d8769ee09fd359a2c674b1459c7b6e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/16-9?territory=IT&md5ChecksumParam=ff76395b52f4d932c53e1ebe435b915f"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=be3c29e3721337fd8508ce61872b05bb"
-              }
-            }
-          ]
-        },
-        "eventId": "411386841",
-        "starttime": "2025-07-09T08:00:00Z",
-        "endtime": "2025-07-09T11:00:00Z",
-        "eventTitle": "4a g.",
-        "eventSynopsis": "4a g. - Uno dei quattro 'Major' del circuito golfistico internazionale, lo US Open Championship, il trofeo che ogni golfista sogna di vincere almeno una volta.",
-        "epgEventTitle": "4a g.",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "1c464019-4fcc-4102-92e0-64d6b6a5320d",
-          "contentTitle": "Kolkata Challenge",
-          "episodeNumber": 5,
-          "seasonNumber": 2025,
-          "url": "/sport/challenge-series/kolkata-challenge/1c464019-4fcc-4102-92e0-64d6b6a5320d",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/1c464019-4fcc-4102-92e0-64d6b6a5320d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=5f2423837be6127e6d3f91847eda2fb6"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/1c464019-4fcc-4102-92e0-64d6b6a5320d/background?territory=IT&md5ChecksumParam=b20c660269c7a06aec0f8d43189bf45e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/1c464019-4fcc-4102-92e0-64d6b6a5320d/cover?territory=IT&md5ChecksumParam=5f2423837be6127e6d3f91847eda2fb6"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/1c464019-4fcc-4102-92e0-64d6b6a5320d/16-9?territory=IT&md5ChecksumParam=fb434b08658d27b21168a3b95e0313dd"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/1c464019-4fcc-4102-92e0-64d6b6a5320d/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=fb434b08658d27b21168a3b95e0313dd"
-              }
-            }
-          ]
-        },
-        "eventId": "411386842",
-        "starttime": "2025-07-09T11:00:00Z",
-        "endtime": "2025-07-09T11:30:00Z",
-        "eventTitle": "Kolkata Challenge",
-        "eventSynopsis": "Kolkata Challenge - Challenge Series",
-        "epgEventTitle": "Kolkata Challenge",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "aa51ba6c-b61d-4fe3-a457-e359a66779b3",
-          "contentTitle": "KLM Open 4a g.",
-          "episodeNumber": 79,
-          "seasonNumber": 2025,
-          "url": "/sport/dp-world-tour/klm-open-4a-g/aa51ba6c-b61d-4fe3-a457-e359a66779b3",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/background?territory=IT&md5ChecksumParam=f02b7a72ab266625b49f9ce6e4c2bd1f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/cover?territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/16-9?territory=IT&md5ChecksumParam=8d110bac4caa4225c98494f3b11149ca"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=8d110bac4caa4225c98494f3b11149ca"
-              }
-            }
-          ]
-        },
-        "eventId": "411386843",
-        "starttime": "2025-07-09T11:30:00Z",
-        "endtime": "2025-07-09T14:30:00Z",
-        "eventTitle": "KLM Open 4a g.",
-        "eventSynopsis": "KLM Open, 4^ Giorno - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
-        "epgEventTitle": "KLM Open 4a g.",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "5fbdf239-dbaa-46a0-abfc-6d05e3f1bc2f",
-          "contentTitle": "Pro Am",
-          "episodeNumber": 4,
-          "seasonNumber": 2025,
-          "url": "/sport/challenge-series/pro-am/5fbdf239-dbaa-46a0-abfc-6d05e3f1bc2f",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/5fbdf239-dbaa-46a0-abfc-6d05e3f1bc2f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4be3235174d790d4510e5f66502163f0"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/5fbdf239-dbaa-46a0-abfc-6d05e3f1bc2f/background?territory=IT&md5ChecksumParam=b20c660269c7a06aec0f8d43189bf45e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/5fbdf239-dbaa-46a0-abfc-6d05e3f1bc2f/cover?territory=IT&md5ChecksumParam=4be3235174d790d4510e5f66502163f0"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/5fbdf239-dbaa-46a0-abfc-6d05e3f1bc2f/16-9?territory=IT&md5ChecksumParam=911a6fcaedd00473f9ad98ad40e0b9c2"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/5fbdf239-dbaa-46a0-abfc-6d05e3f1bc2f/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=911a6fcaedd00473f9ad98ad40e0b9c2"
-              }
-            }
-          ]
-        },
-        "eventId": "411386844",
-        "starttime": "2025-07-09T14:30:00Z",
-        "endtime": "2025-07-09T15:00:00Z",
-        "eventTitle": "Pro Am",
-        "eventSynopsis": "Pro Am - Challenge Series",
-        "epgEventTitle": "Pro Am",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "41550fd3-b593-4ef5-85fa-2d33d506d88f",
-          "contentTitle": "BMW International Open 4a g.",
-          "episodeNumber": 87,
-          "seasonNumber": 2025,
-          "url": "/sport/dp-world-tour/bmw-international-open-4a-g/41550fd3-b593-4ef5-85fa-2d33d506d88f",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/41550fd3-b593-4ef5-85fa-2d33d506d88f/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5e3d2d81a84db5fc1c85f82de939ac92"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/41550fd3-b593-4ef5-85fa-2d33d506d88f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=5e3d2d81a84db5fc1c85f82de939ac92"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/41550fd3-b593-4ef5-85fa-2d33d506d88f/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5e3d2d81a84db5fc1c85f82de939ac92"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/41550fd3-b593-4ef5-85fa-2d33d506d88f/background?territory=IT&md5ChecksumParam=f02b7a72ab266625b49f9ce6e4c2bd1f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/41550fd3-b593-4ef5-85fa-2d33d506d88f/cover?territory=IT&md5ChecksumParam=5e3d2d81a84db5fc1c85f82de939ac92"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/41550fd3-b593-4ef5-85fa-2d33d506d88f/16-9?territory=IT&md5ChecksumParam=5892a268663f95187a4da2d0e9e769c8"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/41550fd3-b593-4ef5-85fa-2d33d506d88f/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=5892a268663f95187a4da2d0e9e769c8"
-              }
-            }
-          ]
-        },
-        "eventId": "411386845",
-        "starttime": "2025-07-09T15:00:00Z",
-        "endtime": "2025-07-09T18:00:00Z",
-        "eventTitle": "BMW International Open 4a g.",
-        "eventSynopsis": "BMW International Open 4a g. - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
-        "epgEventTitle": "BMW International Open 4a g.",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "b04e1bf7-23c2-45b8-a9c1-ead72a067ecd",
-          "contentTitle": "US Open",
-          "episodeNumber": 20,
-          "seasonNumber": 2025,
-          "url": "/sport/highlights-dp-world-tour/us-open/b04e1bf7-23c2-45b8-a9c1-ead72a067ecd",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/b04e1bf7-23c2-45b8-a9c1-ead72a067ecd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9955add74f9363b0ec800f88a5910243"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/b04e1bf7-23c2-45b8-a9c1-ead72a067ecd/background?territory=IT&md5ChecksumParam=5c95d17261f6c75bee332f55b98e2e62"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/b04e1bf7-23c2-45b8-a9c1-ead72a067ecd/cover?territory=IT&md5ChecksumParam=9955add74f9363b0ec800f88a5910243"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/b04e1bf7-23c2-45b8-a9c1-ead72a067ecd/16-9?territory=IT&md5ChecksumParam=9ea2aee2990badf8934b6d50a6ccae1e"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/b04e1bf7-23c2-45b8-a9c1-ead72a067ecd/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=9ea2aee2990badf8934b6d50a6ccae1e"
-              }
-            }
-          ]
-        },
-        "eventId": "411386846",
-        "starttime": "2025-07-09T18:00:00Z",
-        "endtime": "2025-07-09T18:30:00Z",
-        "eventTitle": "US Open",
-        "eventSynopsis": "US Open - Le immagini piu' belle di tutte le gare della Race to Dubai. I momenti decisivi di ogni tappa del DP World Tour, con il commento dei telecronisti e dei talent di Sky Sport.",
-        "epgEventTitle": "US Open",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "3bd14b59-6cda-4668-af30-4315df8ac00f",
-          "contentTitle": "Turkish Open",
-          "episodeNumber": 16,
-          "seasonNumber": 2025,
-          "url": "/sport/highlights-dp-world-tour/turkish-open/3bd14b59-6cda-4668-af30-4315df8ac00f",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/background?territory=IT&md5ChecksumParam=5c95d17261f6c75bee332f55b98e2e62"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/cover?territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/16-9?territory=IT&md5ChecksumParam=5d090cb9dfe4f76526cd0e1f95bfab99"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=5d090cb9dfe4f76526cd0e1f95bfab99"
-              }
-            }
-          ]
-        },
-        "eventId": "411386847",
-        "starttime": "2025-07-09T18:30:00Z",
-        "endtime": "2025-07-09T18:45:00Z",
-        "eventTitle": "Turkish Open",
-        "eventSynopsis": "Turkish Open - Le immagini piu' belle di tutte le gare della Race to Dubai. I momenti decisivi di ogni tappa del DP World Tour, con il commento dei telecronisti e dei talent di Sky Sport.",
-        "epgEventTitle": "Turkish Open",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "13fd4b4b-03c3-4acf-9623-f60e064d3cf6",
-          "contentTitle": "Leggenda Rory McIlroy",
-          "url": "/sport/golf/leggenda-rory-mcilroy/13fd4b4b-03c3-4acf-9623-f60e064d3cf6",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/13fd4b4b-03c3-4acf-9623-f60e064d3cf6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6468692d5b2c5f8b360334cc06030080"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/13fd4b4b-03c3-4acf-9623-f60e064d3cf6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6468692d5b2c5f8b360334cc06030080"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/13fd4b4b-03c3-4acf-9623-f60e064d3cf6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6468692d5b2c5f8b360334cc06030080"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/13fd4b4b-03c3-4acf-9623-f60e064d3cf6/background?territory=IT&md5ChecksumParam=fa9af842fd6d8180b9e78346bcc16214"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/13fd4b4b-03c3-4acf-9623-f60e064d3cf6/cover?territory=IT&md5ChecksumParam=6468692d5b2c5f8b360334cc06030080"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/13fd4b4b-03c3-4acf-9623-f60e064d3cf6/16-9?territory=IT&md5ChecksumParam=a0675fc7b9db85d4762630e331c2ad22"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/13fd4b4b-03c3-4acf-9623-f60e064d3cf6/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=a0675fc7b9db85d4762630e331c2ad22"
-              }
-            }
-          ]
-        },
-        "eventId": "411386848",
-        "starttime": "2025-07-09T18:45:00Z",
-        "endtime": "2025-07-09T19:00:00Z",
-        "eventTitle": "Leggenda Rory McIlroy",
-        "eventSynopsis": "Leggenda Rory McIlroy - Rory McIlroy vince per la prima volta in carriera il Masters di Augusta e conquista la Giacca Verde.",
-        "epgEventTitle": "Leggenda Rory McIlroy",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "896b2c14-de82-4806-ba56-30a458ff6dab",
-          "contentTitle": "Italian Open 4a g.",
-          "episodeNumber": 83,
-          "seasonNumber": 2025,
-          "url": "/sport/dp-world-tour/italian-open-4a-g/896b2c14-de82-4806-ba56-30a458ff6dab",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/background?territory=IT&md5ChecksumParam=f02b7a72ab266625b49f9ce6e4c2bd1f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/16-9?territory=IT&md5ChecksumParam=35e43b9d150a5201796528515c75852d"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=35e43b9d150a5201796528515c75852d"
-              }
-            }
-          ]
-        },
-        "eventId": "411386849",
-        "starttime": "2025-07-09T19:00:00Z",
-        "endtime": "2025-07-09T22:00:00Z",
-        "eventTitle": "Italian Open 4a g.",
-        "eventSynopsis": "Italian Open 4a g. - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
-        "epgEventTitle": "Italian Open 4a g.",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "8b150834-d61b-4e6e-8f7a-8e1686df06c6",
-          "contentTitle": "4a g.",
-          "episodeNumber": 6,
-          "seasonNumber": 2025,
-          "url": "/sport/the-masters/4a-g/8b150834-d61b-4e6e-8f7a-8e1686df06c6",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/8b150834-d61b-4e6e-8f7a-8e1686df06c6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fa809993b32e109802a9f9de93c6a4ae"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8b150834-d61b-4e6e-8f7a-8e1686df06c6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fa809993b32e109802a9f9de93c6a4ae"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8b150834-d61b-4e6e-8f7a-8e1686df06c6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fa809993b32e109802a9f9de93c6a4ae"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/8b150834-d61b-4e6e-8f7a-8e1686df06c6/background?territory=IT&md5ChecksumParam=b337a1adf1fb2ac510f8395eb2391704"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/8b150834-d61b-4e6e-8f7a-8e1686df06c6/cover?territory=IT&md5ChecksumParam=fa809993b32e109802a9f9de93c6a4ae"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/8b150834-d61b-4e6e-8f7a-8e1686df06c6/16-9?territory=IT&md5ChecksumParam=d26d3b75c8d5455178d6acfae7620cf8"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/8b150834-d61b-4e6e-8f7a-8e1686df06c6/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=d26d3b75c8d5455178d6acfae7620cf8"
-              }
-            }
-          ]
-        },
-        "eventId": "411386850",
-        "starttime": "2025-07-09T22:00:00Z",
-        "endtime": "2025-07-10T01:00:00Z",
-        "eventTitle": "4a g.",
-        "eventSynopsis": "4a g. - Sul percorso dell'Augusta National GC si disputa il primo Major della stagione. A confronto i migliori giocatori del mondo per la conquista dell'ambita Giacca Verde.",
-        "epgEventTitle": "4a g.",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
     "2025-07-10": [
       {
         "channel": {
@@ -1306,12 +118,12 @@
             },
             {
               "img": {
-                "url": "/uuid/d6077399-2cd0-475e-91fe-cfcc02e36cec/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=14b771c738ed209309998adf9d407432"
+                "url": "/uuid/d6077399-2cd0-475e-91fe-cfcc02e36cec/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=14b771c738ed209309998adf9d407432"
               }
             },
             {
               "img": {
-                "url": "/uuid/d6077399-2cd0-475e-91fe-cfcc02e36cec/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=14b771c738ed209309998adf9d407432"
+                "url": "/uuid/d6077399-2cd0-475e-91fe-cfcc02e36cec/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=14b771c738ed209309998adf9d407432"
               }
             },
             {
@@ -1342,7 +154,7 @@
         },
         "eventId": "411386821",
         "starttime": "2025-07-10T04:00:00Z",
-        "endtime": "2025-07-10T07:00:00Z",
+        "endtime": "2025-07-10T07:05:00Z",
         "eventTitle": "Joburg Open 4a Giornata",
         "eventSynopsis": "Joburg Open, 4a giornata - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
         "epgEventTitle": "Joburg Open 4a Giornata",
@@ -1393,12 +205,12 @@
             },
             {
               "img": {
-                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
+                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
               }
             },
             {
               "img": {
-                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
+                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
               }
             },
             {
@@ -1428,7 +240,7 @@
           ]
         },
         "eventId": "411386822",
-        "starttime": "2025-07-10T07:00:00Z",
+        "starttime": "2025-07-10T07:05:00Z",
         "endtime": "2025-07-10T07:30:00Z",
         "eventTitle": "Memorial Giorgio Bordoni",
         "eventSynopsis": "Italian Pro Tour: Memorial Giorgio Bordoni - Memorial Giorgio Bordoni.",
@@ -1557,12 +369,12 @@
             },
             {
               "img": {
-                "url": "/uuid/105ac62c-b38c-4743-82bc-019ab0bc27e1/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=260f474854b85b55e1c0a9282d188fdb"
+                "url": "/uuid/105ac62c-b38c-4743-82bc-019ab0bc27e1/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=260f474854b85b55e1c0a9282d188fdb"
               }
             },
             {
               "img": {
-                "url": "/uuid/105ac62c-b38c-4743-82bc-019ab0bc27e1/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=260f474854b85b55e1c0a9282d188fdb"
+                "url": "/uuid/105ac62c-b38c-4743-82bc-019ab0bc27e1/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=260f474854b85b55e1c0a9282d188fdb"
               }
             },
             {
@@ -1642,12 +454,12 @@
             },
             {
               "img": {
-                "url": "/uuid/13fd4b4b-03c3-4acf-9623-f60e064d3cf6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6468692d5b2c5f8b360334cc06030080"
+                "url": "/uuid/13fd4b4b-03c3-4acf-9623-f60e064d3cf6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6468692d5b2c5f8b360334cc06030080"
               }
             },
             {
               "img": {
-                "url": "/uuid/13fd4b4b-03c3-4acf-9623-f60e064d3cf6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6468692d5b2c5f8b360334cc06030080"
+                "url": "/uuid/13fd4b4b-03c3-4acf-9623-f60e064d3cf6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6468692d5b2c5f8b360334cc06030080"
               }
             },
             {
@@ -1677,8 +489,8 @@
           ]
         },
         "eventId": "411386830",
-        "starttime": "2025-07-10T18:45:00Z",
-        "endtime": "2025-07-10T19:00:00Z",
+        "starttime": "2025-07-10T18:40:00Z",
+        "endtime": "2025-07-10T18:55:00Z",
         "eventTitle": "Leggenda Rory McIlroy",
         "eventSynopsis": "Leggenda Rory McIlroy - Rory McIlroy vince per la prima volta in carriera il Masters di Augusta e conquista la Giacca Verde.",
         "epgEventTitle": "Leggenda Rory McIlroy",
@@ -1753,8 +565,8 @@
           ]
         },
         "eventId": "411386831",
-        "starttime": "2025-07-10T19:00:00Z",
-        "endtime": "2025-07-10T22:00:00Z",
+        "starttime": "2025-07-10T18:55:00Z",
+        "endtime": "2025-07-10T21:55:00Z",
         "eventTitle": "Golf Dp World Tour - Ep. 92 - Golf Dp World Tour 2025 Genesis Scottish Open 1a Giornata 10/07/2025",
         "eventSynopsis": "Scottish Open 1a g. - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
         "epgEventTitle": "Golf Dp World Tour - Ep. 92 - Golf Dp World Tour 2025 Genesis Scottish Open 1a Giornata 10/07/2025",
@@ -1800,17 +612,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/e2079dc5-f4bd-45db-ad77-d8091e4b3e89/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=41e06ba1f77edf36394474988831a61b"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/e2079dc5-f4bd-45db-ad77-d8091e4b3e89/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=41e06ba1f77edf36394474988831a61b"
               }
             },
             {
               "img": {
                 "url": "/uuid/e2079dc5-f4bd-45db-ad77-d8091e4b3e89/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=41e06ba1f77edf36394474988831a61b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/e2079dc5-f4bd-45db-ad77-d8091e4b3e89/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=41e06ba1f77edf36394474988831a61b"
               }
             },
             {
@@ -1840,8 +652,8 @@
           ]
         },
         "eventId": "411386832",
-        "starttime": "2025-07-10T22:00:00Z",
-        "endtime": "2025-07-10T22:30:00Z",
+        "starttime": "2025-07-10T21:55:00Z",
+        "endtime": "2025-07-10T22:25:00Z",
         "eventTitle": "Challenge De Cadiz",
         "eventSynopsis": "Challenge De Cadiz - Challenge Series",
         "epgEventTitle": "Challenge De Cadiz",
@@ -1892,12 +704,12 @@
             },
             {
               "img": {
-                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
+                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
               }
             },
             {
               "img": {
-                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
+                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
               }
             },
             {
@@ -1927,8 +739,8 @@
           ]
         },
         "eventId": "411386833",
-        "starttime": "2025-07-10T22:30:00Z",
-        "endtime": "2025-07-10T23:00:00Z",
+        "starttime": "2025-07-10T22:25:00Z",
+        "endtime": "2025-07-10T22:55:00Z",
         "eventTitle": "Memorial Giorgio Bordoni",
         "eventSynopsis": "Italian Pro Tour: Memorial Giorgio Bordoni - Memorial Giorgio Bordoni.",
         "epgEventTitle": "Memorial Giorgio Bordoni",
@@ -2003,8 +815,8 @@
           ]
         },
         "eventId": "411386834",
-        "starttime": "2025-07-10T23:00:00Z",
-        "endtime": "2025-07-11T02:00:00Z",
+        "starttime": "2025-07-10T22:55:00Z",
+        "endtime": "2025-07-11T01:55:00Z",
         "eventTitle": "Golf Dp World Tour - Ep. 92 - Golf Dp World Tour 2025 Genesis Scottish Open 1a Giornata 10/07/2025",
         "eventSynopsis": "Scottish Open 1a g. - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
         "epgEventTitle": "Golf Dp World Tour - Ep. 92 - Golf Dp World Tour 2025 Genesis Scottish Open 1a Giornata 10/07/2025",
@@ -2057,12 +869,12 @@
             },
             {
               "img": {
-                "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
+                "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
               }
             },
             {
               "img": {
-                "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
+                "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
               }
             },
             {
@@ -2092,8 +904,8 @@
           ]
         },
         "eventId": "411386835",
-        "starttime": "2025-07-11T02:00:00Z",
-        "endtime": "2025-07-11T03:00:00Z",
+        "starttime": "2025-07-11T01:55:00Z",
+        "endtime": "2025-07-11T02:55:00Z",
         "eventTitle": "2024",
         "eventSynopsis": "2024 - Una selezione delle migliori immagini delle passate edizioni del prestigioso torneo di golf.",
         "epgEventTitle": "2024",
@@ -2139,12 +951,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/d1180351-06fd-46a5-abe0-0c197b5fc85a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=0a5be37622e7858cd550acdcb6191611"
+                "url": "/uuid/d1180351-06fd-46a5-abe0-0c197b5fc85a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0a5be37622e7858cd550acdcb6191611"
               }
             },
             {
               "img": {
-                "url": "/uuid/d1180351-06fd-46a5-abe0-0c197b5fc85a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0a5be37622e7858cd550acdcb6191611"
+                "url": "/uuid/d1180351-06fd-46a5-abe0-0c197b5fc85a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=0a5be37622e7858cd550acdcb6191611"
               }
             },
             {
@@ -2179,7 +991,7 @@
           ]
         },
         "eventId": "411386836",
-        "starttime": "2025-07-11T03:00:00Z",
+        "starttime": "2025-07-11T02:55:00Z",
         "endtime": "2025-07-11T03:30:00Z",
         "eventTitle": "The Masters",
         "eventSynopsis": "The Masters - Le immagini piu' belle di tutte le gare della Race to Dubai. I momenti decisivi di ogni tappa del DP World Tour, con il commento dei telecronisti e dei talent di Sky Sport.",
@@ -2226,17 +1038,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b0f94429967dcc21219ecc79e916d1b2"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=55f2f7cb9f48ec2c1c8f7f7a9ff9430a"
               }
             },
             {
               "img": {
                 "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b0f94429967dcc21219ecc79e916d1b2"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b0f94429967dcc21219ecc79e916d1b2"
               }
             },
             {
@@ -2269,7 +1081,7 @@
         "starttime": "2025-07-11T03:30:00Z",
         "endtime": "2025-07-11T04:00:00Z",
         "eventTitle": "Tunisia Open",
-        "eventSynopsis": "Tunisia Open",
+        "eventSynopsis": "Alps Tour - Tunisia Open",
         "epgEventTitle": "Tunisia Open",
         "primeVision": false,
         "resolutions": [
@@ -2548,12 +1360,12 @@
             },
             {
               "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
+                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
               }
             },
             {
               "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
+                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
               }
             },
             {
@@ -2635,12 +1447,12 @@
             },
             {
               "img": {
-                "url": "/uuid/77e40f98-9dfa-418b-b46d-063c3b227eaf/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=f048176d03b17e00e11a61f06ec9a6c7"
+                "url": "/uuid/77e40f98-9dfa-418b-b46d-063c3b227eaf/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f048176d03b17e00e11a61f06ec9a6c7"
               }
             },
             {
               "img": {
-                "url": "/uuid/77e40f98-9dfa-418b-b46d-063c3b227eaf/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f048176d03b17e00e11a61f06ec9a6c7"
+                "url": "/uuid/77e40f98-9dfa-418b-b46d-063c3b227eaf/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=f048176d03b17e00e11a61f06ec9a6c7"
               }
             },
             {
@@ -2717,17 +1529,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
               }
             },
             {
               "img": {
                 "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
               }
             },
             {
@@ -2880,17 +1692,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
               }
             },
             {
               "img": {
                 "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
               }
             },
             {
@@ -2972,12 +1784,12 @@
             },
             {
               "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
+                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
               }
             },
             {
               "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
+                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
               }
             },
             {
@@ -3132,7 +1944,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
+                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
@@ -3142,7 +1954,7 @@
             },
             {
               "img": {
-                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
+                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
@@ -3219,17 +2031,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
               }
             },
             {
               "img": {
                 "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
               }
             },
             {
@@ -3541,12 +2353,12 @@
             },
             {
               "img": {
-                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
+                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
               }
             },
             {
               "img": {
-                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
+                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
               }
             },
             {
@@ -3776,17 +2588,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
               }
             },
             {
               "img": {
                 "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
               }
             },
             {
@@ -3955,12 +2767,12 @@
             },
             {
               "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
+                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
               }
             },
             {
               "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
+                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
               }
             },
             {
@@ -4118,12 +2930,12 @@
             },
             {
               "img": {
-                "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
+                "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
               }
             },
             {
               "img": {
-                "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
+                "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
               }
             },
             {
@@ -4513,12 +3325,12 @@
             },
             {
               "img": {
-                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
+                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
               }
             },
             {
               "img": {
-                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
+                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
               }
             },
             {
@@ -4595,17 +3407,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
               }
             },
             {
               "img": {
                 "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
               }
             },
             {
@@ -4840,12 +3652,12 @@
             },
             {
               "img": {
-                "url": "/uuid/77e40f98-9dfa-418b-b46d-063c3b227eaf/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=f048176d03b17e00e11a61f06ec9a6c7"
+                "url": "/uuid/77e40f98-9dfa-418b-b46d-063c3b227eaf/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f048176d03b17e00e11a61f06ec9a6c7"
               }
             },
             {
               "img": {
-                "url": "/uuid/77e40f98-9dfa-418b-b46d-063c3b227eaf/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f048176d03b17e00e11a61f06ec9a6c7"
+                "url": "/uuid/77e40f98-9dfa-418b-b46d-063c3b227eaf/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=f048176d03b17e00e11a61f06ec9a6c7"
               }
             },
             {
@@ -4927,12 +3739,12 @@
             },
             {
               "img": {
-                "url": "/uuid/378fbd05-fc21-49e7-8aab-7bf3c538f3c8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=171294fb83588e214a4aec328df936be"
+                "url": "/uuid/378fbd05-fc21-49e7-8aab-7bf3c538f3c8/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=171294fb83588e214a4aec328df936be"
               }
             },
             {
               "img": {
-                "url": "/uuid/378fbd05-fc21-49e7-8aab-7bf3c538f3c8/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=171294fb83588e214a4aec328df936be"
+                "url": "/uuid/378fbd05-fc21-49e7-8aab-7bf3c538f3c8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=171294fb83588e214a4aec328df936be"
               }
             },
             {
@@ -5090,12 +3902,12 @@
             },
             {
               "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
+                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
               }
             },
             {
               "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
+                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
               }
             },
             {
@@ -5172,17 +3984,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/98b0f88f-d00e-4993-b29b-9f61811ce6e7/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=986ac562e3bc88cc5af91e590b97f516"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/98b0f88f-d00e-4993-b29b-9f61811ce6e7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=986ac562e3bc88cc5af91e590b97f516"
               }
             },
             {
               "img": {
                 "url": "/uuid/98b0f88f-d00e-4993-b29b-9f61811ce6e7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=986ac562e3bc88cc5af91e590b97f516"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/98b0f88f-d00e-4993-b29b-9f61811ce6e7/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=986ac562e3bc88cc5af91e590b97f516"
               }
             },
             {
@@ -5342,12 +4154,12 @@
             },
             {
               "img": {
-                "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
+                "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
               }
             },
             {
               "img": {
-                "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
+                "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
               }
             },
             {
@@ -5429,12 +4241,12 @@
             },
             {
               "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
+                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
               }
             },
             {
               "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
+                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
               }
             },
             {
@@ -5511,17 +4323,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/2e46b61d-0dca-4186-87aa-4b380db2bb60/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ae9f07b27bffe3a9b8d82cb445e08293"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/2e46b61d-0dca-4186-87aa-4b380db2bb60/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae9f07b27bffe3a9b8d82cb445e08293"
               }
             },
             {
               "img": {
                 "url": "/uuid/2e46b61d-0dca-4186-87aa-4b380db2bb60/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ae9f07b27bffe3a9b8d82cb445e08293"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/2e46b61d-0dca-4186-87aa-4b380db2bb60/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ae9f07b27bffe3a9b8d82cb445e08293"
               }
             },
             {
@@ -5598,17 +4410,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
               }
             },
             {
               "img": {
                 "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/688b71e8-f968-4dce-ac66-3ba145b7b661/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e2d39ce9373d40e0bfff0523fb1575c1"
               }
             },
             {
@@ -5685,17 +4497,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b0f94429967dcc21219ecc79e916d1b2"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=55f2f7cb9f48ec2c1c8f7f7a9ff9430a"
               }
             },
             {
               "img": {
                 "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b0f94429967dcc21219ecc79e916d1b2"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b0f94429967dcc21219ecc79e916d1b2"
               }
             },
             {
@@ -5728,7 +4540,7 @@
         "starttime": "2025-07-14T22:00:00Z",
         "endtime": "2025-07-14T22:30:00Z",
         "eventTitle": "Tunisia Open",
-        "eventSynopsis": "Tunisia Open - Alps Tour",
+        "eventSynopsis": "Alps Tour - Tunisia Open",
         "epgEventTitle": "Tunisia Open",
         "primeVision": false,
         "resolutions": [
@@ -6087,12 +4899,12 @@
             },
             {
               "img": {
-                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
+                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
               }
             },
             {
               "img": {
-                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
+                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
               }
             },
             {
@@ -6556,7 +5368,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
+                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
@@ -6566,7 +5378,7 @@
             },
             {
               "img": {
-                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
+                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
@@ -7102,12 +5914,12 @@
             },
             {
               "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
+                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
               }
             },
             {
               "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
+                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
               }
             },
             {
@@ -7186,17 +5998,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b0f94429967dcc21219ecc79e916d1b2"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=55f2f7cb9f48ec2c1c8f7f7a9ff9430a"
               }
             },
             {
               "img": {
                 "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b0f94429967dcc21219ecc79e916d1b2"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b0f94429967dcc21219ecc79e916d1b2"
               }
             },
             {
@@ -7278,12 +6090,12 @@
             },
             {
               "img": {
-                "url": "/uuid/cbb36da5-81f3-4e44-aa01-1b986a3f3d42/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=292f8535d88f4258e7df611b18d9ec4f"
+                "url": "/uuid/cbb36da5-81f3-4e44-aa01-1b986a3f3d42/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=292f8535d88f4258e7df611b18d9ec4f"
               }
             },
             {
               "img": {
-                "url": "/uuid/cbb36da5-81f3-4e44-aa01-1b986a3f3d42/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=292f8535d88f4258e7df611b18d9ec4f"
+                "url": "/uuid/cbb36da5-81f3-4e44-aa01-1b986a3f3d42/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=292f8535d88f4258e7df611b18d9ec4f"
               }
             },
             {
@@ -7360,17 +6172,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
               }
             },
             {
               "img": {
                 "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
               }
             },
             {
@@ -7452,12 +6264,12 @@
             },
             {
               "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
+                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
               }
             },
             {
               "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
+                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
               }
             },
             {
@@ -7767,12 +6579,12 @@
             },
             {
               "img": {
-                "url": "/uuid/65f603f4-65ac-4572-9f8d-107d8a3f979f/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=685a4ea6e36315cf2a30bee71ea87b08"
+                "url": "/uuid/65f603f4-65ac-4572-9f8d-107d8a3f979f/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=685a4ea6e36315cf2a30bee71ea87b08"
               }
             },
             {
               "img": {
-                "url": "/uuid/65f603f4-65ac-4572-9f8d-107d8a3f979f/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=685a4ea6e36315cf2a30bee71ea87b08"
+                "url": "/uuid/65f603f4-65ac-4572-9f8d-107d8a3f979f/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=685a4ea6e36315cf2a30bee71ea87b08"
               }
             },
             {
@@ -7855,12 +6667,12 @@
             },
             {
               "img": {
-                "url": "/uuid/cbb36da5-81f3-4e44-aa01-1b986a3f3d42/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=292f8535d88f4258e7df611b18d9ec4f"
+                "url": "/uuid/cbb36da5-81f3-4e44-aa01-1b986a3f3d42/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=292f8535d88f4258e7df611b18d9ec4f"
               }
             },
             {
               "img": {
-                "url": "/uuid/cbb36da5-81f3-4e44-aa01-1b986a3f3d42/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=292f8535d88f4258e7df611b18d9ec4f"
+                "url": "/uuid/cbb36da5-81f3-4e44-aa01-1b986a3f3d42/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=292f8535d88f4258e7df611b18d9ec4f"
               }
             },
             {
@@ -7942,12 +6754,12 @@
             },
             {
               "img": {
-                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
+                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
               }
             },
             {
               "img": {
-                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
+                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
               }
             },
             {
@@ -8029,12 +6841,12 @@
             },
             {
               "img": {
-                "url": "/uuid/65f603f4-65ac-4572-9f8d-107d8a3f979f/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=685a4ea6e36315cf2a30bee71ea87b08"
+                "url": "/uuid/65f603f4-65ac-4572-9f8d-107d8a3f979f/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=685a4ea6e36315cf2a30bee71ea87b08"
               }
             },
             {
               "img": {
-                "url": "/uuid/65f603f4-65ac-4572-9f8d-107d8a3f979f/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=685a4ea6e36315cf2a30bee71ea87b08"
+                "url": "/uuid/65f603f4-65ac-4572-9f8d-107d8a3f979f/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=685a4ea6e36315cf2a30bee71ea87b08"
               }
             },
             {
@@ -8195,12 +7007,12 @@
             },
             {
               "img": {
-                "url": "/uuid/65f603f4-65ac-4572-9f8d-107d8a3f979f/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=685a4ea6e36315cf2a30bee71ea87b08"
+                "url": "/uuid/65f603f4-65ac-4572-9f8d-107d8a3f979f/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=685a4ea6e36315cf2a30bee71ea87b08"
               }
             },
             {
               "img": {
-                "url": "/uuid/65f603f4-65ac-4572-9f8d-107d8a3f979f/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=685a4ea6e36315cf2a30bee71ea87b08"
+                "url": "/uuid/65f603f4-65ac-4572-9f8d-107d8a3f979f/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=685a4ea6e36315cf2a30bee71ea87b08"
               }
             },
             {
@@ -8436,12 +7248,12 @@
             },
             {
               "img": {
-                "url": "/uuid/65f603f4-65ac-4572-9f8d-107d8a3f979f/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=685a4ea6e36315cf2a30bee71ea87b08"
+                "url": "/uuid/65f603f4-65ac-4572-9f8d-107d8a3f979f/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=685a4ea6e36315cf2a30bee71ea87b08"
               }
             },
             {
               "img": {
-                "url": "/uuid/65f603f4-65ac-4572-9f8d-107d8a3f979f/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=685a4ea6e36315cf2a30bee71ea87b08"
+                "url": "/uuid/65f603f4-65ac-4572-9f8d-107d8a3f979f/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=685a4ea6e36315cf2a30bee71ea87b08"
               }
             },
             {
@@ -8518,17 +7330,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
               "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
@@ -8606,7 +7418,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
+                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
@@ -8616,7 +7428,7 @@
             },
             {
               "img": {
-                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
+                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
@@ -8693,17 +7505,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
               "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
@@ -8785,12 +7597,12 @@
             },
             {
               "img": {
-                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
+                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
               }
             },
             {
               "img": {
-                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
+                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
               }
             },
             {
@@ -8867,7 +7679,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
+                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
@@ -8877,7 +7689,7 @@
             },
             {
               "img": {
-                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
+                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
@@ -8954,17 +7766,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
               "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
@@ -9048,12 +7860,12 @@
             },
             {
               "img": {
-                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
+                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
               }
             },
             {
               "img": {
-                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
+                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
               }
             },
             {
@@ -9130,7 +7942,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
+                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
@@ -9140,7 +7952,7 @@
             },
             {
               "img": {
-                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
+                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
@@ -9371,17 +8183,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
               }
             },
             {
               "img": {
                 "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
               }
             },
             {
@@ -9463,12 +8275,12 @@
             },
             {
               "img": {
-                "url": "/uuid/cbb36da5-81f3-4e44-aa01-1b986a3f3d42/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=292f8535d88f4258e7df611b18d9ec4f"
+                "url": "/uuid/cbb36da5-81f3-4e44-aa01-1b986a3f3d42/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=292f8535d88f4258e7df611b18d9ec4f"
               }
             },
             {
               "img": {
-                "url": "/uuid/cbb36da5-81f3-4e44-aa01-1b986a3f3d42/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=292f8535d88f4258e7df611b18d9ec4f"
+                "url": "/uuid/cbb36da5-81f3-4e44-aa01-1b986a3f3d42/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=292f8535d88f4258e7df611b18d9ec4f"
               }
             },
             {
@@ -9550,12 +8362,12 @@
             },
             {
               "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
+                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
               }
             },
             {
               "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
+                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
               }
             },
             {
@@ -9632,17 +8444,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
               "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
@@ -9959,17 +8771,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/2e46b61d-0dca-4186-87aa-4b380db2bb60/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ae9f07b27bffe3a9b8d82cb445e08293"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/2e46b61d-0dca-4186-87aa-4b380db2bb60/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae9f07b27bffe3a9b8d82cb445e08293"
               }
             },
             {
               "img": {
                 "url": "/uuid/2e46b61d-0dca-4186-87aa-4b380db2bb60/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ae9f07b27bffe3a9b8d82cb445e08293"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/2e46b61d-0dca-4186-87aa-4b380db2bb60/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ae9f07b27bffe3a9b8d82cb445e08293"
               }
             },
             {
@@ -10051,12 +8863,12 @@
             },
             {
               "img": {
-                "url": "/uuid/105ac62c-b38c-4743-82bc-019ab0bc27e1/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=260f474854b85b55e1c0a9282d188fdb"
+                "url": "/uuid/105ac62c-b38c-4743-82bc-019ab0bc27e1/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=260f474854b85b55e1c0a9282d188fdb"
               }
             },
             {
               "img": {
-                "url": "/uuid/105ac62c-b38c-4743-82bc-019ab0bc27e1/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=260f474854b85b55e1c0a9282d188fdb"
+                "url": "/uuid/105ac62c-b38c-4743-82bc-019ab0bc27e1/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=260f474854b85b55e1c0a9282d188fdb"
               }
             },
             {
@@ -10136,12 +8948,12 @@
             },
             {
               "img": {
-                "url": "/uuid/13fd4b4b-03c3-4acf-9623-f60e064d3cf6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6468692d5b2c5f8b360334cc06030080"
+                "url": "/uuid/13fd4b4b-03c3-4acf-9623-f60e064d3cf6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6468692d5b2c5f8b360334cc06030080"
               }
             },
             {
               "img": {
-                "url": "/uuid/13fd4b4b-03c3-4acf-9623-f60e064d3cf6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6468692d5b2c5f8b360334cc06030080"
+                "url": "/uuid/13fd4b4b-03c3-4acf-9623-f60e064d3cf6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6468692d5b2c5f8b360334cc06030080"
               }
             },
             {
@@ -10218,17 +9030,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
               "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
@@ -10305,17 +9117,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
               "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
@@ -10394,17 +9206,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
               }
             },
             {
               "img": {
                 "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/aa51ba6c-b61d-4fe3-a457-e359a66779b3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ae2a73b95d6c7297cb073d7472428658"
               }
             },
             {
@@ -10481,17 +9293,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
               "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
@@ -10568,17 +9380,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/2e46b61d-0dca-4186-87aa-4b380db2bb60/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ae9f07b27bffe3a9b8d82cb445e08293"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/2e46b61d-0dca-4186-87aa-4b380db2bb60/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae9f07b27bffe3a9b8d82cb445e08293"
               }
             },
             {
               "img": {
                 "url": "/uuid/2e46b61d-0dca-4186-87aa-4b380db2bb60/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ae9f07b27bffe3a9b8d82cb445e08293"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/2e46b61d-0dca-4186-87aa-4b380db2bb60/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ae9f07b27bffe3a9b8d82cb445e08293"
               }
             },
             {
@@ -10808,12 +9620,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/d1180351-06fd-46a5-abe0-0c197b5fc85a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=0a5be37622e7858cd550acdcb6191611"
+                "url": "/uuid/d1180351-06fd-46a5-abe0-0c197b5fc85a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0a5be37622e7858cd550acdcb6191611"
               }
             },
             {
               "img": {
-                "url": "/uuid/d1180351-06fd-46a5-abe0-0c197b5fc85a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0a5be37622e7858cd550acdcb6191611"
+                "url": "/uuid/d1180351-06fd-46a5-abe0-0c197b5fc85a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=0a5be37622e7858cd550acdcb6191611"
               }
             },
             {
@@ -11059,17 +9871,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
               "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
@@ -11151,12 +9963,12 @@
             },
             {
               "img": {
-                "url": "/uuid/cbb36da5-81f3-4e44-aa01-1b986a3f3d42/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=292f8535d88f4258e7df611b18d9ec4f"
+                "url": "/uuid/cbb36da5-81f3-4e44-aa01-1b986a3f3d42/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=292f8535d88f4258e7df611b18d9ec4f"
               }
             },
             {
               "img": {
-                "url": "/uuid/cbb36da5-81f3-4e44-aa01-1b986a3f3d42/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=292f8535d88f4258e7df611b18d9ec4f"
+                "url": "/uuid/cbb36da5-81f3-4e44-aa01-1b986a3f3d42/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=292f8535d88f4258e7df611b18d9ec4f"
               }
             },
             {
@@ -11238,12 +10050,12 @@
             },
             {
               "img": {
-                "url": "/uuid/77e40f98-9dfa-418b-b46d-063c3b227eaf/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=f048176d03b17e00e11a61f06ec9a6c7"
+                "url": "/uuid/77e40f98-9dfa-418b-b46d-063c3b227eaf/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f048176d03b17e00e11a61f06ec9a6c7"
               }
             },
             {
               "img": {
-                "url": "/uuid/77e40f98-9dfa-418b-b46d-063c3b227eaf/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f048176d03b17e00e11a61f06ec9a6c7"
+                "url": "/uuid/77e40f98-9dfa-418b-b46d-063c3b227eaf/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=f048176d03b17e00e11a61f06ec9a6c7"
               }
             },
             {
@@ -11325,12 +10137,12 @@
             },
             {
               "img": {
-                "url": "/uuid/fc7ab800-4f0c-4cde-816a-c24340de0d35/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2005b63a9099d338b3d0603035d82bce"
+                "url": "/uuid/fc7ab800-4f0c-4cde-816a-c24340de0d35/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2005b63a9099d338b3d0603035d82bce"
               }
             },
             {
               "img": {
-                "url": "/uuid/fc7ab800-4f0c-4cde-816a-c24340de0d35/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2005b63a9099d338b3d0603035d82bce"
+                "url": "/uuid/fc7ab800-4f0c-4cde-816a-c24340de0d35/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2005b63a9099d338b3d0603035d82bce"
               }
             },
             {
@@ -11483,17 +10295,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
               }
             },
             {
               "img": {
                 "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
               }
             },
             {
@@ -11577,12 +10389,12 @@
             },
             {
               "img": {
-                "url": "/uuid/4fce29cb-ffd1-4ef0-b780-6c3ba686a811/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b87013099cf8ae8652ad90d87c40e4fb"
+                "url": "/uuid/4fce29cb-ffd1-4ef0-b780-6c3ba686a811/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b87013099cf8ae8652ad90d87c40e4fb"
               }
             },
             {
               "img": {
-                "url": "/uuid/4fce29cb-ffd1-4ef0-b780-6c3ba686a811/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b87013099cf8ae8652ad90d87c40e4fb"
+                "url": "/uuid/4fce29cb-ffd1-4ef0-b780-6c3ba686a811/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b87013099cf8ae8652ad90d87c40e4fb"
               }
             },
             {
@@ -11664,12 +10476,12 @@
             },
             {
               "img": {
-                "url": "/uuid/903025e4-c50c-45de-b49e-3fd3a86ca17c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=0e2ec0592aa3e072e2bbbddfd151b978"
+                "url": "/uuid/903025e4-c50c-45de-b49e-3fd3a86ca17c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=0e2ec0592aa3e072e2bbbddfd151b978"
               }
             },
             {
               "img": {
-                "url": "/uuid/903025e4-c50c-45de-b49e-3fd3a86ca17c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=0e2ec0592aa3e072e2bbbddfd151b978"
+                "url": "/uuid/903025e4-c50c-45de-b49e-3fd3a86ca17c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=0e2ec0592aa3e072e2bbbddfd151b978"
               }
             },
             {
@@ -11987,17 +10799,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b0f94429967dcc21219ecc79e916d1b2"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=55f2f7cb9f48ec2c1c8f7f7a9ff9430a"
               }
             },
             {
               "img": {
                 "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b0f94429967dcc21219ecc79e916d1b2"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b0f94429967dcc21219ecc79e916d1b2"
               }
             },
             {
@@ -12074,17 +10886,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
               "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
@@ -12391,17 +11203,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
               }
             },
             {
               "img": {
                 "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
               }
             },
             {
@@ -12483,12 +11295,12 @@
             },
             {
               "img": {
-                "url": "/uuid/92827ea9-5e34-4663-8c38-b54ba689767a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=0924b9b02ee5a4a5ed48d3b565d85044"
+                "url": "/uuid/92827ea9-5e34-4663-8c38-b54ba689767a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=0924b9b02ee5a4a5ed48d3b565d85044"
               }
             },
             {
               "img": {
-                "url": "/uuid/92827ea9-5e34-4663-8c38-b54ba689767a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=0924b9b02ee5a4a5ed48d3b565d85044"
+                "url": "/uuid/92827ea9-5e34-4663-8c38-b54ba689767a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=0924b9b02ee5a4a5ed48d3b565d85044"
               }
             },
             {
@@ -12565,17 +11377,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/08f1c3e8-7925-4409-b61f-1e3d732ec511/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=de15d57a4606373c53955e376136a9b5"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/08f1c3e8-7925-4409-b61f-1e3d732ec511/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=de15d57a4606373c53955e376136a9b5"
               }
             },
             {
               "img": {
                 "url": "/uuid/08f1c3e8-7925-4409-b61f-1e3d732ec511/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=de15d57a4606373c53955e376136a9b5"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/08f1c3e8-7925-4409-b61f-1e3d732ec511/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=de15d57a4606373c53955e376136a9b5"
               }
             },
             {
@@ -12652,17 +11464,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/989ac865-14df-4b23-8905-b9a16d12627a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=52fe3b0d20f6502a6d74a5d7a557d706"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/989ac865-14df-4b23-8905-b9a16d12627a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=52fe3b0d20f6502a6d74a5d7a557d706"
               }
             },
             {
               "img": {
                 "url": "/uuid/989ac865-14df-4b23-8905-b9a16d12627a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=52fe3b0d20f6502a6d74a5d7a557d706"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/989ac865-14df-4b23-8905-b9a16d12627a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=52fe3b0d20f6502a6d74a5d7a557d706"
               }
             },
             {
@@ -12741,17 +11553,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/bb0812bb-0a06-4234-b2c9-20237b7beafa/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=229dcc34c45e84b84c47eea7c3100e6f"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/bb0812bb-0a06-4234-b2c9-20237b7beafa/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=229dcc34c45e84b84c47eea7c3100e6f"
               }
             },
             {
               "img": {
                 "url": "/uuid/bb0812bb-0a06-4234-b2c9-20237b7beafa/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=229dcc34c45e84b84c47eea7c3100e6f"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/bb0812bb-0a06-4234-b2c9-20237b7beafa/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=229dcc34c45e84b84c47eea7c3100e6f"
               }
             },
             {
@@ -12833,12 +11645,12 @@
             },
             {
               "img": {
-                "url": "/uuid/024c6a82-4dad-4d68-96cd-77a30b41bfb3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f61299772a803e2e39f63c5c002f8bfa"
+                "url": "/uuid/024c6a82-4dad-4d68-96cd-77a30b41bfb3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f61299772a803e2e39f63c5c002f8bfa"
               }
             },
             {
               "img": {
-                "url": "/uuid/024c6a82-4dad-4d68-96cd-77a30b41bfb3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f61299772a803e2e39f63c5c002f8bfa"
+                "url": "/uuid/024c6a82-4dad-4d68-96cd-77a30b41bfb3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f61299772a803e2e39f63c5c002f8bfa"
               }
             },
             {
@@ -12992,17 +11804,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
               "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
@@ -13156,17 +11968,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
               }
             },
             {
               "img": {
                 "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
               }
             },
             {
@@ -13320,17 +12132,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/08f1c3e8-7925-4409-b61f-1e3d732ec511/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=de15d57a4606373c53955e376136a9b5"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/08f1c3e8-7925-4409-b61f-1e3d732ec511/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=de15d57a4606373c53955e376136a9b5"
               }
             },
             {
               "img": {
                 "url": "/uuid/08f1c3e8-7925-4409-b61f-1e3d732ec511/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=de15d57a4606373c53955e376136a9b5"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/08f1c3e8-7925-4409-b61f-1e3d732ec511/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=de15d57a4606373c53955e376136a9b5"
               }
             },
             {
@@ -13365,76 +12177,6 @@
         "eventTitle": "Qatar Masters 4a Giornata",
         "eventSynopsis": "Qatar Masters 4a Giornata - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
         "epgEventTitle": "Qatar Masters 4a Giornata",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "a66dc379-a517-48cd-8e58-587794b0f617",
-          "contentTitle": "Programma da definire",
-          "url": "/programmi-tv/fiction/programma-da-definire/a66dc379-a517-48cd-8e58-587794b0f617",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 9,
-            "name": "Fiction"
-          },
-          "imagesMap": [
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/SportCalcio_Cover_JgZRMKTlp.png"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/SportCalcio_Background_u6JP1797W.png"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411516243",
-        "starttime": "2025-07-24T18:00:00Z",
-        "endtime": "2025-07-24T18:30:00Z",
-        "eventTitle": "Programmazione non disponibile",
-        "eventSynopsis": "The Open Championship 2025 - Le immagini piu' belle di tutte le gare della Race to Dubai. I momenti decisivi di ogni tappa del DP World Tour, con il commento dei telecronisti e dei talent di Sky Sport.",
-        "epgEventTitle": "Programmazione non disponibile",
         "primeVision": false,
         "resolutions": [
           {
@@ -13738,17 +12480,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
               "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
@@ -13914,17 +12656,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
               "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
@@ -14001,17 +12743,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
               }
             },
             {
               "img": {
                 "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
               }
             },
             {
@@ -14093,12 +12835,12 @@
             },
             {
               "img": {
-                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
+                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
               }
             },
             {
               "img": {
-                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
+                "url": "/uuid/062a8565-ad2e-45fc-8e46-03e43bbe537c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2836b42271730910b7605c502774f88d"
               }
             },
             {
@@ -14236,76 +12978,6 @@
           }
         },
         "content": {
-          "uuid": "a66dc379-a517-48cd-8e58-587794b0f617",
-          "contentTitle": "Programma da definire",
-          "url": "/programmi-tv/fiction/programma-da-definire/a66dc379-a517-48cd-8e58-587794b0f617",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 9,
-            "name": "Fiction"
-          },
-          "imagesMap": [
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/SportCalcio_Cover_JgZRMKTlp.png"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/SportCalcio_Background_u6JP1797W.png"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411516225",
-        "starttime": "2025-07-25T11:00:00Z",
-        "endtime": "2025-07-25T11:30:00Z",
-        "eventTitle": "Programmazione non disponibile",
-        "eventSynopsis": "The Open Championship 2025 - Le immagini piu' belle di tutte le gare della Race to Dubai. I momenti decisivi di ogni tappa del DP World Tour, con il commento dei telecronisti e dei talent di Sky Sport.",
-        "epgEventTitle": "Programmazione non disponibile",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
           "uuid": "896b2c14-de82-4806-ba56-30a458ff6dab",
           "contentTitle": "Italian Open 4a g.",
           "episodeNumber": 83,
@@ -14322,17 +12994,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
               "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
@@ -14409,12 +13081,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/d1180351-06fd-46a5-abe0-0c197b5fc85a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=0a5be37622e7858cd550acdcb6191611"
+                "url": "/uuid/d1180351-06fd-46a5-abe0-0c197b5fc85a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0a5be37622e7858cd550acdcb6191611"
               }
             },
             {
               "img": {
-                "url": "/uuid/d1180351-06fd-46a5-abe0-0c197b5fc85a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0a5be37622e7858cd550acdcb6191611"
+                "url": "/uuid/d1180351-06fd-46a5-abe0-0c197b5fc85a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=0a5be37622e7858cd550acdcb6191611"
               }
             },
             {
@@ -14496,17 +13168,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
               }
             },
             {
               "img": {
                 "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
               }
             },
             {
@@ -14660,17 +13332,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
               }
             },
             {
               "img": {
                 "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/3bd14b59-6cda-4668-af30-4315df8ac00f/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=a1b9ecc9f806b13ceadcf3c98b341d52"
               }
             },
             {
@@ -14747,17 +13419,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/82b87a99-76f5-4b98-8dad-985dbe023b1a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=eef85caf493a577f5be011cab82be9ce"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/82b87a99-76f5-4b98-8dad-985dbe023b1a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=eef85caf493a577f5be011cab82be9ce"
               }
             },
             {
               "img": {
                 "url": "/uuid/82b87a99-76f5-4b98-8dad-985dbe023b1a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=eef85caf493a577f5be011cab82be9ce"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/82b87a99-76f5-4b98-8dad-985dbe023b1a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=eef85caf493a577f5be011cab82be9ce"
               }
             },
             {
@@ -14834,17 +13506,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/8b150834-d61b-4e6e-8f7a-8e1686df06c6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fa809993b32e109802a9f9de93c6a4ae"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/8b150834-d61b-4e6e-8f7a-8e1686df06c6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fa809993b32e109802a9f9de93c6a4ae"
               }
             },
             {
               "img": {
                 "url": "/uuid/8b150834-d61b-4e6e-8f7a-8e1686df06c6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fa809993b32e109802a9f9de93c6a4ae"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/8b150834-d61b-4e6e-8f7a-8e1686df06c6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fa809993b32e109802a9f9de93c6a4ae"
               }
             },
             {
@@ -15239,17 +13911,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/98b0f88f-d00e-4993-b29b-9f61811ce6e7/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=986ac562e3bc88cc5af91e590b97f516"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/98b0f88f-d00e-4993-b29b-9f61811ce6e7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=986ac562e3bc88cc5af91e590b97f516"
               }
             },
             {
               "img": {
                 "url": "/uuid/98b0f88f-d00e-4993-b29b-9f61811ce6e7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=986ac562e3bc88cc5af91e590b97f516"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/98b0f88f-d00e-4993-b29b-9f61811ce6e7/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=986ac562e3bc88cc5af91e590b97f516"
               }
             },
             {
@@ -15326,17 +13998,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/ce66c68e-968b-49f2-8496-a0ecc9dd0601/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=905947a55a13417b55690533726f022d"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/ce66c68e-968b-49f2-8496-a0ecc9dd0601/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=905947a55a13417b55690533726f022d"
               }
             },
             {
               "img": {
                 "url": "/uuid/ce66c68e-968b-49f2-8496-a0ecc9dd0601/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=905947a55a13417b55690533726f022d"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/ce66c68e-968b-49f2-8496-a0ecc9dd0601/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=905947a55a13417b55690533726f022d"
               }
             },
             {
@@ -15551,76 +14223,6 @@
           }
         },
         "content": {
-          "uuid": "a66dc379-a517-48cd-8e58-587794b0f617",
-          "contentTitle": "Programma da definire",
-          "url": "/programmi-tv/fiction/programma-da-definire/a66dc379-a517-48cd-8e58-587794b0f617",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 9,
-            "name": "Fiction"
-          },
-          "imagesMap": [
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/SportCalcio_Cover_JgZRMKTlp.png"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/SportCalcio_Background_u6JP1797W.png"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411516255",
-        "starttime": "2025-07-26T14:30:00Z",
-        "endtime": "2025-07-26T15:00:00Z",
-        "eventTitle": "Programmazione non disponibile",
-        "eventSynopsis": "The Open Championship 2025 - Le immagini piu' belle di tutte le gare della Race to Dubai. I momenti decisivi di ogni tappa del DP World Tour, con il commento dei telecronisti e dei talent di Sky Sport.",
-        "epgEventTitle": "Programmazione non disponibile",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
           "uuid": "896b2c14-de82-4806-ba56-30a458ff6dab",
           "contentTitle": "Italian Open 4a g.",
           "episodeNumber": 83,
@@ -15637,17 +14239,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
               "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
@@ -15727,12 +14329,12 @@
             },
             {
               "img": {
-                "url": "/uuid/13fd4b4b-03c3-4acf-9623-f60e064d3cf6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6468692d5b2c5f8b360334cc06030080"
+                "url": "/uuid/13fd4b4b-03c3-4acf-9623-f60e064d3cf6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6468692d5b2c5f8b360334cc06030080"
               }
             },
             {
               "img": {
-                "url": "/uuid/13fd4b4b-03c3-4acf-9623-f60e064d3cf6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6468692d5b2c5f8b360334cc06030080"
+                "url": "/uuid/13fd4b4b-03c3-4acf-9623-f60e064d3cf6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6468692d5b2c5f8b360334cc06030080"
               }
             },
             {
@@ -15809,17 +14411,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/efe9bf47-ab56-4dfb-8458-9af768af1e98/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c75ac6567c9490d082c54b47e443dc17"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/efe9bf47-ab56-4dfb-8458-9af768af1e98/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c75ac6567c9490d082c54b47e443dc17"
               }
             },
             {
               "img": {
                 "url": "/uuid/efe9bf47-ab56-4dfb-8458-9af768af1e98/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c75ac6567c9490d082c54b47e443dc17"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/efe9bf47-ab56-4dfb-8458-9af768af1e98/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c75ac6567c9490d082c54b47e443dc17"
               }
             },
             {
@@ -15896,17 +14498,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
               "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
@@ -16077,12 +14679,12 @@
             },
             {
               "img": {
-                "url": "/uuid/d6077399-2cd0-475e-91fe-cfcc02e36cec/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=14b771c738ed209309998adf9d407432"
+                "url": "/uuid/d6077399-2cd0-475e-91fe-cfcc02e36cec/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=14b771c738ed209309998adf9d407432"
               }
             },
             {
               "img": {
-                "url": "/uuid/d6077399-2cd0-475e-91fe-cfcc02e36cec/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=14b771c738ed209309998adf9d407432"
+                "url": "/uuid/d6077399-2cd0-475e-91fe-cfcc02e36cec/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=14b771c738ed209309998adf9d407432"
               }
             },
             {
@@ -16246,7 +14848,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
+                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
@@ -16256,7 +14858,7 @@
             },
             {
               "img": {
-                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
+                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
@@ -16317,76 +14919,6 @@
           }
         },
         "content": {
-          "uuid": "a66dc379-a517-48cd-8e58-587794b0f617",
-          "contentTitle": "Programma da definire",
-          "url": "/programmi-tv/fiction/programma-da-definire/a66dc379-a517-48cd-8e58-587794b0f617",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 9,
-            "name": "Fiction"
-          },
-          "imagesMap": [
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/SportCalcio_Cover_JgZRMKTlp.png"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/SportCalcio_Background_u6JP1797W.png"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/SportCalcio_Scene_8PgF6U81O_.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411516013",
-        "starttime": "2025-07-27T07:30:00Z",
-        "endtime": "2025-07-27T08:00:00Z",
-        "eventTitle": "Programmazione non disponibile",
-        "eventSynopsis": "The Open Championship 2025 - Le immagini piu' belle di tutte le gare della Race to Dubai. I momenti decisivi di ogni tappa del DP World Tour, con il commento dei telecronisti e dei talent di Sky Sport.",
-        "epgEventTitle": "Programmazione non disponibile",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
           "uuid": "5fb98287-1d2b-46df-ad20-dea64b4810a8",
           "contentTitle": "4a g.",
           "episodeNumber": 4,
@@ -16403,17 +14935,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4281600fb20cf1bc1ce97f7f0ab629d0"
               }
             },
             {
               "img": {
                 "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/5fb98287-1d2b-46df-ad20-dea64b4810a8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8826c4972df9ea9f6bedb81d2e3331a8"
               }
             },
             {
@@ -16644,17 +15176,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b0f94429967dcc21219ecc79e916d1b2"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=55f2f7cb9f48ec2c1c8f7f7a9ff9430a"
               }
             },
             {
               "img": {
                 "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b0f94429967dcc21219ecc79e916d1b2"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b0f94429967dcc21219ecc79e916d1b2"
               }
             },
             {
@@ -16731,17 +15263,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
               "img": {
                 "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/fa1fb46c-bd96-4bf2-8866-c39f1b3817ed/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=ab4be6ba5b3b45df6558474ea5dbef00"
               }
             },
             {
@@ -16900,12 +15432,12 @@
             },
             {
               "img": {
-                "url": "/uuid/378fbd05-fc21-49e7-8aab-7bf3c538f3c8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=171294fb83588e214a4aec328df936be"
+                "url": "/uuid/378fbd05-fc21-49e7-8aab-7bf3c538f3c8/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=171294fb83588e214a4aec328df936be"
               }
             },
             {
               "img": {
-                "url": "/uuid/378fbd05-fc21-49e7-8aab-7bf3c538f3c8/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=171294fb83588e214a4aec328df936be"
+                "url": "/uuid/378fbd05-fc21-49e7-8aab-7bf3c538f3c8/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=171294fb83588e214a4aec328df936be"
               }
             },
             {
@@ -17059,17 +15591,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
               "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
@@ -17146,17 +15678,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/8b150834-d61b-4e6e-8f7a-8e1686df06c6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fa809993b32e109802a9f9de93c6a4ae"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/8b150834-d61b-4e6e-8f7a-8e1686df06c6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fa809993b32e109802a9f9de93c6a4ae"
               }
             },
             {
               "img": {
                 "url": "/uuid/8b150834-d61b-4e6e-8f7a-8e1686df06c6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fa809993b32e109802a9f9de93c6a4ae"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/8b150834-d61b-4e6e-8f7a-8e1686df06c6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fa809993b32e109802a9f9de93c6a4ae"
               }
             },
             {
