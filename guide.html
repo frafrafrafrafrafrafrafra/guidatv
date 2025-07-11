@@ -181,206 +181,230 @@
   <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
 </head>
 <body>
-<div class="container">
-  <header><h1 id="channel-name">Caricamento...</h1></header>
-  <div id="content">
-    <div class="loading" id="loading">Caricamento guida TV in corso...</div>
-    <div id="error-message" class="error" style="display:none;"></div>
-    <div id="controls" style="display:none;">
-      <div class="search-container"><input type="text" id="search-input" placeholder="Cerca programmi..."></div>
-      <div class="date-navigation">
-        <button id="prev-day">◀</button>
-        <div style="display:flex; flex-direction:column; align-items:center;">
-          <div class="current-date" id="current-date" title="Clicca per selezionare una data"></div>
-          <input type="date" id="date-picker" />
+  <div class="container">
+    <header><h1 id="channel-name">Caricamento...</h1></header>
+    <div id="content">
+      <div class="loading" id="loading">Caricamento guida TV in corso...</div>
+      <div id="error-message" class="error" style="display:none;"></div>
+      <div id="controls" style="display:none;">
+        <div class="search-container"><input type="text" id="search-input" placeholder="Cerca programmi..."></div>
+        <div class="date-navigation">
+          <button id="prev-day">◀</button>
+          <div style="display:flex; flex-direction:column; align-items:center;">
+            <div class="current-date" id="current-date" title="Clicca per selezionare una data"></div>
+            <input type="date" id="date-picker" />
+          </div>
+          <button id="next-day">▶</button>
         </div>
-        <button id="next-day">▶</button>
+        <button id="export-txt-btn">Esporta in TXT</button>
+        <div id="programs-container"></div>
       </div>
-      <button id="export-txt-btn">Esporta in TXT</button>
-      <div id="programs-container"></div>
     </div>
   </div>
-</div>
-<footer title="Clicca per attivare/disattivare la modalità scura">Powered by 🐯 - Modalità Scura OFF</footer>
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  const { DateTime } = luxon;
-  const urlParams = new URLSearchParams(window.location.search);
-  const siteId = urlParams.get('site_id');
-  const channelName = urlParams.get('name') || "Canale sconosciuto";
-  const channelNameElem = document.getElementById('channel-name');
-  const loadingElem = document.getElementById('loading');
-  const errorElem = document.getElementById('error-message');
-  const controlsElem = document.getElementById('controls');
-  const programsContainer = document.getElementById('programs-container');
-  const searchInput = document.getElementById('search-input');
-  const prevDayBtn = document.getElementById('prev-day');
-  const nextDayBtn = document.getElementById('next-day');
-  const currentDateElem = document.getElementById('current-date');
-  const datePicker = document.getElementById('date-picker');
-  const exportTxtBtn = document.getElementById('export-txt-btn');
-  const footer = document.querySelector('footer');
-  let allPrograms = {};
-  let currentDate = DateTime.now().setZone('Europe/Rome').startOf('day');
+  <footer title="Clicca per attivare/disattivare la modalità scura">Powered by 🐯 - Modalità Scura OFF</footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const { DateTime } = luxon;
+      const urlParams = new URLSearchParams(window.location.search);
+      const siteId = urlParams.get('site_id');
+      const channelName = urlParams.get('name') || "Canale sconosciuto";
 
-  function formatDate(dt) {
-    return dt.toISODate();
-  }
-  function formatReadableDate(dt) {
-    return dt.setLocale('it').toLocaleString({ weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
-  }
-  function isSimplifiedChannel(firstProgram) {
-    return !firstProgram.hasOwnProperty('content') && !firstProgram.hasOwnProperty('channel');
-  }
-  function showPrograms(searchTerm = '') {
-    const dayStr = formatDate(currentDate);
-    const dayPrograms = allPrograms[dayStr] || [];
-    programsContainer.innerHTML = '';
-    if (dayPrograms.length === 0) {
-      programsContainer.innerHTML = '<div class="program">Nessun programma in onda in questa data.</div>';
-      return;
-    }
-    const simplified = isSimplifiedChannel(dayPrograms[0]);
-    const now = DateTime.now().setZone('Europe/Rome');
-    const isToday = formatDate(currentDate) === formatDate(now);
-    const filtered = searchTerm
-      ? dayPrograms.filter(p => {
-          const title = p.epgEventTitle || p.eventTitle || p.title || '';
-          const synopsis = p.eventSynopsis || p.description || '';
-          return title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                 synopsis.toLowerCase().includes(searchTerm.toLowerCase());
-        })
-      : dayPrograms;
-    filtered.forEach((program, idx) => {
-      const start = program.time
-        ? DateTime.fromFormat(program.time, 'HH:mm', { zone: 'Europe/Rome' })
-        : DateTime.fromISO(program.starttime || program.start, { zone: 'Europe/Rome' });
-      const next = filtered[idx + 1];
-      const end = next?.time
-        ? DateTime.fromFormat(next.time, 'HH:mm', { zone: 'Europe/Rome' })
-        : DateTime.fromISO(program.endtime || program.end, { zone: 'Europe/Rome' });
-      const isNow = isToday && start.isValid && now >= start && (!end || now < end);
-      let finalTitle = simplified
-        ? (program.title || '') + (program.episode_info ? ' - ' + program.episode_info : '')
-        : (program.epgEventTitle || program.eventTitle || program.title || 'Titolo sconosciuto');
-      const description = program.eventSynopsis || program.description || '';
-      const isPrimeVision = program.primeVision || false;
-      let statusText = '';
-      if (isNow && isPrimeVision) statusText = `<span class="now-on-air">• Ora in onda</span> <span class="prime-vision">• Prima TV</span>`;
-      else if (isNow) statusText = `<span class="now-on-air">• Ora in onda</span>`;
-      else if (isPrimeVision) statusText = `<span class="prime-vision">• Prima TV</span>`;
-      const timeStr = program.time || (start.isValid && end.isValid ? `${start.toFormat('HH:mm')} - ${end.toFormat('HH:mm')}` : 'Orario sconosciuto');
-      const programElem = document.createElement('div');
-      programElem.className = 'program';
-      if (isNow) programElem.style.borderLeft = '4px solid #e74c3c';
-      else if (isPrimeVision) programElem.style.borderLeft = '4px solid #1a4b8c';
-      programElem.innerHTML = `
-        <div class="program-time">${timeStr} ${statusText}</div>
-        <div class="program-title">${finalTitle}</div>
-        ${description ? `<div class="program-synopsis">${description}</div>` : ''}
-      `;
-      programsContainer.appendChild(programElem);
-    });
-  }
-  function updateView() {
-    currentDateElem.textContent = formatReadableDate(currentDate);
-    document.title = `${channelName} - ${formatReadableDate(currentDate)}`;
-    showPrograms(searchInput.value);
-    datePicker.value = formatDate(currentDate);
-  }
-  function loadChannelData() {
-    if (!siteId) {
-      loadingElem.style.display = 'none';
-      errorElem.style.display = 'block';
-      errorElem.textContent = "Parametro site_id mancante nell'URL";
-      return;
-    }
-    channelNameElem.textContent = channelName;
-    const jsonPath = `output/guides/${encodeURIComponent(siteId)}.json`;
-    fetch(jsonPath)
-      .then(res => res.ok ? res.json() : Promise.reject(res))
-      .then(data => {
-        if (!data.events_by_date) throw new Error("Formato dati non valido: manca events_by_date");
-        allPrograms = data.events_by_date;
-        loadingElem.style.display = 'none';
-        controlsElem.style.display = 'block';
-        exportTxtBtn.style.display = 'inline-block';
+      const channelNameElem = document.getElementById('channel-name');
+      const loadingElem = document.getElementById('loading');
+      const errorElem = document.getElementById('error-message');
+      const controlsElem = document.getElementById('controls');
+      const programsContainer = document.getElementById('programs-container');
+      const searchInput = document.getElementById('search-input');
+      const prevDayBtn = document.getElementById('prev-day');
+      const nextDayBtn = document.getElementById('next-day');
+      const currentDateElem = document.getElementById('current-date');
+      const datePicker = document.getElementById('date-picker');
+      const exportTxtBtn = document.getElementById('export-txt-btn');
+      const footer = document.querySelector('footer');
+
+      let allPrograms = {};
+      let currentDate = DateTime.now().setZone('Europe/Rome').startOf('day');
+
+      function formatDate(dt) {
+        return dt.toISODate();
+      }
+      function formatReadableDate(dt) {
+        return dt.setLocale('it').toLocaleString({ weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+      }
+      function isSimplifiedChannel(firstProgram) {
+        return !firstProgram.hasOwnProperty('content') && !firstProgram.hasOwnProperty('channel');
+      }
+      function getSynopsis(program) {
+        // Cerca di prendere la sinossi da eventSynopsis, description o synopsis (nell'ordine)
+        return program.eventSynopsis || program.description || program.synopsis || '';
+      }
+      function showPrograms(searchTerm = '') {
+        const dayStr = formatDate(currentDate);
+        const dayPrograms = allPrograms[dayStr] || [];
+        programsContainer.innerHTML = '';
+
+        if (dayPrograms.length === 0) {
+          programsContainer.innerHTML = '<div class="program">Nessun programma in onda in questa data.</div>';
+          return;
+        }
+
+        const simplified = isSimplifiedChannel(dayPrograms[0]);
+        const now = DateTime.now().setZone('Europe/Rome');
+        const isToday = formatDate(currentDate) === formatDate(now);
+
+        const filtered = searchTerm
+          ? dayPrograms.filter(p => {
+              const title = p.epgEventTitle || p.eventTitle || p.title || '';
+              const synopsis = getSynopsis(p);
+              return title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                     synopsis.toLowerCase().includes(searchTerm.toLowerCase());
+            })
+          : dayPrograms;
+
+        filtered.forEach((program, idx) => {
+          const start = program.time
+            ? DateTime.fromFormat(program.time, 'HH:mm', { zone: 'Europe/Rome' })
+            : DateTime.fromISO(program.starttime || program.start, { zone: 'Europe/Rome' });
+          const next = filtered[idx + 1];
+          const end = next?.time
+            ? DateTime.fromFormat(next.time, 'HH:mm', { zone: 'Europe/Rome' })
+            : DateTime.fromISO(program.endtime || program.end, { zone: 'Europe/Rome' });
+
+          const isNow = isToday && start.isValid && now >= start && (!end || now < end);
+
+          let finalTitle = simplified
+            ? (program.title || '') + (program.episode_info ? ' - ' + program.episode_info : '')
+            : (program.epgEventTitle || program.eventTitle || program.title || 'Titolo sconosciuto');
+
+          const description = getSynopsis(program);
+          const isPrimeVision = program.primeVision || false;
+
+          let statusText = '';
+          if (isNow && isPrimeVision) statusText = `<span class="now-on-air">• Ora in onda</span> <span class="prime-vision">• Prima TV</span>`;
+          else if (isNow) statusText = `<span class="now-on-air">• Ora in onda</span>`;
+          else if (isPrimeVision) statusText = `<span class="prime-vision">• Prima TV</span>`;
+
+          const timeStr = program.time || (start.isValid && end.isValid ? `${start.toFormat('HH:mm')} - ${end.toFormat('HH:mm')}` : 'Orario sconosciuto');
+
+          const programElem = document.createElement('div');
+          programElem.className = 'program';
+          if (isNow) programElem.style.borderLeft = '4px solid #e74c3c';
+          else if (isPrimeVision) programElem.style.borderLeft = '4px solid #1a4b8c';
+
+          programElem.innerHTML = `
+            <div class="program-time">${timeStr} ${statusText}</div>
+            <div class="program-title">${finalTitle}</div>
+            ${description ? `<div class="program-synopsis">${description}</div>` : ''}
+          `;
+          programsContainer.appendChild(programElem);
+        });
+      }
+
+      function updateView() {
+        currentDateElem.textContent = formatReadableDate(currentDate);
+        document.title = `${channelName} - ${formatReadableDate(currentDate)}`;
+        showPrograms(searchInput.value);
+        datePicker.value = formatDate(currentDate);
+      }
+
+      function loadChannelData() {
+        if (!siteId) {
+          loadingElem.style.display = 'none';
+          errorElem.style.display = 'block';
+          errorElem.textContent = "Parametro site_id mancante nell'URL";
+          return;
+        }
+        channelNameElem.textContent = channelName;
+        const jsonPath = `output/guides/${encodeURIComponent(siteId)}.json`;
+        fetch(jsonPath)
+          .then(res => res.ok ? res.json() : Promise.reject(res))
+          .then(data => {
+            if (!data.events_by_date) throw new Error("Formato dati non valido: manca events_by_date");
+            allPrograms = data.events_by_date;
+            loadingElem.style.display = 'none';
+            controlsElem.style.display = 'block';
+            exportTxtBtn.style.display = 'inline-block';
+            updateView();
+          })
+          .catch(err => {
+            loadingElem.style.display = 'none';
+            errorElem.style.display = 'block';
+            errorElem.textContent = `Errore caricamento guida TV: ${err.message || err.statusText}`;
+          });
+      }
+
+      prevDayBtn.addEventListener('click', () => { currentDate = currentDate.minus({ days: 1 }); updateView(); });
+      nextDayBtn.addEventListener('click', () => { currentDate = currentDate.plus({ days: 1 }); updateView(); });
+      searchInput.addEventListener('input', () => updateView());
+      currentDateElem.addEventListener('click', () => { datePicker.style.display = 'block'; datePicker.focus(); });
+      datePicker.addEventListener('change', () => {
+        if (datePicker.value) currentDate = DateTime.fromISO(datePicker.value, { zone: 'Europe/Rome' });
         updateView();
-      })
-      .catch(err => {
-        loadingElem.style.display = 'none';
-        errorElem.style.display = 'block';
-        errorElem.textContent = `Errore caricamento guida TV: ${err.message || err.statusText}`;
+        datePicker.style.display = 'none';
       });
-  }
-  prevDayBtn.addEventListener('click', () => { currentDate = currentDate.minus({ days: 1 }); updateView(); });
-  nextDayBtn.addEventListener('click', () => { currentDate = currentDate.plus({ days: 1 }); updateView(); });
-  searchInput.addEventListener('input', () => updateView());
-  currentDateElem.addEventListener('click', () => { datePicker.style.display = 'block'; datePicker.focus(); });
-  datePicker.addEventListener('change', () => {
-    if (datePicker.value) currentDate = DateTime.fromISO(datePicker.value, { zone: 'Europe/Rome' });
-    updateView();
-    datePicker.style.display = 'none';
-  });
-  datePicker.addEventListener('blur', () => datePicker.style.display = 'none');
-  exportTxtBtn.addEventListener('click', () => {
-    const dayStr = formatDate(currentDate);
-    const dayPrograms = allPrograms[dayStr] || [];
-    if (dayPrograms.length === 0) {
-      alert('Nessun programma disponibile per questa data.');
-      return;
-    }
-    const simplified = isSimplifiedChannel(dayPrograms[0]);
-    let lines = [`Guida TV - ${channelName}`, `Data: ${formatReadableDate(currentDate)}`, ''];
-    dayPrograms.forEach((program, idx) => {
-      const start = program.time
-        ? DateTime.fromFormat(program.time, 'HH:mm', { zone: 'Europe/Rome' })
-        : DateTime.fromISO(program.starttime || program.start, { zone: 'Europe/Rome' });
-      const next = dayPrograms[idx + 1];
-      const end = next?.time
-        ? DateTime.fromFormat(next.time, 'HH:mm', { zone: 'Europe/Rome' })
-        : DateTime.fromISO(program.endtime || program.end, { zone: 'Europe/Rome' });
-      const timeStr = program.time || (start.isValid && end.isValid ? `${start.toFormat('HH:mm')} - ${end.toFormat('HH:mm')}` : 'Orario sconosciuto');
-      let finalTitle = simplified
-        ? (program.title || '') + (program.episode_info ? ' - ' + program.episode_info : '')
-        : (program.epgEventTitle || program.eventTitle || program.title || 'Titolo sconosciuto');
-      const description = program.eventSynopsis || program.description || '';
-      lines.push(`- ${timeStr}`);
-      lines.push(`  Titolo: ${finalTitle}`);
-      if (description) lines.push(`  Descrizione: ${description}`);
-      lines.push('');
+      datePicker.addEventListener('blur', () => datePicker.style.display = 'none');
+
+      exportTxtBtn.addEventListener('click', () => {
+        const dayStr = formatDate(currentDate);
+        const dayPrograms = allPrograms[dayStr] || [];
+        if (dayPrograms.length === 0) {
+          alert('Nessun programma disponibile per questa data.');
+          return;
+        }
+        const simplified = isSimplifiedChannel(dayPrograms[0]);
+        let lines = [`Guida TV - ${channelName}`, `Data: ${formatReadableDate(currentDate)}`, ''];
+        dayPrograms.forEach((program, idx) => {
+          const start = program.time
+            ? DateTime.fromFormat(program.time, 'HH:mm', { zone: 'Europe/Rome' })
+            : DateTime.fromISO(program.starttime || program.start, { zone: 'Europe/Rome' });
+          const next = dayPrograms[idx + 1];
+          const end = next?.time
+            ? DateTime.fromFormat(next.time, 'HH:mm', { zone: 'Europe/Rome' })
+            : DateTime.fromISO(program.endtime || program.end, { zone: 'Europe/Rome' });
+          const timeStr = program.time || (start.isValid && end.isValid ? `${start.toFormat('HH:mm')} - ${end.toFormat('HH:mm')}` : 'Orario sconosciuto');
+          let finalTitle = simplified
+            ? (program.title || '') + (program.episode_info ? ' - ' + program.episode_info : '')
+            : (program.epgEventTitle || program.eventTitle || program.title || 'Titolo sconosciuto');
+          const description = getSynopsis(program);
+          lines.push(`- ${timeStr}`);
+          lines.push(`  Titolo: ${finalTitle}`);
+          if (description) lines.push(`  Descrizione: ${description}`);
+          lines.push('');
+        });
+        const txtContent = lines.join('\n');
+        const blob = new Blob([txtContent], { type: 'text/plain' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        const safeChannelName = channelName.replace(/[^a-z0-9]/gi, '_').toLowerCase();
+        const safeDate = formatDate(currentDate);
+        a.href = url;
+        a.download = `${safeChannelName}_${safeDate}.txt`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      });
+
+      document.addEventListener('keydown', e => {
+        if (e.key === 'ArrowLeft') { currentDate = currentDate.minus({ days: 1 }); updateView(); }
+        else if (e.key === 'ArrowRight') { currentDate = currentDate.plus({ days: 1 }); updateView(); }
+      });
+
+      function toggleDarkMode() {
+        const isDark = document.body.classList.toggle('dark-mode');
+        footer.textContent = 'Powered by 🐯 - Modalità Scura ' + (isDark ? 'ON' : 'OFF');
+        footer.title = 'Clicca per attivare/disattivare la modalità scura';
+        localStorage.setItem('darkMode', isDark ? 'true' : 'false');
+      }
+      const darkModeStored = localStorage.getItem('darkMode');
+      if (darkModeStored === 'true') {
+        document.body.classList.add('dark-mode');
+        footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
+      }
+      footer.addEventListener('click', toggleDarkMode);
+
+      loadChannelData();
     });
-    const txtContent = lines.join('\n');
-    const blob = new Blob([txtContent], { type: 'text/plain' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    const safeChannelName = channelName.replace(/[^a-z0-9]/gi, '_').toLowerCase();
-    const safeDate = formatDate(currentDate);
-    a.href = url;
-    a.download = `${safeChannelName}_${safeDate}.txt`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-  });
-  document.addEventListener('keydown', e => {
-    if (e.key === 'ArrowLeft') { currentDate = currentDate.minus({ days: 1 }); updateView(); }
-    else if (e.key === 'ArrowRight') { currentDate = currentDate.plus({ days: 1 }); updateView(); }
-  });
-  function toggleDarkMode() {
-    const isDark = document.body.classList.toggle('dark-mode');
-    footer.textContent = 'Powered by 🐯 - Modalità Scura ' + (isDark ? 'ON' : 'OFF');
-    footer.title = 'Clicca per attivare/disattivare la modalità scura';
-    localStorage.setItem('darkMode', isDark ? 'true' : 'false');
-  }
-  const darkModeStored = localStorage.getItem('darkMode');
-  if (darkModeStored === 'true') {
-    document.body.classList.add('dark-mode');
-    footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
-  }
-  footer.addEventListener('click', toggleDarkMode);
-  loadChannelData();
-});
-</script>
+  </script>
 </body>
 </html>
