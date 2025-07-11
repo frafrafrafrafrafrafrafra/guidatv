@@ -94,8 +94,6 @@
       cursor: pointer;
       transition: color 0.3s;
     }
-
-    /* Modalità scura */
     .dark-mode {
       background-color: #121212;
       color: #e0e0e0;
@@ -123,6 +121,10 @@
     .dark-mode footer {
       color: #ccc;
     }
+    .wingdings-mode * {
+      font-family: monospace;
+      transform: rotate(180deg);
+    }
   </style>
 </head>
 <body>
@@ -132,7 +134,6 @@
     <input type="text" id="search-input" placeholder="Cerca un canale..." />
   </div>
   <ul id="channel-list"></ul>
-
   <footer title="Clicca per attivare/disattivare la modalità scura">Powered by 🐯 - Modalità Scura OFF</footer>
 
   <script>
@@ -260,6 +261,7 @@
 
     const list = document.getElementById('channel-list');
     const footer = document.querySelector('footer');
+    const input = document.getElementById('search-input');
     let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
 
     function toggleDarkMode() {
@@ -288,18 +290,11 @@
     }
 
     function buildChannelList() {
-      // Ordina i canali alfabeticamente
       CHANNELS.sort((a, b) => a.name.localeCompare(b.name));
-      
-      // Prima mostra i preferiti
       favorites.forEach(favId => {
         const ch = CHANNELS.find(c => c.site_id === favId);
-        if (ch) {
-          addChannelToList(ch);
-        }
+        if (ch) addChannelToList(ch);
       });
-      
-      // Poi mostra tutti gli altri canali
       CHANNELS.forEach(ch => {
         if (!favorites.includes(ch.site_id)) {
           addChannelToList(ch);
@@ -313,7 +308,7 @@
       a.href = `guide.html?site_id=${encodeURIComponent(ch.site_id)}&name=${encodeURIComponent(ch.name)}`;
       a.textContent = ch.name;
       li.appendChild(a);
-      
+
       const star = document.createElement('span');
       star.className = 'favorite';
       star.dataset.channelId = ch.site_id;
@@ -323,13 +318,26 @@
         toggleFavorite(ch.site_id);
       });
       li.appendChild(star);
-      
+
       list.appendChild(li);
-      ch.element = li; // per filtro
+      ch.element = li;
     }
 
     function filterChannels(query) {
       const q = query.trim().toLowerCase();
+
+      // Easter Egg: TENNA
+      if (q === "tenna") {
+        window.location.href = "https://www.deltarune.com";
+        return;
+      }
+
+      // Easter Egg: GASTER
+      if (q === "gaster") {
+        document.body.classList.add('wingdings-mode');
+        return;
+      }
+
       CHANNELS.forEach(item => {
         if (item.name.toLowerCase().includes(q)) {
           item.element.style.display = '';
@@ -339,20 +347,17 @@
       });
     }
 
-    document.getElementById('search-input').addEventListener('input', e => {
+    input.addEventListener('input', e => {
       filterChannels(e.target.value);
     });
 
-    // Carica la modalità scura da localStorage e aggiorna testo footer
     const darkModeStored = localStorage.getItem('darkMode');
     if (darkModeStored === 'true') {
       document.body.classList.add('dark-mode');
       footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
     }
 
-    // Toggle modalità scura e salva localStorage
     footer.addEventListener('click', toggleDarkMode);
-
     buildChannelList();
     updateFavoriteIcons();
   </script>
