@@ -39,7 +39,6 @@ CHANNELS = [
     {"name":"DeAJunior","site_id":"DTH#7427"},
     {"name":"DeAKids","site_id":"DTH#460"},
     {"name":"Deejay TV","site_id":"DTH#462"},
-    {"name":"Discovery HD","site_id":"DTH#9059"},
     {"name":"Euronews","site_id":"DTH#801"},
     {"name":"Explorer HD Channel","site_id":"DTH#11262"},
     {"name":"Focus HD","site_id":"DTH#10470"},
