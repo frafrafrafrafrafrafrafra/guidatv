@@ -1,1100 +1,6 @@
 {
   "name": "Sky Cinema Uno",
   "events_by_date": {
-    "2025-07-10": [
-      {
-        "channel": {
-          "id": 9044,
-          "logo": "/logo/202skycinemauno_Light_Fit.png?checksum=2945a0fc-4fd0-4f78-891d-b4b6e23e4ecf",
-          "logoPadding": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "logoDark": "/logo/202skycinemauno_Dark_Fit.png?checksum=8a5e7998-b741-4dcc-ace9-bb87c429c469",
-          "logoDarkPadding": "/logo/202skycinemauno_Dark_Padding.png?checksum=18a176a7-5d76-413f-a60e-54a0536953fb",
-          "logoLight": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "name": "Sky Cinema Uno",
-          "description": "Canale Sky Glass 301.",
-          "number": 301,
-          "servicekey": "202",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "0e202b1a-8e87-4199-9815-49d1bcb3b5f4",
-          "contentTitle": "I predatori dell'arca perduta",
-          "url": "/film/avventura/i-predatori-dellarca-perduta/0e202b1a-8e87-4199-9815-49d1bcb3b5f4",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 63,
-            "name": "Avventura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/0e202b1a-8e87-4199-9815-49d1bcb3b5f4/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0086f798ca04acfb810a02a16de957e8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/0e202b1a-8e87-4199-9815-49d1bcb3b5f4/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=9c503caa9b97d2bd0f9980c7e0d1d558"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/0e202b1a-8e87-4199-9815-49d1bcb3b5f4/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9c503caa9b97d2bd0f9980c7e0d1d558"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/0e202b1a-8e87-4199-9815-49d1bcb3b5f4/background?territory=IT&md5ChecksumParam=3e89392ffe162c986e2a0eef2f2acbc7"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/0e202b1a-8e87-4199-9815-49d1bcb3b5f4/cover?territory=IT&md5ChecksumParam=0086f798ca04acfb810a02a16de957e8"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/0e202b1a-8e87-4199-9815-49d1bcb3b5f4/16-9?territory=IT&md5ChecksumParam=9877c28c1a90fb3dec69e28060529749"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/0e202b1a-8e87-4199-9815-49d1bcb3b5f4/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=a762a4c996573efab551560470bf36c4"
-              }
-            }
-          ]
-        },
-        "eventId": "411271255",
-        "starttime": "2025-07-10T00:55:00Z",
-        "endtime": "2025-07-10T02:50:00Z",
-        "eventTitle": "I predatori dell'arca perduta",
-        "eventSynopsis": "Primo capitolo della saga con Harrison Ford, ideata da George Lucas e diretta da Steven Spielberg. Anni 30: l'archeologo Indiana Jones parte alla ricerca dell'Arca dell'Alleanza (USA 1981)",
-        "epgEventTitle": "I predatori dell'arca perduta",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9044,
-          "logo": "/logo/202skycinemauno_Light_Fit.png?checksum=2945a0fc-4fd0-4f78-891d-b4b6e23e4ecf",
-          "logoPadding": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "logoDark": "/logo/202skycinemauno_Dark_Fit.png?checksum=8a5e7998-b741-4dcc-ace9-bb87c429c469",
-          "logoDarkPadding": "/logo/202skycinemauno_Dark_Padding.png?checksum=18a176a7-5d76-413f-a60e-54a0536953fb",
-          "logoLight": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "name": "Sky Cinema Uno",
-          "description": "Canale Sky Glass 301.",
-          "number": 301,
-          "servicekey": "202",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "e8a9c9d9-1337-4e08-82d5-fc55339fbfd0",
-          "contentTitle": "Indiana Jones e il tempio maledetto",
-          "url": "/film/avventura/indiana-jones-e-il-tempio-maledetto/e8a9c9d9-1337-4e08-82d5-fc55339fbfd0",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 63,
-            "name": "Avventura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/e8a9c9d9-1337-4e08-82d5-fc55339fbfd0/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c0f4e58bb5ed279d5b419c583f9813a3"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/e8a9c9d9-1337-4e08-82d5-fc55339fbfd0/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=42ad0a7c576b7ad97463d50bfb17a58c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/e8a9c9d9-1337-4e08-82d5-fc55339fbfd0/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=42ad0a7c576b7ad97463d50bfb17a58c"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/e8a9c9d9-1337-4e08-82d5-fc55339fbfd0/background?territory=IT&md5ChecksumParam=dcde55e3106ff07918f90508e6083728"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/e8a9c9d9-1337-4e08-82d5-fc55339fbfd0/cover?territory=IT&md5ChecksumParam=c0f4e58bb5ed279d5b419c583f9813a3"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/e8a9c9d9-1337-4e08-82d5-fc55339fbfd0/16-9?territory=IT&md5ChecksumParam=23324e2b963496602e95a9a5e8b96aee"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/e8a9c9d9-1337-4e08-82d5-fc55339fbfd0/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=449c4ca3052321baa9d1f447df45f64b"
-              }
-            }
-          ]
-        },
-        "eventId": "411271257",
-        "starttime": "2025-07-10T02:50:00Z",
-        "endtime": "2025-07-10T04:50:00Z",
-        "eventTitle": "Indiana Jones e il tempio maledetto",
-        "eventSynopsis": "Oscar agli effetti speciali per la seconda avventura con Harrison Ford, diretta da Steven Spielberg. In India, l'archeologo scopre l'esistenza di un tempio dove si compiono sacrifici umani (USA 1984)",
-        "epgEventTitle": "Indiana Jones e il tempio maledetto",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9044,
-          "logo": "/logo/202skycinemauno_Light_Fit.png?checksum=2945a0fc-4fd0-4f78-891d-b4b6e23e4ecf",
-          "logoPadding": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "logoDark": "/logo/202skycinemauno_Dark_Fit.png?checksum=8a5e7998-b741-4dcc-ace9-bb87c429c469",
-          "logoDarkPadding": "/logo/202skycinemauno_Dark_Padding.png?checksum=18a176a7-5d76-413f-a60e-54a0536953fb",
-          "logoLight": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "name": "Sky Cinema Uno",
-          "description": "Canale Sky Glass 301.",
-          "number": 301,
-          "servicekey": "202",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "d27749bd-3653-43e1-b1d3-c3e106c4de3f",
-          "contentTitle": "Il Gladiatore Vs 300",
-          "episodeNumber": 245,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/cinema/questo-o-quello-speciale/stagione-1/episodio-245/d27749bd-3653-43e1-b1d3-c3e106c4de3f",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 79,
-            "name": "Cinema"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=37191d524d4a02933777b213b380192f"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5e757beb954c00795827e090d506e7e8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5e757beb954c00795827e090d506e7e8"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/background?territory=IT&md5ChecksumParam=b50c5edd3a11dd20b429951e8006d08f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/cover?territory=IT&md5ChecksumParam=37191d524d4a02933777b213b380192f"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/16-9?territory=IT&md5ChecksumParam=a537ceafe465de76e35c8f5043cfc221"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=fdf8549c8df653df7dd2f5354f7ee7a7"
-              }
-            }
-          ]
-        },
-        "eventId": "411392976",
-        "starttime": "2025-07-10T04:50:00Z",
-        "endtime": "2025-07-10T05:15:00Z",
-        "eventTitle": "Il Gladiatore Vs 300",
-        "eventSynopsis": "S1 Ep245 Il Gladiatore Vs 300 - Mettiamo a confronto \"Il gladiatore\" e \"300\", entrambi film epici su episodi dell'antichita'. Ascoltiamo spunti, curiosita' e pareri onesti per decidere quale di queste due pellicole guardare.",
-        "epgEventTitle": "S1 Ep245 - Questo o quello - Speciale",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9044,
-          "logo": "/logo/202skycinemauno_Light_Fit.png?checksum=2945a0fc-4fd0-4f78-891d-b4b6e23e4ecf",
-          "logoPadding": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "logoDark": "/logo/202skycinemauno_Dark_Fit.png?checksum=8a5e7998-b741-4dcc-ace9-bb87c429c469",
-          "logoDarkPadding": "/logo/202skycinemauno_Dark_Padding.png?checksum=18a176a7-5d76-413f-a60e-54a0536953fb",
-          "logoLight": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "name": "Sky Cinema Uno",
-          "description": "Canale Sky Glass 301.",
-          "number": 301,
-          "servicekey": "202",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "3d6033f6-14f3-48a5-bf0f-e7d5f478cb27",
-          "contentTitle": "Stolen",
-          "url": "/film/azione/stolen/3d6033f6-14f3-48a5-bf0f-e7d5f478cb27",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 32,
-            "name": "Azione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/3d6033f6-14f3-48a5-bf0f-e7d5f478cb27/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=72638b227c9be9b779c7cab9f48c6a26"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/3d6033f6-14f3-48a5-bf0f-e7d5f478cb27/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=72638b227c9be9b779c7cab9f48c6a26"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/3d6033f6-14f3-48a5-bf0f-e7d5f478cb27/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=cda31f78b09b4146ea3ea23eec2a5dbc"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/3d6033f6-14f3-48a5-bf0f-e7d5f478cb27/background?territory=IT&md5ChecksumParam=57d3998ba3a5beb41741c313f0754043"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/3d6033f6-14f3-48a5-bf0f-e7d5f478cb27/cover?territory=IT&md5ChecksumParam=cda31f78b09b4146ea3ea23eec2a5dbc"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/3d6033f6-14f3-48a5-bf0f-e7d5f478cb27/16-9?territory=IT&md5ChecksumParam=ca6d17f56811d4d4ac100b640dbe7b0d"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/3d6033f6-14f3-48a5-bf0f-e7d5f478cb27/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=23003147185b4f2db6602b9b077cfa3c"
-              }
-            }
-          ]
-        },
-        "eventId": "411392977",
-        "starttime": "2025-07-10T05:15:00Z",
-        "endtime": "2025-07-10T06:50:00Z",
-        "eventTitle": "Stolen",
-        "eventSynopsis": "Simon West ('Con Air') dirige Nicolas Cage in un action con Josh Lucas e Malin Ackerman. Tornato in liberta', un ex ladro deve trovare 10 milioni di dollari per salvare la figlia rapita (USA 2012)",
-        "epgEventTitle": "Stolen",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9044,
-          "logo": "/logo/202skycinemauno_Light_Fit.png?checksum=2945a0fc-4fd0-4f78-891d-b4b6e23e4ecf",
-          "logoPadding": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "logoDark": "/logo/202skycinemauno_Dark_Fit.png?checksum=8a5e7998-b741-4dcc-ace9-bb87c429c469",
-          "logoDarkPadding": "/logo/202skycinemauno_Dark_Padding.png?checksum=18a176a7-5d76-413f-a60e-54a0536953fb",
-          "logoLight": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "name": "Sky Cinema Uno",
-          "description": "Canale Sky Glass 301.",
-          "number": 301,
-          "servicekey": "202",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "240a26da-a876-4878-bc17-d94a6a889b78",
-          "contentTitle": "Miss Sloane - Giochi di potere",
-          "url": "/film/drammatico/miss-sloane-giochi-di-potere/240a26da-a876-4878-bc17-d94a6a889b78",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/240a26da-a876-4878-bc17-d94a6a889b78/background?territory=IT&md5ChecksumParam=352c1a31fed775db16263068ae1333eb"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/240a26da-a876-4878-bc17-d94a6a889b78/cover?territory=IT&md5ChecksumParam=212f1f292e03952c114e1da2d1d0b26d"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/240a26da-a876-4878-bc17-d94a6a889b78/16-9?territory=IT&md5ChecksumParam=577f29ff107913b6ccb1c645f77b93ca"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/Cinema_Scene_N0KTs4PQD.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411392978",
-        "starttime": "2025-07-10T06:50:00Z",
-        "endtime": "2025-07-10T09:05:00Z",
-        "eventTitle": "Miss Sloane - Giochi di potere",
-        "eventSynopsis": "John Madden dirige Jessica Chastain nei panni di un'impetuosa eroina della verita'. Una lobbista deve contrastare una proposta di legge sul controllo delle armi. Passera' al fronte opposto.",
-        "epgEventTitle": "Miss Sloane - Giochi di potere",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9044,
-          "logo": "/logo/202skycinemauno_Light_Fit.png?checksum=2945a0fc-4fd0-4f78-891d-b4b6e23e4ecf",
-          "logoPadding": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "logoDark": "/logo/202skycinemauno_Dark_Fit.png?checksum=8a5e7998-b741-4dcc-ace9-bb87c429c469",
-          "logoDarkPadding": "/logo/202skycinemauno_Dark_Padding.png?checksum=18a176a7-5d76-413f-a60e-54a0536953fb",
-          "logoLight": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "name": "Sky Cinema Uno",
-          "description": "Canale Sky Glass 301.",
-          "number": 301,
-          "servicekey": "202",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "6ff996e6-afdf-48bf-b0b7-c203fd2ab612",
-          "contentTitle": "Twisters",
-          "url": "/film/azione/twisters/6ff996e6-afdf-48bf-b0b7-c203fd2ab612",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 32,
-            "name": "Azione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/6ff996e6-afdf-48bf-b0b7-c203fd2ab612/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b1373b3d7b5690d49efaaaf3ca490f6a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6ff996e6-afdf-48bf-b0b7-c203fd2ab612/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=72474bf08bfaca7d7d5801d4a877a2df"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6ff996e6-afdf-48bf-b0b7-c203fd2ab612/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b1373b3d7b5690d49efaaaf3ca490f6a"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/6ff996e6-afdf-48bf-b0b7-c203fd2ab612/background?territory=IT&md5ChecksumParam=8940475929bf3fc140170ad05ca0914f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/6ff996e6-afdf-48bf-b0b7-c203fd2ab612/cover?territory=IT&md5ChecksumParam=72474bf08bfaca7d7d5801d4a877a2df"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/6ff996e6-afdf-48bf-b0b7-c203fd2ab612/16-9?territory=IT&md5ChecksumParam=942fd712bf2c211940f93969d716cebe"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/6ff996e6-afdf-48bf-b0b7-c203fd2ab612/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=69f27225fa2ca93a0c0fc517476f4407"
-              }
-            }
-          ]
-        },
-        "eventId": "411392980",
-        "starttime": "2025-07-10T09:05:00Z",
-        "endtime": "2025-07-10T11:10:00Z",
-        "eventTitle": "Twisters",
-        "eventSynopsis": "Il celebre disaster movie ritorna con Daisy Edgar-Jones e Glen Powell. Dopo un fallimento, Kate abbandona le sue ricerche sui tornado, ma un amico la convince a tornare.",
-        "epgEventTitle": "Twisters",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9044,
-          "logo": "/logo/202skycinemauno_Light_Fit.png?checksum=2945a0fc-4fd0-4f78-891d-b4b6e23e4ecf",
-          "logoPadding": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "logoDark": "/logo/202skycinemauno_Dark_Fit.png?checksum=8a5e7998-b741-4dcc-ace9-bb87c429c469",
-          "logoDarkPadding": "/logo/202skycinemauno_Dark_Padding.png?checksum=18a176a7-5d76-413f-a60e-54a0536953fb",
-          "logoLight": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "name": "Sky Cinema Uno",
-          "description": "Canale Sky Glass 301.",
-          "number": 301,
-          "servicekey": "202",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "8038436f-4edd-4fe6-b504-7e28466e7e59",
-          "contentTitle": "Notting Hill",
-          "url": "/film/commedia/notting-hill/8038436f-4edd-4fe6-b504-7e28466e7e59",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 18,
-            "name": "Commedia"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/8038436f-4edd-4fe6-b504-7e28466e7e59/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=54cda2800d19a30723a72c3b94841b90"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8038436f-4edd-4fe6-b504-7e28466e7e59/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4e4ea2774103d04e325822fcbf55bea3"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8038436f-4edd-4fe6-b504-7e28466e7e59/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4e4ea2774103d04e325822fcbf55bea3"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/8038436f-4edd-4fe6-b504-7e28466e7e59/background?territory=IT&md5ChecksumParam=ba7ce37719f975253301d811e05d113f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/8038436f-4edd-4fe6-b504-7e28466e7e59/cover?territory=IT&md5ChecksumParam=54cda2800d19a30723a72c3b94841b90"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/8038436f-4edd-4fe6-b504-7e28466e7e59/16-9?territory=IT&md5ChecksumParam=e54f1569bfa9e7be3bb98e6ad009e786"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/8038436f-4edd-4fe6-b504-7e28466e7e59/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=d1257720813a745afecfef3f02a2f3d4"
-              }
-            }
-          ]
-        },
-        "eventId": "411392981",
-        "starttime": "2025-07-10T11:10:00Z",
-        "endtime": "2025-07-10T13:15:00Z",
-        "eventTitle": "Notting Hill",
-        "eventSynopsis": "Julia Roberts e Hugh Grant nell'amabile commedia romantica di Roger Michell scritta da Richard Curtis. Un timido librario londinese incontra una diva di Hollywood... e sboccia l'amore.",
-        "epgEventTitle": "Notting Hill",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9044,
-          "logo": "/logo/202skycinemauno_Light_Fit.png?checksum=2945a0fc-4fd0-4f78-891d-b4b6e23e4ecf",
-          "logoPadding": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "logoDark": "/logo/202skycinemauno_Dark_Fit.png?checksum=8a5e7998-b741-4dcc-ace9-bb87c429c469",
-          "logoDarkPadding": "/logo/202skycinemauno_Dark_Padding.png?checksum=18a176a7-5d76-413f-a60e-54a0536953fb",
-          "logoLight": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "name": "Sky Cinema Uno",
-          "description": "Canale Sky Glass 301.",
-          "number": 301,
-          "servicekey": "202",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "8cdf59d7-0918-4133-841e-318048dee917",
-          "contentTitle": "Gli anni belli",
-          "url": "/film/commedia/gli-anni-belli/8cdf59d7-0918-4133-841e-318048dee917",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 18,
-            "name": "Commedia"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/8cdf59d7-0918-4133-841e-318048dee917/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7767eacddab40ed1ca1dfd9df9b7b333"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8cdf59d7-0918-4133-841e-318048dee917/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7767eacddab40ed1ca1dfd9df9b7b333"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8cdf59d7-0918-4133-841e-318048dee917/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=59846b43fa89f07be283d367d96abfeb"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/8cdf59d7-0918-4133-841e-318048dee917/background?territory=IT&md5ChecksumParam=f1fd3bd370b13e2416499517203ca31a"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/8cdf59d7-0918-4133-841e-318048dee917/cover?territory=IT&md5ChecksumParam=59846b43fa89f07be283d367d96abfeb"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/8cdf59d7-0918-4133-841e-318048dee917/16-9?territory=IT&md5ChecksumParam=5618b191e23b334238ed4851d420de69"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/8cdf59d7-0918-4133-841e-318048dee917/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=2b7013e5e82bba9be4fba4032f6049ec"
-              }
-            }
-          ]
-        },
-        "eventId": "411392982",
-        "starttime": "2025-07-10T13:15:00Z",
-        "endtime": "2025-07-10T15:00:00Z",
-        "eventTitle": "Gli anni belli",
-        "eventSynopsis": "Maria Grazia Cucinotta e Ninni Bruschetta in una commedia ambientata negli anni 90. Costretta a passare le vacanze nel solito campeggio, la ribelle Elena vivra' un'estate indimenticabile.",
-        "epgEventTitle": "Gli anni belli",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9044,
-          "logo": "/logo/202skycinemauno_Light_Fit.png?checksum=2945a0fc-4fd0-4f78-891d-b4b6e23e4ecf",
-          "logoPadding": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "logoDark": "/logo/202skycinemauno_Dark_Fit.png?checksum=8a5e7998-b741-4dcc-ace9-bb87c429c469",
-          "logoDarkPadding": "/logo/202skycinemauno_Dark_Padding.png?checksum=18a176a7-5d76-413f-a60e-54a0536953fb",
-          "logoLight": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "name": "Sky Cinema Uno",
-          "description": "Canale Sky Glass 301.",
-          "number": 301,
-          "servicekey": "202",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "78207d58-7e65-4070-80b2-27a04b54d98b",
-          "contentTitle": "Un uomo sopra la legge",
-          "url": "/film/azione/un-uomo-sopra-la-legge/78207d58-7e65-4070-80b2-27a04b54d98b",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 32,
-            "name": "Azione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/78207d58-7e65-4070-80b2-27a04b54d98b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2c691fc47cb06f62b68905c6e0d622c8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/78207d58-7e65-4070-80b2-27a04b54d98b/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7d31fdb64547c8c15b92c1d4f4e360e8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/78207d58-7e65-4070-80b2-27a04b54d98b/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7d31fdb64547c8c15b92c1d4f4e360e8"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/78207d58-7e65-4070-80b2-27a04b54d98b/background?territory=IT&md5ChecksumParam=df685457223dd5aa0bc92ddc49be8da0"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/78207d58-7e65-4070-80b2-27a04b54d98b/cover?territory=IT&md5ChecksumParam=2c691fc47cb06f62b68905c6e0d622c8"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/78207d58-7e65-4070-80b2-27a04b54d98b/16-9?territory=IT&md5ChecksumParam=501f3e35b958bc2ec4378236e624b88b"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/78207d58-7e65-4070-80b2-27a04b54d98b/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=53628a94b9623bc7fee52b004cd2d8ce"
-              }
-            }
-          ]
-        },
-        "eventId": "411392984",
-        "starttime": "2025-07-10T15:00:00Z",
-        "endtime": "2025-07-10T16:50:00Z",
-        "eventTitle": "Un uomo sopra la legge",
-        "eventSynopsis": "Action con Liam Neeson al confine tra Messico e Stati Uniti. Un allevatore, veterano del Vietnam, difende un bambino immigrato dagli implacabili assassini di un cartello del narcotraffico.",
-        "epgEventTitle": "Un uomo sopra la legge",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9044,
-          "logo": "/logo/202skycinemauno_Light_Fit.png?checksum=2945a0fc-4fd0-4f78-891d-b4b6e23e4ecf",
-          "logoPadding": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "logoDark": "/logo/202skycinemauno_Dark_Fit.png?checksum=8a5e7998-b741-4dcc-ace9-bb87c429c469",
-          "logoDarkPadding": "/logo/202skycinemauno_Dark_Padding.png?checksum=18a176a7-5d76-413f-a60e-54a0536953fb",
-          "logoLight": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "name": "Sky Cinema Uno",
-          "description": "Canale Sky Glass 301.",
-          "number": 301,
-          "servicekey": "202",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "9380f876-84a9-4828-82f8-6b588060b97c",
-          "contentTitle": "Il regno del pianeta delle scimmie",
-          "url": "/film/fantascienza/il-regno-del-pianeta-delle-scimmie/9380f876-84a9-4828-82f8-6b588060b97c",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 39,
-            "name": "Fantascienza"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/9380f876-84a9-4828-82f8-6b588060b97c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=28206f5bbe8cea715427ea62677a7e6a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/9380f876-84a9-4828-82f8-6b588060b97c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=9fe441b2cb49ff262f16cd6928e4fcbf"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/9380f876-84a9-4828-82f8-6b588060b97c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=28206f5bbe8cea715427ea62677a7e6a"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/9380f876-84a9-4828-82f8-6b588060b97c/background?territory=IT&md5ChecksumParam=abdfaac84aca33cef6f27d3b837afa5d"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/9380f876-84a9-4828-82f8-6b588060b97c/cover?territory=IT&md5ChecksumParam=9fe441b2cb49ff262f16cd6928e4fcbf"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/9380f876-84a9-4828-82f8-6b588060b97c/16-9?territory=IT&md5ChecksumParam=fe145db9e6c804396d0a1694b3772b7e"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/9380f876-84a9-4828-82f8-6b588060b97c/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=59741bb7337eb7faeb06c8ddfccfb5f0"
-              }
-            }
-          ]
-        },
-        "eventId": "411392986",
-        "starttime": "2025-07-10T16:50:00Z",
-        "endtime": "2025-07-10T19:15:00Z",
-        "eventTitle": "Il regno del pianeta delle scimmie",
-        "eventSynopsis": "Nuovo capitolo della celebre saga tratta dal romanzo di Pierre Boulle. Generazioni dopo la morte di Cesare, un nuovo tirannico leader delle scimmie costruisce il suo impero (USA 2024)",
-        "epgEventTitle": "Il regno del pianeta delle scimmie",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9044,
-          "logo": "/logo/202skycinemauno_Light_Fit.png?checksum=2945a0fc-4fd0-4f78-891d-b4b6e23e4ecf",
-          "logoPadding": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "logoDark": "/logo/202skycinemauno_Dark_Fit.png?checksum=8a5e7998-b741-4dcc-ace9-bb87c429c469",
-          "logoDarkPadding": "/logo/202skycinemauno_Dark_Padding.png?checksum=18a176a7-5d76-413f-a60e-54a0536953fb",
-          "logoLight": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "name": "Sky Cinema Uno",
-          "description": "Canale Sky Glass 301.",
-          "number": 301,
-          "servicekey": "202",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "0e202b1a-8e87-4199-9815-49d1bcb3b5f4",
-          "contentTitle": "I predatori dell'arca perduta",
-          "url": "/film/avventura/i-predatori-dellarca-perduta/0e202b1a-8e87-4199-9815-49d1bcb3b5f4",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 63,
-            "name": "Avventura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/0e202b1a-8e87-4199-9815-49d1bcb3b5f4/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0086f798ca04acfb810a02a16de957e8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/0e202b1a-8e87-4199-9815-49d1bcb3b5f4/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=9c503caa9b97d2bd0f9980c7e0d1d558"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/0e202b1a-8e87-4199-9815-49d1bcb3b5f4/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9c503caa9b97d2bd0f9980c7e0d1d558"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/0e202b1a-8e87-4199-9815-49d1bcb3b5f4/background?territory=IT&md5ChecksumParam=3e89392ffe162c986e2a0eef2f2acbc7"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/0e202b1a-8e87-4199-9815-49d1bcb3b5f4/cover?territory=IT&md5ChecksumParam=0086f798ca04acfb810a02a16de957e8"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/0e202b1a-8e87-4199-9815-49d1bcb3b5f4/16-9?territory=IT&md5ChecksumParam=9877c28c1a90fb3dec69e28060529749"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/0e202b1a-8e87-4199-9815-49d1bcb3b5f4/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=a762a4c996573efab551560470bf36c4"
-              }
-            }
-          ]
-        },
-        "eventId": "411392988",
-        "starttime": "2025-07-10T19:15:00Z",
-        "endtime": "2025-07-10T21:10:00Z",
-        "eventTitle": "I predatori dell'arca perduta",
-        "eventSynopsis": "Primo capitolo della saga con Harrison Ford, ideata da George Lucas e diretta da Steven Spielberg. Anni 30: l'archeologo Indiana Jones parte alla ricerca dell'Arca dell'Alleanza (USA 1981)",
-        "epgEventTitle": "I predatori dell'arca perduta",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9044,
-          "logo": "/logo/202skycinemauno_Light_Fit.png?checksum=2945a0fc-4fd0-4f78-891d-b4b6e23e4ecf",
-          "logoPadding": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "logoDark": "/logo/202skycinemauno_Dark_Fit.png?checksum=8a5e7998-b741-4dcc-ace9-bb87c429c469",
-          "logoDarkPadding": "/logo/202skycinemauno_Dark_Padding.png?checksum=18a176a7-5d76-413f-a60e-54a0536953fb",
-          "logoLight": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "name": "Sky Cinema Uno",
-          "description": "Canale Sky Glass 301.",
-          "number": 301,
-          "servicekey": "202",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "5ec6ed62-952c-4457-a5e6-cb800428b8df",
-          "contentTitle": "Un figlio di nome Erasmus",
-          "url": "/film/commedia/un-figlio-di-nome-erasmus/5ec6ed62-952c-4457-a5e6-cb800428b8df",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 18,
-            "name": "Commedia"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/5ec6ed62-952c-4457-a5e6-cb800428b8df/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=9a817384c359e54d9f11da58eb2a41fd"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/5ec6ed62-952c-4457-a5e6-cb800428b8df/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=0ac0d596dc7d7da227fd802e3fdbf036"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/5ec6ed62-952c-4457-a5e6-cb800428b8df/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=0ac0d596dc7d7da227fd802e3fdbf036"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/5ec6ed62-952c-4457-a5e6-cb800428b8df/background?territory=IT&md5ChecksumParam=ba560a07c531ee5b33dc5f069891556a"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/5ec6ed62-952c-4457-a5e6-cb800428b8df/cover?territory=IT&md5ChecksumParam=9a817384c359e54d9f11da58eb2a41fd"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/5ec6ed62-952c-4457-a5e6-cb800428b8df/16-9?territory=IT&md5ChecksumParam=11cc5909debc13f79fc8bcea5d79ede7"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/5ec6ed62-952c-4457-a5e6-cb800428b8df/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=4006cde2688cc92a0d4b615d08a0614f"
-              }
-            }
-          ]
-        },
-        "eventId": "411392991",
-        "starttime": "2025-07-10T21:10:00Z",
-        "endtime": "2025-07-10T23:00:00Z",
-        "eventTitle": "Un figlio di nome Erasmus",
-        "eventSynopsis": "Le 'Iene' Luca e Paolo in un road movie con Ricky Memphis. A Lisbona per il funerale di una ex fiamma comune, quattro amici scoprono che la donna ha avuto un figlio da uno di loro. Chi? (ITA 2020)",
-        "epgEventTitle": "Un figlio di nome Erasmus",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9044,
-          "logo": "/logo/202skycinemauno_Light_Fit.png?checksum=2945a0fc-4fd0-4f78-891d-b4b6e23e4ecf",
-          "logoPadding": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "logoDark": "/logo/202skycinemauno_Dark_Fit.png?checksum=8a5e7998-b741-4dcc-ace9-bb87c429c469",
-          "logoDarkPadding": "/logo/202skycinemauno_Dark_Padding.png?checksum=18a176a7-5d76-413f-a60e-54a0536953fb",
-          "logoLight": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
-          "name": "Sky Cinema Uno",
-          "description": "Canale Sky Glass 301.",
-          "number": 301,
-          "servicekey": "202",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "750b1d9a-ea5f-410b-936e-ebd65d73054e",
-          "contentTitle": "Race for Glory: Audi vs. Lancia",
-          "url": "/film/biografico/race-for-glory-audi-vs-lancia/750b1d9a-ea5f-410b-936e-ebd65d73054e",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 102,
-            "name": "Biografico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/750b1d9a-ea5f-410b-936e-ebd65d73054e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=dc52bf882c01d39fc4d2fa21991c9e5d"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/750b1d9a-ea5f-410b-936e-ebd65d73054e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f70164bcff00e79d03d9e4862b996fad"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/750b1d9a-ea5f-410b-936e-ebd65d73054e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f70164bcff00e79d03d9e4862b996fad"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/750b1d9a-ea5f-410b-936e-ebd65d73054e/background?territory=IT&md5ChecksumParam=c27025ec35dfa1284c1ee5b486771e05"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/750b1d9a-ea5f-410b-936e-ebd65d73054e/cover?territory=IT&md5ChecksumParam=dc52bf882c01d39fc4d2fa21991c9e5d"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/750b1d9a-ea5f-410b-936e-ebd65d73054e/16-9?territory=IT&md5ChecksumParam=1b4b6552b621eaaefae699c459e5f9db"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/750b1d9a-ea5f-410b-936e-ebd65d73054e/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=2a8799359b0a2d992bab1e1c86cabdbe"
-              }
-            }
-          ]
-        },
-        "eventId": "411392993",
-        "starttime": "2025-07-10T23:00:00Z",
-        "endtime": "2025-07-11T00:45:00Z",
-        "eventTitle": "Race for Glory - Audi vs Lancia",
-        "eventSynopsis": "Riccardo Scamarcio e' Cesare Florio, carismatico team manager della Lancia durante la memorabile sfida contro il potente team Audi nel Campionato del mondo di rally del 1983 (ITA/GBR 2024)",
-        "epgEventTitle": "Race for Glory - Audi vs Lancia",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
     "2025-07-11": [
       {
         "channel": {
@@ -1168,8 +74,8 @@
           ]
         },
         "eventId": "411392995",
-        "starttime": "2025-07-11T00:50:00Z",
-        "endtime": "2025-07-11T03:10:00Z",
+        "starttime": "2025-07-11T00:45:00Z",
+        "endtime": "2025-07-11T03:05:00Z",
         "eventTitle": "Reagan: Un Presidente sotto i riflettori",
         "eventSynopsis": "Dennis Quaid veste i panni del presidente USA, in un biopic raccontato attraverso gli occhi e le orecchie di Viktor Petrovich, agente del KGB che aveva l'incarico di seguirlo (USA 2024)",
         "epgEventTitle": "Reagan: Un Presidente sotto i riflettori",
@@ -1253,7 +159,7 @@
           ]
         },
         "eventId": "411392998",
-        "starttime": "2025-07-11T03:10:00Z",
+        "starttime": "2025-07-11T03:05:00Z",
         "endtime": "2025-07-11T05:15:00Z",
         "eventTitle": "Indiana Jones e l'ultima crociata",
         "eventSynopsis": "Steven Spielberg dirige Harrison Ford e Sean Connery nel terzo capitolo, premiato con un Oscar. Indy e suo padre sfidano i nazisti nella ricerca del leggendario Santo Graal (USA 1989)",
@@ -1339,7 +245,7 @@
         },
         "eventId": "411272373",
         "starttime": "2025-07-11T05:15:00Z",
-        "endtime": "2025-07-11T07:40:00Z",
+        "endtime": "2025-07-11T07:45:00Z",
         "eventTitle": "Il regno del pianeta delle scimmie",
         "eventSynopsis": "Trecento anni dopo la leadership del saggio Cesare, la Terra e' dominata dalle scimmie e gli uomini, regrediti, vivono nell'ombra. Un aspirante tiranno, un giovane scimpanze' e una ragazza umana si scontrano mettendo in discussione passato e futuro (USA 2024)",
         "epgEventTitle": "Il regno del pianeta delle scimmie",
@@ -1423,8 +329,8 @@
           ]
         },
         "eventId": "411272374",
-        "starttime": "2025-07-11T07:40:00Z",
-        "endtime": "2025-07-11T09:30:00Z",
+        "starttime": "2025-07-11T07:45:00Z",
+        "endtime": "2025-07-11T09:35:00Z",
         "eventTitle": "Un figlio di nome Erasmus",
         "eventSynopsis": "Le 'Iene' Luca e Paolo in un road movie con Ricky Memphis. A Lisbona per il funerale di una ex fiamma comune, quattro amici scoprono che la donna ha avuto un figlio da uno di loro. Chi? (ITA 2020)",
         "epgEventTitle": "Un figlio di nome Erasmus",
@@ -1508,8 +414,8 @@
           ]
         },
         "eventId": "411272375",
-        "starttime": "2025-07-11T09:30:00Z",
-        "endtime": "2025-07-11T11:10:00Z",
+        "starttime": "2025-07-11T09:35:00Z",
+        "endtime": "2025-07-11T11:15:00Z",
         "eventTitle": "Primal",
         "eventSynopsis": "Nicolas Cage e Famke Janssen in un action tra bestie feroci e un killer spietato. Su una nave carica di animali selvaggi si scatena il terrore quando un criminale apre le gabbie (USA 2019)",
         "epgEventTitle": "Primal",
@@ -1593,8 +499,8 @@
           ]
         },
         "eventId": "411272376",
-        "starttime": "2025-07-11T11:10:00Z",
-        "endtime": "2025-07-11T12:55:00Z",
+        "starttime": "2025-07-11T11:15:00Z",
+        "endtime": "2025-07-11T13:00:00Z",
         "eventTitle": "Per il mio bene",
         "eventSynopsis": "Esordio di Mimmo Verdesca con Barbora Bobulova, Marie-Christine Barrault, Stefania Sandrelli e Sara Ciocca. Quando Giovanna si ammala, deve cercare l'unica persona che puo' aiutarla (ITA 2024)",
         "epgEventTitle": "Per il mio bene",
@@ -1678,7 +584,7 @@
           ]
         },
         "eventId": "411272379",
-        "starttime": "2025-07-11T12:55:00Z",
+        "starttime": "2025-07-11T13:00:00Z",
         "endtime": "2025-07-11T14:55:00Z",
         "eventTitle": "I predatori dell'arca perduta",
         "eventSynopsis": "Primo capitolo della saga con Harrison Ford, ideata da George Lucas e diretta da Steven Spielberg. Anni 30: l'archeologo Indiana Jones parte alla ricerca dell'Arca dell'Alleanza (USA 1981)",
@@ -1934,7 +840,7 @@
         },
         "eventId": "411272385",
         "starttime": "2025-07-11T19:15:00Z",
-        "endtime": "2025-07-11T21:40:00Z",
+        "endtime": "2025-07-11T21:35:00Z",
         "eventTitle": "Reagan: Un Presidente sotto i riflettori",
         "eventSynopsis": "Dennis Quaid, Penelope Ann Miller e Jon Voight nel biopic che ripercorre la vita privata e politica di Ronald Reagan, Presidente degli Stati Uniti negli anni 80. Dall'infanzia in Illinois, alla carriera hollywoodiana fino al palcoscenico mondiale come capo della Casa Bianca (USA 2024)",
         "epgEventTitle": "Reagan: Un Presidente sotto i riflettori",
@@ -2002,8 +908,8 @@
           ]
         },
         "eventId": "411272387",
-        "starttime": "2025-07-11T21:40:00Z",
-        "endtime": "2025-07-11T23:30:00Z",
+        "starttime": "2025-07-11T21:35:00Z",
+        "endtime": "2025-07-11T23:25:00Z",
         "eventTitle": "Il potere dei soldi",
         "eventSynopsis": "Gary Oldman, Harrison Ford e Liam Hemsworth in uno spy-thriller sul mondo della finanza. Un giovane ambizioso e' costretto a farsi assumere dalla concorrenza per rubare un prototipo (USA/FRA 2013)",
         "epgEventTitle": "Il potere dei soldi",
@@ -2071,8 +977,8 @@
           ]
         },
         "eventId": "411272389",
-        "starttime": "2025-07-11T23:30:00Z",
-        "endtime": "2025-07-12T01:55:00Z",
+        "starttime": "2025-07-11T23:25:00Z",
+        "endtime": "2025-07-12T01:50:00Z",
         "eventTitle": "Thirteen Days",
         "eventSynopsis": "Kevin Costner nella rievocazione dei 13 giorni piu' delicati della presidenza Kennedy. 1962: l'installazione di missili sovietici a Cuba rischia di far esplodere la Terza guerra mondiale (USA 2000)",
         "epgEventTitle": "Thirteen Days",
@@ -2158,7 +1064,7 @@
           ]
         },
         "eventId": "411272391",
-        "starttime": "2025-07-12T01:55:00Z",
+        "starttime": "2025-07-12T01:50:00Z",
         "endtime": "2025-07-12T03:55:00Z",
         "eventTitle": "Indiana Jones e il regno del teschio di cristallo",
         "eventSynopsis": "... di cristallo. - Il grande ritorno di Harrison Ford nel quarto capitolo con Cate Blanchett e Shia LaBeouf. Pedinato dai sovietici Indy deve ritrovare una reliquia dai poteri soprannaturali (USA 2008)",
@@ -2329,7 +1235,7 @@
         },
         "eventId": "411275369",
         "starttime": "2025-07-12T05:55:00Z",
-        "endtime": "2025-07-12T08:15:00Z",
+        "endtime": "2025-07-12T08:20:00Z",
         "eventTitle": "Joker: Folie à Deux",
         "eventSynopsis": "Joaquin Phoenix riveste i panni del folle personaggio della DC Comics in uno sbalorditivo sequel con Lady Gaga. Internato nel manicomio di Arkham in attesa del processo per i crimini commessi, Arthur Fleck si innamora di Lee Quinzel, una paziente affascinata dalla figura del Joker (USA 2024)",
         "epgEventTitle": "Joker: Folie à Deux",
@@ -2397,8 +1303,8 @@
           ]
         },
         "eventId": "411275370",
-        "starttime": "2025-07-12T08:15:00Z",
-        "endtime": "2025-07-12T10:05:00Z",
+        "starttime": "2025-07-12T08:20:00Z",
+        "endtime": "2025-07-12T10:15:00Z",
         "eventTitle": "Il potere dei soldi",
         "eventSynopsis": "Gary Oldman, Harrison Ford e Liam Hemsworth in uno spy-thriller sul mondo della finanza. Un giovane ambizioso e' costretto a farsi assumere dalla concorrenza per rubare un prototipo (USA/FRA 2013)",
         "epgEventTitle": "Il potere dei soldi",
@@ -2482,8 +1388,8 @@
           ]
         },
         "eventId": "411275371",
-        "starttime": "2025-07-12T10:05:00Z",
-        "endtime": "2025-07-12T12:20:00Z",
+        "starttime": "2025-07-12T10:15:00Z",
+        "endtime": "2025-07-12T12:25:00Z",
         "eventTitle": "Moonfall",
         "eventSynopsis": "Fanta-action di Roland Emmerich con Halle Berry e Patrick Wilson. Due astronauti e un complottista devono evitare che la Luna precipiti sulla Terra a causa di una forza misteriosa (USA/CAN 2022)",
         "epgEventTitle": "Moonfall",
@@ -2569,8 +1475,8 @@
           ]
         },
         "eventId": "411275372",
-        "starttime": "2025-07-12T12:20:00Z",
-        "endtime": "2025-07-12T12:35:00Z",
+        "starttime": "2025-07-12T12:25:00Z",
+        "endtime": "2025-07-12T12:45:00Z",
         "eventTitle": "Anora",
         "eventSynopsis": "S1 Ep246 Anora - Scopriamo alcuni dettagli su \"Anora\", film drammatico commedia diretto da Sean Baker. La trama segue la storia di Anora, interpretata da Mikey Madison, una giovane sex worker di Brooklyn.",
         "epgEventTitle": "S1 Ep246 - Questo o quello - Speciale",
@@ -2654,8 +1560,8 @@
           ]
         },
         "eventId": "411275373",
-        "starttime": "2025-07-12T12:35:00Z",
-        "endtime": "2025-07-12T15:00:00Z",
+        "starttime": "2025-07-12T12:45:00Z",
+        "endtime": "2025-07-12T15:05:00Z",
         "eventTitle": "Reagan: Un Presidente sotto i riflettori",
         "eventSynopsis": "Dennis Quaid, Penelope Ann Miller e Jon Voight nel biopic che ripercorre la vita privata e politica di Ronald Reagan, Presidente degli Stati Uniti negli anni 80. Dall'infanzia in Illinois, alla carriera hollywoodiana fino al palcoscenico mondiale come capo della Casa Bianca (USA 2024)",
         "epgEventTitle": "Reagan: Un Presidente sotto i riflettori",
@@ -2723,7 +1629,7 @@
           ]
         },
         "eventId": "411275374",
-        "starttime": "2025-07-12T15:00:00Z",
+        "starttime": "2025-07-12T15:05:00Z",
         "endtime": "2025-07-12T17:30:00Z",
         "eventTitle": "Thirteen Days",
         "eventSynopsis": "Kevin Costner nella rievocazione dei 13 giorni piu' delicati della presidenza Kennedy. 1962: l'installazione di missili sovietici a Cuba rischia di far esplodere la Terza guerra mondiale (USA 2000)",
@@ -2853,17 +1759,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=79892c5ea28ba807560ee218733b7633"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16ea506740c39319a9fee324faa8799a"
               }
             },
             {
               "img": {
                 "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=79892c5ea28ba807560ee218733b7633"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=79892c5ea28ba807560ee218733b7633"
               }
             },
             {
@@ -2894,7 +1800,7 @@
         },
         "eventId": "411275376",
         "starttime": "2025-07-12T19:15:00Z",
-        "endtime": "2025-07-12T21:15:00Z",
+        "endtime": "2025-07-12T21:10:00Z",
         "eventTitle": "Uncharted",
         "eventSynopsis": "Blockbuster d'avventura dal noto videogame, con Tom Holland, Mark Wahlberg e Antonio Banderas. In cerca del tesoro di Magellano, Nathan Drake e Sully affrontano il perfido Santiago Moncada (USA 2022)",
         "epgEventTitle": "Uncharted",
@@ -2978,8 +1884,8 @@
           ]
         },
         "eventId": "411275377",
-        "starttime": "2025-07-12T21:15:00Z",
-        "endtime": "2025-07-12T23:35:00Z",
+        "starttime": "2025-07-12T21:10:00Z",
+        "endtime": "2025-07-12T23:30:00Z",
         "eventTitle": "Joker: Folie à Deux",
         "eventSynopsis": "Joaquin Phoenix riveste i panni del folle personaggio della DC Comics in uno sbalorditivo sequel con Lady Gaga. Internato nel manicomio di Arkham in attesa del processo per i crimini commessi, Arthur Fleck si innamora di Lee Quinzel, una paziente affascinata dalla figura del Joker (USA 2024)",
         "epgEventTitle": "Joker: Folie à Deux",
@@ -3697,17 +2603,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=79892c5ea28ba807560ee218733b7633"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16ea506740c39319a9fee324faa8799a"
               }
             },
             {
               "img": {
                 "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=79892c5ea28ba807560ee218733b7633"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=79892c5ea28ba807560ee218733b7633"
               }
             },
             {
@@ -5320,17 +4226,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=27599258585a9b24eccb77adad00619b"
               }
             },
             {
               "img": {
                 "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
               }
             },
             {
@@ -6085,17 +4991,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=27599258585a9b24eccb77adad00619b"
               }
             },
             {
               "img": {
                 "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
               }
             },
             {
@@ -6854,17 +5760,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=27599258585a9b24eccb77adad00619b"
               }
             },
             {
               "img": {
                 "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
               }
             },
             {
@@ -7350,12 +6256,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6c6d80efc10d66a5234fca44794c6a9a"
+                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa5ead0062af0472151dbc6d5fbbadb"
               }
             },
             {
               "img": {
-                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa5ead0062af0472151dbc6d5fbbadb"
+                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6c6d80efc10d66a5234fca44794c6a9a"
               }
             },
             {
@@ -7777,12 +6683,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6c6d80efc10d66a5234fca44794c6a9a"
+                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa5ead0062af0472151dbc6d5fbbadb"
               }
             },
             {
               "img": {
-                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa5ead0062af0472151dbc6d5fbbadb"
+                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6c6d80efc10d66a5234fca44794c6a9a"
               }
             },
             {
@@ -8175,6 +7081,11 @@
           },
           "imagesMap": [
             {
+              "img": {
+                "url": "/uuid/36aa0d28-7057-45e8-a02d-728cd659feb1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6588eeb1d1f6552bdd85f16f61e23fc9"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/36aa0d28-7057-45e8-a02d-728cd659feb1/background?territory=IT&md5ChecksumParam=d3cc8d4783032d5f0f0948c5580b50c8"
@@ -8195,7 +7106,7 @@
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/Cinema_Scene_N0KTs4PQD.png"
+                "url": "/uuid/36aa0d28-7057-45e8-a02d-728cd659feb1/COVER_TITLE_WIDE?territory=IT&version=54bbef2e-9a8b-3259-9e50-fc2d91cb1b38&w=1920&h=1080&md5ChecksumParam=dc3c48e8615a8fa6efd7c2c172db19ab"
               }
             }
           ]
@@ -8811,6 +7722,11 @@
           },
           "imagesMap": [
             {
+              "img": {
+                "url": "/uuid/36aa0d28-7057-45e8-a02d-728cd659feb1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6588eeb1d1f6552bdd85f16f61e23fc9"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/36aa0d28-7057-45e8-a02d-728cd659feb1/background?territory=IT&md5ChecksumParam=d3cc8d4783032d5f0f0948c5580b50c8"
@@ -8831,7 +7747,7 @@
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/Cinema_Scene_N0KTs4PQD.png"
+                "url": "/uuid/36aa0d28-7057-45e8-a02d-728cd659feb1/COVER_TITLE_WIDE?territory=IT&version=54bbef2e-9a8b-3259-9e50-fc2d91cb1b38&w=1920&h=1080&md5ChecksumParam=dc3c48e8615a8fa6efd7c2c172db19ab"
               }
             }
           ]
@@ -13027,17 +11943,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=79892c5ea28ba807560ee218733b7633"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16ea506740c39319a9fee324faa8799a"
               }
             },
             {
               "img": {
                 "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=79892c5ea28ba807560ee218733b7633"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=79892c5ea28ba807560ee218733b7633"
               }
             },
             {
@@ -13112,17 +12028,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=27599258585a9b24eccb77adad00619b"
               }
             },
             {
               "img": {
                 "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
               }
             },
             {
@@ -13879,17 +12795,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=27599258585a9b24eccb77adad00619b"
               }
             },
             {
               "img": {
                 "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
               }
             },
             {
@@ -15754,7 +14670,7 @@
         "starttime": "2025-07-25T05:05:00Z",
         "endtime": "2025-07-25T06:50:00Z",
         "eventTitle": "La furia dei titani",
-        "eventSynopsis": "Sam Worthington, Liam Neeson e Ralph Fiennes in un action mitologico. Il semidio Perseo intraprende una pericolosa missione per liberare Zeus, imprigionato dal capo dei titani, Kronos (ESP/USA 2012)",
+        "eventSynopsis": "Sam Worthington, Liam Neeson e Ralph Fiennes in un action mitologico. Il semidio Perseo intraprende una pericolosa missione per liberare Zeus, imprigionato dal capo dei titani, Kronos (USA/ESP 2012)",
         "epgEventTitle": "La furia dei titani",
         "primeVision": false,
         "resolutions": [
@@ -17304,12 +16220,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6c6d80efc10d66a5234fca44794c6a9a"
+                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa5ead0062af0472151dbc6d5fbbadb"
               }
             },
             {
               "img": {
-                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa5ead0062af0472151dbc6d5fbbadb"
+                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6c6d80efc10d66a5234fca44794c6a9a"
               }
             },
             {
@@ -17901,12 +16817,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6c6d80efc10d66a5234fca44794c6a9a"
+                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa5ead0062af0472151dbc6d5fbbadb"
               }
             },
             {
               "img": {
-                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa5ead0062af0472151dbc6d5fbbadb"
+                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6c6d80efc10d66a5234fca44794c6a9a"
               }
             },
             {
@@ -18581,17 +17497,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e07719e183f9d2b3065a5da57b304f2b"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=090112591a809c52a9578bbcb42eba69"
               }
             },
             {
               "img": {
                 "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=090112591a809c52a9578bbcb42eba69"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e07719e183f9d2b3065a5da57b304f2b"
               }
             },
             {
@@ -19008,17 +17924,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e07719e183f9d2b3065a5da57b304f2b"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=090112591a809c52a9578bbcb42eba69"
               }
             },
             {
               "img": {
                 "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=090112591a809c52a9578bbcb42eba69"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e07719e183f9d2b3065a5da57b304f2b"
               }
             },
             {
@@ -19353,12 +18269,12 @@
             },
             {
               "img": {
-                "url": "/uuid/62ae18da-8c78-4f4d-85cb-3b45707c5fe4/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7ee386542d05f87122548bae8455bc18"
+                "url": "/uuid/62ae18da-8c78-4f4d-85cb-3b45707c5fe4/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7ee386542d05f87122548bae8455bc18"
               }
             },
             {
               "img": {
-                "url": "/uuid/62ae18da-8c78-4f4d-85cb-3b45707c5fe4/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7ee386542d05f87122548bae8455bc18"
+                "url": "/uuid/62ae18da-8c78-4f4d-85cb-3b45707c5fe4/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7ee386542d05f87122548bae8455bc18"
               }
             },
             {
@@ -19937,12 +18853,12 @@
             },
             {
               "img": {
-                "url": "/uuid/62ae18da-8c78-4f4d-85cb-3b45707c5fe4/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7ee386542d05f87122548bae8455bc18"
+                "url": "/uuid/62ae18da-8c78-4f4d-85cb-3b45707c5fe4/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7ee386542d05f87122548bae8455bc18"
               }
             },
             {
               "img": {
-                "url": "/uuid/62ae18da-8c78-4f4d-85cb-3b45707c5fe4/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7ee386542d05f87122548bae8455bc18"
+                "url": "/uuid/62ae18da-8c78-4f4d-85cb-3b45707c5fe4/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7ee386542d05f87122548bae8455bc18"
               }
             },
             {
@@ -21685,6 +20601,11 @@
           },
           "imagesMap": [
             {
+              "img": {
+                "url": "/uuid/36aa0d28-7057-45e8-a02d-728cd659feb1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6588eeb1d1f6552bdd85f16f61e23fc9"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/36aa0d28-7057-45e8-a02d-728cd659feb1/background?territory=IT&md5ChecksumParam=d3cc8d4783032d5f0f0948c5580b50c8"
@@ -21705,7 +20626,7 @@
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/Cinema_Scene_N0KTs4PQD.png"
+                "url": "/uuid/36aa0d28-7057-45e8-a02d-728cd659feb1/COVER_TITLE_WIDE?territory=IT&version=54bbef2e-9a8b-3259-9e50-fc2d91cb1b38&w=1920&h=1080&md5ChecksumParam=dc3c48e8615a8fa6efd7c2c172db19ab"
               }
             }
           ]
@@ -24647,6 +23568,21 @@
           },
           "imagesMap": [
             {
+              "img": {
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2980086b14bcbcfe078c1dd08046e87b"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b4ff00fc8ba927b05bf333a5585b8de6"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b4ff00fc8ba927b05bf333a5585b8de6"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/background?territory=IT&md5ChecksumParam=e34d7cee47e40122487125cdc191306d"
@@ -24667,7 +23603,7 @@
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/Cinema_Scene_N0KTs4PQD.png"
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=77e9ae0300947ac9fde9d66743800954"
               }
             }
           ]
@@ -25466,6 +24402,21 @@
           },
           "imagesMap": [
             {
+              "img": {
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2980086b14bcbcfe078c1dd08046e87b"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b4ff00fc8ba927b05bf333a5585b8de6"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b4ff00fc8ba927b05bf333a5585b8de6"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/background?territory=IT&md5ChecksumParam=e34d7cee47e40122487125cdc191306d"
@@ -25486,7 +24437,7 @@
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/Cinema_Scene_N0KTs4PQD.png"
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=77e9ae0300947ac9fde9d66743800954"
               }
             }
           ]
@@ -25924,7 +24875,7 @@
         "starttime": "2025-08-04T02:40:00Z",
         "endtime": "2025-08-04T04:25:00Z",
         "eventTitle": "Tutti tranne te",
-        "eventSynopsis": "Sydney Sweeney e Glen Powell in un'ironica commedia romantica fenomeno nelle sale. Dopo un incontro fugace Ben e Bea si allontanano, ma le loro strade si incontreranno ancora (AUS/USA 2023)",
+        "eventSynopsis": "Sydney Sweeney e Glen Powell in un'ironica commedia romantica fenomeno nelle sale. Dopo un incontro fugace Ben e Bea si allontanano, ma le loro strade si incontreranno ancora (USA/AUS 2023)",
         "epgEventTitle": "Tutti tranne te",
         "primeVision": false,
         "resolutions": [
@@ -26305,6 +25256,21 @@
           },
           "imagesMap": [
             {
+              "img": {
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2980086b14bcbcfe078c1dd08046e87b"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b4ff00fc8ba927b05bf333a5585b8de6"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b4ff00fc8ba927b05bf333a5585b8de6"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/background?territory=IT&md5ChecksumParam=e34d7cee47e40122487125cdc191306d"
@@ -26325,7 +25291,7 @@
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/Cinema_Scene_N0KTs4PQD.png"
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=77e9ae0300947ac9fde9d66743800954"
               }
             }
           ]
@@ -26654,7 +25620,7 @@
         "starttime": "2025-08-04T19:15:00Z",
         "endtime": "2025-08-04T21:05:00Z",
         "eventTitle": "Tutti tranne te",
-        "eventSynopsis": "Sydney Sweeney e Glen Powell in un'ironica commedia romantica fenomeno nelle sale. Dopo un incontro fugace Ben e Bea si allontanano, ma le loro strade si incontreranno ancora (AUS/USA 2023)",
+        "eventSynopsis": "Sydney Sweeney e Glen Powell in un'ironica commedia romantica fenomeno nelle sale. Dopo un incontro fugace Ben e Bea si allontanano, ma le loro strade si incontreranno ancora (USA/AUS 2023)",
         "epgEventTitle": "Tutti tranne te",
         "primeVision": false,
         "resolutions": [
@@ -26748,9 +25714,254 @@
             "value": false
           }
         ]
+      },
+      {
+        "channel": {
+          "id": 9044,
+          "logo": "/logo/202skycinemauno_Light_Fit.png?checksum=2945a0fc-4fd0-4f78-891d-b4b6e23e4ecf",
+          "logoPadding": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
+          "logoDark": "/logo/202skycinemauno_Dark_Fit.png?checksum=8a5e7998-b741-4dcc-ace9-bb87c429c469",
+          "logoDarkPadding": "/logo/202skycinemauno_Dark_Padding.png?checksum=18a176a7-5d76-413f-a60e-54a0536953fb",
+          "logoLight": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
+          "name": "Sky Cinema Uno",
+          "description": "Canale Sky Glass 301.",
+          "number": 301,
+          "servicekey": "202",
+          "category": {
+            "id": 1,
+            "name": "Cinema"
+          }
+        },
+        "content": {
+          "uuid": "fec349f3-d8dd-46e4-a694-24fbf61fa933",
+          "contentTitle": "Top Gun",
+          "url": "/film/azione/top-gun/fec349f3-d8dd-46e4-a694-24fbf61fa933",
+          "genre": {
+            "id": 3,
+            "name": "Film"
+          },
+          "subgenre": {
+            "id": 32,
+            "name": "Azione"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/fec349f3-d8dd-46e4-a694-24fbf61fa933/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f894d5cb6f1f45d401c2564810900375"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/fec349f3-d8dd-46e4-a694-24fbf61fa933/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1f5e4157bfcaf90e4bb85c5ed1caa9d7"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/fec349f3-d8dd-46e4-a694-24fbf61fa933/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1f5e4157bfcaf90e4bb85c5ed1caa9d7"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/fec349f3-d8dd-46e4-a694-24fbf61fa933/background?territory=IT&md5ChecksumParam=ffee33bb9c8aced778a3f98201e1d2f5"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/fec349f3-d8dd-46e4-a694-24fbf61fa933/cover?territory=IT&md5ChecksumParam=f894d5cb6f1f45d401c2564810900375"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/fec349f3-d8dd-46e4-a694-24fbf61fa933/16-9?territory=IT&md5ChecksumParam=c2db20f598697728b0c367084240db4f"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/fec349f3-d8dd-46e4-a694-24fbf61fa933/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=6dbb21ae21403be305cfad9daf38b5da"
+              }
+            }
+          ]
+        },
+        "eventId": "411505312",
+        "starttime": "2025-08-04T23:10:00Z",
+        "endtime": "2025-08-05T01:00:00Z",
+        "eventTitle": "Top Gun",
+        "eventSynopsis": "L'action che ha consacrato Tom Cruise. Un pilota di caccia va in crisi quando causa la morte di un amico. Ne uscira' grazie a una donna. Oscar e Golden Globe per la migliore canzone (USA 1986)",
+        "epgEventTitle": "Top Gun",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
       }
     ],
     "2025-08-05": [
+      {
+        "channel": {
+          "id": 9044,
+          "logo": "/logo/202skycinemauno_Light_Fit.png?checksum=2945a0fc-4fd0-4f78-891d-b4b6e23e4ecf",
+          "logoPadding": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
+          "logoDark": "/logo/202skycinemauno_Dark_Fit.png?checksum=8a5e7998-b741-4dcc-ace9-bb87c429c469",
+          "logoDarkPadding": "/logo/202skycinemauno_Dark_Padding.png?checksum=18a176a7-5d76-413f-a60e-54a0536953fb",
+          "logoLight": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
+          "name": "Sky Cinema Uno",
+          "description": "Canale Sky Glass 301.",
+          "number": 301,
+          "servicekey": "202",
+          "category": {
+            "id": 1,
+            "name": "Cinema"
+          }
+        },
+        "content": {
+          "uuid": "5e403692-0bf3-4d3f-98d3-9885624f602c",
+          "contentTitle": "Pacific Rim - La rivolta",
+          "url": "/film/azione/pacific-rim-la-rivolta/5e403692-0bf3-4d3f-98d3-9885624f602c",
+          "genre": {
+            "id": 3,
+            "name": "Film"
+          },
+          "subgenre": {
+            "id": 32,
+            "name": "Azione"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/5e403692-0bf3-4d3f-98d3-9885624f602c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=944dbc6e1944529ff3518abd9cf29622"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/5e403692-0bf3-4d3f-98d3-9885624f602c/background?territory=IT&md5ChecksumParam=f0b1f5306ade89d6d65e323fe92bbc67"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/5e403692-0bf3-4d3f-98d3-9885624f602c/cover?territory=IT&md5ChecksumParam=944dbc6e1944529ff3518abd9cf29622"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/5e403692-0bf3-4d3f-98d3-9885624f602c/16-9?territory=IT&md5ChecksumParam=15e491173f8cc31f52174553812b5be1"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/5e403692-0bf3-4d3f-98d3-9885624f602c/COVER_TITLE_WIDE?territory=IT&version=0ba4e0fd-f2f5-39a0-b1d2-6e2965c689c9&w=1920&h=1080&md5ChecksumParam=a1fb5e0e05d052a3868c6578b15dd02e"
+              }
+            }
+          ]
+        },
+        "eventId": "411505313",
+        "starttime": "2025-08-05T01:00:00Z",
+        "endtime": "2025-08-05T02:55:00Z",
+        "eventTitle": "Pacific Rim - La rivolta",
+        "eventSynopsis": "John Boyega e Scott Eastwood nel sequel di \"Pacific Rim\". Quando una nuova minaccia globale si profila all'orizzonte, il ribelle Jake Pentecost torna a pilotare i robot Jaeger (USA 2018)",
+        "epgEventTitle": "Pacific Rim - La rivolta",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 9044,
+          "logo": "/logo/202skycinemauno_Light_Fit.png?checksum=2945a0fc-4fd0-4f78-891d-b4b6e23e4ecf",
+          "logoPadding": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
+          "logoDark": "/logo/202skycinemauno_Dark_Fit.png?checksum=8a5e7998-b741-4dcc-ace9-bb87c429c469",
+          "logoDarkPadding": "/logo/202skycinemauno_Dark_Padding.png?checksum=18a176a7-5d76-413f-a60e-54a0536953fb",
+          "logoLight": "/logo/202skycinemauno_Light_Padding.png?checksum=38dfb80a-8b05-49f0-b781-6e73617118ec",
+          "name": "Sky Cinema Uno",
+          "description": "Canale Sky Glass 301.",
+          "number": 301,
+          "servicekey": "202",
+          "category": {
+            "id": 1,
+            "name": "Cinema"
+          }
+        },
+        "content": {
+          "uuid": "a85fcd96-216d-45f2-8ed4-5dbbfa410313",
+          "contentTitle": "Men in Black II",
+          "url": "/film/fantascienza/men-in-black-ii/a85fcd96-216d-45f2-8ed4-5dbbfa410313",
+          "genre": {
+            "id": 3,
+            "name": "Film"
+          },
+          "subgenre": {
+            "id": 39,
+            "name": "Fantascienza"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/a85fcd96-216d-45f2-8ed4-5dbbfa410313/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=745ed331bb92cc23276c3832f9e03f32"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/a85fcd96-216d-45f2-8ed4-5dbbfa410313/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6feaf75658c20c4f11c8230ee0eb7f3c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/a85fcd96-216d-45f2-8ed4-5dbbfa410313/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6feaf75658c20c4f11c8230ee0eb7f3c"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/a85fcd96-216d-45f2-8ed4-5dbbfa410313/background?territory=IT&md5ChecksumParam=9c6e0b4ed39c44631bc36cecb6875337"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/a85fcd96-216d-45f2-8ed4-5dbbfa410313/cover?territory=IT&md5ChecksumParam=745ed331bb92cc23276c3832f9e03f32"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/a85fcd96-216d-45f2-8ed4-5dbbfa410313/16-9?territory=IT&md5ChecksumParam=f4ede99a1a88421f328a828e6306ea66"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/a85fcd96-216d-45f2-8ed4-5dbbfa410313/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=00612a1fed629d255961613469c21790"
+              }
+            }
+          ]
+        },
+        "eventId": "411505314",
+        "starttime": "2025-08-05T02:55:00Z",
+        "endtime": "2025-08-05T04:25:00Z",
+        "eventTitle": "Men in Black II",
+        "eventSynopsis": "Will Smith e Tommy Lee Jones nel secondo capitolo della saga fanta-action. Una malvagia aliena vuole impossessarsi di una potentissima pietra. Ma gli agenti J e K sono pronti a fermarla (USA 2002)",
+        "epgEventTitle": "Men in Black II",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
       {
         "channel": {
           "id": 9044,
@@ -27156,7 +26367,7 @@
         "starttime": "2025-08-05T12:45:00Z",
         "endtime": "2025-08-05T14:30:00Z",
         "eventTitle": "Tutti tranne te",
-        "eventSynopsis": "Sydney Sweeney e Glen Powell in un'ironica commedia romantica fenomeno nelle sale. Dopo un incontro fugace Ben e Bea si allontanano, ma le loro strade si incontreranno ancora (AUS/USA 2023)",
+        "eventSynopsis": "Sydney Sweeney e Glen Powell in un'ironica commedia romantica fenomeno nelle sale. Dopo un incontro fugace Ben e Bea si allontanano, ma le loro strade si incontreranno ancora (USA/AUS 2023)",
         "epgEventTitle": "Tutti tranne te",
         "primeVision": false,
         "resolutions": [
@@ -28243,7 +27454,7 @@
         "starttime": "2025-08-06T15:10:00Z",
         "endtime": "2025-08-06T16:55:00Z",
         "eventTitle": "Tutti tranne te",
-        "eventSynopsis": "Sydney Sweeney e Glen Powell in un'ironica commedia romantica fenomeno nelle sale. Dopo un incontro fugace Ben e Bea si allontanano, ma le loro strade si incontreranno ancora (AUS/USA 2023)",
+        "eventSynopsis": "Sydney Sweeney e Glen Powell in un'ironica commedia romantica fenomeno nelle sale. Dopo un incontro fugace Ben e Bea si allontanano, ma le loro strade si incontreranno ancora (USA/AUS 2023)",
         "epgEventTitle": "Tutti tranne te",
         "primeVision": false,
         "resolutions": [
@@ -28545,12 +27756,12 @@
             },
             {
               "img": {
-                "url": "/uuid/62ae18da-8c78-4f4d-85cb-3b45707c5fe4/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7ee386542d05f87122548bae8455bc18"
+                "url": "/uuid/62ae18da-8c78-4f4d-85cb-3b45707c5fe4/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7ee386542d05f87122548bae8455bc18"
               }
             },
             {
               "img": {
-                "url": "/uuid/62ae18da-8c78-4f4d-85cb-3b45707c5fe4/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7ee386542d05f87122548bae8455bc18"
+                "url": "/uuid/62ae18da-8c78-4f4d-85cb-3b45707c5fe4/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7ee386542d05f87122548bae8455bc18"
               }
             },
             {
@@ -29435,7 +28646,7 @@
         "starttime": "2025-08-07T17:25:00Z",
         "endtime": "2025-08-07T19:15:00Z",
         "eventTitle": "Tutti tranne te",
-        "eventSynopsis": "Sydney Sweeney e Glen Powell in un'ironica commedia romantica fenomeno nelle sale. Dopo un incontro fugace Ben e Bea si allontanano, ma le loro strade si incontreranno ancora (AUS/USA 2023)",
+        "eventSynopsis": "Sydney Sweeney e Glen Powell in un'ironica commedia romantica fenomeno nelle sale. Dopo un incontro fugace Ben e Bea si allontanano, ma le loro strade si incontreranno ancora (USA/AUS 2023)",
         "epgEventTitle": "Tutti tranne te",
         "primeVision": false,
         "resolutions": [
@@ -29562,17 +28773,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/22839a81-0ba2-4a42-8c9b-385d9dcaf2fd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e8b7425e6c60e894a99e6a8ca809f1b1"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/22839a81-0ba2-4a42-8c9b-385d9dcaf2fd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=21c8f7e98b4c0a235d71944c50492342"
               }
             },
             {
               "img": {
                 "url": "/uuid/22839a81-0ba2-4a42-8c9b-385d9dcaf2fd/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e8b7425e6c60e894a99e6a8ca809f1b1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/22839a81-0ba2-4a42-8c9b-385d9dcaf2fd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e8b7425e6c60e894a99e6a8ca809f1b1"
               }
             },
             {
@@ -29733,6 +28944,21 @@
           },
           "imagesMap": [
             {
+              "img": {
+                "url": "/uuid/128fa8af-81f1-47a5-bc16-e8ecc656d4f8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=745ed985df153f6c541ac31c5f8135ab"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/128fa8af-81f1-47a5-bc16-e8ecc656d4f8/COVER_CLEAN_TALL?territory=IT&version=95f7a8d0-4d11-36f4-9ff7-2c829c25407a&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=0908f70de698c16dc418b16ea2bce71e"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/128fa8af-81f1-47a5-bc16-e8ecc656d4f8/COVER_CLEAN_TALL?territory=IT&version=95f7a8d0-4d11-36f4-9ff7-2c829c25407a&w=600&h=800&md5ChecksumParam=0908f70de698c16dc418b16ea2bce71e"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/128fa8af-81f1-47a5-bc16-e8ecc656d4f8/background?territory=IT&md5ChecksumParam=fea513cedf9a51314934a6e3419c89f7"
@@ -29753,7 +28979,7 @@
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/Cinema_Scene_N0KTs4PQD.png"
+                "url": "/uuid/128fa8af-81f1-47a5-bc16-e8ecc656d4f8/COVER_TITLE_WIDE?territory=IT&version=0d03d93b-3cd3-346a-9b88-69ea97199195&w=1920&h=1080&md5ChecksumParam=f454765375ff86cb90bbe819c4cf12a5"
               }
             }
           ]
@@ -29804,17 +29030,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e07719e183f9d2b3065a5da57b304f2b"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=090112591a809c52a9578bbcb42eba69"
               }
             },
             {
               "img": {
                 "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=090112591a809c52a9578bbcb42eba69"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e07719e183f9d2b3065a5da57b304f2b"
               }
             },
             {
@@ -29974,17 +29200,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/22839a81-0ba2-4a42-8c9b-385d9dcaf2fd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e8b7425e6c60e894a99e6a8ca809f1b1"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/22839a81-0ba2-4a42-8c9b-385d9dcaf2fd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=21c8f7e98b4c0a235d71944c50492342"
               }
             },
             {
               "img": {
                 "url": "/uuid/22839a81-0ba2-4a42-8c9b-385d9dcaf2fd/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e8b7425e6c60e894a99e6a8ca809f1b1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/22839a81-0ba2-4a42-8c9b-385d9dcaf2fd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e8b7425e6c60e894a99e6a8ca809f1b1"
               }
             },
             {
@@ -30102,7 +29328,7 @@
         "starttime": "2025-08-08T09:20:00Z",
         "endtime": "2025-08-08T11:05:00Z",
         "eventTitle": "Tutti tranne te",
-        "eventSynopsis": "Sydney Sweeney e Glen Powell in un'ironica commedia romantica fenomeno nelle sale. Dopo un incontro fugace Ben e Bea si allontanano, ma le loro strade si incontreranno ancora (AUS/USA 2023)",
+        "eventSynopsis": "Sydney Sweeney e Glen Powell in un'ironica commedia romantica fenomeno nelle sale. Dopo un incontro fugace Ben e Bea si allontanano, ma le loro strade si incontreranno ancora (USA/AUS 2023)",
         "epgEventTitle": "Tutti tranne te",
         "primeVision": false,
         "resolutions": [
@@ -30483,6 +29709,21 @@
           },
           "imagesMap": [
             {
+              "img": {
+                "url": "/uuid/128fa8af-81f1-47a5-bc16-e8ecc656d4f8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=745ed985df153f6c541ac31c5f8135ab"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/128fa8af-81f1-47a5-bc16-e8ecc656d4f8/COVER_CLEAN_TALL?territory=IT&version=95f7a8d0-4d11-36f4-9ff7-2c829c25407a&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=0908f70de698c16dc418b16ea2bce71e"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/128fa8af-81f1-47a5-bc16-e8ecc656d4f8/COVER_CLEAN_TALL?territory=IT&version=95f7a8d0-4d11-36f4-9ff7-2c829c25407a&w=600&h=800&md5ChecksumParam=0908f70de698c16dc418b16ea2bce71e"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/128fa8af-81f1-47a5-bc16-e8ecc656d4f8/background?territory=IT&md5ChecksumParam=fea513cedf9a51314934a6e3419c89f7"
@@ -30503,7 +29744,7 @@
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/Cinema_Scene_N0KTs4PQD.png"
+                "url": "/uuid/128fa8af-81f1-47a5-bc16-e8ecc656d4f8/COVER_TITLE_WIDE?territory=IT&version=0d03d93b-3cd3-346a-9b88-69ea97199195&w=1920&h=1080&md5ChecksumParam=f454765375ff86cb90bbe819c4cf12a5"
               }
             }
           ]
@@ -31135,6 +30376,21 @@
           },
           "imagesMap": [
             {
+              "img": {
+                "url": "/uuid/128fa8af-81f1-47a5-bc16-e8ecc656d4f8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=745ed985df153f6c541ac31c5f8135ab"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/128fa8af-81f1-47a5-bc16-e8ecc656d4f8/COVER_CLEAN_TALL?territory=IT&version=95f7a8d0-4d11-36f4-9ff7-2c829c25407a&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=0908f70de698c16dc418b16ea2bce71e"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/128fa8af-81f1-47a5-bc16-e8ecc656d4f8/COVER_CLEAN_TALL?territory=IT&version=95f7a8d0-4d11-36f4-9ff7-2c829c25407a&w=600&h=800&md5ChecksumParam=0908f70de698c16dc418b16ea2bce71e"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/128fa8af-81f1-47a5-bc16-e8ecc656d4f8/background?territory=IT&md5ChecksumParam=fea513cedf9a51314934a6e3419c89f7"
@@ -31155,7 +30411,7 @@
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/Cinema_Scene_N0KTs4PQD.png"
+                "url": "/uuid/128fa8af-81f1-47a5-bc16-e8ecc656d4f8/COVER_TITLE_WIDE?territory=IT&version=0d03d93b-3cd3-346a-9b88-69ea97199195&w=1920&h=1080&md5ChecksumParam=f454765375ff86cb90bbe819c4cf12a5"
               }
             }
           ]
@@ -31291,17 +30547,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=79892c5ea28ba807560ee218733b7633"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16ea506740c39319a9fee324faa8799a"
               }
             },
             {
               "img": {
                 "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=79892c5ea28ba807560ee218733b7633"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=79892c5ea28ba807560ee218733b7633"
               }
             },
             {
@@ -31706,16 +30962,31 @@
         "content": {
           "uuid": "6c898e27-6b5a-40bd-bab5-741be86ec34a",
           "contentTitle": "Into the Ashes",
-          "url": "/film/drammatico/into-the-ashes/6c898e27-6b5a-40bd-bab5-741be86ec34a",
+          "url": "/film/thriller/into-the-ashes/6c898e27-6b5a-40bd-bab5-741be86ec34a",
           "genre": {
             "id": 3,
             "name": "Film"
           },
           "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
+            "id": 88,
+            "name": "Thriller"
           },
           "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/6c898e27-6b5a-40bd-bab5-741be86ec34a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=76afb876b92a90507dc40ba2676fffa9"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6c898e27-6b5a-40bd-bab5-741be86ec34a/COVER_CLEAN_TALL?territory=IT&version=b985df38-aa95-3bfc-ac2e-45bcb75dc214&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=7fd3fb05a3ae1c7f250a8a832cd975c9"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6c898e27-6b5a-40bd-bab5-741be86ec34a/COVER_CLEAN_TALL?territory=IT&version=b985df38-aa95-3bfc-ac2e-45bcb75dc214&w=600&h=800&md5ChecksumParam=7fd3fb05a3ae1c7f250a8a832cd975c9"
+              }
+            },
             {
               "key": "background",
               "img": {
@@ -31737,7 +31008,7 @@
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/Cinema_Scene_N0KTs4PQD.png"
+                "url": "/uuid/6c898e27-6b5a-40bd-bab5-741be86ec34a/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=0d4b1ac7fb9cb821cf62e195ee693a81"
               }
             }
           ]
@@ -32456,16 +31727,31 @@
         "content": {
           "uuid": "6c898e27-6b5a-40bd-bab5-741be86ec34a",
           "contentTitle": "Into the Ashes",
-          "url": "/film/drammatico/into-the-ashes/6c898e27-6b5a-40bd-bab5-741be86ec34a",
+          "url": "/film/thriller/into-the-ashes/6c898e27-6b5a-40bd-bab5-741be86ec34a",
           "genre": {
             "id": 3,
             "name": "Film"
           },
           "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
+            "id": 88,
+            "name": "Thriller"
           },
           "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/6c898e27-6b5a-40bd-bab5-741be86ec34a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=76afb876b92a90507dc40ba2676fffa9"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6c898e27-6b5a-40bd-bab5-741be86ec34a/COVER_CLEAN_TALL?territory=IT&version=b985df38-aa95-3bfc-ac2e-45bcb75dc214&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=7fd3fb05a3ae1c7f250a8a832cd975c9"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6c898e27-6b5a-40bd-bab5-741be86ec34a/COVER_CLEAN_TALL?territory=IT&version=b985df38-aa95-3bfc-ac2e-45bcb75dc214&w=600&h=800&md5ChecksumParam=7fd3fb05a3ae1c7f250a8a832cd975c9"
+              }
+            },
             {
               "key": "background",
               "img": {
@@ -32487,7 +31773,7 @@
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/Cinema_Scene_N0KTs4PQD.png"
+                "url": "/uuid/6c898e27-6b5a-40bd-bab5-741be86ec34a/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=0d4b1ac7fb9cb821cf62e195ee693a81"
               }
             }
           ]
@@ -32538,17 +31824,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=27599258585a9b24eccb77adad00619b"
               }
             },
             {
               "img": {
                 "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
               }
             },
             {
@@ -33050,17 +32336,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=27599258585a9b24eccb77adad00619b"
               }
             },
             {
               "img": {
                 "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/bdb4a740-2e09-4457-9abe-760263a14244/COVER_CLEAN_TALL?territory=IT&version=607542c4-c851-3927-be9c-343a1884d1e0&w=600&h=800&md5ChecksumParam=5b42ea342d7767d74f2a0c14b1e3133c"
               }
             },
             {
@@ -33208,16 +32494,31 @@
         "content": {
           "uuid": "6c898e27-6b5a-40bd-bab5-741be86ec34a",
           "contentTitle": "Into the Ashes",
-          "url": "/film/drammatico/into-the-ashes/6c898e27-6b5a-40bd-bab5-741be86ec34a",
+          "url": "/film/thriller/into-the-ashes/6c898e27-6b5a-40bd-bab5-741be86ec34a",
           "genre": {
             "id": 3,
             "name": "Film"
           },
           "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
+            "id": 88,
+            "name": "Thriller"
           },
           "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/6c898e27-6b5a-40bd-bab5-741be86ec34a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=76afb876b92a90507dc40ba2676fffa9"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6c898e27-6b5a-40bd-bab5-741be86ec34a/COVER_CLEAN_TALL?territory=IT&version=b985df38-aa95-3bfc-ac2e-45bcb75dc214&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=7fd3fb05a3ae1c7f250a8a832cd975c9"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6c898e27-6b5a-40bd-bab5-741be86ec34a/COVER_CLEAN_TALL?territory=IT&version=b985df38-aa95-3bfc-ac2e-45bcb75dc214&w=600&h=800&md5ChecksumParam=7fd3fb05a3ae1c7f250a8a832cd975c9"
+              }
+            },
             {
               "key": "background",
               "img": {
@@ -33239,7 +32540,7 @@
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/Cinema_Scene_N0KTs4PQD.png"
+                "url": "/uuid/6c898e27-6b5a-40bd-bab5-741be86ec34a/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=0d4b1ac7fb9cb821cf62e195ee693a81"
               }
             }
           ]
@@ -35622,12 +34923,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6c6d80efc10d66a5234fca44794c6a9a"
+                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa5ead0062af0472151dbc6d5fbbadb"
               }
             },
             {
               "img": {
-                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa5ead0062af0472151dbc6d5fbbadb"
+                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6c6d80efc10d66a5234fca44794c6a9a"
               }
             },
             {
@@ -35868,6 +35169,11 @@
           },
           "imagesMap": [
             {
+              "img": {
+                "url": "/uuid/a4d7dcaa-0df5-427e-bbe1-b462536b9236/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=290090de20fa436ebcd6067b1139f0ed"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/a4d7dcaa-0df5-427e-bbe1-b462536b9236/background?territory=IT&md5ChecksumParam=e59fb8311fa5012a14e1b0af06174991"
@@ -35883,12 +35189,6 @@
               "key": "scene",
               "img": {
                 "url": "/uuid/a4d7dcaa-0df5-427e-bbe1-b462536b9236/16-9?territory=IT&md5ChecksumParam=59098a50df955d66a1c5a535e6d400cb"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/Cinema_Scene_N0KTs4PQD.png"
               }
             }
           ]
@@ -36364,12 +35664,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6c6d80efc10d66a5234fca44794c6a9a"
+                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa5ead0062af0472151dbc6d5fbbadb"
               }
             },
             {
               "img": {
-                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2fa5ead0062af0472151dbc6d5fbbadb"
+                "url": "/uuid/950c8e27-31a8-427f-a908-b199784176ba/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6c6d80efc10d66a5234fca44794c6a9a"
               }
             },
             {
@@ -36693,6 +35993,11 @@
           },
           "imagesMap": [
             {
+              "img": {
+                "url": "/uuid/a4d7dcaa-0df5-427e-bbe1-b462536b9236/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=290090de20fa436ebcd6067b1139f0ed"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/a4d7dcaa-0df5-427e-bbe1-b462536b9236/background?territory=IT&md5ChecksumParam=e59fb8311fa5012a14e1b0af06174991"
@@ -36708,12 +36013,6 @@
               "key": "scene",
               "img": {
                 "url": "/uuid/a4d7dcaa-0df5-427e-bbe1-b462536b9236/16-9?territory=IT&md5ChecksumParam=59098a50df955d66a1c5a535e6d400cb"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/Cinema_Scene_N0KTs4PQD.png"
               }
             }
           ]
@@ -36763,6 +36062,21 @@
           },
           "imagesMap": [
             {
+              "img": {
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2980086b14bcbcfe078c1dd08046e87b"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b4ff00fc8ba927b05bf333a5585b8de6"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b4ff00fc8ba927b05bf333a5585b8de6"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/background?territory=IT&md5ChecksumParam=e34d7cee47e40122487125cdc191306d"
@@ -36783,7 +36097,7 @@
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/Cinema_Scene_N0KTs4PQD.png"
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=77e9ae0300947ac9fde9d66743800954"
               }
             }
           ]
@@ -37175,6 +36489,21 @@
           },
           "imagesMap": [
             {
+              "img": {
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2980086b14bcbcfe078c1dd08046e87b"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b4ff00fc8ba927b05bf333a5585b8de6"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b4ff00fc8ba927b05bf333a5585b8de6"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/background?territory=IT&md5ChecksumParam=e34d7cee47e40122487125cdc191306d"
@@ -37195,7 +36524,7 @@
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/Cinema_Scene_N0KTs4PQD.png"
+                "url": "/uuid/dce9c7f7-971b-4749-8697-c4fd5158d4f9/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=77e9ae0300947ac9fde9d66743800954"
               }
             }
           ]
@@ -37405,6 +36734,11 @@
           },
           "imagesMap": [
             {
+              "img": {
+                "url": "/uuid/a4d7dcaa-0df5-427e-bbe1-b462536b9236/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=290090de20fa436ebcd6067b1139f0ed"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/a4d7dcaa-0df5-427e-bbe1-b462536b9236/background?territory=IT&md5ChecksumParam=e59fb8311fa5012a14e1b0af06174991"
@@ -37420,12 +36754,6 @@
               "key": "scene",
               "img": {
                 "url": "/uuid/a4d7dcaa-0df5-427e-bbe1-b462536b9236/16-9?territory=IT&md5ChecksumParam=59098a50df955d66a1c5a535e6d400cb"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/Cinema_Scene_N0KTs4PQD.png"
               }
             }
           ]

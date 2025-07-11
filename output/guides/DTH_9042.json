@@ -1,1198 +1,6 @@
 {
   "name": "Sky Cinema Family",
   "events_by_date": {
-    "2025-07-10": [
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "cbf88920-1e94-45ee-971b-b10656cc86a3",
-          "contentTitle": "Elf",
-          "url": "/film/fantastico/elf/cbf88920-1e94-45ee-971b-b10656cc86a3",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 58,
-            "name": "Fantastico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/cbf88920-1e94-45ee-971b-b10656cc86a3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=39bdffac703bd20593bffa98a289452d"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/cbf88920-1e94-45ee-971b-b10656cc86a3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=527b7c1eb57e920bf10d6f96801340d1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/cbf88920-1e94-45ee-971b-b10656cc86a3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=527b7c1eb57e920bf10d6f96801340d1"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/cbf88920-1e94-45ee-971b-b10656cc86a3/background?territory=IT&md5ChecksumParam=786fb99216a2991f8338eea26b53a1a0"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/cbf88920-1e94-45ee-971b-b10656cc86a3/cover?territory=IT&md5ChecksumParam=39bdffac703bd20593bffa98a289452d"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/cbf88920-1e94-45ee-971b-b10656cc86a3/16-9?territory=IT&md5ChecksumParam=9a9e0fd6f285891118a7e2516672de9f"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/cbf88920-1e94-45ee-971b-b10656cc86a3/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=eb4253f2cc3900dc808b126974801a9d"
-              }
-            }
-          ]
-        },
-        "eventId": "411272496",
-        "starttime": "2025-07-10T00:25:00Z",
-        "endtime": "2025-07-10T02:00:00Z",
-        "eventTitle": "Elf",
-        "eventSynopsis": "Allegra fiaba natalizia con Will Ferrell. Un bambino finisce nel sacco di Babbo Natale e cresce al Polo Nord insieme agli altri elfi. Da adulto torna a New York alla ricerca dei genitori (USA 2003)",
-        "epgEventTitle": "Elf",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "a7791491-160d-469a-9303-a7953e7e088c",
-          "contentTitle": "Hotel Transylvania",
-          "url": "/film/animazione/hotel-transylvania/a7791491-160d-469a-9303-a7953e7e088c",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 83,
-            "name": "Animazione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e789866dbef2f1bcb8d0c19978800828"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=99e8009ac7c009465e418821b4d77c9c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=99e8009ac7c009465e418821b4d77c9c"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/background?territory=IT&md5ChecksumParam=8868ef35d31d3c8614d1dd4937dbc160"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/cover?territory=IT&md5ChecksumParam=e789866dbef2f1bcb8d0c19978800828"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/16-9?territory=IT&md5ChecksumParam=27f4dc3c8383a185594342a8ced49078"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=ea8eedd29eb08c3a9ef3e77c64a84f0f"
-              }
-            }
-          ]
-        },
-        "eventId": "411272497",
-        "starttime": "2025-07-10T02:00:00Z",
-        "endtime": "2025-07-10T03:35:00Z",
-        "eventTitle": "Hotel Transylvania",
-        "eventSynopsis": "Blockbuster di Halloween per tutta la famiglia. Il Conte Dracula organizza una festa per il compleanno della figlia Mavis, ma tra gli ospiti c'e' un intruso...",
-        "epgEventTitle": "Hotel Transylvania",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "68efa3f3-0567-45af-b283-2939e9bc57ab",
-          "contentTitle": "Cicogne in missione",
-          "url": "/film/animazione/cicogne-in-missione/68efa3f3-0567-45af-b283-2939e9bc57ab",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 83,
-            "name": "Animazione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/68efa3f3-0567-45af-b283-2939e9bc57ab/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9e3133f3f86805d3995286db779b5665"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/68efa3f3-0567-45af-b283-2939e9bc57ab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ec9aceb2744776bbf017194707c90924"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/68efa3f3-0567-45af-b283-2939e9bc57ab/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=9e3133f3f86805d3995286db779b5665"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/68efa3f3-0567-45af-b283-2939e9bc57ab/background?territory=IT&md5ChecksumParam=45286d405527243a82e7c90ed1dcc811"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/68efa3f3-0567-45af-b283-2939e9bc57ab/cover?territory=IT&md5ChecksumParam=ec9aceb2744776bbf017194707c90924"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/68efa3f3-0567-45af-b283-2939e9bc57ab/16-9?territory=IT&md5ChecksumParam=211bda6a495c354ed2378eac5f4e61cc"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/68efa3f3-0567-45af-b283-2939e9bc57ab/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=1c5d3271a46509aefe81ac89f794e3e3"
-              }
-            }
-          ]
-        },
-        "eventId": "411272498",
-        "starttime": "2025-07-10T03:35:00Z",
-        "endtime": "2025-07-10T05:05:00Z",
-        "eventTitle": "Cicogne in missione",
-        "eventSynopsis": "Pellicola d'animazione dai creatori di \"The Lego Movie\". Le cicogne consegnano ormai i bebe' online, ma un imprevisto obbliga il loro miglior corriere a una corsa contro il tempo.",
-        "epgEventTitle": "Cicogne in missione",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "ffe42efa-f758-40c0-aa3f-6a3683d0e2c4",
-          "contentTitle": "Il mago di Oz",
-          "url": "/film/avventura/il-mago-di-oz/ffe42efa-f758-40c0-aa3f-6a3683d0e2c4",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 63,
-            "name": "Avventura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/ffe42efa-f758-40c0-aa3f-6a3683d0e2c4/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=752de2bacc10b39cf14cdcb8ba813348"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ffe42efa-f758-40c0-aa3f-6a3683d0e2c4/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=12e5792a567c265c4f16a86f41b898d2"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ffe42efa-f758-40c0-aa3f-6a3683d0e2c4/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=12e5792a567c265c4f16a86f41b898d2"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/ffe42efa-f758-40c0-aa3f-6a3683d0e2c4/background?territory=IT&md5ChecksumParam=17a3647d5c33f60875770da8bfd162fb"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/ffe42efa-f758-40c0-aa3f-6a3683d0e2c4/cover?territory=IT&md5ChecksumParam=752de2bacc10b39cf14cdcb8ba813348"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/ffe42efa-f758-40c0-aa3f-6a3683d0e2c4/16-9?territory=IT&md5ChecksumParam=6a387431dd5fab90460b22e6ad201c06"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/ffe42efa-f758-40c0-aa3f-6a3683d0e2c4/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=afbd6ee527b890caea244ddd2a0b13e3"
-              }
-            }
-          ]
-        },
-        "eventId": "411410447",
-        "starttime": "2025-07-10T05:05:00Z",
-        "endtime": "2025-07-10T06:50:00Z",
-        "eventTitle": "Il mago di Oz (Vers. Rest.)",
-        "eventSynopsis": "2 Oscar al fiabesco musical con Judy Garland. Un tornado scaraventa la giovane Dorothy in un mondo popolato da personaggi surreali. Solo il mago di Oz puo' aiutarla a tornare a casa (USA 1939)",
-        "epgEventTitle": "Il mago di Oz (Vers. Rest.)",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "352759db-ea47-47e9-a9cc-ab400bffa74d",
-          "contentTitle": "Il giro del mondo in 80 giorni",
-          "url": "/film/animazione/il-giro-del-mondo-in-80-giorni/352759db-ea47-47e9-a9cc-ab400bffa74d",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 83,
-            "name": "Animazione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/352759db-ea47-47e9-a9cc-ab400bffa74d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b10a0b1bc4202270b9feb80e06e1b143"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/352759db-ea47-47e9-a9cc-ab400bffa74d/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7fa9850a960ed6fefb6d522e113aaf86"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/352759db-ea47-47e9-a9cc-ab400bffa74d/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7fa9850a960ed6fefb6d522e113aaf86"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/352759db-ea47-47e9-a9cc-ab400bffa74d/background?territory=IT&md5ChecksumParam=07f174bcb76c392606d01b4a777cdc0f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/352759db-ea47-47e9-a9cc-ab400bffa74d/cover?territory=IT&md5ChecksumParam=b10a0b1bc4202270b9feb80e06e1b143"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/352759db-ea47-47e9-a9cc-ab400bffa74d/16-9?territory=IT&md5ChecksumParam=8e8b69efdbeda7c33c2a8665892bdc27"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/352759db-ea47-47e9-a9cc-ab400bffa74d/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=d3672ed02c31cd5a253e22d6e9855808"
-              }
-            }
-          ]
-        },
-        "eventId": "411410448",
-        "starttime": "2025-07-10T06:50:00Z",
-        "endtime": "2025-07-10T08:15:00Z",
-        "eventTitle": "Il giro del mondo in 80 giorni",
-        "eventSynopsis": "Colorato adattamento animato del capolavoro di Jules Verne. La scimmietta Passepartout e il ranocchio Phileas partono per un folle viaggio per battere il record di un famoso esploratore (FRA/BEL 2021)",
-        "epgEventTitle": "Il giro del mondo in 80 giorni",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "67e5673a-2ef8-49fb-8478-a54251b6034e",
-          "contentTitle": "Troppo Napoletano",
-          "url": "/film/comico/troppo-napoletano/67e5673a-2ef8-49fb-8478-a54251b6034e",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 52,
-            "name": "Comico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/67e5673a-2ef8-49fb-8478-a54251b6034e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7b5ff5b9a0bab1494217e8ccd3a60a4f"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/67e5673a-2ef8-49fb-8478-a54251b6034e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=9a63dd728093d17649a0591007b0df8a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/67e5673a-2ef8-49fb-8478-a54251b6034e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9a63dd728093d17649a0591007b0df8a"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/67e5673a-2ef8-49fb-8478-a54251b6034e/background?territory=IT&md5ChecksumParam=70efd3513e37f8104ca7e7576af49aec"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/67e5673a-2ef8-49fb-8478-a54251b6034e/cover?territory=IT&md5ChecksumParam=7b5ff5b9a0bab1494217e8ccd3a60a4f"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/67e5673a-2ef8-49fb-8478-a54251b6034e/16-9?territory=IT&md5ChecksumParam=8cc1daa1feeecdd8748550da0c2cc354"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/67e5673a-2ef8-49fb-8478-a54251b6034e/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=bc570842a9f2836bdf22a18d896ab7cc"
-              }
-            }
-          ]
-        },
-        "eventId": "411410449",
-        "starttime": "2025-07-10T08:15:00Z",
-        "endtime": "2025-07-10T10:00:00Z",
-        "eventTitle": "Troppo Napoletano",
-        "eventSynopsis": "Commedia di Gianluca Ansanelli con Serena Rossi e prodotta da Alessandro Siani. In preda ai primi turbamenti d'amore, il piccolo Ciro si allea con il suo analista per conquistare l'amata (ITA 2016)",
-        "epgEventTitle": "Troppo Napoletano",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "4cfb383b-f79c-4489-98d3-a3cd9508b06e",
-          "contentTitle": "Free Willy: Un amico da salvare",
-          "url": "/film/avventura/free-willy-un-amico-da-salvare/4cfb383b-f79c-4489-98d3-a3cd9508b06e",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 63,
-            "name": "Avventura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/4cfb383b-f79c-4489-98d3-a3cd9508b06e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=514af4083fcdfc72c08afb368dc0a111"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4cfb383b-f79c-4489-98d3-a3cd9508b06e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=514af4083fcdfc72c08afb368dc0a111"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4cfb383b-f79c-4489-98d3-a3cd9508b06e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0b2e6d7b1fb165f8850039e8d16fff5e"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/4cfb383b-f79c-4489-98d3-a3cd9508b06e/background?territory=IT&md5ChecksumParam=663eace0a150b67975f7d4a96aee5440"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/4cfb383b-f79c-4489-98d3-a3cd9508b06e/cover?territory=IT&md5ChecksumParam=0b2e6d7b1fb165f8850039e8d16fff5e"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/4cfb383b-f79c-4489-98d3-a3cd9508b06e/16-9?territory=IT&md5ChecksumParam=9bfd74be6257bcf8169bc92ae3d5be57"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/4cfb383b-f79c-4489-98d3-a3cd9508b06e/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=6c53955f4bf7299e84500f12c1f243d0"
-              }
-            }
-          ]
-        },
-        "eventId": "411410450",
-        "starttime": "2025-07-10T10:00:00Z",
-        "endtime": "2025-07-10T11:50:00Z",
-        "eventTitle": "Free Willy: Un amico da salvare",
-        "eventSynopsis": "L'incredibile storia d'amicizia tra un ragazzino ribelle e un'orca. Incaricato della pulizia di un acquario, Jesse fa amicizia con Willy, un'orca capace di mirabolanti esibizioni (USA 1993)",
-        "epgEventTitle": "Free Willy: Un amico da salvare",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "a7791491-160d-469a-9303-a7953e7e088c",
-          "contentTitle": "Hotel Transylvania",
-          "url": "/film/animazione/hotel-transylvania/a7791491-160d-469a-9303-a7953e7e088c",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 83,
-            "name": "Animazione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e789866dbef2f1bcb8d0c19978800828"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=99e8009ac7c009465e418821b4d77c9c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=99e8009ac7c009465e418821b4d77c9c"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/background?territory=IT&md5ChecksumParam=8868ef35d31d3c8614d1dd4937dbc160"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/cover?territory=IT&md5ChecksumParam=e789866dbef2f1bcb8d0c19978800828"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/16-9?territory=IT&md5ChecksumParam=27f4dc3c8383a185594342a8ced49078"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=ea8eedd29eb08c3a9ef3e77c64a84f0f"
-              }
-            }
-          ]
-        },
-        "eventId": "411410451",
-        "starttime": "2025-07-10T11:50:00Z",
-        "endtime": "2025-07-10T13:25:00Z",
-        "eventTitle": "Hotel Transylvania",
-        "eventSynopsis": "Blockbuster di Halloween per tutta la famiglia. Il Conte Dracula organizza una festa per il compleanno della figlia Mavis, ma tra gli ospiti c'e' un intruso... (USA 2012)",
-        "epgEventTitle": "Hotel Transylvania",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "c320935f-2b70-4259-ba3f-38c2cef18d8e",
-          "contentTitle": "Shaun, vita da pecora. Farmageddon: Il film",
-          "url": "/film/animazione/shaun-vita-da-pecora-farmageddon-il-film/c320935f-2b70-4259-ba3f-38c2cef18d8e",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 83,
-            "name": "Animazione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/c320935f-2b70-4259-ba3f-38c2cef18d8e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=bebbf4f14edc9e7c2f73827f92ca425f"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c320935f-2b70-4259-ba3f-38c2cef18d8e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6300fe4e4d4c20c522fcd5078e0310f8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c320935f-2b70-4259-ba3f-38c2cef18d8e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6300fe4e4d4c20c522fcd5078e0310f8"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/c320935f-2b70-4259-ba3f-38c2cef18d8e/background?territory=IT&md5ChecksumParam=544c8864eb97813bc0643a4de9264216"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/c320935f-2b70-4259-ba3f-38c2cef18d8e/cover?territory=IT&md5ChecksumParam=bebbf4f14edc9e7c2f73827f92ca425f"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/c320935f-2b70-4259-ba3f-38c2cef18d8e/16-9?territory=IT&md5ChecksumParam=81ace7ca14be565b0adb9fb6c9ab4d00"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/c320935f-2b70-4259-ba3f-38c2cef18d8e/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=fd14b64c4e4a8358c1a97358a33f96dc"
-              }
-            }
-          ]
-        },
-        "eventId": "411410452",
-        "starttime": "2025-07-10T13:25:00Z",
-        "endtime": "2025-07-10T14:55:00Z",
-        "eventTitle": "Shaun, vita da pecora - Farmageddon",
-        "eventSynopsis": "Il secondo film ispirato alla serie animata si tinge di fantascienza. Shaun e i suoi amici devono difendere dagli agenti del governo una piccola aliena atterrata nella fattoria (USA/GBR 2019)",
-        "epgEventTitle": "Shaun, vita da pecora - Farmageddon",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "528a2e61-4378-4a07-a117-6b98631bfa0a",
-          "contentTitle": "Mrs. Doubtfire: Mammo per sempre",
-          "url": "/film/commedia/mrs-doubtfire-mammo-per-sempre/528a2e61-4378-4a07-a117-6b98631bfa0a",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 18,
-            "name": "Commedia"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/528a2e61-4378-4a07-a117-6b98631bfa0a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=56114a5feb0c0df2b9435085b15b2e1a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/528a2e61-4378-4a07-a117-6b98631bfa0a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=372cc62294226fa91d64c8aabc842589"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/528a2e61-4378-4a07-a117-6b98631bfa0a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=372cc62294226fa91d64c8aabc842589"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/528a2e61-4378-4a07-a117-6b98631bfa0a/background?territory=IT&md5ChecksumParam=795d3405ee6a0e2dfb0f97dcb8b2766e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/528a2e61-4378-4a07-a117-6b98631bfa0a/cover?territory=IT&md5ChecksumParam=56114a5feb0c0df2b9435085b15b2e1a"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/528a2e61-4378-4a07-a117-6b98631bfa0a/16-9?territory=IT&md5ChecksumParam=aff6ebe5a893308b8e303fc12741f545"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/528a2e61-4378-4a07-a117-6b98631bfa0a/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=8e9654f909f1cca772fefe988fec943b"
-              }
-            }
-          ]
-        },
-        "eventId": "411410453",
-        "starttime": "2025-07-10T14:55:00Z",
-        "endtime": "2025-07-10T17:05:00Z",
-        "eventTitle": "Mrs. Doubtfire - Mammo per sempre",
-        "eventSynopsis": "Uno dei personaggi piu' riusciti del grande Robin Williams. Per stare vicino ai figli dei quali ha perso l'affidamento, un uomo si traveste da donna e si fa assumere dall'ex moglie (USA 1993)",
-        "epgEventTitle": "Mrs. Doubtfire - Mammo per sempre",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "8982401c-28fc-4c69-bb13-c589be971145",
-          "contentTitle": "Caterina va in città",
-          "url": "/film/commedia/caterina-va-in-citta/8982401c-28fc-4c69-bb13-c589be971145",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 18,
-            "name": "Commedia"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/8982401c-28fc-4c69-bb13-c589be971145/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7c4f8bfca64c2f469a799f6aec1cfe82"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8982401c-28fc-4c69-bb13-c589be971145/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=dcc343ecb4d998d322da9873ff6391c5"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8982401c-28fc-4c69-bb13-c589be971145/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=dcc343ecb4d998d322da9873ff6391c5"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/8982401c-28fc-4c69-bb13-c589be971145/background?territory=IT&md5ChecksumParam=6a8de86ab81ada3148b9dddd20c1ac94"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/8982401c-28fc-4c69-bb13-c589be971145/cover?territory=IT&md5ChecksumParam=7c4f8bfca64c2f469a799f6aec1cfe82"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/8982401c-28fc-4c69-bb13-c589be971145/16-9?territory=IT&md5ChecksumParam=ddb33dddc9a159dee873b24913a112de"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/8982401c-28fc-4c69-bb13-c589be971145/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=f1a0575ed9fc6fb65e2ced2e3f009b76"
-              }
-            }
-          ]
-        },
-        "eventId": "411410454",
-        "starttime": "2025-07-10T17:05:00Z",
-        "endtime": "2025-07-10T19:00:00Z",
-        "eventTitle": "Caterina va in città",
-        "eventSynopsis": "Commedia di Paolo Virzi' con Margherita Buy e Sergio Castellitto. Giunta a Roma dalla provincia con i genitori, una timida tredicenne s'immerge nelle contraddizioni sociali della capitale (ITA 2003)",
-        "epgEventTitle": "Caterina va in città",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "ce25ca18-b2c4-4987-915a-481167fe7b53",
-          "contentTitle": "Dolcissime",
-          "url": "/film/commedia/dolcissime/ce25ca18-b2c4-4987-915a-481167fe7b53",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 18,
-            "name": "Commedia"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/ce25ca18-b2c4-4987-915a-481167fe7b53/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4331b7bfd3d7616652da73c8ce057c80"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ce25ca18-b2c4-4987-915a-481167fe7b53/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4331b7bfd3d7616652da73c8ce057c80"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ce25ca18-b2c4-4987-915a-481167fe7b53/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c63def74e5bbb7b7af5a8746f7105974"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/ce25ca18-b2c4-4987-915a-481167fe7b53/background?territory=IT&md5ChecksumParam=8da559577ae5ed07610c64656aeb4513"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/ce25ca18-b2c4-4987-915a-481167fe7b53/cover?territory=IT&md5ChecksumParam=c63def74e5bbb7b7af5a8746f7105974"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/ce25ca18-b2c4-4987-915a-481167fe7b53/16-9?territory=IT&md5ChecksumParam=ea7fa43d130e1db593a79c5517e711eb"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/ce25ca18-b2c4-4987-915a-481167fe7b53/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=17e04f183c4f6f2f435abdc80e96ab11"
-              }
-            }
-          ]
-        },
-        "eventId": "411410455",
-        "starttime": "2025-07-10T19:00:00Z",
-        "endtime": "2025-07-10T20:25:00Z",
-        "eventTitle": "Dolcissime",
-        "eventSynopsis": "Delicata commedia di Francesco Ghiaccio. Tre ragazze derise per il loro aspetto cercano il riscatto in una gara di nuoto sincronizzato. Nel cast Vinicio Marchioni e Valeria Solarino (ITA 2019)",
-        "epgEventTitle": "Dolcissime",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "4426f428-319a-4f5c-b37b-5e224fa39644",
-          "contentTitle": "Max Steel",
-          "url": "/film/fantascienza/max-steel/4426f428-319a-4f5c-b37b-5e224fa39644",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 39,
-            "name": "Fantascienza"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/4426f428-319a-4f5c-b37b-5e224fa39644/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2cf1234d651cb90cacb4597d97f6a368"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4426f428-319a-4f5c-b37b-5e224fa39644/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=88414ea7163c3ff58f1eb086c7f0119a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4426f428-319a-4f5c-b37b-5e224fa39644/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=88414ea7163c3ff58f1eb086c7f0119a"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/4426f428-319a-4f5c-b37b-5e224fa39644/background?territory=IT&md5ChecksumParam=e8465cb0bc7e53fa130014e07bce2c78"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/4426f428-319a-4f5c-b37b-5e224fa39644/cover?territory=IT&md5ChecksumParam=2cf1234d651cb90cacb4597d97f6a368"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/4426f428-319a-4f5c-b37b-5e224fa39644/16-9?territory=IT&md5ChecksumParam=a325c4100d97bce9f8a84e1347d28345"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/4426f428-319a-4f5c-b37b-5e224fa39644/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=9703ec91ff4428c4971981a3edc48818"
-              }
-            }
-          ]
-        },
-        "eventId": "411410456",
-        "starttime": "2025-07-10T20:25:00Z",
-        "endtime": "2025-07-10T22:00:00Z",
-        "eventTitle": "Max Steel",
-        "eventSynopsis": "Fanta-action ispirato al giocattolo della Mattel e all'omonimo cartoon. Max, figlio di uno scienziato morto misteriosamente, scopre di avere poteri sovrumani grazie a un amico alieno (USA 2016)",
-        "epgEventTitle": "Max Steel",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "a30ca918-ac20-4022-9279-9f7d542049fb",
-          "contentTitle": "La Befana vien di notte II: Le origini",
-          "url": "/film/fantastico/la-befana-vien-di-notte-ii-le-origini/a30ca918-ac20-4022-9279-9f7d542049fb",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 58,
-            "name": "Fantastico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/a30ca918-ac20-4022-9279-9f7d542049fb/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ef5fd0053478393b4068b8f4261eddf7"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/a30ca918-ac20-4022-9279-9f7d542049fb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6a7e89fa2f26f832383d5dd9491675ff"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/a30ca918-ac20-4022-9279-9f7d542049fb/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ef5fd0053478393b4068b8f4261eddf7"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/a30ca918-ac20-4022-9279-9f7d542049fb/background?territory=IT&md5ChecksumParam=d76f2ea9e5ea64aab9997d3f241122c1"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/a30ca918-ac20-4022-9279-9f7d542049fb/cover?territory=IT&md5ChecksumParam=6a7e89fa2f26f832383d5dd9491675ff"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/a30ca918-ac20-4022-9279-9f7d542049fb/16-9?territory=IT&md5ChecksumParam=cb51467b282d1cdc34d40c6eeac2b808"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/a30ca918-ac20-4022-9279-9f7d542049fb/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=ae5b1d5d255b7b831b062474d567a932"
-              }
-            }
-          ]
-        },
-        "eventId": "411410457",
-        "starttime": "2025-07-10T22:00:00Z",
-        "endtime": "2025-07-11T00:00:00Z",
-        "eventTitle": "La Befana vien di notte II - Le origini",
-        "eventSynopsis": "Prequel con Monica Bellucci, Fabio De Luigi e Zoe Massenti tra avventure e incantesimi. Una giovane orfana entra in conflitto con un avido barone, ma una strega gentile la salvera' (ITA 2021)",
-        "epgEventTitle": "La Befana vien di notte II - Le origini",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
     "2025-07-11": [
       {
         "channel": {
@@ -1779,7 +587,7 @@
         },
         "eventId": "411438439",
         "starttime": "2025-07-11T08:05:00Z",
-        "endtime": "2025-07-11T09:35:00Z",
+        "endtime": "2025-07-11T09:30:00Z",
         "eventTitle": "Rex - Un cucciolo a palazzo",
         "eventSynopsis": "Divertente film d'animazione alla corte d'Inghilterra. Rex, il cucciolo preferito dalla Regina, e' costretto a misurarsi con la vita da strada finendo in un club di combattimenti tra cani (BEL 2019)",
         "epgEventTitle": "Rex - Un cucciolo a palazzo",
@@ -1828,12 +636,12 @@
             },
             {
               "img": {
-                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e135130c4261809384aad3b60afbfb8d"
+                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f4ee9d6015d9d6eefdad051d7600302d"
               }
             },
             {
               "img": {
-                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f4ee9d6015d9d6eefdad051d7600302d"
+                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e135130c4261809384aad3b60afbfb8d"
               }
             },
             {
@@ -1863,7 +671,7 @@
           ]
         },
         "eventId": "411438440",
-        "starttime": "2025-07-11T09:35:00Z",
+        "starttime": "2025-07-11T09:30:00Z",
         "endtime": "2025-07-11T11:00:00Z",
         "eventTitle": "A spasso col panda",
         "eventSynopsis": "Dallo sceneggiatore di \"Madagascar\", un'avventura d'animazione. L'orso Mic Mic e i suoi simpatici amici viaggiano verso la Cina per restituire un cucciolo di panda ai suoi genitori (USA/RUS 2019)",
@@ -1993,17 +801,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/df69a1f1-c5ee-4ffd-883f-5ad5849b4918/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=90e563acf6ce3d8a4c4b611c4bdf7c5a"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/df69a1f1-c5ee-4ffd-883f-5ad5849b4918/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1314a680d91efd1ba7140a30fcc5572b"
               }
             },
             {
               "img": {
                 "url": "/uuid/df69a1f1-c5ee-4ffd-883f-5ad5849b4918/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1314a680d91efd1ba7140a30fcc5572b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/df69a1f1-c5ee-4ffd-883f-5ad5849b4918/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=90e563acf6ce3d8a4c4b611c4bdf7c5a"
               }
             },
             {
@@ -2034,7 +842,7 @@
         },
         "eventId": "411438442",
         "starttime": "2025-07-11T12:50:00Z",
-        "endtime": "2025-07-11T14:05:00Z",
+        "endtime": "2025-07-11T14:00:00Z",
         "eventTitle": "Me contro Te: Il film - Vacanze in Transilvania",
         "eventSynopsis": "... Transilvania. - Sofi', Lui' e i loro amici volano in Transilvania per impedire a Viperiana e alla banda di Malefici di impossessarsi di un potente diamante custodito nel castello del piu' temuto dei vampiri: il Conte Dracula.",
         "epgEventTitle": "Me contro Te: Il film - Vacanze in Transilvania",
@@ -2078,12 +886,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ac69a60f426bd1282dc8128429631bbe"
+                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=35756c09d552bcc964239086b6a64117"
               }
             },
             {
               "img": {
-                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=35756c09d552bcc964239086b6a64117"
+                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ac69a60f426bd1282dc8128429631bbe"
               }
             },
             {
@@ -2118,8 +926,8 @@
           ]
         },
         "eventId": "411438443",
-        "starttime": "2025-07-11T14:05:00Z",
-        "endtime": "2025-07-11T15:50:00Z",
+        "starttime": "2025-07-11T14:00:00Z",
+        "endtime": "2025-07-11T15:40:00Z",
         "eventTitle": "Il lupo e il leone",
         "eventSynopsis": "Tenera avventura dai creatori di \"Mia e il leone bianco\". Giunta nei boschi del Canada dopo la morte del nonno, una giovane pianista si prende cura di un lupacchiotto e un leoncino (CAN/FRA 2021)",
         "epgEventTitle": "Il lupo e il leone",
@@ -2203,8 +1011,8 @@
           ]
         },
         "eventId": "411438444",
-        "starttime": "2025-07-11T15:50:00Z",
-        "endtime": "2025-07-11T17:25:00Z",
+        "starttime": "2025-07-11T15:40:00Z",
+        "endtime": "2025-07-11T17:20:00Z",
         "eventTitle": "Shrek",
         "eventSynopsis": "Oscar 2002 all'animazione che ha rivoluzionato il mondo delle favole. Un orco verde, scorbutico ma dal cuore buono, deve liberare una principessa che nasconde un segreto (USA 2001)",
         "epgEventTitle": "Shrek",
@@ -2288,7 +1096,7 @@
           ]
         },
         "eventId": "411438445",
-        "starttime": "2025-07-11T17:25:00Z",
+        "starttime": "2025-07-11T17:20:00Z",
         "endtime": "2025-07-11T19:00:00Z",
         "eventTitle": "Shrek 2",
         "eventSynopsis": "Il divertimento continua in compagnia dell'orco piu' simpatico del grande schermo. Shrek e Fiona dovranno affrontare i genitori di lei, poco propensi ad accettare un \"mostro\" come genero (USA 2004)",
@@ -2374,7 +1182,7 @@
         },
         "eventId": "411438446",
         "starttime": "2025-07-11T19:00:00Z",
-        "endtime": "2025-07-11T20:40:00Z",
+        "endtime": "2025-07-11T20:35:00Z",
         "eventTitle": "Shrek Terzo",
         "eventSynopsis": "Terzo capitolo con il simpatico orco verde. Shrek eredita il trono del suocero, ma la vita di corte non fa per lui. Aiutato da Ciuchino e dal Gatto con gli stivali, cerchera' un sostituto (USA 2007)",
         "epgEventTitle": "Shrek Terzo",
@@ -2458,8 +1266,8 @@
           ]
         },
         "eventId": "411438447",
-        "starttime": "2025-07-11T20:40:00Z",
-        "endtime": "2025-07-11T22:15:00Z",
+        "starttime": "2025-07-11T20:35:00Z",
+        "endtime": "2025-07-11T22:10:00Z",
         "eventTitle": "Shrek e vissero felici e contenti",
         "eventSynopsis": "Quarto capitolo della saga d'animazione con l'orco piu' famoso di Hollywood. Diventato padre, Shrek sente la nostalgia dei vecchi tempi e cade nella trappola del malefico Tremotino (USA 2010)",
         "epgEventTitle": "Shrek e vissero felici e contenti",
@@ -2543,8 +1351,8 @@
           ]
         },
         "eventId": "411438448",
-        "starttime": "2025-07-11T22:15:00Z",
-        "endtime": "2025-07-11T23:50:00Z",
+        "starttime": "2025-07-11T22:10:00Z",
+        "endtime": "2025-07-11T23:45:00Z",
         "eventTitle": "Come far litigare mamma e papà",
         "eventSynopsis": "Brillante commedia per tutta la famiglia con Giampaolo Morelli e Carolina Crescentini. Invidioso dei compagni di classe, Gabriele elabora un piano per far separare i suoi genitori (ITA 2024)",
         "epgEventTitle": "Come far litigare mamma e papà",
@@ -2628,8 +1436,8 @@
           ]
         },
         "eventId": "411438449",
-        "starttime": "2025-07-11T23:50:00Z",
-        "endtime": "2025-07-12T01:20:00Z",
+        "starttime": "2025-07-11T23:45:00Z",
+        "endtime": "2025-07-12T01:15:00Z",
         "eventTitle": "Il viaggio di Norm",
         "eventSynopsis": "Dal Polo Nord a Manhattan in un esilarante film d'animazione. Un orso che sa parlare agli umani raggiunge New York per salvare l'Artico da un imprenditore, ma viene scambiato per un attore (USA/IND 2016)",
         "epgEventTitle": "Il viaggio di Norm",
@@ -2715,7 +1523,7 @@
           ]
         },
         "eventId": "411438450",
-        "starttime": "2025-07-12T01:20:00Z",
+        "starttime": "2025-07-12T01:15:00Z",
         "endtime": "2025-07-12T02:50:00Z",
         "eventTitle": "Belle & Sebastien - Amici per sempre",
         "eventSynopsis": "Terzo avventuroso capitolo tratto dal romanzo di Cecile Aubry. Un uomo sostiene di essere il proprietario di Belle; ma Sebastien fara' di tutto per non separarsi dalla fedele amica.",
@@ -2845,12 +1653,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ac69a60f426bd1282dc8128429631bbe"
+                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=35756c09d552bcc964239086b6a64117"
               }
             },
             {
               "img": {
-                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=35756c09d552bcc964239086b6a64117"
+                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ac69a60f426bd1282dc8128429631bbe"
               }
             },
             {
@@ -2971,7 +1779,7 @@
         },
         "eventId": "411448714",
         "starttime": "2025-07-12T06:05:00Z",
-        "endtime": "2025-07-12T07:35:00Z",
+        "endtime": "2025-07-12T07:30:00Z",
         "eventTitle": "Dolcissime",
         "eventSynopsis": "Delicata commedia di Francesco Ghiaccio. Tre ragazze derise per il loro aspetto cercano il riscatto in una gara di nuoto sincronizzato. Nel cast Vinicio Marchioni e Valeria Solarino (ITA 2019)",
         "epgEventTitle": "Dolcissime",
@@ -3055,7 +1863,7 @@
           ]
         },
         "eventId": "411448715",
-        "starttime": "2025-07-12T07:35:00Z",
+        "starttime": "2025-07-12T07:30:00Z",
         "endtime": "2025-07-12T09:20:00Z",
         "eventTitle": "Transformers One",
         "eventSynopsis": "Ritorno all'animazione per il prequel della celebre saga. Orion Pax  e D-16 sono amici fraterni, ma una volta ricevuto il potere di trasformarsi tutto e' destinato a cambiare.",
@@ -3141,7 +1949,7 @@
         },
         "eventId": "411448716",
         "starttime": "2025-07-12T09:20:00Z",
-        "endtime": "2025-07-12T10:55:00Z",
+        "endtime": "2025-07-12T10:50:00Z",
         "eventTitle": "Shrek",
         "eventSynopsis": "Oscar 2002 all'animazione che ha rivoluzionato il mondo delle favole. Un orco verde, scorbutico ma dal cuore buono, deve liberare una principessa che nasconde un segreto (USA 2001)",
         "epgEventTitle": "Shrek",
@@ -3225,8 +2033,8 @@
           ]
         },
         "eventId": "411448717",
-        "starttime": "2025-07-12T10:55:00Z",
-        "endtime": "2025-07-12T12:30:00Z",
+        "starttime": "2025-07-12T10:50:00Z",
+        "endtime": "2025-07-12T12:25:00Z",
         "eventTitle": "Shrek 2",
         "eventSynopsis": "Il divertimento continua in compagnia dell'orco piu' simpatico del grande schermo. Shrek e Fiona dovranno affrontare i genitori di lei, poco propensi ad accettare un \"mostro\" come genero (USA 2004)",
         "epgEventTitle": "Shrek 2",
@@ -3310,7 +2118,7 @@
           ]
         },
         "eventId": "411448718",
-        "starttime": "2025-07-12T12:30:00Z",
+        "starttime": "2025-07-12T12:25:00Z",
         "endtime": "2025-07-12T14:05:00Z",
         "eventTitle": "Shrek Terzo",
         "eventSynopsis": "Terzo capitolo con il simpatico orco verde. Shrek eredita il trono del suocero, ma la vita di corte non fa per lui. Aiutato da Ciuchino e dal Gatto con gli stivali, cerchera' un sostituto (USA 2007)",
@@ -3651,7 +2459,7 @@
         },
         "eventId": "411448722",
         "starttime": "2025-07-12T19:00:00Z",
-        "endtime": "2025-07-12T20:45:00Z",
+        "endtime": "2025-07-12T20:40:00Z",
         "eventTitle": "La Famiglia Addams",
         "eventSynopsis": "Anjelica Huston, Raul Julia e Christina Ricci nel film tratto dalla celebre serie degli anni 60. Qualcuno si presenta dagli Addams spacciandosi per lo zio Fester. Sara' davvero lui? (USA 1991)",
         "epgEventTitle": "La Famiglia Addams",
@@ -3735,7 +2543,7 @@
           ]
         },
         "eventId": "411448723",
-        "starttime": "2025-07-12T20:45:00Z",
+        "starttime": "2025-07-12T20:40:00Z",
         "endtime": "2025-07-12T22:50:00Z",
         "eventTitle": "Biancaneve e il cacciatore",
         "eventSynopsis": "Kristen Stewart, Chris Hemsworth e Charlize Theron nella rilettura della famosa fiaba. La crudele regina incarica un cacciatore di uccidere la figliastra Biancaneve, in fuga verso il bosco (USA 2012)",
@@ -5786,8 +4594,7 @@
         "content": {
           "uuid": "a7160134-b528-47fa-8ba4-1265999ed39f",
           "contentTitle": "Dragon Trainer",
-          "seasonNumber": 2025,
-          "url": "/programmi-tv/animazione/dragon-trainer/a7160134-b528-47fa-8ba4-1265999ed39f",
+          "url": "/film/animazione/dragon-trainer/a7160134-b528-47fa-8ba4-1265999ed39f",
           "genre": {
             "id": 3,
             "name": "Film"
@@ -8212,7 +7019,7 @@
         "starttime": "2025-07-16T10:25:00Z",
         "endtime": "2025-07-16T12:05:00Z",
         "eventTitle": "Baby Boss",
-        "eventSynopsis": "Dal regista di \"Madagascar\" una esilarante pellicola d'animazione della DreamWorks candidata agli Oscar 2018. L'arrivo di un fratellino dispotico stravolge la vita del giovane Tim.",
+        "eventSynopsis": "Dal regista di \"Madagascar\" una esilarante pellicola d'animazione della DreamWorks candidata agli Oscar 2018. L'arrivo di un fratellino dispotico stravolge la vita del giovane Tim (USA 2017)",
         "epgEventTitle": "Baby Boss",
         "primeVision": false,
         "resolutions": [
@@ -8651,7 +7458,7 @@
         },
         "content": {
           "uuid": "67e5673a-2ef8-49fb-8478-a54251b6034e",
-          "contentTitle": "Troppo Napoletano",
+          "contentTitle": "Troppo napoletano",
           "url": "/film/comico/troppo-napoletano/67e5673a-2ef8-49fb-8478-a54251b6034e",
           "genre": {
             "id": 3,
@@ -8707,7 +7514,7 @@
         "starttime": "2025-07-16T20:45:00Z",
         "endtime": "2025-07-16T22:25:00Z",
         "eventTitle": "Troppo Napoletano",
-        "eventSynopsis": "Commedia di Gianluca Ansanelli con Serena Rossi e prodotta da Alessandro Siani. In preda ai primi turbamenti d'amore, il piccolo Ciro si allea con il suo analista per conquistare l'amata.",
+        "eventSynopsis": "Commedia di Gianluca Ansanelli con Serena Rossi e prodotta da Alessandro Siani. In preda ai primi turbamenti d'amore, il piccolo Ciro si allea con il suo analista per conquistare l'amata (ITA 2016)",
         "epgEventTitle": "Troppo Napoletano",
         "primeVision": false,
         "resolutions": [
@@ -8792,7 +7599,7 @@
         "starttime": "2025-07-16T22:25:00Z",
         "endtime": "2025-07-17T00:20:00Z",
         "eventTitle": "Wonka",
-        "eventSynopsis": "Grande successo per le origini del personaggio di Roald Dahl con Timothee Chalamet. Il sogno del giovane Willy di aprire una cioccolateria si scontra con una concorrenza disonesta",
+        "eventSynopsis": "Grande successo per le origini del personaggio di Roald Dahl con Timothee Chalamet. Il sogno del giovane Willy di aprire una cioccolateria si scontra con una concorrenza disonesta (USA/GBR 2023)",
         "epgEventTitle": "Wonka",
         "primeVision": false,
         "resolutions": [
@@ -9737,7 +8544,7 @@
         },
         "content": {
           "uuid": "67e5673a-2ef8-49fb-8478-a54251b6034e",
-          "contentTitle": "Troppo Napoletano",
+          "contentTitle": "Troppo napoletano",
           "url": "/film/comico/troppo-napoletano/67e5673a-2ef8-49fb-8478-a54251b6034e",
           "genre": {
             "id": 3,
@@ -10005,12 +8812,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ac69a60f426bd1282dc8128429631bbe"
+                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=35756c09d552bcc964239086b6a64117"
               }
             },
             {
               "img": {
-                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=35756c09d552bcc964239086b6a64117"
+                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ac69a60f426bd1282dc8128429631bbe"
               }
             },
             {
@@ -10352,12 +9159,12 @@
             },
             {
               "img": {
-                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e135130c4261809384aad3b60afbfb8d"
+                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f4ee9d6015d9d6eefdad051d7600302d"
               }
             },
             {
               "img": {
-                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f4ee9d6015d9d6eefdad051d7600302d"
+                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e135130c4261809384aad3b60afbfb8d"
               }
             },
             {
@@ -11512,7 +10319,7 @@
         },
         "content": {
           "uuid": "152a6880-a2d2-4388-accd-7222c87d5af6",
-          "contentTitle": "Nocedicocco - Il piccolo drago",
+          "contentTitle": "Nocedicocco: Il piccolo drago",
           "url": "/film/animazione/nocedicocco-il-piccolo-drago/152a6880-a2d2-4388-accd-7222c87d5af6",
           "genre": {
             "id": 3,
@@ -13370,12 +12177,12 @@
             },
             {
               "img": {
-                "url": "/uuid/b7344a34-d3ea-4139-8355-8929b75abce0/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=137b849bb6538feee473a0c6761936d1"
+                "url": "/uuid/b7344a34-d3ea-4139-8355-8929b75abce0/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3217fc03f34d2437ff6b74200c0da0dd"
               }
             },
             {
               "img": {
-                "url": "/uuid/b7344a34-d3ea-4139-8355-8929b75abce0/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3217fc03f34d2437ff6b74200c0da0dd"
+                "url": "/uuid/b7344a34-d3ea-4139-8355-8929b75abce0/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=137b849bb6538feee473a0c6761936d1"
               }
             },
             {
@@ -21849,17 +20656,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/4e15eae5-20cb-4108-a643-497ed6bfb8cd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=52c12574dae5d8d2d75a9c4dfb113668"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/4e15eae5-20cb-4108-a643-497ed6bfb8cd/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3f8a4825af6ce0f4e173c334149b3f81"
               }
             },
             {
               "img": {
                 "url": "/uuid/4e15eae5-20cb-4108-a643-497ed6bfb8cd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3f8a4825af6ce0f4e173c334149b3f81"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/4e15eae5-20cb-4108-a643-497ed6bfb8cd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=52c12574dae5d8d2d75a9c4dfb113668"
               }
             },
             {
@@ -22062,7 +20869,7 @@
         "starttime": "2025-07-27T13:15:00Z",
         "endtime": "2025-07-27T15:15:00Z",
         "eventTitle": "Wonka",
-        "eventSynopsis": "Grande successo per le origini del personaggio di Roald Dahl con Timothee Chalamet. Il sogno del giovane Willy di aprire una cioccolateria si scontra con una concorrenza disonesta (USA 2023)",
+        "eventSynopsis": "Grande successo per le origini del personaggio di Roald Dahl con Timothee Chalamet. Il sogno del giovane Willy di aprire una cioccolateria si scontra con una concorrenza disonesta (USA/GBR 2023)",
         "epgEventTitle": "Wonka",
         "primeVision": false,
         "resolutions": [
@@ -22176,7 +20983,7 @@
         },
         "content": {
           "uuid": "67e5673a-2ef8-49fb-8478-a54251b6034e",
-          "contentTitle": "Troppo Napoletano",
+          "contentTitle": "Troppo napoletano",
           "url": "/film/comico/troppo-napoletano/67e5673a-2ef8-49fb-8478-a54251b6034e",
           "genre": {
             "id": 3,
@@ -22444,12 +21251,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ac69a60f426bd1282dc8128429631bbe"
+                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=35756c09d552bcc964239086b6a64117"
               }
             },
             {
               "img": {
-                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=35756c09d552bcc964239086b6a64117"
+                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ac69a60f426bd1282dc8128429631bbe"
               }
             },
             {
@@ -22685,17 +21492,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/4e15eae5-20cb-4108-a643-497ed6bfb8cd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=52c12574dae5d8d2d75a9c4dfb113668"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/4e15eae5-20cb-4108-a643-497ed6bfb8cd/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3f8a4825af6ce0f4e173c334149b3f81"
               }
             },
             {
               "img": {
                 "url": "/uuid/4e15eae5-20cb-4108-a643-497ed6bfb8cd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3f8a4825af6ce0f4e173c334149b3f81"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/4e15eae5-20cb-4108-a643-497ed6bfb8cd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=52c12574dae5d8d2d75a9c4dfb113668"
               }
             },
             {
@@ -25736,8 +24543,7 @@
         "content": {
           "uuid": "a7160134-b528-47fa-8ba4-1265999ed39f",
           "contentTitle": "Dragon Trainer",
-          "seasonNumber": 2025,
-          "url": "/programmi-tv/animazione/dragon-trainer/a7160134-b528-47fa-8ba4-1265999ed39f",
+          "url": "/film/animazione/dragon-trainer/a7160134-b528-47fa-8ba4-1265999ed39f",
           "genre": {
             "id": 3,
             "name": "Film"
@@ -26659,12 +25465,12 @@
             },
             {
               "img": {
-                "url": "/uuid/b7344a34-d3ea-4139-8355-8929b75abce0/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=137b849bb6538feee473a0c6761936d1"
+                "url": "/uuid/b7344a34-d3ea-4139-8355-8929b75abce0/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3217fc03f34d2437ff6b74200c0da0dd"
               }
             },
             {
               "img": {
-                "url": "/uuid/b7344a34-d3ea-4139-8355-8929b75abce0/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3217fc03f34d2437ff6b74200c0da0dd"
+                "url": "/uuid/b7344a34-d3ea-4139-8355-8929b75abce0/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=137b849bb6538feee473a0c6761936d1"
               }
             },
             {
@@ -27341,12 +26147,12 @@
             },
             {
               "img": {
-                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e135130c4261809384aad3b60afbfb8d"
+                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f4ee9d6015d9d6eefdad051d7600302d"
               }
             },
             {
               "img": {
-                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f4ee9d6015d9d6eefdad051d7600302d"
+                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e135130c4261809384aad3b60afbfb8d"
               }
             },
             {
@@ -28415,17 +27221,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/df69a1f1-c5ee-4ffd-883f-5ad5849b4918/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=90e563acf6ce3d8a4c4b611c4bdf7c5a"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/df69a1f1-c5ee-4ffd-883f-5ad5849b4918/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1314a680d91efd1ba7140a30fcc5572b"
               }
             },
             {
               "img": {
                 "url": "/uuid/df69a1f1-c5ee-4ffd-883f-5ad5849b4918/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1314a680d91efd1ba7140a30fcc5572b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/df69a1f1-c5ee-4ffd-883f-5ad5849b4918/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=90e563acf6ce3d8a4c4b611c4bdf7c5a"
               }
             },
             {

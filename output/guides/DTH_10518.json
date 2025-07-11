@@ -1,1105 +1,6 @@
 {
   "name": "Sky Cinema Drama",
   "events_by_date": {
-    "2025-07-10": [
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "30010079-fbd2-4d7f-9785-16eba4e45abd",
-          "contentTitle": "Dream Horse",
-          "url": "/film/biografico/dream-horse/30010079-fbd2-4d7f-9785-16eba4e45abd",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 102,
-            "name": "Biografico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/30010079-fbd2-4d7f-9785-16eba4e45abd/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c380c813b1c8febf044976c896ffa787"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/30010079-fbd2-4d7f-9785-16eba4e45abd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c380c813b1c8febf044976c896ffa787"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/30010079-fbd2-4d7f-9785-16eba4e45abd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=430bdfdf71cacff17f29ac12b1880471"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/30010079-fbd2-4d7f-9785-16eba4e45abd/background?territory=IT&md5ChecksumParam=6ec996b52b413db71250bc439ba116ab"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/30010079-fbd2-4d7f-9785-16eba4e45abd/cover?territory=IT&md5ChecksumParam=430bdfdf71cacff17f29ac12b1880471"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/30010079-fbd2-4d7f-9785-16eba4e45abd/16-9?territory=IT&md5ChecksumParam=478c03e6bb9ebb67b080675c8588ac3e"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/30010079-fbd2-4d7f-9785-16eba4e45abd/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=4e9859ba36bce41750a22aa865061f4d"
-              }
-            }
-          ]
-        },
-        "eventId": "411271418",
-        "starttime": "2025-07-10T00:35:00Z",
-        "endtime": "2025-07-10T02:30:00Z",
-        "eventTitle": "Dream Horse",
-        "eventSynopsis": "Toni Collette e Damian Lewis in un'emozionante storia vera. Galles: una cassiera convince i suoi concittadini a investire su un purosangue per partecipare a un prestigioso concorso ippico (GBR 2020)",
-        "epgEventTitle": "Dream Horse",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "af548e20-f838-49d0-ac53-9aaf96f335bf",
-          "contentTitle": "Edison: L'uomo che illuminò il mondo",
-          "url": "/film/drammatico/edison-luomo-che-illumino-il-mondo/af548e20-f838-49d0-ac53-9aaf96f335bf",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/af548e20-f838-49d0-ac53-9aaf96f335bf/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f20fc4fe0904f907750243f464f4c377"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/af548e20-f838-49d0-ac53-9aaf96f335bf/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f20fc4fe0904f907750243f464f4c377"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/af548e20-f838-49d0-ac53-9aaf96f335bf/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=aba4b8593ecdc19553f8c208f51d3abc"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/af548e20-f838-49d0-ac53-9aaf96f335bf/background?territory=IT&md5ChecksumParam=b0e25763c9a8d06c7a1adf468f820721"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/af548e20-f838-49d0-ac53-9aaf96f335bf/cover?territory=IT&md5ChecksumParam=aba4b8593ecdc19553f8c208f51d3abc"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/af548e20-f838-49d0-ac53-9aaf96f335bf/16-9?territory=IT&md5ChecksumParam=492af1097157989169e5e9530c7baff0"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/af548e20-f838-49d0-ac53-9aaf96f335bf/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=b63d42ece44edb3ad45b6a9a41002feb"
-              }
-            }
-          ]
-        },
-        "eventId": "411271419",
-        "starttime": "2025-07-10T02:30:00Z",
-        "endtime": "2025-07-10T04:25:00Z",
-        "eventTitle": "Edison - L'uomo che illumino' il mondo",
-        "eventSynopsis": "Benedict Cumberbatch, Tom Holland e Michael Shannon nel biopic su Thomas Edison. L'avvincente storia del pioniere dell'industria elettrica che ha cambiato la vita degli esseri umani (USA 2019)",
-        "epgEventTitle": "Edison - L'uomo che illumino' il mondo",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "2c8ea2a6-a913-4b01-95d2-f1042ae48ca2",
-          "contentTitle": "Hereafter",
-          "url": "/film/drammatico/hereafter/2c8ea2a6-a913-4b01-95d2-f1042ae48ca2",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/2c8ea2a6-a913-4b01-95d2-f1042ae48ca2/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ebab9be24e30d3802c0008957ab8beda"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/2c8ea2a6-a913-4b01-95d2-f1042ae48ca2/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=c67f9ac26d1f0cf6eb416e2f14c0e9c4"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/2c8ea2a6-a913-4b01-95d2-f1042ae48ca2/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=c67f9ac26d1f0cf6eb416e2f14c0e9c4"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/2c8ea2a6-a913-4b01-95d2-f1042ae48ca2/background?territory=IT&md5ChecksumParam=17bb9e19873070c1f5b9030bbb0ca680"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/2c8ea2a6-a913-4b01-95d2-f1042ae48ca2/cover?territory=IT&md5ChecksumParam=ebab9be24e30d3802c0008957ab8beda"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/2c8ea2a6-a913-4b01-95d2-f1042ae48ca2/16-9?territory=IT&md5ChecksumParam=497eca4cd22280e11656903b467ba32d"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/2c8ea2a6-a913-4b01-95d2-f1042ae48ca2/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=a4de5f1d3544044facf202fb7b258589"
-              }
-            }
-          ]
-        },
-        "eventId": "411272125",
-        "starttime": "2025-07-10T04:25:00Z",
-        "endtime": "2025-07-10T06:35:00Z",
-        "eventTitle": "Hereafter",
-        "eventSynopsis": "Clint Eastwood dirige Matt Damon e sonda il mistero della morte. La vita di un uomo che parla con i defunti si intreccia con il drammatico vissuto di una donna e di un bambino (USA 2010)",
-        "epgEventTitle": "Hereafter",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "2fe2a3e4-4abd-414c-9d55-09b0737dedc0",
-          "contentTitle": "Anora",
-          "episodeNumber": 246,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/cinema/questo-o-quello-speciale/stagione-1/episodio-246/2fe2a3e4-4abd-414c-9d55-09b0737dedc0",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 79,
-            "name": "Cinema"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/2fe2a3e4-4abd-414c-9d55-09b0737dedc0/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e09c50777ef7099769b159b686fdde64"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/2fe2a3e4-4abd-414c-9d55-09b0737dedc0/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5e757beb954c00795827e090d506e7e8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/2fe2a3e4-4abd-414c-9d55-09b0737dedc0/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5e757beb954c00795827e090d506e7e8"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/2fe2a3e4-4abd-414c-9d55-09b0737dedc0/background?territory=IT&md5ChecksumParam=b50c5edd3a11dd20b429951e8006d08f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/2fe2a3e4-4abd-414c-9d55-09b0737dedc0/cover?territory=IT&md5ChecksumParam=e09c50777ef7099769b159b686fdde64"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/2fe2a3e4-4abd-414c-9d55-09b0737dedc0/16-9?territory=IT&md5ChecksumParam=a537ceafe465de76e35c8f5043cfc221"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/2fe2a3e4-4abd-414c-9d55-09b0737dedc0/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=c8a973e18e550000ac6d16b69a19fa1c"
-              }
-            }
-          ]
-        },
-        "eventId": "411272126",
-        "starttime": "2025-07-10T06:35:00Z",
-        "endtime": "2025-07-10T06:55:00Z",
-        "eventTitle": "Anora",
-        "eventSynopsis": "S1 Ep246 Anora - Scopriamo alcuni dettagli su \"Anora\", film drammatico commedia diretto da Sean Baker. La trama segue la storia di Anora, interpretata da Mikey Madison, una giovane sex worker di Brooklyn.",
-        "epgEventTitle": "S1 Ep246 - Questo o quello - Speciale",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "cb5fc80a-263a-448b-880c-20650fce5628",
-          "contentTitle": "Il debito",
-          "url": "/film/drammatico/il-debito/cb5fc80a-263a-448b-880c-20650fce5628",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/cb5fc80a-263a-448b-880c-20650fce5628/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=d4d3dddab3c4336e6709568fc434acbe"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/cb5fc80a-263a-448b-880c-20650fce5628/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=77ddb62cfcfe0f3c573f0867673ff339"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/cb5fc80a-263a-448b-880c-20650fce5628/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=77ddb62cfcfe0f3c573f0867673ff339"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/cb5fc80a-263a-448b-880c-20650fce5628/background?territory=IT&md5ChecksumParam=51f9fb6497ab9821a0773d1e151b7940"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/cb5fc80a-263a-448b-880c-20650fce5628/cover?territory=IT&md5ChecksumParam=d4d3dddab3c4336e6709568fc434acbe"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/cb5fc80a-263a-448b-880c-20650fce5628/16-9?territory=IT&md5ChecksumParam=4118a4a079a4867e5930752afc53143c"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/cb5fc80a-263a-448b-880c-20650fce5628/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=4ec37075fa04fe2fe66b1b78c93928b0"
-              }
-            }
-          ]
-        },
-        "eventId": "411272127",
-        "starttime": "2025-07-10T06:55:00Z",
-        "endtime": "2025-07-10T08:50:00Z",
-        "eventTitle": "Il debito",
-        "eventSynopsis": "John Madden firma il remake del film israeliano \"Ha-Hov\", con Helen Mirren, Jessica Chastain e Sam Worthington. Tre ex agenti del Mossad fanno i conti con una menzogna del passato (USA 2010)",
-        "epgEventTitle": "Il debito",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "c8c53ae8-54fc-41bc-a911-c7b557fc3a10",
-          "contentTitle": "La terra dei figli",
-          "url": "/film/biografico/la-terra-dei-figli/c8c53ae8-54fc-41bc-a911-c7b557fc3a10",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 102,
-            "name": "Biografico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/c8c53ae8-54fc-41bc-a911-c7b557fc3a10/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9c9993eda4cff02de91ae7f029ec8924"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c8c53ae8-54fc-41bc-a911-c7b557fc3a10/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6452cf0440640b21a80e57ac9acfb5a0"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c8c53ae8-54fc-41bc-a911-c7b557fc3a10/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=9c9993eda4cff02de91ae7f029ec8924"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/c8c53ae8-54fc-41bc-a911-c7b557fc3a10/background?territory=IT&md5ChecksumParam=a44b0adbf42aedb65590e3aa5a854b7e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/c8c53ae8-54fc-41bc-a911-c7b557fc3a10/cover?territory=IT&md5ChecksumParam=6452cf0440640b21a80e57ac9acfb5a0"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/c8c53ae8-54fc-41bc-a911-c7b557fc3a10/16-9?territory=IT&md5ChecksumParam=f3763af6b6f5cc9effca1029e26a4982"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/c8c53ae8-54fc-41bc-a911-c7b557fc3a10/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=52162ed9f55e8058b66c2032ab0b326a"
-              }
-            }
-          ]
-        },
-        "eventId": "411272128",
-        "starttime": "2025-07-10T08:50:00Z",
-        "endtime": "2025-07-10T10:55:00Z",
-        "eventTitle": "La terra dei figli",
-        "eventSynopsis": "Claudio Cupellini adatta la graphic novel di Gipi. In un'Italia post-apocalittica e violenta, un ragazzo analfabeta e' alla ricerca di qualcuno in grado di leggergli il diario di suo padre (ITA/FRA 2021)",
-        "epgEventTitle": "La terra dei figli",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "604a2649-2af0-4a9d-a4ea-ca5225292f61",
-          "contentTitle": "Game Change",
-          "url": "/film/drammatico/game-change/604a2649-2af0-4a9d-a4ea-ca5225292f61",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/604a2649-2af0-4a9d-a4ea-ca5225292f61/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=37c78f620db13e05bf58a66237fb594b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/604a2649-2af0-4a9d-a4ea-ca5225292f61/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=37c78f620db13e05bf58a66237fb594b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/604a2649-2af0-4a9d-a4ea-ca5225292f61/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ed1d25f01728f511c36ff593e75634f1"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/604a2649-2af0-4a9d-a4ea-ca5225292f61/background?territory=IT&md5ChecksumParam=b9f4965de98d46701777be4afa5e6994"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/604a2649-2af0-4a9d-a4ea-ca5225292f61/cover?territory=IT&md5ChecksumParam=ed1d25f01728f511c36ff593e75634f1"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/604a2649-2af0-4a9d-a4ea-ca5225292f61/16-9?territory=IT&md5ChecksumParam=24b6acee0c8b10285645f4b2003426e5"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/604a2649-2af0-4a9d-a4ea-ca5225292f61/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=008a4eff4356333ec3cc3f63e1884187"
-              }
-            }
-          ]
-        },
-        "eventId": "411272129",
-        "starttime": "2025-07-10T10:55:00Z",
-        "endtime": "2025-07-10T12:55:00Z",
-        "eventTitle": "Game Change",
-        "eventSynopsis": "Julianne Moore e Ed Harris nel biopic su Sarah Palin vincitore di 3 Golden Globe. La discussa ascesa politica della governatrice dell'Alaska nelle elezioni presidenziali americane del 2008 (USA 2012)",
-        "epgEventTitle": "Game Change",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "c125df58-d085-4283-8ab3-d162ee4346a2",
-          "contentTitle": "Soldato Jane",
-          "url": "/film/azione/soldato-jane/c125df58-d085-4283-8ab3-d162ee4346a2",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 32,
-            "name": "Azione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/c125df58-d085-4283-8ab3-d162ee4346a2/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ff15440c34eac1c00f839959c8c5203d"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c125df58-d085-4283-8ab3-d162ee4346a2/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ff15440c34eac1c00f839959c8c5203d"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c125df58-d085-4283-8ab3-d162ee4346a2/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fdd91ccbd24c2163288993d37af40a30"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/c125df58-d085-4283-8ab3-d162ee4346a2/background?territory=IT&md5ChecksumParam=a1d39a61ce28718dc35d3a24d2704532"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/c125df58-d085-4283-8ab3-d162ee4346a2/cover?territory=IT&md5ChecksumParam=fdd91ccbd24c2163288993d37af40a30"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/c125df58-d085-4283-8ab3-d162ee4346a2/16-9?territory=IT&md5ChecksumParam=bb86778ef29a5dd43292cb316d9671ba"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/c125df58-d085-4283-8ab3-d162ee4346a2/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=54f2e382acb642a904c09d748fbe180a"
-              }
-            }
-          ]
-        },
-        "eventId": "411272130",
-        "starttime": "2025-07-10T12:55:00Z",
-        "endtime": "2025-07-10T15:00:00Z",
-        "eventTitle": "Soldato Jane",
-        "eventSynopsis": "Demi Moore e Viggo Mortensen in un film di Ridley Scott. Una donna si sottopone a un addestramento massacrante agli ordini di un sadico istruttore per entrare nei Navy Seals (USA 1997)",
-        "epgEventTitle": "Soldato Jane",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "e44e84d5-fe7c-4fd6-8422-d6d23f94aad3",
-          "contentTitle": "Gli ultimi saranno ultimi",
-          "url": "/film/drammatico/gli-ultimi-saranno-ultimi/e44e84d5-fe7c-4fd6-8422-d6d23f94aad3",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/e44e84d5-fe7c-4fd6-8422-d6d23f94aad3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f571ebc9223e1b4a3b8e1105d7d73cfa"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/e44e84d5-fe7c-4fd6-8422-d6d23f94aad3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f571ebc9223e1b4a3b8e1105d7d73cfa"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/e44e84d5-fe7c-4fd6-8422-d6d23f94aad3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=48477c6b906ef7e771784851fb02ddf8"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/e44e84d5-fe7c-4fd6-8422-d6d23f94aad3/background?territory=IT&md5ChecksumParam=90db15856837fbd4f6a68007efe907fc"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/e44e84d5-fe7c-4fd6-8422-d6d23f94aad3/cover?territory=IT&md5ChecksumParam=48477c6b906ef7e771784851fb02ddf8"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/e44e84d5-fe7c-4fd6-8422-d6d23f94aad3/16-9?territory=IT&md5ChecksumParam=2282849bec0d0104a3d011757960c9c9"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/e44e84d5-fe7c-4fd6-8422-d6d23f94aad3/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=b8e775ed1ebdbb1fb7a461c473749abf"
-              }
-            }
-          ]
-        },
-        "eventId": "411272131",
-        "starttime": "2025-07-10T15:00:00Z",
-        "endtime": "2025-07-10T16:45:00Z",
-        "eventTitle": "Gli ultimi saranno ultimi",
-        "eventSynopsis": "Dramma sociale di Massimiliano Bruno con Paola Cortellesi e Alessandro Gassmann. La vita di una donna, licenziata perche' incinta, si intreccia con quella di un poliziotto tormentato (ITA 2015)",
-        "epgEventTitle": "Gli ultimi saranno ultimi",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "894794d0-84c0-4649-a221-65c4592a32de",
-          "contentTitle": "Vice: L'uomo nell'ombra",
-          "url": "/film/biografico/vice-luomo-nellombra/894794d0-84c0-4649-a221-65c4592a32de",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 102,
-            "name": "Biografico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=06c66dc2f28b85745598d2974a8cd5db"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fcaf44c8fe0711b01a7fdf3b0aefa0c8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=06c66dc2f28b85745598d2974a8cd5db"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/background?territory=IT&md5ChecksumParam=16154bf1306675b6ed9582d5ac23cd8b"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/cover?territory=IT&md5ChecksumParam=fcaf44c8fe0711b01a7fdf3b0aefa0c8"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/16-9?territory=IT&md5ChecksumParam=a3418c92aa874153a75237985ee67e69"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=922b91f7e57493f8d3099d755332687c"
-              }
-            }
-          ]
-        },
-        "eventId": "411272132",
-        "starttime": "2025-07-10T16:45:00Z",
-        "endtime": "2025-07-10T19:00:00Z",
-        "eventTitle": "Vice - L'uomo nell'ombra",
-        "eventSynopsis": "Oscar al trucco per il biopic di Adam McKay con Christian Bale, Amy Adams e Sam Rockwell. La storia di Dick Cheney, controverso vicepresidente americano durante i mandati di George W. Bush (USA 2018)",
-        "epgEventTitle": "Vice - L'uomo nell'ombra",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "68adbdd5-41c5-42b9-9dd8-96c1578bddef",
-          "contentTitle": "Iddu: L'Ultimo Padrino",
-          "url": "/film/drammatico/iddu-lultimo-padrino/68adbdd5-41c5-42b9-9dd8-96c1578bddef",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/68adbdd5-41c5-42b9-9dd8-96c1578bddef/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2f24724035aa49fcf0380e56b3525134"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/68adbdd5-41c5-42b9-9dd8-96c1578bddef/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2f24724035aa49fcf0380e56b3525134"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/68adbdd5-41c5-42b9-9dd8-96c1578bddef/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=49daf16f143b925f1369302aa1122e2d"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/68adbdd5-41c5-42b9-9dd8-96c1578bddef/background?territory=IT&md5ChecksumParam=d60cf022ae74a3ae0a6cb8b289a84820"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/68adbdd5-41c5-42b9-9dd8-96c1578bddef/cover?territory=IT&md5ChecksumParam=49daf16f143b925f1369302aa1122e2d"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/68adbdd5-41c5-42b9-9dd8-96c1578bddef/16-9?territory=IT&md5ChecksumParam=62fa0fd330867af3f3877ae486c8371e"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/68adbdd5-41c5-42b9-9dd8-96c1578bddef/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=cdda6aa5d7193cbc0c2de188b3b9c548"
-              }
-            }
-          ]
-        },
-        "eventId": "411272133",
-        "starttime": "2025-07-10T19:00:00Z",
-        "endtime": "2025-07-10T21:15:00Z",
-        "eventTitle": "Iddu - L'ultimo Padrino",
-        "eventSynopsis": "Elio Germano e Toni Servillo in una storia liberamente ispirata a fatti reali. Quando \"il preside\" esce dal carcere, i Servizi segreti gli chiedono di stanare Matteo Messina Denaro (ITA/FRA 2024)",
-        "epgEventTitle": "Iddu - L'ultimo Padrino",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "cb3b5b54-7e7d-4c48-b2ab-4b8e69752707",
-          "contentTitle": "Capone",
-          "url": "/film/biografico/capone/cb3b5b54-7e7d-4c48-b2ab-4b8e69752707",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 102,
-            "name": "Biografico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/cb3b5b54-7e7d-4c48-b2ab-4b8e69752707/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4ccc75bd39a216cf04131637fc002210"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/cb3b5b54-7e7d-4c48-b2ab-4b8e69752707/background?territory=IT&md5ChecksumParam=cd94c35d679911fd0e02bb7da9bb4762"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/cb3b5b54-7e7d-4c48-b2ab-4b8e69752707/cover?territory=IT&md5ChecksumParam=4ccc75bd39a216cf04131637fc002210"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/cb3b5b54-7e7d-4c48-b2ab-4b8e69752707/16-9?territory=IT&md5ChecksumParam=1377f9a2886b74b663101b110d73babb"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/cb3b5b54-7e7d-4c48-b2ab-4b8e69752707/COVER_TITLE_WIDE?territory=IT&version=1b861a94-d740-306f-9f2a-9ddb62b4c73b&w=1920&h=1080&md5ChecksumParam=4f9dda4be22e3d58842eaa0ccba3a2c6"
-              }
-            }
-          ]
-        },
-        "eventId": "411272134",
-        "starttime": "2025-07-10T21:15:00Z",
-        "endtime": "2025-07-10T23:00:00Z",
-        "eventTitle": "Capone",
-        "eventSynopsis": "Biopic sul famoso gangster con Tom Hardy, Linda Cardellini, Matt Dillon e Kyle MacLachlan. Uscito dal carcere, Al Capone ripercorre il suo passato mentre lotta contro la demenza senile (USA/CAN 2020)",
-        "epgEventTitle": "Capone",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10518,
-          "logo": "/logo/769skycinemadrama_Light_Fit.png?checksum=2fc851a5-dcfd-4c55-b42e-60e0ea35642c",
-          "logoPadding": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "logoDark": "/logo/769skycinemadrama_Dark_Fit.png?checksum=38dff21b-0559-4cd6-b79d-7a3afd0f237d",
-          "logoDarkPadding": "/logo/769skycinemadrama_Dark_Padding.png?checksum=0de2d01d-6759-459e-9447-8a30d95955a8",
-          "logoLight": "/logo/769skycinemadrama_Light_Padding.png?checksum=c06a0e1c-5de2-4894-bf8d-7cbfb940cbfa",
-          "name": "Sky Cinema Drama",
-          "description": "Il canale tv dedicato ai film drammatici e biografici. Canale Sky Glass 308.",
-          "number": 308,
-          "servicekey": "769",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "c125df58-d085-4283-8ab3-d162ee4346a2",
-          "contentTitle": "Soldato Jane",
-          "url": "/film/azione/soldato-jane/c125df58-d085-4283-8ab3-d162ee4346a2",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 32,
-            "name": "Azione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/c125df58-d085-4283-8ab3-d162ee4346a2/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ff15440c34eac1c00f839959c8c5203d"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c125df58-d085-4283-8ab3-d162ee4346a2/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ff15440c34eac1c00f839959c8c5203d"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c125df58-d085-4283-8ab3-d162ee4346a2/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fdd91ccbd24c2163288993d37af40a30"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/c125df58-d085-4283-8ab3-d162ee4346a2/background?territory=IT&md5ChecksumParam=a1d39a61ce28718dc35d3a24d2704532"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/c125df58-d085-4283-8ab3-d162ee4346a2/cover?territory=IT&md5ChecksumParam=fdd91ccbd24c2163288993d37af40a30"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/c125df58-d085-4283-8ab3-d162ee4346a2/16-9?territory=IT&md5ChecksumParam=bb86778ef29a5dd43292cb316d9671ba"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/c125df58-d085-4283-8ab3-d162ee4346a2/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=54f2e382acb642a904c09d748fbe180a"
-              }
-            }
-          ]
-        },
-        "eventId": "411272135",
-        "starttime": "2025-07-10T23:00:00Z",
-        "endtime": "2025-07-11T01:05:00Z",
-        "eventTitle": "Soldato Jane",
-        "eventSynopsis": "Demi Moore e Viggo Mortensen in un film di Ridley Scott. Una donna si sottopone a un addestramento massacrante agli ordini di un sadico istruttore per entrare nei Navy Seals (USA 1997)",
-        "epgEventTitle": "Soldato Jane",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
     "2025-07-11": [
       {
         "channel": {
@@ -1133,12 +34,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/153ca5c0-aecd-4960-8be3-1cff8cad671e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=11490db7b4786eadb895114cd1450c72"
+                "url": "/uuid/153ca5c0-aecd-4960-8be3-1cff8cad671e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=73b7a49659580b4b498b6989b1462552"
               }
             },
             {
               "img": {
-                "url": "/uuid/153ca5c0-aecd-4960-8be3-1cff8cad671e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=73b7a49659580b4b498b6989b1462552"
+                "url": "/uuid/153ca5c0-aecd-4960-8be3-1cff8cad671e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=11490db7b4786eadb895114cd1450c72"
               }
             },
             {
@@ -1167,7 +68,7 @@
           ]
         },
         "eventId": "411272136",
-        "starttime": "2025-07-11T01:10:00Z",
+        "starttime": "2025-07-11T01:05:00Z",
         "endtime": "2025-07-11T02:30:00Z",
         "eventTitle": "Con la grazia di un Dio",
         "eventSynopsis": "Esordio alla regia di Alessandro Roia in un cupo noir con Tommaso Ragno e Maya Sansa. A Genova per il funerale di un amico, Luca si mette alla ricerca di una scomoda verita' (ITA 2023)",
@@ -1297,12 +198,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=06c66dc2f28b85745598d2974a8cd5db"
+                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fcaf44c8fe0711b01a7fdf3b0aefa0c8"
               }
             },
             {
               "img": {
-                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fcaf44c8fe0711b01a7fdf3b0aefa0c8"
+                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=06c66dc2f28b85745598d2974a8cd5db"
               }
             },
             {
@@ -1593,7 +494,7 @@
         },
         "eventId": "411272331",
         "starttime": "2025-07-11T12:40:00Z",
-        "endtime": "2025-07-11T14:40:00Z",
+        "endtime": "2025-07-11T14:35:00Z",
         "eventTitle": "Non sono quello che sono",
         "eventSynopsis": "Edoardo Leo scrive, dirige e interpreta un adattamento dell'Otello di Shakespeare ambientando la vicenda nel 2001, all'interno di un'organizzazione criminale sul litorale romano (ITA 2024)",
         "epgEventTitle": "Non sono quello che sono",
@@ -1677,8 +578,8 @@
           ]
         },
         "eventId": "411272332",
-        "starttime": "2025-07-11T14:40:00Z",
-        "endtime": "2025-07-11T17:00:00Z",
+        "starttime": "2025-07-11T14:35:00Z",
+        "endtime": "2025-07-11T16:55:00Z",
         "eventTitle": "The Judge",
         "eventSynopsis": "Robert Downey Jr. e Robert Duvall in un'intensa storia familiare. Un avvocato torna nella sua cittadina natale e scopre che il padre, un anziano giudice, e' stato accusato di omicidio (USA 2014)",
         "epgEventTitle": "The Judge",
@@ -1762,7 +663,7 @@
           ]
         },
         "eventId": "411272333",
-        "starttime": "2025-07-11T17:00:00Z",
+        "starttime": "2025-07-11T16:55:00Z",
         "endtime": "2025-07-11T19:00:00Z",
         "eventTitle": "Tre piani",
         "eventSynopsis": "Nanni Moretti dirige e interpreta l'adattamento del romanzo di Eshkol Nevo, con Margherita Buy e Riccardo Scamarcio. In un condominio romano si intrecciano i destini di tre famiglie (ITA/FRA 2021)",
@@ -2149,17 +1050,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/380af1b8-4bc6-4ea1-8aab-53c0650c36b3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=67b8dcc0c10d854a30339e1209d7ec97"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/380af1b8-4bc6-4ea1-8aab-53c0650c36b3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=64e661c96cefe1b375df8e2193fdd46e"
               }
             },
             {
               "img": {
                 "url": "/uuid/380af1b8-4bc6-4ea1-8aab-53c0650c36b3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=67b8dcc0c10d854a30339e1209d7ec97"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/380af1b8-4bc6-4ea1-8aab-53c0650c36b3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=67b8dcc0c10d854a30339e1209d7ec97"
               }
             },
             {
@@ -2319,17 +1220,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/ca62309a-e8e6-421b-bb96-9c85a795f9d2/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=bb0617bae310471def7594987f49e711"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/ca62309a-e8e6-421b-bb96-9c85a795f9d2/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=229803b990099874627afce4583d3502"
               }
             },
             {
               "img": {
                 "url": "/uuid/ca62309a-e8e6-421b-bb96-9c85a795f9d2/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=bb0617bae310471def7594987f49e711"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/ca62309a-e8e6-421b-bb96-9c85a795f9d2/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=bb0617bae310471def7594987f49e711"
               }
             },
             {
@@ -2615,7 +1516,7 @@
         },
         "eventId": "411275361",
         "starttime": "2025-07-12T12:40:00Z",
-        "endtime": "2025-07-12T14:55:00Z",
+        "endtime": "2025-07-12T14:50:00Z",
         "eventTitle": "We Are Marshall",
         "eventSynopsis": "Dal regista di \"Charlie's Angels\", un'emozionante storia vera con Matthew McConaughey. Dopo un tragico incidente, un allenatore fa di tutto per ricostruire la squadra di football (USA 2006)",
         "epgEventTitle": "We Are Marshall",
@@ -2699,8 +1600,8 @@
           ]
         },
         "eventId": "411275362",
-        "starttime": "2025-07-12T14:55:00Z",
-        "endtime": "2025-07-12T16:45:00Z",
+        "starttime": "2025-07-12T14:50:00Z",
+        "endtime": "2025-07-12T16:40:00Z",
         "eventTitle": "Bob Marley: One Love",
         "eventSynopsis": "Sullo sfondo della tumultuosa Giamaica degli anni 70, la vita, la carriera e il messaggio di pace del leggendario musicista reggae, animato da uno spirito popolare e rivoluzionario (USA 2024)",
         "epgEventTitle": "Bob Marley: One Love",
@@ -2784,7 +1685,7 @@
           ]
         },
         "eventId": "411275363",
-        "starttime": "2025-07-12T16:45:00Z",
+        "starttime": "2025-07-12T16:40:00Z",
         "endtime": "2025-07-12T19:00:00Z",
         "eventTitle": "Molto forte, incredibilmente vicino",
         "eventSynopsis": "Toccante storia con Tom Hanks e Max von Sydow, dal romanzo di Jonathan Safran Foer. Un bambino insegue il mistero di una chiave appartenuta al padre, morto nell'attentato dell'11 settembre (USA 2011)",
@@ -2817,14 +1718,14 @@
         "content": {
           "uuid": "36a6d1d6-07f5-475e-9d51-ed0df64e995b",
           "contentTitle": "Elizabeth",
-          "url": "/film/biografico/elizabeth/36a6d1d6-07f5-475e-9d51-ed0df64e995b",
+          "url": "/film/drammatico/elizabeth/36a6d1d6-07f5-475e-9d51-ed0df64e995b",
           "genre": {
             "id": 3,
             "name": "Film"
           },
           "subgenre": {
-            "id": 102,
-            "name": "Biografico"
+            "id": 11,
+            "name": "Drammatico"
           },
           "imagesMap": [
             {
@@ -2870,7 +1771,7 @@
         },
         "eventId": "411275364",
         "starttime": "2025-07-12T19:00:00Z",
-        "endtime": "2025-07-12T21:10:00Z",
+        "endtime": "2025-07-12T21:05:00Z",
         "eventTitle": "Elizabeth",
         "eventSynopsis": "Oscar e Golden Globe al pluiripremiato film sulla biografia di Elisabetta I d'Inghilterra, con Cate Blanchett e Geoffrey Rush. La storia della regina che fece della sua nazione una potenza (GBR 1998)",
         "epgEventTitle": "Elizabeth",
@@ -2954,7 +1855,7 @@
           ]
         },
         "eventId": "411275365",
-        "starttime": "2025-07-12T21:10:00Z",
+        "starttime": "2025-07-12T21:05:00Z",
         "endtime": "2025-07-12T23:10:00Z",
         "eventTitle": "Recount",
         "eventSynopsis": "Kevin Spacey e Laura Dern, premiata con il Golden Globe, nella cronaca della sfida elettorale, decisa per un pugno di voti, fra George W. Bush e Al Gore alle elezioni americane del 2000 (USA 2008)",
@@ -3399,14 +2300,14 @@
         "content": {
           "uuid": "36a6d1d6-07f5-475e-9d51-ed0df64e995b",
           "contentTitle": "Elizabeth",
-          "url": "/film/biografico/elizabeth/36a6d1d6-07f5-475e-9d51-ed0df64e995b",
+          "url": "/film/drammatico/elizabeth/36a6d1d6-07f5-475e-9d51-ed0df64e995b",
           "genre": {
             "id": 3,
             "name": "Film"
           },
           "subgenre": {
-            "id": 102,
-            "name": "Biografico"
+            "id": 11,
+            "name": "Drammatico"
           },
           "imagesMap": [
             {
@@ -9273,17 +8174,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/3f593783-8a25-4490-bdf2-1ccfc7319f86/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=8ff34f70ccf36051f4a9f883e10f325e"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/3f593783-8a25-4490-bdf2-1ccfc7319f86/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=37e2312002bb06573f17ef630e3ddbe7"
               }
             },
             {
               "img": {
                 "url": "/uuid/3f593783-8a25-4490-bdf2-1ccfc7319f86/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=37e2312002bb06573f17ef630e3ddbe7"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/3f593783-8a25-4490-bdf2-1ccfc7319f86/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=8ff34f70ccf36051f4a9f883e10f325e"
               }
             },
             {
@@ -9868,17 +8769,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/69ed37fb-4146-40eb-9830-f04acac3cbb3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6dcbafd731a7a6d1b52d7cc4f35134ab"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/69ed37fb-4146-40eb-9830-f04acac3cbb3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3efa7ed737d1c7060ab264ce51d136ad"
               }
             },
             {
               "img": {
                 "url": "/uuid/69ed37fb-4146-40eb-9830-f04acac3cbb3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6dcbafd731a7a6d1b52d7cc4f35134ab"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/69ed37fb-4146-40eb-9830-f04acac3cbb3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6dcbafd731a7a6d1b52d7cc4f35134ab"
               }
             },
             {
@@ -10975,12 +9876,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=06c66dc2f28b85745598d2974a8cd5db"
+                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fcaf44c8fe0711b01a7fdf3b0aefa0c8"
               }
             },
             {
               "img": {
-                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fcaf44c8fe0711b01a7fdf3b0aefa0c8"
+                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=06c66dc2f28b85745598d2974a8cd5db"
               }
             },
             {
@@ -11562,12 +10463,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=06c66dc2f28b85745598d2974a8cd5db"
+                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fcaf44c8fe0711b01a7fdf3b0aefa0c8"
               }
             },
             {
               "img": {
-                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fcaf44c8fe0711b01a7fdf3b0aefa0c8"
+                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=06c66dc2f28b85745598d2974a8cd5db"
               }
             },
             {
@@ -11635,14 +10536,14 @@
         "content": {
           "uuid": "36a6d1d6-07f5-475e-9d51-ed0df64e995b",
           "contentTitle": "Elizabeth",
-          "url": "/film/biografico/elizabeth/36a6d1d6-07f5-475e-9d51-ed0df64e995b",
+          "url": "/film/drammatico/elizabeth/36a6d1d6-07f5-475e-9d51-ed0df64e995b",
           "genre": {
             "id": 3,
             "name": "Film"
           },
           "subgenre": {
-            "id": 102,
-            "name": "Biografico"
+            "id": 11,
+            "name": "Drammatico"
           },
           "imagesMap": [
             {
@@ -12911,17 +11812,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/COVER_CLEAN_TALL?territory=IT&version=9915ca5b-154f-3aa3-a350-a564e894d70c&w=600&h=800&md5ChecksumParam=2f09c41decbf576dea92b470fac8546d"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=27c24d76d20499263f19c466c297b8e0"
               }
             },
             {
               "img": {
                 "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/COVER_CLEAN_TALL?territory=IT&version=9915ca5b-154f-3aa3-a350-a564e894d70c&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=2f09c41decbf576dea92b470fac8546d"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/COVER_CLEAN_TALL?territory=IT&version=9915ca5b-154f-3aa3-a350-a564e894d70c&w=600&h=800&md5ChecksumParam=2f09c41decbf576dea92b470fac8546d"
               }
             },
             {
@@ -13593,17 +12494,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/COVER_CLEAN_TALL?territory=IT&version=9915ca5b-154f-3aa3-a350-a564e894d70c&w=600&h=800&md5ChecksumParam=2f09c41decbf576dea92b470fac8546d"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=27c24d76d20499263f19c466c297b8e0"
               }
             },
             {
               "img": {
                 "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/COVER_CLEAN_TALL?territory=IT&version=9915ca5b-154f-3aa3-a350-a564e894d70c&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=2f09c41decbf576dea92b470fac8546d"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/COVER_CLEAN_TALL?territory=IT&version=9915ca5b-154f-3aa3-a350-a564e894d70c&w=600&h=800&md5ChecksumParam=2f09c41decbf576dea92b470fac8546d"
               }
             },
             {
@@ -14103,17 +13004,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/ca62309a-e8e6-421b-bb96-9c85a795f9d2/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=bb0617bae310471def7594987f49e711"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/ca62309a-e8e6-421b-bb96-9c85a795f9d2/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=229803b990099874627afce4583d3502"
               }
             },
             {
               "img": {
                 "url": "/uuid/ca62309a-e8e6-421b-bb96-9c85a795f9d2/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=bb0617bae310471def7594987f49e711"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/ca62309a-e8e6-421b-bb96-9c85a795f9d2/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=bb0617bae310471def7594987f49e711"
               }
             },
             {
@@ -16579,12 +15480,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/153ca5c0-aecd-4960-8be3-1cff8cad671e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=11490db7b4786eadb895114cd1450c72"
+                "url": "/uuid/153ca5c0-aecd-4960-8be3-1cff8cad671e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=73b7a49659580b4b498b6989b1462552"
               }
             },
             {
               "img": {
-                "url": "/uuid/153ca5c0-aecd-4960-8be3-1cff8cad671e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=73b7a49659580b4b498b6989b1462552"
+                "url": "/uuid/153ca5c0-aecd-4960-8be3-1cff8cad671e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=11490db7b4786eadb895114cd1450c72"
               }
             },
             {
@@ -17423,17 +16324,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/380af1b8-4bc6-4ea1-8aab-53c0650c36b3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=67b8dcc0c10d854a30339e1209d7ec97"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/380af1b8-4bc6-4ea1-8aab-53c0650c36b3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=64e661c96cefe1b375df8e2193fdd46e"
               }
             },
             {
               "img": {
                 "url": "/uuid/380af1b8-4bc6-4ea1-8aab-53c0650c36b3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=67b8dcc0c10d854a30339e1209d7ec97"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/380af1b8-4bc6-4ea1-8aab-53c0650c36b3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=67b8dcc0c10d854a30339e1209d7ec97"
               }
             },
             {
@@ -21062,17 +19963,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/b768e472-5c9c-40ce-929d-2a17aad703a4/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fe6e9e11ac8f6e8079dd27a6f14d3544"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/b768e472-5c9c-40ce-929d-2a17aad703a4/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=49dfda021286d6bd8b471d6969233b13"
               }
             },
             {
               "img": {
                 "url": "/uuid/b768e472-5c9c-40ce-929d-2a17aad703a4/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fe6e9e11ac8f6e8079dd27a6f14d3544"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/b768e472-5c9c-40ce-929d-2a17aad703a4/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fe6e9e11ac8f6e8079dd27a6f14d3544"
               }
             },
             {
@@ -21232,12 +20133,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=06c66dc2f28b85745598d2974a8cd5db"
+                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fcaf44c8fe0711b01a7fdf3b0aefa0c8"
               }
             },
             {
               "img": {
-                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fcaf44c8fe0711b01a7fdf3b0aefa0c8"
+                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=06c66dc2f28b85745598d2974a8cd5db"
               }
             },
             {
@@ -22494,17 +21395,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/COVER_CLEAN_TALL?territory=IT&version=9915ca5b-154f-3aa3-a350-a564e894d70c&w=600&h=800&md5ChecksumParam=2f09c41decbf576dea92b470fac8546d"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=27c24d76d20499263f19c466c297b8e0"
               }
             },
             {
               "img": {
                 "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/COVER_CLEAN_TALL?territory=IT&version=9915ca5b-154f-3aa3-a350-a564e894d70c&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=2f09c41decbf576dea92b470fac8546d"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/COVER_CLEAN_TALL?territory=IT&version=9915ca5b-154f-3aa3-a350-a564e894d70c&w=600&h=800&md5ChecksumParam=2f09c41decbf576dea92b470fac8546d"
               }
             },
             {
@@ -23006,17 +21907,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/COVER_CLEAN_TALL?territory=IT&version=9915ca5b-154f-3aa3-a350-a564e894d70c&w=600&h=800&md5ChecksumParam=2f09c41decbf576dea92b470fac8546d"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=27c24d76d20499263f19c466c297b8e0"
               }
             },
             {
               "img": {
                 "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/COVER_CLEAN_TALL?territory=IT&version=9915ca5b-154f-3aa3-a350-a564e894d70c&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=2f09c41decbf576dea92b470fac8546d"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/COVER_CLEAN_TALL?territory=IT&version=9915ca5b-154f-3aa3-a350-a564e894d70c&w=600&h=800&md5ChecksumParam=2f09c41decbf576dea92b470fac8546d"
               }
             },
             {
@@ -23419,14 +22320,14 @@
         "content": {
           "uuid": "36a6d1d6-07f5-475e-9d51-ed0df64e995b",
           "contentTitle": "Elizabeth",
-          "url": "/film/biografico/elizabeth/36a6d1d6-07f5-475e-9d51-ed0df64e995b",
+          "url": "/film/drammatico/elizabeth/36a6d1d6-07f5-475e-9d51-ed0df64e995b",
           "genre": {
             "id": 3,
             "name": "Film"
           },
           "subgenre": {
-            "id": 102,
-            "name": "Biografico"
+            "id": 11,
+            "name": "Drammatico"
           },
           "imagesMap": [
             {
@@ -23516,17 +22417,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/69ed37fb-4146-40eb-9830-f04acac3cbb3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6dcbafd731a7a6d1b52d7cc4f35134ab"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/69ed37fb-4146-40eb-9830-f04acac3cbb3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3efa7ed737d1c7060ab264ce51d136ad"
               }
             },
             {
               "img": {
                 "url": "/uuid/69ed37fb-4146-40eb-9830-f04acac3cbb3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6dcbafd731a7a6d1b52d7cc4f35134ab"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/69ed37fb-4146-40eb-9830-f04acac3cbb3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6dcbafd731a7a6d1b52d7cc4f35134ab"
               }
             },
             {
@@ -25732,12 +24633,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/153ca5c0-aecd-4960-8be3-1cff8cad671e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=11490db7b4786eadb895114cd1450c72"
+                "url": "/uuid/153ca5c0-aecd-4960-8be3-1cff8cad671e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=73b7a49659580b4b498b6989b1462552"
               }
             },
             {
               "img": {
-                "url": "/uuid/153ca5c0-aecd-4960-8be3-1cff8cad671e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=73b7a49659580b4b498b6989b1462552"
+                "url": "/uuid/153ca5c0-aecd-4960-8be3-1cff8cad671e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=11490db7b4786eadb895114cd1450c72"
               }
             },
             {
@@ -32180,17 +31081,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/3f593783-8a25-4490-bdf2-1ccfc7319f86/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=8ff34f70ccf36051f4a9f883e10f325e"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/3f593783-8a25-4490-bdf2-1ccfc7319f86/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=37e2312002bb06573f17ef630e3ddbe7"
               }
             },
             {
               "img": {
                 "url": "/uuid/3f593783-8a25-4490-bdf2-1ccfc7319f86/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=37e2312002bb06573f17ef630e3ddbe7"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/3f593783-8a25-4490-bdf2-1ccfc7319f86/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=8ff34f70ccf36051f4a9f883e10f325e"
               }
             },
             {
@@ -32352,17 +31253,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/ca62309a-e8e6-421b-bb96-9c85a795f9d2/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=bb0617bae310471def7594987f49e711"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/ca62309a-e8e6-421b-bb96-9c85a795f9d2/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=229803b990099874627afce4583d3502"
               }
             },
             {
               "img": {
                 "url": "/uuid/ca62309a-e8e6-421b-bb96-9c85a795f9d2/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=bb0617bae310471def7594987f49e711"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/ca62309a-e8e6-421b-bb96-9c85a795f9d2/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=bb0617bae310471def7594987f49e711"
               }
             },
             {
@@ -32510,14 +31411,14 @@
         "content": {
           "uuid": "36a6d1d6-07f5-475e-9d51-ed0df64e995b",
           "contentTitle": "Elizabeth",
-          "url": "/film/biografico/elizabeth/36a6d1d6-07f5-475e-9d51-ed0df64e995b",
+          "url": "/film/drammatico/elizabeth/36a6d1d6-07f5-475e-9d51-ed0df64e995b",
           "genre": {
             "id": 3,
             "name": "Film"
           },
           "subgenre": {
-            "id": 102,
-            "name": "Biografico"
+            "id": 11,
+            "name": "Drammatico"
           },
           "imagesMap": [
             {
@@ -33274,17 +32175,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/69ed37fb-4146-40eb-9830-f04acac3cbb3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6dcbafd731a7a6d1b52d7cc4f35134ab"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/69ed37fb-4146-40eb-9830-f04acac3cbb3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3efa7ed737d1c7060ab264ce51d136ad"
               }
             },
             {
               "img": {
                 "url": "/uuid/69ed37fb-4146-40eb-9830-f04acac3cbb3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6dcbafd731a7a6d1b52d7cc4f35134ab"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/69ed37fb-4146-40eb-9830-f04acac3cbb3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6dcbafd731a7a6d1b52d7cc4f35134ab"
               }
             },
             {
@@ -34040,12 +32941,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=06c66dc2f28b85745598d2974a8cd5db"
+                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fcaf44c8fe0711b01a7fdf3b0aefa0c8"
               }
             },
             {
               "img": {
-                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fcaf44c8fe0711b01a7fdf3b0aefa0c8"
+                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=06c66dc2f28b85745598d2974a8cd5db"
               }
             },
             {
@@ -34892,12 +33793,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=06c66dc2f28b85745598d2974a8cd5db"
+                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fcaf44c8fe0711b01a7fdf3b0aefa0c8"
               }
             },
             {
               "img": {
-                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=fcaf44c8fe0711b01a7fdf3b0aefa0c8"
+                "url": "/uuid/894794d0-84c0-4649-a221-65c4592a32de/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=06c66dc2f28b85745598d2974a8cd5db"
               }
             },
             {
@@ -37661,7 +36562,7 @@
         "starttime": "2025-08-15T05:15:00Z",
         "endtime": "2025-08-15T07:15:00Z",
         "eventTitle": "Judy",
-        "eventSynopsis": "Oscar a Renee Zellweger per il biopic su Judy Garland. 1968: durante un memorabile tour a Londra, la star hollywoodiana affronta i fantasmi interiori che la perseguitano da sempre (GBR 2019)",
+        "eventSynopsis": "Oscar a Renee Zellweger per il biopic su Judy Garland. 1968: durante un memorabile tour a Londra, la star hollywoodiana affronta i fantasmi interiori che la perseguitano da sempre (USA/GBR 2019)",
         "epgEventTitle": "Judy",
         "primeVision": false,
         "resolutions": [
@@ -38980,17 +37881,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/COVER_CLEAN_TALL?territory=IT&version=9915ca5b-154f-3aa3-a350-a564e894d70c&w=600&h=800&md5ChecksumParam=2f09c41decbf576dea92b470fac8546d"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=27c24d76d20499263f19c466c297b8e0"
               }
             },
             {
               "img": {
                 "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/COVER_CLEAN_TALL?territory=IT&version=9915ca5b-154f-3aa3-a350-a564e894d70c&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=2f09c41decbf576dea92b470fac8546d"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/7ffeb071-4658-4130-ac73-f29da38d513a/COVER_CLEAN_TALL?territory=IT&version=9915ca5b-154f-3aa3-a350-a564e894d70c&w=600&h=800&md5ChecksumParam=2f09c41decbf576dea92b470fac8546d"
               }
             },
             {

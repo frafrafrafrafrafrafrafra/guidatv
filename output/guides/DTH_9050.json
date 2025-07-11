@@ -1,1202 +1,6 @@
 {
   "name": "Sky Cinema Action",
   "events_by_date": {
-    "2025-07-10": [
-      {
-        "channel": {
-          "id": 9050,
-          "logo": "/logo/206skycinemaaction_Light_Fit.png?checksum=18c61378-c967-4828-a506-4fbd8cf6bc1c",
-          "logoPadding": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "logoDark": "/logo/206skycinemaaction_Dark_Fit.png?checksum=b0517e12-f8d4-47ad-bc66-15c8775d2236",
-          "logoDarkPadding": "/logo/206skycinemaaction_Dark_Padding.png?checksum=5758004c-5668-48be-99e2-07a4f46a107b",
-          "logoLight": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "name": "Sky Cinema Action",
-          "description": "Il canale tv dedicato ai film d'azione, fantascienza e spionaggio. Canale Sky Glass 305.",
-          "number": 305,
-          "servicekey": "206",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "d8fa90d3-e890-4475-8dea-edea0a7b879a",
-          "contentTitle": "Bumblebee",
-          "url": "/film/azione/bumblebee/d8fa90d3-e890-4475-8dea-edea0a7b879a",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 32,
-            "name": "Azione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/d8fa90d3-e890-4475-8dea-edea0a7b879a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2f41b6ca18c48e968bf349fc9f39e148"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d8fa90d3-e890-4475-8dea-edea0a7b879a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d2cbce8fc9bab748fd7c206374a1e260"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d8fa90d3-e890-4475-8dea-edea0a7b879a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d2cbce8fc9bab748fd7c206374a1e260"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/d8fa90d3-e890-4475-8dea-edea0a7b879a/background?territory=IT&md5ChecksumParam=af5938c6ffad3a50125076af45d1e996"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/d8fa90d3-e890-4475-8dea-edea0a7b879a/cover?territory=IT&md5ChecksumParam=2f41b6ca18c48e968bf349fc9f39e148"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/d8fa90d3-e890-4475-8dea-edea0a7b879a/16-9?territory=IT&md5ChecksumParam=720d484fdff3599d7728527fa80ce354"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/d8fa90d3-e890-4475-8dea-edea0a7b879a/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=8c8529d1b92cee564f542ffe286ac5a1"
-              }
-            }
-          ]
-        },
-        "eventId": "411234436",
-        "starttime": "2025-07-10T00:40:00Z",
-        "endtime": "2025-07-10T02:35:00Z",
-        "eventTitle": "Bumblebee",
-        "eventSynopsis": "Hailee Steinfeld e John Cena nello spin off della saga di \"Transformers\", prodotto da Steven Spielberg. In missione sulla Terra, un Autobot rimane ferito e si trasforma in un Maggiolino (USA 2018)",
-        "epgEventTitle": "Bumblebee",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9050,
-          "logo": "/logo/206skycinemaaction_Light_Fit.png?checksum=18c61378-c967-4828-a506-4fbd8cf6bc1c",
-          "logoPadding": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "logoDark": "/logo/206skycinemaaction_Dark_Fit.png?checksum=b0517e12-f8d4-47ad-bc66-15c8775d2236",
-          "logoDarkPadding": "/logo/206skycinemaaction_Dark_Padding.png?checksum=5758004c-5668-48be-99e2-07a4f46a107b",
-          "logoLight": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "name": "Sky Cinema Action",
-          "description": "Il canale tv dedicato ai film d'azione, fantascienza e spionaggio. Canale Sky Glass 305.",
-          "number": 305,
-          "servicekey": "206",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "d27749bd-3653-43e1-b1d3-c3e106c4de3f",
-          "contentTitle": "Il Gladiatore Vs 300",
-          "episodeNumber": 245,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/cinema/questo-o-quello-speciale/stagione-1/episodio-245/d27749bd-3653-43e1-b1d3-c3e106c4de3f",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 79,
-            "name": "Cinema"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=37191d524d4a02933777b213b380192f"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5e757beb954c00795827e090d506e7e8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5e757beb954c00795827e090d506e7e8"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/background?territory=IT&md5ChecksumParam=b50c5edd3a11dd20b429951e8006d08f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/cover?territory=IT&md5ChecksumParam=37191d524d4a02933777b213b380192f"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/16-9?territory=IT&md5ChecksumParam=a537ceafe465de76e35c8f5043cfc221"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=fdf8549c8df653df7dd2f5354f7ee7a7"
-              }
-            }
-          ]
-        },
-        "eventId": "411234437",
-        "starttime": "2025-07-10T02:35:00Z",
-        "endtime": "2025-07-10T02:50:00Z",
-        "eventTitle": "Il Gladiatore Vs 300",
-        "eventSynopsis": "Mettiamo a confronto \"Il gladiatore\" e \"300\", entrambi film epici su episodi dell'antichita'. Ascoltiamo spunti, curiosita' e pareri onesti per decidere quale di queste due pellicole guardare.",
-        "epgEventTitle": "S1 Ep245 - Questo o quello - Il gladiatore vs 300",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9050,
-          "logo": "/logo/206skycinemaaction_Light_Fit.png?checksum=18c61378-c967-4828-a506-4fbd8cf6bc1c",
-          "logoPadding": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "logoDark": "/logo/206skycinemaaction_Dark_Fit.png?checksum=b0517e12-f8d4-47ad-bc66-15c8775d2236",
-          "logoDarkPadding": "/logo/206skycinemaaction_Dark_Padding.png?checksum=5758004c-5668-48be-99e2-07a4f46a107b",
-          "logoLight": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "name": "Sky Cinema Action",
-          "description": "Il canale tv dedicato ai film d'azione, fantascienza e spionaggio. Canale Sky Glass 305.",
-          "number": 305,
-          "servicekey": "206",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "06fae017-57ee-418a-b1f7-6fd06a5d9c54",
-          "contentTitle": "Spider-Man: No Way Home",
-          "url": "/film/fantastico/spider-man-no-way-home/06fae017-57ee-418a-b1f7-6fd06a5d9c54",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 58,
-            "name": "Fantastico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/06fae017-57ee-418a-b1f7-6fd06a5d9c54/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=a143fc14d09bdf4b642845b04627102e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/06fae017-57ee-418a-b1f7-6fd06a5d9c54/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e4e80838a432a7e4221e3959e12ba9fb"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/06fae017-57ee-418a-b1f7-6fd06a5d9c54/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e4e80838a432a7e4221e3959e12ba9fb"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/06fae017-57ee-418a-b1f7-6fd06a5d9c54/background?territory=IT&md5ChecksumParam=f82d09e94361bfd5eecb04c5173b2292"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/06fae017-57ee-418a-b1f7-6fd06a5d9c54/cover?territory=IT&md5ChecksumParam=a143fc14d09bdf4b642845b04627102e"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/06fae017-57ee-418a-b1f7-6fd06a5d9c54/16-9?territory=IT&md5ChecksumParam=2971e29c59d63e7ad9db0a33afb2c53a"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/06fae017-57ee-418a-b1f7-6fd06a5d9c54/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=daa1a3da30b745404d3983794cabfd44"
-              }
-            }
-          ]
-        },
-        "eventId": "411234438",
-        "starttime": "2025-07-10T02:50:00Z",
-        "endtime": "2025-07-10T05:15:00Z",
-        "eventTitle": "Spider-Man: No Way Home",
-        "eventSynopsis": "Record di incassi per il cinecomic con Tom Holland, Zendaya, Benedict Cumberbatch e Jamie Foxx. L'Uomo Ragno si rivolge al Doctor Strange per ripristinare il segreto della sua identita' (USA/ISL 2021)",
-        "epgEventTitle": "Spider-Man: No Way Home",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9050,
-          "logo": "/logo/206skycinemaaction_Light_Fit.png?checksum=18c61378-c967-4828-a506-4fbd8cf6bc1c",
-          "logoPadding": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "logoDark": "/logo/206skycinemaaction_Dark_Fit.png?checksum=b0517e12-f8d4-47ad-bc66-15c8775d2236",
-          "logoDarkPadding": "/logo/206skycinemaaction_Dark_Padding.png?checksum=5758004c-5668-48be-99e2-07a4f46a107b",
-          "logoLight": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "name": "Sky Cinema Action",
-          "description": "Il canale tv dedicato ai film d'azione, fantascienza e spionaggio. Canale Sky Glass 305.",
-          "number": 305,
-          "servicekey": "206",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "debf3fd3-1f32-444e-9a86-91ecbb5e4483",
-          "contentTitle": "Gangster Squad",
-          "url": "/film/poliziesco/gangster-squad/debf3fd3-1f32-444e-9a86-91ecbb5e4483",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 68,
-            "name": "Poliziesco"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/debf3fd3-1f32-444e-9a86-91ecbb5e4483/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=a54fb5f4dff38cd9f0580c8a9769077b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/debf3fd3-1f32-444e-9a86-91ecbb5e4483/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=18ba52f0e905c62e2c55f0939731f625"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/debf3fd3-1f32-444e-9a86-91ecbb5e4483/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=18ba52f0e905c62e2c55f0939731f625"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/debf3fd3-1f32-444e-9a86-91ecbb5e4483/background?territory=IT&md5ChecksumParam=83a56e8ed631b5c36b9c33f8d73c35e6"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/debf3fd3-1f32-444e-9a86-91ecbb5e4483/cover?territory=IT&md5ChecksumParam=a54fb5f4dff38cd9f0580c8a9769077b"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/debf3fd3-1f32-444e-9a86-91ecbb5e4483/16-9?territory=IT&md5ChecksumParam=cc951a4b9d214557ff2d682df514f5d2"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/debf3fd3-1f32-444e-9a86-91ecbb5e4483/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=562911306fbe408ee76a1652ac69de9c"
-              }
-            }
-          ]
-        },
-        "eventId": "411234439",
-        "starttime": "2025-07-10T05:15:00Z",
-        "endtime": "2025-07-10T07:15:00Z",
-        "eventTitle": "Gangster Squad",
-        "eventSynopsis": "Josh Brolin, Ryan Gosling e Sean Penn in un poliziesco tratto da una storia vera. Los Angeles, anni 40: una squadra di agenti incorruttibili lotta per colpire al cuore l'impero di un gangster.",
-        "epgEventTitle": "Gangster Squad",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9050,
-          "logo": "/logo/206skycinemaaction_Light_Fit.png?checksum=18c61378-c967-4828-a506-4fbd8cf6bc1c",
-          "logoPadding": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "logoDark": "/logo/206skycinemaaction_Dark_Fit.png?checksum=b0517e12-f8d4-47ad-bc66-15c8775d2236",
-          "logoDarkPadding": "/logo/206skycinemaaction_Dark_Padding.png?checksum=5758004c-5668-48be-99e2-07a4f46a107b",
-          "logoLight": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "name": "Sky Cinema Action",
-          "description": "Il canale tv dedicato ai film d'azione, fantascienza e spionaggio. Canale Sky Glass 305.",
-          "number": 305,
-          "servicekey": "206",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "ea733dac-9f87-4037-95dc-6d81bac12087",
-          "contentTitle": "Bullitt",
-          "url": "/film/azione/bullitt/ea733dac-9f87-4037-95dc-6d81bac12087",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 32,
-            "name": "Azione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/ea733dac-9f87-4037-95dc-6d81bac12087/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=d64bf8239b2b68759a17b17dfe048c21"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ea733dac-9f87-4037-95dc-6d81bac12087/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=29f854746d2fb036a02626e6f1b43048"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ea733dac-9f87-4037-95dc-6d81bac12087/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=29f854746d2fb036a02626e6f1b43048"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/ea733dac-9f87-4037-95dc-6d81bac12087/background?territory=IT&md5ChecksumParam=5fc508448709895e490f4289d81a9ef8"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/ea733dac-9f87-4037-95dc-6d81bac12087/cover?territory=IT&md5ChecksumParam=d64bf8239b2b68759a17b17dfe048c21"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/ea733dac-9f87-4037-95dc-6d81bac12087/16-9?territory=IT&md5ChecksumParam=6e8db5bf653d9ea819f06b06f080c281"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/ea733dac-9f87-4037-95dc-6d81bac12087/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=fe7859b39856a28468ef0d002feb9af8"
-              }
-            }
-          ]
-        },
-        "eventId": "411234440",
-        "starttime": "2025-07-10T07:15:00Z",
-        "endtime": "2025-07-10T09:15:00Z",
-        "eventTitle": "Bullitt",
-        "eventSynopsis": "Oscar al montaggio per il poliziesco di Peter Yates con un magistrale Steve McQueen. Il tenente Frank Bullitt viene incaricato della protezione di un pentito, ma non sara' un'impresa facile",
-        "epgEventTitle": "Bullitt",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9050,
-          "logo": "/logo/206skycinemaaction_Light_Fit.png?checksum=18c61378-c967-4828-a506-4fbd8cf6bc1c",
-          "logoPadding": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "logoDark": "/logo/206skycinemaaction_Dark_Fit.png?checksum=b0517e12-f8d4-47ad-bc66-15c8775d2236",
-          "logoDarkPadding": "/logo/206skycinemaaction_Dark_Padding.png?checksum=5758004c-5668-48be-99e2-07a4f46a107b",
-          "logoLight": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "name": "Sky Cinema Action",
-          "description": "Il canale tv dedicato ai film d'azione, fantascienza e spionaggio. Canale Sky Glass 305.",
-          "number": 305,
-          "servicekey": "206",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "9fcd70f9-02d1-4db9-adc1-36348e07156b",
-          "contentTitle": "The Fall Guy",
-          "url": "/film/azione/the-fall-guy/9fcd70f9-02d1-4db9-adc1-36348e07156b",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 32,
-            "name": "Azione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/9fcd70f9-02d1-4db9-adc1-36348e07156b/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1706604ea006b5d38ec58318a1b72c28"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/9fcd70f9-02d1-4db9-adc1-36348e07156b/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1706604ea006b5d38ec58318a1b72c28"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/9fcd70f9-02d1-4db9-adc1-36348e07156b/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=49ffa15e8dd2af2e868628e8961e4051"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/9fcd70f9-02d1-4db9-adc1-36348e07156b/background?territory=IT&md5ChecksumParam=3e143762e2e42f53932837839cffd45a"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/9fcd70f9-02d1-4db9-adc1-36348e07156b/cover?territory=IT&md5ChecksumParam=49ffa15e8dd2af2e868628e8961e4051"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/9fcd70f9-02d1-4db9-adc1-36348e07156b/16-9?territory=IT&md5ChecksumParam=9150be376db705898cf6bf3a0a21433d"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/9fcd70f9-02d1-4db9-adc1-36348e07156b/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=56db855a2253f4fbb5fec137f68db5db"
-              }
-            }
-          ]
-        },
-        "eventId": "411234441",
-        "starttime": "2025-07-10T09:15:00Z",
-        "endtime": "2025-07-10T11:25:00Z",
-        "eventTitle": "The Fall Guy",
-        "eventSynopsis": "Spettacolare action-comedy di David Leitch con Ryan Gosling ed Emily Blunt. Mentre indaga sulla sparizione di una star del cinema, uno stuntman si ritrova al centro di una cospirazione",
-        "epgEventTitle": "The Fall Guy",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9050,
-          "logo": "/logo/206skycinemaaction_Light_Fit.png?checksum=18c61378-c967-4828-a506-4fbd8cf6bc1c",
-          "logoPadding": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "logoDark": "/logo/206skycinemaaction_Dark_Fit.png?checksum=b0517e12-f8d4-47ad-bc66-15c8775d2236",
-          "logoDarkPadding": "/logo/206skycinemaaction_Dark_Padding.png?checksum=5758004c-5668-48be-99e2-07a4f46a107b",
-          "logoLight": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "name": "Sky Cinema Action",
-          "description": "Il canale tv dedicato ai film d'azione, fantascienza e spionaggio. Canale Sky Glass 305.",
-          "number": 305,
-          "servicekey": "206",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "d27749bd-3653-43e1-b1d3-c3e106c4de3f",
-          "contentTitle": "Il Gladiatore Vs 300",
-          "episodeNumber": 245,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/cinema/questo-o-quello-speciale/stagione-1/episodio-245/d27749bd-3653-43e1-b1d3-c3e106c4de3f",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 79,
-            "name": "Cinema"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=37191d524d4a02933777b213b380192f"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5e757beb954c00795827e090d506e7e8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5e757beb954c00795827e090d506e7e8"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/background?territory=IT&md5ChecksumParam=b50c5edd3a11dd20b429951e8006d08f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/cover?territory=IT&md5ChecksumParam=37191d524d4a02933777b213b380192f"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/16-9?territory=IT&md5ChecksumParam=a537ceafe465de76e35c8f5043cfc221"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=fdf8549c8df653df7dd2f5354f7ee7a7"
-              }
-            }
-          ]
-        },
-        "eventId": "411234442",
-        "starttime": "2025-07-10T11:25:00Z",
-        "endtime": "2025-07-10T11:40:00Z",
-        "eventTitle": "Il Gladiatore Vs 300",
-        "eventSynopsis": "Mettiamo a confronto \"Il gladiatore\" e \"300\", entrambi film epici su episodi dell'antichita'. Ascoltiamo spunti, curiosita' e pareri onesti per decidere quale di queste due pellicole guardare.",
-        "epgEventTitle": "S1 Ep245 - Questo o quello - Il gladiatore vs 300",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9050,
-          "logo": "/logo/206skycinemaaction_Light_Fit.png?checksum=18c61378-c967-4828-a506-4fbd8cf6bc1c",
-          "logoPadding": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "logoDark": "/logo/206skycinemaaction_Dark_Fit.png?checksum=b0517e12-f8d4-47ad-bc66-15c8775d2236",
-          "logoDarkPadding": "/logo/206skycinemaaction_Dark_Padding.png?checksum=5758004c-5668-48be-99e2-07a4f46a107b",
-          "logoLight": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "name": "Sky Cinema Action",
-          "description": "Il canale tv dedicato ai film d'azione, fantascienza e spionaggio. Canale Sky Glass 305.",
-          "number": 305,
-          "servicekey": "206",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "f934edb1-3f2c-4c91-b057-e92bda12d872",
-          "contentTitle": "I tre moschettieri",
-          "url": "/film/azione/i-tre-moschettieri/f934edb1-3f2c-4c91-b057-e92bda12d872",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 32,
-            "name": "Azione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/f934edb1-3f2c-4c91-b057-e92bda12d872/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d49a0627f9c8073bbfd9c3535235fc35"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f934edb1-3f2c-4c91-b057-e92bda12d872/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d49a0627f9c8073bbfd9c3535235fc35"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f934edb1-3f2c-4c91-b057-e92bda12d872/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c1739b570d048c113a500e637bdd41f6"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/f934edb1-3f2c-4c91-b057-e92bda12d872/background?territory=IT&md5ChecksumParam=9fe10a5ead35fdd6a01ffbd487795c3b"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/f934edb1-3f2c-4c91-b057-e92bda12d872/cover?territory=IT&md5ChecksumParam=c1739b570d048c113a500e637bdd41f6"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/f934edb1-3f2c-4c91-b057-e92bda12d872/16-9?territory=IT&md5ChecksumParam=7d69d772dc3d7c4d07ba38c2927e4e3c"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/f934edb1-3f2c-4c91-b057-e92bda12d872/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=a6a3e8d369db26e72041cda339b78d62"
-              }
-            }
-          ]
-        },
-        "eventId": "411234443",
-        "starttime": "2025-07-10T11:40:00Z",
-        "endtime": "2025-07-10T13:35:00Z",
-        "eventTitle": "I tre moschettieri",
-        "eventSynopsis": "Un cast di stelle per la rivisitazione di un avventuroso classico. Lo spavaldo D'Artagnan si unisce ai moschettieri del Re per smascherare gli intrighi del Cardinale Richelieu.",
-        "epgEventTitle": "I tre moschettieri",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9050,
-          "logo": "/logo/206skycinemaaction_Light_Fit.png?checksum=18c61378-c967-4828-a506-4fbd8cf6bc1c",
-          "logoPadding": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "logoDark": "/logo/206skycinemaaction_Dark_Fit.png?checksum=b0517e12-f8d4-47ad-bc66-15c8775d2236",
-          "logoDarkPadding": "/logo/206skycinemaaction_Dark_Padding.png?checksum=5758004c-5668-48be-99e2-07a4f46a107b",
-          "logoLight": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "name": "Sky Cinema Action",
-          "description": "Il canale tv dedicato ai film d'azione, fantascienza e spionaggio. Canale Sky Glass 305.",
-          "number": 305,
-          "servicekey": "206",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "fec349f3-d8dd-46e4-a694-24fbf61fa933",
-          "contentTitle": "Top Gun",
-          "url": "/film/azione/top-gun/fec349f3-d8dd-46e4-a694-24fbf61fa933",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 32,
-            "name": "Azione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/fec349f3-d8dd-46e4-a694-24fbf61fa933/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f894d5cb6f1f45d401c2564810900375"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/fec349f3-d8dd-46e4-a694-24fbf61fa933/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1f5e4157bfcaf90e4bb85c5ed1caa9d7"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/fec349f3-d8dd-46e4-a694-24fbf61fa933/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1f5e4157bfcaf90e4bb85c5ed1caa9d7"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/fec349f3-d8dd-46e4-a694-24fbf61fa933/background?territory=IT&md5ChecksumParam=ffee33bb9c8aced778a3f98201e1d2f5"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/fec349f3-d8dd-46e4-a694-24fbf61fa933/cover?territory=IT&md5ChecksumParam=f894d5cb6f1f45d401c2564810900375"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/fec349f3-d8dd-46e4-a694-24fbf61fa933/16-9?territory=IT&md5ChecksumParam=c2db20f598697728b0c367084240db4f"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/fec349f3-d8dd-46e4-a694-24fbf61fa933/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=6dbb21ae21403be305cfad9daf38b5da"
-              }
-            }
-          ]
-        },
-        "eventId": "411234444",
-        "starttime": "2025-07-10T13:35:00Z",
-        "endtime": "2025-07-10T15:25:00Z",
-        "eventTitle": "Top Gun",
-        "eventSynopsis": "L'action che ha consacrato Tom Cruise. Un pilota di caccia va in crisi quando causa la morte di un amico. Ne uscira' grazie a una donna. Oscar e Golden Globe per la migliore canzone.",
-        "epgEventTitle": "Top Gun",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9050,
-          "logo": "/logo/206skycinemaaction_Light_Fit.png?checksum=18c61378-c967-4828-a506-4fbd8cf6bc1c",
-          "logoPadding": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "logoDark": "/logo/206skycinemaaction_Dark_Fit.png?checksum=b0517e12-f8d4-47ad-bc66-15c8775d2236",
-          "logoDarkPadding": "/logo/206skycinemaaction_Dark_Padding.png?checksum=5758004c-5668-48be-99e2-07a4f46a107b",
-          "logoLight": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "name": "Sky Cinema Action",
-          "description": "Il canale tv dedicato ai film d'azione, fantascienza e spionaggio. Canale Sky Glass 305.",
-          "number": 305,
-          "servicekey": "206",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "2fa83807-6cf4-44e1-b191-01c7480b9bd7",
-          "contentTitle": "R.I.P.D. - Poliziotti dall'aldilà",
-          "url": "/film/azione/ripd-poliziotti-dallaldila/2fa83807-6cf4-44e1-b191-01c7480b9bd7",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 32,
-            "name": "Azione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/2fa83807-6cf4-44e1-b191-01c7480b9bd7/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4949cbbca11cfdaf059a638ff09722ee"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/2fa83807-6cf4-44e1-b191-01c7480b9bd7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=9a8157073d240a37429aba86750ca4f8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/2fa83807-6cf4-44e1-b191-01c7480b9bd7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4949cbbca11cfdaf059a638ff09722ee"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/2fa83807-6cf4-44e1-b191-01c7480b9bd7/background?territory=IT&md5ChecksumParam=a190f14c2ca905196c13bc06a7c8149d"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/2fa83807-6cf4-44e1-b191-01c7480b9bd7/cover?territory=IT&md5ChecksumParam=9a8157073d240a37429aba86750ca4f8"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/2fa83807-6cf4-44e1-b191-01c7480b9bd7/16-9?territory=IT&md5ChecksumParam=0765c97f7d305e0061cc062738093b0a"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/2fa83807-6cf4-44e1-b191-01c7480b9bd7/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=28408a64fb978bff41ee028a755485a1"
-              }
-            }
-          ]
-        },
-        "eventId": "411234445",
-        "starttime": "2025-07-10T15:25:00Z",
-        "endtime": "2025-07-10T17:05:00Z",
-        "eventTitle": "R.I.P.D. - Poliziotti dall'aldilà",
-        "eventSynopsis": "Jeff Bridges e Ryan Reynolds in un fanta-action dall'omonima graphic novel. Un pistolero del West e un detective di Boston, entrambi defunti, entrano in un corpo di polizia ultraterreno.",
-        "epgEventTitle": "R.I.P.D. - Poliziotti dall'aldilà",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9050,
-          "logo": "/logo/206skycinemaaction_Light_Fit.png?checksum=18c61378-c967-4828-a506-4fbd8cf6bc1c",
-          "logoPadding": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "logoDark": "/logo/206skycinemaaction_Dark_Fit.png?checksum=b0517e12-f8d4-47ad-bc66-15c8775d2236",
-          "logoDarkPadding": "/logo/206skycinemaaction_Dark_Padding.png?checksum=5758004c-5668-48be-99e2-07a4f46a107b",
-          "logoLight": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "name": "Sky Cinema Action",
-          "description": "Il canale tv dedicato ai film d'azione, fantascienza e spionaggio. Canale Sky Glass 305.",
-          "number": 305,
-          "servicekey": "206",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "3d487465-4946-48e3-aca6-86d032ac0ef3",
-          "contentTitle": "La mummia (2017)",
-          "url": "/film/azione/la-mummia-2017/3d487465-4946-48e3-aca6-86d032ac0ef3",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 32,
-            "name": "Azione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/3d487465-4946-48e3-aca6-86d032ac0ef3/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=8dc2c835c2c4378898a89f36cac898ff"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/3d487465-4946-48e3-aca6-86d032ac0ef3/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f775d718bdbb23f4302c5b635b0c60a4"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/3d487465-4946-48e3-aca6-86d032ac0ef3/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f775d718bdbb23f4302c5b635b0c60a4"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/3d487465-4946-48e3-aca6-86d032ac0ef3/background?territory=IT&md5ChecksumParam=14df6f771dd62e1503132b610aee3a15"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/3d487465-4946-48e3-aca6-86d032ac0ef3/cover?territory=IT&md5ChecksumParam=8dc2c835c2c4378898a89f36cac898ff"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/3d487465-4946-48e3-aca6-86d032ac0ef3/16-9?territory=IT&md5ChecksumParam=ffc790b972e0e7f712b210064e422270"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/3d487465-4946-48e3-aca6-86d032ac0ef3/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=ace99758346c30c651e02d899bbce45f"
-              }
-            }
-          ]
-        },
-        "eventId": "411234446",
-        "starttime": "2025-07-10T17:05:00Z",
-        "endtime": "2025-07-10T19:00:00Z",
-        "eventTitle": "La mummia (2017)",
-        "eventSynopsis": "Avventura con Tom Cruise, Sofia Boutella e Russell Crowe. La regina di un mondo arcaico, risvegliata da un sonno millenario, scatena sul mondo la sua sete di vendetta.",
-        "epgEventTitle": "La mummia (2017)",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9050,
-          "logo": "/logo/206skycinemaaction_Light_Fit.png?checksum=18c61378-c967-4828-a506-4fbd8cf6bc1c",
-          "logoPadding": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "logoDark": "/logo/206skycinemaaction_Dark_Fit.png?checksum=b0517e12-f8d4-47ad-bc66-15c8775d2236",
-          "logoDarkPadding": "/logo/206skycinemaaction_Dark_Padding.png?checksum=5758004c-5668-48be-99e2-07a4f46a107b",
-          "logoLight": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "name": "Sky Cinema Action",
-          "description": "Il canale tv dedicato ai film d'azione, fantascienza e spionaggio. Canale Sky Glass 305.",
-          "number": 305,
-          "servicekey": "206",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "d8fa90d3-e890-4475-8dea-edea0a7b879a",
-          "contentTitle": "Bumblebee",
-          "url": "/film/azione/bumblebee/d8fa90d3-e890-4475-8dea-edea0a7b879a",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 32,
-            "name": "Azione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/d8fa90d3-e890-4475-8dea-edea0a7b879a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2f41b6ca18c48e968bf349fc9f39e148"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d8fa90d3-e890-4475-8dea-edea0a7b879a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d2cbce8fc9bab748fd7c206374a1e260"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d8fa90d3-e890-4475-8dea-edea0a7b879a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d2cbce8fc9bab748fd7c206374a1e260"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/d8fa90d3-e890-4475-8dea-edea0a7b879a/background?territory=IT&md5ChecksumParam=af5938c6ffad3a50125076af45d1e996"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/d8fa90d3-e890-4475-8dea-edea0a7b879a/cover?territory=IT&md5ChecksumParam=2f41b6ca18c48e968bf349fc9f39e148"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/d8fa90d3-e890-4475-8dea-edea0a7b879a/16-9?territory=IT&md5ChecksumParam=720d484fdff3599d7728527fa80ce354"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/d8fa90d3-e890-4475-8dea-edea0a7b879a/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=8c8529d1b92cee564f542ffe286ac5a1"
-              }
-            }
-          ]
-        },
-        "eventId": "411234447",
-        "starttime": "2025-07-10T19:00:00Z",
-        "endtime": "2025-07-10T21:00:00Z",
-        "eventTitle": "Bumblebee",
-        "eventSynopsis": "Hailee Steinfeld e John Cena nello spin off della saga di \"Transformers\", prodotto da Steven Spielberg. In missione sulla Terra, un Autobot rimane ferito e si trasforma in un Maggiolino.",
-        "epgEventTitle": "Bumblebee",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9050,
-          "logo": "/logo/206skycinemaaction_Light_Fit.png?checksum=18c61378-c967-4828-a506-4fbd8cf6bc1c",
-          "logoPadding": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "logoDark": "/logo/206skycinemaaction_Dark_Fit.png?checksum=b0517e12-f8d4-47ad-bc66-15c8775d2236",
-          "logoDarkPadding": "/logo/206skycinemaaction_Dark_Padding.png?checksum=5758004c-5668-48be-99e2-07a4f46a107b",
-          "logoLight": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "name": "Sky Cinema Action",
-          "description": "Il canale tv dedicato ai film d'azione, fantascienza e spionaggio. Canale Sky Glass 305.",
-          "number": 305,
-          "servicekey": "206",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "00b64313-46ff-4eca-9d60-cb569fb47b3c",
-          "contentTitle": "Way Down: Rapina alla Banca di Spagna",
-          "url": "/film/azione/way-down-rapina-alla-banca-di-spagna/00b64313-46ff-4eca-9d60-cb569fb47b3c",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 32,
-            "name": "Azione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/00b64313-46ff-4eca-9d60-cb569fb47b3c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=306aeaa41e7704e67e65acb9cb9ff7c6"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/00b64313-46ff-4eca-9d60-cb569fb47b3c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=306aeaa41e7704e67e65acb9cb9ff7c6"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/00b64313-46ff-4eca-9d60-cb569fb47b3c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=568326b5171e341d5809becf8a9311a8"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/00b64313-46ff-4eca-9d60-cb569fb47b3c/background?territory=IT&md5ChecksumParam=64940267771ac0fa27573b6863d335b3"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/00b64313-46ff-4eca-9d60-cb569fb47b3c/cover?territory=IT&md5ChecksumParam=568326b5171e341d5809becf8a9311a8"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/00b64313-46ff-4eca-9d60-cb569fb47b3c/16-9?territory=IT&md5ChecksumParam=2179415c82078dacd6f82281b1f0f875"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/00b64313-46ff-4eca-9d60-cb569fb47b3c/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=e36e1e087570e60454970e32e9e063a7"
-              }
-            }
-          ]
-        },
-        "eventId": "411234448",
-        "starttime": "2025-07-10T21:00:00Z",
-        "endtime": "2025-07-10T23:05:00Z",
-        "eventTitle": "Way Down - Rapina alla Banca di Spagna",
-        "eventSynopsis": "Action targato Sky Original di Jaume Balaguero' con Freddie Highmore. Uno studente di ingegneria escogita un piano per rubare un leggendario tesoro dall'inviolabile Banca di Spagna (ESP 2021)",
-        "epgEventTitle": "Way Down - Rapina alla Banca di Spagna",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9050,
-          "logo": "/logo/206skycinemaaction_Light_Fit.png?checksum=18c61378-c967-4828-a506-4fbd8cf6bc1c",
-          "logoPadding": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "logoDark": "/logo/206skycinemaaction_Dark_Fit.png?checksum=b0517e12-f8d4-47ad-bc66-15c8775d2236",
-          "logoDarkPadding": "/logo/206skycinemaaction_Dark_Padding.png?checksum=5758004c-5668-48be-99e2-07a4f46a107b",
-          "logoLight": "/logo/206skycinemaaction_Light_Padding.png?checksum=c4f116b4-0f05-44bf-b986-b036dffff180",
-          "name": "Sky Cinema Action",
-          "description": "Il canale tv dedicato ai film d'azione, fantascienza e spionaggio. Canale Sky Glass 305.",
-          "number": 305,
-          "servicekey": "206",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "f57dcb9c-348e-4242-87fb-782b417e9715",
-          "contentTitle": "Daylight: Trappola nel tunnel",
-          "url": "/film/drammatico/daylight-trappola-nel-tunnel/f57dcb9c-348e-4242-87fb-782b417e9715",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/f57dcb9c-348e-4242-87fb-782b417e9715/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3850a26a3dcf42ccad9d72f43fd226cb"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f57dcb9c-348e-4242-87fb-782b417e9715/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6bf26781420c1424a01b4ed412e73213"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f57dcb9c-348e-4242-87fb-782b417e9715/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6bf26781420c1424a01b4ed412e73213"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/f57dcb9c-348e-4242-87fb-782b417e9715/background?territory=IT&md5ChecksumParam=f01a298594f3608bf91cee9bf6518d17"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/f57dcb9c-348e-4242-87fb-782b417e9715/cover?territory=IT&md5ChecksumParam=3850a26a3dcf42ccad9d72f43fd226cb"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/f57dcb9c-348e-4242-87fb-782b417e9715/16-9?territory=IT&md5ChecksumParam=29af8ab69323b27c45422e6de158dd6c"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/f57dcb9c-348e-4242-87fb-782b417e9715/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=6a557b0c135ed87b2cac4a08224f30ad"
-              }
-            }
-          ]
-        },
-        "eventId": "411234449",
-        "starttime": "2025-07-10T23:00:00Z",
-        "endtime": "2025-07-11T00:55:00Z",
-        "eventTitle": "Daylight - Trappola nel tunnel",
-        "eventSynopsis": "Dal regista di \"Fast and Furious\", action catastrofico con Sylvester Stallone e Viggo Mortensen. Un incidente scatena l'inferno nel tunnel sottomarino che unisce Manhattan al New Jersey (USA 1996)",
-        "epgEventTitle": "Daylight - Trappola nel tunnel",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
     "2025-07-11": [
       {
         "channel": {
@@ -1441,9 +245,9 @@
         },
         "eventId": "411234452",
         "starttime": "2025-07-11T03:55:00Z",
-        "endtime": "2025-07-11T05:35:00Z",
+        "endtime": "2025-07-11T05:40:00Z",
         "eventTitle": "Venom: La furia di Carnage",
-        "eventSynopsis": "Tom Hardy, Woody Harrelson e Michelle Williams nel sequel di successo targato Marvel. L'antieroe Venom sfida Carnage, un altro simbionte entrato nel corpo di un serial killer.",
+        "eventSynopsis": "Tom Hardy, Woody Harrelson e Michelle Williams nel sequel di successo targato Marvel. L'antieroe Venom sfida Carnage, un altro simbionte entrato nel corpo di un serial killer (USA/CAN 2021)",
         "epgEventTitle": "Venom: La furia di Carnage",
         "primeVision": false,
         "resolutions": [
@@ -1525,8 +329,8 @@
           ]
         },
         "eventId": "411197730",
-        "starttime": "2025-07-11T05:35:00Z",
-        "endtime": "2025-07-11T07:30:00Z",
+        "starttime": "2025-07-11T05:40:00Z",
+        "endtime": "2025-07-11T07:35:00Z",
         "eventTitle": "I tre moschettieri",
         "eventSynopsis": "Un cast di stelle per la rivisitazione di un avventuroso classico. Lo spavaldo D'Artagnan si unisce ai moschettieri del Re per smascherare gli intrighi del Cardinale Richelieu (GBR/FRA 2011)",
         "epgEventTitle": "I tre moschettieri",
@@ -1610,7 +414,7 @@
           ]
         },
         "eventId": "411197731",
-        "starttime": "2025-07-11T07:30:00Z",
+        "starttime": "2025-07-11T07:35:00Z",
         "endtime": "2025-07-11T09:30:00Z",
         "eventTitle": "Blade: Trinity",
         "eventSynopsis": "Wesley Snipes, Ryan Reynolds e Jessica Biel nel terzo capitolo della saga. Con l'aiuto dei Nightstalkers, Blade affronta Drake, una creatura che puo' resistere alla luce del sole (USA 2004)",
@@ -1696,7 +500,7 @@
         },
         "eventId": "411197732",
         "starttime": "2025-07-11T09:30:00Z",
-        "endtime": "2025-07-11T11:20:00Z",
+        "endtime": "2025-07-11T11:25:00Z",
         "eventTitle": "La mummia (2017)",
         "eventSynopsis": "Avventura con Tom Cruise, Sofia Boutella e Russell Crowe. La regina di un mondo arcaico, risvegliata da un sonno millenario, scatena sul mondo la sua sete di vendetta (USA 2017)",
         "epgEventTitle": "La mummia (2017)",
@@ -1780,7 +584,7 @@
           ]
         },
         "eventId": "411197733",
-        "starttime": "2025-07-11T11:20:00Z",
+        "starttime": "2025-07-11T11:25:00Z",
         "endtime": "2025-07-11T13:25:00Z",
         "eventTitle": "Soldado",
         "eventSynopsis": "Stefano Sollima dirige Benicio Del Toro e Josh Brolin nel sequel di \"Sicario\". Ingaggiato dall'FBI, un uomo misterioso intensifica la guerra al narcotraffico fra Messico e Stati Uniti (ITA/USA 2018)",
@@ -1866,7 +670,7 @@
         },
         "eventId": "411197734",
         "starttime": "2025-07-11T13:25:00Z",
-        "endtime": "2025-07-11T15:20:00Z",
+        "endtime": "2025-07-11T15:25:00Z",
         "eventTitle": "Daylight - Trappola nel tunnel",
         "eventSynopsis": "Dal regista di \"Fast and Furious\", action catastrofico con Sylvester Stallone e Viggo Mortensen. Un incidente scatena l'inferno nel tunnel sottomarino che unisce Manhattan al New Jersey (USA 1996)",
         "epgEventTitle": "Daylight - Trappola nel tunnel",
@@ -1950,7 +754,7 @@
           ]
         },
         "eventId": "411197735",
-        "starttime": "2025-07-11T15:20:00Z",
+        "starttime": "2025-07-11T15:25:00Z",
         "endtime": "2025-07-11T16:55:00Z",
         "eventTitle": "Lucy",
         "eventSynopsis": "Scarlett Johansson e Morgan Freeman nel fanta-action di Luc Besson. Un criminale inietta una misteriosa sostanza chimica nel corpo di una studentessa che sviluppa poteri sbalorditivi (FRA 2014)",
@@ -2074,17 +878,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/22839a81-0ba2-4a42-8c9b-385d9dcaf2fd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e8b7425e6c60e894a99e6a8ca809f1b1"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/22839a81-0ba2-4a42-8c9b-385d9dcaf2fd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=21c8f7e98b4c0a235d71944c50492342"
               }
             },
             {
               "img": {
                 "url": "/uuid/22839a81-0ba2-4a42-8c9b-385d9dcaf2fd/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e8b7425e6c60e894a99e6a8ca809f1b1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/22839a81-0ba2-4a42-8c9b-385d9dcaf2fd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e8b7425e6c60e894a99e6a8ca809f1b1"
               }
             },
             {
@@ -2200,7 +1004,7 @@
         },
         "eventId": "411197738",
         "starttime": "2025-07-11T21:00:00Z",
-        "endtime": "2025-07-11T22:50:00Z",
+        "endtime": "2025-07-11T22:55:00Z",
         "eventTitle": "Pitch Black",
         "eventSynopsis": "Primo capitolo della saga fantascientifica con Vin Diesel. In un futuro prossimo, la pilota di navi spaziali Fry e' costretta a un atterraggio di fortuna su un remoto pianeta (USA 2000)",
         "epgEventTitle": "Pitch Black",
@@ -2284,8 +1088,8 @@
           ]
         },
         "eventId": "411197739",
-        "starttime": "2025-07-11T22:50:00Z",
-        "endtime": "2025-07-12T01:15:00Z",
+        "starttime": "2025-07-11T22:55:00Z",
+        "endtime": "2025-07-12T01:20:00Z",
         "eventTitle": "Mission: Impossible - Fallout",
         "eventSynopsis": "Sesto film della saga action con Tom Cruise diretto da Christopher McQuarrie. Mentre recupera una valigia di plutonio, Ethan Hunt deve smascherare un leader terrorista (USA 2018)",
         "epgEventTitle": "Mission: Impossible - Fallout",
@@ -2371,8 +1175,8 @@
           ]
         },
         "eventId": "411197740",
-        "starttime": "2025-07-12T01:15:00Z",
-        "endtime": "2025-07-12T03:05:00Z",
+        "starttime": "2025-07-12T01:20:00Z",
+        "endtime": "2025-07-12T03:10:00Z",
         "eventTitle": "Repo Men",
         "eventSynopsis": "Adrenalinico action fantascientifico con Jude Law e Forest Whitaker. In un futuro in cui e' possibile comprare sofisticati organi artificiali, i Repo Men fanno visita a chi non paga (USA/CAN 2010)",
         "epgEventTitle": "Repo Men",
@@ -2456,7 +1260,7 @@
           ]
         },
         "eventId": "411197741",
-        "starttime": "2025-07-12T03:05:00Z",
+        "starttime": "2025-07-12T03:10:00Z",
         "endtime": "2025-07-12T04:55:00Z",
         "eventTitle": "Il risolutore - A Man Apart",
         "eventSynopsis": "Revenge movie con Vin Diesel e Timothy Olyphant. Un poliziotto impegnato nella lotta al narcotraffico usa metodi poco ortodossi contro il criminale che gli ha ucciso la moglie (USA 2003)",
@@ -2542,7 +1346,7 @@
         },
         "eventId": "411198030",
         "starttime": "2025-07-12T04:55:00Z",
-        "endtime": "2025-07-12T07:00:00Z",
+        "endtime": "2025-07-12T07:05:00Z",
         "eventTitle": "Point Break - Punto di rottura",
         "eventSynopsis": "Patrick Swayze e Keanu Reeves nel cult movie di Kathryn Bigelow. Un agente FBI si infiltra in una banda di surfisti che rapina banche indossando maschere di presidenti americani (USA 1991)",
         "epgEventTitle": "Point Break - Punto di rottura",
@@ -2626,8 +1430,8 @@
           ]
         },
         "eventId": "411198031",
-        "starttime": "2025-07-12T07:00:00Z",
-        "endtime": "2025-07-12T09:10:00Z",
+        "starttime": "2025-07-12T07:05:00Z",
+        "endtime": "2025-07-12T09:15:00Z",
         "eventTitle": "The Jackal",
         "eventSynopsis": "Thriller ispirato al romanzo di Frederick Forsyth con Bruce Willis, Richard Gere e Sidney Poitier. La mafia russa assolda un killer per eliminare una potente figura politica americana (USA 1997)",
         "epgEventTitle": "The Jackal",
@@ -2705,7 +1509,7 @@
           ]
         },
         "eventId": "411198032",
-        "starttime": "2025-07-12T09:10:00Z",
+        "starttime": "2025-07-12T09:15:00Z",
         "endtime": "2025-07-12T11:15:00Z",
         "eventTitle": "Mad Max: Fury Road",
         "eventSynopsis": "6 Oscar all'action post-apocalittico con Tom Hardy e Charlize Theron diretto da George Miller. Un ex poliziotto viene catturato dall'armata di guerriglieri di uno spietato boss (USA/AUS 2015)",
@@ -3216,7 +2020,7 @@
         },
         "eventId": "411198038",
         "starttime": "2025-07-12T20:55:00Z",
-        "endtime": "2025-07-12T22:40:00Z",
+        "endtime": "2025-07-12T22:45:00Z",
         "eventTitle": "Blacklight",
         "eventSynopsis": "Liam Neeson e Aidan Quinn in un action Sky Original. Un ex agente federale e una giornalista rischiano la vita per portare alla luce un complotto che coinvolge i vertici dell'FBI (USA/AUS 2022)",
         "epgEventTitle": "Blacklight",
@@ -3300,8 +2104,8 @@
           ]
         },
         "eventId": "411198039",
-        "starttime": "2025-07-12T22:40:00Z",
-        "endtime": "2025-07-13T00:15:00Z",
+        "starttime": "2025-07-12T22:45:00Z",
+        "endtime": "2025-07-13T00:20:00Z",
         "eventTitle": "Hotel Artemis",
         "eventSynopsis": "Action con Jodie Foster e Dave Bautista nella Los Angeles del 2028. Mentre divampa la rivolta fra polizia e civili, quattro rapinatori feriti cercano rifugio in un ospedale clandestino (USA/GBR 2018)",
         "epgEventTitle": "Hotel Artemis",
@@ -4454,17 +3258,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3232bde13ec3258607b25def80c0245b"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=50efa62bfe5334936925cd0a01cd3dfe"
               }
             },
             {
               "img": {
                 "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3232bde13ec3258607b25def80c0245b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3232bde13ec3258607b25def80c0245b"
               }
             },
             {
@@ -7362,7 +6166,7 @@
         "starttime": "2025-07-16T15:25:00Z",
         "endtime": "2025-07-16T17:10:00Z",
         "eventTitle": "La coda del diavolo",
-        "eventSynopsis": "Dall'omonimo romanzo, un incalzante action-thriller con Luca Argentero. In una Sardegna insolitamente cupa l'ex poliziotto Sante Moras si trova incastrato in un complotto piu' grande di lui",
+        "eventSynopsis": "Dall'omonimo romanzo, un incalzante action-thriller con Luca Argentero. In una Sardegna insolitamente cupa l'ex poliziotto Sante Moras si trova incastrato in un complotto piu' grande di lui (ITA 2024)",
         "epgEventTitle": "La coda del diavolo",
         "primeVision": false,
         "resolutions": [
@@ -8346,12 +7150,12 @@
             },
             {
               "img": {
-                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
+                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
               }
             },
             {
               "img": {
-                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
+                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
               }
             },
             {
@@ -9113,12 +7917,12 @@
             },
             {
               "img": {
-                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
+                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
               }
             },
             {
               "img": {
-                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
+                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
               }
             },
             {
@@ -9453,12 +8257,12 @@
             },
             {
               "img": {
-                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=aa98a65ee0e1097fb07f313026e31586"
+                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=edc9c9536818e19db9e55f17f1ea7db6"
               }
             },
             {
               "img": {
-                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=edc9c9536818e19db9e55f17f1ea7db6"
+                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=aa98a65ee0e1097fb07f313026e31586"
               }
             },
             {
@@ -10220,12 +9024,12 @@
             },
             {
               "img": {
-                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=aa98a65ee0e1097fb07f313026e31586"
+                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=edc9c9536818e19db9e55f17f1ea7db6"
               }
             },
             {
               "img": {
-                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=edc9c9536818e19db9e55f17f1ea7db6"
+                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=aa98a65ee0e1097fb07f313026e31586"
               }
             },
             {
@@ -11564,7 +10368,7 @@
         },
         "content": {
           "uuid": "14323ea9-b5f2-43c0-af32-e7a769637647",
-          "contentTitle": "Mission: Impossible - Protocollo Fantasma",
+          "contentTitle": "Mission Impossible: Protocollo fantasma",
           "url": "/film/azione/mission-impossible-protocollo-fantasma/14323ea9-b5f2-43c0-af32-e7a769637647",
           "genre": {
             "id": 3,
@@ -12161,7 +10965,7 @@
         },
         "content": {
           "uuid": "14323ea9-b5f2-43c0-af32-e7a769637647",
-          "contentTitle": "Mission: Impossible - Protocollo Fantasma",
+          "contentTitle": "Mission Impossible: Protocollo fantasma",
           "url": "/film/azione/mission-impossible-protocollo-fantasma/14323ea9-b5f2-43c0-af32-e7a769637647",
           "genre": {
             "id": 3,
@@ -14930,7 +13734,7 @@
         "starttime": "2025-07-23T21:00:00Z",
         "endtime": "2025-07-23T22:40:00Z",
         "eventTitle": "Venom: La furia di Carnage",
-        "eventSynopsis": "Tom Hardy, Woody Harrelson e Michelle Williams nel sequel di successo targato Marvel. L'antieroe Venom sfida Carnage, un altro simbionte entrato nel corpo di un serial killer.",
+        "eventSynopsis": "Tom Hardy, Woody Harrelson e Michelle Williams nel sequel di successo targato Marvel. L'antieroe Venom sfida Carnage, un altro simbionte entrato nel corpo di un serial killer (USA/CAN 2021)",
         "epgEventTitle": "Venom: La furia di Carnage",
         "primeVision": false,
         "resolutions": [
@@ -14972,17 +13776,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/22839a81-0ba2-4a42-8c9b-385d9dcaf2fd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e8b7425e6c60e894a99e6a8ca809f1b1"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/22839a81-0ba2-4a42-8c9b-385d9dcaf2fd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=21c8f7e98b4c0a235d71944c50492342"
               }
             },
             {
               "img": {
                 "url": "/uuid/22839a81-0ba2-4a42-8c9b-385d9dcaf2fd/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e8b7425e6c60e894a99e6a8ca809f1b1"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/22839a81-0ba2-4a42-8c9b-385d9dcaf2fd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e8b7425e6c60e894a99e6a8ca809f1b1"
               }
             },
             {
@@ -15357,7 +14161,7 @@
         "starttime": "2025-07-24T04:45:00Z",
         "endtime": "2025-07-24T07:20:00Z",
         "eventTitle": "Superman Returns",
-        "eventSynopsis": "Bryan Singer firma la sua versione del supereroe DC Comics con Brandon Routh, Kate Bosworth e Kevin Spacey. Dopo molti anni, Superman torna sulla Terra minacciata da Lex Luthor (AUS/USA 2006)",
+        "eventSynopsis": "Bryan Singer firma la sua versione del supereroe DC Comics con Brandon Routh, Kate Bosworth e Kevin Spacey. Dopo molti anni, Superman torna sulla Terra minacciata da Lex Luthor (USA/AUS 2006)",
         "epgEventTitle": "Superman Returns",
         "primeVision": false,
         "resolutions": [
@@ -15612,7 +14416,7 @@
         "starttime": "2025-07-24T11:40:00Z",
         "endtime": "2025-07-24T13:20:00Z",
         "eventTitle": "Venom: La furia di Carnage",
-        "eventSynopsis": "Tom Hardy, Woody Harrelson e Michelle Williams nel sequel di successo targato Marvel. L'antieroe Venom sfida Carnage, un altro simbionte entrato nel corpo di un serial killer (CAN/GBR 2021)",
+        "eventSynopsis": "Tom Hardy, Woody Harrelson e Michelle Williams nel sequel di successo targato Marvel. L'antieroe Venom sfida Carnage, un altro simbionte entrato nel corpo di un serial killer (USA/CAN 2021)",
         "epgEventTitle": "Venom: La furia di Carnage",
         "primeVision": false,
         "resolutions": [
@@ -16663,17 +15467,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3232bde13ec3258607b25def80c0245b"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=50efa62bfe5334936925cd0a01cd3dfe"
               }
             },
             {
               "img": {
                 "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3232bde13ec3258607b25def80c0245b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3232bde13ec3258607b25def80c0245b"
               }
             },
             {
@@ -19217,12 +18021,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=11db6e61e5c99d63e39d9c2ec30677bb"
+                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6f5843ac8afbe4957eec7baab185c627"
               }
             },
             {
               "img": {
-                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6f5843ac8afbe4957eec7baab185c627"
+                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=11db6e61e5c99d63e39d9c2ec30677bb"
               }
             },
             {
@@ -20401,12 +19205,12 @@
             },
             {
               "img": {
-                "url": "/uuid/597c3dee-2ce3-41cc-9353-60101a1cbdf1/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5f5fa8fa98887d6fea7aeb80cd729cae"
+                "url": "/uuid/597c3dee-2ce3-41cc-9353-60101a1cbdf1/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5f5fa8fa98887d6fea7aeb80cd729cae"
               }
             },
             {
               "img": {
-                "url": "/uuid/597c3dee-2ce3-41cc-9353-60101a1cbdf1/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5f5fa8fa98887d6fea7aeb80cd729cae"
+                "url": "/uuid/597c3dee-2ce3-41cc-9353-60101a1cbdf1/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5f5fa8fa98887d6fea7aeb80cd729cae"
               }
             },
             {
@@ -20906,12 +19710,12 @@
             },
             {
               "img": {
-                "url": "/uuid/597c3dee-2ce3-41cc-9353-60101a1cbdf1/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5f5fa8fa98887d6fea7aeb80cd729cae"
+                "url": "/uuid/597c3dee-2ce3-41cc-9353-60101a1cbdf1/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5f5fa8fa98887d6fea7aeb80cd729cae"
               }
             },
             {
               "img": {
-                "url": "/uuid/597c3dee-2ce3-41cc-9353-60101a1cbdf1/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5f5fa8fa98887d6fea7aeb80cd729cae"
+                "url": "/uuid/597c3dee-2ce3-41cc-9353-60101a1cbdf1/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5f5fa8fa98887d6fea7aeb80cd729cae"
               }
             },
             {
@@ -21673,12 +20477,12 @@
             },
             {
               "img": {
-                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
+                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
               }
             },
             {
               "img": {
-                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
+                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
               }
             },
             {
@@ -21928,12 +20732,12 @@
             },
             {
               "img": {
-                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=aa98a65ee0e1097fb07f313026e31586"
+                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=edc9c9536818e19db9e55f17f1ea7db6"
               }
             },
             {
               "img": {
-                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=edc9c9536818e19db9e55f17f1ea7db6"
+                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=aa98a65ee0e1097fb07f313026e31586"
               }
             },
             {
@@ -22610,12 +21414,12 @@
             },
             {
               "img": {
-                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=aa98a65ee0e1097fb07f313026e31586"
+                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=edc9c9536818e19db9e55f17f1ea7db6"
               }
             },
             {
               "img": {
-                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=edc9c9536818e19db9e55f17f1ea7db6"
+                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=aa98a65ee0e1097fb07f313026e31586"
               }
             },
             {
@@ -23158,7 +21962,7 @@
         "starttime": "2025-07-31T12:40:00Z",
         "endtime": "2025-07-31T14:50:00Z",
         "eventTitle": "La mummia",
-        "eventSynopsis": "Il premio Oscar 2023 Brendan Fraser nel primo capitolo di una saga avventurosa. Un gruppo di esploratori risveglia la salma di un sacerdote egizio colpito da un'antica maledizione (GBR/MAR 1999)",
+        "eventSynopsis": "Il premio Oscar 2023 Brendan Fraser nel primo capitolo di una saga avventurosa. Un gruppo di esploratori risveglia la salma di un sacerdote egizio colpito da un'antica maledizione (USA 1999)",
         "epgEventTitle": "La mummia",
         "primeVision": false,
         "resolutions": [
@@ -24010,7 +22814,7 @@
         "starttime": "2025-08-01T09:55:00Z",
         "endtime": "2025-08-01T12:55:00Z",
         "eventTitle": "Il Signore degli Anelli - Le due Torri",
-        "eventSynopsis": "2 Oscar al secondo capitolo della saga di Peter Jackson, dal romanzo di J.R.R. Tolkien. Dopo la scissione della Compagnia dell'Anello, Gollum insegue Frodo e Sam, diretti a Mordor (NZL/USA 2002)",
+        "eventSynopsis": "2 Oscar al secondo capitolo della saga di Peter Jackson, dal romanzo di J.R.R. Tolkien. Dopo la scissione della Compagnia dell'Anello, Gollum insegue Frodo e Sam, diretti a Mordor (USA/NZL 2002)",
         "epgEventTitle": "Il Signore degli Anelli - Le due Torri",
         "primeVision": false,
         "resolutions": [
@@ -24891,7 +23695,7 @@
         },
         "content": {
           "uuid": "a3933251-06c6-4f27-88fa-5a3b2e165966",
-          "contentTitle": "Il Signore degli Anelli - Il ritorno del Re",
+          "contentTitle": "Il signore degli anelli: Il ritorno del re",
           "url": "/film/fantastico/il-signore-degli-anelli-il-ritorno-del-re/a3933251-06c6-4f27-88fa-5a3b2e165966",
           "genre": {
             "id": 3,
@@ -24910,6 +23714,11 @@
             {
               "img": {
                 "url": "/uuid/a3933251-06c6-4f27-88fa-5a3b2e165966/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=bcd765d7eb86a6092ba4c2bfbd468851"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/a3933251-06c6-4f27-88fa-5a3b2e165966/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b3d7d9c2e6b00f34a2184927baeb52d5"
               }
             },
             {
@@ -26816,7 +25625,7 @@
         "starttime": "2025-08-04T07:35:00Z",
         "endtime": "2025-08-04T09:15:00Z",
         "eventTitle": "Venom: La furia di Carnage",
-        "eventSynopsis": "Tom Hardy, Woody Harrelson e Michelle Williams nel sequel di successo targato Marvel. L'antieroe Venom sfida Carnage, un altro simbionte entrato nel corpo di un serial killer (CAN/GBR 2021)",
+        "eventSynopsis": "Tom Hardy, Woody Harrelson e Michelle Williams nel sequel di successo targato Marvel. L'antieroe Venom sfida Carnage, un altro simbionte entrato nel corpo di un serial killer (USA/CAN 2021)",
         "epgEventTitle": "Venom: La furia di Carnage",
         "primeVision": false,
         "resolutions": [
@@ -27496,7 +26305,7 @@
         "starttime": "2025-08-04T23:00:00Z",
         "endtime": "2025-08-05T00:40:00Z",
         "eventTitle": "Venom: La furia di Carnage",
-        "eventSynopsis": "Tom Hardy, Woody Harrelson e Michelle Williams nel sequel di successo targato Marvel. L'antieroe Venom sfida Carnage, un altro simbionte entrato nel corpo di un serial killer (CAN/GBR 2021)",
+        "eventSynopsis": "Tom Hardy, Woody Harrelson e Michelle Williams nel sequel di successo targato Marvel. L'antieroe Venom sfida Carnage, un altro simbionte entrato nel corpo di un serial killer (USA/CAN 2021)",
         "epgEventTitle": "Venom: La furia di Carnage",
         "primeVision": false,
         "resolutions": [
@@ -30334,12 +29143,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=11db6e61e5c99d63e39d9c2ec30677bb"
+                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6f5843ac8afbe4957eec7baab185c627"
               }
             },
             {
               "img": {
-                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6f5843ac8afbe4957eec7baab185c627"
+                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=11db6e61e5c99d63e39d9c2ec30677bb"
               }
             },
             {
@@ -31016,12 +29825,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=11db6e61e5c99d63e39d9c2ec30677bb"
+                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6f5843ac8afbe4957eec7baab185c627"
               }
             },
             {
               "img": {
-                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6f5843ac8afbe4957eec7baab185c627"
+                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=11db6e61e5c99d63e39d9c2ec30677bb"
               }
             },
             {
@@ -33490,12 +32299,12 @@
             },
             {
               "img": {
-                "url": "/uuid/597c3dee-2ce3-41cc-9353-60101a1cbdf1/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5f5fa8fa98887d6fea7aeb80cd729cae"
+                "url": "/uuid/597c3dee-2ce3-41cc-9353-60101a1cbdf1/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5f5fa8fa98887d6fea7aeb80cd729cae"
               }
             },
             {
               "img": {
-                "url": "/uuid/597c3dee-2ce3-41cc-9353-60101a1cbdf1/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5f5fa8fa98887d6fea7aeb80cd729cae"
+                "url": "/uuid/597c3dee-2ce3-41cc-9353-60101a1cbdf1/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5f5fa8fa98887d6fea7aeb80cd729cae"
               }
             },
             {
@@ -33832,12 +32641,12 @@
             },
             {
               "img": {
-                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=aa98a65ee0e1097fb07f313026e31586"
+                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=edc9c9536818e19db9e55f17f1ea7db6"
               }
             },
             {
               "img": {
-                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=edc9c9536818e19db9e55f17f1ea7db6"
+                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=aa98a65ee0e1097fb07f313026e31586"
               }
             },
             {
@@ -34635,7 +33444,7 @@
         "starttime": "2025-08-11T23:35:00Z",
         "endtime": "2025-08-12T01:40:00Z",
         "eventTitle": "Batman",
-        "eventSynopsis": "Michael Keaton, Jack Nicholson e Kim Basinger nella visionaria opera di Tim Burton. Il ricco Bruce Wayne si trasforma in Batman per arginare il folle Joker. Oscar alle scenografie (GBR/USA 1989)",
+        "eventSynopsis": "Michael Keaton, Jack Nicholson e Kim Basinger nella visionaria opera di Tim Burton. Il ricco Bruce Wayne si trasforma in Batman per arginare il folle Joker. Oscar alle scenografie (USA/GBR 1989)",
         "epgEventTitle": "Batman",
         "primeVision": false,
         "resolutions": [
@@ -35516,7 +34325,7 @@
         },
         "content": {
           "uuid": "14323ea9-b5f2-43c0-af32-e7a769637647",
-          "contentTitle": "Mission: Impossible - Protocollo Fantasma",
+          "contentTitle": "Mission Impossible: Protocollo fantasma",
           "url": "/film/azione/mission-impossible-protocollo-fantasma/14323ea9-b5f2-43c0-af32-e7a769637647",
           "genre": {
             "id": 3,
@@ -35572,7 +34381,7 @@
         "starttime": "2025-08-12T21:20:00Z",
         "endtime": "2025-08-12T23:35:00Z",
         "eventTitle": "Mission: Impossible - Protocollo Fantasma",
-        "eventSynopsis": "... Fantasma. - Quarto capitolo della saga con Tom Cruise, Jeremy Renner e Simon Pegg. L'agente Ethan Hunt deve scovare l'organizzazione terroristica che ha distrutto il Cremlino con un attentato (ARE/USA 2011)",
+        "eventSynopsis": "Quarto capitolo della saga con Tom Cruise, Jeremy Renner e Simon Pegg. L'agente Ethan Hunt deve scovare l'organizzazione terroristica che ha distrutto il Cremlino con un attentato (USA 2011)",
         "epgEventTitle": "Mission: Impossible - Protocollo Fantasma",
         "primeVision": false,
         "resolutions": [
@@ -36113,7 +34922,7 @@
         },
         "content": {
           "uuid": "14323ea9-b5f2-43c0-af32-e7a769637647",
-          "contentTitle": "Mission: Impossible - Protocollo Fantasma",
+          "contentTitle": "Mission Impossible: Protocollo fantasma",
           "url": "/film/azione/mission-impossible-protocollo-fantasma/14323ea9-b5f2-43c0-af32-e7a769637647",
           "genre": {
             "id": 3,
@@ -36169,7 +34978,7 @@
         "starttime": "2025-08-13T10:55:00Z",
         "endtime": "2025-08-13T13:10:00Z",
         "eventTitle": "Mission: Impossible - Protocollo Fantasma",
-        "eventSynopsis": "... Fantasma. - Quarto capitolo della saga con Tom Cruise, Jeremy Renner e Simon Pegg. L'agente Ethan Hunt deve scovare l'organizzazione terroristica che ha distrutto il Cremlino con un attentato (ARE/USA 2011)",
+        "eventSynopsis": "Quarto capitolo della saga con Tom Cruise, Jeremy Renner e Simon Pegg. L'agente Ethan Hunt deve scovare l'organizzazione terroristica che ha distrutto il Cremlino con un attentato (USA 2011)",
         "epgEventTitle": "Mission: Impossible - Protocollo Fantasma",
         "primeVision": false,
         "resolutions": [
@@ -36556,12 +35365,12 @@
             },
             {
               "img": {
-                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
+                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
               }
             },
             {
               "img": {
-                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
+                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
               }
             },
             {
@@ -40534,17 +39343,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3232bde13ec3258607b25def80c0245b"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=50efa62bfe5334936925cd0a01cd3dfe"
               }
             },
             {
               "img": {
                 "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3232bde13ec3258607b25def80c0245b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3232bde13ec3258607b25def80c0245b"
               }
             },
             {
@@ -41201,17 +40010,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3232bde13ec3258607b25def80c0245b"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=50efa62bfe5334936925cd0a01cd3dfe"
               }
             },
             {
               "img": {
                 "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3232bde13ec3258607b25def80c0245b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3232bde13ec3258607b25def80c0245b"
               }
             },
             {
@@ -41329,7 +40138,7 @@
         "starttime": "2025-08-18T11:15:00Z",
         "endtime": "2025-08-18T12:55:00Z",
         "eventTitle": "Venom: La furia di Carnage",
-        "eventSynopsis": "Tom Hardy, Woody Harrelson e Michelle Williams nel sequel di successo targato Marvel. L'antieroe Venom sfida Carnage, un altro simbionte entrato nel corpo di un serial killer (CAN/GBR 2021)",
+        "eventSynopsis": "Tom Hardy, Woody Harrelson e Michelle Williams nel sequel di successo targato Marvel. L'antieroe Venom sfida Carnage, un altro simbionte entrato nel corpo di un serial killer (USA/CAN 2021)",
         "epgEventTitle": "Venom: La furia di Carnage",
         "primeVision": false,
         "resolutions": [
@@ -41626,17 +40435,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e07719e183f9d2b3065a5da57b304f2b"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=090112591a809c52a9578bbcb42eba69"
               }
             },
             {
               "img": {
                 "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=090112591a809c52a9578bbcb42eba69"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e07719e183f9d2b3065a5da57b304f2b"
               }
             },
             {
@@ -42393,17 +41202,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e07719e183f9d2b3065a5da57b304f2b"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=090112591a809c52a9578bbcb42eba69"
               }
             },
             {
               "img": {
                 "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=090112591a809c52a9578bbcb42eba69"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/19574ce6-ecf7-4cb9-b702-2fa7fd666c64/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e07719e183f9d2b3065a5da57b304f2b"
               }
             },
             {
@@ -44594,7 +43403,7 @@
         },
         "content": {
           "uuid": "a3933251-06c6-4f27-88fa-5a3b2e165966",
-          "contentTitle": "Il Signore degli Anelli - Il ritorno del Re",
+          "contentTitle": "Il signore degli anelli: Il ritorno del re",
           "url": "/film/fantastico/il-signore-degli-anelli-il-ritorno-del-re/a3933251-06c6-4f27-88fa-5a3b2e165966",
           "genre": {
             "id": 3,
@@ -44613,6 +43422,11 @@
             {
               "img": {
                 "url": "/uuid/a3933251-06c6-4f27-88fa-5a3b2e165966/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=bcd765d7eb86a6092ba4c2bfbd468851"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/a3933251-06c6-4f27-88fa-5a3b2e165966/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b3d7d9c2e6b00f34a2184927baeb52d5"
               }
             },
             {
@@ -45271,7 +44085,7 @@
         },
         "content": {
           "uuid": "a3933251-06c6-4f27-88fa-5a3b2e165966",
-          "contentTitle": "Il Signore degli Anelli - Il ritorno del Re",
+          "contentTitle": "Il signore degli anelli: Il ritorno del re",
           "url": "/film/fantastico/il-signore-degli-anelli-il-ritorno-del-re/a3933251-06c6-4f27-88fa-5a3b2e165966",
           "genre": {
             "id": 3,
@@ -45290,6 +44104,11 @@
             {
               "img": {
                 "url": "/uuid/a3933251-06c6-4f27-88fa-5a3b2e165966/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=bcd765d7eb86a6092ba4c2bfbd468851"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/a3933251-06c6-4f27-88fa-5a3b2e165966/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b3d7d9c2e6b00f34a2184927baeb52d5"
               }
             },
             {
@@ -45449,12 +44268,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=11db6e61e5c99d63e39d9c2ec30677bb"
+                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6f5843ac8afbe4957eec7baab185c627"
               }
             },
             {
               "img": {
-                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6f5843ac8afbe4957eec7baab185c627"
+                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=11db6e61e5c99d63e39d9c2ec30677bb"
               }
             },
             {
@@ -45534,17 +44353,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=79892c5ea28ba807560ee218733b7633"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16ea506740c39319a9fee324faa8799a"
               }
             },
             {
               "img": {
                 "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=79892c5ea28ba807560ee218733b7633"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=79892c5ea28ba807560ee218733b7633"
               }
             },
             {
@@ -46131,12 +44950,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=11db6e61e5c99d63e39d9c2ec30677bb"
+                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6f5843ac8afbe4957eec7baab185c627"
               }
             },
             {
               "img": {
-                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6f5843ac8afbe4957eec7baab185c627"
+                "url": "/uuid/8dbeb4e9-acb5-4455-a25e-214b8d1227dc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=11db6e61e5c99d63e39d9c2ec30677bb"
               }
             },
             {
@@ -46216,17 +45035,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=79892c5ea28ba807560ee218733b7633"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=16ea506740c39319a9fee324faa8799a"
               }
             },
             {
               "img": {
                 "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=79892c5ea28ba807560ee218733b7633"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/f6208138-72a2-4c82-bcef-a88576927032/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=79892c5ea28ba807560ee218733b7633"
               }
             },
             {
@@ -46391,12 +45210,12 @@
             },
             {
               "img": {
-                "url": "/uuid/597c3dee-2ce3-41cc-9353-60101a1cbdf1/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5f5fa8fa98887d6fea7aeb80cd729cae"
+                "url": "/uuid/597c3dee-2ce3-41cc-9353-60101a1cbdf1/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5f5fa8fa98887d6fea7aeb80cd729cae"
               }
             },
             {
               "img": {
-                "url": "/uuid/597c3dee-2ce3-41cc-9353-60101a1cbdf1/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5f5fa8fa98887d6fea7aeb80cd729cae"
+                "url": "/uuid/597c3dee-2ce3-41cc-9353-60101a1cbdf1/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5f5fa8fa98887d6fea7aeb80cd729cae"
               }
             },
             {
@@ -48985,7 +47804,7 @@
         "starttime": "2025-08-26T01:20:00Z",
         "endtime": "2025-08-26T03:00:00Z",
         "eventTitle": "La furia dei titani",
-        "eventSynopsis": "Sam Worthington, Liam Neeson e Ralph Fiennes in un action mitologico. Il semidio Perseo intraprende una pericolosa missione per liberare Zeus, imprigionato dal capo dei titani, Kronos (ESP/USA 2012)",
+        "eventSynopsis": "Sam Worthington, Liam Neeson e Ralph Fiennes in un action mitologico. Il semidio Perseo intraprende una pericolosa missione per liberare Zeus, imprigionato dal capo dei titani, Kronos (USA/ESP 2012)",
         "epgEventTitle": "La furia dei titani",
         "primeVision": false,
         "resolutions": [
@@ -49117,12 +47936,12 @@
             },
             {
               "img": {
-                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
+                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
               }
             },
             {
               "img": {
-                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
+                "url": "/uuid/289342b6-4baa-47f8-adda-f6039d15c458/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d089b8a6a5a5db3e2228638eb8cafe3e"
               }
             },
             {
@@ -49410,7 +48229,7 @@
         "starttime": "2025-08-26T10:55:00Z",
         "endtime": "2025-08-26T12:35:00Z",
         "eventTitle": "La furia dei titani",
-        "eventSynopsis": "Sam Worthington, Liam Neeson e Ralph Fiennes in un action mitologico. Il semidio Perseo intraprende una pericolosa missione per liberare Zeus, imprigionato dal capo dei titani, Kronos (ESP/USA 2012)",
+        "eventSynopsis": "Sam Worthington, Liam Neeson e Ralph Fiennes in un action mitologico. Il semidio Perseo intraprende una pericolosa missione per liberare Zeus, imprigionato dal capo dei titani, Kronos (USA/ESP 2012)",
         "epgEventTitle": "La furia dei titani",
         "primeVision": false,
         "resolutions": [
@@ -52548,12 +51367,12 @@
             },
             {
               "img": {
-                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=aa98a65ee0e1097fb07f313026e31586"
+                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=edc9c9536818e19db9e55f17f1ea7db6"
               }
             },
             {
               "img": {
-                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=edc9c9536818e19db9e55f17f1ea7db6"
+                "url": "/uuid/f3f4ed8b-d777-46c5-99a1-6e7f5dc2ea06/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=aa98a65ee0e1097fb07f313026e31586"
               }
             },
             {
@@ -52970,17 +51789,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3232bde13ec3258607b25def80c0245b"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=50efa62bfe5334936925cd0a01cd3dfe"
               }
             },
             {
               "img": {
                 "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3232bde13ec3258607b25def80c0245b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/aeb665fe-a712-4d6f-8f32-885c94ac4868/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3232bde13ec3258607b25def80c0245b"
               }
             },
             {
