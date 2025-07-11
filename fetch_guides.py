@@ -1,15 +1,31 @@
 import requests
 import json
-from datetime import datetime, timedelta
-import pytz
+import gzip
 import os
 import time
-import sys
+import pytz
+from datetime import datetime, timedelta
 from xml.etree import ElementTree as ET
 
 ROME_TZ = pytz.timezone("Europe/Rome")
 
+# Lista completa dei canali (prima quelli EPGShare)
 CHANNELS = [
+    {"name": "Eurosport 1", "site_id": "DTH#9057"},
+    {"name": "Eurosport 2", "site_id": "DTH#9060"},
+    {"name": "DMAX", "site_id": "DTH#8933"},
+    {"name": "Real Time", "site_id": "DTH#8173"},
+    {"name": "Giallo TV", "site_id": "DTH#8131"},
+    {"name": "Food Network", "site_id": "DTH#10534"},
+    {"name": "Motor Trend", "site_id": "DTH#8130"},
+    {"name": "HGTV", "site_id": "DTH#11154"},
+    {"name": "K2", "site_id": "DTH#6240"},
+    {"name": "Frisbee", "site_id": "DTH#6610"},
+    {"name": "Warner TV", "site_id": "DTH#0001"},
+    {"name": "Sky Adventure", "site_id": "DTH#0002"},
+    {"name": "Sky Sport Legend", "site_id": "DTH#0003"},
+    {"name": "Sky Sport Mix", "site_id": "DTH#0004"},
+    # Altri canali Sky API
     {"name":"20Mediaset HD","site_id":"DTH#10458"},
     {"name":"27Twentyseven HD","site_id":"DTH#11342"},
     {"name":"Boomerang","site_id":"DTH#472"},
@@ -20,26 +36,19 @@ CHANNELS = [
     {"name":"Cartoon +1","site_id":"DTH#476"},
     {"name":"Classica HD","site_id":"DTH#11437"},
     {"name":"Comedy Central","site_id":"DTH#318"},
-    {"name":"DMAX HD","site_id":"DTH#8933"},
     {"name":"DeAJunior","site_id":"DTH#7427"},
     {"name":"DeAKids","site_id":"DTH#460"},
     {"name":"Deejay TV","site_id":"DTH#462"},
     {"name":"Discovery HD","site_id":"DTH#9059"},
     {"name":"Euronews","site_id":"DTH#801"},
-    {"name":"Eurosport HD","site_id":"DTH#9057"},
-    {"name":"Eurosport 2 HD","site_id":"DTH#9060"},
     {"name":"Explorer HD Channel","site_id":"DTH#11262"},
     {"name":"Focus HD","site_id":"DTH#10470"},
-    {"name":"Food Network HD","site_id":"DTH#10534"},
     {"name":"Gambero Rosso HD","site_id":"DTH#9099"},
-    {"name":"GIALLO HD","site_id":"DTH#8131"},
-    {"name":"HGTV HD","site_id":"DTH#11154"},
     {"name":"Heroes Collection","site_id":"DTH#9047"},
     {"name":"History HD","site_id":"DTH#9101"},
     {"name":"Inter TV","site_id":"DTH#9893"},
     {"name":"Iris HD","site_id":"DTH#10467"},
     {"name":"Italia 1 HD","site_id":"DTH#10454"},
-    {"name":"K2","site_id":"DTH#6240"},
     {"name":"LA7 HD","site_id":"DTH#319"},
     {"name":"LA7D","site_id":"DTH#6624"},
     {"name":"La 5 HD","site_id":"DTH#10466"},
@@ -48,7 +57,6 @@ CHANNELS = [
     {"name":"Mediaset Extra HD","site_id":"DTH#10465"},
     {"name":"Mediaset Italia2 HD","site_id":"DTH#10469"},
     {"name":"Milan TV","site_id":"DTH#9513"},
-    {"name":"Motor Trend HD","site_id":"DTH#8130"},
     {"name":"Nick Jr","site_id":"DTH#461"},
     {"name":"Nickelodeon","site_id":"DTH#320"},
     {"name":"NOVE HD","site_id":"DTH#9753"},
@@ -71,7 +79,6 @@ CHANNELS = [
     {"name":"RAI Sport","site_id":"DTH#807"},
     {"name":"Rai Storia","site_id":"DTH#6630"},
     {"name":"Rai Yoyo","site_id":"DTH#6609"},
-    {"name":"Real Time HD","site_id":"DTH#8173"},
     {"name":"Rete 4 HD","site_id":"DTH#10464"},
     {"name":"San Marino RTV","site_id":"DTH#6861"},
     {"name":"Sky Arte","site_id":"DTH#7767"},
@@ -90,16 +97,6 @@ CHANNELS = [
     {"name":"Sky Meteo24","site_id":"DTH#321"},
     {"name":"Sky Nature","site_id":"DTH#11242"},
     {"name":"Sky Serie","site_id":"DTH#11244"},
-    {"name":"Sky Sport","site_id":"DTH#11490"},
-    {"name":"Sky Sport","site_id":"DTH#11491"},
-    {"name":"Sky Sport","site_id":"DTH#11492"},
-    {"name":"Sky Sport","site_id":"DTH#11494"},
-    {"name":"Sky Sport","site_id":"DTH#11496"},
-    {"name":"Sky Sport","site_id":"DTH#11497"},
-    {"name":"Sky Sport","site_id":"DTH#617"},
-    {"name":"Sky Sport","site_id":"DTH#8613"},
-    {"name":"Sky Sport","site_id":"DTH#9046"},
-    {"name":"Sky Sport","site_id":"DTH#615"},
     {"name":"Sky Sport 4K","site_id":"DTH#10013"},
     {"name":"Sky Sport24","site_id":"DTH#929"},
     {"name":"Sky Sport Arena","site_id":"DTH#7507"},
@@ -111,7 +108,6 @@ CHANNELS = [
     {"name":"Sky Sport NBA","site_id":"DTH#8753"},
     {"name":"Sky Sport Tennis","site_id":"DTH#11237"},
     {"name":"Sky Sport Uno","site_id":"DTH#8714"},
-    {"name":"Sky TG24","site_id":"DTH#9117"},
     {"name":"Sky Uno","site_id":"DTH#9115"},
     {"name":"Super!","site_id":"DTH#6460"},
     {"name":"SuperTennis HD","site_id":"DTH#6000"},
@@ -123,113 +119,109 @@ CHANNELS = [
     {"name":"Virgin Radio","site_id":"DTH#11344"},
     {"name":"ZONA DAZN","site_id":"DTH#11402"},
     {"name":"cielo","site_id":"DTH#8133"},
-    {"name":"frisbee","site_id":"DTH#6610"}
 ]
 
+# Mappa nome -> site_id solo per i canali EPGShare
+EPGSHARE_CHANNELS = {c["name"]: c["site_id"] for c in CHANNELS[:14]}
 
-EPG_GUIDE_CHANNELS = {
-    "K2": "K2.it",
-    "Motor Trend HD": "MotorTrend.it",
-    "GIALLO HD": "Giallo.it",
-    "frisbee": "Frisbee.it",
-    "Food Network HD": "FoodNetwork.it",
-    "HGTV HD": "HGTV.it",
-    "DMAX HD": "DMAX.it",
-    "NOVE HD": "NOVE.it",
-    "Real Time HD": "RealTime.it"
-}
-
-def fetch_sky_guide_until_exhausted(env, channel_id, now_rome, max_days=60):
+def fetch_sky_guide_until_exhausted(env, channel_id, now, max_days=60):
     results = []
-    for day_offset in range(max_days):
-        date = now_rome + timedelta(days=day_offset)
-        date_str = date.strftime("%Y-%m-%d")
-        from_str = date.strftime("%Y-%m-%dT00:00:00Z")
-        to_str = (date + timedelta(days=1)).strftime("%Y-%m-%dT00:00:00Z")
-        url = f"https://apid.sky.it/gtv/v1/events?from={from_str}&to={to_str}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
+    for d in range(max_days):
+        date = now + timedelta(days=d)
+        ds = date.strftime("%Y-%m-%d")
+        fr = date.strftime("%Y-%m-%dT00:00:00Z")
+        to = (date + timedelta(days=1)).strftime("%Y-%m-%dT00:00:00Z")
+        url = f"https://apid.sky.it/gtv/v1/events?from={fr}&to={to}&pageSize=999&pageNum=0&env={env}&channels={channel_id}"
         try:
-            response = requests.get(url, timeout=15)
-            response.raise_for_status()
-            data = response.json()
-            events = data.get("events", [])
-            print(f"  ✓ {date_str}: {len(events)} eventi trovati")
-            if not events:
-                break  # Fine guida per questo canale
-            results.append({"date": date_str, "events": events})
+            resp = requests.get(url, timeout=15)
+            resp.raise_for_status()
+            evs = resp.json().get("events", [])
+            print(f"  ✓ {ds}: {len(evs)} eventi")
+            if not evs:
+                break
+            results.append({"date": ds, "events": evs})
             time.sleep(0.3)
         except Exception as e:
-            print(f"  ✗ Errore per {date_str}: {e}")
+            print(f"  ✗ Errore {ds}: {e}")
             break
     return results
 
-def parse_epg_guide(channel_name_map, xml_root):
-    results = {name: {} for name in channel_name_map}
-    for prog in xml_root.findall(".//programme"):
-        cid = prog.attrib.get("channel", "").strip()
-        title_el = prog.find("title")
-        start_raw = prog.attrib.get("start", "")
-        stop_raw = prog.attrib.get("stop", "")
-        if not (cid and title_el is not None and start_raw and stop_raw):
+def download_and_decompress_epgshare():
+    print("==> Scarico e decomprimo da epgshare01.online …")
+    r = requests.get("https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz", timeout=30)
+    r.raise_for_status()
+    return gzip.decompress(r.content)
+
+def parse_epgshare(xml_data, chan_map):
+    root = ET.fromstring(xml_data)
+    cid_map = {}
+    for c in root.findall("channel"):
+        cid = c.attrib.get("id")
+        n = c.findtext("display-name","").strip()
+        for k in chan_map:
+            if n.lower() == k.lower():
+                cid_map[cid] = k
+    print(f"Trovati {len(cid_map)} canali EPGShare.")
+
+    out = {k: {} for k in chan_map}
+    for p in root.findall(".//programme"):
+        cid = p.attrib.get("channel")
+        if cid not in cid_map:
             continue
-        for name, target_id in channel_name_map.items():
-            if cid.lower() == target_id.lower():
-                dt_start = datetime.strptime(start_raw, "%Y%m%d%H%M%S %z").astimezone(ROME_TZ)
-                dt_end = datetime.strptime(stop_raw, "%Y%m%d%H%M%S %z").astimezone(ROME_TZ)
-                day = dt_start.strftime("%Y-%m-%d")
-                event = {
-                    "title": title_el.text,
-                    "start": dt_start.isoformat(),
-                    "end": dt_end.isoformat()
-                }
-                results[name].setdefault(day, []).append(event)
-    return results
+        s = p.attrib.get("start")
+        e = p.attrib.get("stop")
+        t = p.findtext("title","").strip()
+        syn = p.findtext("desc","").strip() if p.find("desc") is not None else ""
+        if not (s and e and t):
+            continue
+        ds = datetime.strptime(s, "%Y%m%d%H%M%S %z").astimezone(ROME_TZ)
+        de = datetime.strptime(e, "%Y%m%d%H%M%S %z").astimezone(ROME_TZ)
+        day = ds.strftime("%Y-%m-%d")
+        ev = {"title": t, "start": ds.isoformat(), "end": de.isoformat()}
+        if syn:
+            ev["synopsis"] = syn
+        out[cid_map[cid]].setdefault(day, []).append(ev)
+    return out
 
 def main():
     os.makedirs("output/guides", exist_ok=True)
-    now_rome = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
+    now = datetime.now(ROME_TZ).replace(hour=0,minute=0,second=0,microsecond=0)
 
-    print("==> Inizio elaborazione canali Sky")
-    for ch in CHANNELS:
-        if ch["name"].strip() in EPG_GUIDE_CHANNELS:
+    # 1. EPGShare
+    try:
+        xml = download_and_decompress_epgshare()
+        parsed = parse_epgshare(xml, EPGSHARE_CHANNELS)
+        for name, days in parsed.items():
+            sid = EPGSHARE_CHANNELS[name]
+            tot = sum(len(v) for v in days.values())
+            if tot == 0:
+                print(f"⚠ Nessun evento per {name}, skip")
+                continue
+            fn = f"output/guides/{sid.replace('#','_')}.json"
+            with open(fn, "w", encoding="utf-8") as f:
+                json.dump({"name": name, "events_by_date": days}, f, indent=2, ensure_ascii=False)
+            print(f"  ↳ Salvato {fn} ({tot} eventi)")
+    except Exception as e:
+        print("✗ Errore EPGShare:", e)
+
+    # 2. Sky API
+    print("==> Elaborazione Sky API …")
+    for c in CHANNELS:
+        if c["name"] in EPGSHARE_CHANNELS:
             continue
-        env_part, channel_id = ch["site_id"].split("#")
-        print(f"• Elaboro {ch['name']} ({ch['site_id']})...")
-        guide = fetch_sky_guide_until_exhausted(env_part, channel_id, now_rome)
+        env, cid = c["site_id"].split("#")
+        print(f"• {c['name']} ({cid}) …")
+        guide = fetch_sky_guide_until_exhausted(env, cid, now)
         if not guide:
-            print(f"  ⚠ Nessun evento trovato per {ch['name']}, salto salvataggio")
+            print(f"  ⚠ Nessun evento per {c['name']}, skip")
             continue
-        out_path = f"output/guides/{ch['site_id'].replace('#','_')}.json"
-        with open(out_path, "w", encoding="utf-8") as f:
+        fn = f"output/guides/{c['site_id'].replace('#','_')}.json"
+        with open(fn, "w", encoding="utf-8") as f:
             json.dump({
-                "name": ch["name"],
+                "name": c["name"],
                 "events_by_date": {g["date"]: g["events"] for g in guide}
             }, f, indent=2, ensure_ascii=False)
-        print(f"  ↳ Salvato {out_path}")
-
-    print("==> Inizio scraping epg-guide.com")
-    try:
-        resp = requests.get("http://epg-guide.com/dttsat.xml", timeout=30)
-        resp.raise_for_status()
-        xml_root = ET.fromstring(resp.content)
-        print("Scaricamento e parsing XML completati.\n")
-    except Exception as e:
-        print(f"✗ Errore nel download/parsing XML: {e}")
-        return
-
-    parsed = parse_epg_guide(EPG_GUIDE_CHANNELS, xml_root)
-    for name, events_by_date in parsed.items():
-        site_id = next((c["site_id"] for c in CHANNELS if c["name"] == name), None)
-        if not site_id:
-            print(f"⚠️ Attenzione: site_id non trovato per {name}, salto salvataggio")
-            continue
-        out_path = f"output/guides/{site_id.replace('#','_')}.json"
-        with open(out_path, "w", encoding="utf-8") as f:
-            json.dump({
-                "name": name,
-                "events_by_date": events_by_date
-            }, f, indent=2, ensure_ascii=False)
-        total_events = sum(len(ev) for ev in events_by_date.values())
-        print(f"  ↳ Salvato {out_path} ({total_events} eventi)")
+        print(f"  ↳ Salvato {fn}")
 
 if __name__ == "__main__":
     main()
