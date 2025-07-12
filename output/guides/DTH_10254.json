@@ -1,1086 +1,6 @@
 {
   "name": "Sky Sport Golf",
   "events_by_date": {
-    "2025-07-11": [
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "f4f0318b-6999-4844-9a4b-e1eb4b09cb2e",
-          "contentTitle": "2024",
-          "episodeNumber": 14,
-          "seasonNumber": 1,
-          "url": "/sport/the-masters-official-film/2024/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6ee72a7f80a013ff3ea7d9fa55b243bf"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=8add5ae770bc9a8e2fe3fd925bd7279f"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/background?territory=IT&md5ChecksumParam=c4f7eb2381d3d0904fa639753925b1e0"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/cover?territory=IT&md5ChecksumParam=6ee72a7f80a013ff3ea7d9fa55b243bf"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/16-9?territory=IT&md5ChecksumParam=f4c2329ea4c815026698a54776de5b98"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/f4f0318b-6999-4844-9a4b-e1eb4b09cb2e/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=4848fa9a2e874b4052e443e12d5efb28"
-              }
-            }
-          ]
-        },
-        "eventId": "411386835",
-        "starttime": "2025-07-11T01:55:00Z",
-        "endtime": "2025-07-11T02:55:00Z",
-        "eventTitle": "2024",
-        "eventSynopsis": "2024 - Una selezione delle migliori immagini delle passate edizioni del prestigioso torneo di golf.",
-        "epgEventTitle": "2024",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "d1180351-06fd-46a5-abe0-0c197b5fc85a",
-          "contentTitle": "The Masters",
-          "episodeNumber": 14,
-          "seasonNumber": 2025,
-          "url": "/sport/highlights-dp-world-tour/the-masters/d1180351-06fd-46a5-abe0-0c197b5fc85a",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/d1180351-06fd-46a5-abe0-0c197b5fc85a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0a5be37622e7858cd550acdcb6191611"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d1180351-06fd-46a5-abe0-0c197b5fc85a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=0a5be37622e7858cd550acdcb6191611"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d1180351-06fd-46a5-abe0-0c197b5fc85a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=0a5be37622e7858cd550acdcb6191611"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/d1180351-06fd-46a5-abe0-0c197b5fc85a/background?territory=IT&md5ChecksumParam=d7be2f6c51eb142b08e4b70bbc69a8f5"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/d1180351-06fd-46a5-abe0-0c197b5fc85a/cover?territory=IT&md5ChecksumParam=0a5be37622e7858cd550acdcb6191611"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/d1180351-06fd-46a5-abe0-0c197b5fc85a/16-9?territory=IT&md5ChecksumParam=d9a4a9199a2764a1f2dcb20e0c4b2238"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/d1180351-06fd-46a5-abe0-0c197b5fc85a/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=d9a4a9199a2764a1f2dcb20e0c4b2238"
-              }
-            }
-          ]
-        },
-        "eventId": "411386836",
-        "starttime": "2025-07-11T02:55:00Z",
-        "endtime": "2025-07-11T03:30:00Z",
-        "eventTitle": "The Masters",
-        "eventSynopsis": "The Masters - Le immagini piu' belle di tutte le gare della Race to Dubai. I momenti decisivi di ogni tappa del DP World Tour, con il commento dei telecronisti e dei talent di Sky Sport.",
-        "epgEventTitle": "The Masters",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "71844ffc-acbb-464a-83d0-fa4339ef311e",
-          "contentTitle": "Tunisia Open",
-          "episodeNumber": 1,
-          "seasonNumber": 2025,
-          "url": "/sport/alps-tour/tunisia-open/71844ffc-acbb-464a-83d0-fa4339ef311e",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=55f2f7cb9f48ec2c1c8f7f7a9ff9430a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b0f94429967dcc21219ecc79e916d1b2"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b0f94429967dcc21219ecc79e916d1b2"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/background?territory=IT&md5ChecksumParam=08bc03d610793dd5ef4a5dd26858d1e2"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/cover?territory=IT&md5ChecksumParam=55f2f7cb9f48ec2c1c8f7f7a9ff9430a"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/16-9?territory=IT&md5ChecksumParam=53e619771346e7f5a38f1bbacefca5d4"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/71844ffc-acbb-464a-83d0-fa4339ef311e/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=53e619771346e7f5a38f1bbacefca5d4"
-              }
-            }
-          ]
-        },
-        "eventId": "411386837",
-        "starttime": "2025-07-11T03:30:00Z",
-        "endtime": "2025-07-11T04:00:00Z",
-        "eventTitle": "Tunisia Open",
-        "eventSynopsis": "Alps Tour - Tunisia Open",
-        "epgEventTitle": "Tunisia Open",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "9f7ab932-8ac9-40a9-9b29-e3b80eb7dad6",
-          "contentTitle": "Golf Dp World Tour - Ep. 92 - Golf Dp World Tour 2025 Genesis Scottish Open 1a Giornata 10/07/2025",
-          "episodeNumber": 92,
-          "url": "/programmi-tv/golf/golf-dp-world-tour-ep-92-golf-dp-world-tour-2025-genesis-scottish-open-1a-giornata-10-07-2025/9f7ab932-8ac9-40a9-9b29-e3b80eb7dad6",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/9f7ab932-8ac9-40a9-9b29-e3b80eb7dad6/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=973ca5f6e0b116e2525132cc4134c209"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/9f7ab932-8ac9-40a9-9b29-e3b80eb7dad6/background?territory=IT&md5ChecksumParam=24b76dbfa64a7e8298ea3c29fe32e1ae"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/9f7ab932-8ac9-40a9-9b29-e3b80eb7dad6/cover?territory=IT&md5ChecksumParam=973ca5f6e0b116e2525132cc4134c209"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/9f7ab932-8ac9-40a9-9b29-e3b80eb7dad6/16-9?territory=IT&md5ChecksumParam=30d97419caedc2040b6dd6a24150c115"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/9f7ab932-8ac9-40a9-9b29-e3b80eb7dad6/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=30d97419caedc2040b6dd6a24150c115"
-              }
-            }
-          ]
-        },
-        "eventId": "411386790",
-        "starttime": "2025-07-11T04:00:00Z",
-        "endtime": "2025-07-11T07:00:00Z",
-        "eventTitle": "Golf Dp World Tour - Ep. 92 - Golf Dp World Tour 2025 Genesis Scottish Open 1a Giornata 10/07/2025",
-        "eventSynopsis": "Scottish Open 1a g. - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
-        "epgEventTitle": "Golf Dp World Tour - Ep. 92 - Golf Dp World Tour 2025 Genesis Scottish Open 1a Giornata 10/07/2025",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "b04e1bf7-23c2-45b8-a9c1-ead72a067ecd",
-          "contentTitle": "US Open",
-          "episodeNumber": 20,
-          "seasonNumber": 2025,
-          "url": "/sport/highlights-dp-world-tour/us-open/b04e1bf7-23c2-45b8-a9c1-ead72a067ecd",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/b04e1bf7-23c2-45b8-a9c1-ead72a067ecd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9955add74f9363b0ec800f88a5910243"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/b04e1bf7-23c2-45b8-a9c1-ead72a067ecd/background?territory=IT&md5ChecksumParam=5c95d17261f6c75bee332f55b98e2e62"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/b04e1bf7-23c2-45b8-a9c1-ead72a067ecd/cover?territory=IT&md5ChecksumParam=9955add74f9363b0ec800f88a5910243"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/b04e1bf7-23c2-45b8-a9c1-ead72a067ecd/16-9?territory=IT&md5ChecksumParam=9ea2aee2990badf8934b6d50a6ccae1e"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/b04e1bf7-23c2-45b8-a9c1-ead72a067ecd/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=9ea2aee2990badf8934b6d50a6ccae1e"
-              }
-            }
-          ]
-        },
-        "eventId": "411386791",
-        "starttime": "2025-07-11T07:00:00Z",
-        "endtime": "2025-07-11T07:30:00Z",
-        "eventTitle": "US Open",
-        "eventSynopsis": "US Open - Le immagini piu' belle di tutte le gare della Race to Dubai. I momenti decisivi di ogni tappa del DP World Tour, con il commento dei telecronisti e dei talent di Sky Sport.",
-        "epgEventTitle": "US Open",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "4a2c3310-d63a-410a-a7a0-e027ef4d40e7",
-          "contentTitle": "Golf Dp World Tour - Ep. 93 - Golf Dp World Tour 2025 Genesis Scottish Open 2a Giornata 11/07/2025",
-          "episodeNumber": 93,
-          "url": "/programmi-tv/golf/golf-dp-world-tour-ep-93-golf-dp-world-tour-2025-genesis-scottish-open-2a-giornata-11-07-2025/4a2c3310-d63a-410a-a7a0-e027ef4d40e7",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/4a2c3310-d63a-410a-a7a0-e027ef4d40e7/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=973ca5f6e0b116e2525132cc4134c209"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/4a2c3310-d63a-410a-a7a0-e027ef4d40e7/background?territory=IT&md5ChecksumParam=24b76dbfa64a7e8298ea3c29fe32e1ae"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/4a2c3310-d63a-410a-a7a0-e027ef4d40e7/cover?territory=IT&md5ChecksumParam=973ca5f6e0b116e2525132cc4134c209"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/4a2c3310-d63a-410a-a7a0-e027ef4d40e7/16-9?territory=IT&md5ChecksumParam=30d97419caedc2040b6dd6a24150c115"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/4a2c3310-d63a-410a-a7a0-e027ef4d40e7/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=30d97419caedc2040b6dd6a24150c115"
-              }
-            }
-          ]
-        },
-        "eventId": "411475270",
-        "starttime": "2025-07-11T07:30:00Z",
-        "endtime": "2025-07-11T18:00:00Z",
-        "eventTitle": "Golf Dp World Tour - Ep. 93 - Golf Dp World Tour 2025 Genesis Scottish Open 2a Giornata 11/07/2025",
-        "eventSynopsis": "Genesis Scottish Open 2a g. - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
-        "epgEventTitle": "Golf Dp World Tour - Ep. 93 - Golf Dp World Tour 2025 Genesis Scottish Open 2a Giornata 11/07/2025",
-        "programHighlights": "L",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "8bba7d13-5442-4b85-b341-635c8531f9ac",
-          "contentTitle": "European Event",
-          "episodeNumber": 16,
-          "seasonNumber": 2025,
-          "url": "/sport/challenge-series/european-event/8bba7d13-5442-4b85-b341-635c8531f9ac",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/background?territory=IT&md5ChecksumParam=80f9c4f97dd54c391aabdadb64bebd6e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/cover?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/16-9?territory=IT&md5ChecksumParam=e477f8509897c240a6225fcb3b34c36b"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=e477f8509897c240a6225fcb3b34c36b"
-              }
-            }
-          ]
-        },
-        "eventId": "411386797",
-        "starttime": "2025-07-11T18:00:00Z",
-        "endtime": "2025-07-11T18:30:00Z",
-        "eventTitle": "European Event",
-        "eventSynopsis": "European Event - Challenge Series",
-        "epgEventTitle": "European Event",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "77e40f98-9dfa-418b-b46d-063c3b227eaf",
-          "contentTitle": "Italian Open",
-          "episodeNumber": 22,
-          "seasonNumber": 2025,
-          "url": "/sport/highlights-dp-world-tour/italian-open/77e40f98-9dfa-418b-b46d-063c3b227eaf",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/77e40f98-9dfa-418b-b46d-063c3b227eaf/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f048176d03b17e00e11a61f06ec9a6c7"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/77e40f98-9dfa-418b-b46d-063c3b227eaf/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f048176d03b17e00e11a61f06ec9a6c7"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/77e40f98-9dfa-418b-b46d-063c3b227eaf/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=f048176d03b17e00e11a61f06ec9a6c7"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/77e40f98-9dfa-418b-b46d-063c3b227eaf/background?territory=IT&md5ChecksumParam=5c95d17261f6c75bee332f55b98e2e62"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/77e40f98-9dfa-418b-b46d-063c3b227eaf/cover?territory=IT&md5ChecksumParam=f048176d03b17e00e11a61f06ec9a6c7"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/77e40f98-9dfa-418b-b46d-063c3b227eaf/16-9?territory=IT&md5ChecksumParam=1d9c90ec9a6bc40e0d39fa37df599990"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/77e40f98-9dfa-418b-b46d-063c3b227eaf/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=1d9c90ec9a6bc40e0d39fa37df599990"
-              }
-            }
-          ]
-        },
-        "eventId": "411386798",
-        "starttime": "2025-07-11T18:30:00Z",
-        "endtime": "2025-07-11T18:45:00Z",
-        "eventTitle": "Italian Open",
-        "eventSynopsis": "Italian Open - Le immagini piu' belle di tutte le gare della Race to Dubai. I momenti decisivi di ogni tappa del DP World Tour, con il commento dei telecronisti e dei talent di Sky Sport.",
-        "epgEventTitle": "Italian Open",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "8178194c-e7af-495e-b262-cba1993f6184",
-          "contentTitle": "Austrian Alpine Open",
-          "episodeNumber": 20,
-          "seasonNumber": 2025,
-          "url": "/sport/highlights-dp-world-tour/austrian-alpine-open/8178194c-e7af-495e-b262-cba1993f6184",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/background?territory=IT&md5ChecksumParam=5c95d17261f6c75bee332f55b98e2e62"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/cover?territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/16-9?territory=IT&md5ChecksumParam=59855707adb78d7828826f35999147f3"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=59855707adb78d7828826f35999147f3"
-              }
-            }
-          ]
-        },
-        "eventId": "411386799",
-        "starttime": "2025-07-11T18:45:00Z",
-        "endtime": "2025-07-11T19:00:00Z",
-        "eventTitle": "Austrian Alpine Open",
-        "eventSynopsis": "Austrian Alpine Open - Le immagini piu' belle di tutte le gare della Race to Dubai. I momenti decisivi di ogni tappa del DP World Tour, con il commento dei telecronisti e dei talent di Sky Sport.",
-        "epgEventTitle": "Austrian Alpine Open",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "4a2c3310-d63a-410a-a7a0-e027ef4d40e7",
-          "contentTitle": "Golf Dp World Tour - Ep. 93 - Golf Dp World Tour 2025 Genesis Scottish Open 2a Giornata 11/07/2025",
-          "episodeNumber": 93,
-          "url": "/programmi-tv/golf/golf-dp-world-tour-ep-93-golf-dp-world-tour-2025-genesis-scottish-open-2a-giornata-11-07-2025/4a2c3310-d63a-410a-a7a0-e027ef4d40e7",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/4a2c3310-d63a-410a-a7a0-e027ef4d40e7/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=973ca5f6e0b116e2525132cc4134c209"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/4a2c3310-d63a-410a-a7a0-e027ef4d40e7/background?territory=IT&md5ChecksumParam=24b76dbfa64a7e8298ea3c29fe32e1ae"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/4a2c3310-d63a-410a-a7a0-e027ef4d40e7/cover?territory=IT&md5ChecksumParam=973ca5f6e0b116e2525132cc4134c209"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/4a2c3310-d63a-410a-a7a0-e027ef4d40e7/16-9?territory=IT&md5ChecksumParam=30d97419caedc2040b6dd6a24150c115"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/4a2c3310-d63a-410a-a7a0-e027ef4d40e7/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=30d97419caedc2040b6dd6a24150c115"
-              }
-            }
-          ]
-        },
-        "eventId": "411386800",
-        "starttime": "2025-07-11T19:00:00Z",
-        "endtime": "2025-07-11T22:00:00Z",
-        "eventTitle": "Golf Dp World Tour - Ep. 93 - Golf Dp World Tour 2025 Genesis Scottish Open 2a Giornata 11/07/2025",
-        "eventSynopsis": "Genesis Scottish Open 2a g. - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
-        "epgEventTitle": "Golf Dp World Tour - Ep. 93 - Golf Dp World Tour 2025 Genesis Scottish Open 2a Giornata 11/07/2025",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "f36d3b27-afde-4357-a455-329ef2111781",
-          "contentTitle": "Danish Golf Challenge",
-          "episodeNumber": 10,
-          "seasonNumber": 2025,
-          "url": "/sport/challenge-series/danish-golf-challenge/f36d3b27-afde-4357-a455-329ef2111781",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/background?territory=IT&md5ChecksumParam=80f9c4f97dd54c391aabdadb64bebd6e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/cover?territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/16-9?territory=IT&md5ChecksumParam=0217cb748c6824b49080483e0c00c6b9"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=0217cb748c6824b49080483e0c00c6b9"
-              }
-            }
-          ]
-        },
-        "eventId": "411386801",
-        "starttime": "2025-07-11T22:00:00Z",
-        "endtime": "2025-07-11T22:25:00Z",
-        "eventTitle": "Danish Golf Challenge",
-        "eventSynopsis": "Danish Golf Challenge - Challenge Series",
-        "epgEventTitle": "Danish Golf Challenge",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "8bba7d13-5442-4b85-b341-635c8531f9ac",
-          "contentTitle": "European Event",
-          "episodeNumber": 16,
-          "seasonNumber": 2025,
-          "url": "/sport/challenge-series/european-event/8bba7d13-5442-4b85-b341-635c8531f9ac",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/background?territory=IT&md5ChecksumParam=80f9c4f97dd54c391aabdadb64bebd6e"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/cover?territory=IT&md5ChecksumParam=5b638caebbea38b766563d4c3033ca95"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/16-9?territory=IT&md5ChecksumParam=e477f8509897c240a6225fcb3b34c36b"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/8bba7d13-5442-4b85-b341-635c8531f9ac/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=e477f8509897c240a6225fcb3b34c36b"
-              }
-            }
-          ]
-        },
-        "eventId": "411386802",
-        "starttime": "2025-07-11T22:25:00Z",
-        "endtime": "2025-07-11T22:55:00Z",
-        "eventTitle": "European Event",
-        "eventSynopsis": "European Event - Challenge Series",
-        "epgEventTitle": "European Event",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 10254,
-          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
-          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
-          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
-          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
-          "name": "Sky Sport Golf",
-          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
-          "number": 206,
-          "servicekey": "768",
-          "category": {
-            "id": 6,
-            "name": "Sport e Calcio"
-          }
-        },
-        "content": {
-          "uuid": "4a2c3310-d63a-410a-a7a0-e027ef4d40e7",
-          "contentTitle": "Golf Dp World Tour - Ep. 93 - Golf Dp World Tour 2025 Genesis Scottish Open 2a Giornata 11/07/2025",
-          "episodeNumber": 93,
-          "url": "/programmi-tv/golf/golf-dp-world-tour-ep-93-golf-dp-world-tour-2025-genesis-scottish-open-2a-giornata-11-07-2025/4a2c3310-d63a-410a-a7a0-e027ef4d40e7",
-          "genre": {
-            "id": 2,
-            "name": "Sport"
-          },
-          "subgenre": {
-            "id": 92,
-            "name": "Golf"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/4a2c3310-d63a-410a-a7a0-e027ef4d40e7/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=973ca5f6e0b116e2525132cc4134c209"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/4a2c3310-d63a-410a-a7a0-e027ef4d40e7/background?territory=IT&md5ChecksumParam=24b76dbfa64a7e8298ea3c29fe32e1ae"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/4a2c3310-d63a-410a-a7a0-e027ef4d40e7/cover?territory=IT&md5ChecksumParam=973ca5f6e0b116e2525132cc4134c209"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/4a2c3310-d63a-410a-a7a0-e027ef4d40e7/16-9?territory=IT&md5ChecksumParam=30d97419caedc2040b6dd6a24150c115"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/4a2c3310-d63a-410a-a7a0-e027ef4d40e7/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=30d97419caedc2040b6dd6a24150c115"
-              }
-            }
-          ]
-        },
-        "eventId": "411386803",
-        "starttime": "2025-07-11T22:55:00Z",
-        "endtime": "2025-07-12T02:00:00Z",
-        "eventTitle": "Golf Dp World Tour - Ep. 93 - Golf Dp World Tour 2025 Genesis Scottish Open 2a Giornata 11/07/2025",
-        "eventSynopsis": "Genesis Scottish Open 2a g. - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
-        "epgEventTitle": "Golf Dp World Tour - Ep. 93 - Golf Dp World Tour 2025 Genesis Scottish Open 2a Giornata 11/07/2025",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
     "2025-07-12": [
       {
         "channel": {
@@ -1116,17 +36,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
               "img": {
                 "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
@@ -1478,6 +398,93 @@
         "eventTitle": "Golf Dp World Tour - Ep. 93 - Golf Dp World Tour 2025 Genesis Scottish Open 2a Giornata 11/07/2025",
         "eventSynopsis": "Genesis Scottish Open 2a g. - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
         "epgEventTitle": "Golf Dp World Tour - Ep. 93 - Golf Dp World Tour 2025 Genesis Scottish Open 2a Giornata 11/07/2025",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 10254,
+          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
+          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
+          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
+          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "name": "Sky Sport Golf",
+          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
+          "number": 206,
+          "servicekey": "768",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
+          "uuid": "6d24163c-82cf-420e-8140-ab9c752020b1",
+          "contentTitle": "Italian Open",
+          "episodeNumber": 248,
+          "seasonNumber": 2025,
+          "url": "/sport/golf-highlights/italian-open/6d24163c-82cf-420e-8140-ab9c752020b1",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
+          },
+          "subgenre": {
+            "id": 92,
+            "name": "Golf"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/background?territory=IT&md5ChecksumParam=80472d021f1f9febc3ea31495e71c97b"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/16-9?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            }
+          ]
+        },
+        "eventId": "411508733",
+        "starttime": "2025-07-12T06:00:00Z",
+        "endtime": "2025-07-12T06:35:00Z",
+        "eventTitle": "Italian Open",
+        "eventSynopsis": "Italian Open - Il circuito che comprende i tornei Challenge Tour e Alps Tour disputati in Italia e il Campionato Nazionale Open.",
+        "epgEventTitle": "Italian Open",
         "primeVision": false,
         "resolutions": [
           {
@@ -2533,7 +1540,7 @@
         },
         "eventId": "411472704",
         "starttime": "2025-07-13T06:00:00Z",
-        "endtime": "2025-07-13T06:30:00Z",
+        "endtime": "2025-07-13T06:25:00Z",
         "eventTitle": "Memorial Giorgio Bordoni",
         "eventSynopsis": "Italian Pro Tour: Memorial Giorgio Bordoni - Memorial Giorgio Bordoni.",
         "epgEventTitle": "Memorial Giorgio Bordoni",
@@ -2619,7 +1626,7 @@
           ]
         },
         "eventId": "411472705",
-        "starttime": "2025-07-13T06:30:00Z",
+        "starttime": "2025-07-13T06:25:00Z",
         "endtime": "2025-07-13T07:00:00Z",
         "eventTitle": "Abu Dhabi Challenge",
         "eventSynopsis": "Abu Dhabi Challenge - Challenge Series",
@@ -2977,6 +1984,93 @@
           }
         },
         "content": {
+          "uuid": "6d24163c-82cf-420e-8140-ab9c752020b1",
+          "contentTitle": "Italian Open",
+          "episodeNumber": 248,
+          "seasonNumber": 2025,
+          "url": "/sport/golf-highlights/italian-open/6d24163c-82cf-420e-8140-ab9c752020b1",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
+          },
+          "subgenre": {
+            "id": 92,
+            "name": "Golf"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/background?territory=IT&md5ChecksumParam=80472d021f1f9febc3ea31495e71c97b"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/16-9?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            }
+          ]
+        },
+        "eventId": "411508732",
+        "starttime": "2025-07-13T19:30:00Z",
+        "endtime": "2025-07-13T20:00:00Z",
+        "eventTitle": "Italian Open",
+        "eventSynopsis": "Italian Open - Il circuito che comprende i tornei Challenge Tour e Alps Tour disputati in Italia e il Campionato Nazionale Open.",
+        "epgEventTitle": "Italian Open",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 10254,
+          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
+          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
+          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
+          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "name": "Sky Sport Golf",
+          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
+          "number": 206,
+          "servicekey": "768",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
           "uuid": "063c489d-96e5-4b00-9bde-a75fd37a27ee",
           "contentTitle": "Golf Dp World Tour - Ep. 95 - Golf Dp World Tour 2025 Genesis Scottish Open 4a Giornata 13/07/2025",
           "episodeNumber": 95,
@@ -3156,17 +2250,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/98b0f88f-d00e-4993-b29b-9f61811ce6e7/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=986ac562e3bc88cc5af91e590b97f516"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/98b0f88f-d00e-4993-b29b-9f61811ce6e7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=986ac562e3bc88cc5af91e590b97f516"
               }
             },
             {
               "img": {
                 "url": "/uuid/98b0f88f-d00e-4993-b29b-9f61811ce6e7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=986ac562e3bc88cc5af91e590b97f516"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/98b0f88f-d00e-4993-b29b-9f61811ce6e7/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=986ac562e3bc88cc5af91e590b97f516"
               }
             },
             {
@@ -3275,7 +2369,7 @@
         },
         "eventId": "411386863",
         "starttime": "2025-07-14T00:00:00Z",
-        "endtime": "2025-07-14T03:00:00Z",
+        "endtime": "2025-07-14T02:55:00Z",
         "eventTitle": "Golf Dp World Tour - Ep. 95 - Golf Dp World Tour 2025 Genesis Scottish Open 4a Giornata 13/07/2025",
         "eventSynopsis": "Genesis Scottish Open 4a g. - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
         "epgEventTitle": "Golf Dp World Tour - Ep. 95 - Golf Dp World Tour 2025 Genesis Scottish Open 4a Giornata 13/07/2025",
@@ -3361,7 +2455,7 @@
           ]
         },
         "eventId": "411386864",
-        "starttime": "2025-07-14T03:00:00Z",
+        "starttime": "2025-07-14T02:55:00Z",
         "endtime": "2025-07-14T04:00:00Z",
         "eventTitle": "2024",
         "eventSynopsis": "2024 - Una selezione delle migliori immagini delle passate edizioni del prestigioso torneo di golf.",
@@ -3448,7 +2542,7 @@
           ]
         },
         "eventId": "411468823",
-        "starttime": "2025-07-14T12:30:00Z",
+        "starttime": "2025-07-14T12:25:00Z",
         "endtime": "2025-07-14T13:00:00Z",
         "eventTitle": "European Event",
         "eventSynopsis": "European Event - Challenge Series",
@@ -3536,10 +2630,97 @@
         },
         "eventId": "411468824",
         "starttime": "2025-07-14T13:00:00Z",
-        "endtime": "2025-07-14T13:30:00Z",
+        "endtime": "2025-07-14T13:25:00Z",
         "eventTitle": "Le Vaudreuil ",
         "eventSynopsis": "Le Vaudreuil - Challenge Series",
         "epgEventTitle": "Le Vaudreuil ",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 10254,
+          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
+          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
+          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
+          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "name": "Sky Sport Golf",
+          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
+          "number": 206,
+          "servicekey": "768",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
+          "uuid": "6d24163c-82cf-420e-8140-ab9c752020b1",
+          "contentTitle": "Italian Open",
+          "episodeNumber": 248,
+          "seasonNumber": 2025,
+          "url": "/sport/golf-highlights/italian-open/6d24163c-82cf-420e-8140-ab9c752020b1",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
+          },
+          "subgenre": {
+            "id": 92,
+            "name": "Golf"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/background?territory=IT&md5ChecksumParam=80472d021f1f9febc3ea31495e71c97b"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/16-9?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            }
+          ]
+        },
+        "eventId": "411468826",
+        "starttime": "2025-07-14T16:30:00Z",
+        "endtime": "2025-07-14T16:55:00Z",
+        "eventTitle": "Italian Open",
+        "eventSynopsis": "Italian Open - Il circuito che comprende i tornei Challenge Tour e Alps Tour disputati in Italia e il Campionato Nazionale Open.",
+        "epgEventTitle": "Italian Open",
         "primeVision": false,
         "resolutions": [
           {
@@ -3623,7 +2804,7 @@
         },
         "eventId": "411468828",
         "starttime": "2025-07-14T21:30:00Z",
-        "endtime": "2025-07-14T22:00:00Z",
+        "endtime": "2025-07-14T21:55:00Z",
         "eventTitle": "Abu Dhabi Challenge",
         "eventSynopsis": "Abu Dhabi Challenge - Challenge Series",
         "epgEventTitle": "Abu Dhabi Challenge",
@@ -3709,7 +2890,7 @@
           ]
         },
         "eventId": "411468829",
-        "starttime": "2025-07-14T22:00:00Z",
+        "starttime": "2025-07-14T21:55:00Z",
         "endtime": "2025-07-14T22:30:00Z",
         "eventTitle": "Tunisia Open",
         "eventSynopsis": "Alps Tour - Tunisia Open",
@@ -4524,6 +3705,93 @@
           }
         },
         "content": {
+          "uuid": "6d24163c-82cf-420e-8140-ab9c752020b1",
+          "contentTitle": "Italian Open",
+          "episodeNumber": 248,
+          "seasonNumber": 2025,
+          "url": "/sport/golf-highlights/italian-open/6d24163c-82cf-420e-8140-ab9c752020b1",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
+          },
+          "subgenre": {
+            "id": 92,
+            "name": "Golf"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/background?territory=IT&md5ChecksumParam=80472d021f1f9febc3ea31495e71c97b"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/16-9?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            }
+          ]
+        },
+        "eventId": "411513862",
+        "starttime": "2025-07-16T13:00:00Z",
+        "endtime": "2025-07-16T13:30:00Z",
+        "eventTitle": "Italian Open",
+        "eventSynopsis": "Italian Open - Il circuito che comprende i tornei Challenge Tour e Alps Tour disputati in Italia e il Campionato Nazionale Open.",
+        "epgEventTitle": "Italian Open",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 10254,
+          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
+          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
+          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
+          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "name": "Sky Sport Golf",
+          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
+          "number": 206,
+          "servicekey": "768",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
           "uuid": "9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc",
           "contentTitle": "Challenge De España ",
           "episodeNumber": 9,
@@ -4540,17 +3808,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
               "img": {
                 "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
@@ -5133,6 +4401,93 @@
             "value": false
           }
         ]
+      },
+      {
+        "channel": {
+          "id": 10254,
+          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
+          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
+          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
+          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "name": "Sky Sport Golf",
+          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
+          "number": 206,
+          "servicekey": "768",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
+          "uuid": "6d24163c-82cf-420e-8140-ab9c752020b1",
+          "contentTitle": "Italian Open",
+          "episodeNumber": 248,
+          "seasonNumber": 2025,
+          "url": "/sport/golf-highlights/italian-open/6d24163c-82cf-420e-8140-ab9c752020b1",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
+          },
+          "subgenre": {
+            "id": 92,
+            "name": "Golf"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/background?territory=IT&md5ChecksumParam=80472d021f1f9febc3ea31495e71c97b"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/16-9?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            }
+          ]
+        },
+        "eventId": "411513860",
+        "starttime": "2025-07-17T21:00:00Z",
+        "endtime": "2025-07-17T21:30:00Z",
+        "eventTitle": "Italian Open",
+        "eventSynopsis": "Italian Open - Il circuito che comprende i tornei Challenge Tour e Alps Tour disputati in Italia e il Campionato Nazionale Open.",
+        "epgEventTitle": "Italian Open",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
       }
     ],
     "2025-07-18": [
@@ -5344,17 +4699,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
               }
             },
             {
               "img": {
                 "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
               }
             },
             {
@@ -6079,6 +5434,93 @@
           }
         },
         "content": {
+          "uuid": "6d24163c-82cf-420e-8140-ab9c752020b1",
+          "contentTitle": "Italian Open",
+          "episodeNumber": 248,
+          "seasonNumber": 2025,
+          "url": "/sport/golf-highlights/italian-open/6d24163c-82cf-420e-8140-ab9c752020b1",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
+          },
+          "subgenre": {
+            "id": 92,
+            "name": "Golf"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/background?territory=IT&md5ChecksumParam=80472d021f1f9febc3ea31495e71c97b"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/16-9?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            }
+          ]
+        },
+        "eventId": "411513861",
+        "starttime": "2025-07-19T23:00:00Z",
+        "endtime": "2025-07-19T23:30:00Z",
+        "eventTitle": "Italian Open",
+        "eventSynopsis": "Italian Open - Golf Italian Pro Tour",
+        "epgEventTitle": "Italian Open",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 10254,
+          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
+          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
+          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
+          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "name": "Sky Sport Golf",
+          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
+          "number": 206,
+          "servicekey": "768",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
           "uuid": "167a45f5-26a6-476c-94d4-982246e1e44b",
           "contentTitle": "Cape Town Open",
           "episodeNumber": 3,
@@ -6574,6 +6016,93 @@
           }
         },
         "content": {
+          "uuid": "6d24163c-82cf-420e-8140-ab9c752020b1",
+          "contentTitle": "Italian Open",
+          "episodeNumber": 248,
+          "seasonNumber": 2025,
+          "url": "/sport/golf-highlights/italian-open/6d24163c-82cf-420e-8140-ab9c752020b1",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
+          },
+          "subgenre": {
+            "id": 92,
+            "name": "Golf"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/background?territory=IT&md5ChecksumParam=80472d021f1f9febc3ea31495e71c97b"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/16-9?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            }
+          ]
+        },
+        "eventId": "411513863",
+        "starttime": "2025-07-20T18:00:00Z",
+        "endtime": "2025-07-20T18:30:00Z",
+        "eventTitle": "Italian Open",
+        "eventSynopsis": "Italian Open - Italian Pro Tour",
+        "epgEventTitle": "Italian Open",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 10254,
+          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
+          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
+          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
+          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "name": "Sky Sport Golf",
+          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
+          "number": 206,
+          "servicekey": "768",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
           "uuid": "9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc",
           "contentTitle": "Challenge De España ",
           "episodeNumber": 9,
@@ -6590,17 +6119,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
               "img": {
                 "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
@@ -6851,17 +6380,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
               "img": {
                 "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
@@ -7114,17 +6643,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
               "img": {
                 "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
@@ -7661,6 +7190,93 @@
         "eventTitle": "Golf Dp World Tour - Ep. 103 - Golf Dp World Tour 2025 The 153rd Open 4a Giornata 20/07/2025",
         "eventSynopsis": "The 153rd Open 4a g. - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
         "epgEventTitle": "Golf Dp World Tour - Ep. 103 - Golf Dp World Tour 2025 The 153rd Open 4a Giornata 20/07/2025",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 10254,
+          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
+          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
+          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
+          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "name": "Sky Sport Golf",
+          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
+          "number": 206,
+          "servicekey": "768",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
+          "uuid": "6d24163c-82cf-420e-8140-ab9c752020b1",
+          "contentTitle": "Italian Open",
+          "episodeNumber": 248,
+          "seasonNumber": 2025,
+          "url": "/sport/golf-highlights/italian-open/6d24163c-82cf-420e-8140-ab9c752020b1",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
+          },
+          "subgenre": {
+            "id": 92,
+            "name": "Golf"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/background?territory=IT&md5ChecksumParam=80472d021f1f9febc3ea31495e71c97b"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/16-9?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            }
+          ]
+        },
+        "eventId": "411516001",
+        "starttime": "2025-07-21T11:00:00Z",
+        "endtime": "2025-07-21T11:30:00Z",
+        "eventTitle": "Italian Open",
+        "eventSynopsis": "Italian Open - Il circuito che comprende i tornei Challenge Tour e Alps Tour disputati in Italia e il Campionato Nazionale Open.",
+        "epgEventTitle": "Italian Open",
         "primeVision": false,
         "resolutions": [
           {
@@ -8289,17 +7905,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
               "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
@@ -8465,17 +8081,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
               "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
@@ -9304,17 +8920,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/fc7ab800-4f0c-4cde-816a-c24340de0d35/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2005b63a9099d338b3d0603035d82bce"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/fc7ab800-4f0c-4cde-816a-c24340de0d35/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2005b63a9099d338b3d0603035d82bce"
               }
             },
             {
               "img": {
                 "url": "/uuid/fc7ab800-4f0c-4cde-816a-c24340de0d35/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2005b63a9099d338b3d0603035d82bce"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/fc7ab800-4f0c-4cde-816a-c24340de0d35/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2005b63a9099d338b3d0603035d82bce"
               }
             },
             {
@@ -10375,17 +9991,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
               }
             },
             {
               "img": {
                 "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8178194c-e7af-495e-b262-cba1993f6184/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=86b3099ac4f84d58bfbcc2abf42ec151"
               }
             },
             {
@@ -10725,17 +10341,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/bb0812bb-0a06-4234-b2c9-20237b7beafa/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=229dcc34c45e84b84c47eea7c3100e6f"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/bb0812bb-0a06-4234-b2c9-20237b7beafa/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=229dcc34c45e84b84c47eea7c3100e6f"
               }
             },
             {
               "img": {
                 "url": "/uuid/bb0812bb-0a06-4234-b2c9-20237b7beafa/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=229dcc34c45e84b84c47eea7c3100e6f"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/bb0812bb-0a06-4234-b2c9-20237b7beafa/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=229dcc34c45e84b84c47eea7c3100e6f"
               }
             },
             {
@@ -10960,6 +10576,93 @@
           }
         },
         "content": {
+          "uuid": "6d24163c-82cf-420e-8140-ab9c752020b1",
+          "contentTitle": "Italian Open",
+          "episodeNumber": 248,
+          "seasonNumber": 2025,
+          "url": "/sport/golf-highlights/italian-open/6d24163c-82cf-420e-8140-ab9c752020b1",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
+          },
+          "subgenre": {
+            "id": 92,
+            "name": "Golf"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/background?territory=IT&md5ChecksumParam=80472d021f1f9febc3ea31495e71c97b"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/16-9?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            }
+          ]
+        },
+        "eventId": "411516237",
+        "starttime": "2025-07-24T07:30:00Z",
+        "endtime": "2025-07-24T08:00:00Z",
+        "eventTitle": "Italian Open",
+        "eventSynopsis": "Italian Open - Italian Pro Tour",
+        "epgEventTitle": "Italian Open",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 10254,
+          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
+          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
+          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
+          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "name": "Sky Sport Golf",
+          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
+          "number": 206,
+          "servicekey": "768",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
           "uuid": "896b2c14-de82-4806-ba56-30a458ff6dab",
           "contentTitle": "Italian Open 4a g.",
           "episodeNumber": 83,
@@ -10976,17 +10679,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
               "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
@@ -11565,17 +11268,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/3d59a6d2-09f9-4648-81d8-1076a946afdb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ad56c8995f9df9a4755d0f86f09223b0"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/3d59a6d2-09f9-4648-81d8-1076a946afdb/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ad56c8995f9df9a4755d0f86f09223b0"
               }
             },
             {
               "img": {
                 "url": "/uuid/3d59a6d2-09f9-4648-81d8-1076a946afdb/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ad56c8995f9df9a4755d0f86f09223b0"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/3d59a6d2-09f9-4648-81d8-1076a946afdb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ad56c8995f9df9a4755d0f86f09223b0"
               }
             },
             {
@@ -12002,17 +11705,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
               }
             },
             {
               "img": {
                 "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f36d3b27-afde-4357-a455-329ef2111781/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4aa20befb5a1ebb3b82faef9e92a0bb8"
               }
             },
             {
@@ -12340,17 +12043,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
               "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
@@ -12765,17 +12468,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/82b87a99-76f5-4b98-8dad-985dbe023b1a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=eef85caf493a577f5be011cab82be9ce"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/82b87a99-76f5-4b98-8dad-985dbe023b1a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=eef85caf493a577f5be011cab82be9ce"
               }
             },
             {
               "img": {
                 "url": "/uuid/82b87a99-76f5-4b98-8dad-985dbe023b1a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=eef85caf493a577f5be011cab82be9ce"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/82b87a99-76f5-4b98-8dad-985dbe023b1a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=eef85caf493a577f5be011cab82be9ce"
               }
             },
             {
@@ -13257,17 +12960,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/98b0f88f-d00e-4993-b29b-9f61811ce6e7/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=986ac562e3bc88cc5af91e590b97f516"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/98b0f88f-d00e-4993-b29b-9f61811ce6e7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=986ac562e3bc88cc5af91e590b97f516"
               }
             },
             {
               "img": {
                 "url": "/uuid/98b0f88f-d00e-4993-b29b-9f61811ce6e7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=986ac562e3bc88cc5af91e590b97f516"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/98b0f88f-d00e-4993-b29b-9f61811ce6e7/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=986ac562e3bc88cc5af91e590b97f516"
               }
             },
             {
@@ -13672,17 +13375,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
               "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
@@ -13717,6 +13420,93 @@
         "eventTitle": "Italian Open 4a g.",
         "eventSynopsis": "Italian Open 4a g. - Tutti i tornei del tour europeo, il DP World Tour, che assegnano i punti per la 'Race to Dubai'.",
         "epgEventTitle": "Italian Open 4a g.",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 10254,
+          "logo": "/logo/768skysportgolf_Light_Fit.png?checksum=15663a39-3b8a-487d-a645-3025e44e4150",
+          "logoPadding": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "logoDark": "/logo/768skysportgolf_Dark_Fit.png?checksum=fc138279-84ba-40f3-a27b-1367d0b9f691",
+          "logoDarkPadding": "/logo/768skysportgolf_Dark_Padding.png?checksum=52ed54ed-31ca-4753-ad01-38865b05b247",
+          "logoLight": "/logo/768skysportgolf_Light_Padding.png?checksum=d0a2a945-d69f-430a-8368-0827f36525ad",
+          "name": "Sky Sport Golf",
+          "description": "Il canale tv dedicato al mondo del golf. Canale Sky Glass 206.",
+          "number": 206,
+          "servicekey": "768",
+          "category": {
+            "id": 6,
+            "name": "Sport e Calcio"
+          }
+        },
+        "content": {
+          "uuid": "6d24163c-82cf-420e-8140-ab9c752020b1",
+          "contentTitle": "Italian Open",
+          "episodeNumber": 248,
+          "seasonNumber": 2025,
+          "url": "/sport/golf-highlights/italian-open/6d24163c-82cf-420e-8140-ab9c752020b1",
+          "genre": {
+            "id": 2,
+            "name": "Sport"
+          },
+          "subgenre": {
+            "id": 92,
+            "name": "Golf"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/background?territory=IT&md5ChecksumParam=80472d021f1f9febc3ea31495e71c97b"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/cover?territory=IT&md5ChecksumParam=3e030690b0cda6a3571b8eb1b8ffb233"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/16-9?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/6d24163c-82cf-420e-8140-ab9c752020b1/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=e83922ca120fe1315312a652d0a30dca"
+              }
+            }
+          ]
+        },
+        "eventId": "411516257",
+        "starttime": "2025-07-26T18:00:00Z",
+        "endtime": "2025-07-26T18:30:00Z",
+        "eventTitle": "Italian Open",
+        "eventSynopsis": "Golf Italian Pro Tour 2025 Ep.2 82^ Italian Open 10/07/2025 - Italian Pro Tour",
+        "epgEventTitle": "Italian Open",
         "primeVision": false,
         "resolutions": [
           {
@@ -14281,17 +14071,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
               "img": {
                 "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/9162c4f8-4bf8-4bfe-b344-1bf3c88f35cc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4c0ce846503838e004059f0cf7082bca"
               }
             },
             {
@@ -15111,17 +14901,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {
               "img": {
                 "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/896b2c14-de82-4806-ba56-30a458ff6dab/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e6e49eb1d3de242e3d0efbaba7a0f40c"
               }
             },
             {

@@ -1,846 +1,6 @@
 {
   "name": "Rai Movie",
   "events_by_date": {
-    "2025-07-11": [
-      {
-        "channel": {
-          "id": 6608,
-          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
-          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
-          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
-          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "name": "Rai Movie",
-          "description": "Canale Sky Glass 312.",
-          "number": 5024,
-          "servicekey": "9018",
-          "category": {
-            "id": 9,
-            "name": "Altri Digitale Terrestre"
-          }
-        },
-        "content": {
-          "uuid": "195cc46d-0d7e-42e9-92b4-1a46fc69b377",
-          "contentTitle": "Super",
-          "url": "/film/azione/super/195cc46d-0d7e-42e9-92b4-1a46fc69b377",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 32,
-            "name": "Azione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/195cc46d-0d7e-42e9-92b4-1a46fc69b377/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=020fe084768722e9f0cf5a597134895a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/195cc46d-0d7e-42e9-92b4-1a46fc69b377/COVER_CLEAN_TALL?territory=IT&version=dd42e97a-f989-3a73-a980-ad7b5a08390d&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=41a8dd607fb0d330046728e1f02562ff"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/195cc46d-0d7e-42e9-92b4-1a46fc69b377/COVER_CLEAN_TALL?territory=IT&version=dd42e97a-f989-3a73-a980-ad7b5a08390d&w=600&h=800&md5ChecksumParam=41a8dd607fb0d330046728e1f02562ff"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/195cc46d-0d7e-42e9-92b4-1a46fc69b377/background?territory=IT&md5ChecksumParam=e820e090065c33b8eac79f1c68311ab1"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/195cc46d-0d7e-42e9-92b4-1a46fc69b377/cover?territory=IT&md5ChecksumParam=020fe084768722e9f0cf5a597134895a"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/195cc46d-0d7e-42e9-92b4-1a46fc69b377/16-9?territory=IT&md5ChecksumParam=39991fccc08e8f36c359fe274b863941"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/195cc46d-0d7e-42e9-92b4-1a46fc69b377/COVER_TITLE_WIDE?territory=IT&version=dd07e5e0-2dc0-3d6d-aa99-09beed42440f&w=1920&h=1080&md5ChecksumParam=c7748ec96be54077d57e665b1c931f33"
-              }
-            }
-          ]
-        },
-        "eventId": "411471356",
-        "starttime": "2025-07-11T01:20:00Z",
-        "endtime": "2025-07-11T03:00:00Z",
-        "eventTitle": "Super - Attento crimine!!!",
-        "eventSynopsis": "Stati Uniti, oggi. Frank Darbo, trentenne in crisi, viene abbandonato dalla moglie Sarah che si lancia tra le braccia del seduttore psicopatico, nonche' spacciatore di droga, Jacques. L'onta di qua...",
-        "epgEventTitle": "Super - Attento crimine!!!",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 6608,
-          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
-          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
-          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
-          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "name": "Rai Movie",
-          "description": "Canale Sky Glass 312.",
-          "number": 5024,
-          "servicekey": "9018",
-          "category": {
-            "id": 9,
-            "name": "Altri Digitale Terrestre"
-          }
-        },
-        "content": {
-          "uuid": "9a701cae-1bf6-46c2-807a-b8ca8b93b25c",
-          "contentTitle": "Delivery Man",
-          "url": "/film/commedia/delivery-man/9a701cae-1bf6-46c2-807a-b8ca8b93b25c",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 18,
-            "name": "Commedia"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/9a701cae-1bf6-46c2-807a-b8ca8b93b25c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6116282f276e8c5b407b68e81a63e491"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/9a701cae-1bf6-46c2-807a-b8ca8b93b25c/background?territory=IT&md5ChecksumParam=27a9e23bae5818f6897359ea1937125b"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/9a701cae-1bf6-46c2-807a-b8ca8b93b25c/cover?territory=IT&md5ChecksumParam=6116282f276e8c5b407b68e81a63e491"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/9a701cae-1bf6-46c2-807a-b8ca8b93b25c/16-9?territory=IT&md5ChecksumParam=ac165f4c142eb1f6a8ac8ee272c305e2"
-              }
-            }
-          ]
-        },
-        "eventId": "411471358",
-        "starttime": "2025-07-11T03:00:00Z",
-        "endtime": "2025-07-11T04:40:00Z",
-        "eventTitle": "Delivery Man",
-        "eventSynopsis": "Un uomo che vent'anni prima ha donato il suo sperma, scopre di essere genitore biologico di 533 figli. 142 di questi un bel giorno si presentano alla sua porta per conoscerlo.",
-        "epgEventTitle": "Delivery Man",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 6608,
-          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
-          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
-          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
-          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "name": "Rai Movie",
-          "description": "Canale Sky Glass 312.",
-          "number": 5024,
-          "servicekey": "9018",
-          "category": {
-            "id": 9,
-            "name": "Altri Digitale Terrestre"
-          }
-        },
-        "content": {
-          "uuid": "541566ff-a20d-48a4-91c4-aebc5972783d",
-          "contentTitle": "Mi rifaccio vivo",
-          "url": "/film/commedia/mi-rifaccio-vivo/541566ff-a20d-48a4-91c4-aebc5972783d",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 18,
-            "name": "Commedia"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/541566ff-a20d-48a4-91c4-aebc5972783d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=06ccabf7ee1ad463ad0161ff44afd34d"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/541566ff-a20d-48a4-91c4-aebc5972783d/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ff112028f84c39a69fdfab6a7bd9f39e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/541566ff-a20d-48a4-91c4-aebc5972783d/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ff112028f84c39a69fdfab6a7bd9f39e"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/541566ff-a20d-48a4-91c4-aebc5972783d/background?territory=IT&md5ChecksumParam=aad7afd01077ab6e96913bab1fc350a6"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/541566ff-a20d-48a4-91c4-aebc5972783d/cover?territory=IT&md5ChecksumParam=06ccabf7ee1ad463ad0161ff44afd34d"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/541566ff-a20d-48a4-91c4-aebc5972783d/16-9?territory=IT&md5ChecksumParam=0733db5d3d63f5a62425eafecc74d2c4"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/541566ff-a20d-48a4-91c4-aebc5972783d/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=31048a8d811b3c398927b7d88162d339"
-              }
-            }
-          ]
-        },
-        "eventId": "411471362",
-        "starttime": "2025-07-11T06:55:00Z",
-        "endtime": "2025-07-11T08:50:00Z",
-        "eventTitle": "Mi rifaccio vivo",
-        "eventSynopsis": "L'imprenditore Bianchetti, per vendicarsi dell'acerrimo nemico Ottone, torna sulla terra nei panni di un super manager. Ma le apparenze ingannano.",
-        "epgEventTitle": "Mi rifaccio vivo",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 6608,
-          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
-          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
-          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
-          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "name": "Rai Movie",
-          "description": "Canale Sky Glass 312.",
-          "number": 5024,
-          "servicekey": "9018",
-          "category": {
-            "id": 9,
-            "name": "Altri Digitale Terrestre"
-          }
-        },
-        "content": {
-          "uuid": "2bb58b28-eb8b-4435-93e6-c8b3fbf2eb47",
-          "contentTitle": "Ercole contro i Figli del Sole",
-          "url": "/film/fantastico/ercole-contro-i-figli-del-sole/2bb58b28-eb8b-4435-93e6-c8b3fbf2eb47",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 58,
-            "name": "Fantastico"
-          },
-          "imagesMap": [
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411471366",
-        "starttime": "2025-07-11T10:40:00Z",
-        "endtime": "2025-07-11T12:15:00Z",
-        "eventTitle": "Ercole contro i Figli del Sole",
-        "eventSynopsis": "Ercole, arrivato nel regno degli Incas peruviani, salva la figlia del re che sta per essere immolata a un dio crudele e la sposa. Giuliano Gemma e' il principe Maytha.",
-        "epgEventTitle": "Ercole contro i Figli del Sole",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 6608,
-          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
-          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
-          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
-          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "name": "Rai Movie",
-          "description": "Canale Sky Glass 312.",
-          "number": 5024,
-          "servicekey": "9018",
-          "category": {
-            "id": 9,
-            "name": "Altri Digitale Terrestre"
-          }
-        },
-        "content": {
-          "uuid": "c2ed52fd-a006-424f-b081-9ae32facc4f3",
-          "contentTitle": "E continuavano a chiamarlo figlio di...",
-          "url": "/film/cinema/e-continuavano-a-chiamarlo-figlio-di/c2ed52fd-a006-424f-b081-9ae32facc4f3",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 4,
-            "name": "Cinema"
-          },
-          "imagesMap": [
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411471367",
-        "starttime": "2025-07-11T12:15:00Z",
-        "endtime": "2025-07-11T13:50:00Z",
-        "eventTitle": "E continuavano a chiamarlo figlio di...",
-        "eventSynopsis": "Dieci anni dopo la misteriosa morte del padre Roger, Fred Macaslim arriva giusto in tempo per salvare il ranch ereditato dall'asta, ostacolando i piani del signorotto Wagner, deciso a impossessarsi...",
-        "epgEventTitle": "E continuavano a chiamarlo figlio di...",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 6608,
-          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
-          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
-          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
-          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "name": "Rai Movie",
-          "description": "Canale Sky Glass 312.",
-          "number": 5024,
-          "servicekey": "9018",
-          "category": {
-            "id": 9,
-            "name": "Altri Digitale Terrestre"
-          }
-        },
-        "content": {
-          "uuid": "cf4a88e5-9e47-4066-a678-b614cd06a60d",
-          "contentTitle": "Stag. 2025 - Gli imperdibili",
-          "url": "/programmi-tv/intrattenimento/stag-2025-gli-imperdibili/cf4a88e5-9e47-4066-a678-b614cd06a60d",
-          "genre": {
-            "id": 1,
-            "name": "Intrattenimento"
-          },
-          "subgenre": {
-            "id": 2,
-            "name": "Intrattenimento"
-          },
-          "imagesMap": [
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411471369",
-        "starttime": "2025-07-11T13:50:00Z",
-        "endtime": "2025-07-11T13:55:00Z",
-        "eventTitle": "Stag. 2025 - Gli imperdibili",
-        "eventSynopsis": "Backstage, anteprime, eventi e curiosita' dentro lo schermo. E' il programma che offre informazione e approfondimento sulla programmazione dei canali che compongono il bouquet Rai.",
-        "epgEventTitle": "Stag. 2025 - Gli imperdibili",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 6608,
-          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
-          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
-          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
-          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "name": "Rai Movie",
-          "description": "Canale Sky Glass 312.",
-          "number": 5024,
-          "servicekey": "9018",
-          "category": {
-            "id": 9,
-            "name": "Altri Digitale Terrestre"
-          }
-        },
-        "content": {
-          "uuid": "af05d103-3e74-460b-a66c-67904d08c4f9",
-          "contentTitle": "Il buono, il brutto, il cattivo",
-          "url": "/film/western/il-buono-il-brutto-il-cattivo/af05d103-3e74-460b-a66c-67904d08c4f9",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 46,
-            "name": "Western"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/af05d103-3e74-460b-a66c-67904d08c4f9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b68bb2d5162e8d0d5a5ae757f43aa83e"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/af05d103-3e74-460b-a66c-67904d08c4f9/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=02631a741398e9c50505ba53cc2e3d0d"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/af05d103-3e74-460b-a66c-67904d08c4f9/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=02631a741398e9c50505ba53cc2e3d0d"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/af05d103-3e74-460b-a66c-67904d08c4f9/background?territory=IT&md5ChecksumParam=7845d495a800a9965872ebe2d15e8379"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/af05d103-3e74-460b-a66c-67904d08c4f9/cover?territory=IT&md5ChecksumParam=b68bb2d5162e8d0d5a5ae757f43aa83e"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/af05d103-3e74-460b-a66c-67904d08c4f9/16-9?territory=IT&md5ChecksumParam=e7d6762dad1aa43d9051ef80c3cdcf43"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/af05d103-3e74-460b-a66c-67904d08c4f9/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=20ccf0900b0e0261eff4cc30c6cc5931"
-              }
-            }
-          ]
-        },
-        "eventId": "411471373",
-        "starttime": "2025-07-11T15:55:00Z",
-        "endtime": "2025-07-11T19:10:00Z",
-        "eventTitle": "Il buono, il brutto, il cattivo",
-        "eventSynopsis": "Mentre divampa la Guerra di Secessione, tre uomini privi di scrupoli e di ideali vivono ai margini della legalita': Tuco \"il brutto\", Joe \"il buono\" e Sentenza \"il cattivo\". Sentenza e' da tempo su...",
-        "epgEventTitle": "Il buono, il brutto, il cattivo",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 6608,
-          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
-          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
-          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
-          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "name": "Rai Movie",
-          "description": "Canale Sky Glass 312.",
-          "number": 5024,
-          "servicekey": "9018",
-          "category": {
-            "id": 9,
-            "name": "Altri Digitale Terrestre"
-          }
-        },
-        "content": {
-          "uuid": "b874be85-657f-421e-abfb-9124fdaff4a7",
-          "contentTitle": "Viale del tramonto",
-          "url": "/film/drammatico/viale-del-tramonto/b874be85-657f-421e-abfb-9124fdaff4a7",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 11,
-            "name": "Drammatico"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/b874be85-657f-421e-abfb-9124fdaff4a7/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=53420b5d247d57d1bc052ae62cfa5bf3"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/b874be85-657f-421e-abfb-9124fdaff4a7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=53420b5d247d57d1bc052ae62cfa5bf3"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/b874be85-657f-421e-abfb-9124fdaff4a7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=21b05b07f8110c94843a1d3261a1bc18"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/b874be85-657f-421e-abfb-9124fdaff4a7/background?territory=IT&md5ChecksumParam=178686cd496357dc1f50de57dc0fddd2"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/b874be85-657f-421e-abfb-9124fdaff4a7/cover?territory=IT&md5ChecksumParam=21b05b07f8110c94843a1d3261a1bc18"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/b874be85-657f-421e-abfb-9124fdaff4a7/16-9?territory=IT&md5ChecksumParam=b358ba8e5a18ec54812cd63836cfe5a7"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/b874be85-657f-421e-abfb-9124fdaff4a7/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=69943f22c709a8f0880cb73b5e824fb0"
-              }
-            }
-          ]
-        },
-        "eventId": "411471374",
-        "starttime": "2025-07-11T19:10:00Z",
-        "endtime": "2025-07-11T21:05:00Z",
-        "eventTitle": "Viale del tramonto",
-        "eventSynopsis": "Hollywood, anni 40. Joe Gillis, sceneggiatore in crisi, si rifugia nella villa di Norma Desmond, ex diva del cinema muto. Norma sogna il grande ritorno sul set e si innamora di Joe, che invece ama ...",
-        "epgEventTitle": "Viale del tramonto",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 6608,
-          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
-          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
-          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
-          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "name": "Rai Movie",
-          "description": "Canale Sky Glass 312.",
-          "number": 5024,
-          "servicekey": "9018",
-          "category": {
-            "id": 9,
-            "name": "Altri Digitale Terrestre"
-          }
-        },
-        "content": {
-          "uuid": "a2e7fbfa-71d6-4c68-b37b-5b15192497ca",
-          "contentTitle": "Oltre le linee nemiche",
-          "url": "/film/azione/oltre-le-linee-nemiche/a2e7fbfa-71d6-4c68-b37b-5b15192497ca",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 32,
-            "name": "Azione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/a2e7fbfa-71d6-4c68-b37b-5b15192497ca/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=18981355602d251a0a7dcef209a1feaa"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/a2e7fbfa-71d6-4c68-b37b-5b15192497ca/COVER_CLEAN_TALL?territory=IT&version=91818f20-e457-32c9-8127-a57dade08943&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=332fa0d08d8b56579cba7a7cbd42ab3d"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/a2e7fbfa-71d6-4c68-b37b-5b15192497ca/COVER_CLEAN_TALL?territory=IT&version=91818f20-e457-32c9-8127-a57dade08943&w=600&h=800&md5ChecksumParam=332fa0d08d8b56579cba7a7cbd42ab3d"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/a2e7fbfa-71d6-4c68-b37b-5b15192497ca/background?territory=IT&md5ChecksumParam=3b87d309ee8d4378d66193d2b84039b6"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/a2e7fbfa-71d6-4c68-b37b-5b15192497ca/cover?territory=IT&md5ChecksumParam=18981355602d251a0a7dcef209a1feaa"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/a2e7fbfa-71d6-4c68-b37b-5b15192497ca/16-9?territory=IT&md5ChecksumParam=1dbd8c3697fdcfaaab5ecc48b946c3d7"
-              }
-            }
-          ]
-        },
-        "eventId": "411471376",
-        "starttime": "2025-07-11T21:05:00Z",
-        "endtime": "2025-07-11T22:55:00Z",
-        "eventTitle": "Oltre le linee nemiche",
-        "eventSynopsis": "Balcani, anni 90. Durante una missione aerea di ricognizione i tenenti della marina Burnett e Stackhouse scoprono numerose fosse comuni tra le montagne della Bosnia, ma l'operazione non passa inoss...",
-        "epgEventTitle": "Oltre le linee nemiche",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 6608,
-          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
-          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
-          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
-          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "name": "Rai Movie",
-          "description": "Canale Sky Glass 312.",
-          "number": 5024,
-          "servicekey": "9018",
-          "category": {
-            "id": 9,
-            "name": "Altri Digitale Terrestre"
-          }
-        },
-        "content": {
-          "uuid": "dd99eba9-111b-462b-bc28-1a21bda259de",
-          "contentTitle": "Stag. 2025 - Appuntamento al cinema",
-          "url": "/programmi-tv/magazine-cinema/stag-2025-appuntamento-al-cinema/dd99eba9-111b-462b-bc28-1a21bda259de",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 113,
-            "name": "Magazine Cinema"
-          },
-          "imagesMap": [
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411475757",
-        "starttime": "2025-07-11T22:55:00Z",
-        "endtime": "2025-07-11T23:00:00Z",
-        "eventTitle": "Stag. 2025 - Appuntamento al cinema",
-        "eventSynopsis": "Rubrica per la promozione della cultura cinematografica in Italia.",
-        "epgEventTitle": "Stag. 2025 - Appuntamento al cinema",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 6608,
-          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
-          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
-          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
-          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
-          "name": "Rai Movie",
-          "description": "Canale Sky Glass 312.",
-          "number": 5024,
-          "servicekey": "9018",
-          "category": {
-            "id": 9,
-            "name": "Altri Digitale Terrestre"
-          }
-        },
-        "content": {
-          "uuid": "4fb7c6c3-3278-34ab-9b6b-b862c88c44e9",
-          "contentTitle": "Kilo Due Bravo - Ad un passo dalla morte",
-          "url": "/film/cinema/kilo-due-bravo-ad-un-passo-dalla-morte/4fb7c6c3-3278-34ab-9b6b-b862c88c44e9",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 4,
-            "name": "Cinema"
-          },
-          "imagesMap": [
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
-              }
-            }
-          ]
-        },
-        "eventId": "411475758",
-        "starttime": "2025-07-11T23:00:00Z",
-        "endtime": "2025-07-12T00:55:00Z",
-        "eventTitle": "Kilo Due Bravo - Ad un passo dalla morte",
-        "eventSynopsis": "Afghanistan, 2006. Un gruppo di paracadutisti britannici, in missione contro i Talebani, e' impegnato nel presidiare il territorio. Durante uno dei tanti giri di perlustrazione, un soldato posa il...",
-        "epgEventTitle": "Kilo Due Bravo - Ad un passo dalla morte",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
     "2025-07-12": [
       {
         "channel": {
@@ -914,7 +74,7 @@
           ]
         },
         "eventId": "411475759",
-        "starttime": "2025-07-12T00:55:00Z",
+        "starttime": "2025-07-12T00:40:00Z",
         "endtime": "2025-07-12T03:00:00Z",
         "eventTitle": "Il tuo ultimo sguardo",
         "eventSynopsis": "Miguel e Wren si incontrano in Africa durante una missione di aiuto umanitario. Le decisioni che devono prendere mettono alla prova il loro rapporto. Candidatura a Cannes 2016.",
@@ -1126,9 +286,9 @@
         "eventId": "411475762",
         "starttime": "2025-07-12T06:40:00Z",
         "endtime": "2025-07-12T06:45:00Z",
-        "eventTitle": "Appuntamento al cinema",
+        "eventTitle": "Stag. 2025 - Appuntamento al cinema",
         "eventSynopsis": "Rubrica per la promozione della cultura cinematografica in Italia.",
-        "epgEventTitle": "Appuntamento al cinema",
+        "epgEventTitle": "Stag. 2025 - Appuntamento al cinema",
         "primeVision": false,
         "resolutions": [
           {
@@ -1200,7 +360,7 @@
         },
         "eventId": "411475763",
         "starttime": "2025-07-12T06:45:00Z",
-        "endtime": "2025-07-12T08:25:00Z",
+        "endtime": "2025-07-12T08:30:00Z",
         "eventTitle": "La parola ai giurati",
         "eventSynopsis": "Dodici giurati devono decidere la sorte di un diciottenne accusato di parricidio: undici vorrebbero condannarlo alla sedia elettrica, sulla base delle prove presunte e delle testimonianze. Solo uno...",
         "epgEventTitle": "La parola ai giurati",
@@ -1269,7 +429,7 @@
           ]
         },
         "eventId": "411475765",
-        "starttime": "2025-07-12T08:25:00Z",
+        "starttime": "2025-07-12T08:30:00Z",
         "endtime": "2025-07-12T10:10:00Z",
         "eventTitle": "Runaway",
         "eventSynopsis": "In un mondo futuro dominato dall'utilizzo dei robot, gli agenti Jack Ramsay e Karen Thompson indagano su di un omicidio che ha coinvolto un robot, scoprendo che qualcuno sta riprogrammando gli auto...",
@@ -1489,7 +649,7 @@
         },
         "eventId": "411475769",
         "starttime": "2025-07-12T12:15:00Z",
-        "endtime": "2025-07-12T13:55:00Z",
+        "endtime": "2025-07-12T14:00:00Z",
         "eventTitle": "Oltre le linee nemiche",
         "eventSynopsis": "Balcani, anni 90. Durante una missione aerea di ricognizione i tenenti della marina Burnett e Stackhouse scoprono numerose fosse comuni tra le montagne della Bosnia, ma l'operazione non passa inoss...",
         "epgEventTitle": "Oltre le linee nemiche",
@@ -1573,8 +733,8 @@
           ]
         },
         "eventId": "411475771",
-        "starttime": "2025-07-12T13:55:00Z",
-        "endtime": "2025-07-12T15:35:00Z",
+        "starttime": "2025-07-12T14:00:00Z",
+        "endtime": "2025-07-12T15:45:00Z",
         "eventTitle": "Aspettando il re",
         "eventSynopsis": "Alan Clay, un uomo d'affari in crisi, per rimettersi in pista vola in Arabia Saudita nel tentativo di concludere con il re l'affare del secolo.",
         "epgEventTitle": "Aspettando il re",
@@ -1658,7 +818,7 @@
           ]
         },
         "eventId": "411475773",
-        "starttime": "2025-07-12T15:35:00Z",
+        "starttime": "2025-07-12T15:45:00Z",
         "endtime": "2025-07-12T17:25:00Z",
         "eventTitle": "Contromano",
         "eventSynopsis": "Contromano - Mario Cavallaro e' un milanese cinquantenne abitudinario che gestisce un negozio di calze, ereditato dal padre. La sua routine viene stravolta da Oba, un giovane senegalese venditore ambulante di c...",
@@ -2758,6 +1918,21 @@
           },
           "imagesMap": [
             {
+              "img": {
+                "url": "/uuid/c474ae80-4a16-48a5-85c0-d6110123ae64/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b186a928f29eaba70705aa27cfa8760f"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/c474ae80-4a16-48a5-85c0-d6110123ae64/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b186a928f29eaba70705aa27cfa8760f"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/c474ae80-4a16-48a5-85c0-d6110123ae64/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=24f1caf2d0e7655bd8fc6d3b7aa84af8"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/c474ae80-4a16-48a5-85c0-d6110123ae64/background?territory=IT&md5ChecksumParam=623b44c358934266ba29297985cce133"
@@ -2778,7 +1953,7 @@
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+                "url": "/uuid/c474ae80-4a16-48a5-85c0-d6110123ae64/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=19e1d8dd343f25430b125cec850061ca"
               }
             }
           ]
@@ -2919,12 +2094,12 @@
             },
             {
               "img": {
-                "url": "/uuid/75023e2d-b4c6-46db-8f3a-46d1fc1c8785/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=224e8ad4b3dcf3ab28d2735873aee07b"
+                "url": "/uuid/75023e2d-b4c6-46db-8f3a-46d1fc1c8785/COVER_CLEAN_TALL?territory=IT&version=e89e3036-78f1-367d-8205-1f17f13f7100&w=600&h=800&md5ChecksumParam=608f14011450c1694029cd4d2e637403"
               }
             },
             {
               "img": {
-                "url": "/uuid/75023e2d-b4c6-46db-8f3a-46d1fc1c8785/COVER_CLEAN_TALL?territory=IT&version=e89e3036-78f1-367d-8205-1f17f13f7100&w=600&h=800&md5ChecksumParam=608f14011450c1694029cd4d2e637403"
+                "url": "/uuid/75023e2d-b4c6-46db-8f3a-46d1fc1c8785/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=224e8ad4b3dcf3ab28d2735873aee07b"
               }
             },
             {
@@ -3490,6 +2665,21 @@
           },
           "imagesMap": [
             {
+              "img": {
+                "url": "/uuid/c474ae80-4a16-48a5-85c0-d6110123ae64/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b186a928f29eaba70705aa27cfa8760f"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/c474ae80-4a16-48a5-85c0-d6110123ae64/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b186a928f29eaba70705aa27cfa8760f"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/c474ae80-4a16-48a5-85c0-d6110123ae64/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=24f1caf2d0e7655bd8fc6d3b7aa84af8"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/c474ae80-4a16-48a5-85c0-d6110123ae64/background?territory=IT&md5ChecksumParam=623b44c358934266ba29297985cce133"
@@ -3510,7 +2700,7 @@
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+                "url": "/uuid/c474ae80-4a16-48a5-85c0-d6110123ae64/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=19e1d8dd343f25430b125cec850061ca"
               }
             }
           ]
@@ -3770,6 +2960,11 @@
           },
           "imagesMap": [
             {
+              "img": {
+                "url": "/uuid/5d9bd7ea-111f-399b-b684-b210ffdc5fa8/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=bc0d2757c91baa0c833be85e8fcacced"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/5d9bd7ea-111f-399b-b684-b210ffdc5fa8/background?territory=IT&md5ChecksumParam=373bcb57890bcd181684d20ac7b7addd"
@@ -3785,12 +2980,6 @@
               "key": "scene",
               "img": {
                 "url": "/uuid/5d9bd7ea-111f-399b-b684-b210ffdc5fa8/16-9?territory=IT&md5ChecksumParam=fec5413b468859fe0bf9095d74bd3534"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
               }
             }
           ]
@@ -4629,9 +3818,9 @@
           }
         },
         "content": {
-          "uuid": "51d8f60a-b19f-4b38-976d-c4c964d7e119",
+          "uuid": "72d8df03-1e87-4c75-b3be-973396049af3",
           "contentTitle": "Un amore a 5 stelle",
-          "url": "/film/commedia/un-amore-a-5-stelle/51d8f60a-b19f-4b38-976d-c4c964d7e119",
+          "url": "/film/commedia/un-amore-a-5-stelle/72d8df03-1e87-4c75-b3be-973396049af3",
           "genre": {
             "id": 3,
             "name": "Film"
@@ -4642,27 +3831,27 @@
           },
           "imagesMap": [
             {
-              "key": "cover",
+              "key": "background",
               "img": {
-                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+                "url": "/uuid/72d8df03-1e87-4c75-b3be-973396049af3/background?territory=IT&md5ChecksumParam=a001dbb276ba47e2d7c9664ed23a53d6"
               }
             },
             {
-              "key": "background",
+              "key": "cover",
               "img": {
-                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+                "url": "/uuid/72d8df03-1e87-4c75-b3be-973396049af3/cover?territory=IT&md5ChecksumParam=0e6a4fa9079a080f052404fa9d7b8b76"
               }
             },
             {
               "key": "scene",
               "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+                "url": "/uuid/72d8df03-1e87-4c75-b3be-973396049af3/16-9?territory=IT&md5ChecksumParam=a2513ec1e215492105971259ca966092"
               }
             },
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+                "url": "/uuid/72d8df03-1e87-4c75-b3be-973396049af3/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=a45f6a558fe0f342dcec90384ffc5f12"
               }
             }
           ]
@@ -4699,40 +3888,55 @@
           }
         },
         "content": {
-          "uuid": "3998876e-3463-46ed-a3c4-3caf42a5874f",
-          "contentTitle": "Press Play - La musica della nostra vita",
-          "url": "/film/cinema/press-play-la-musica-della-nostra-vita/3998876e-3463-46ed-a3c4-3caf42a5874f",
+          "uuid": "525e989a-4c2c-4f5c-a287-42b97e401727",
+          "contentTitle": "Press Play: La musica della nostra vita",
+          "url": "/film/romantico/press-play-la-musica-della-nostra-vita/525e989a-4c2c-4f5c-a287-42b97e401727",
           "genre": {
             "id": 3,
             "name": "Film"
           },
           "subgenre": {
-            "id": 4,
-            "name": "Cinema"
+            "id": 25,
+            "name": "Romantico"
           },
           "imagesMap": [
             {
-              "key": "cover",
               "img": {
-                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+                "url": "/uuid/525e989a-4c2c-4f5c-a287-42b97e401727/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=af844b37b34b4d54fbc5f15cd1d2e7ca"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/525e989a-4c2c-4f5c-a287-42b97e401727/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ea29daeabbbf9ed90aaaa0619f85495b"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/525e989a-4c2c-4f5c-a287-42b97e401727/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ea29daeabbbf9ed90aaaa0619f85495b"
               }
             },
             {
               "key": "background",
               "img": {
-                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+                "url": "/uuid/525e989a-4c2c-4f5c-a287-42b97e401727/background?territory=IT&md5ChecksumParam=9825994c84b3baa05db64d5303c23424"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/525e989a-4c2c-4f5c-a287-42b97e401727/cover?territory=IT&md5ChecksumParam=af844b37b34b4d54fbc5f15cd1d2e7ca"
               }
             },
             {
               "key": "scene",
               "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+                "url": "/uuid/525e989a-4c2c-4f5c-a287-42b97e401727/16-9?territory=IT&md5ChecksumParam=9104abcf4c87ec2db9d8d8deacaa8596"
               }
             },
             {
               "key": "scene_key_art",
               "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+                "url": "/uuid/525e989a-4c2c-4f5c-a287-42b97e401727/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=f02e4904c245f072b62e4ec1881ed66a"
               }
             }
           ]
@@ -4740,9 +3944,9 @@
         "eventId": "411513261",
         "starttime": "2025-07-15T20:55:00Z",
         "endtime": "2025-07-15T22:25:00Z",
-        "eventTitle": "Press Play - La musica della nostra vita",
+        "eventTitle": "Press Play  - La musica della nostra vita",
         "eventSynopsis": "Hawaii, oggi. L'amore fra Laura e Harrison e' interrotto dalla tragedia, ma una playlist su una vecchia cassetta forse puo' cambiare le sorti della loro storia, riportando Laura indietro nel tempo.",
-        "epgEventTitle": "Press Play - La musica della nostra vita",
+        "epgEventTitle": "Press Play  - La musica della nostra vita",
         "primeVision": false,
         "resolutions": [
           {
@@ -6306,6 +5510,11 @@
           },
           "imagesMap": [
             {
+              "img": {
+                "url": "/uuid/329bd570-7cd3-30e5-a1fc-3f8088a8edf2/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=27c3d80d93724671e627c4acf652fb0d"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/329bd570-7cd3-30e5-a1fc-3f8088a8edf2/background?territory=IT&md5ChecksumParam=bcf6bbfac176e3cf3387a78290ade63a"
@@ -6321,12 +5530,6 @@
               "key": "scene",
               "img": {
                 "url": "/uuid/329bd570-7cd3-30e5-a1fc-3f8088a8edf2/16-9?territory=IT&md5ChecksumParam=d99ec29f289c9636877bf98065d16d5b"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
               }
             }
           ]
@@ -7600,10 +6803,1136 @@
         },
         "eventId": "411547072",
         "starttime": "2025-07-18T20:50:00Z",
-        "endtime": "2025-07-18T22:00:00Z",
+        "endtime": "2025-07-18T22:40:00Z",
         "eventTitle": "Un amore a 5 stelle",
         "eventSynopsis": "Marisa una madre single, indipendente e intraprendente di New York, lavora come cameriera in un hotel a 5 stelle di Manhattan. Aspira a una condizione migliore, ma la vita le ha insegnato a contare...",
         "epgEventTitle": "Un amore a 5 stelle",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6608,
+          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
+          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
+          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
+          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "name": "Rai Movie",
+          "description": "Canale Sky Glass 312.",
+          "number": 5024,
+          "servicekey": "9018",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "277e8fd2-29ab-4855-865b-2d586ab88faf",
+          "contentTitle": "Appuntamento al cinema",
+          "url": "/programmi-tv/magazine-cinema/appuntamento-al-cinema/277e8fd2-29ab-4855-865b-2d586ab88faf",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 113,
+            "name": "Magazine Cinema"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411554521",
+        "starttime": "2025-07-18T22:40:00Z",
+        "endtime": "2025-07-18T22:45:00Z",
+        "eventTitle": "Appuntamento al cinema",
+        "eventSynopsis": "Rubrica per la promozione della cultura cinematografica in Italia.",
+        "epgEventTitle": "Appuntamento al cinema",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6608,
+          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
+          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
+          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
+          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "name": "Rai Movie",
+          "description": "Canale Sky Glass 312.",
+          "number": 5024,
+          "servicekey": "9018",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "04783c9a-bbe7-45f5-b1fd-7e51f3010ec2",
+          "contentTitle": "Femme Fatale",
+          "url": "/film/thriller/femme-fatale/04783c9a-bbe7-45f5-b1fd-7e51f3010ec2",
+          "genre": {
+            "id": 3,
+            "name": "Film"
+          },
+          "subgenre": {
+            "id": 88,
+            "name": "Thriller"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411554522",
+        "starttime": "2025-07-18T22:45:00Z",
+        "endtime": "2025-07-19T00:45:00Z",
+        "eventTitle": "Femme Fatale",
+        "eventSynopsis": "Nel 2001 al Festival di Cannes, la ladra Laure Ash, fingendosi fotoreporter, seduce la modella Veronica per rubarle un gioiello. Ma la rapina fallisce, costringendo Laure a fuggire con la refurtiva...",
+        "epgEventTitle": "Femme Fatale",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      }
+    ],
+    "2025-07-19": [
+      {
+        "channel": {
+          "id": 6608,
+          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
+          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
+          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
+          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "name": "Rai Movie",
+          "description": "Canale Sky Glass 312.",
+          "number": 5024,
+          "servicekey": "9018",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "72337b22-61e7-433c-b857-494985998a65",
+          "contentTitle": "Free State of Jones",
+          "url": "/film/drammatico/free-state-of-jones/72337b22-61e7-433c-b857-494985998a65",
+          "genre": {
+            "id": 3,
+            "name": "Film"
+          },
+          "subgenre": {
+            "id": 11,
+            "name": "Drammatico"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/72337b22-61e7-433c-b857-494985998a65/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0b44e60edef4ce5d69efd38c73ffe4df"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/72337b22-61e7-433c-b857-494985998a65/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=2d952572773dc877196327b55b54b65c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/72337b22-61e7-433c-b857-494985998a65/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=2d952572773dc877196327b55b54b65c"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/72337b22-61e7-433c-b857-494985998a65/background?territory=IT&md5ChecksumParam=45d9d0c1df45f3c2d6cb3f76168b1eb5"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/72337b22-61e7-433c-b857-494985998a65/cover?territory=IT&md5ChecksumParam=0b44e60edef4ce5d69efd38c73ffe4df"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/72337b22-61e7-433c-b857-494985998a65/16-9?territory=IT&md5ChecksumParam=2bffcf83209b9e96e92b0a27fe390a4e"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/72337b22-61e7-433c-b857-494985998a65/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=25dc6b167a3d586a9660d5a38798f3d8"
+              }
+            }
+          ]
+        },
+        "eventId": "411554523",
+        "starttime": "2025-07-19T00:45:00Z",
+        "endtime": "2025-07-19T03:00:00Z",
+        "eventTitle": "Free State of Jones",
+        "eventSynopsis": "Free State of Jones - L'incredibile storia vera di Newt Knight, il contadino del Sud degli States che durante la Guerra Civile Americana si ribello' all'esercito confederato. Con l'aiuto di un gruppo di agricoltori e di...",
+        "epgEventTitle": "Free State of Jones",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6608,
+          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
+          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
+          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
+          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "name": "Rai Movie",
+          "description": "Canale Sky Glass 312.",
+          "number": 5024,
+          "servicekey": "9018",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "10cff355-84cb-443b-b4d9-23bacd634fac",
+          "contentTitle": "Maigret a Pigalle - Maigret a Pigalle",
+          "url": "/film/poliziesco/maigret-a-pigalle-maigret-a-pigalle/10cff355-84cb-443b-b4d9-23bacd634fac",
+          "genre": {
+            "id": 3,
+            "name": "Film"
+          },
+          "subgenre": {
+            "id": 68,
+            "name": "Poliziesco"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411554524",
+        "starttime": "2025-07-19T03:00:00Z",
+        "endtime": "2025-07-19T04:45:00Z",
+        "eventTitle": "Maigret a Pigalle - Maigret a Pigalle",
+        "eventSynopsis": "Maigret a Pigalle - Maigret sta per partire per le vacanze ma un collega gli chiede aiuto per l'indagine sul misterioso assassinio di una spogliarellista e di una nobildonna, entrambi avvenuti a Pigalle.",
+        "epgEventTitle": "Maigret a Pigalle - Maigret a Pigalle",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6608,
+          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
+          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
+          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
+          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "name": "Rai Movie",
+          "description": "Canale Sky Glass 312.",
+          "number": 5024,
+          "servicekey": "9018",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "018b37c4-a54b-4ade-90f0-a71e22a3de4c",
+          "contentTitle": "Rumba therapy",
+          "url": "/film/cinema/rumba-therapy/018b37c4-a54b-4ade-90f0-a71e22a3de4c",
+          "genre": {
+            "id": 3,
+            "name": "Film"
+          },
+          "subgenre": {
+            "id": 4,
+            "name": "Cinema"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411554525",
+        "starttime": "2025-07-19T04:45:00Z",
+        "endtime": "2025-07-19T06:30:00Z",
+        "eventTitle": "Rumba therapy",
+        "eventSynopsis": "Francia, oggi. Il cinquantenne Tony, dopo un infarto, decide di riallacciare i rapporti con la figlia abbandonata vent'anni prima. Per riconquistarla, si iscrive in incognito al suo corso di rumba.",
+        "epgEventTitle": "Rumba therapy",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6608,
+          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
+          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
+          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
+          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "name": "Rai Movie",
+          "description": "Canale Sky Glass 312.",
+          "number": 5024,
+          "servicekey": "9018",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "277e8fd2-29ab-4855-865b-2d586ab88faf",
+          "contentTitle": "Appuntamento al cinema",
+          "url": "/programmi-tv/magazine-cinema/appuntamento-al-cinema/277e8fd2-29ab-4855-865b-2d586ab88faf",
+          "genre": {
+            "id": 4,
+            "name": "Mondo e Tendenze"
+          },
+          "subgenre": {
+            "id": 113,
+            "name": "Magazine Cinema"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411554526",
+        "starttime": "2025-07-19T06:30:00Z",
+        "endtime": "2025-07-19T06:35:00Z",
+        "eventTitle": "Appuntamento al cinema",
+        "eventSynopsis": "Rubrica per la promozione della cultura cinematografica in Italia..",
+        "epgEventTitle": "Appuntamento al cinema",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6608,
+          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
+          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
+          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
+          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "name": "Rai Movie",
+          "description": "Canale Sky Glass 312.",
+          "number": 5024,
+          "servicekey": "9018",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "fde8b5dd-ab04-48eb-949c-7595a60473c1",
+          "contentTitle": "Ladies in Black",
+          "url": "/film/commedia/ladies-in-black/fde8b5dd-ab04-48eb-949c-7595a60473c1",
+          "genre": {
+            "id": 3,
+            "name": "Film"
+          },
+          "subgenre": {
+            "id": 18,
+            "name": "Commedia"
+          },
+          "imagesMap": [
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/fde8b5dd-ab04-48eb-949c-7595a60473c1/background?territory=IT&md5ChecksumParam=9c2e9cd107e9aa7d9387d8235a0cf463"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/fde8b5dd-ab04-48eb-949c-7595a60473c1/cover?territory=IT&md5ChecksumParam=835b451bcf56570046b7b38f5fbd3f4f"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/fde8b5dd-ab04-48eb-949c-7595a60473c1/16-9?territory=IT&md5ChecksumParam=5baaa955b1548d5b8109dfde2fa5aac4"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411554527",
+        "starttime": "2025-07-19T06:35:00Z",
+        "endtime": "2025-07-19T08:25:00Z",
+        "eventTitle": "Ladies in Black",
+        "eventSynopsis": "Sydney, Natale 1959. Lisa viene assunta come nuova assistente nel grande magazzino Goode's. Qui fa amicizia con Fay, inizialmente diffidente nei confronti degli immigrati, Patty, che cerca maggiore...",
+        "epgEventTitle": "Ladies in Black",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6608,
+          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
+          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
+          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
+          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "name": "Rai Movie",
+          "description": "Canale Sky Glass 312.",
+          "number": 5024,
+          "servicekey": "9018",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "123c7976-df02-4f40-84f1-137a610f2d7b",
+          "contentTitle": "Romeo e Giulietta",
+          "url": "/film/drammatico/romeo-e-giulietta/123c7976-df02-4f40-84f1-137a610f2d7b",
+          "genre": {
+            "id": 3,
+            "name": "Film"
+          },
+          "subgenre": {
+            "id": 11,
+            "name": "Drammatico"
+          },
+          "imagesMap": [
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/123c7976-df02-4f40-84f1-137a610f2d7b/background?territory=IT&md5ChecksumParam=3c1b376837fceeba7243462014c34fb0"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/123c7976-df02-4f40-84f1-137a610f2d7b/cover?territory=IT&md5ChecksumParam=5d3efc0b5da2054b771236085bd17122"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/123c7976-df02-4f40-84f1-137a610f2d7b/16-9?territory=IT&md5ChecksumParam=1e87059ed40c022f5c9660801a40658e"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411554528",
+        "starttime": "2025-07-19T08:25:00Z",
+        "endtime": "2025-07-19T10:25:00Z",
+        "eventTitle": "Romeo e Giulietta",
+        "eventSynopsis": "Romeo and Juliet - Il premio Oscar Julian Fellowes riscrive la tragedia di W.Shakespeare per una ricca coproduzione internazionale. L'amore impossibile tra Romeo Montecchi e Giulietta Capuleti ha qui i volti dei giov...",
+        "epgEventTitle": "Romeo e Giulietta",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6608,
+          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
+          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
+          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
+          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "name": "Rai Movie",
+          "description": "Canale Sky Glass 312.",
+          "number": 5024,
+          "servicekey": "9018",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "86ed62e8-5faa-4ef5-aa98-38f4f50bf0e7",
+          "contentTitle": "The Double",
+          "url": "/film/thriller/the-double/86ed62e8-5faa-4ef5-aa98-38f4f50bf0e7",
+          "genre": {
+            "id": 3,
+            "name": "Film"
+          },
+          "subgenre": {
+            "id": 88,
+            "name": "Thriller"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/86ed62e8-5faa-4ef5-aa98-38f4f50bf0e7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=d6f60963513a090465c7bcbaadbda4af"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/86ed62e8-5faa-4ef5-aa98-38f4f50bf0e7/background?territory=IT&md5ChecksumParam=d877c0d0803ed47c8f2855b45cbcd5e2"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/86ed62e8-5faa-4ef5-aa98-38f4f50bf0e7/cover?territory=IT&md5ChecksumParam=d6f60963513a090465c7bcbaadbda4af"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/86ed62e8-5faa-4ef5-aa98-38f4f50bf0e7/16-9?territory=IT&md5ChecksumParam=a5cd41a8f8ac105e82cdb7a2b96955b9"
+              }
+            }
+          ]
+        },
+        "eventId": "411554529",
+        "starttime": "2025-07-19T10:25:00Z",
+        "endtime": "2025-07-19T12:05:00Z",
+        "eventTitle": "The Double",
+        "eventSynopsis": "L'agente CIA in pensione, Paul Shepherdson, e' richiamato in servizio in seguito all'omicidio di un senatore che intratteneva rapporti con la Russia. Il modus operandi dell'omicida, ricondurrebbe a...",
+        "epgEventTitle": "The Double",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6608,
+          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
+          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
+          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
+          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "name": "Rai Movie",
+          "description": "Canale Sky Glass 312.",
+          "number": 5024,
+          "servicekey": "9018",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "09fc8558-39e5-4306-935b-0fdb6177c011",
+          "contentTitle": "Gli imperdibili",
+          "url": "/programmi-tv/intrattenimento/gli-imperdibili/09fc8558-39e5-4306-935b-0fdb6177c011",
+          "genre": {
+            "id": 1,
+            "name": "Intrattenimento"
+          },
+          "subgenre": {
+            "id": 2,
+            "name": "Intrattenimento"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411554530",
+        "starttime": "2025-07-19T12:05:00Z",
+        "endtime": "2025-07-19T12:10:00Z",
+        "eventTitle": "Gli imperdibili",
+        "eventSynopsis": "Backstage, anteprime, eventi e curiosita' dentro lo schermo. E' il programma che offre informazione e approfondimento sulla programmazione dei canali che compongono il bouquet Rai.",
+        "epgEventTitle": "Gli imperdibili",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6608,
+          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
+          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
+          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
+          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "name": "Rai Movie",
+          "description": "Canale Sky Glass 312.",
+          "number": 5024,
+          "servicekey": "9018",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "1e85352f-4552-4671-a21a-241f35bfbf98",
+          "contentTitle": "Dirty Dancing - Balli proibiti",
+          "url": "/film/romantico/dirty-dancing-balli-proibiti/1e85352f-4552-4671-a21a-241f35bfbf98",
+          "genre": {
+            "id": 3,
+            "name": "Film"
+          },
+          "subgenre": {
+            "id": 25,
+            "name": "Romantico"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/1e85352f-4552-4671-a21a-241f35bfbf98/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7f29cd5ac38322579a58c9226705d59b"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/1e85352f-4552-4671-a21a-241f35bfbf98/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b97df402ef787b98795c887cb95d5b64"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/1e85352f-4552-4671-a21a-241f35bfbf98/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b97df402ef787b98795c887cb95d5b64"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/1e85352f-4552-4671-a21a-241f35bfbf98/background?territory=IT&md5ChecksumParam=58399f7cbd0f9a78b326e2ab39fbb7a3"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/1e85352f-4552-4671-a21a-241f35bfbf98/cover?territory=IT&md5ChecksumParam=7f29cd5ac38322579a58c9226705d59b"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/1e85352f-4552-4671-a21a-241f35bfbf98/16-9?territory=IT&md5ChecksumParam=f51fe7b0f4ac3f438c80bb8fa226a5f9"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/1e85352f-4552-4671-a21a-241f35bfbf98/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=f67cd2b9b2c962940d6b9eb5222e8ecd"
+              }
+            }
+          ]
+        },
+        "eventId": "411554531",
+        "starttime": "2025-07-19T12:10:00Z",
+        "endtime": "2025-07-19T13:55:00Z",
+        "eventTitle": "Dirty Dancing - Balli proibiti",
+        "eventSynopsis": "1963. Durante le vacanze sui monti Catskills, la giovane Frances, detta Baby, si innamora dell'insegnante di danza Johnny Castle. Diventati compagni di ballo, tra i due scoppia una complicita' dent...",
+        "epgEventTitle": "Dirty Dancing - Balli proibiti",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6608,
+          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
+          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
+          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
+          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "name": "Rai Movie",
+          "description": "Canale Sky Glass 312.",
+          "number": 5024,
+          "servicekey": "9018",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "f54277c0-d244-4c45-99ab-b3f0a9873e8d",
+          "contentTitle": "Storia di noi due",
+          "url": "/film/romantico/storia-di-noi-due/f54277c0-d244-4c45-99ab-b3f0a9873e8d",
+          "genre": {
+            "id": 3,
+            "name": "Film"
+          },
+          "subgenre": {
+            "id": 25,
+            "name": "Romantico"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/f54277c0-d244-4c45-99ab-b3f0a9873e8d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b8527442b97d7928b79e92de93da6723"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/f54277c0-d244-4c45-99ab-b3f0a9873e8d/COVER_CLEAN_TALL?territory=IT&version=eb3e9900-bd94-30db-b526-af793183c2ab&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=6848a462e564c01e8d8ad1c9a841754c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/f54277c0-d244-4c45-99ab-b3f0a9873e8d/COVER_CLEAN_TALL?territory=IT&version=eb3e9900-bd94-30db-b526-af793183c2ab&w=600&h=800&md5ChecksumParam=6848a462e564c01e8d8ad1c9a841754c"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/f54277c0-d244-4c45-99ab-b3f0a9873e8d/background?territory=IT&md5ChecksumParam=04b4f24d22818149ed1387b447f80e2d"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/f54277c0-d244-4c45-99ab-b3f0a9873e8d/cover?territory=IT&md5ChecksumParam=b8527442b97d7928b79e92de93da6723"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/f54277c0-d244-4c45-99ab-b3f0a9873e8d/16-9?territory=IT&md5ChecksumParam=fde913bbbed555e836988299a00f8bd7"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/f54277c0-d244-4c45-99ab-b3f0a9873e8d/COVER_TITLE_WIDE?territory=IT&version=2a7da5ac-610f-3428-b23f-69f08f2214cd&w=1920&h=1080&md5ChecksumParam=5a808b25cfb2810f51508171a8b3a7fc"
+              }
+            }
+          ]
+        },
+        "eventId": "411554532",
+        "starttime": "2025-07-19T13:55:00Z",
+        "endtime": "2025-07-19T15:30:00Z",
+        "eventTitle": "Storia di noi due",
+        "eventSynopsis": "Con i due figli al campo estivo, due coniugi tentano una separazione temporanea per capire se, dopo 15 anni, il loro matrimonio sia al capolinea. 3 canzoni di Eric Clapton nella colonna sonora",
+        "epgEventTitle": "Storia di noi due",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6608,
+          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
+          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
+          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
+          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "name": "Rai Movie",
+          "description": "Canale Sky Glass 312.",
+          "number": 5024,
+          "servicekey": "9018",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "7b8f648e-7bc2-45cd-a748-3bfdaddc9b1e",
+          "contentTitle": "L'immortale",
+          "url": "/film/azione/limmortale/7b8f648e-7bc2-45cd-a748-3bfdaddc9b1e",
+          "genre": {
+            "id": 3,
+            "name": "Film"
+          },
+          "subgenre": {
+            "id": 32,
+            "name": "Azione"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/7b8f648e-7bc2-45cd-a748-3bfdaddc9b1e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=33e36c720425db94bc79fc5e793878c4"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/7b8f648e-7bc2-45cd-a748-3bfdaddc9b1e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=33e36c720425db94bc79fc5e793878c4"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/7b8f648e-7bc2-45cd-a748-3bfdaddc9b1e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f096b72488cf20a536a51ee9ffc468ab"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/7b8f648e-7bc2-45cd-a748-3bfdaddc9b1e/background?territory=IT&md5ChecksumParam=11c0c0c83f50b28956f8ba114763a7bb"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/7b8f648e-7bc2-45cd-a748-3bfdaddc9b1e/cover?territory=IT&md5ChecksumParam=f096b72488cf20a536a51ee9ffc468ab"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/7b8f648e-7bc2-45cd-a748-3bfdaddc9b1e/16-9?territory=IT&md5ChecksumParam=ebba82532a40033f628c028d45f90d74"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/7b8f648e-7bc2-45cd-a748-3bfdaddc9b1e/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=242c1dbeedfc722cb3e3325afd4924b4"
+              }
+            }
+          ]
+        },
+        "eventId": "411554535",
+        "starttime": "2025-07-19T17:10:00Z",
+        "endtime": "2025-07-19T19:10:00Z",
+        "eventTitle": "L'immortale",
+        "eventSynopsis": "L'ex criminale marsigliese Charly Mattei' aveva deciso di cambiare vita e negli ultimi anni si era dedicato solo a sua moglie e ai suoi due bambini. Un giorno pero' viene crivellato da 22 pallottol...",
+        "epgEventTitle": "L'immortale",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6608,
+          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
+          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
+          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
+          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "name": "Rai Movie",
+          "description": "Canale Sky Glass 312.",
+          "number": 5024,
+          "servicekey": "9018",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "7356b343-ee4e-4549-9bd9-e6018dd2af0b",
+          "contentTitle": "Notte prima degli esami",
+          "url": "/film/cinema/notte-prima-degli-esami/7356b343-ee4e-4549-9bd9-e6018dd2af0b",
+          "genre": {
+            "id": 3,
+            "name": "Film"
+          },
+          "subgenre": {
+            "id": 4,
+            "name": "Cinema"
+          },
+          "imagesMap": [
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/DTT_Cover_aylSk7oKf.png"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/DTT_Background_SC_jj48Zj.png"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/DTT_Scene_9d-2xQT-J.png"
+              }
+            }
+          ]
+        },
+        "eventId": "411554537",
+        "starttime": "2025-07-19T19:10:00Z",
+        "endtime": "2025-07-19T20:55:00Z",
+        "eventTitle": "Notte prima degli esami",
+        "eventSynopsis": "Roma, 1989. Luca e i suoi amici si preparano ad affrontare l'esame di maturita' ma il ragazzo ha la brillante idea di litigare col professore di lettere, senza sapere che il docente sara' membro in...",
+        "epgEventTitle": "Notte prima degli esami",
+        "primeVision": false,
+        "resolutions": [
+          {
+            "resolutionType": "resolution4k",
+            "value": false
+          }
+        ]
+      },
+      {
+        "channel": {
+          "id": 6608,
+          "logo": "/logo/9018raimovie_Light_Fit.png?checksum=92238f13a601f8cf0aa1d45e85117ae3",
+          "logoPadding": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "logoDark": "/logo/9018raimovie_Dark_Fit.png?checksum=fc1399345bfd0b6144b1025a298ad2c5",
+          "logoDarkPadding": "/logo/9018raimovie_Dark_Padding.png?checksum=6469508c31272f25bab646d35ffe8af2",
+          "logoLight": "/logo/9018raimovie_Light_Padding.png?checksum=4867622acabd0b019309db461435c1ff",
+          "name": "Rai Movie",
+          "description": "Canale Sky Glass 312.",
+          "number": 5024,
+          "servicekey": "9018",
+          "category": {
+            "id": 9,
+            "name": "Altri Digitale Terrestre"
+          }
+        },
+        "content": {
+          "uuid": "22f75b5b-3bcd-4e54-a3db-94947c381adc",
+          "contentTitle": "Benvenuto Presidente!",
+          "url": "/film/commedia/benvenuto-presidente/22f75b5b-3bcd-4e54-a3db-94947c381adc",
+          "genre": {
+            "id": 3,
+            "name": "Film"
+          },
+          "subgenre": {
+            "id": 18,
+            "name": "Commedia"
+          },
+          "imagesMap": [
+            {
+              "img": {
+                "url": "/uuid/22f75b5b-3bcd-4e54-a3db-94947c381adc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=91224353d191ff6ef8b8556842e75966"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/22f75b5b-3bcd-4e54-a3db-94947c381adc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fc7d9157af4042693dfe3195de12d156"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/22f75b5b-3bcd-4e54-a3db-94947c381adc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fc7d9157af4042693dfe3195de12d156"
+              }
+            },
+            {
+              "key": "background",
+              "img": {
+                "url": "/uuid/22f75b5b-3bcd-4e54-a3db-94947c381adc/background?territory=IT&md5ChecksumParam=bd02f356a988490e01746231b73080b1"
+              }
+            },
+            {
+              "key": "cover",
+              "img": {
+                "url": "/uuid/22f75b5b-3bcd-4e54-a3db-94947c381adc/cover?territory=IT&md5ChecksumParam=91224353d191ff6ef8b8556842e75966"
+              }
+            },
+            {
+              "key": "scene",
+              "img": {
+                "url": "/uuid/22f75b5b-3bcd-4e54-a3db-94947c381adc/16-9?territory=IT&md5ChecksumParam=0d7c11786a988668af26cc7085632efc"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/22f75b5b-3bcd-4e54-a3db-94947c381adc/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=d76e14803e0b2ee6efc83b8b694e0996"
+              }
+            }
+          ]
+        },
+        "eventId": "411554539",
+        "starttime": "2025-07-19T20:55:00Z",
+        "endtime": "2025-07-19T22:00:00Z",
+        "eventTitle": "Benvenuto presidente!",
+        "eventSynopsis": "Peppino, diminutivo di Giuseppe Garibaldi, e' un bibliotecario onesto e genuino di un piccolo paese di montagna che un giorno, per puro caso, diventa Presidente della Repubblica. L'impatto con Roma...",
+        "epgEventTitle": "Benvenuto presidente!",
         "primeVision": false,
         "resolutions": [
           {

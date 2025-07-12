@@ -1,1455 +1,6 @@
 {
   "name": "Sky Cinema Family",
   "events_by_date": {
-    "2025-07-11": [
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "d27749bd-3653-43e1-b1d3-c3e106c4de3f",
-          "contentTitle": "Il Gladiatore Vs 300",
-          "episodeNumber": 245,
-          "seasonNumber": 1,
-          "url": "/programmi-tv/cinema/questo-o-quello-speciale/stagione-1/episodio-245/d27749bd-3653-43e1-b1d3-c3e106c4de3f",
-          "genre": {
-            "id": 4,
-            "name": "Mondo e Tendenze"
-          },
-          "subgenre": {
-            "id": 79,
-            "name": "Cinema"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=37191d524d4a02933777b213b380192f"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/COVER_CLEAN_TALL?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5e757beb954c00795827e090d506e7e8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/COVER_CLEAN_TALL?territory=IT&md5ChecksumParam=5e757beb954c00795827e090d506e7e8"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/background?territory=IT&md5ChecksumParam=b50c5edd3a11dd20b429951e8006d08f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/cover?territory=IT&md5ChecksumParam=37191d524d4a02933777b213b380192f"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/16-9?territory=IT&md5ChecksumParam=a537ceafe465de76e35c8f5043cfc221"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/d27749bd-3653-43e1-b1d3-c3e106c4de3f/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=fdf8549c8df653df7dd2f5354f7ee7a7"
-              }
-            }
-          ]
-        },
-        "eventId": "411410458",
-        "starttime": "2025-07-11T00:00:00Z",
-        "endtime": "2025-07-11T00:15:00Z",
-        "eventTitle": "Il Gladiatore Vs 300",
-        "eventSynopsis": "S1 Ep245 Il Gladiatore Vs 300 - Mettiamo a confronto \"Il gladiatore\" e \"300\", entrambi film epici su episodi dell'antichita'. Ascoltiamo spunti, curiosita' e pareri onesti per decidere quale di queste due pellicole guardare.",
-        "epgEventTitle": "S1 Ep245 - Questo o quello - Speciale",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "ffe42efa-f758-40c0-aa3f-6a3683d0e2c4",
-          "contentTitle": "Il mago di Oz",
-          "url": "/film/avventura/il-mago-di-oz/ffe42efa-f758-40c0-aa3f-6a3683d0e2c4",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 63,
-            "name": "Avventura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/ffe42efa-f758-40c0-aa3f-6a3683d0e2c4/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=752de2bacc10b39cf14cdcb8ba813348"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ffe42efa-f758-40c0-aa3f-6a3683d0e2c4/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=12e5792a567c265c4f16a86f41b898d2"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/ffe42efa-f758-40c0-aa3f-6a3683d0e2c4/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=12e5792a567c265c4f16a86f41b898d2"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/ffe42efa-f758-40c0-aa3f-6a3683d0e2c4/background?territory=IT&md5ChecksumParam=17a3647d5c33f60875770da8bfd162fb"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/ffe42efa-f758-40c0-aa3f-6a3683d0e2c4/cover?territory=IT&md5ChecksumParam=752de2bacc10b39cf14cdcb8ba813348"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/ffe42efa-f758-40c0-aa3f-6a3683d0e2c4/16-9?territory=IT&md5ChecksumParam=6a387431dd5fab90460b22e6ad201c06"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/ffe42efa-f758-40c0-aa3f-6a3683d0e2c4/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=afbd6ee527b890caea244ddd2a0b13e3"
-              }
-            }
-          ]
-        },
-        "eventId": "411410459",
-        "starttime": "2025-07-11T00:15:00Z",
-        "endtime": "2025-07-11T01:55:00Z",
-        "eventTitle": "Il mago di Oz (Vers. Rest.)",
-        "eventSynopsis": "2 Oscar al fiabesco musical con Judy Garland. Un tornado scaraventa la giovane Dorothy in un mondo popolato da personaggi surreali. Solo il mago di Oz puo' aiutarla a tornare a casa (USA 1939)",
-        "epgEventTitle": "Il mago di Oz (Vers. Rest.)",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "352759db-ea47-47e9-a9cc-ab400bffa74d",
-          "contentTitle": "Il giro del mondo in 80 giorni",
-          "url": "/film/animazione/il-giro-del-mondo-in-80-giorni/352759db-ea47-47e9-a9cc-ab400bffa74d",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 83,
-            "name": "Animazione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/352759db-ea47-47e9-a9cc-ab400bffa74d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b10a0b1bc4202270b9feb80e06e1b143"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/352759db-ea47-47e9-a9cc-ab400bffa74d/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7fa9850a960ed6fefb6d522e113aaf86"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/352759db-ea47-47e9-a9cc-ab400bffa74d/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7fa9850a960ed6fefb6d522e113aaf86"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/352759db-ea47-47e9-a9cc-ab400bffa74d/background?territory=IT&md5ChecksumParam=07f174bcb76c392606d01b4a777cdc0f"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/352759db-ea47-47e9-a9cc-ab400bffa74d/cover?territory=IT&md5ChecksumParam=b10a0b1bc4202270b9feb80e06e1b143"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/352759db-ea47-47e9-a9cc-ab400bffa74d/16-9?territory=IT&md5ChecksumParam=8e8b69efdbeda7c33c2a8665892bdc27"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/352759db-ea47-47e9-a9cc-ab400bffa74d/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=d3672ed02c31cd5a253e22d6e9855808"
-              }
-            }
-          ]
-        },
-        "eventId": "411410460",
-        "starttime": "2025-07-11T01:55:00Z",
-        "endtime": "2025-07-11T03:15:00Z",
-        "eventTitle": "Il giro del mondo in 80 giorni",
-        "eventSynopsis": "Colorato adattamento animato del capolavoro di Jules Verne. La scimmietta Passepartout e il ranocchio Phileas partono per un folle viaggio per battere il record di un famoso esploratore (FRA/BEL 2021)",
-        "epgEventTitle": "Il giro del mondo in 80 giorni",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "11e8db6e-d887-4705-b080-6c2368309d58",
-          "contentTitle": "Il viaggio di Norm",
-          "url": "/film/animazione/il-viaggio-di-norm/11e8db6e-d887-4705-b080-6c2368309d58",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 83,
-            "name": "Animazione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/11e8db6e-d887-4705-b080-6c2368309d58/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=8c9c45c54b8583b8fed35025d1bce278"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/11e8db6e-d887-4705-b080-6c2368309d58/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=572b08136c49272c0fb5c221179ea125"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/11e8db6e-d887-4705-b080-6c2368309d58/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=572b08136c49272c0fb5c221179ea125"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/11e8db6e-d887-4705-b080-6c2368309d58/background?territory=IT&md5ChecksumParam=ee54e6311a629141b54d4d9a72d4e644"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/11e8db6e-d887-4705-b080-6c2368309d58/cover?territory=IT&md5ChecksumParam=8c9c45c54b8583b8fed35025d1bce278"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/11e8db6e-d887-4705-b080-6c2368309d58/16-9?territory=IT&md5ChecksumParam=53839551d0ca1281e44d9afa5bccab07"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/11e8db6e-d887-4705-b080-6c2368309d58/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=04a5cb60bd863053b0d284a28f6e1e2f"
-              }
-            }
-          ]
-        },
-        "eventId": "411410461",
-        "starttime": "2025-07-11T03:15:00Z",
-        "endtime": "2025-07-11T04:45:00Z",
-        "eventTitle": "Il viaggio di Norm",
-        "eventSynopsis": "Dal Polo Nord a Manhattan in un esilarante film d'animazione. Un orso che sa parlare agli umani raggiunge New York per salvare l'Artico da un imprenditore, ma viene scambiato per un attore (USA/IND 2016)",
-        "epgEventTitle": "Il viaggio di Norm",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "c320935f-2b70-4259-ba3f-38c2cef18d8e",
-          "contentTitle": "Shaun, vita da pecora. Farmageddon: Il film",
-          "url": "/film/animazione/shaun-vita-da-pecora-farmageddon-il-film/c320935f-2b70-4259-ba3f-38c2cef18d8e",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 83,
-            "name": "Animazione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/c320935f-2b70-4259-ba3f-38c2cef18d8e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=bebbf4f14edc9e7c2f73827f92ca425f"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c320935f-2b70-4259-ba3f-38c2cef18d8e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=6300fe4e4d4c20c522fcd5078e0310f8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c320935f-2b70-4259-ba3f-38c2cef18d8e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=6300fe4e4d4c20c522fcd5078e0310f8"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/c320935f-2b70-4259-ba3f-38c2cef18d8e/background?territory=IT&md5ChecksumParam=544c8864eb97813bc0643a4de9264216"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/c320935f-2b70-4259-ba3f-38c2cef18d8e/cover?territory=IT&md5ChecksumParam=bebbf4f14edc9e7c2f73827f92ca425f"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/c320935f-2b70-4259-ba3f-38c2cef18d8e/16-9?territory=IT&md5ChecksumParam=81ace7ca14be565b0adb9fb6c9ab4d00"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/c320935f-2b70-4259-ba3f-38c2cef18d8e/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=fd14b64c4e4a8358c1a97358a33f96dc"
-              }
-            }
-          ]
-        },
-        "eventId": "411438437",
-        "starttime": "2025-07-11T04:45:00Z",
-        "endtime": "2025-07-11T06:15:00Z",
-        "eventTitle": "Shaun, vita da pecora - Farmageddon",
-        "eventSynopsis": "Il secondo film ispirato alla serie animata si tinge di fantascienza. Shaun e i suoi amici devono difendere dagli agenti del governo una piccola aliena atterrata nella fattoria.",
-        "epgEventTitle": "Shaun, vita da pecora - Farmageddon",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "8982401c-28fc-4c69-bb13-c589be971145",
-          "contentTitle": "Caterina va in città",
-          "url": "/film/commedia/caterina-va-in-citta/8982401c-28fc-4c69-bb13-c589be971145",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 18,
-            "name": "Commedia"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/8982401c-28fc-4c69-bb13-c589be971145/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7c4f8bfca64c2f469a799f6aec1cfe82"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8982401c-28fc-4c69-bb13-c589be971145/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=dcc343ecb4d998d322da9873ff6391c5"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8982401c-28fc-4c69-bb13-c589be971145/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=dcc343ecb4d998d322da9873ff6391c5"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/8982401c-28fc-4c69-bb13-c589be971145/background?territory=IT&md5ChecksumParam=6a8de86ab81ada3148b9dddd20c1ac94"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/8982401c-28fc-4c69-bb13-c589be971145/cover?territory=IT&md5ChecksumParam=7c4f8bfca64c2f469a799f6aec1cfe82"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/8982401c-28fc-4c69-bb13-c589be971145/16-9?territory=IT&md5ChecksumParam=ddb33dddc9a159dee873b24913a112de"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/8982401c-28fc-4c69-bb13-c589be971145/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=f1a0575ed9fc6fb65e2ced2e3f009b76"
-              }
-            }
-          ]
-        },
-        "eventId": "411438438",
-        "starttime": "2025-07-11T06:15:00Z",
-        "endtime": "2025-07-11T08:05:00Z",
-        "eventTitle": "Caterina va in città",
-        "eventSynopsis": "Commedia di Paolo Virzi' con Margherita Buy e Sergio Castellitto. Giunta a Roma dalla provincia con i genitori, una timida tredicenne s'immerge nelle contraddizioni sociali della capitale (ITA 2003)",
-        "epgEventTitle": "Caterina va in città",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "7db67e45-8213-494c-9994-90e319679b05",
-          "contentTitle": "Rex: Un cucciolo a palazzo",
-          "url": "/film/animazione/rex-un-cucciolo-a-palazzo/7db67e45-8213-494c-9994-90e319679b05",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 83,
-            "name": "Animazione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/7db67e45-8213-494c-9994-90e319679b05/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=0a7efe69cacd5424d35dd1cc872d2fad"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/7db67e45-8213-494c-9994-90e319679b05/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=0a7efe69cacd5424d35dd1cc872d2fad"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/7db67e45-8213-494c-9994-90e319679b05/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=27ae7e1804cbb3faf9f3a3095e36ca1c"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/7db67e45-8213-494c-9994-90e319679b05/background?territory=IT&md5ChecksumParam=62f0df0ec415382fe604abb00c28b290"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/7db67e45-8213-494c-9994-90e319679b05/cover?territory=IT&md5ChecksumParam=27ae7e1804cbb3faf9f3a3095e36ca1c"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/7db67e45-8213-494c-9994-90e319679b05/16-9?territory=IT&md5ChecksumParam=6d02e0b3a842d04dc30059050d2d1385"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/7db67e45-8213-494c-9994-90e319679b05/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=ae42c30361611f57b4cf54325f46864c"
-              }
-            }
-          ]
-        },
-        "eventId": "411438439",
-        "starttime": "2025-07-11T08:05:00Z",
-        "endtime": "2025-07-11T09:30:00Z",
-        "eventTitle": "Rex - Un cucciolo a palazzo",
-        "eventSynopsis": "Divertente film d'animazione alla corte d'Inghilterra. Rex, il cucciolo preferito dalla Regina, e' costretto a misurarsi con la vita da strada finendo in un club di combattimenti tra cani (BEL 2019)",
-        "epgEventTitle": "Rex - Un cucciolo a palazzo",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "6ac2a612-8b43-4730-85a3-fd3968b7b0bc",
-          "contentTitle": "A spasso col panda",
-          "url": "/film/animazione/a-spasso-col-panda/6ac2a612-8b43-4730-85a3-fd3968b7b0bc",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 83,
-            "name": "Animazione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f4ee9d6015d9d6eefdad051d7600302d"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f4ee9d6015d9d6eefdad051d7600302d"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e135130c4261809384aad3b60afbfb8d"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/background?territory=IT&md5ChecksumParam=c8649a05f9272b6cfd39b30a57056664"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/cover?territory=IT&md5ChecksumParam=e135130c4261809384aad3b60afbfb8d"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/16-9?territory=IT&md5ChecksumParam=ca114055eee36def90e34698e2fb6bd4"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=f1b737e62cd7109bf7292a2784ee19d1"
-              }
-            }
-          ]
-        },
-        "eventId": "411438440",
-        "starttime": "2025-07-11T09:30:00Z",
-        "endtime": "2025-07-11T11:00:00Z",
-        "eventTitle": "A spasso col panda",
-        "eventSynopsis": "Dallo sceneggiatore di \"Madagascar\", un'avventura d'animazione. L'orso Mic Mic e i suoi simpatici amici viaggiano verso la Cina per restituire un cucciolo di panda ai suoi genitori (USA/RUS 2019)",
-        "epgEventTitle": "A spasso col panda",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "8d537202-6025-44a1-9b72-7f949c1d243d",
-          "contentTitle": "C'è tempo",
-          "url": "/film/commedia/ce-tempo/8d537202-6025-44a1-9b72-7f949c1d243d",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 18,
-            "name": "Commedia"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/8d537202-6025-44a1-9b72-7f949c1d243d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f9aff4077657a9330c934a175f054dcc"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8d537202-6025-44a1-9b72-7f949c1d243d/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b8521b52c33ffd43dab35b74ded8dc06"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/8d537202-6025-44a1-9b72-7f949c1d243d/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b8521b52c33ffd43dab35b74ded8dc06"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/8d537202-6025-44a1-9b72-7f949c1d243d/background?territory=IT&md5ChecksumParam=7f472315f90fb97e055989af4ec46c00"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/8d537202-6025-44a1-9b72-7f949c1d243d/cover?territory=IT&md5ChecksumParam=f9aff4077657a9330c934a175f054dcc"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/8d537202-6025-44a1-9b72-7f949c1d243d/16-9?territory=IT&md5ChecksumParam=d5423ebc28c4953366019823139d2b67"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/8d537202-6025-44a1-9b72-7f949c1d243d/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=ffbee3a25b6c4fa310791149c1ae83d8"
-              }
-            }
-          ]
-        },
-        "eventId": "411438441",
-        "starttime": "2025-07-11T11:00:00Z",
-        "endtime": "2025-07-11T12:50:00Z",
-        "eventTitle": "C'e' tempo",
-        "eventSynopsis": "Stefano Fresi in una commedia 'on the road' di Walter Veltroni. Alla morte del padre, un quarantenne 'osservatore di arcobaleni' scopre di avere un fratellastro minorenne.",
-        "epgEventTitle": "C'e' tempo",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "df69a1f1-c5ee-4ffd-883f-5ad5849b4918",
-          "contentTitle": "Me contro Te: Il film: Vacanze in Transilvania",
-          "url": "/film/avventura/me-contro-te-il-film-vacanze-in-transilvania/df69a1f1-c5ee-4ffd-883f-5ad5849b4918",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 63,
-            "name": "Avventura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/df69a1f1-c5ee-4ffd-883f-5ad5849b4918/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=90e563acf6ce3d8a4c4b611c4bdf7c5a"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/df69a1f1-c5ee-4ffd-883f-5ad5849b4918/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1314a680d91efd1ba7140a30fcc5572b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/df69a1f1-c5ee-4ffd-883f-5ad5849b4918/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1314a680d91efd1ba7140a30fcc5572b"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/df69a1f1-c5ee-4ffd-883f-5ad5849b4918/background?territory=IT&md5ChecksumParam=7f72fb00bcce3fde7685bebff2ce64c8"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/df69a1f1-c5ee-4ffd-883f-5ad5849b4918/cover?territory=IT&md5ChecksumParam=90e563acf6ce3d8a4c4b611c4bdf7c5a"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/df69a1f1-c5ee-4ffd-883f-5ad5849b4918/16-9?territory=IT&md5ChecksumParam=a1d245b597bb15412dcb61739ee4b310"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/df69a1f1-c5ee-4ffd-883f-5ad5849b4918/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=ef85af6944bfb71ace142318d7f34f78"
-              }
-            }
-          ]
-        },
-        "eventId": "411438442",
-        "starttime": "2025-07-11T12:50:00Z",
-        "endtime": "2025-07-11T14:00:00Z",
-        "eventTitle": "Me contro Te: Il film - Vacanze in Transilvania",
-        "eventSynopsis": "... Transilvania. - Sofi', Lui' e i loro amici volano in Transilvania per impedire a Viperiana e alla banda di Malefici di impossessarsi di un potente diamante custodito nel castello del piu' temuto dei vampiri: il Conte Dracula.",
-        "epgEventTitle": "Me contro Te: Il film - Vacanze in Transilvania",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "6509df77-ae70-4aed-a1de-f643a0378259",
-          "contentTitle": "Il lupo e il leone",
-          "url": "/film/avventura/il-lupo-e-il-leone/6509df77-ae70-4aed-a1de-f643a0378259",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 63,
-            "name": "Avventura"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=35756c09d552bcc964239086b6a64117"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ac69a60f426bd1282dc8128429631bbe"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=35756c09d552bcc964239086b6a64117"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/background?territory=IT&md5ChecksumParam=9df2b0e2c0f43490426fb3f09c4bc8e9"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/cover?territory=IT&md5ChecksumParam=ac69a60f426bd1282dc8128429631bbe"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/16-9?territory=IT&md5ChecksumParam=e5741a2f53e4960290b66f3ae92cb8ba"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=903d185d817984877d9fa10b6a4131ff"
-              }
-            }
-          ]
-        },
-        "eventId": "411438443",
-        "starttime": "2025-07-11T14:00:00Z",
-        "endtime": "2025-07-11T15:40:00Z",
-        "eventTitle": "Il lupo e il leone",
-        "eventSynopsis": "Tenera avventura dai creatori di \"Mia e il leone bianco\". Giunta nei boschi del Canada dopo la morte del nonno, una giovane pianista si prende cura di un lupacchiotto e un leoncino (CAN/FRA 2021)",
-        "epgEventTitle": "Il lupo e il leone",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "dae48c18-51ea-4e84-9930-3d746ac93339",
-          "contentTitle": "Shrek",
-          "url": "/film/animazione/shrek/dae48c18-51ea-4e84-9930-3d746ac93339",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 83,
-            "name": "Animazione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/dae48c18-51ea-4e84-9930-3d746ac93339/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=66e6d4af54acc0f2d9d3c593036956c5"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/dae48c18-51ea-4e84-9930-3d746ac93339/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5dead3a3922dc5064f308c0a043a3921"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/dae48c18-51ea-4e84-9930-3d746ac93339/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5dead3a3922dc5064f308c0a043a3921"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/dae48c18-51ea-4e84-9930-3d746ac93339/background?territory=IT&md5ChecksumParam=70a837b44b3f460d1d9c21615084a4e6"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/dae48c18-51ea-4e84-9930-3d746ac93339/cover?territory=IT&md5ChecksumParam=66e6d4af54acc0f2d9d3c593036956c5"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/dae48c18-51ea-4e84-9930-3d746ac93339/16-9?territory=IT&md5ChecksumParam=788385d3d8ac05787e400835f787964f"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/dae48c18-51ea-4e84-9930-3d746ac93339/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=f27ab2ca06101e3fc953c04bb43e4f60"
-              }
-            }
-          ]
-        },
-        "eventId": "411438444",
-        "starttime": "2025-07-11T15:40:00Z",
-        "endtime": "2025-07-11T17:20:00Z",
-        "eventTitle": "Shrek",
-        "eventSynopsis": "Oscar 2002 all'animazione che ha rivoluzionato il mondo delle favole. Un orco verde, scorbutico ma dal cuore buono, deve liberare una principessa che nasconde un segreto (USA 2001)",
-        "epgEventTitle": "Shrek",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "2f0c0cde-32d1-42c5-a40c-3ec2a4dffda7",
-          "contentTitle": "Shrek 2",
-          "url": "/film/animazione/shrek-2/2f0c0cde-32d1-42c5-a40c-3ec2a4dffda7",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 83,
-            "name": "Animazione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/2f0c0cde-32d1-42c5-a40c-3ec2a4dffda7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2d6088f999a6b90bee5a1d44347cabd9"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/2f0c0cde-32d1-42c5-a40c-3ec2a4dffda7/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=00cee25303588d1c531e7e269e7318d2"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/2f0c0cde-32d1-42c5-a40c-3ec2a4dffda7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=00cee25303588d1c531e7e269e7318d2"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/2f0c0cde-32d1-42c5-a40c-3ec2a4dffda7/background?territory=IT&md5ChecksumParam=538845a2716ec541e4baac5dfa8bceb8"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/2f0c0cde-32d1-42c5-a40c-3ec2a4dffda7/cover?territory=IT&md5ChecksumParam=2d6088f999a6b90bee5a1d44347cabd9"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/2f0c0cde-32d1-42c5-a40c-3ec2a4dffda7/16-9?territory=IT&md5ChecksumParam=d53e841b10329d12414796e72d9c45a9"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/2f0c0cde-32d1-42c5-a40c-3ec2a4dffda7/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=856f979be991d0f013a2e77fc59a61e0"
-              }
-            }
-          ]
-        },
-        "eventId": "411438445",
-        "starttime": "2025-07-11T17:20:00Z",
-        "endtime": "2025-07-11T19:00:00Z",
-        "eventTitle": "Shrek 2",
-        "eventSynopsis": "Il divertimento continua in compagnia dell'orco piu' simpatico del grande schermo. Shrek e Fiona dovranno affrontare i genitori di lei, poco propensi ad accettare un \"mostro\" come genero (USA 2004)",
-        "epgEventTitle": "Shrek 2",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "33e823d7-fa30-4ee3-96e6-c9aad4e4ec1c",
-          "contentTitle": "Shrek terzo",
-          "url": "/film/animazione/shrek-terzo/33e823d7-fa30-4ee3-96e6-c9aad4e4ec1c",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 83,
-            "name": "Animazione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/33e823d7-fa30-4ee3-96e6-c9aad4e4ec1c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae4294c80c0baecd47d7717317b07387"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/33e823d7-fa30-4ee3-96e6-c9aad4e4ec1c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6da7dcc04b79642a9804b6217eb5c82"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/33e823d7-fa30-4ee3-96e6-c9aad4e4ec1c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e6da7dcc04b79642a9804b6217eb5c82"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/33e823d7-fa30-4ee3-96e6-c9aad4e4ec1c/background?territory=IT&md5ChecksumParam=03b508850d00f51d75654e652c8b49f8"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/33e823d7-fa30-4ee3-96e6-c9aad4e4ec1c/cover?territory=IT&md5ChecksumParam=ae4294c80c0baecd47d7717317b07387"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/33e823d7-fa30-4ee3-96e6-c9aad4e4ec1c/16-9?territory=IT&md5ChecksumParam=6cf8dd9d98eda815b1f4f8b8930feda4"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/33e823d7-fa30-4ee3-96e6-c9aad4e4ec1c/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=9c2a9b8ed54ac4af8d1df7f62ce2e6e0"
-              }
-            }
-          ]
-        },
-        "eventId": "411438446",
-        "starttime": "2025-07-11T19:00:00Z",
-        "endtime": "2025-07-11T20:35:00Z",
-        "eventTitle": "Shrek Terzo",
-        "eventSynopsis": "Terzo capitolo con il simpatico orco verde. Shrek eredita il trono del suocero, ma la vita di corte non fa per lui. Aiutato da Ciuchino e dal Gatto con gli stivali, cerchera' un sostituto (USA 2007)",
-        "epgEventTitle": "Shrek Terzo",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "db18f590-2426-4a3f-8d35-1e1b5372a056",
-          "contentTitle": "Shrek e vissero felici e contenti",
-          "url": "/film/animazione/shrek-e-vissero-felici-e-contenti/db18f590-2426-4a3f-8d35-1e1b5372a056",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 83,
-            "name": "Animazione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/db18f590-2426-4a3f-8d35-1e1b5372a056/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=a89f9b494b27a3d294bae2fce5288080"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/db18f590-2426-4a3f-8d35-1e1b5372a056/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=a89f9b494b27a3d294bae2fce5288080"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/db18f590-2426-4a3f-8d35-1e1b5372a056/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=77ea5e3377314d56aac3a52c06c718c8"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/db18f590-2426-4a3f-8d35-1e1b5372a056/background?territory=IT&md5ChecksumParam=258eb3334988c1e63e836ee3d7e94a02"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/db18f590-2426-4a3f-8d35-1e1b5372a056/cover?territory=IT&md5ChecksumParam=77ea5e3377314d56aac3a52c06c718c8"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/db18f590-2426-4a3f-8d35-1e1b5372a056/16-9?territory=IT&md5ChecksumParam=417ea66611bdd495982a5784f7fad109"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/db18f590-2426-4a3f-8d35-1e1b5372a056/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=6a74385e4f40f195614b8a5ce86388b8"
-              }
-            }
-          ]
-        },
-        "eventId": "411438447",
-        "starttime": "2025-07-11T20:35:00Z",
-        "endtime": "2025-07-11T22:10:00Z",
-        "eventTitle": "Shrek e vissero felici e contenti",
-        "eventSynopsis": "Quarto capitolo della saga d'animazione con l'orco piu' famoso di Hollywood. Diventato padre, Shrek sente la nostalgia dei vecchi tempi e cade nella trappola del malefico Tremotino (USA 2010)",
-        "epgEventTitle": "Shrek e vissero felici e contenti",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "f611471c-0355-4c8c-8432-7ba9b313731f",
-          "contentTitle": "Come far litigare mamma e papà",
-          "url": "/film/commedia/come-far-litigare-mamma-e-papa/f611471c-0355-4c8c-8432-7ba9b313731f",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 18,
-            "name": "Commedia"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/f611471c-0355-4c8c-8432-7ba9b313731f/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7b3bc69a5251d2531c166e67fdd1d7f4"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f611471c-0355-4c8c-8432-7ba9b313731f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=1d9986549ac5ff3d55dc1c14149f2cf8"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/f611471c-0355-4c8c-8432-7ba9b313731f/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=7b3bc69a5251d2531c166e67fdd1d7f4"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/f611471c-0355-4c8c-8432-7ba9b313731f/background?territory=IT&md5ChecksumParam=547cf4eb6270c8378a6ae38541c2e25b"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/f611471c-0355-4c8c-8432-7ba9b313731f/cover?territory=IT&md5ChecksumParam=1d9986549ac5ff3d55dc1c14149f2cf8"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/f611471c-0355-4c8c-8432-7ba9b313731f/16-9?territory=IT&md5ChecksumParam=98864a9e5eba5c0fc792863fd94687cd"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/f611471c-0355-4c8c-8432-7ba9b313731f/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=f1d8e0a7c1d6e69c22f30323f519cbe8"
-              }
-            }
-          ]
-        },
-        "eventId": "411438448",
-        "starttime": "2025-07-11T22:10:00Z",
-        "endtime": "2025-07-11T23:45:00Z",
-        "eventTitle": "Come far litigare mamma e papà",
-        "eventSynopsis": "Brillante commedia per tutta la famiglia con Giampaolo Morelli e Carolina Crescentini. Invidioso dei compagni di classe, Gabriele elabora un piano per far separare i suoi genitori (ITA 2024)",
-        "epgEventTitle": "Come far litigare mamma e papà",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      },
-      {
-        "channel": {
-          "id": 9042,
-          "logo": "/logo/255skycinemafamily_Light_Fit.png?checksum=d1656464-20a9-4f0e-b7f9-49f01c1beea7",
-          "logoPadding": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "logoDark": "/logo/255skycinemafamily_Dark_Fit.png?checksum=4090eef8-5133-4c0c-b518-47504b399aeb",
-          "logoDarkPadding": "/logo/255skycinemafamily_Dark_Padding.png?checksum=ffa36d9b-9e70-4d2a-831c-a1a706314d1a",
-          "logoLight": "/logo/255skycinemafamily_Light_Padding.png?checksum=6f9a7cb7-4a36-41de-98f8-8638db7e9d4c",
-          "name": "Sky Cinema Family",
-          "description": "Il canale tv dedicato ai film per tutta la famiglia. Canale Sky Glass 304.",
-          "number": 304,
-          "servicekey": "255",
-          "category": {
-            "id": 1,
-            "name": "Cinema"
-          }
-        },
-        "content": {
-          "uuid": "11e8db6e-d887-4705-b080-6c2368309d58",
-          "contentTitle": "Il viaggio di Norm",
-          "url": "/film/animazione/il-viaggio-di-norm/11e8db6e-d887-4705-b080-6c2368309d58",
-          "genre": {
-            "id": 3,
-            "name": "Film"
-          },
-          "subgenre": {
-            "id": 83,
-            "name": "Animazione"
-          },
-          "imagesMap": [
-            {
-              "img": {
-                "url": "/uuid/11e8db6e-d887-4705-b080-6c2368309d58/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=8c9c45c54b8583b8fed35025d1bce278"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/11e8db6e-d887-4705-b080-6c2368309d58/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=572b08136c49272c0fb5c221179ea125"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/11e8db6e-d887-4705-b080-6c2368309d58/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=572b08136c49272c0fb5c221179ea125"
-              }
-            },
-            {
-              "key": "background",
-              "img": {
-                "url": "/uuid/11e8db6e-d887-4705-b080-6c2368309d58/background?territory=IT&md5ChecksumParam=ee54e6311a629141b54d4d9a72d4e644"
-              }
-            },
-            {
-              "key": "cover",
-              "img": {
-                "url": "/uuid/11e8db6e-d887-4705-b080-6c2368309d58/cover?territory=IT&md5ChecksumParam=8c9c45c54b8583b8fed35025d1bce278"
-              }
-            },
-            {
-              "key": "scene",
-              "img": {
-                "url": "/uuid/11e8db6e-d887-4705-b080-6c2368309d58/16-9?territory=IT&md5ChecksumParam=53839551d0ca1281e44d9afa5bccab07"
-              }
-            },
-            {
-              "key": "scene_key_art",
-              "img": {
-                "url": "/uuid/11e8db6e-d887-4705-b080-6c2368309d58/COVER_TITLE_WIDE?territory=IT&md5ChecksumParam=04a5cb60bd863053b0d284a28f6e1e2f"
-              }
-            }
-          ]
-        },
-        "eventId": "411438449",
-        "starttime": "2025-07-11T23:45:00Z",
-        "endtime": "2025-07-12T01:15:00Z",
-        "eventTitle": "Il viaggio di Norm",
-        "eventSynopsis": "Dal Polo Nord a Manhattan in un esilarante film d'animazione. Un orso che sa parlare agli umani raggiunge New York per salvare l'Artico da un imprenditore, ma viene scambiato per un attore (USA/IND 2016)",
-        "epgEventTitle": "Il viaggio di Norm",
-        "primeVision": false,
-        "resolutions": [
-          {
-            "resolutionType": "resolution4k",
-            "value": false
-          }
-        ]
-      }
-    ],
     "2025-07-12": [
       {
         "channel": {
@@ -1653,17 +204,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=35756c09d552bcc964239086b6a64117"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=35756c09d552bcc964239086b6a64117"
               }
             },
             {
               "img": {
                 "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ac69a60f426bd1282dc8128429631bbe"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=35756c09d552bcc964239086b6a64117"
               }
             },
             {
@@ -2078,17 +629,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/33e823d7-fa30-4ee3-96e6-c9aad4e4ec1c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae4294c80c0baecd47d7717317b07387"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/33e823d7-fa30-4ee3-96e6-c9aad4e4ec1c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6da7dcc04b79642a9804b6217eb5c82"
               }
             },
             {
               "img": {
                 "url": "/uuid/33e823d7-fa30-4ee3-96e6-c9aad4e4ec1c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e6da7dcc04b79642a9804b6217eb5c82"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/33e823d7-fa30-4ee3-96e6-c9aad4e4ec1c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae4294c80c0baecd47d7717317b07387"
               }
             },
             {
@@ -2760,7 +1311,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
+                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
               }
             },
             {
@@ -2770,7 +1321,7 @@
             },
             {
               "img": {
-                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
+                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
               }
             },
             {
@@ -2845,17 +1396,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/dd83f7a5-912b-4808-ac3f-807d3971c967/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3e5834a22f473292997ff81e66744fd1"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/dd83f7a5-912b-4808-ac3f-807d3971c967/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3e5834a22f473292997ff81e66744fd1"
               }
             },
             {
               "img": {
                 "url": "/uuid/dd83f7a5-912b-4808-ac3f-807d3971c967/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f07e138286b18278ce6a62bcc169788a"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/dd83f7a5-912b-4808-ac3f-807d3971c967/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3e5834a22f473292997ff81e66744fd1"
               }
             },
             {
@@ -3141,7 +1692,7 @@
         },
         "eventId": "411438151",
         "starttime": "2025-07-13T08:10:00Z",
-        "endtime": "2025-07-13T09:55:00Z",
+        "endtime": "2025-07-13T09:50:00Z",
         "eventTitle": "La Famiglia Addams",
         "eventSynopsis": "Anjelica Huston, Raul Julia e Christina Ricci nel film tratto dalla celebre serie degli anni 60. Qualcuno si presenta dagli Addams spacciandosi per lo zio Fester. Sara' davvero lui? (USA 1991)",
         "epgEventTitle": "La Famiglia Addams",
@@ -3210,8 +1761,8 @@
           ]
         },
         "eventId": "411438152",
-        "starttime": "2025-07-13T09:55:00Z",
-        "endtime": "2025-07-13T11:45:00Z",
+        "starttime": "2025-07-13T09:50:00Z",
+        "endtime": "2025-07-13T11:40:00Z",
         "eventTitle": "Inkheart - La leggenda di Cuore d'inchiostro",
         "eventSynopsis": "... d'inchiostro. - Brendan Fraser in una avventura fra realta' e fantasia. La dodicenne Maggie e suo padre hanno il potere di rendere umani i personaggi dei romanzi. Ma c'e' un effetto collaterale...",
         "epgEventTitle": "Inkheart - La leggenda di Cuore d'inchiostro",
@@ -3295,8 +1846,8 @@
           ]
         },
         "eventId": "411438153",
-        "starttime": "2025-07-13T11:45:00Z",
-        "endtime": "2025-07-13T13:55:00Z",
+        "starttime": "2025-07-13T11:40:00Z",
+        "endtime": "2025-07-13T13:45:00Z",
         "eventTitle": "Biancaneve e il cacciatore",
         "eventSynopsis": "Kristen Stewart, Chris Hemsworth e Charlize Theron nella rilettura della famosa fiaba. La crudele regina incarica un cacciatore di uccidere la figliastra Biancaneve, in fuga verso il bosco (USA 2012)",
         "epgEventTitle": "Biancaneve e il cacciatore",
@@ -3380,8 +1931,8 @@
           ]
         },
         "eventId": "411438154",
-        "starttime": "2025-07-13T13:55:00Z",
-        "endtime": "2025-07-13T15:50:00Z",
+        "starttime": "2025-07-13T13:45:00Z",
+        "endtime": "2025-07-13T15:45:00Z",
         "eventTitle": "Il cacciatore e la regina di ghiaccio",
         "eventSynopsis": "Prequel di 'Biancaneve e il cacciatore' con Charlize Theron, Chris Hemsworth e Jessica Chastain. Un cacciatore e una guerriera difendono la Terra incantata da due streghe maligne (USA 2016)",
         "epgEventTitle": "Il cacciatore e la regina di ghiaccio",
@@ -3465,8 +2016,8 @@
           ]
         },
         "eventId": "411438155",
-        "starttime": "2025-07-13T15:50:00Z",
-        "endtime": "2025-07-13T17:20:00Z",
+        "starttime": "2025-07-13T15:45:00Z",
+        "endtime": "2025-07-13T17:15:00Z",
         "eventTitle": "Beethoven",
         "eventSynopsis": "Spassosa commedia trascinata da un irrequieto cane San Bernardo, che provochera' epici disastri in una famiglia californiana. Ma di fronte al pericolo, tutti saranno pronti a difenderlo.",
         "epgEventTitle": "Beethoven",
@@ -3510,7 +2061,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f4a3fcda-70ca-4ffc-a3e5-d045b3a50095/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3011179efd7aa66453bf7a0a18ee89dd"
+                "url": "/uuid/f4a3fcda-70ca-4ffc-a3e5-d045b3a50095/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e091f81b7bb6ca2610ccd7989b22c2cd"
               }
             },
             {
@@ -3520,7 +2071,7 @@
             },
             {
               "img": {
-                "url": "/uuid/f4a3fcda-70ca-4ffc-a3e5-d045b3a50095/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e091f81b7bb6ca2610ccd7989b22c2cd"
+                "url": "/uuid/f4a3fcda-70ca-4ffc-a3e5-d045b3a50095/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3011179efd7aa66453bf7a0a18ee89dd"
               }
             },
             {
@@ -3550,7 +2101,7 @@
           ]
         },
         "eventId": "411438156",
-        "starttime": "2025-07-13T17:20:00Z",
+        "starttime": "2025-07-13T17:15:00Z",
         "endtime": "2025-07-13T19:00:00Z",
         "eventTitle": "Nonno questa volta è guerra",
         "eventSynopsis": "Robert De Niro, Uma Thurman e Christopher Walken nella commedia Sky Original per tutta la famiglia. Un nonno occupa la stanza del nipote, che fara' di tutto per riconquistare il suo spazio (USA 2020)",
@@ -3636,7 +2187,7 @@
         },
         "eventId": "411438157",
         "starttime": "2025-07-13T19:00:00Z",
-        "endtime": "2025-07-13T20:50:00Z",
+        "endtime": "2025-07-13T20:45:00Z",
         "eventTitle": "Jumanji",
         "eventSynopsis": "Avventure fantasy per Robin Williams. Due ragazzi rimangono intrappolati nei pericolosi labirinti di un gioco da tavolo e affrontano ogni tipo di insidia per liberarsi.",
         "epgEventTitle": "Jumanji",
@@ -3720,7 +2271,7 @@
           ]
         },
         "eventId": "411438158",
-        "starttime": "2025-07-13T20:50:00Z",
+        "starttime": "2025-07-13T20:45:00Z",
         "endtime": "2025-07-13T22:25:00Z",
         "eventTitle": "Belle & Sebastien - L'avventura continua",
         "eventSynopsis": "Secondo film tratto dai romanzi di Cecile Aubry. Sebastien non crede alla morte di Angelina e parte alla sua ricerca insieme a Belle. Durante il viaggio, una scoperta cambiera' la sua vita (FRA 2015)",
@@ -3878,7 +2429,7 @@
         },
         "eventId": "411438160",
         "starttime": "2025-07-13T22:35:00Z",
-        "endtime": "2025-07-14T00:20:00Z",
+        "endtime": "2025-07-14T00:25:00Z",
         "eventTitle": "Inkheart - La leggenda di Cuore d'inchiostro",
         "eventSynopsis": "... d'inchiostro. - Brendan Fraser in una avventura fra realta' e fantasia. La dodicenne Maggie e suo padre hanno il potere di rendere umani i personaggi dei romanzi. Ma c'e' un effetto collaterale...",
         "epgEventTitle": "Inkheart - La leggenda di Cuore d'inchiostro",
@@ -3964,8 +2515,8 @@
           ]
         },
         "eventId": "411438161",
-        "starttime": "2025-07-14T00:20:00Z",
-        "endtime": "2025-07-14T01:45:00Z",
+        "starttime": "2025-07-14T00:25:00Z",
+        "endtime": "2025-07-14T01:50:00Z",
         "eventTitle": "Il gigante di ferro",
         "eventSynopsis": "Toccante animazione dal regista premio Oscar per \"Gli incredibili\". Anni 50: il piccolo Hogarth incontra un robot piovuto dallo spazio. Dovra' proteggerlo da inchieste e pregiudizi.",
         "epgEventTitle": "Il gigante di ferro",
@@ -4049,8 +2600,8 @@
           ]
         },
         "eventId": "411438162",
-        "starttime": "2025-07-14T01:45:00Z",
-        "endtime": "2025-07-14T03:25:00Z",
+        "starttime": "2025-07-14T01:50:00Z",
+        "endtime": "2025-07-14T03:30:00Z",
         "eventTitle": "One Piece: Stampede - Il film",
         "eventSynopsis": "Avventura d'animazione che celebra l'omonima serie. Sull'isola di Delta, Luffy e la sua ciurma affrontano la minaccia infernale che vuole rovinare il raduno di tutti i pirati del mondo (JPN 2019)",
         "epgEventTitle": "One Piece: Stampede - Il film",
@@ -4134,7 +2685,7 @@
           ]
         },
         "eventId": "411438163",
-        "starttime": "2025-07-14T03:25:00Z",
+        "starttime": "2025-07-14T03:30:00Z",
         "endtime": "2025-07-14T04:50:00Z",
         "eventTitle": "Capitan Sciabola e il diamante magico",
         "eventSynopsis": "Avventura animata nel mondo dei pirati. A caccia di un diamante fatato, Capitan Sciabola incontrera' uno scaltro orfanello, un giovane corsaro e un'avventurosa e intraprendente fanciulla (NOR 2019)",
@@ -4305,7 +2856,7 @@
         },
         "eventId": "411438219",
         "starttime": "2025-07-14T06:20:00Z",
-        "endtime": "2025-07-14T08:20:00Z",
+        "endtime": "2025-07-14T08:15:00Z",
         "eventTitle": "The Portable Door",
         "eventSynopsis": "Dai libri fantasy di Tom Hol, film Sky Original con Christoph Waltz, Sam Neill e Patrick Gibson. Londra: due tirocinanti scoprono che i loro capi vogliono sabotare il mondo della magia (USA/AUS 2023)",
         "epgEventTitle": "The Portable Door",
@@ -4349,7 +2900,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f4a3fcda-70ca-4ffc-a3e5-d045b3a50095/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3011179efd7aa66453bf7a0a18ee89dd"
+                "url": "/uuid/f4a3fcda-70ca-4ffc-a3e5-d045b3a50095/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e091f81b7bb6ca2610ccd7989b22c2cd"
               }
             },
             {
@@ -4359,7 +2910,7 @@
             },
             {
               "img": {
-                "url": "/uuid/f4a3fcda-70ca-4ffc-a3e5-d045b3a50095/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e091f81b7bb6ca2610ccd7989b22c2cd"
+                "url": "/uuid/f4a3fcda-70ca-4ffc-a3e5-d045b3a50095/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3011179efd7aa66453bf7a0a18ee89dd"
               }
             },
             {
@@ -4389,8 +2940,8 @@
           ]
         },
         "eventId": "411438220",
-        "starttime": "2025-07-14T08:20:00Z",
-        "endtime": "2025-07-14T10:00:00Z",
+        "starttime": "2025-07-14T08:15:00Z",
+        "endtime": "2025-07-14T09:55:00Z",
         "eventTitle": "Nonno questa volta è guerra",
         "eventSynopsis": "Robert De Niro, Uma Thurman e Christopher Walken nella commedia Sky Original per tutta la famiglia. Un nonno occupa la stanza del nipote, che fara' di tutto per riconquistare il suo spazio (USA 2020)",
         "epgEventTitle": "Nonno questa volta è guerra",
@@ -4476,8 +3027,8 @@
           ]
         },
         "eventId": "411438221",
-        "starttime": "2025-07-14T10:00:00Z",
-        "endtime": "2025-07-14T10:15:00Z",
+        "starttime": "2025-07-14T09:55:00Z",
+        "endtime": "2025-07-14T10:10:00Z",
         "eventTitle": "Ritorno al futuro",
         "eventSynopsis": "S1 Ep66 Ritorno al futuro - Francesco Castelnuovo e Gianni Canova ci portano alla scoperta della mitica trilogia di Robert Zemeckis, disponibile da sabato 12 a lunedi' 14 ottobre su Sky Cinema Collection.",
         "epgEventTitle": "S1 Ep66 - Questo o quello: Speciale",
@@ -4561,8 +3112,8 @@
           ]
         },
         "eventId": "411438222",
-        "starttime": "2025-07-14T10:15:00Z",
-        "endtime": "2025-07-14T11:55:00Z",
+        "starttime": "2025-07-14T10:10:00Z",
+        "endtime": "2025-07-14T11:50:00Z",
         "eventTitle": "Alla fine ci sei tu",
         "eventSynopsis": "Asa Butterfield e Maisie Williams in una storia di crescita. Un ragazzo ipocondriaco affronta le sue peggiori paure quando accetta di esaudire gli ultimi desideri di una coetanea malata (USA 2018)",
         "epgEventTitle": "Alla fine ci sei tu",
@@ -4646,8 +3197,8 @@
           ]
         },
         "eventId": "411438223",
-        "starttime": "2025-07-14T11:55:00Z",
-        "endtime": "2025-07-14T13:35:00Z",
+        "starttime": "2025-07-14T11:50:00Z",
+        "endtime": "2025-07-14T13:25:00Z",
         "eventTitle": "Dragon Trainer",
         "eventSynopsis": "Dai creatori di \"Shrek\", un altro emozionante capolavoro d'animazione. Hiccup, figlio di un capo vichingo, affronta il drago che minaccia la sua tribu' ma finisce per stringerci amicizia (USA 2010)",
         "epgEventTitle": "Dragon Trainer",
@@ -4731,8 +3282,8 @@
           ]
         },
         "eventId": "411438224",
-        "starttime": "2025-07-14T13:35:00Z",
-        "endtime": "2025-07-14T15:30:00Z",
+        "starttime": "2025-07-14T13:25:00Z",
+        "endtime": "2025-07-14T15:20:00Z",
         "eventTitle": "La musica nel cuore - August Rush",
         "eventSynopsis": "Freddie Highmore e Robin Williams in un film toccante e magico. Il piccolo August, prodigio della musica, suona per le strade di New York sperando di rintracciare i suoi genitori.",
         "epgEventTitle": "La musica nel cuore - August Rush",
@@ -4816,8 +3367,8 @@
           ]
         },
         "eventId": "411438225",
-        "starttime": "2025-07-14T15:30:00Z",
-        "endtime": "2025-07-14T17:15:00Z",
+        "starttime": "2025-07-14T15:20:00Z",
+        "endtime": "2025-07-14T17:10:00Z",
         "eventTitle": "Chi ha incastrato Roger Rabbit",
         "eventSynopsis": "3 Oscar al capolavoro di Robert Zemeckis che abbina cartoons e attori. Anni 40: il coniglio Roger Rabbit e' accusato di omicidio e si rivolge a un detective umano perche' lo scagioni.",
         "epgEventTitle": "Chi ha incastrato Roger Rabbit",
@@ -4901,7 +3452,7 @@
           ]
         },
         "eventId": "411438226",
-        "starttime": "2025-07-14T17:15:00Z",
+        "starttime": "2025-07-14T17:10:00Z",
         "endtime": "2025-07-14T19:00:00Z",
         "eventTitle": "My Spy",
         "eventSynopsis": "Action-comedy con Dave Bautista alle prese con una ragazzina che sa il fatto suo. Quando Sophie scopre che JJ e' un agente segreto, lo costringe a insegnarle i trucchi del mestiere",
@@ -4987,7 +3538,7 @@
         },
         "eventId": "411438227",
         "starttime": "2025-07-14T19:00:00Z",
-        "endtime": "2025-07-14T20:45:00Z",
+        "endtime": "2025-07-14T20:40:00Z",
         "eventTitle": "Barely Lethal",
         "eventSynopsis": "Action con Samuel L. Jackson, Hailee Steinfeld e Jessica Alba. Addestrata fin da piccola ad uccidere, Megan sogna un'esistenza normale. Una nuova missione le dara' modo di rifarsi una vita (USA 2015)",
         "epgEventTitle": "Barely Lethal",
@@ -5071,8 +3622,8 @@
           ]
         },
         "eventId": "411438228",
-        "starttime": "2025-07-14T20:45:00Z",
-        "endtime": "2025-07-14T22:35:00Z",
+        "starttime": "2025-07-14T20:40:00Z",
+        "endtime": "2025-07-14T22:30:00Z",
         "eventTitle": "Qua la zampa 2 - Un amico e' per sempre",
         "eventSynopsis": "Commovente sequel con Dennis Quaid e Kathryn Prescott. Costretto a separarsi dalla sua piccola amica umana, il cane Bailey decide che nelle sue prossime vite la trovera' e la proteggera' (USA/HKG 2019)",
         "epgEventTitle": "Qua la zampa 2 - Un amico e' per sempre",
@@ -5156,8 +3707,8 @@
           ]
         },
         "eventId": "411438229",
-        "starttime": "2025-07-14T22:35:00Z",
-        "endtime": "2025-07-15T00:15:00Z",
+        "starttime": "2025-07-14T22:30:00Z",
+        "endtime": "2025-07-15T00:10:00Z",
         "eventTitle": "Il principe dimenticato",
         "eventSynopsis": "Omar Sy in un'estrosa commedia onirica di Michel Hazanavicius. Djibi si trasforma ogni notte nell'eroe dei sogni di sua figlia. Finche' lei, crescendo, non mutera' il suo immaginario (FRA 2020)",
         "epgEventTitle": "Il principe dimenticato",
@@ -5869,17 +4420,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/63d9e699-9215-41ed-83e6-815d5c143c88/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=069a2e8ea031895d9a59746a0f2db90f"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/63d9e699-9215-41ed-83e6-815d5c143c88/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=069a2e8ea031895d9a59746a0f2db90f"
               }
             },
             {
               "img": {
                 "url": "/uuid/63d9e699-9215-41ed-83e6-815d5c143c88/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=090489ce8ba07ab850150b36fd04bfb5"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/63d9e699-9215-41ed-83e6-815d5c143c88/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=069a2e8ea031895d9a59746a0f2db90f"
               }
             },
             {
@@ -6294,17 +4845,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=64e1b6125ef7c5a4436b232f0b365399"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=eb3314c764dbf12e246026a71a175473"
               }
             },
             {
               "img": {
                 "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=64e1b6125ef7c5a4436b232f0b365399"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=64e1b6125ef7c5a4436b232f0b365399"
               }
             },
             {
@@ -6551,17 +5102,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/63d9e699-9215-41ed-83e6-815d5c143c88/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=069a2e8ea031895d9a59746a0f2db90f"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/63d9e699-9215-41ed-83e6-815d5c143c88/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=069a2e8ea031895d9a59746a0f2db90f"
               }
             },
             {
               "img": {
                 "url": "/uuid/63d9e699-9215-41ed-83e6-815d5c143c88/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=090489ce8ba07ab850150b36fd04bfb5"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/63d9e699-9215-41ed-83e6-815d5c143c88/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=069a2e8ea031895d9a59746a0f2db90f"
               }
             },
             {
@@ -6636,17 +5187,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/46bddbeb-665d-4276-8a54-82532d720fe9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b3df8071935245982807e5e0c9dcc180"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/46bddbeb-665d-4276-8a54-82532d720fe9/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=0230ff8ba358268c3e1990f0bcd63f79"
               }
             },
             {
               "img": {
                 "url": "/uuid/46bddbeb-665d-4276-8a54-82532d720fe9/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=0230ff8ba358268c3e1990f0bcd63f79"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/46bddbeb-665d-4276-8a54-82532d720fe9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b3df8071935245982807e5e0c9dcc180"
               }
             },
             {
@@ -6721,12 +5272,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/a30ca918-ac20-4022-9279-9f7d542049fb/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ef5fd0053478393b4068b8f4261eddf7"
+                "url": "/uuid/a30ca918-ac20-4022-9279-9f7d542049fb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6a7e89fa2f26f832383d5dd9491675ff"
               }
             },
             {
               "img": {
-                "url": "/uuid/a30ca918-ac20-4022-9279-9f7d542049fb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6a7e89fa2f26f832383d5dd9491675ff"
+                "url": "/uuid/a30ca918-ac20-4022-9279-9f7d542049fb/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ef5fd0053478393b4068b8f4261eddf7"
               }
             },
             {
@@ -6976,17 +5527,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/2488bf8b-6cc0-4f97-9a79-e2f458458ed6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=162ee7cb7f1bc02a9d1be974df0d7939"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/2488bf8b-6cc0-4f97-9a79-e2f458458ed6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e8ddc308e5bf0e1f3fd4f57a84dc60f0"
               }
             },
             {
               "img": {
                 "url": "/uuid/2488bf8b-6cc0-4f97-9a79-e2f458458ed6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e8ddc308e5bf0e1f3fd4f57a84dc60f0"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/2488bf8b-6cc0-4f97-9a79-e2f458458ed6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=162ee7cb7f1bc02a9d1be974df0d7939"
               }
             },
             {
@@ -7231,17 +5782,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=64e1b6125ef7c5a4436b232f0b365399"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=eb3314c764dbf12e246026a71a175473"
               }
             },
             {
               "img": {
                 "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=64e1b6125ef7c5a4436b232f0b365399"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=64e1b6125ef7c5a4436b232f0b365399"
               }
             },
             {
@@ -7316,17 +5867,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/25af6fe8-0d2d-4173-8811-82389864e1da/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0018012baa2016a0bd7cddeadcb07935"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/25af6fe8-0d2d-4173-8811-82389864e1da/COVER_CLEAN_TALL?territory=IT&version=cd07e27c-f20a-393a-aa7d-6cc5f88c36a2&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=e89cff297353ad5d32fe3ba1f080ea04"
               }
             },
             {
               "img": {
                 "url": "/uuid/25af6fe8-0d2d-4173-8811-82389864e1da/COVER_CLEAN_TALL?territory=IT&version=cd07e27c-f20a-393a-aa7d-6cc5f88c36a2&w=600&h=800&md5ChecksumParam=e89cff297353ad5d32fe3ba1f080ea04"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/25af6fe8-0d2d-4173-8811-82389864e1da/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0018012baa2016a0bd7cddeadcb07935"
               }
             },
             {
@@ -7471,17 +6022,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/67e5673a-2ef8-49fb-8478-a54251b6034e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7b5ff5b9a0bab1494217e8ccd3a60a4f"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/67e5673a-2ef8-49fb-8478-a54251b6034e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=9a63dd728093d17649a0591007b0df8a"
               }
             },
             {
               "img": {
                 "url": "/uuid/67e5673a-2ef8-49fb-8478-a54251b6034e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9a63dd728093d17649a0591007b0df8a"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/67e5673a-2ef8-49fb-8478-a54251b6034e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7b5ff5b9a0bab1494217e8ccd3a60a4f"
               }
             },
             {
@@ -7556,12 +6107,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f8588bd0-db3f-4ca4-a66d-d8b213282660/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=83479a2f182f05965b303ce7a0640a24"
+                "url": "/uuid/f8588bd0-db3f-4ca4-a66d-d8b213282660/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=64772967cc86abed5b90707fbfc3a618"
               }
             },
             {
               "img": {
-                "url": "/uuid/f8588bd0-db3f-4ca4-a66d-d8b213282660/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=64772967cc86abed5b90707fbfc3a618"
+                "url": "/uuid/f8588bd0-db3f-4ca4-a66d-d8b213282660/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=83479a2f182f05965b303ce7a0640a24"
               }
             },
             {
@@ -7900,17 +6451,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/2488bf8b-6cc0-4f97-9a79-e2f458458ed6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=162ee7cb7f1bc02a9d1be974df0d7939"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/2488bf8b-6cc0-4f97-9a79-e2f458458ed6/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e8ddc308e5bf0e1f3fd4f57a84dc60f0"
               }
             },
             {
               "img": {
                 "url": "/uuid/2488bf8b-6cc0-4f97-9a79-e2f458458ed6/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e8ddc308e5bf0e1f3fd4f57a84dc60f0"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/2488bf8b-6cc0-4f97-9a79-e2f458458ed6/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=162ee7cb7f1bc02a9d1be974df0d7939"
               }
             },
             {
@@ -7943,7 +6494,7 @@
         "starttime": "2025-07-17T03:35:00Z",
         "endtime": "2025-07-17T05:15:00Z",
         "eventTitle": "Baby Boss",
-        "eventSynopsis": "Dal regista di \"Madagascar\" una esilarante pellicola d'animazione della DreamWorks candidata agli Oscar 2018. L'arrivo di un fratellino dispotico stravolge la vita del giovane Tim.",
+        "eventSynopsis": "Dal regista di \"Madagascar\" una esilarante pellicola d'animazione della DreamWorks candidata agli Oscar 2018. L'arrivo di un fratellino dispotico stravolge la vita del giovane Tim (USA 2017)",
         "epgEventTitle": "Baby Boss",
         "primeVision": false,
         "resolutions": [
@@ -8557,17 +7108,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/67e5673a-2ef8-49fb-8478-a54251b6034e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7b5ff5b9a0bab1494217e8ccd3a60a4f"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/67e5673a-2ef8-49fb-8478-a54251b6034e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=9a63dd728093d17649a0591007b0df8a"
               }
             },
             {
               "img": {
                 "url": "/uuid/67e5673a-2ef8-49fb-8478-a54251b6034e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9a63dd728093d17649a0591007b0df8a"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/67e5673a-2ef8-49fb-8478-a54251b6034e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7b5ff5b9a0bab1494217e8ccd3a60a4f"
               }
             },
             {
@@ -8600,7 +7151,7 @@
         "starttime": "2025-07-17T15:35:00Z",
         "endtime": "2025-07-17T17:20:00Z",
         "eventTitle": "Troppo Napoletano",
-        "eventSynopsis": "Commedia di Gianluca Ansanelli con Serena Rossi e prodotta da Alessandro Siani. In preda ai primi turbamenti d'amore, il piccolo Ciro si allea con il suo analista per conquistare l'amata.",
+        "eventSynopsis": "Commedia di Gianluca Ansanelli con Serena Rossi e prodotta da Alessandro Siani. In preda ai primi turbamenti d'amore, il piccolo Ciro si allea con il suo analista per conquistare l'amata (ITA 2016)",
         "epgEventTitle": "Troppo Napoletano",
         "primeVision": false,
         "resolutions": [
@@ -8812,17 +7363,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=35756c09d552bcc964239086b6a64117"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=35756c09d552bcc964239086b6a64117"
               }
             },
             {
               "img": {
                 "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ac69a60f426bd1282dc8128429631bbe"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=35756c09d552bcc964239086b6a64117"
               }
             },
             {
@@ -9154,17 +7705,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e135130c4261809384aad3b60afbfb8d"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f4ee9d6015d9d6eefdad051d7600302d"
               }
             },
             {
               "img": {
                 "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f4ee9d6015d9d6eefdad051d7600302d"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e135130c4261809384aad3b60afbfb8d"
               }
             },
             {
@@ -9324,17 +7875,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/0134c37c-aa90-4451-a08e-55f8152b5cf9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=783de49b49d4c739e5e4d1b6c50a923e"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/0134c37c-aa90-4451-a08e-55f8152b5cf9/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=cc2dcffecc13b0626cb9af101a861488"
               }
             },
             {
               "img": {
                 "url": "/uuid/0134c37c-aa90-4451-a08e-55f8152b5cf9/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=cc2dcffecc13b0626cb9af101a861488"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/0134c37c-aa90-4451-a08e-55f8152b5cf9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=783de49b49d4c739e5e4d1b6c50a923e"
               }
             },
             {
@@ -9834,17 +8385,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/4f993f3b-db18-4991-9905-5f6932aa2b05/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7c08bb071214590259b2505231baf606"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/4f993f3b-db18-4991-9905-5f6932aa2b05/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=925652f7e510f431ccf0045f230036bf"
               }
             },
             {
               "img": {
                 "url": "/uuid/4f993f3b-db18-4991-9905-5f6932aa2b05/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=925652f7e510f431ccf0045f230036bf"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4f993f3b-db18-4991-9905-5f6932aa2b05/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7c08bb071214590259b2505231baf606"
               }
             },
             {
@@ -9923,6 +8474,16 @@
               }
             },
             {
+              "img": {
+                "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/COVER_CLEAN_TALL?territory=IT&version=791dfca3-440a-388a-b611-a1e46431fec7&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=e61b05386aaee5f23e7a54a23d83a22a"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/COVER_CLEAN_TALL?territory=IT&version=791dfca3-440a-388a-b611-a1e46431fec7&w=600&h=800&md5ChecksumParam=e61b05386aaee5f23e7a54a23d83a22a"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/background?territory=IT&md5ChecksumParam=e7a284b63717d7e8c50489e43d86f351"
@@ -9938,6 +8499,12 @@
               "key": "scene",
               "img": {
                 "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/16-9?territory=IT&md5ChecksumParam=5d7554ec13715d5df59d888dd66e2ff4"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/COVER_TITLE_WIDE?territory=IT&version=08a45438-82db-3e57-adc7-da3c36b7be4b&w=1920&h=1080&md5ChecksumParam=aba2e7f55b78008d866fff4e8b2e87c4"
               }
             }
           ]
@@ -10160,17 +8727,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/0134c37c-aa90-4451-a08e-55f8152b5cf9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=783de49b49d4c739e5e4d1b6c50a923e"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/0134c37c-aa90-4451-a08e-55f8152b5cf9/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=cc2dcffecc13b0626cb9af101a861488"
               }
             },
             {
               "img": {
                 "url": "/uuid/0134c37c-aa90-4451-a08e-55f8152b5cf9/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=cc2dcffecc13b0626cb9af101a861488"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/0134c37c-aa90-4451-a08e-55f8152b5cf9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=783de49b49d4c739e5e4d1b6c50a923e"
               }
             },
             {
@@ -10761,6 +9328,16 @@
               }
             },
             {
+              "img": {
+                "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/COVER_CLEAN_TALL?territory=IT&version=791dfca3-440a-388a-b611-a1e46431fec7&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=e61b05386aaee5f23e7a54a23d83a22a"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/COVER_CLEAN_TALL?territory=IT&version=791dfca3-440a-388a-b611-a1e46431fec7&w=600&h=800&md5ChecksumParam=e61b05386aaee5f23e7a54a23d83a22a"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/background?territory=IT&md5ChecksumParam=e7a284b63717d7e8c50489e43d86f351"
@@ -10776,6 +9353,12 @@
               "key": "scene",
               "img": {
                 "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/16-9?territory=IT&md5ChecksumParam=5d7554ec13715d5df59d888dd66e2ff4"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/COVER_TITLE_WIDE?territory=IT&version=08a45438-82db-3e57-adc7-da3c36b7be4b&w=1920&h=1080&md5ChecksumParam=aba2e7f55b78008d866fff4e8b2e87c4"
               }
             }
           ]
@@ -10826,17 +9409,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/3bb106d0-f764-4020-9451-f4cad0ef704a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=196c5bd92fe134724c751abeef6e8c55"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/3bb106d0-f764-4020-9451-f4cad0ef704a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e66d0b2c778653cc6b8b3c90bf47b273"
               }
             },
             {
               "img": {
                 "url": "/uuid/3bb106d0-f764-4020-9451-f4cad0ef704a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e66d0b2c778653cc6b8b3c90bf47b273"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/3bb106d0-f764-4020-9451-f4cad0ef704a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=196c5bd92fe134724c751abeef6e8c55"
               }
             },
             {
@@ -11153,7 +9736,7 @@
         },
         "content": {
           "uuid": "2b4a0395-debe-4bee-b8ab-0d1d811ef3d5",
-          "contentTitle": "Lassie - Una nuova avventura",
+          "contentTitle": "Lassie: Una nuova avventura",
           "url": "/film/avventura/lassie-una-nuova-avventura/2b4a0395-debe-4bee-b8ab-0d1d811ef3d5",
           "genre": {
             "id": 3,
@@ -11166,17 +9749,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/2b4a0395-debe-4bee-b8ab-0d1d811ef3d5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b487fda88bcfe8bff30dc6a8497df163"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/2b4a0395-debe-4bee-b8ab-0d1d811ef3d5/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1136be93501f466a990200b6d9f9f1ec"
               }
             },
             {
               "img": {
                 "url": "/uuid/2b4a0395-debe-4bee-b8ab-0d1d811ef3d5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1136be93501f466a990200b6d9f9f1ec"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/2b4a0395-debe-4bee-b8ab-0d1d811ef3d5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b487fda88bcfe8bff30dc6a8497df163"
               }
             },
             {
@@ -11423,17 +10006,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/af644ddc-4dde-419f-91b1-854933718810/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2aa09fb2cb1092a0250e29f184004a5d"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/af644ddc-4dde-419f-91b1-854933718810/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1139e3969f1f863b887ef7bc4f1b0aea"
               }
             },
             {
               "img": {
                 "url": "/uuid/af644ddc-4dde-419f-91b1-854933718810/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1139e3969f1f863b887ef7bc4f1b0aea"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/af644ddc-4dde-419f-91b1-854933718810/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2aa09fb2cb1092a0250e29f184004a5d"
               }
             },
             {
@@ -11832,17 +10415,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/af644ddc-4dde-419f-91b1-854933718810/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2aa09fb2cb1092a0250e29f184004a5d"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/af644ddc-4dde-419f-91b1-854933718810/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1139e3969f1f863b887ef7bc4f1b0aea"
               }
             },
             {
               "img": {
                 "url": "/uuid/af644ddc-4dde-419f-91b1-854933718810/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1139e3969f1f863b887ef7bc4f1b0aea"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/af644ddc-4dde-419f-91b1-854933718810/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2aa09fb2cb1092a0250e29f184004a5d"
               }
             },
             {
@@ -11904,7 +10487,7 @@
         },
         "content": {
           "uuid": "2b4a0395-debe-4bee-b8ab-0d1d811ef3d5",
-          "contentTitle": "Lassie - Una nuova avventura",
+          "contentTitle": "Lassie: Una nuova avventura",
           "url": "/film/avventura/lassie-una-nuova-avventura/2b4a0395-debe-4bee-b8ab-0d1d811ef3d5",
           "genre": {
             "id": 3,
@@ -11917,17 +10500,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/2b4a0395-debe-4bee-b8ab-0d1d811ef3d5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b487fda88bcfe8bff30dc6a8497df163"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/2b4a0395-debe-4bee-b8ab-0d1d811ef3d5/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1136be93501f466a990200b6d9f9f1ec"
               }
             },
             {
               "img": {
                 "url": "/uuid/2b4a0395-debe-4bee-b8ab-0d1d811ef3d5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1136be93501f466a990200b6d9f9f1ec"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/2b4a0395-debe-4bee-b8ab-0d1d811ef3d5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b487fda88bcfe8bff30dc6a8497df163"
               }
             },
             {
@@ -12087,17 +10670,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/37ce1428-d6bb-4586-b978-f81b4520df9a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f4d9a52df3f16355a093cd464086c381"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/37ce1428-d6bb-4586-b978-f81b4520df9a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f4d9a52df3f16355a093cd464086c381"
               }
             },
             {
               "img": {
                 "url": "/uuid/37ce1428-d6bb-4586-b978-f81b4520df9a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=10b1124704c064d64163df2777a9900b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/37ce1428-d6bb-4586-b978-f81b4520df9a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f4d9a52df3f16355a093cd464086c381"
               }
             },
             {
@@ -12512,17 +11095,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/dd83f7a5-912b-4808-ac3f-807d3971c967/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3e5834a22f473292997ff81e66744fd1"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/dd83f7a5-912b-4808-ac3f-807d3971c967/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3e5834a22f473292997ff81e66744fd1"
               }
             },
             {
               "img": {
                 "url": "/uuid/dd83f7a5-912b-4808-ac3f-807d3971c967/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f07e138286b18278ce6a62bcc169788a"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/dd83f7a5-912b-4808-ac3f-807d3971c967/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3e5834a22f473292997ff81e66744fd1"
               }
             },
             {
@@ -12854,17 +11437,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/3a783479-2f0a-4d3d-a5ef-a68af03c0d3c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=86fa572d39e73ac688df42951183fbe4"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/3a783479-2f0a-4d3d-a5ef-a68af03c0d3c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3f0ef28529a4879d852b28affa4d7f40"
               }
             },
             {
               "img": {
                 "url": "/uuid/3a783479-2f0a-4d3d-a5ef-a68af03c0d3c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3f0ef28529a4879d852b28affa4d7f40"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/3a783479-2f0a-4d3d-a5ef-a68af03c0d3c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=86fa572d39e73ac688df42951183fbe4"
               }
             },
             {
@@ -13279,17 +11862,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/5358fb4a-700b-447a-aec9-23458a05d54a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=9ec7b77e717ed49200dc2253739859a4"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/5358fb4a-700b-447a-aec9-23458a05d54a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=d56d9ae6cb285684e1a61e26fe084022"
               }
             },
             {
               "img": {
                 "url": "/uuid/5358fb4a-700b-447a-aec9-23458a05d54a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=d56d9ae6cb285684e1a61e26fe084022"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/5358fb4a-700b-447a-aec9-23458a05d54a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=9ec7b77e717ed49200dc2253739859a4"
               }
             },
             {
@@ -13449,17 +12032,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/dfbb48c6-8327-47dd-82e8-1b499f7fb721/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e7f02525169902d15d72cdc0716a96d1"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/dfbb48c6-8327-47dd-82e8-1b499f7fb721/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=388354ee91d456c18c8ddc0b344d1481"
               }
             },
             {
               "img": {
                 "url": "/uuid/dfbb48c6-8327-47dd-82e8-1b499f7fb721/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=388354ee91d456c18c8ddc0b344d1481"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/dfbb48c6-8327-47dd-82e8-1b499f7fb721/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e7f02525169902d15d72cdc0716a96d1"
               }
             },
             {
@@ -13704,17 +12287,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/6423c3c1-4682-4ecf-a270-1a7a528f2fd5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=60cad01dd3af186f6bcc1709bf709412"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/6423c3c1-4682-4ecf-a270-1a7a528f2fd5/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=999d7ad55fc03d1965433f59ff3d72be"
               }
             },
             {
               "img": {
                 "url": "/uuid/6423c3c1-4682-4ecf-a270-1a7a528f2fd5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=999d7ad55fc03d1965433f59ff3d72be"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6423c3c1-4682-4ecf-a270-1a7a528f2fd5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=60cad01dd3af186f6bcc1709bf709412"
               }
             },
             {
@@ -14131,7 +12714,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f4a3fcda-70ca-4ffc-a3e5-d045b3a50095/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3011179efd7aa66453bf7a0a18ee89dd"
+                "url": "/uuid/f4a3fcda-70ca-4ffc-a3e5-d045b3a50095/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e091f81b7bb6ca2610ccd7989b22c2cd"
               }
             },
             {
@@ -14141,7 +12724,7 @@
             },
             {
               "img": {
-                "url": "/uuid/f4a3fcda-70ca-4ffc-a3e5-d045b3a50095/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e091f81b7bb6ca2610ccd7989b22c2cd"
+                "url": "/uuid/f4a3fcda-70ca-4ffc-a3e5-d045b3a50095/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=3011179efd7aa66453bf7a0a18ee89dd"
               }
             },
             {
@@ -14556,12 +13139,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/a30ca918-ac20-4022-9279-9f7d542049fb/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ef5fd0053478393b4068b8f4261eddf7"
+                "url": "/uuid/a30ca918-ac20-4022-9279-9f7d542049fb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6a7e89fa2f26f832383d5dd9491675ff"
               }
             },
             {
               "img": {
-                "url": "/uuid/a30ca918-ac20-4022-9279-9f7d542049fb/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6a7e89fa2f26f832383d5dd9491675ff"
+                "url": "/uuid/a30ca918-ac20-4022-9279-9f7d542049fb/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ef5fd0053478393b4068b8f4261eddf7"
               }
             },
             {
@@ -14896,17 +13479,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/65b35c63-8939-4e01-99f7-827041d5e996/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=107b41bd13b3c47cd3af84ec97449406"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/65b35c63-8939-4e01-99f7-827041d5e996/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=b96c81180763ca153866441fea7aa486"
               }
             },
             {
               "img": {
                 "url": "/uuid/65b35c63-8939-4e01-99f7-827041d5e996/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=b96c81180763ca153866441fea7aa486"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/65b35c63-8939-4e01-99f7-827041d5e996/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=107b41bd13b3c47cd3af84ec97449406"
               }
             },
             {
@@ -15410,17 +13993,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/da70d2bb-5a7e-4ed5-8fb4-475eb8b6a4b2/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=5dce0f56eefb0d442094de1a84215fda"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/da70d2bb-5a7e-4ed5-8fb4-475eb8b6a4b2/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=263b71b2ec071535e041fccf350b2525"
               }
             },
             {
               "img": {
                 "url": "/uuid/da70d2bb-5a7e-4ed5-8fb4-475eb8b6a4b2/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=263b71b2ec071535e041fccf350b2525"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/da70d2bb-5a7e-4ed5-8fb4-475eb8b6a4b2/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=5dce0f56eefb0d442094de1a84215fda"
               }
             },
             {
@@ -15819,12 +14402,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/ee8dd32a-ab7a-449a-b892-89bc6ce1fed7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=92b24edd097d72f675003dc19fa471e7"
+                "url": "/uuid/ee8dd32a-ab7a-449a-b892-89bc6ce1fed7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e81add88c47c1391699c50a78092a078"
               }
             },
             {
               "img": {
-                "url": "/uuid/ee8dd32a-ab7a-449a-b892-89bc6ce1fed7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e81add88c47c1391699c50a78092a078"
+                "url": "/uuid/ee8dd32a-ab7a-449a-b892-89bc6ce1fed7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=92b24edd097d72f675003dc19fa471e7"
               }
             },
             {
@@ -16144,17 +14727,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/da70d2bb-5a7e-4ed5-8fb4-475eb8b6a4b2/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=5dce0f56eefb0d442094de1a84215fda"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/da70d2bb-5a7e-4ed5-8fb4-475eb8b6a4b2/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=263b71b2ec071535e041fccf350b2525"
               }
             },
             {
               "img": {
                 "url": "/uuid/da70d2bb-5a7e-4ed5-8fb4-475eb8b6a4b2/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=263b71b2ec071535e041fccf350b2525"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/da70d2bb-5a7e-4ed5-8fb4-475eb8b6a4b2/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=5dce0f56eefb0d442094de1a84215fda"
               }
             },
             {
@@ -16486,12 +15069,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/d37a256e-a5cf-4c67-824e-8f8ce0ef82dd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e742f3a0728e70fa995ce5f26f0df6b5"
+                "url": "/uuid/d37a256e-a5cf-4c67-824e-8f8ce0ef82dd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4d0d10aba010f7da584af3781c7a7564"
               }
             },
             {
               "img": {
-                "url": "/uuid/d37a256e-a5cf-4c67-824e-8f8ce0ef82dd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4d0d10aba010f7da584af3781c7a7564"
+                "url": "/uuid/d37a256e-a5cf-4c67-824e-8f8ce0ef82dd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e742f3a0728e70fa995ce5f26f0df6b5"
               }
             },
             {
@@ -16571,12 +15154,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/ee8dd32a-ab7a-449a-b892-89bc6ce1fed7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=92b24edd097d72f675003dc19fa471e7"
+                "url": "/uuid/ee8dd32a-ab7a-449a-b892-89bc6ce1fed7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e81add88c47c1391699c50a78092a078"
               }
             },
             {
               "img": {
-                "url": "/uuid/ee8dd32a-ab7a-449a-b892-89bc6ce1fed7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e81add88c47c1391699c50a78092a078"
+                "url": "/uuid/ee8dd32a-ab7a-449a-b892-89bc6ce1fed7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=92b24edd097d72f675003dc19fa471e7"
               }
             },
             {
@@ -16996,17 +15579,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=64e1b6125ef7c5a4436b232f0b365399"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=eb3314c764dbf12e246026a71a175473"
               }
             },
             {
               "img": {
                 "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=64e1b6125ef7c5a4436b232f0b365399"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=64e1b6125ef7c5a4436b232f0b365399"
               }
             },
             {
@@ -17081,12 +15664,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/d37a256e-a5cf-4c67-824e-8f8ce0ef82dd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e742f3a0728e70fa995ce5f26f0df6b5"
+                "url": "/uuid/d37a256e-a5cf-4c67-824e-8f8ce0ef82dd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4d0d10aba010f7da584af3781c7a7564"
               }
             },
             {
               "img": {
-                "url": "/uuid/d37a256e-a5cf-4c67-824e-8f8ce0ef82dd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4d0d10aba010f7da584af3781c7a7564"
+                "url": "/uuid/d37a256e-a5cf-4c67-824e-8f8ce0ef82dd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e742f3a0728e70fa995ce5f26f0df6b5"
               }
             },
             {
@@ -17251,17 +15834,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/33e823d7-fa30-4ee3-96e6-c9aad4e4ec1c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae4294c80c0baecd47d7717317b07387"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/33e823d7-fa30-4ee3-96e6-c9aad4e4ec1c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e6da7dcc04b79642a9804b6217eb5c82"
               }
             },
             {
               "img": {
                 "url": "/uuid/33e823d7-fa30-4ee3-96e6-c9aad4e4ec1c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e6da7dcc04b79642a9804b6217eb5c82"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/33e823d7-fa30-4ee3-96e6-c9aad4e4ec1c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ae4294c80c0baecd47d7717317b07387"
               }
             },
             {
@@ -17336,17 +15919,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/7843bcf0-1ab2-46ef-b54f-b4510289627c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=62ab50ee28ac5ae504c2ca198b7e3266"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/7843bcf0-1ab2-46ef-b54f-b4510289627c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=62ab50ee28ac5ae504c2ca198b7e3266"
               }
             },
             {
               "img": {
                 "url": "/uuid/7843bcf0-1ab2-46ef-b54f-b4510289627c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=127a7343da5d4b8022885d189d49ec53"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/7843bcf0-1ab2-46ef-b54f-b4510289627c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=62ab50ee28ac5ae504c2ca198b7e3266"
               }
             },
             {
@@ -17425,6 +16008,16 @@
               }
             },
             {
+              "img": {
+                "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/COVER_CLEAN_TALL?territory=IT&version=791dfca3-440a-388a-b611-a1e46431fec7&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=e61b05386aaee5f23e7a54a23d83a22a"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/COVER_CLEAN_TALL?territory=IT&version=791dfca3-440a-388a-b611-a1e46431fec7&w=600&h=800&md5ChecksumParam=e61b05386aaee5f23e7a54a23d83a22a"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/background?territory=IT&md5ChecksumParam=e7a284b63717d7e8c50489e43d86f351"
@@ -17440,6 +16033,12 @@
               "key": "scene",
               "img": {
                 "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/16-9?territory=IT&md5ChecksumParam=5d7554ec13715d5df59d888dd66e2ff4"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/COVER_TITLE_WIDE?territory=IT&version=08a45438-82db-3e57-adc7-da3c36b7be4b&w=1920&h=1080&md5ChecksumParam=aba2e7f55b78008d866fff4e8b2e87c4"
               }
             }
           ]
@@ -18002,17 +16601,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/46bddbeb-665d-4276-8a54-82532d720fe9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b3df8071935245982807e5e0c9dcc180"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/46bddbeb-665d-4276-8a54-82532d720fe9/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=0230ff8ba358268c3e1990f0bcd63f79"
               }
             },
             {
               "img": {
                 "url": "/uuid/46bddbeb-665d-4276-8a54-82532d720fe9/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=0230ff8ba358268c3e1990f0bcd63f79"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/46bddbeb-665d-4276-8a54-82532d720fe9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=b3df8071935245982807e5e0c9dcc180"
               }
             },
             {
@@ -18156,17 +16755,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/7843bcf0-1ab2-46ef-b54f-b4510289627c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=62ab50ee28ac5ae504c2ca198b7e3266"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/7843bcf0-1ab2-46ef-b54f-b4510289627c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=62ab50ee28ac5ae504c2ca198b7e3266"
               }
             },
             {
               "img": {
                 "url": "/uuid/7843bcf0-1ab2-46ef-b54f-b4510289627c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=127a7343da5d4b8022885d189d49ec53"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/7843bcf0-1ab2-46ef-b54f-b4510289627c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=62ab50ee28ac5ae504c2ca198b7e3266"
               }
             },
             {
@@ -18241,17 +16840,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/af644ddc-4dde-419f-91b1-854933718810/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2aa09fb2cb1092a0250e29f184004a5d"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/af644ddc-4dde-419f-91b1-854933718810/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1139e3969f1f863b887ef7bc4f1b0aea"
               }
             },
             {
               "img": {
                 "url": "/uuid/af644ddc-4dde-419f-91b1-854933718810/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1139e3969f1f863b887ef7bc4f1b0aea"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/af644ddc-4dde-419f-91b1-854933718810/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2aa09fb2cb1092a0250e29f184004a5d"
               }
             },
             {
@@ -18581,17 +17180,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e789866dbef2f1bcb8d0c19978800828"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=99e8009ac7c009465e418821b4d77c9c"
               }
             },
             {
               "img": {
                 "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=99e8009ac7c009465e418821b4d77c9c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e789866dbef2f1bcb8d0c19978800828"
               }
             },
             {
@@ -18666,7 +17265,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
+                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
               }
             },
             {
@@ -18676,7 +17275,7 @@
             },
             {
               "img": {
-                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
+                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
               }
             },
             {
@@ -18923,12 +17522,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/239f4a92-d41e-4d1f-81f3-760affb15428/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7d3f82566abceade21273ec1363a2ede"
+                "url": "/uuid/239f4a92-d41e-4d1f-81f3-760affb15428/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c761620fedb751bbc46f6c13d118d7c4"
               }
             },
             {
               "img": {
-                "url": "/uuid/239f4a92-d41e-4d1f-81f3-760affb15428/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c761620fedb751bbc46f6c13d118d7c4"
+                "url": "/uuid/239f4a92-d41e-4d1f-81f3-760affb15428/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7d3f82566abceade21273ec1363a2ede"
               }
             },
             {
@@ -19008,17 +17607,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/af644ddc-4dde-419f-91b1-854933718810/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2aa09fb2cb1092a0250e29f184004a5d"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/af644ddc-4dde-419f-91b1-854933718810/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=1139e3969f1f863b887ef7bc4f1b0aea"
               }
             },
             {
               "img": {
                 "url": "/uuid/af644ddc-4dde-419f-91b1-854933718810/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=1139e3969f1f863b887ef7bc4f1b0aea"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/af644ddc-4dde-419f-91b1-854933718810/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=2aa09fb2cb1092a0250e29f184004a5d"
               }
             },
             {
@@ -19093,17 +17692,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/bf3664ce-113f-46d3-95b8-fe0ab771a2ce/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7206aa97f3a46a1961291d09739da112"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/bf3664ce-113f-46d3-95b8-fe0ab771a2ce/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=977187adfaf21b1ad40b0c45539575f5"
               }
             },
             {
               "img": {
                 "url": "/uuid/bf3664ce-113f-46d3-95b8-fe0ab771a2ce/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=977187adfaf21b1ad40b0c45539575f5"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/bf3664ce-113f-46d3-95b8-fe0ab771a2ce/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7206aa97f3a46a1961291d09739da112"
               }
             },
             {
@@ -19248,17 +17847,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e789866dbef2f1bcb8d0c19978800828"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=99e8009ac7c009465e418821b4d77c9c"
               }
             },
             {
               "img": {
                 "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=99e8009ac7c009465e418821b4d77c9c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e789866dbef2f1bcb8d0c19978800828"
               }
             },
             {
@@ -19408,7 +18007,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
+                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
               }
             },
             {
@@ -19418,7 +18017,7 @@
             },
             {
               "img": {
-                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
+                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
               }
             },
             {
@@ -19493,17 +18092,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/25af6fe8-0d2d-4173-8811-82389864e1da/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0018012baa2016a0bd7cddeadcb07935"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/25af6fe8-0d2d-4173-8811-82389864e1da/COVER_CLEAN_TALL?territory=IT&version=cd07e27c-f20a-393a-aa7d-6cc5f88c36a2&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=e89cff297353ad5d32fe3ba1f080ea04"
               }
             },
             {
               "img": {
                 "url": "/uuid/25af6fe8-0d2d-4173-8811-82389864e1da/COVER_CLEAN_TALL?territory=IT&version=cd07e27c-f20a-393a-aa7d-6cc5f88c36a2&w=600&h=800&md5ChecksumParam=e89cff297353ad5d32fe3ba1f080ea04"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/25af6fe8-0d2d-4173-8811-82389864e1da/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=0018012baa2016a0bd7cddeadcb07935"
               }
             },
             {
@@ -19663,17 +18262,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/4f993f3b-db18-4991-9905-5f6932aa2b05/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7c08bb071214590259b2505231baf606"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/4f993f3b-db18-4991-9905-5f6932aa2b05/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=925652f7e510f431ccf0045f230036bf"
               }
             },
             {
               "img": {
                 "url": "/uuid/4f993f3b-db18-4991-9905-5f6932aa2b05/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=925652f7e510f431ccf0045f230036bf"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4f993f3b-db18-4991-9905-5f6932aa2b05/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7c08bb071214590259b2505231baf606"
               }
             },
             {
@@ -19918,12 +18517,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f8588bd0-db3f-4ca4-a66d-d8b213282660/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=83479a2f182f05965b303ce7a0640a24"
+                "url": "/uuid/f8588bd0-db3f-4ca4-a66d-d8b213282660/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=64772967cc86abed5b90707fbfc3a618"
               }
             },
             {
               "img": {
-                "url": "/uuid/f8588bd0-db3f-4ca4-a66d-d8b213282660/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=64772967cc86abed5b90707fbfc3a618"
+                "url": "/uuid/f8588bd0-db3f-4ca4-a66d-d8b213282660/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=83479a2f182f05965b303ce7a0640a24"
               }
             },
             {
@@ -19961,7 +18560,7 @@
         "starttime": "2025-07-26T20:35:00Z",
         "endtime": "2025-07-26T22:30:00Z",
         "eventTitle": "Wonka",
-        "eventSynopsis": "Grande successo per le origini del personaggio di Roald Dahl con Timothee Chalamet. Il sogno del giovane Willy di aprire una cioccolateria si scontra con una concorrenza disonesta (USA 2023)",
+        "eventSynopsis": "Grande successo per le origini del personaggio di Roald Dahl con Timothee Chalamet. Il sogno del giovane Willy di aprire una cioccolateria si scontra con una concorrenza disonesta (USA/GBR 2023)",
         "epgEventTitle": "Wonka",
         "primeVision": false,
         "resolutions": [
@@ -20160,17 +18759,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/bf3664ce-113f-46d3-95b8-fe0ab771a2ce/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7206aa97f3a46a1961291d09739da112"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/bf3664ce-113f-46d3-95b8-fe0ab771a2ce/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=977187adfaf21b1ad40b0c45539575f5"
               }
             },
             {
               "img": {
                 "url": "/uuid/bf3664ce-113f-46d3-95b8-fe0ab771a2ce/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=977187adfaf21b1ad40b0c45539575f5"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/bf3664ce-113f-46d3-95b8-fe0ab771a2ce/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7206aa97f3a46a1961291d09739da112"
               }
             },
             {
@@ -20656,17 +19255,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/4e15eae5-20cb-4108-a643-497ed6bfb8cd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=52c12574dae5d8d2d75a9c4dfb113668"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/4e15eae5-20cb-4108-a643-497ed6bfb8cd/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3f8a4825af6ce0f4e173c334149b3f81"
               }
             },
             {
               "img": {
                 "url": "/uuid/4e15eae5-20cb-4108-a643-497ed6bfb8cd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3f8a4825af6ce0f4e173c334149b3f81"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4e15eae5-20cb-4108-a643-497ed6bfb8cd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=52c12574dae5d8d2d75a9c4dfb113668"
               }
             },
             {
@@ -20741,17 +19340,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/e962be50-58a7-43f0-b07b-f63730ca6945/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=80c000fd5667e7f5b53c34670a8e76cd"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/e962be50-58a7-43f0-b07b-f63730ca6945/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=fbfa75d18651023c877f7cbe6b578c70"
               }
             },
             {
               "img": {
                 "url": "/uuid/e962be50-58a7-43f0-b07b-f63730ca6945/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=fbfa75d18651023c877f7cbe6b578c70"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/e962be50-58a7-43f0-b07b-f63730ca6945/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=80c000fd5667e7f5b53c34670a8e76cd"
               }
             },
             {
@@ -20826,12 +19425,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f8588bd0-db3f-4ca4-a66d-d8b213282660/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=83479a2f182f05965b303ce7a0640a24"
+                "url": "/uuid/f8588bd0-db3f-4ca4-a66d-d8b213282660/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=64772967cc86abed5b90707fbfc3a618"
               }
             },
             {
               "img": {
-                "url": "/uuid/f8588bd0-db3f-4ca4-a66d-d8b213282660/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=64772967cc86abed5b90707fbfc3a618"
+                "url": "/uuid/f8588bd0-db3f-4ca4-a66d-d8b213282660/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=83479a2f182f05965b303ce7a0640a24"
               }
             },
             {
@@ -20996,17 +19595,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/67e5673a-2ef8-49fb-8478-a54251b6034e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7b5ff5b9a0bab1494217e8ccd3a60a4f"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/67e5673a-2ef8-49fb-8478-a54251b6034e/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=9a63dd728093d17649a0591007b0df8a"
               }
             },
             {
               "img": {
                 "url": "/uuid/67e5673a-2ef8-49fb-8478-a54251b6034e/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=9a63dd728093d17649a0591007b0df8a"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/67e5673a-2ef8-49fb-8478-a54251b6034e/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=7b5ff5b9a0bab1494217e8ccd3a60a4f"
               }
             },
             {
@@ -21166,17 +19765,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/3bb106d0-f764-4020-9451-f4cad0ef704a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=196c5bd92fe134724c751abeef6e8c55"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/3bb106d0-f764-4020-9451-f4cad0ef704a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e66d0b2c778653cc6b8b3c90bf47b273"
               }
             },
             {
               "img": {
                 "url": "/uuid/3bb106d0-f764-4020-9451-f4cad0ef704a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e66d0b2c778653cc6b8b3c90bf47b273"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/3bb106d0-f764-4020-9451-f4cad0ef704a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=196c5bd92fe134724c751abeef6e8c55"
               }
             },
             {
@@ -21251,17 +19850,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=35756c09d552bcc964239086b6a64117"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=35756c09d552bcc964239086b6a64117"
               }
             },
             {
               "img": {
                 "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=ac69a60f426bd1282dc8128429631bbe"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6509df77-ae70-4aed-a1de-f643a0378259/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=35756c09d552bcc964239086b6a64117"
               }
             },
             {
@@ -21338,17 +19937,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/dd83f7a5-912b-4808-ac3f-807d3971c967/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3e5834a22f473292997ff81e66744fd1"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/dd83f7a5-912b-4808-ac3f-807d3971c967/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3e5834a22f473292997ff81e66744fd1"
               }
             },
             {
               "img": {
                 "url": "/uuid/dd83f7a5-912b-4808-ac3f-807d3971c967/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f07e138286b18278ce6a62bcc169788a"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/dd83f7a5-912b-4808-ac3f-807d3971c967/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3e5834a22f473292997ff81e66744fd1"
               }
             },
             {
@@ -21492,17 +20091,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/4e15eae5-20cb-4108-a643-497ed6bfb8cd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=52c12574dae5d8d2d75a9c4dfb113668"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/4e15eae5-20cb-4108-a643-497ed6bfb8cd/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3f8a4825af6ce0f4e173c334149b3f81"
               }
             },
             {
               "img": {
                 "url": "/uuid/4e15eae5-20cb-4108-a643-497ed6bfb8cd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3f8a4825af6ce0f4e173c334149b3f81"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/4e15eae5-20cb-4108-a643-497ed6bfb8cd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=52c12574dae5d8d2d75a9c4dfb113668"
               }
             },
             {
@@ -21577,17 +20176,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/dd83f7a5-912b-4808-ac3f-807d3971c967/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3e5834a22f473292997ff81e66744fd1"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/dd83f7a5-912b-4808-ac3f-807d3971c967/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=3e5834a22f473292997ff81e66744fd1"
               }
             },
             {
               "img": {
                 "url": "/uuid/dd83f7a5-912b-4808-ac3f-807d3971c967/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=f07e138286b18278ce6a62bcc169788a"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/dd83f7a5-912b-4808-ac3f-807d3971c967/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=3e5834a22f473292997ff81e66744fd1"
               }
             },
             {
@@ -21832,17 +20431,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/63d9e699-9215-41ed-83e6-815d5c143c88/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=069a2e8ea031895d9a59746a0f2db90f"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/63d9e699-9215-41ed-83e6-815d5c143c88/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=069a2e8ea031895d9a59746a0f2db90f"
               }
             },
             {
               "img": {
                 "url": "/uuid/63d9e699-9215-41ed-83e6-815d5c143c88/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=090489ce8ba07ab850150b36fd04bfb5"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/63d9e699-9215-41ed-83e6-815d5c143c88/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=069a2e8ea031895d9a59746a0f2db90f"
               }
             },
             {
@@ -22172,17 +20771,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/3bb106d0-f764-4020-9451-f4cad0ef704a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=196c5bd92fe134724c751abeef6e8c55"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/3bb106d0-f764-4020-9451-f4cad0ef704a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=e66d0b2c778653cc6b8b3c90bf47b273"
               }
             },
             {
               "img": {
                 "url": "/uuid/3bb106d0-f764-4020-9451-f4cad0ef704a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e66d0b2c778653cc6b8b3c90bf47b273"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/3bb106d0-f764-4020-9451-f4cad0ef704a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=196c5bd92fe134724c751abeef6e8c55"
               }
             },
             {
@@ -22599,17 +21198,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/63d9e699-9215-41ed-83e6-815d5c143c88/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=069a2e8ea031895d9a59746a0f2db90f"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/63d9e699-9215-41ed-83e6-815d5c143c88/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=069a2e8ea031895d9a59746a0f2db90f"
               }
             },
             {
               "img": {
                 "url": "/uuid/63d9e699-9215-41ed-83e6-815d5c143c88/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=090489ce8ba07ab850150b36fd04bfb5"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/63d9e699-9215-41ed-83e6-815d5c143c88/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=069a2e8ea031895d9a59746a0f2db90f"
               }
             },
             {
@@ -23111,12 +21710,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/2bfd7931-8468-4bf1-a95a-0be77bad694f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=a73b1279a44aee474ee0e3b8868354f1"
+                "url": "/uuid/2bfd7931-8468-4bf1-a95a-0be77bad694f/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=63d9e0470766c861202073572ce83488"
               }
             },
             {
               "img": {
-                "url": "/uuid/2bfd7931-8468-4bf1-a95a-0be77bad694f/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=63d9e0470766c861202073572ce83488"
+                "url": "/uuid/2bfd7931-8468-4bf1-a95a-0be77bad694f/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=a73b1279a44aee474ee0e3b8868354f1"
               }
             },
             {
@@ -23276,17 +21875,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/c2ac2992-db80-4a0a-a2d0-db6e3b12800d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=edc152645fbe108124dda3d795ef06b3"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/c2ac2992-db80-4a0a-a2d0-db6e3b12800d/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5039f0999a0e4269a096c690c1ed1a03"
               }
             },
             {
               "img": {
                 "url": "/uuid/c2ac2992-db80-4a0a-a2d0-db6e3b12800d/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5039f0999a0e4269a096c690c1ed1a03"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c2ac2992-db80-4a0a-a2d0-db6e3b12800d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=edc152645fbe108124dda3d795ef06b3"
               }
             },
             {
@@ -23446,12 +22045,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/ee8dd32a-ab7a-449a-b892-89bc6ce1fed7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=92b24edd097d72f675003dc19fa471e7"
+                "url": "/uuid/ee8dd32a-ab7a-449a-b892-89bc6ce1fed7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e81add88c47c1391699c50a78092a078"
               }
             },
             {
               "img": {
-                "url": "/uuid/ee8dd32a-ab7a-449a-b892-89bc6ce1fed7/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e81add88c47c1391699c50a78092a078"
+                "url": "/uuid/ee8dd32a-ab7a-449a-b892-89bc6ce1fed7/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=92b24edd097d72f675003dc19fa471e7"
               }
             },
             {
@@ -23616,17 +22215,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/c2ac2992-db80-4a0a-a2d0-db6e3b12800d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=edc152645fbe108124dda3d795ef06b3"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/c2ac2992-db80-4a0a-a2d0-db6e3b12800d/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=5039f0999a0e4269a096c690c1ed1a03"
               }
             },
             {
               "img": {
                 "url": "/uuid/c2ac2992-db80-4a0a-a2d0-db6e3b12800d/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=5039f0999a0e4269a096c690c1ed1a03"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/c2ac2992-db80-4a0a-a2d0-db6e3b12800d/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=edc152645fbe108124dda3d795ef06b3"
               }
             },
             {
@@ -23701,12 +22300,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/d37a256e-a5cf-4c67-824e-8f8ce0ef82dd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e742f3a0728e70fa995ce5f26f0df6b5"
+                "url": "/uuid/d37a256e-a5cf-4c67-824e-8f8ce0ef82dd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4d0d10aba010f7da584af3781c7a7564"
               }
             },
             {
               "img": {
-                "url": "/uuid/d37a256e-a5cf-4c67-824e-8f8ce0ef82dd/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=4d0d10aba010f7da584af3781c7a7564"
+                "url": "/uuid/d37a256e-a5cf-4c67-824e-8f8ce0ef82dd/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=e742f3a0728e70fa995ce5f26f0df6b5"
               }
             },
             {
@@ -24130,17 +22729,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=64e1b6125ef7c5a4436b232f0b365399"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=eb3314c764dbf12e246026a71a175473"
               }
             },
             {
               "img": {
                 "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=64e1b6125ef7c5a4436b232f0b365399"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=64e1b6125ef7c5a4436b232f0b365399"
               }
             },
             {
@@ -24470,12 +23069,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/239f4a92-d41e-4d1f-81f3-760affb15428/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7d3f82566abceade21273ec1363a2ede"
+                "url": "/uuid/239f4a92-d41e-4d1f-81f3-760affb15428/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c761620fedb751bbc46f6c13d118d7c4"
               }
             },
             {
               "img": {
-                "url": "/uuid/239f4a92-d41e-4d1f-81f3-760affb15428/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c761620fedb751bbc46f6c13d118d7c4"
+                "url": "/uuid/239f4a92-d41e-4d1f-81f3-760affb15428/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7d3f82566abceade21273ec1363a2ede"
               }
             },
             {
@@ -24895,17 +23494,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=64e1b6125ef7c5a4436b232f0b365399"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=eb3314c764dbf12e246026a71a175473"
               }
             },
             {
               "img": {
                 "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=64e1b6125ef7c5a4436b232f0b365399"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/f5c93bdc-e3cb-4d50-a6cc-1e093325b062/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=64e1b6125ef7c5a4436b232f0b365399"
               }
             },
             {
@@ -24986,6 +23585,16 @@
               }
             },
             {
+              "img": {
+                "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/COVER_CLEAN_TALL?territory=IT&version=791dfca3-440a-388a-b611-a1e46431fec7&w=600&h=800&w=600&h=800&crop=560:800;20,0&md5ChecksumParam=e61b05386aaee5f23e7a54a23d83a22a"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/COVER_CLEAN_TALL?territory=IT&version=791dfca3-440a-388a-b611-a1e46431fec7&w=600&h=800&md5ChecksumParam=e61b05386aaee5f23e7a54a23d83a22a"
+              }
+            },
+            {
               "key": "background",
               "img": {
                 "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/background?territory=IT&md5ChecksumParam=e7a284b63717d7e8c50489e43d86f351"
@@ -25001,6 +23610,12 @@
               "key": "scene",
               "img": {
                 "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/16-9?territory=IT&md5ChecksumParam=5d7554ec13715d5df59d888dd66e2ff4"
+              }
+            },
+            {
+              "key": "scene_key_art",
+              "img": {
+                "url": "/uuid/53c9a543-8233-443f-a541-190a3c36a727/COVER_TITLE_WIDE?territory=IT&version=08a45438-82db-3e57-adc7-da3c36b7be4b&w=1920&h=1080&md5ChecksumParam=aba2e7f55b78008d866fff4e8b2e87c4"
               }
             }
           ]
@@ -25205,12 +23820,12 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/239f4a92-d41e-4d1f-81f3-760affb15428/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7d3f82566abceade21273ec1363a2ede"
+                "url": "/uuid/239f4a92-d41e-4d1f-81f3-760affb15428/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c761620fedb751bbc46f6c13d118d7c4"
               }
             },
             {
               "img": {
-                "url": "/uuid/239f4a92-d41e-4d1f-81f3-760affb15428/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=c761620fedb751bbc46f6c13d118d7c4"
+                "url": "/uuid/239f4a92-d41e-4d1f-81f3-760affb15428/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=7d3f82566abceade21273ec1363a2ede"
               }
             },
             {
@@ -25375,17 +23990,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/37ce1428-d6bb-4586-b978-f81b4520df9a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f4d9a52df3f16355a093cd464086c381"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/37ce1428-d6bb-4586-b978-f81b4520df9a/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f4d9a52df3f16355a093cd464086c381"
               }
             },
             {
               "img": {
                 "url": "/uuid/37ce1428-d6bb-4586-b978-f81b4520df9a/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=10b1124704c064d64163df2777a9900b"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/37ce1428-d6bb-4586-b978-f81b4520df9a/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f4d9a52df3f16355a093cd464086c381"
               }
             },
             {
@@ -25715,17 +24330,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/6423c3c1-4682-4ecf-a270-1a7a528f2fd5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=60cad01dd3af186f6bcc1709bf709412"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/6423c3c1-4682-4ecf-a270-1a7a528f2fd5/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=999d7ad55fc03d1965433f59ff3d72be"
               }
             },
             {
               "img": {
                 "url": "/uuid/6423c3c1-4682-4ecf-a270-1a7a528f2fd5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=999d7ad55fc03d1965433f59ff3d72be"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6423c3c1-4682-4ecf-a270-1a7a528f2fd5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=60cad01dd3af186f6bcc1709bf709412"
               }
             },
             {
@@ -25800,7 +24415,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
+                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
               }
             },
             {
@@ -25810,7 +24425,7 @@
             },
             {
               "img": {
-                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
+                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
               }
             },
             {
@@ -26142,17 +24757,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e135130c4261809384aad3b60afbfb8d"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=f4ee9d6015d9d6eefdad051d7600302d"
               }
             },
             {
               "img": {
                 "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=f4ee9d6015d9d6eefdad051d7600302d"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6ac2a612-8b43-4730-85a3-fd3968b7b0bc/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e135130c4261809384aad3b60afbfb8d"
               }
             },
             {
@@ -26227,17 +24842,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/6423c3c1-4682-4ecf-a270-1a7a528f2fd5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=60cad01dd3af186f6bcc1709bf709412"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/6423c3c1-4682-4ecf-a270-1a7a528f2fd5/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=999d7ad55fc03d1965433f59ff3d72be"
               }
             },
             {
               "img": {
                 "url": "/uuid/6423c3c1-4682-4ecf-a270-1a7a528f2fd5/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=999d7ad55fc03d1965433f59ff3d72be"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/6423c3c1-4682-4ecf-a270-1a7a528f2fd5/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=60cad01dd3af186f6bcc1709bf709412"
               }
             },
             {
@@ -26381,7 +24996,7 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
+                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
               }
             },
             {
@@ -26391,7 +25006,7 @@
             },
             {
               "img": {
-                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
+                "url": "/uuid/0443d107-458d-49e6-92a9-e81a9e13eb98/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=ddaabf89b2215f155a3aefb72167ffc9"
               }
             },
             {
@@ -26551,17 +25166,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e789866dbef2f1bcb8d0c19978800828"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=99e8009ac7c009465e418821b4d77c9c"
               }
             },
             {
               "img": {
                 "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=99e8009ac7c009465e418821b4d77c9c"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/a7791491-160d-469a-9303-a7953e7e088c/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=e789866dbef2f1bcb8d0c19978800828"
               }
             },
             {
@@ -26721,17 +25336,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/df9f6237-251d-4bc5-bd1c-8dfd7b6e7ad0/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6f71d573478b5cce233344772f355759"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/df9f6237-251d-4bc5-bd1c-8dfd7b6e7ad0/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=35094326f455119278049def56802add"
               }
             },
             {
               "img": {
                 "url": "/uuid/df9f6237-251d-4bc5-bd1c-8dfd7b6e7ad0/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=35094326f455119278049def56802add"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/df9f6237-251d-4bc5-bd1c-8dfd7b6e7ad0/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6f71d573478b5cce233344772f355759"
               }
             },
             {
@@ -26966,17 +25581,17 @@
           "imagesMap": [
             {
               "img": {
+                "url": "/uuid/0134c37c-aa90-4451-a08e-55f8152b5cf9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=783de49b49d4c739e5e4d1b6c50a923e"
+              }
+            },
+            {
+              "img": {
                 "url": "/uuid/0134c37c-aa90-4451-a08e-55f8152b5cf9/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=cc2dcffecc13b0626cb9af101a861488"
               }
             },
             {
               "img": {
                 "url": "/uuid/0134c37c-aa90-4451-a08e-55f8152b5cf9/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=cc2dcffecc13b0626cb9af101a861488"
-              }
-            },
-            {
-              "img": {
-                "url": "/uuid/0134c37c-aa90-4451-a08e-55f8152b5cf9/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=783de49b49d4c739e5e4d1b6c50a923e"
               }
             },
             {
@@ -27136,17 +25751,17 @@
           "imagesMap": [
             {
               "img": {
-                "url": "/uuid/df9f6237-251d-4bc5-bd1c-8dfd7b6e7ad0/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6f71d573478b5cce233344772f355759"
-              }
-            },
-            {
-              "img": {
                 "url": "/uuid/df9f6237-251d-4bc5-bd1c-8dfd7b6e7ad0/COVER_CLEAN_WIDE?w=600&h=800&crop=560:800;20,0&territory=IT&md5ChecksumParam=35094326f455119278049def56802add"
               }
             },
             {
               "img": {
                 "url": "/uuid/df9f6237-251d-4bc5-bd1c-8dfd7b6e7ad0/COVER_CLEAN_WIDE?territory=IT&md5ChecksumParam=35094326f455119278049def56802add"
+              }
+            },
+            {
+              "img": {
+                "url": "/uuid/df9f6237-251d-4bc5-bd1c-8dfd7b6e7ad0/cover?w=600&h=800&crop=534:800;33,0&territory=IT&md5ChecksumParam=6f71d573478b5cce233344772f355759"
               }
             },
             {
