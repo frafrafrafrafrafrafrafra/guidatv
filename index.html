@@ -136,10 +136,6 @@
     .dark-mode footer {
       color: #ccc;
     }
-    .wingdings-mode * {
-      font-family: monospace;
-      transform: rotate(180deg);
-    }
   </style>
 </head>
 <body>
@@ -313,7 +309,7 @@
     if (ch) addChannelToSection(ch, sections.fav);
   });
   
-  // 2. SEZIONE SPECIALE "*" (dopo i preferiti)
+  // 2. SEZIONE SPECIALE "#" (dopo i preferiti)
   const letterMap = {};
   const specialChars = [];
   
@@ -334,7 +330,7 @@
   // Sezione speciale solo se ha canali non preferiti
   const specialNonFavorites = specialChars.filter(ch => !favorites.includes(ch.site_id));
   if (specialNonFavorites.length > 0) {
-    createSection('special', '*');
+    createSection('special', '#');
     specialNonFavorites.forEach(ch => {
       addChannelToSection(ch, sections.special);
     });
@@ -387,9 +383,13 @@ function filterChannels(query) {
     return;
   }
   if (q === "gaster") {
-    document.body.classList.add('wingdings-mode');
+    input.value = "";
+    document.body.classList.remove('dark-mode');
+    localStorage.setItem('darkMode', 'false');
+    location.reload();
     return;
   }
+
 
   // Nascondi tutte le sezioni
   document.querySelectorAll('section').forEach(section => {
