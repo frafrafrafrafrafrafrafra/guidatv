@@ -9,8 +9,14 @@ from xml.etree import ElementTree as ET
 
 ROME_TZ = pytz.timezone("Europe/Rome")
 
-# Lista completa dei canali (prima quelli EPGShare)
+# Lista completa dei canali (prima i canali RSI)
 CHANNELS = [
+    # Canali RSI (processati per primi)
+    {"name": "RSI La 1", "site_id": "DTH#RS1", "rsi_id": "356"},
+    {"name": "RSI La 2", "site_id": "DTH#RS2", "rsi_id": "357"},
+    {"name": "Canale 5", "site_id": "DTH#10354", "rsi_id": "79"},
+    
+    # Canali EPGShare
     {"name": "Eurosport 1", "site_id": "DTH#9057"},
     {"name": "Eurosport 2", "site_id": "DTH#9060"},
     {"name": "DMAX", "site_id": "DTH#8933"},
@@ -40,7 +46,6 @@ CHANNELS = [
     {"name":"Boomerang","site_id":"DTH#472"},
     {"name":"Boomerang +1","site_id":"DTH#479"},
     {"name":"CACCIA e Pesca","site_id":"DTH#520"},
-    {"name":"Canale 5 HD","site_id":"DTH#10354"},
     {"name":"Cartoon Network HD","site_id":"DTH#9693"},
     {"name":"Cartoon +1","site_id":"DTH#476"},
     {"name":"Classica HD","site_id":"DTH#11437"},
@@ -114,11 +119,137 @@ CHANNELS = [
     {"name":"TV2000 HD","site_id":"DTH#7588"},
     {"name":"TV8 HD","site_id":"DTH#8195"},
     {"name":"ZONA DAZN","site_id":"DTH#11402"},
-    {"name":"cielo","site_id":"DTH#8133"},
+    {"name":"cielo","site_id":"DTH#8133"}
 ]
 
-# Mappa nome -> site_id solo per i canali EPGShare
-EPGSHARE_CHANNELS = {c["name"]: c["site_id"] for c in CHANNELS[:22]}
+# Mappa nome -> site_id solo per i canali EPGShare (esclusi RSI)
+EPGSHARE_CHANNELS = {c["name"]: c["site_id"] for c in CHANNELS[3:25]}  # I primi 3 sono BLUE
+
+def fetch_rsi_guide(channel):
+    """Scarica TUTTI i programmi disponibili per il canale RSI"""
+    print(f"\n=== Scarico palinsesto completo per {channel['name']} ===")
+    all_programs = []
+    day_offset = 0
+    consecutive_empty_days = 0
+    MAX_CONSECUTIVE_EMPTY_DAYS = 3  # Interrompe dopo X giorni vuoti
+
+    while True:
+        # Calcola l'intervallo giornaliero (dalla mezzanotte alle 24:00)
+        day_start = (datetime.now(ROME_TZ) + timedelta(days=day_offset)).replace(
+            hour=0, minute=0, second=0, microsecond=0
+        )
+        day_end = day_start + timedelta(days=1)
+        
+        start_str = day_start.strftime("%Y%m%d%H%M")
+        end_str = day_end.strftime("%Y%m%d%H%M")
+        
+        url = f"https://services.sg101.prd.sctv.ch/catalog/tv/channels/list/(ids={channel['rsi_id']};start={start_str};end={end_str};level=normal)"
+        print(f"  Giorno: {day_start.strftime('%Y-%m-%d')}", end=" ")
+        
+        try:
+            resp = requests.get(url, timeout=15)
+            resp.raise_for_status()
+            data = resp.json()
+            items = parse_rsi_items(data)
+            
+            if not items:
+                print("⏭️ Nessun programma")
+                consecutive_empty_days += 1
+                if consecutive_empty_days >= MAX_CONSECUTIVE_EMPTY_DAYS:
+                    print(f"  ⚠️ Interruzione dopo {MAX_CONSECUTIVE_EMPTY_DAYS} giorni vuoti")
+                    break
+                day_offset += 1
+                continue
+                
+            consecutive_empty_days = 0  # Reset contatore
+            
+            day_programs = []
+            for item in items:
+                if parse_rsi_title(item) == "Sendepause":
+                    continue
+                    
+                day_programs.append({
+                    "start": parse_rsi_start(item),
+                    "end": parse_rsi_stop(item),
+                    "title": format_rsi_title(item),
+                    "synopsis": parse_rsi_description(item)
+                })
+            
+            print(f"✅ {len(day_programs)} programmi")
+            all_programs.extend(day_programs)
+            day_offset += 1
+            
+        except Exception as e:
+            print(f"❌ Errore: {str(e)}")
+            break
+            
+        time.sleep(0.5)  # Rate limiting
+
+    return all_programs
+
+def parse_rsi_items(data):
+    """Analizza la risposta JSON dell'API RSI"""
+    try:
+        nodes = data["Nodes"]["Items"]
+        channels = [n for n in nodes if n["Kind"] == "Channel"]
+        if not channels:
+            return []
+        
+        channel = channels[0]
+        if channel["Content"]["Nodes"] and isinstance(channel["Content"]["Nodes"]["Items"], list):
+            return [i for i in channel["Content"]["Nodes"]["Items"] if i["Kind"] == "Broadcast"]
+        return []
+    except (KeyError, TypeError):
+        return []
+
+def parse_rsi_title(item):
+    """Estrae il titolo del programma"""
+    return item["Content"]["Description"]["Title"]
+
+def parse_rsi_description(item):
+    """Estrae la descrizione del programma"""
+    return item["Content"]["Description"].get("Summary", "")
+
+def parse_rsi_start(item):
+    """Estrae l'orario di inizio"""
+    return item["Availabilities"][0]["AvailabilityStart"]
+
+def parse_rsi_stop(item):
+    """Estrae l'orario di fine"""
+    return item["Availabilities"][0]["AvailabilityEnd"]
+
+def format_rsi_title(item):
+    """Formatta il titolo con SxEy se disponibile"""
+    title = parse_rsi_title(item)
+    episode_info = parse_rsi_episode_info(item)
+    return f"{episode_info} - {title}" if episode_info else title
+
+def parse_rsi_episode_info(item):
+    """Estrae SxEy dall'item"""
+    try:
+        season = item["Content"]["Description"].get("SeasonNumber")
+        episode = item["Content"]["Description"].get("EpisodeNumber")
+        return f"S{season}E{episode}" if season and episode else ""
+    except:
+        return ""
+
+def save_rsi_guide(channel, programs):
+    """Salva nel formato standard uguale agli altri canali"""
+    events_by_date = {}
+    
+    for program in programs:
+        day = datetime.fromisoformat(program["start"]).strftime("%Y-%m-%d")
+        events_by_date.setdefault(day, []).append(program)
+    
+    output_data = {
+        "name": channel["name"],
+        "events_by_date": events_by_date
+    }
+    
+    fn = f"output/guides/{channel['site_id'].replace('#','_')}.json"
+    with open(fn, "w", encoding="utf-8") as f:
+        json.dump(output_data, f, indent=2, ensure_ascii=False)
+    print(f"  Salvato {fn} con {len(programs)} programmi su {len(events_by_date)} giorni")
 
 def fetch_sky_guide_until_exhausted(env, channel_id, now, max_days=60):
     results = []
@@ -143,7 +274,7 @@ def fetch_sky_guide_until_exhausted(env, channel_id, now, max_days=60):
     return results
 
 def download_and_decompress_epgshare():
-    print("==> Scarico e decomprimo da epgshare01.online …")
+    print("\n==> Scarico EPG da epgshare01.online ...")
     r = requests.get("https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz", timeout=30)
     r.raise_for_status()
     return gzip.decompress(r.content)
@@ -157,7 +288,7 @@ def parse_epgshare(xml_data, chan_map):
         for k in chan_map:
             if n.lower() == k.lower():
                 cid_map[cid] = k
-    print(f"Trovati {len(cid_map)} canali EPGShare.")
+    print(f"Trovati {len(cid_map)} canali EPGShare")
 
     out = {k: {} for k in chan_map}
     for p in root.findall(".//programme"):
@@ -181,12 +312,21 @@ def parse_epgshare(xml_data, chan_map):
 
 def main():
     os.makedirs("output/guides", exist_ok=True)
-    now = datetime.now(ROME_TZ).replace(hour=0,minute=0,second=0,microsecond=0)
+    now = datetime.now(ROME_TZ).replace(hour=0, minute=0, second=0, microsecond=0)
 
-    # 1. EPGShare
+    print("=== INIZIO ELABORAZIONE ===")
+    
+    # 1. Processa prima i canali RSI
+    print("\n=== PROCESSAMENTO CANALI RSI ===")
+    for c in CHANNELS[:3]:  # I primi 3 sono BLUE
+        programs = fetch_rsi_guide(c)
+        save_rsi_guide(c, programs)
+
+    # 2. EPGShare
     try:
         xml = download_and_decompress_epgshare()
         parsed = parse_epgshare(xml, EPGSHARE_CHANNELS)
+        print("\n=== SALVATAGGIO EPGSHARE ===")
         for name, days in parsed.items():
             sid = EPGSHARE_CHANNELS[name]
             tot = sum(len(v) for v in days.values())
@@ -200,13 +340,14 @@ def main():
     except Exception as e:
         print("✗ Errore EPGShare:", e)
 
-    # 2. Sky API
-    print("==> Elaborazione Sky API …")
-    for c in CHANNELS:
+    # 3. Sky API
+    print("\n=== PROCESSAMENTO SKY API ===")
+    for c in CHANNELS[3:]:  # Salta i primi 3 (RSI)
         if c["name"] in EPGSHARE_CHANNELS:
             continue
+            
         env, cid = c["site_id"].split("#")
-        print(f"• {c['name']} ({cid}) …")
+        print(f"\n• {c['name']} ({cid})")
         guide = fetch_sky_guide_until_exhausted(env, cid, now)
         if not guide:
             print(f"  ⚠ Nessun evento per {c['name']}, skip")
@@ -218,6 +359,8 @@ def main():
                 "events_by_date": {g["date"]: g["events"] for g in guide}
             }, f, indent=2, ensure_ascii=False)
         print(f"  ↳ Salvato {fn}")
+
+    print("\n=== ELABORAZIONE COMPLETATA ===")
 
 if __name__ == "__main__":
     main()
