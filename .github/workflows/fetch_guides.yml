@@ -2,7 +2,7 @@ name: Fetch Guides Everyday
 
 on:
   schedule:
-    - cron: '0 0 */1 * *'  # Ogni dì a mezzanotte UTC
+    - cron: '0 7 * * *'  # Ogni dì a mezzanotte UTC
   workflow_dispatch:        # Permette anche avvio manuale
 
 jobs:
