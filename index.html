@@ -379,22 +379,41 @@
       });
     }
 
-    function filterChannels(query) {
-      const q = query.trim().toLowerCase();
-      if (q === "tenna") {
-        window.location.href = "https://www.deltarune.com";
-        return;
+function filterChannels(query) {
+  const q = query.trim().toLowerCase();
+  if (q === "tenna") {
+    window.location.href = "https://www.deltarune.com";
+    return;
+  }
+  if (q === "gaster") {
+    document.body.classList.add('wingdings-mode');
+    return;
+  }
+
+  // Nascondi tutte le sezioni
+  document.querySelectorAll('section').forEach(section => {
+    section.style.display = 'none';
+  });
+
+  // Mostra solo i canali che corrispondono alla ricerca
+  CHANNELS.forEach(ch => {
+    if (ch.element) {
+      const matchesSearch = ch.name.toLowerCase().includes(q);
+      ch.element.style.display = matchesSearch ? '' : 'none';
+      
+      // Mostra la sezione del canale se corrisponde alla ricerca
+      if (matchesSearch) {
+        const section = ch.element.closest('section');
+        if (section) section.style.display = 'block';
       }
-      if (q === "gaster") {
-        document.body.classList.add('wingdings-mode');
-        return;
-      }
-      CHANNELS.forEach(ch => {
-        if (ch.element) {
-          ch.element.style.display = ch.name.toLowerCase().includes(q) ? '' : 'none';
-        }
-      });
     }
+  });
+
+  // Se la ricerca è vuota, ripristina la visualizzazione normale
+  if (q === '') {
+    buildChannelSections();
+  }
+}
 
     input.addEventListener('input', e => filterChannels(e.target.value));
 
