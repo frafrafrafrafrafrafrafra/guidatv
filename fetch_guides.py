@@ -26,6 +26,14 @@ CHANNELS = [
     {"name": "Sky Adventure", "site_id": "DTH#0002"},
     {"name": "Sky Sport Legend", "site_id": "DTH#0003"},
     {"name": "Sky Sport Mix", "site_id": "DTH#0004"},
+    {"name": "Radio Italia Trend Tv HD", "site_id": "DTH#10033"},
+    {"name":"Sky Sport 24","site_id":"DTH#929"},
+    {"name":"Sky Sport Arena","site_id":"DTH#7507"},
+    {"name":"Sky Sport MotoGP","site_id":"DTH#8434"},
+    {"name":"Sky Sport NBA","site_id":"DTH#8753"},
+    {"name":"Sky Sport Uno","site_id":"DTH#8714"},
+    {"name":"Virgin Radio","site_id":"DTH#11344"},
+    
     # Altri canali Sky API
     {"name":"20Mediaset HD","site_id":"DTH#10458"},
     {"name":"27Twentyseven HD","site_id":"DTH#11342"},
@@ -41,7 +49,6 @@ CHANNELS = [
     {"name":"DeAKids","site_id":"DTH#460"},
     {"name":"Deejay TV","site_id":"DTH#462"},
     {"name":"Euronews","site_id":"DTH#801"},
-    {"name":"Explorer HD Channel","site_id":"DTH#11262"},
     {"name":"Focus HD","site_id":"DTH#10470"},
     {"name":"Gambero Rosso HD","site_id":"DTH#9099"},
     {"name":"Heroes Collection","site_id":"DTH#9047"},
@@ -56,7 +63,6 @@ CHANNELS = [
     {"name":"MTV Music","site_id":"DTH#528"},
     {"name":"Mediaset Extra HD","site_id":"DTH#10465"},
     {"name":"Mediaset Italia2 HD","site_id":"DTH#10469"},
-    {"name":"Milan TV","site_id":"DTH#9513"},
     {"name":"Nick Jr","site_id":"DTH#461"},
     {"name":"Nickelodeon","site_id":"DTH#320"},
     {"name":"Caccia e PESCA","site_id":"DTH#6220"},
@@ -64,8 +70,6 @@ CHANNELS = [
     {"name":"RADIONORBA TV","site_id":"DTH#8213"},
     {"name":"RTL 102.5 HD","site_id":"DTH#6885"},
     {"name":"Radio Italia TV HD","site_id":"DTH#9833"},
-    {"name":"Radio Italia Trend Tv HD","site_id":"DTH#10033"},
-    {"name":"Radio Monte Carlo","site_id":"DTH#10993"},
     {"name":"Rai 1 HD","site_id":"DTH#899"},
     {"name":"Rai 2 HD","site_id":"DTH#898"},
     {"name":"Rai 3 HD","site_id":"DTH#897"},
@@ -97,16 +101,11 @@ CHANNELS = [
     {"name":"Sky Nature","site_id":"DTH#11242"},
     {"name":"Sky Serie","site_id":"DTH#11244"},
     {"name":"Sky Sport 4K","site_id":"DTH#10013"},
-    {"name":"Sky Sport24","site_id":"DTH#929"},
-    {"name":"Sky Sport Arena","site_id":"DTH#7507"},
     {"name":"Sky Sport Calcio","site_id":"DTH#9113"},
     {"name":"Sky Sport F1","site_id":"DTH#9096"},
     {"name":"Sky Sport Golf","site_id":"DTH#10254"},
     {"name":"Sky Sport Max","site_id":"DTH#9103"},
-    {"name":"Sky Sport MotoGP","site_id":"DTH#8434"},
-    {"name":"Sky Sport NBA","site_id":"DTH#8753"},
     {"name":"Sky Sport Tennis","site_id":"DTH#11237"},
-    {"name":"Sky Sport Uno","site_id":"DTH#8714"},
     {"name":"Sky Uno","site_id":"DTH#9115"},
     {"name":"Super!","site_id":"DTH#6460"},
     {"name":"SuperTennis HD","site_id":"DTH#6000"},
@@ -115,13 +114,12 @@ CHANNELS = [
     {"name":"TOPcrime HD","site_id":"DTH#10468"},
     {"name":"TV2000 HD","site_id":"DTH#7588"},
     {"name":"TV8 HD","site_id":"DTH#8195"},
-    {"name":"Virgin Radio","site_id":"DTH#11344"},
     {"name":"ZONA DAZN","site_id":"DTH#11402"},
     {"name":"cielo","site_id":"DTH#8133"},
 ]
 
 # Mappa nome -> site_id solo per i canali EPGShare
-EPGSHARE_CHANNELS = {c["name"]: c["site_id"] for c in CHANNELS[:14]}
+EPGSHARE_CHANNELS = {c["name"]: c["site_id"] for c in CHANNELS[:22]}
 
 def fetch_sky_guide_until_exhausted(env, channel_id, now, max_days=60):
     results = []
