@@ -57,7 +57,7 @@
       padding: 5px 10px;
       border-radius: 4px;
       margin: 10px 0;
-      font-size: 28px;
+      font-size: 32px;
       font-weight: bold;
       color: #444;
     }
@@ -147,12 +147,12 @@
     <h1>Guida TV</h1>
     <h2>Seleziona un canale</h2>
   </header>
+<div class="container">
   <div class="search-container">
     <input type="text" id="search-input" placeholder="Cerca un canale..." />
   </div>
-  <div class="container">
-    <div class="content" id="content"></div>
-  </div>
+  <div class="content" id="content"></div>
+</div>
   <footer title="Clicca per attivare/disattivare la modalità scura">Powered by 🐯 - Modalità Scura OFF</footer>
   <script>
     const CHANNELS = [
@@ -313,7 +313,7 @@
     if (ch) addChannelToSection(ch, sections.fav);
   });
   
-  // 2. SEZIONE SPECIALE "..." (dopo i preferiti)
+  // 2. SEZIONE SPECIALE "*" (dopo i preferiti)
   const letterMap = {};
   const specialChars = [];
   
@@ -334,7 +334,7 @@
   // Sezione speciale solo se ha canali non preferiti
   const specialNonFavorites = specialChars.filter(ch => !favorites.includes(ch.site_id));
   if (specialNonFavorites.length > 0) {
-    createSection('special', '...');
+    createSection('special', '*');
     specialNonFavorites.forEach(ch => {
       addChannelToSection(ch, sections.special);
     });
