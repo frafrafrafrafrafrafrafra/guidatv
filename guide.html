@@ -109,7 +109,7 @@
       margin-bottom: 3px;
       transition: color 0.3s;
       display: flex;
-      align-items: flex-start;
+      align-items: center;
       font-size: 1.1rem;
     }
     .program-title {
@@ -142,7 +142,7 @@
       color: white;
     }
     #export-txt-btn {
-      margin: 10px auto 20px;
+      margin: 20px auto;
       padding: 10px 20px;
       font-size: 1rem;
       cursor: pointer;
@@ -233,7 +233,7 @@
       </div>
       <button id="next-day">▶</button>
     </div>
-    <button id="export-txt-btn" style="display:none; margin:10px auto;">Esporta in TXT</button>
+    <button id="export-txt-btn" style="display:none;">Esporta in TXT</button>
     <div id="content">
       <div class="loading" id="loading">Caricamento guida TV in corso...</div>
       <div id="error-message" class="error" style="display:none;"></div>
@@ -314,6 +314,8 @@
             })
           : dayPrograms;
 
+        let currentProgramFound = false;
+
         filtered.forEach((program, idx) => {
           const start = program.time
             ? DateTime.fromFormat(program.time, 'HH:mm', { zone: 'Europe/Rome' })
@@ -335,7 +337,13 @@
 
           const programElem = document.createElement('li');
           programElem.className = 'program';
-          if (isNow) programElem.classList.add('now-on-air');
+          if (isNow) {
+            programElem.classList.add('now-on-air');
+            if (!currentProgramFound) {
+              programElem.id = 'current-program';
+              currentProgramFound = true;
+            }
+          }
           if (isPrimeVision) programElem.classList.add('prime-vision');
 
           let statusBadges = '';
@@ -349,6 +357,16 @@
           `;
           programsContainer.appendChild(programElem);
         });
+
+        // Scroll to current program if it exists and is today
+        if (isToday) {
+          const currentProgramElem = document.getElementById('current-program');
+          if (currentProgramElem) {
+            setTimeout(() => {
+              currentProgramElem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }, 100);
+          }
+        }
       }
 
       function updateView() {
