@@ -7,32 +7,37 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 20px;
+      margin: 0;
+      padding: 0;
       background: #f9f9f9;
       color: #333;
       transition: background-color 0.3s, color 0.3s;
+      font-size: 18px;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
     }
     h1 {
-      text-align: center;
-      margin-bottom: 5px;
+      margin: 0;
       color: #2c3e50;
       transition: color 0.3s;
     }
     h2 {
-      text-align: center;
-      font-weight: normal;
+      margin: 0;
       color: #555;
-      margin-top: 0;
-      margin-bottom: 20px;
+      font-weight: normal;
       transition: color 0.3s;
     }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .content {
+      padding: 10px;
+    }
     .search-container {
-      max-width: 90vw;
-      margin: 0 auto 20px auto;
-      display: flex;
-      justify-content: center;
-      padding: 0 10px;
-      box-sizing: border-box;
+      padding: 0 10px 10px;
     }
     #search-input {
       width: 100%;
@@ -41,22 +46,29 @@
       border-radius: 5px;
       border: 1px solid #ccc;
       box-sizing: border-box;
-      max-width: none;
       transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    section h3 {
+      background: #e0e0e0;
+      padding: 5px 10px;
+      border-radius: 4px;
+      margin: 10px 0;
+      font-size: 28px;
+      font-weight: bold;
+      color: #444;
     }
     ul {
       list-style: none;
       padding: 0;
-      max-width: 90vw;
-      margin: 0 auto;
-      flex-grow: 1;
-      box-sizing: border-box;
-      padding: 0 10px;
+      margin: 0;
     }
     li {
       background: white;
-      margin: 8px 0;
-      padding: 12px;
+      margin: 5px 0;
+      padding: 10px;
       border-radius: 5px;
       display: flex;
       justify-content: space-between;
@@ -67,7 +79,6 @@
       text-decoration: none;
       color: #333;
       font-weight: bold;
-      display: block;
       flex-grow: 1;
       transition: color 0.3s;
     }
@@ -87,10 +98,9 @@
     }
     footer {
       text-align: center;
-      margin-top: 40px;
+      padding: 10px;
       color: #777;
       font-size: 14px;
-      user-select: none;
       cursor: pointer;
       transition: color 0.3s;
     }
@@ -104,8 +114,12 @@
     .dark-mode h2 {
       color: #aaa;
     }
+    .dark-mode section h3 {
+      background: #333;
+      color: #e0e0e0;
+    }
     .dark-mode li {
-      background-color: #2c2c2c;
+      background: #2c2c2c;
     }
     .dark-mode a {
       color: #e0e0e0;
@@ -128,14 +142,17 @@
   </style>
 </head>
 <body>
-  <h1>Guida TV</h1>
-  <h2>Seleziona un canale</h2>
+  <header>
+    <h1>Guida TV</h1>
+    <h2>Seleziona un canale</h2>
+  </header>
   <div class="search-container">
     <input type="text" id="search-input" placeholder="Cerca un canale..." />
   </div>
-  <ul id="channel-list"></ul>
+  <div class="container">
+    <div class="content" id="content"></div>
+  </div>
   <footer title="Clicca per attivare/disattivare la modalità scura">Powered by 🐯 - Modalità Scura OFF</footer>
-
   <script>
     const CHANNELS = [
       {"name":"20Mediaset","site_id":"DTH_10458"},
@@ -218,17 +235,6 @@
       {"name":"Sky Documentaries","site_id":"DTH_11241"},
       {"name":"Sky Investigation","site_id":"DTH_11246"},
       {"name":"Sky Nature","site_id":"DTH_11242"},
-      {"name":"Sky Serie","site_id":"DTH_11244"},
-      {"name":"Sky Sport","site_id":"DTH_11490"},
-      {"name":"Sky Sport","site_id":"DTH_11491"},
-      {"name":"Sky Sport","site_id":"DTH_11492"},
-      {"name":"Sky Sport","site_id":"DTH_11494"},
-      {"name":"Sky Sport","site_id":"DTH_11496"},
-      {"name":"Sky Sport","site_id":"DTH_11497"},
-      {"name":"Sky Sport","site_id":"DTH_617"},
-      {"name":"Sky Sport","site_id":"DTH_8613"},
-      {"name":"Sky Sport","site_id":"DTH_9046"},
-      {"name":"Sky Sport","site_id":"DTH_615"},
       {"name":"Sky Sport 4K","site_id":"DTH_10013"},
       {"name":"Sky Sport 24","site_id":"DTH_929"},
       {"name":"Sky Sport Arena","site_id":"DTH_7507"},
@@ -258,98 +264,139 @@
       {"name":"Sky Sport Mix","site_id":"DTH_0004"},
       {"name":"Warner TV","site_id":"DTH_0001"}
     ];
-
-    const list = document.getElementById('channel-list');
-    const footer = document.querySelector('footer');
+    
+    const content = document.getElementById('content');
     const input = document.getElementById('search-input');
+    const footer = document.querySelector('footer');
     let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+    const sections = {};
 
-    function toggleDarkMode() {
-      const isDark = document.body.classList.toggle('dark-mode');
-      footer.textContent = 'Powered by 🐯 - Modalità Scura ' + (isDark ? 'ON' : 'OFF');
-      footer.title = 'Clicca per attivare/disattivare la modalità scura';
-      localStorage.setItem('darkMode', isDark ? 'true' : 'false');
+    function createSection(id, title) {
+      const section = document.createElement('section');
+      section.id = 'section-' + id;
+      const h3 = document.createElement('h3');
+      h3.textContent = title;
+      section.appendChild(h3);
+      const ul = document.createElement('ul');
+      section.appendChild(ul);
+      content.appendChild(section);
+      sections[id] = ul;
     }
 
-    function toggleFavorite(channelId) {
-      const index = favorites.indexOf(channelId);
-      if (index === -1) {
-        favorites.push(channelId);
-      } else {
-        favorites.splice(index, 1);
-      }
-      localStorage.setItem('favorites', JSON.stringify(favorites));
-      updateFavoriteIcons();
-    }
-
-    function updateFavoriteIcons() {
-      document.querySelectorAll('.favorite').forEach(star => {
-        const channelId = star.dataset.channelId;
-        star.classList.toggle('active', favorites.includes(channelId));
-      });
-    }
-
-    function buildChannelList() {
-      CHANNELS.sort((a, b) => a.name.localeCompare(b.name));
-      favorites.forEach(favId => {
-        const ch = CHANNELS.find(c => c.site_id === favId);
-        if (ch) addChannelToList(ch);
-      });
-      CHANNELS.forEach(ch => {
-        if (!favorites.includes(ch.site_id)) {
-          addChannelToList(ch);
-        }
-      });
-    }
-
-    function addChannelToList(ch) {
+    function addChannelToSection(ch, ul) {
       const li = document.createElement('li');
       const a = document.createElement('a');
       a.href = `guide.html?site_id=${encodeURIComponent(ch.site_id)}&name=${encodeURIComponent(ch.name)}`;
       a.textContent = ch.name;
       li.appendChild(a);
-
       const star = document.createElement('span');
       star.className = 'favorite';
       star.dataset.channelId = ch.site_id;
       star.innerHTML = '★';
-      star.addEventListener('click', (e) => {
+      star.addEventListener('click', e => {
         e.preventDefault();
         toggleFavorite(ch.site_id);
       });
       li.appendChild(star);
-
-      list.appendChild(li);
+      ul.appendChild(li);
       ch.element = li;
+    }
+
+    function buildChannelSections() {
+  content.innerHTML = '';
+  
+  // 1. SEZIONE PREFERITI (sempre prima)
+  createSection('fav', '★ Preferiti');
+  favorites.forEach(favId => {
+    const ch = CHANNELS.find(c => c.site_id === favId);
+    if (ch) addChannelToSection(ch, sections.fav);
+  });
+  
+  // 2. SEZIONE SPECIALE "..." (dopo i preferiti)
+  const letterMap = {};
+  const specialChars = [];
+  
+  CHANNELS.sort((a, b) => a.name.localeCompare(b.name));
+  
+  CHANNELS.forEach(ch => {
+    const firstChar = ch.name[0].toUpperCase();
+    if (/[A-Z]/.test(firstChar)) {
+      if (!letterMap[firstChar]) {
+        letterMap[firstChar] = [];
+      }
+      letterMap[firstChar].push(ch);
+    } else {
+      specialChars.push(ch);
+    }
+  });
+  
+  // Sezione speciale solo se ha canali non preferiti
+  const specialNonFavorites = specialChars.filter(ch => !favorites.includes(ch.site_id));
+  if (specialNonFavorites.length > 0) {
+    createSection('special', '...');
+    specialNonFavorites.forEach(ch => {
+      addChannelToSection(ch, sections.special);
+    });
+  }
+  
+  // 3. SEZIONI PER LETTERE (dopo i preferiti e la sezione speciale)
+  Object.keys(letterMap).sort().forEach(letter => {
+    const nonFavoriteChannels = letterMap[letter].filter(ch => !favorites.includes(ch.site_id));
+    if (nonFavoriteChannels.length > 0) {
+      createSection(letter, letter);
+      nonFavoriteChannels.forEach(ch => {
+        addChannelToSection(ch, sections[letter]);
+      });
+    }
+  });
+
+  // Nascondi sezioni vuote (anche preferiti se vuoti)
+  document.querySelectorAll('section').forEach(section => {
+    if (section.querySelector('ul').children.length === 0) {
+      section.style.display = 'none';
+    } else {
+      section.style.display = 'block';
+    }
+  });
+}
+
+    function toggleFavorite(id) {
+      const i = favorites.indexOf(id);
+      if (i === -1) {
+        favorites.push(id);
+      } else {
+        favorites.splice(i, 1);
+      }
+      localStorage.setItem('favorites', JSON.stringify(favorites));
+      buildChannelSections();
+      updateFavoriteIcons();
+    }
+
+    function updateFavoriteIcons() {
+      document.querySelectorAll('.favorite').forEach(star => {
+        const id = star.dataset.channelId;
+        star.classList.toggle('active', favorites.includes(id));
+      });
     }
 
     function filterChannels(query) {
       const q = query.trim().toLowerCase();
-
-      // Easter Egg: TENNA
       if (q === "tenna") {
         window.location.href = "https://www.deltarune.com";
         return;
       }
-
-      // Easter Egg: GASTER
       if (q === "gaster") {
         document.body.classList.add('wingdings-mode');
         return;
       }
-
-      CHANNELS.forEach(item => {
-        if (item.name.toLowerCase().includes(q)) {
-          item.element.style.display = '';
-        } else {
-          item.element.style.display = 'none';
+      CHANNELS.forEach(ch => {
+        if (ch.element) {
+          ch.element.style.display = ch.name.toLowerCase().includes(q) ? '' : 'none';
         }
       });
     }
 
-    input.addEventListener('input', e => {
-      filterChannels(e.target.value);
-    });
+    input.addEventListener('input', e => filterChannels(e.target.value));
 
     const darkModeStored = localStorage.getItem('darkMode');
     if (darkModeStored === 'true') {
@@ -357,8 +404,13 @@
       footer.textContent = 'Powered by 🐯 - Modalità Scura ON';
     }
 
-    footer.addEventListener('click', toggleDarkMode);
-    buildChannelList();
+    footer.addEventListener('click', () => {
+      const isDark = document.body.classList.toggle('dark-mode');
+      footer.textContent = 'Powered by 🐯 - Modalità Scura ' + (isDark ? 'ON' : 'OFF');
+      localStorage.setItem('darkMode', isDark ? 'true' : 'false');
+    });
+
+    buildChannelSections();
     updateFavoriteIcons();
   </script>
 </body>
