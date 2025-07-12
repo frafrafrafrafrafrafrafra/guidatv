@@ -103,6 +103,7 @@
       font-size: 24px;
       cursor: pointer;
       user-select: none;
+      transition: color 0.3s;
     }
     .current-date {
       font-weight: bold;
@@ -177,6 +178,12 @@
     .dark-mode .current-date {
       border-bottom: 1px dashed #aaa;
     }
+    .dark-mode .date-navigation button {
+      color: white !important;
+    }
+    .dark-mode .date-navigation button:hover {
+      color: #bbdefb !important;
+    }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
 </head>
@@ -235,7 +242,6 @@
         return !firstProgram.hasOwnProperty('content') && !firstProgram.hasOwnProperty('channel');
       }
       function getSynopsis(program) {
-        // Cerca di prendere la sinossi da eventSynopsis, description o synopsis (nell'ordine)
         return program.eventSynopsis || program.description || program.synopsis || '';
       }
       function showPrograms(searchTerm = '') {
