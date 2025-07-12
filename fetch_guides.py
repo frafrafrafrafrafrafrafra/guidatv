@@ -97,7 +97,6 @@ CHANNELS = [
     {"name":"Sky Crime","site_id":"DTH#8336"},
     {"name":"Sky Documentaries","site_id":"DTH#11241"},
     {"name":"Sky Investigation","site_id":"DTH#11246"},
-    {"name":"Sky Meteo24","site_id":"DTH#321"},
     {"name":"Sky Nature","site_id":"DTH#11242"},
     {"name":"Sky Serie","site_id":"DTH#11244"},
     {"name":"Sky Sport 4K","site_id":"DTH#10013"},
