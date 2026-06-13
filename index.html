@@ -39,21 +39,17 @@
             document.head.appendChild(metaTheme);
 
             const targetOrigin = 'https://guidatv-omega.vercel.app';
-            
-            
             let path = window.location.pathname;
             
-
             if (path.startsWith('/guidatv')) {
-                path = path.substring('/guidatv'.length);
+                path = path.substring(8);
             }
             
-            if (path === '') {
+            if (path === '' || path === '/' || path === '/index' || path === '/index.html') {
                 path = '/';
             }
 
             const targetURL = targetOrigin + path + window.location.search + window.location.hash;
-
             window.location.replace(targetURL);
         })();
     </script>
