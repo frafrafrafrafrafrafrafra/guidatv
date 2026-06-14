@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Reindirizzamento...</title>
+    
+    <style>
+        html {
+            color-scheme: light;
+        }
+        html.dark-mode {
+            color-scheme: dark;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-color: #f5f7fa;
+        }
+        html.dark-mode body { background-color: #1e1e1e; }
+        html.amoled-mode body { background-color: #000000; }
+    </style>
+
+    <script>
+        (function() {
+            const theme = localStorage.getItem('themeMode') || (localStorage.getItem('darkMode') === 'true' ? 'dark' : 'light');
+            let themeColor = '#f5f7fa';
+            if (theme === 'dark') {
+                document.documentElement.classList.add('dark-mode');
+                themeColor = '#1e1e1e';
+            } else if (theme === 'amoled') {
+                document.documentElement.classList.add('dark-mode', 'amoled-mode');
+                themeColor = '#000000';
+            }
+            
+            const metaTheme = document.createElement('meta');
+            metaTheme.name = 'theme-color';
+            metaTheme.content = themeColor;
+            document.head.appendChild(metaTheme);
+
+            const targetOrigin = 'https://guidatv-omega.vercel.app';
+            let path = window.location.pathname;
+            
+            if (path.startsWith('/guidatv')) {
+                path = path.substring(8);
+            }
+            
+            if (path === '' || path === '/' || path === '/index' || path === '/index.html') {
+                path = '/';
+            }
+
+            const targetURL = targetOrigin + path + window.location.search + window.location.hash;
+            window.location.replace(targetURL);
+        })();
+    </script>
+</head>
+<body>
+</body>
+</html>
